@@ -2,15 +2,31 @@ package historyobject;
 
 import org.json.JSONObject;
 
+import java.util.List;
+import java.util.Set;
+
 
 public class Character {
     private String name;
     private String url;
     private JSONObject info;
     private String description;
+    private List<JSONObject> connection;
 
     public JSONObject getInfo() {
         return info;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public List<JSONObject> getConnection() {
+        return connection;
     }
 
     public void setInfo(JSONObject info) {
@@ -25,12 +41,8 @@ public class Character {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public String getUrl() {
-        return url;
+    public void setConnection(List<JSONObject> connection) {
+        this.connection = connection;
     }
 
     public void setUrl(String url) {

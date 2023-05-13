@@ -2,6 +2,72 @@
  {
   "name": "An Dương Vương",
   "description": "An Dương Vương (chữ Hán: 安陽王), tên thật là Thục Phán (蜀泮), là một vị vua đã lập nên đất nước Âu Lạc và cũng là vị vua duy nhất cai trị nhà nước này. Âu Lạc là nhà nước thứ hai trong lịch sử Việt Nam sau nhà nước Văn Lang đầu tiên của các vua Hùng.\n",
+  "connection": [
+   {
+    "name": "Dương Vương",
+    "url": "/nhan-vat/duong-vuong"
+   },
+   {
+    "name": "huyện Đông Anh",
+    "url": "/dia-danh/huyen-dong-anh"
+   },
+   {
+    "name": "nước Thục",
+    "url": "/dia-danh/nuoc-thuc"
+   },
+   {
+    "name": "nhà Tần",
+    "url": "/nhan-vat/nha-tan"
+   },
+   {
+    "name": "Trần Quốc Vượng",
+    "url": "/nhan-vat/tran-quoc-vuong"
+   },
+   {
+    "name": "sông Dương Tử",
+    "url": "/dia-danh/song-duong-tu"
+   },
+   {
+    "name": "thành Cổ Loa",
+    "url": "/dia-danh/thanh-co-loa"
+   },
+   {
+    "name": "Triệu Đà",
+    "url": "/nhan-vat/trieu-da"
+   },
+   {
+    "name": "quận Nam Hải",
+    "url": "/dia-danh/quan-nam-hai"
+   },
+   {
+    "name": "nước Việt",
+    "url": "/dia-danh/nuoc-viet"
+   },
+   {
+    "name": "nhà Tống",
+    "url": "/nhan-vat/nha-tong"
+   },
+   {
+    "name": "Vũ Ninh",
+    "url": "/dia-danh/vu-ninh"
+   },
+   {
+    "name": "tỉnh Hồ Nam",
+    "url": "/dia-danh/tinh-ho-nam"
+   },
+   {
+    "name": "Lý Ông Trọng",
+    "url": "/nhan-vat/ly-ong-trong"
+   },
+   {
+    "name": "Phan Huy Lê",
+    "url": "/nhan-vat/phan-huy-le"
+   },
+   {
+    "name": "nhà Thục",
+    "url": "/nhan-vat/nha-thuc"
+   }
+  ],
   "url": "/nhan-vat/an-duong-vuong",
   "info": {
    "Thụy hiệu": "An Dương Vương",
@@ -18,6 +84,52 @@
  {
   "name": "Âu Cơ",
   "description": "Âu Cơ (chữ Hán: 嫗姬), hay phiên âm Ẩu Cơ, là một nhân vật trong truyền thuyết Việt Nam, theo đó bà là tổ mẫu của người Việt.\n",
+  "connection": [
+   {
+    "name": "Nguyễn Huệ",
+    "url": "/nhan-vat/nguyen-hue"
+   },
+   {
+    "name": "nhà Trần",
+    "url": "/nhan-vat/nha-tran"
+   },
+   {
+    "name": "Triệu Ẩu",
+    "url": "/nhan-vat/trieu-au"
+   },
+   {
+    "name": "nhà Chu",
+    "url": "/nhan-vat/nha-chu"
+   },
+   {
+    "name": "nhà Hán",
+    "url": "/nhan-vat/nha-han"
+   },
+   {
+    "name": "nước Nam",
+    "url": "/dia-danh/nuoc-nam"
+   },
+   {
+    "name": "Ngô Sĩ Liên",
+    "url": "/nhan-vat/ngo-si-lien"
+   },
+   {
+    "name": "nhà Minh",
+    "url": "/nhan-vat/nha-minh"
+   },
+   {
+    "name": "Trần Trọng Kim",
+    "url": "/nhan-vat/tran-trong-kim"
+   },
+   {
+    "name": "Đền Mẫu Âu Cơ",
+    "url": "/dia-danh/den-mau-au-co"
+   },
+   {
+    "name": "tỉnh Phú Thọ",
+    "url": "/dia-danh/tinh-phu-tho"
+   }
+  ],
   "url": "/nhan-vat/au-co",
   "info": {
    "Thân mẫu": "Không rõ",
@@ -31,6 +143,76 @@
  {
   "name": "Bà Triệu",
   "description": "Bà Triệu (chữ Hán: 趙婆), còn được gọi là Triệu Ẩu (趙嫗), Triệu Trinh Nương (趙貞娘), Triệu Thị Trinh (趙氏貞), Triệu Quốc Trinh (225\u2013248), là một trong những vị anh hùng dân tộc trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "Triệu Ẩu",
+    "url": "/nhan-vat/trieu-au"
+   },
+   {
+    "name": "Ngô Sĩ Liên",
+    "url": "/nhan-vat/ngo-si-lien"
+   },
+   {
+    "name": "Trưng Vương",
+    "url": "/nhan-vat/trung-vuong"
+   },
+   {
+    "name": "tỉnh Thanh Hóa",
+    "url": "/dia-danh/tinh-thanh-hoa"
+   },
+   {
+    "name": "sông Mã",
+    "url": "/dia-danh/song-ma"
+   },
+   {
+    "name": "Trần Trọng Kim",
+    "url": "/nhan-vat/tran-trong-kim"
+   },
+   {
+    "name": "biển Đông",
+    "url": "/dia-danh/bien-dong"
+   },
+   {
+    "name": "Lý Nam Đế",
+    "url": "/nhan-vat/ly-nam-de"
+   },
+   {
+    "name": "Lý Bí",
+    "url": "/nhan-vat/ly-bi"
+   },
+   {
+    "name": "nước Việt",
+    "url": "/dia-danh/nuoc-viet"
+   },
+   {
+    "name": "Lê Mạnh Thát",
+    "url": "/nhan-vat/le-manh-that"
+   },
+   {
+    "name": "Phạm Văn Sơn",
+    "url": "/nhan-vat/pham-van-son"
+   },
+   {
+    "name": "sông Chu",
+    "url": "/dia-danh/song-chu"
+   },
+   {
+    "name": "Nguyễn Khắc Thuần",
+    "url": "/nhan-vat/nguyen-khac-thuan"
+   },
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   },
+   {
+    "name": "Phan Huy Lê",
+    "url": "/nhan-vat/phan-huy-le"
+   },
+   {
+    "name": "Trần Quốc Vượng",
+    "url": "/nhan-vat/tran-quoc-vuong"
+   }
+  ],
   "url": "/nhan-vat/ba-trieu",
   "info": {
    "Sinh": "Năm 225 Yên Định, Thanh Hóa",
@@ -44,6 +226,92 @@
  {
   "name": "Bảo Đại",
   "description": "Bảo Đại (chữ Hán: 保大; 22 tháng 10 năm 1913 \u2013 31 tháng 7 năm 1997), tên khai sinh: Nguyễn Phúc Vĩnh Thụy (阮福永瑞), là vị hoàng đế thứ 13 và là vị vua cuối cùng của triều đại nhà Nguyễn nói riêng và của chế độ quân chủ trong lịch sử Việt Nam nói chung.\n",
+  "connection": [
+   {
+    "name": "Nguyễn Văn Xuân",
+    "url": "/nhan-vat/nguyen-van-xuan"
+   },
+   {
+    "name": "Ngô Đình Diệm",
+    "url": "/nhan-vat/ngo-dinh-diem"
+   },
+   {
+    "name": "thành Huế",
+    "url": "/dia-danh/thanh-hue"
+   },
+   {
+    "name": "nước Pháp",
+    "url": "/dia-danh/nuoc-phap"
+   },
+   {
+    "name": "Phạm Quỳnh",
+    "url": "/nhan-vat/pham-quynh"
+   },
+   {
+    "name": "Nguyễn Hữu Bài",
+    "url": "/nhan-vat/nguyen-huu-bai"
+   },
+   {
+    "name": "Nguyễn Hữu Thị Lan",
+    "url": "/nhan-vat/nguyen-huu-thi-lan"
+   },
+   {
+    "name": "Trần Trọng Kim",
+    "url": "/nhan-vat/tran-trong-kim"
+   },
+   {
+    "name": "nước Anh",
+    "url": "/dia-danh/nuoc-anh"
+   },
+   {
+    "name": "Phạm Khắc Hòe",
+    "url": "/nhan-vat/pham-khac-hoe"
+   },
+   {
+    "name": "Trần Huy Liệu",
+    "url": "/nhan-vat/tran-huy-lieu"
+   },
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   },
+   {
+    "name": "Hương Cảng",
+    "url": "/dia-danh/huong-cang"
+   },
+   {
+    "name": "Phạm Ngọc Thạch",
+    "url": "/nhan-vat/pham-ngoc-thach"
+   },
+   {
+    "name": "châu Âu",
+    "url": "/dia-danh/chau-au"
+   },
+   {
+    "name": "Trần Văn Hữu",
+    "url": "/nhan-vat/tran-van-huu"
+   },
+   {
+    "name": "Nguyễn Phan Long",
+    "url": "/nhan-vat/nguyen-phan-long"
+   },
+   {
+    "name": "Nguyễn Văn Tâm",
+    "url": "/nhan-vat/nguyen-van-tam"
+   },
+   {
+    "name": "thành phố Westminster",
+    "url": "/dia-danh/thanh-pho-westminster"
+   },
+   {
+    "name": "nước Nam",
+    "url": "/dia-danh/nuoc-nam"
+   },
+   {
+    "name": "Nguyễn Hữu Hào",
+    "url": "/nhan-vat/nguyen-huu-hao"
+   }
+  ],
   "url": "/nhan-vat/bao-dai",
   "info": {
    "Niên hiệu": "Bảo Đại (保大)",
@@ -67,6 +335,16 @@
  {
   "name": "Bộ Chất",
   "description": "Bộ Chất (?-247) tự Tử Sơn là một tướng Đông Ngô dưới thời Tam Quốc. Ông là một học giả sống ở đất Ngô, làm quân sư cho thủ lĩnh Tôn Quyền vào cuối thời Hậu Hán từ trước khi Đông Ngô ra đời.\n",
+  "connection": [
+   {
+    "name": "nhà Ngô",
+    "url": "/nhan-vat/nha-ngo"
+   },
+   {
+    "name": "quận Nam Hải",
+    "url": "/dia-danh/quan-nam-hai"
+   }
+  ],
   "url": "/nhan-vat/bo-chat",
   "info": {
    "Sinh": "không rõ",

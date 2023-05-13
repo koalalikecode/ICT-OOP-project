@@ -2,12 +2,14 @@ package crawler;
 
 import historyobject.Character;
 import org.json.JSONArray;
+import org.json.JSONObject;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
@@ -64,6 +66,24 @@ public class Crawler {
         String res = "";
         for (Element item:description) {
             res += item.text() + "\n";
+        }
+        return res;
+    }
+
+    // Hàm để crawl connection của các object
+    public List<JSONObject> scapeConnection(Document doc, String cssQuery) {
+        List<JSONObject> res = new ArrayList<>();
+        Elements connections = doc.select(cssQuery);
+        if(connections.size() > 0) {
+            for(Element connection: connections) {
+                if(res.stream().noneMatch(p -> p.getString("name").equals(connection.text()))) {
+                    JSONObject item = new JSONObject();
+                    item.put("name", connection.text());
+                    item.put("url", connection.attr("href"));
+                    res.add(item);
+                }
+
+            }
         }
         return res;
     }

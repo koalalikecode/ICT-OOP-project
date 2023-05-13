@@ -56,6 +56,7 @@ public class CharacterNKSCrawler extends Crawler {
 
             Elements name = doc2.select(".page-header h2");
             Elements tr = doc2.select("table.infobox > tbody > tr");
+            List<JSONObject> connect = scapeConnection(doc2,"div.com-content-article__body a.annotation");
             String description = scrapeDescription(doc2, "div.com-content-article__body > p:first-of-type");
             JSONObject characterInfo = new JSONObject();
             if (tr != null && tr.size() > 0) {
@@ -74,7 +75,9 @@ public class CharacterNKSCrawler extends Crawler {
             characterItem.setUrl(characterLink.attr("href"));
             characterItem.setDescription(description);
             characterItem.setInfo(characterInfo);
+            characterItem.setConnection(connect);
             characterList.add(characterItem);
+
         }
 
         // iterating over the pagination HTML elements
