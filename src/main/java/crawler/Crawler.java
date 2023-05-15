@@ -90,7 +90,7 @@ public class Crawler {
 
     // Hàm scrape dữ liệu dành cho page Nguoi ke su
     public void scrapePage(
-            List<Character> CrawlerObjectList,
+            List CrawlerObjectList,
             Set<String> pagesDiscovered,
             List<String> pagesToScrape) {
     }

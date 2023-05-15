@@ -24,7 +24,7 @@ public class CharacterNKSCrawler extends Crawler {
     }
 
     @Override
-    public void scrapePage(List<Character> characterList, Set<String> pagesDiscovered, List<String> pagesToScrape) {
+    public void scrapePage(List characterList, Set<String> pagesDiscovered, List<String> pagesToScrape) {
 
         // Xóa đi phần tử đầu tên của List, đưa vào biến url để scrawl page đó
         String url = pagesToScrape.remove(0);
