@@ -20,7 +20,7 @@ public class CharacterNKSCrawler extends Crawler {
         setWebLink("https://nguoikesu.com");
         setFolder("data/characterNKS.json");
         setStartLink("/nhan-vat");
-        setPageLimit(1);
+        setPageLimit(5);
     }
 
     @Override
@@ -55,27 +55,15 @@ public class CharacterNKSCrawler extends Crawler {
             }
 
             Elements name = doc2.select(".page-header h2");
-            Elements tr = doc2.select("table.infobox > tbody > tr");
-            List<JSONObject> connect = scapeConnection(doc2,"div.com-content-article__body a.annotation");
+            List<JSONObject> moreCharacter = scapeMoreConnection(doc2,"div.com-content-article__body a.annotation");
             String description = scrapeDescription(doc2, "div.com-content-article__body > p:first-of-type");
-            JSONObject characterInfo = new JSONObject();
-            if (tr != null && tr.size() > 0) {
-                for (Element element : tr) {
-                    Element th = element.selectFirst("th");
-                    Element td = element.selectFirst("td");
-                    Elements tdGroup = element.select("td");
-                    if (th != null && td != null) {
-                        characterInfo.put(th.text(), td.text());
-                    } else if (th == null && tdGroup.size() > 1) {
-                        characterInfo.put(tdGroup.get(0).text(), tdGroup.get(1).text());
-                    }
-                }
-            }
+            JSONObject characterInfo = scrapeInfoBox(doc2, "table.infobox > tbody > tr");
+
             characterItem.setName(name.text());
             characterItem.setUrl(characterLink.attr("href"));
             characterItem.setDescription(description);
             characterItem.setInfo(characterInfo);
-            characterItem.setConnection(connect);
+            characterItem.setConnection(moreCharacter);
             characterList.add(characterItem);
 
         }

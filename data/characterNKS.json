@@ -34,51 +34,22 @@
    {
     "name": "Triệu Đà",
     "url": "/nhan-vat/trieu-da"
-   },
-   {
-    "name": "quận Nam Hải",
-    "url": "/dia-danh/quan-nam-hai"
-   },
-   {
-    "name": "nước Việt",
-    "url": "/dia-danh/nuoc-viet"
-   },
-   {
-    "name": "nhà Tống",
-    "url": "/nhan-vat/nha-tong"
-   },
-   {
-    "name": "Vũ Ninh",
-    "url": "/dia-danh/vu-ninh"
-   },
-   {
-    "name": "tỉnh Hồ Nam",
-    "url": "/dia-danh/tinh-ho-nam"
-   },
-   {
-    "name": "Lý Ông Trọng",
-    "url": "/nhan-vat/ly-ong-trong"
-   },
-   {
-    "name": "Phan Huy Lê",
-    "url": "/nhan-vat/phan-huy-le"
-   },
-   {
-    "name": "nhà Thục",
-    "url": "/nhan-vat/nha-thuc"
    }
   ],
   "url": "/nhan-vat/an-duong-vuong",
   "info": {
-   "Thụy hiệu": "An Dương Vương",
-   "Kế nhiệm": "Triều đại sụp đổ",
-   "Sinh": "không rõ",
-   "Mất": "208 TCN / 179 TCN1",
-   "Tại vị": "257 TCN - 208 TCN / 208 TCN - 179 TCN1",
-   "Hậu duệ": "Hậu duệ Mỵ Châu",
-   "Tiền nhiệm": "Sáng lập triều đại",
-   "Thân phụ": "Thục Chế (theo truyền thuyết)2",
-   "Tên đầy đủ": "Thục Phán"
+   "Thụy hiệu": {
+    "name": "An Dương Vương",
+    "url": "/nhan-vat/duong-vuong"
+   },
+   "Kế nhiệm": {"name": "Triều đại sụp đổ"},
+   "Sinh": {"name": "không rõ"},
+   "Mất": {"name": "208 TCN / 179 TCN1"},
+   "Tại vị": {"name": "257 TCN - 208 TCN / 208 TCN - 179 TCN1"},
+   "Hậu duệ": {"name": "Hậu duệ Mỵ Châu"},
+   "Tiền nhiệm": {"name": "Sáng lập triều đại"},
+   "Thân phụ": {"name": "Thục Chế (theo truyền thuyết)2"},
+   "Tên đầy đủ": {"name": "Thục Phán"}
   }
  },
  {
@@ -116,28 +87,16 @@
    {
     "name": "nhà Minh",
     "url": "/nhan-vat/nha-minh"
-   },
-   {
-    "name": "Trần Trọng Kim",
-    "url": "/nhan-vat/tran-trong-kim"
-   },
-   {
-    "name": "Đền Mẫu Âu Cơ",
-    "url": "/dia-danh/den-mau-au-co"
-   },
-   {
-    "name": "tỉnh Phú Thọ",
-    "url": "/dia-danh/tinh-phu-tho"
    }
   ],
   "url": "/nhan-vat/au-co",
   "info": {
-   "Thân mẫu": "Không rõ",
-   "Sinh": "?",
-   "Phối ngẫu": "Đế Lai (?) Lạc Long Quân",
-   "Mất": "?",
-   "Hậu duệ": "Một trăm con, con trưởng là Hùng Vương thứ I",
-   "Thân phụ": "Đế Lai (?)"
+   "Thân mẫu": {"name": "Không rõ"},
+   "Sinh": {"name": "?"},
+   "Phối ngẫu": {"name": "Đế Lai (?) Lạc Long Quân"},
+   "Mất": {"name": "?"},
+   "Hậu duệ": {"name": "Một trăm con, con trưởng là Hùng Vương thứ I"},
+   "Thân phụ": {"name": "Đế Lai (?)"}
   }
  },
  {
@@ -175,52 +134,16 @@
    {
     "name": "Lý Nam Đế",
     "url": "/nhan-vat/ly-nam-de"
-   },
-   {
-    "name": "Lý Bí",
-    "url": "/nhan-vat/ly-bi"
-   },
-   {
-    "name": "nước Việt",
-    "url": "/dia-danh/nuoc-viet"
-   },
-   {
-    "name": "Lê Mạnh Thát",
-    "url": "/nhan-vat/le-manh-that"
-   },
-   {
-    "name": "Phạm Văn Sơn",
-    "url": "/nhan-vat/pham-van-son"
-   },
-   {
-    "name": "sông Chu",
-    "url": "/dia-danh/song-chu"
-   },
-   {
-    "name": "Nguyễn Khắc Thuần",
-    "url": "/nhan-vat/nguyen-khac-thuan"
-   },
-   {
-    "name": "Hồ Chí Minh",
-    "url": "/nhan-vat/ho-chi-minh"
-   },
-   {
-    "name": "Phan Huy Lê",
-    "url": "/nhan-vat/phan-huy-le"
-   },
-   {
-    "name": "Trần Quốc Vượng",
-    "url": "/nhan-vat/tran-quoc-vuong"
    }
   ],
   "url": "/nhan-vat/ba-trieu",
   "info": {
-   "Sinh": "Năm 225 Yên Định, Thanh Hóa",
-   "Mất": "Năm 248 Hậu Lộc, Thanh Hóa",
-   "Đài tưởng niệm": "Đền Bà Triệu, Hậu Lộc, Thanh Hóa",
-   "Tên khác": "Triệu Trinh Nương, Triệu Thị Trinh, Triệu Quốc Trinh",
-   "Nguyên nhân mất": "Tự tử",
-   "Dân tộc": "Việt"
+   "Sinh": {"name": "Năm 225 Yên Định, Thanh Hóa"},
+   "Mất": {"name": "Năm 248 Hậu Lộc, Thanh Hóa"},
+   "Đài tưởng niệm": {"name": "Đền Bà Triệu, Hậu Lộc, Thanh Hóa"},
+   "Tên khác": {"name": "Triệu Trinh Nương, Triệu Thị Trinh, Triệu Quốc Trinh"},
+   "Nguyên nhân mất": {"name": "Tự tử"},
+   "Dân tộc": {"name": "Việt"}
   }
  },
  {
@@ -258,78 +181,32 @@
    {
     "name": "Trần Trọng Kim",
     "url": "/nhan-vat/tran-trong-kim"
-   },
-   {
-    "name": "nước Anh",
-    "url": "/dia-danh/nuoc-anh"
-   },
-   {
-    "name": "Phạm Khắc Hòe",
-    "url": "/nhan-vat/pham-khac-hoe"
-   },
-   {
-    "name": "Trần Huy Liệu",
-    "url": "/nhan-vat/tran-huy-lieu"
-   },
-   {
-    "name": "Hồ Chí Minh",
-    "url": "/nhan-vat/ho-chi-minh"
-   },
-   {
-    "name": "Hương Cảng",
-    "url": "/dia-danh/huong-cang"
-   },
-   {
-    "name": "Phạm Ngọc Thạch",
-    "url": "/nhan-vat/pham-ngoc-thach"
-   },
-   {
-    "name": "châu Âu",
-    "url": "/dia-danh/chau-au"
-   },
-   {
-    "name": "Trần Văn Hữu",
-    "url": "/nhan-vat/tran-van-huu"
-   },
-   {
-    "name": "Nguyễn Phan Long",
-    "url": "/nhan-vat/nguyen-phan-long"
-   },
-   {
-    "name": "Nguyễn Văn Tâm",
-    "url": "/nhan-vat/nguyen-van-tam"
-   },
-   {
-    "name": "thành phố Westminster",
-    "url": "/dia-danh/thanh-pho-westminster"
-   },
-   {
-    "name": "nước Nam",
-    "url": "/dia-danh/nuoc-nam"
-   },
-   {
-    "name": "Nguyễn Hữu Hào",
-    "url": "/nhan-vat/nguyen-huu-hao"
    }
   ],
   "url": "/nhan-vat/bao-dai",
   "info": {
-   "Niên hiệu": "Bảo Đại (保大)",
-   "Kế nhiệm": "Ngô Đình Diệm (Tổng thống Việt Nam Cộng hoà)",
-   "Thân mẫu": "Từ Cung Hoàng thái hậu",
-   "Tên húy": "Nguyễn Phúc Vĩnh Thụy (阮福永瑞)",
-   "Tiền nhiệm": "Nguyễn Văn Xuân (Thủ tướng Chính phủ Lâm thời)",
-   "Vợ": "Nam Phương hoàng hậu (kết hôn 1934\u20131963) Lê Thị Phi Ánh Bùi Mộng Điệp Monique Baudot (kết hôn 1972\u20131997)",
-   "Hoàng gia ca": "Đăng đàn cung",
-   "Triều đại": "Nhà Nguyễn",
-   "Đăng quang": "8 tháng 1 năm 1926",
-   "Sinh": "22 tháng 10, 1913 Huế, Đại Nam, Liên bang Đông Dương",
-   "Mất": "31 tháng 7, 1997 (83 tuổi) Val-de-Grâce, Paris, Pháp",
-   "Tôn giáo": "Trước là Phật giáo (Theo hoàng gia), về sau là Công giáo (theo hoàng hậu)",
-   "Tại vị": "13 tháng 6 năm 1949 \u2013 25 tháng 10 năm 1955 (6 năm, 134 ngày)",
-   "Hậu duệ": "Hậu duệ Thái tử Bảo Long (1936 - 2007) Nguyễn Phúc Phương Mai (sinh 1937) Nguyễn Phúc Phương Liên (sinh 1938) Nguyễn Phúc Phương Dung (sinh 1942) Nguyễn Phúc Bảo Thắng (1943 - 2017) Nguyễn Phúc Phương Thảo (sinh 1946) Nguyễn Phúc Phương Minh (1949 - 2012) Nguyễn Phúc Bảo Ân (sinh 1953) Nguyễn Phúc Bảo Hoàng (1954 - 1955) Nguyễn Phúc Bảo Sơn (1957 - 1987) Nguyễn Phúc Phương Từ Patrick-Edward Bloch",
-   "An táng": "Nghĩa trang Passy",
-   "Thân phụ": "Khải Định"
+   "Niên hiệu": {"name": "Bảo Đại (保大)"},
+   "Kế nhiệm": {
+    "name": "Ngô Đình Diệm (Tổng thống Việt Nam Cộng hoà)",
+    "url": "/nhan-vat/ngo-dinh-diem"
+   },
+   "Thân mẫu": {"name": "Từ Cung Hoàng thái hậu"},
+   "Tên húy": {"name": "Nguyễn Phúc Vĩnh Thụy (阮福永瑞)"},
+   "Tiền nhiệm": {
+    "name": "Nguyễn Văn Xuân (Thủ tướng Chính phủ Lâm thời)",
+    "url": "/nhan-vat/nguyen-van-xuan"
+   },
+   "Vợ": {"name": "Nam Phương hoàng hậu (kết hôn 1934\u20131963) Lê Thị Phi Ánh Bùi Mộng Điệp Monique Baudot (kết hôn 1972\u20131997)"},
+   "Hoàng gia ca": {"name": "Đăng đàn cung"},
+   "Triều đại": {"name": "Nhà Nguyễn"},
+   "Đăng quang": {"name": "8 tháng 1 năm 1926"},
+   "Sinh": {"name": "22 tháng 10, 1913 Huế, Đại Nam, Liên bang Đông Dương"},
+   "Mất": {"name": "31 tháng 7, 1997 (83 tuổi) Val-de-Grâce, Paris, Pháp"},
+   "Tôn giáo": {"name": "Trước là Phật giáo (Theo hoàng gia), về sau là Công giáo (theo hoàng hậu)"},
+   "Tại vị": {"name": "13 tháng 6 năm 1949 \u2013 25 tháng 10 năm 1955 (6 năm, 134 ngày)"},
+   "Hậu duệ": {"name": "Hậu duệ Thái tử Bảo Long (1936 - 2007) Nguyễn Phúc Phương Mai (sinh 1937) Nguyễn Phúc Phương Liên (sinh 1938) Nguyễn Phúc Phương Dung (sinh 1942) Nguyễn Phúc Bảo Thắng (1943 - 2017) Nguyễn Phúc Phương Thảo (sinh 1946) Nguyễn Phúc Phương Minh (1949 - 2012) Nguyễn Phúc Bảo Ân (sinh 1953) Nguyễn Phúc Bảo Hoàng (1954 - 1955) Nguyễn Phúc Bảo Sơn (1957 - 1987) Nguyễn Phúc Phương Từ Patrick-Edward Bloch"},
+   "An táng": {"name": "Nghĩa trang Passy"},
+   "Thân phụ": {"name": "Khải Định"}
   }
  },
  {
@@ -347,10 +224,756 @@
   ],
   "url": "/nhan-vat/bo-chat",
   "info": {
-   "Sinh": "không rõ",
-   "Mất": "247",
-   "Chức vụ": "Chính trị gia",
-   "Tự": "Tử Sơn (tiếng Trung: 子山; bính âm: Zǐshān; Wade\u2013Giles: Tzu-shan)"
+   "Sinh": {"name": "không rõ"},
+   "Mất": {"name": "247"},
+   "Chức vụ": {"name": "Chính trị gia"},
+   "Tự": {"name": "Tử Sơn (tiếng Trung: 子山; bính âm: Zǐshān; Wade\u2013Giles: Tzu-shan)"}
   }
+ },
+ {
+  "name": "Bùi Bá Kỳ",
+  "description": "Bùi Bá Kỳ (chữ Hán: 裴伯耆, ? - ?) là một võ tướng thời nhà Trần và thời thuộc Minh trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "nhà Trần",
+    "url": "/nhan-vat/nha-tran"
+   },
+   {
+    "name": "huyện Thanh Miện",
+    "url": "/dia-danh/huyen-thanh-mien"
+   },
+   {
+    "name": "tỉnh Hải Dương",
+    "url": "/dia-danh/tinh-hai-duong"
+   },
+   {
+    "name": "Thành Tổ",
+    "url": "/dia-danh/thanh-to"
+   },
+   {
+    "name": "Trần Khát Chân",
+    "url": "/nhan-vat/tran-khat-chan"
+   },
+   {
+    "name": "Hồ Quý Ly",
+    "url": "/nhan-vat/ho-quy-ly"
+   },
+   {
+    "name": "Lê Cảnh Tuân",
+    "url": "/nhan-vat/le-canh-tuan"
+   },
+   {
+    "name": "nhà Minh",
+    "url": "/nhan-vat/nha-minh"
+   }
+  ],
+  "url": "/nhan-vat/bui-ba-ky",
+  "info": {}
+ },
+ {
+  "name": "Bùi Đắc Tuyên",
+  "description": "Bùi Đắc Tuyên ((裴得宣), ? - 1795), còn có tên là Bùi Đắc Kế, là Thái sư dưới triều vua Cảnh Thịnh trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "huyện Tuy Viễn",
+    "url": "/dia-danh/huyen-tuy-vien"
+   },
+   {
+    "name": "tỉnh Bình Định",
+    "url": "/dia-danh/tinh-binh-dinh"
+   },
+   {
+    "name": "Bùi Thị Nhạn",
+    "url": "/nhan-vat/bui-thi-nhan"
+   },
+   {
+    "name": "Nguyễn Quang Toản",
+    "url": "/nhan-vat/nguyen-quang-toan"
+   },
+   {
+    "name": "Ngô Văn Sở",
+    "url": "/nhan-vat/ngo-van-so"
+   },
+   {
+    "name": "Phạm Công Hưng",
+    "url": "/nhan-vat/pham-cong-hung"
+   },
+   {
+    "name": "Trần Quang Diệu",
+    "url": "/nhan-vat/tran-quang-dieu"
+   },
+   {
+    "name": "Võ Văn Dũng",
+    "url": "/nhan-vat/vo-van-dung"
+   }
+  ],
+  "url": "/nhan-vat/bui-dac-tuyen",
+  "info": {}
+ },
+ {
+  "name": "Bùi Bị",
+  "description": "Bùi Bị là công thần khai quốc nhà Hậu Lê trong lịch sử Việt Nam1 .\n",
+  "connection": [
+   {
+    "name": "nhà Hậu Lê",
+    "url": "/nhan-vat/nha-hau-le"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   },
+   {
+    "name": "Trịnh Khả",
+    "url": "/nhan-vat/trinh-kha"
+   },
+   {
+    "name": "Lê Sát",
+    "url": "/nhan-vat/le-sat"
+   },
+   {
+    "name": "Lý Triện",
+    "url": "/nhan-vat/ly-trien"
+   },
+   {
+    "name": "thành Tây Đô",
+    "url": "/dia-danh/thanh-tay-do"
+   },
+   {
+    "name": "Trần Nguyên Hãn",
+    "url": "/nhan-vat/tran-nguyen-han"
+   },
+   {
+    "name": "sông Hát",
+    "url": "/dia-danh/song-hat"
+   }
+  ],
+  "url": "/nhan-vat/bui-bi",
+  "info": {}
+ },
+ {
+  "name": "Bùi Nam Hà",
+  "description": "Bùi Nam Hà (sinh năm 1924) là tướng lĩnh cấp cao trong Quân đội Nhân dân Việt Nam, hàm Thiếu tướng, nguyên Phó Tổng thanh tra Quân đội, Viện trưởng Học viện Hậu cần, Phó Giám đốc Học viện Quân sự cấp cao, Cục trưởng Cục nhà trường Bộ Tổng tham mưu, Phó Tư lệnh Đoàn 959, Phó Tư lệnh Tham mưu trưởng Tây Nguyên, Tham mưu phó Quân khu 5.1 2 3 4 5 6\n",
+  "connection": [
+   {
+    "name": "tỉnh Hưng Yên",
+    "url": "/dia-danh/tinh-hung-yen"
+   },
+   {
+    "name": "Điện Biên Phủ",
+    "url": "/dia-danh/dien-bien-phu"
+   },
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   }
+  ],
+  "url": "/nhan-vat/bui-nam-ha",
+  "info": {}
+ },
+ {
+  "name": "Bùi Tá Hán",
+  "description": "Bùi Tá Hán (1496-1568)1 , là một danh tướng có công khôi phục nhà Hậu Lê (thời Lê Trung Hưng, 1533-1789) trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "nhà Hậu Lê",
+    "url": "/nhan-vat/nha-hau-le"
+   },
+   {
+    "name": "Lê Trung Hưng",
+    "url": "/nhan-vat/le-trung-hung"
+   },
+   {
+    "name": "Nguyễn Kim",
+    "url": "/nhan-vat/nguyen-kim"
+   },
+   {
+    "name": "Mạc Đăng Dung",
+    "url": "/nhan-vat/mac-dang-dung"
+   },
+   {
+    "name": "Lê Cung Hoàng",
+    "url": "/nhan-vat/le-cung-hoang"
+   },
+   {
+    "name": "nhà Mạc",
+    "url": "/nhan-vat/nha-mac"
+   },
+   {
+    "name": "Lê Trang Tông",
+    "url": "/nhan-vat/le-trang-tong"
+   },
+   {
+    "name": "tỉnh Sơn Tây",
+    "url": "/dia-danh/tinh-son-tay"
+   }
+  ],
+  "url": "/nhan-vat/bui-ta-han",
+  "info": {}
+ },
+ {
+  "name": "Bùi Huy Bích",
+  "description": "Bùi Huy Bích (chữ Hán: 裴輝璧; 1744 - 1818), tự là Hy Chương(chữ Hán: 熙章), hiệu là Tồn Am và Tồn Ông, là một danh nhân, danh sĩ người Hà Nội, từng giữ chức Tham tụng (tương đương chức thủ tướng) trong triều đình dưới thời vua Lê-chúa Trịnh.\n",
+  "connection": [
+   {
+    "name": "Bùi Xương Trạch",
+    "url": "/nhan-vat/bui-xuong-trach"
+   },
+   {
+    "name": "huyện Thanh Miện",
+    "url": "/dia-danh/huyen-thanh-mien"
+   },
+   {
+    "name": "Lê Quý Đôn",
+    "url": "/nhan-vat/le-quy-don"
+   },
+   {
+    "name": "trấn Nghệ An",
+    "url": "/dia-danh/tran-nghe-an"
+   },
+   {
+    "name": "Trịnh Sâm",
+    "url": "/nhan-vat/trinh-sam"
+   },
+   {
+    "name": "Trịnh Cán",
+    "url": "/nhan-vat/trinh-can"
+   },
+   {
+    "name": "Đặng Thị Huệ",
+    "url": "/nhan-vat/dang-thi-hue"
+   },
+   {
+    "name": "phường Bích Câu",
+    "url": "/dia-danh/phuong-bich-cau"
+   }
+  ],
+  "url": "/nhan-vat/bui-huy-bich",
+  "info": {}
+ },
+ {
+  "name": "Bùi Cầm Hổ",
+  "description": "Bùi Cầm Hổ (chữ Hán: 裴扲虎, 1390 - 1483), là một vị quan triều đình nhà Lê sơ, làm việc cho vua Lê Thái Tổ và Lê Thái Tông. Ông nổi bật với những lần đi sứ sang nhà Minh và việc ngay thẳng can gián giúp vua Lê Thái Tông.\n",
+  "connection": [
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "Lê Thái Tổ",
+    "url": "/nhan-vat/le-thai-to"
+   },
+   {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   },
+   {
+    "name": "nhà Minh",
+    "url": "/nhan-vat/nha-minh"
+   },
+   {
+    "name": "huyện Thiên Lộc",
+    "url": "/dia-danh/huyen-thien-loc"
+   },
+   {
+    "name": "tỉnh Hà Tĩnh",
+    "url": "/dia-danh/tinh-ha-tinh"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   },
+   {
+    "name": "Lê Sát",
+    "url": "/nhan-vat/le-sat"
+   }
+  ],
+  "url": "/nhan-vat/bui-cam-ho",
+  "info": {}
+ },
+ {
+  "name": "Bùi Quang Tạo",
+  "description": "Bùi Quang Tạo (tháng 10 năm 1913 - 28 tháng 12 năm 1995; huyện Tiền Hải, tỉnh Thái Bình)1 hay Bùi Nhật là nhà hoạt động cách mạng, nhà chính khách Việt Nam. Ông nguyên là Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa II, khóa III, khóa IV, khóa V, đã từng giữ các chức vụ Bí thư Khu ủy Tây Bắc, Bộ trưởng Bộ Xây dựng Việt Nam đầu tiên, Phó Trưởng Ban Tổ chức Trung ương Đảng Cộng sản Việt Nam, Bí thư Thành ủy Hải Phòng, Chủ nhiệm Ủy ban Thanh tra Nhà nước.\n",
+  "connection": [
+   {
+    "name": "tỉnh Thái Bình",
+    "url": "/dia-danh/tinh-thai-binh"
+   },
+   {
+    "name": "tỉnh Yên Bái",
+    "url": "/dia-danh/tinh-yen-bai"
+   },
+   {
+    "name": "tỉnh Hòa Bình",
+    "url": "/dia-danh/tinh-hoa-binh"
+   },
+   {
+    "name": "Trần Đăng Khoa",
+    "url": "/nhan-vat/tran-dang-khoa"
+   },
+   {
+    "name": "tỉnh Hà Nam",
+    "url": "/dia-danh/tinh-ha-nam"
+   },
+   {
+    "name": "sông Hồng",
+    "url": "/dia-danh/song-hong"
+   },
+   {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   },
+   {
+    "name": "quận Hai Bà Trưng",
+    "url": "/dia-danh/quan-hai-ba-trung"
+   }
+  ],
+  "url": "/nhan-vat/bui-quang-tao",
+  "info": {}
+ },
+ {
+  "name": "Bùi Thế Đạt",
+  "description": "Bùi Thế Đạt (chữ Hán: 裴世達; 1704-1778) là tướng nhà Lê trung hưng trong lịch sử Việt Nam. Ông có công đánh dẹp các cuộc khởi nghĩa nông dân Đàng Ngoài giữa thế kỷ 18 và tham gia chiến dịch Phú Xuân 1774-1775 đánh chiếm Thuận Hóa-Quảng Nam, mở đất Đàng Ngoài; ông cũng là người vẽ bản đồ Hoàng Sa thế kỷ 181 .\n",
+  "connection": [
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "phủ Diễn Châu",
+    "url": "/dia-danh/phu-dien-chau"
+   },
+   {
+    "name": "huyện Diễn Châu",
+    "url": "/dia-danh/huyen-dien-chau"
+   },
+   {
+    "name": "tỉnh Nghệ An",
+    "url": "/dia-danh/tinh-nghe-an"
+   },
+   {
+    "name": "Hương Canh",
+    "url": "/dia-danh/huong-canh"
+   },
+   {
+    "name": "Lê Duy Mật",
+    "url": "/nhan-vat/le-duy-mat"
+   },
+   {
+    "name": "Trịnh Sâm",
+    "url": "/nhan-vat/trinh-sam"
+   },
+   {
+    "name": "Trấn Ninh",
+    "url": "/dia-danh/tran-ninh"
+   }
+  ],
+  "url": "/nhan-vat/bui-the-dat",
+  "info": {}
+ },
+ {
+  "name": "Bùi Quang Thận",
+  "description": "Bùi Quang Thận (1948-2012) là người lính Quân đội Nhân dân Việt Nam đầu tiên cắm lá cờ chiến thắng của Mặt trận Dân tộc Giải phóng miền Nam Việt Nam trên nóc dinh Độc Lập vào lúc 11 giờ 30 phút ngày 30 tháng 4 năm 1975 1 .\n",
+  "connection": [
+   {
+    "name": "tỉnh Thái Bình",
+    "url": "/dia-danh/tinh-thai-binh"
+   },
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   },
+   {
+    "name": "Vũ Đăng Toàn",
+    "url": "/nhan-vat/vu-dang-toan"
+   },
+   {
+    "name": "Dương Văn Minh",
+    "url": "/nhan-vat/duong-van-minh"
+   },
+   {
+    "name": "Nguyễn Hữu Hạnh",
+    "url": "/nhan-vat/nguyen-huu-hanh"
+   },
+   {
+    "name": "Phạm Xuân Thệ",
+    "url": "/nhan-vat/pham-xuan-the"
+   },
+   {
+    "name": "Trần Đăng Khoa",
+    "url": "/nhan-vat/tran-dang-khoa"
+   }
+  ],
+  "url": "/nhan-vat/bui-quang-than",
+  "info": {}
+ },
+ {
+  "name": "Bùi Thị Nhạn",
+  "description": "Bùi Thị Nhạn (chữ Hán: 裴氏雁, ?- 1802) là một trong Tây Sơn ngũ phụng thư. Sau này, khi trở thành vợ chính thức của vua Quang Trung (Nguyễn Huệ), bà được tấn phong làm Chính cung Hoàng hậu, và sau đó là Hoàng thái hậu khi con bà (?) là Nguyễn Quang Toản lên nối ngôi vua nhà Tây Sơn trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "nhà Tây Sơn",
+    "url": "/nhan-vat/nha-tay-son"
+   },
+   {
+    "name": "Nguyễn Quang Toản",
+    "url": "/nhan-vat/nguyen-quang-toan"
+   },
+   {
+    "name": "Nguyễn Huệ",
+    "url": "/nhan-vat/nguyen-hue"
+   },
+   {
+    "name": "huyện Tuy Viễn",
+    "url": "/dia-danh/huyen-tuy-vien"
+   },
+   {
+    "name": "tỉnh Bình Định",
+    "url": "/dia-danh/tinh-binh-dinh"
+   },
+   {
+    "name": "Bùi Đắc Tuyên",
+    "url": "/nhan-vat/bui-dac-tuyen"
+   },
+   {
+    "name": "Phạm Thị Liên",
+    "url": "/nhan-vat/pham-thi-lien"
+   },
+   {
+    "name": "Bùi Thị Xuân",
+    "url": "/nhan-vat/bui-thi-xuan"
+   }
+  ],
+  "url": "/nhan-vat/bui-thi-nhan",
+  "info": {
+   "Thụy hiệu": {"name": "Quang Trung Bùi hoàng hậu"},
+   "Kế nhiệm": {"name": "Cảnh Thịnh Lê hoàng hậu"},
+   "Tiền nhiệm": {"name": "Quang Trung Phạm hoàng hậu"},
+   "Tên đầy đủ": {"name": "Bùi Thị Nhạn"},
+   "Phu quân": {"name": "Quang Trung hoàng đế"},
+   "Tước hiệu": {"name": "Đệ nhị Quang Trung hoàng hậu"},
+   "Sinh": {"name": "Tuy Viễn (Tây Sơn, Bình Định)"},
+   "Mất": {"name": "10/7/1802 (tức 16 tháng 6 năm Nhâm Tuất) thành cổ Xương Giang"},
+   "Miếu hiệu": {"name": "Thái Tổ Vũ hoàng hậu"},
+   "Hoàng tộc": {
+    "name": "nhà Tây Sơn",
+    "url": "/nhan-vat/nha-tay-son"
+   },
+   "Tại vị": {"name": "1791 - 1792"},
+   "Hậu duệ": {
+    "name": "Nguyễn Quang Toản(?) Nguyễn Quang Thiệu (?) Nguyễn Quang Khanh (?)",
+    "url": "/nhan-vat/nguyen-quang-toan"
+   },
+   "Thân phụ": {"name": "Bùi Đức Lương"}
+  }
+ },
+ {
+  "name": "Bùi Diễm",
+  "description": "Bùi Diễm (sinh năm 1923) là đại sứ Việt Nam Cộng hòa ở Hoa Kỳ từ 1967 đến 1972. Ông từng là học sinh của Đại tướng Võ Nguyên Giáp thời tướng Giáp còn là giáo viên lịch sử tại Trường Tư thục Thăng Long, Hà Nội.[1]\n",
+  "connection": [],
+  "url": "/nhan-vat/bui-diem",
+  "info": {}
+ },
+ {
+  "name": "Bùi Kỷ",
+  "description": "Bùi Kỷ (5 tháng 1 năm 1888 - 19 tháng 5 năm 1960), tên chữ là Ưu Thiên, hiệu là Tử Chương, là nhà giáo, nhà Nho học và nhà nghiên cứu văn hóa có ảnh hưởng trong những năm đầy biến động của lịch sử Việt Nam giai đoạn đầu thế kỷ 20. Con ông là Bùi Diễm, một chính khách của Việt Nam Cộng hòa.\n",
+  "connection": [
+   {
+    "name": "Phủ Lý",
+    "url": "/dia-danh/phu-ly"
+   },
+   {
+    "name": "tỉnh Hà Nam",
+    "url": "/dia-danh/tinh-ha-nam"
+   },
+   {
+    "name": "tỉnh Hà Đông",
+    "url": "/dia-danh/tinh-ha-dong"
+   },
+   {
+    "name": "huyện Thường Tín",
+    "url": "/dia-danh/huyen-thuong-tin"
+   },
+   {
+    "name": "Trần Trọng Kim",
+    "url": "/nhan-vat/tran-trong-kim"
+   },
+   {
+    "name": "Phan Chu Trinh",
+    "url": "/nhan-vat/phan-chu-trinh"
+   },
+   {
+    "name": "Hoàng Minh Giám",
+    "url": "/nhan-vat/hoang-minh-giam"
+   },
+   {
+    "name": "Võ Nguyên Giáp",
+    "url": "/nhan-vat/vo-nguyen-giap"
+   }
+  ],
+  "url": "/nhan-vat/bui-ky",
+  "info": {
+   "Tác phẩm nổi bật": {"name": "Quốc văn cụ thể, Truyện trê cóc, Văn chương"},
+   "Con cái": {"name": "Bùi Diễm"},
+   "Sinh": {
+    "name": "Phủ Lý, Hà Nam",
+    "url": "/dia-danh/phu-ly"
+   },
+   "Mất": {"name": "Hà Nội"},
+   "Tên khác": {"name": "Ưu Thiên, Tử Chương"},
+   "Nghề nghiệp": {"name": "nhà giáo, nhà nghiên cứu văn hóa"}
+  }
+ },
+ {
+  "name": "Bùi Quốc Hưng",
+  "description": "Bùi Quốc Hưng hay Lê Quốc Hưng là khai quốc công thần nhà Hậu Lê, quê ở làng Tri Lai, tổng Tri Lai, huyện Vũ Tiên, phủ Kiến Xương (nay là thôn Phú Lạc, xã Phú Xuân, thành phố Thái Bình.1 ông là chắt nội của Bùi Mộc Đạc (tức Phí Mộc Lạc)\n",
+  "connection": [
+   {
+    "name": "nhà Hậu Lê",
+    "url": "/nhan-vat/nha-hau-le"
+   },
+   {
+    "name": "thành phố Thái Bình",
+    "url": "/dia-danh/thanh-pho-thai-binh"
+   },
+   {
+    "name": "Bùi Mộc Đạc",
+    "url": "/nhan-vat/bui-moc-dac"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   },
+   {
+    "name": "Lê Ngân",
+    "url": "/nhan-vat/le-ngan"
+   },
+   {
+    "name": "Lê Bôi",
+    "url": "/nhan-vat/le-boi"
+   },
+   {
+    "name": "Lê Văn Linh",
+    "url": "/nhan-vat/le-van-linh"
+   },
+   {
+    "name": "Trần Cảo",
+    "url": "/nhan-vat/tran-cao"
+   }
+  ],
+  "url": "/nhan-vat/bui-quoc-hung",
+  "info": {}
+ },
+ {
+  "name": "Bùi Thị Xuân",
+  "description": "Bùi Thị Xuân (chữ Hán: 裴氏春; 17711 -1802) là một trong Tây Sơn ngũ phụng thư2 , là vợ Thái phó Trần Quang Diệu và là một Đô đốc của vương triều Tây Sơn trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "tỉnh Bình Định",
+    "url": "/dia-danh/tinh-binh-dinh"
+   },
+   {
+    "name": "Nguyễn Ánh",
+    "url": "/nhan-vat/nguyen-anh"
+   },
+   {
+    "name": "Trần Quang Diệu",
+    "url": "/nhan-vat/tran-quang-dieu"
+   },
+   {
+    "name": "nhà Tây Sơn",
+    "url": "/nhan-vat/nha-tay-son"
+   },
+   {
+    "name": "Nguyễn Huệ",
+    "url": "/nhan-vat/nguyen-hue"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "Nguyễn Quang Toản",
+    "url": "/nhan-vat/nguyen-quang-toan"
+   },
+   {
+    "name": "Bùi Đắc Tuyên",
+    "url": "/nhan-vat/bui-dac-tuyen"
+   }
+  ],
+  "url": "/nhan-vat/bui-thi-xuan",
+  "info": {
+   "Con cái": {"name": "Trần Thị Cúc (Bích Xuân)"},
+   "Đối thủ": {
+    "name": "Nguyễn Ánh",
+    "url": "/nhan-vat/nguyen-anh"
+   },
+   "Cha mẹ": {"name": "Bùi Đắc Chí"},
+   "Nguyên nhân mất": {"name": "Gia Long xử tử"},
+   "Phong trào chính trị": {"name": "khởi nghĩa Tây Sơn"},
+   "Quốc tịch": {"name": "Việt Nam"},
+   "Quê quán": {
+    "name": "thôn Xuân Hòa (nay thuộc thôn Phú Xuân, xã Bình Phú, huyện Tây Sơn, tỉnh Bình Định)",
+    "url": "/dia-danh/tinh-binh-dinh"
+   },
+   "Sinh": {"name": "1771"},
+   "Quốc gia": {"name": "Việt Nam"},
+   "Tên bản ngữ": {"name": "裴氏春"},
+   "Mất": {"name": "1802"},
+   "Nghề nghiệp": {"name": "Đô đốc"},
+   "Đảng phái chính trị": {"name": "Tây Sơn"},
+   "Phối ngẫu": {
+    "name": "Thái phó Trần Quang Diệu",
+    "url": "/nhan-vat/tran-quang-dieu"
+   },
+   "Kỷ nguyên": {"name": "Triều đại Tây Sơn"},
+   "Nổi tiếng vì": {"name": "nữ đô đốc trong triều đình Tây Sơn"}
+  }
+ },
+ {
+  "name": "Bùi Dương Lịch",
+  "description": "Bùi Dương Lịch (chữ Hán: 裴楊瓑; 1757 \u2013 1828)1 có tên tự là Tồn Thành(存成), hiệu Thạch Phủ(石甫) và Tồn Trai(存齋) 2 ; là một nhà giáo và là văn thần trải ba triều đại khác nhau: Lê trung hưng, Tây Sơn và nhà Nguyễn trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "tỉnh Nghệ An",
+    "url": "/dia-danh/tinh-nghe-an"
+   },
+   {
+    "name": "huyện Đức Thọ",
+    "url": "/dia-danh/huyen-duc-tho"
+   },
+   {
+    "name": "tỉnh Hà Tĩnh",
+    "url": "/dia-danh/tinh-ha-tinh"
+   },
+   {
+    "name": "nhà Hậu Lê",
+    "url": "/nhan-vat/nha-hau-le"
+   },
+   {
+    "name": "Lê Chiêu Thống",
+    "url": "/nhan-vat/le-chieu-thong"
+   },
+   {
+    "name": "Vũ Văn Nhậm",
+    "url": "/nhan-vat/vu-van-nham"
+   },
+   {
+    "name": "Nguyễn Hữu Chỉnh",
+    "url": "/nhan-vat/nguyen-huu-chinh"
+   },
+   {
+    "name": "nhà Thanh",
+    "url": "/nhan-vat/nha-thanh"
+   }
+  ],
+  "url": "/nhan-vat/bui-duong-lich",
+  "info": {}
+ },
+ {
+  "name": "Bùi Minh Quốc",
+  "description": "Bùi Minh Quốc (sinh ngày 3 tháng 10 năm 1940) là một nhà thơ, nhà báo, hội viên Hội Nhà văn Việt Nam, từng là Phó Chủ tịch Hội Văn nghệ, Tổng Biên tập Tạp chí Ðất Quảng tại Quảng Nam - Ðà Nẵng, người sáng lập và là Chủ tịch đầu tiên của Hội Văn nghệ tỉnh Lâm Ðồng.[1] Là một trong bốn thành viên đầu tiên của Nhóm Thân hữu Đà Lạt.\n",
+  "connection": [],
+  "url": "/nhan-vat/bui-minh-quoc",
+  "info": {}
+ },
+ {
+  "name": "Bùi Quốc Khái",
+  "description": "Bùi Quốc Khái (chữ Hán: 裴國愾, 1141-1234) là người đỗ đầu khoa thi Tiến sĩ năm Trinh Phù thứ 10 (Ất Tỵ, 1185) dưới thời vua Lý Cao Tông (ở ngôi: 1176-1210), nước Đại Việt (nay là Việt Nam).\n",
+  "connection": [
+   {
+    "name": "Lý Cao Tông",
+    "url": "/nhan-vat/ly-cao-tong"
+   },
+   {
+    "name": "huyện Cẩm Giàng",
+    "url": "/dia-danh/huyen-cam-giang"
+   },
+   {
+    "name": "tỉnh Hải Dương",
+    "url": "/dia-danh/tinh-hai-duong"
+   },
+   {
+    "name": "Lý Huệ Tông",
+    "url": "/nhan-vat/ly-hue-tong"
+   },
+   {
+    "name": "Lý Chiêu Hoàng",
+    "url": "/nhan-vat/ly-chieu-hoang"
+   },
+   {
+    "name": "Hồ Tây",
+    "url": "/dia-danh/ho-tay"
+   },
+   {
+    "name": "huyện Thanh Trì",
+    "url": "/dia-danh/huyen-thanh-tri"
+   },
+   {
+    "name": "quận Hoàng Mai",
+    "url": "/dia-danh/quan-hoang-mai"
+   }
+  ],
+  "url": "/nhan-vat/bui-quoc-khai",
+  "info": {}
+ },
+ {
+  "name": "Bùi Mộc Đạc",
+  "description": "Bùi Mộc Đạc (chữ Hán: 裴木鐸, 1265-1326), quê làng Tri Lai, tổng Tri Lai, Đại Việt (nay thuộc xã Phú Xuân \u2013 Thành phố Thái Bình, tỉnh Thái Bình, Việt Nam); là một quan văn nhà Trần.\n",
+  "connection": [
+   {
+    "name": "tỉnh Thái Bình",
+    "url": "/dia-danh/tinh-thai-binh"
+   },
+   {
+    "name": "nhà Trần",
+    "url": "/nhan-vat/nha-tran"
+   },
+   {
+    "name": "Trần Nhân Tông",
+    "url": "/nhan-vat/tran-nhan-tong"
+   },
+   {
+    "name": "nhà Nguyên",
+    "url": "/nhan-vat/nha-nguyen-mong-co"
+   },
+   {
+    "name": "Trần Anh Tông",
+    "url": "/nhan-vat/tran-anh-tong"
+   },
+   {
+    "name": "Trần Minh Tông",
+    "url": "/nhan-vat/tran-minh-tong"
+   },
+   {
+    "name": "Bùi Quốc Hưng",
+    "url": "/nhan-vat/bui-quoc-hung"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   }
+  ],
+  "url": "/nhan-vat/bui-moc-dac",
+  "info": {}
+ },
+ {
+  "name": "Bùi Thức Kiên",
+  "description": "Bùi Thức Kiên (1813-1892) là một nhà nho. Ông ơớ quê là xã Yên Đồng, tổng Việt Yên, huyện La Sơn, phủ Đức Thọ, tỉnh Hà Tĩnh (nay thuộc xã Châu Phong, huyện Đức Thọ tỉnh Hà Tĩnh). Bùi Thức Kiên đỗ Cử nhân năm Canh Tý 1840 (niên hiệu Minh Mạng thứ 21), sau đỗ Hoàng giáp vào năm Tự Đức thứ 2 1848. Ông giữ các chức quan: Đốc học Bình Định, Phủ thừa phủ Thừa Thiên, Biện lý Lễ bộ, Tuần phủ Hưng Yên, Tham tri Lễ bộ, Tham tri Lại bộ và Tham tri Hình bộ, Thượng thư Lễ bộ, Tổng đốc Hà Ninh. Vì để thành Hà Nội thất thủ, ông bị cách chức và bị đục tên ở bia Tiến sĩ ở Huế. Sau khi mất, ông được truy phục hàm Thị lang và cho khắc lại tên ở bia Tiến sĩ1 .\n",
+  "connection": [
+   {
+    "name": "tỉnh Hà Tĩnh",
+    "url": "/dia-danh/tinh-ha-tinh"
+   },
+   {
+    "name": "huyện Đức Thọ",
+    "url": "/dia-danh/huyen-duc-tho"
+   },
+   {
+    "name": "thành Hà Nội",
+    "url": "/dia-danh/thanh-ha-noi"
+   }
+  ],
+  "url": "/nhan-vat/bui-thuc-kien",
+  "info": {}
  }
 ]
