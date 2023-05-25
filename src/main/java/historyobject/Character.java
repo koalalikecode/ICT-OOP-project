@@ -5,6 +5,7 @@ import org.json.JSONObject;
 import java.util.List;
 
 public class Character {
+    private String id;
     private String name;
     private String url;
     private JSONObject info;
