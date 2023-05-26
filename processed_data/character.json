@@ -201,9 +201,21 @@
         "url": "/nhan-vat/nguyen-van-xuan"
       },
       "Vợ": {"name": "Nam Phương hoàng hậu (kết hôn 1934\u20131963) Lê Thị Phi Ánh Bùi Mộng Điệp Monique Baudot (kết hôn 1972\u20131997)"},
+      "Tại nhiệm": {
+        "name": "10 tháng 9 năm 1945 \u2013 16 tháng 3 năm 1946 (187 ngày)",
+        "url": "/wiki/10_th%C3%A1ng_9"
+      },
       "Hoàng gia ca": {"name": "Đăng đàn cung"},
       "Triều đại": {"name": "Nhà Nguyễn"},
       "Đăng quang": {"name": "8 tháng 1 năm 1926"},
+      "Trị vì": {
+        "name": "9 tháng 3 năm 1945 \u2013 30 tháng 8 năm 1945 (174 ngày)",
+        "url": "/wiki/9_th%C3%A1ng_3"
+      },
+      "Chữ ký": {
+        "name": "",
+        "url": "/wiki/T%E1%BA%ADp_tin:BaoDaiSignature.svg"
+      },
       "Sinh": {"name": "22 tháng 10, 1913 Huế, Đại Nam, Liên bang Đông Dương"},
       "Mất": {"name": "31 tháng 7, 1997 (83 tuổi) Val-de-Grâce, Paris, Pháp"},
       "Tôn giáo": {"name": "Trước là Phật giáo (Theo hoàng gia), về sau là Công giáo (theo hoàng hậu)"},
@@ -2266,6 +2278,10 @@
         "url": "/nhan-vat/tran-nghe-tong"
       },
       "Thân mẫu": {"name": "Vương Mẫu"},
+      "Tên húy": {
+        "name": "Tên húy Trần Nhật Lễ (陳日煃) Trần Nhật Kiên (陳日熞) Niên hiệu Đại Định (大定) Thụy hiệu Hôn Đức công (昏德公)",
+        "url": "/wiki/Ni%C3%AAn_hi%E1%BB%87u"
+      },
       "Tiền nhiệm": {
         "name": "Trần Dụ Tông",
         "url": "/nhan-vat/tran-du-tong"
@@ -2277,6 +2293,7 @@
       "Mất": {"name": "1 tháng 12, năm 1370 phường Giang Khẩu, Thăng Long"},
       "Tôn giáo": {"name": "Phật giáo"},
       "An táng": {"name": "núi Đại Mông"},
+      "Hậu duệ": {"name": "Dương Nhật Liễu"},
       "Thân phụ": {"name": "Trần Nguyên Dục"}
     }
   },
@@ -3819,7 +3836,15 @@
         "url": "/nhan-vat/ngo-vuong"
       },
       "Tên húy": {"name": "Dương Tam Kha (楊三哥) Dương Chủ Tướng (楊主將) Dương Thiệu Hồng (楊紹洪)"},
+      "Mất": {
+        "name": "10 tháng 8 năm 980",
+        "url": "/wiki/980"
+      },
       "Tại vị": {"name": "944 \u2013 950"},
+      "Hậu duệ": {
+        "name": "Dương Vân Nga",
+        "url": "/wiki/D%C6%B0%C6%A1ng_V%C3%A2n_Nga"
+      },
       "Tiền nhiệm": {
         "name": "Tiền Ngô Vương",
         "url": "/nhan-vat/ngo-vuong"
@@ -4041,6 +4066,11 @@
       "Trị vì": {"name": "5 tháng 9 năm 1907 - 6 tháng 5 năm 1916 (8 năm, 244 ngày)"},
       "Sinh": {"name": "19 tháng 9 năm 1900 Huế, Đại Nam, Liên bang Đông Dương"},
       "Mất": {"name": "26 tháng 12, 1945 (45 tuổi) Cộng hoà Trung Phi"},
+      "Phối ngẫu": {
+        "name": "Phối ngẫu Mai Thị Vàng Marie Anne Viale Fernande Antier Ernestin Maillot",
+        "url": "/wiki/Mai_Th%E1%BB%8B_V%C3%A0ng"
+      },
+      "Nghề nghiệp": {"name": "Nhà cách mạng"},
       "Hậu duệ": {"name": "Hậu duệ Armand Viale Thérèse Suzy Vĩnh San Solange Georges Vĩnh San Claude Vĩnh San Roger Vĩnh San Ginette Andrée Vĩnh San"},
       "An táng": {"name": "Huế, Việt Nam"},
       "Thân phụ": {
@@ -8381,6 +8411,10 @@
       "Sinh": {"name": "11 tháng 4, 1606"},
       "Mất": {"name": "24 tháng 9, 1682 (76 tuổi) Đông Kinh, Đàng Ngoài, Đại Việt"},
       "Miếu hiệu": {"name": "Hoằng Tổ (弘祖)"},
+      "Hoàng tộc": {
+        "name": "Chúa Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
       "Tại vị": {"name": "1657 \u2013 1682"},
       "Thân phụ": {"name": "Trịnh Tráng"}
     }
@@ -8470,6 +8504,10 @@
       "Sinh": {"name": "1577"},
       "Mất": {"name": "1657 (79\u201380 tuổi) Đông Kinh, Đàng Ngoài, Đại Việt"},
       "Miếu hiệu": {"name": "Văn Tổ (文祖)"},
+      "Hoàng tộc": {
+        "name": "Chúa Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
       "Tại vị": {"name": "1623 \u2013 1657"},
       "Thân phụ": {"name": "Trịnh Tùng"}
     }
@@ -8678,6 +8716,10 @@
       "Sinh": {"name": "1550"},
       "Mất": {"name": "1623 (72\u201373 tuổi) Thanh Oai, Đông Kinh, Đàng Ngoài, Đại Việt"},
       "Miếu hiệu": {"name": "Thành Tổ (成祖)"},
+      "Hoàng tộc": {
+        "name": "Vương tộc Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
       "Tại vị": {"name": "1570 \u2013 1623"},
       "Hậu duệ": {"name": "Hậu duệ Trịnh Tráng Trịnh Xuân Trịnh Khải Trịnh Thị Ngọc Trinh"},
       "Thân phụ": {"name": "Trịnh Kiểm"}
@@ -9212,8 +9254,13 @@
       "Thụy hiệu": {"name": "Văn Hoàng đế (文皇帝)"},
       "Trị vì": {"name": "137 TCN \u2013 124 TCN"},
       "Kế nhiệm": {"name": "Triệu Minh Đế"},
+      "Thân mẫu": {
+        "name": "Mỵ Châu",
+        "url": "/wiki/M%E1%BB%B5_Ch%C3%A2u"
+      },
       "Sinh": {"name": "175 TCN"},
       "Mất": {"name": "124 TCN Nam Việt"},
+      "Hậu phi": {"name": "Hậu phi Hữu phu nhân (右夫人), tức Triệu Lam (趙藍) Tả phu nhân (左夫人) Thái phu nhân (泰夫人) Bộ phu nhân (部夫人)"},
       "Hậu duệ": {
         "name": "Hậu duệ Triệu Anh Tề Còn lại không rõ",
         "url": "/nhan-vat/trieu-anh-te"
@@ -9331,21 +9378,40 @@
         "name": "Hậu Lý Nam Đế",
         "url": "/nhan-vat/ly-nam-de"
       },
-      "Tước hiệu": {"name": "Dạ Trạch Vương (夜澤王)"},
+      "Thân mẫu": {"name": "Nguyễn Thị Hựu (阮氏佑)"},
+      "Húy": {"name": "Húy Triệu Quang Phục (趙光復)"},
       "Tên húy": {
         "name": "Triệu Quang Phục (趙光復)",
         "url": "/nhan-vat/trieu-quang-phuc"
       },
+      "Tiền nhiệm": {
+        "name": "Lý Nam Đế",
+        "url": "/nhan-vat/ly-nam-de"
+      },
+      "Triều đại": {
+        "name": "Nhà Tiền Lý",
+        "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%BD"
+      },
+      "Trị vì": {
+        "name": "548 \u2013 571",
+        "url": "/wiki/548"
+      },
+      "Tước hiệu": {"name": "Dạ Trạch Vương (夜澤王)"},
+      "Sinh": {
+        "name": "26 tháng 01 năm 524 Chu Diên, Giao Châu",
+        "url": "/wiki/26_th%C3%A1ng_01"
+      },
       "Mất": {"name": "571"},
+      "Tôn giáo": {
+        "name": "Phật giáo",
+        "url": "/wiki/Ph%E1%BA%ADt_gi%C3%A1o"
+      },
       "Hoàng tộc": {
         "name": "Nhà Tiền Lý",
         "url": "/nhan-vat/nha-tien-ly"
       },
       "Tại vị": {"name": "548 - 571"},
-      "Tiền nhiệm": {
-        "name": "Lý Nam Đế",
-        "url": "/nhan-vat/ly-nam-de"
-      },
+      "Hậu duệ": {"name": "Cảo Nương"},
       "Thân phụ": {
         "name": "Triệu Túc",
         "url": "/nhan-vat/trieu-tuc"
@@ -9495,7 +9561,49 @@
     ],
     "id": "c268",
     "url": "/nhan-vat/trinh-can",
-    "info": {}
+    "info": {
+      "Trị vì": {
+        "name": "13 tháng 9 năm 1782 \u2013 28 tháng 11 năm 1782 76 ngày",
+        "url": "/wiki/13_th%C3%A1ng_9"
+      },
+      "Kế nhiệm": {
+        "name": "Trịnh Tông",
+        "url": "/wiki/Tr%E1%BB%8Bnh_T%C3%B4ng"
+      },
+      "Thân mẫu": {
+        "name": "Tuyên phi Đặng Thị Huệ",
+        "url": "/wiki/%C4%90%E1%BA%B7ng_Th%E1%BB%8B_Hu%E1%BB%87"
+      },
+      "Tên thật": {
+        "name": "Tên thật Trịnh Cán (鄭檊) Thụy hiệu Xung Mẩn vương (沖愍王)",
+        "url": "/wiki/Th%E1%BB%A5y_hi%E1%BB%87u"
+      },
+      "Thời vua": {
+        "name": "Lê Hiển Tông (1740 - 1786)",
+        "url": "/wiki/L%C3%AA_Hi%E1%BB%83n_T%C3%B4ng"
+      },
+      "Tước hiệu": {"name": "Điện Đô Vương (奠都王)"},
+      "Sinh": {
+        "name": "1777",
+        "url": "/wiki/1777"
+      },
+      "Mất": {
+        "name": "17 tháng 12, 1782(1782-12-17) (5 tuổi) Đông Kinh, Đàng Ngoài, Đại Việt",
+        "url": "/wiki/%C4%90%C3%B4ng_Kinh"
+      },
+      "Hoàng tộc": {
+        "name": "Chúa Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
+      "Tiền nhiệm": {
+        "name": "Trịnh Sâm",
+        "url": "/wiki/Tr%E1%BB%8Bnh_S%C3%A2m"
+      },
+      "Thân phụ": {
+        "name": "Trịnh Sâm",
+        "url": "/wiki/Tr%E1%BB%8Bnh_S%C3%A2m"
+      }
+    }
   },
   {
     "name": "Đỗ Lễ",
@@ -9744,15 +9852,24 @@
       "Thụy hiệu": {"name": "Ân Vương (恩王)"},
       "Kế nhiệm": {"name": "Trịnh Sâm"},
       "Thân mẫu": {"name": "Vũ Thị Ngọc Nguyên"},
+      "Vương tộc": {
+        "name": "Chúa Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
       "Tiền nhiệm": {"name": "Trịnh Giang"},
       "Thê thiếp": {"name": "Nguyễn Thị Ngọc Diễm"},
       "Tước hiệu": {"name": "Tiết chế quân thủy, quân bộ các xứ, Thái úy, Ân quốc công (1735); Nguyên soái, tổng quốc chính, Minh Đô vương (1740); Thượng sư Thượng phụ Anh Đoán Văn Trị Võ Công Minh Vương (1755)"},
       "Thời kỳ": {"name": "Lê Ý Tông (1735 - 1740) Lê Hiển Tông (1740 - 1786)"},
       "Sinh": {"name": "1720"},
       "Mất": {"name": "1767 (46\u201347 tuổi) Đông Kinh, Đàng Ngoài, Đại Việt"},
+      "Tôn giáo": {
+        "name": "Nho giáo",
+        "url": "/wiki/Nho_gi%C3%A1o"
+      },
       "Miếu hiệu": {"name": "Nghị Tổ (毅祖)"},
       "Tại vị": {"name": "1740 \u2013 1767"},
       "Hậu duệ": {"name": "Hậu duệ Trịnh Sâm Tiên Dung quận chúa, gả cho Thái tử Lê Duy Vĩ Thụy Quận công Trịnh Lệ"},
+      "An táng": {"name": "Núi Chân Tiên"},
       "Thân phụ": {"name": "Trịnh Cương"}
     }
   },
@@ -9767,13 +9884,30 @@
       "Kế nhiệm": {"name": "Trịnh Doanh"},
       "Thân mẫu": {"name": "Vũ Thị Ngọc Nguyên"},
       "Tên thật": {"name": "Trịnh Giang (鄭杠)"},
+      "Tiền nhiệm": {"name": "Trịnh Cương"},
       "Tước hiệu": {"name": "Uy Nam Vương (威南王)"},
       "Thời kỳ": {"name": "Hôn Đức Công (1729 - 1732) Lê Thuần Tông (1732 - 1735) Lê Ý Tông (1735 - 1740)"},
       "Sinh": {"name": "1711"},
       "Mất": {"name": "1762 (50\u201351 tuổi) Đông Kinh, Đàng Ngoài, Đại Việt"},
+      "Phối ngẫu": {
+        "name": "Lê Thị Ngọc Thanh",
+        "url": "/w/index.php?title=L%C3%AA_Th%E1%BB%8B_Ng%E1%BB%8Dc_Thanh&action=edit&redlink=1"
+      },
+      "Tôn giáo": {
+        "name": "Nho giáo",
+        "url": "/wiki/Nho_gi%C3%A1o"
+      },
       "Miếu hiệu": {"name": "Dụ Tổ (裕祖)"},
+      "Hoàng tộc": {
+        "name": "Chúa Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
       "Tại vị": {"name": "1729 \u2013 1740"},
-      "Tiền nhiệm": {"name": "Trịnh Cương"},
+      "An táng": {"name": "Cánh đồng Nhân Lý thuộc phủ Thiệu Thiên, Thanh Hoa"},
+      "Hậu duệ": {
+        "name": "Trịnh Bồng",
+        "url": "/wiki/Tr%E1%BB%8Bnh_B%E1%BB%93ng"
+      },
       "Thân phụ": {"name": "Trịnh Cương"}
     }
   },
@@ -10956,6 +11090,10 @@
       "Trị vì": {"name": "19 tháng 9 năm 1885 - 28 tháng 1 năm 1889 (3 năm, 131 ngày)"},
       "Sinh": {"name": "19 tháng 2 năm 1864 Huế, Đại Nam"},
       "Mất": {"name": "28 tháng 1, 1889 (24 tuổi) Huế, Đại Nam, Liên bang Đông Dương"},
+      "Tôn giáo": {
+        "name": "Phật giáo, Nho giáo",
+        "url": "/wiki/Ph%E1%BA%ADt_gi%C3%A1o"
+      },
       "Miếu hiệu": {"name": "Cảnh Tông (景宗)"},
       "Hậu duệ": {"name": "Hậu duệ 6 hoàng tử và 3 công chúa"},
       "An táng": {"name": "Tư Lăng (思陵)"},
@@ -12286,7 +12424,14 @@
       "Niên hiệu": {"name": "Thiệu Thành (1401 - 1402) Khai Đại (1403 - 1407)"},
       "Kế nhiệm": {"name": "Triều đại sụp đổ Giản Định Đế (Nhà Hậu Trần)"},
       "Thân mẫu": {"name": "Công chúa Huy Ninh"},
+      "Sinh": {"name": "1375 Thanh Hóa ?, Việt Nam"},
+      "Mất": {"name": "1407 Quảng Tây, Trung Quốc"},
+      "Tôn giáo": {"name": "Nho giáo"},
       "Tại vị": {"name": "1401 - 1407"},
+      "Hậu duệ": {
+        "name": "Thái tử Hồ Nhuế",
+        "url": "/w/index.php?title=H%E1%BB%93_Nhu%E1%BA%BF&action=edit&redlink=1"
+      },
       "Tiền nhiệm": {
         "name": "Hồ Quý Ly",
         "url": "/nhan-vat/ho-quy-ly"
@@ -12294,6 +12439,10 @@
       "Thân phụ": {
         "name": "Hồ Quý Ly",
         "url": "/nhan-vat/ho-quy-ly"
+      },
+      "Thê thiếp": {
+        "name": "Hiến Gia Hoàng hậu",
+        "url": "/w/index.php?title=Hi%E1%BA%BFn_Gia_Ho%C3%A0ng_h%E1%BA%ADu&action=edit&redlink=1"
       }
     }
   },
@@ -14874,13 +15023,22 @@
       },
       "Triều đại": {"name": "Nhà Trần"},
       "Trị vì": {"name": "27 tháng 12, 1388 - 15 tháng 3, 1398 (9 năm, 78 ngày)"},
+      "Tước hiệu": {"name": "Chiêu Định vương"},
       "Sinh": {"name": "1377"},
       "Mất": {"name": "tháng 4, 1399"},
       "Tôn giáo": {"name": "Phật giáo"},
       "Miếu hiệu": {"name": "Thuận Tông (順宗)"},
+      "Tại vị": {
+        "name": "15 tháng 3 năm 1398 \u2013 30 tháng 4 năm 1400 (2 năm, 46 ngày)",
+        "url": "/wiki/15_th%C3%A1ng_3"
+      },
       "Thân phụ": {
         "name": "Trần Nghệ Tông",
         "url": "/nhan-vat/tran-nghe-tong"
+      },
+      "Ở ngôi": {
+        "name": "6 tháng 12 năm 1388 \u2013 15 tháng 3 năm 1398 (9 năm, 99 ngày)",
+        "url": "/wiki/6_th%C3%A1ng_12"
       }
     }
   },
@@ -15600,6 +15758,10 @@
         "url": "/nhan-vat/tran-nhan-tong"
       },
       "Thân mẫu": {"name": "Hiển Từ Thuận Thiên hoàng hậu"},
+      "Tước vị": {
+        "name": "Tước vị Nhân Hoàng (仁皇 1258-78) Hiến Thiên Thể Đạo Đại Minh Quang Hiếu Hoàng Đế (憲天體道大明光孝皇帝 1258-78) Quang Nghiêu Từ Hiếu Thái Thượng Hoàng Đế (光尧慈孝太上皇帝 1278-90)",
+        "url": "/w/index.php?title=T%C6%B0%E1%BB%9Bc_v%E1%BB%8B_%C4%91%E1%BA%A7y_%C4%91%E1%BB%A7&action=edit&redlink=1"
+      },
       "Tên thật": {
         "name": "Trần Hoảng (陳晃)",
         "url": "/nhan-vat/tran-hoang"
@@ -15619,11 +15781,19 @@
       "Mất": {"name": "3/7/1290.Hưởng dương 50 tuổi. Cung Nhân Thọ, Thăng Long"},
       "Tôn giáo": {"name": "Phật giáo"},
       "Miếu hiệu": {"name": "Thánh Tông (聖宗)"},
+      "Hoàng tộc": {
+        "name": "Nhà Trần",
+        "url": "/wiki/Nh%C3%A0_Tr%E1%BA%A7n"
+      },
       "Hậu duệ": {
         "name": "Hậu duệ Trần Nhân Tông Trần Đức Việp Thiên Thụy công chúa",
         "url": "/nhan-vat/tran-nhan-tong"
       },
       "An táng": {"name": "Dụ Lăng"},
+      "Tại vị": {
+        "name": "8 tháng 11 năm 1278 \u2013 3 tháng 7 năm 1290 (11 năm, 237 ngày)",
+        "url": "/wiki/8_th%C3%A1ng_11"
+      },
       "Thân phụ": {
         "name": "Trần Thái Tông",
         "url": "/nhan-vat/tran-thai-tong"
@@ -18150,6 +18320,10 @@
         "url": "/nhan-vat/tran-hien-tong"
       },
       "Thân mẫu": {"name": "Chiêu Từ hoàng hậu"},
+      "Tước vị": {
+        "name": "Tước vị Ninh Hoàng (寧皇 1314-29) Thể Thiên Sùng Hóa Khâm Minh Duệ Hiếu Hoàng Đế (體天崇化欽明睿孝皇帝 1314-29) Chương Nghiêu Văn Triết Thái Thượng Hoàng Đế (章堯文哲太上皇帝 1329-57)",
+        "url": "/wiki/1314"
+      },
       "Tên húy": {
         "name": "Trần Mạnh (陳奣)",
         "url": "/nhan-vat/tran-manh"
@@ -18166,10 +18340,22 @@
       "Sinh": {"name": "4 tháng 9, 1300 Thăng Long"},
       "Mất": {"name": "10/3/1357.Hưởng dương 57 tuổi Cung Bảo Nguyên, Thăng Long"},
       "Tôn giáo": {"name": "Phật giáo"},
+      "Thái Thượng hoàng": {
+        "name": "Trần Anh Tông (1314-1320)",
+        "url": "/wiki/Tr%E1%BA%A7n_Anh_T%C3%B4ng"
+      },
       "Miếu hiệu": {"name": "Minh Tông (明宗)"},
       "Hoàng tộc": {"name": "Nhà Trần"},
       "Hậu phi": {"name": "Hậu phi Hiến Từ hoàng hậu Minh Từ quý phi Đôn Từ quý phi"},
       "An táng": {"name": "22 tháng 12 năm 1357 Mục Lăng"},
+      "Tại vị": {
+        "name": "15 tháng 3 năm 1329 \u2013 10 tháng 3 năm 1357 (27 năm, 360 ngày)",
+        "url": "/wiki/15_th%C3%A1ng_3"
+      },
+      "Hậu duệ": {
+        "name": "Hậu duệ Trần Hiến Tông Trần Nguyên Trác Trần Nghệ Tông Trần Dụ Tông Trần Duệ Tông Thiên Ninh Công chúa Huy Ninh công chúa và nhiều người khác",
+        "url": "/wiki/Tr%E1%BA%A7n_Hi%E1%BA%BFn_T%C3%B4ng"
+      },
       "Thân phụ": {
         "name": "Trần Anh Tông",
         "url": "/nhan-vat/tran-anh-tong"
@@ -18345,6 +18531,40 @@
     "id": "c499",
     "url": "/nhan-vat/tran-nhan-tong",
     "info": {
+      "Tước vị": {
+        "name": "Hiếu Hoàng (孝皇 1278-93) Pháp Thiên Ngự Cực Anh Liệt Vũ Thánh Minh Nhân Hoàng Đế (法天御極英烈武聖明仁皇帝 1278-93) Hiến Nghiêu Quang Thánh Thái Thượng Hoàng Đế (憲堯光聖太上皇帝 1293-1308)",
+        "url": "/wiki/1278"
+      },
+      "Tiền nhiệm": {
+        "name": "Trần Thánh Tông",
+        "url": "/nhan-vat/tran-thanh-tong"
+      },
+      "Vợ": {"name": "Khâm Từ hoàng hậu Tuyên Từ hoàng hậu Đệ Ngũ Cung phi"},
+      "Trị vì": {"name": "1278 \u2013 1293"},
+      "Sinh": {"name": "7 tháng 12, 1258 Thăng Long"},
+      "Tôn giáo": {"name": "Phật giáo"},
+      "Miếu hiệu": {"name": "Nhân Tông"},
+      "Hoàng tộc": {"name": "Nhà Trần"},
+      "Hậu phi": {
+        "name": "Hậu phi Khâm Từ Hoàng hậu Tuyên Từ Hoàng hậu Đệ ngũ Cung phi",
+        "url": "/w/index.php?title=B%E1%BA%A3o_Tr%E1%BA%A7n_ho%C3%A0ng_h%E1%BA%ADu&action=edit&redlink=1"
+      },
+      "Tại vị": {
+        "name": "16 tháng 4 năm 1293 \u2013 16 tháng 12 năm 1308 (15 năm, 244 ngày)",
+        "url": "/wiki/16_th%C3%A1ng_4"
+      },
+      "Thân phụ": {
+        "name": "Trần Thánh Tông",
+        "url": "/nhan-vat/tran-thanh-tong"
+      },
+      "Môn đồ": {
+        "name": "Pháp Loa, Bảo Sát và nhiều người khác",
+        "url": "/wiki/Ph%C3%A1p_Loa"
+      },
+      "Tác phẩm": {
+        "name": "Xem mục Tác phẩm",
+        "url": "#Tác_phẩm"
+      },
       "Thụy hiệu": {"name": "Pháp Thiên Sùng Đạo Ứng Thế Hóa Dân Long Từ Hiển Hiệu Thánh Văn Thần Võ Nguyên Minh Duệ Hiếu Hoàng Đế 法天崇道應世化民隆慈顯惠聖文神武元明睿孝皇帝"},
       "Niên hiệu": {"name": "Thiệu Bảo (1278\u20131285) Trùng Hưng (1285\u20131293)"},
       "Kế nhiệm": {
@@ -18356,32 +18576,50 @@
         "name": "Trần Khâm (陳昑)",
         "url": "/nhan-vat/tran-kham"
       },
-      "Tiền nhiệm": {
-        "name": "Trần Thánh Tông",
-        "url": "/nhan-vat/tran-thanh-tong"
+      "Chức vụ": {"name": "Tổ thứ 1 Thiền phái Trúc Lâm Yên Tử"},
+      "Thiền phái": {
+        "name": "Thiền phái Trúc Lâm",
+        "url": "/wiki/Thi%E1%BB%81n_ph%C3%A1i_Tr%C3%BAc_L%C3%A2m"
       },
       "Thượng hoàng": {
         "name": "Trần Thánh Tông",
         "url": "/nhan-vat/tran-thanh-tong"
       },
-      "Vợ": {"name": "Khâm Từ hoàng hậu Tuyên Từ hoàng hậu Đệ Ngũ Cung phi"},
-      "Trị vì": {"name": "1278 \u2013 1293"},
-      "Sinh": {"name": "7 tháng 12, 1258 Thăng Long"},
+      "An nghỉ": {"name": "Lăng Quy Đức (phủ Long Hưng); Bảo tháp Huệ Quang (chùa Hoa Yên \u2013 Yên Tử); Chùa Phổ Minh (Thiên Trường)"},
+      "Thầy": {
+        "name": "Tuệ Trung Thượng Sĩ",
+        "url": "/wiki/Tu%E1%BB%87_Trung_Th%C6%B0%E1%BB%A3ng_S%C4%A9"
+      },
+      "Xuất gia": {
+        "name": "Hành cung Vũ Lâm, Ninh Bình",
+        "url": "/wiki/H%C3%A0nh_cung_V%C5%A9_L%C3%A2m"
+      },
+      "Tấn phong": {"name": "Đại Thánh Trần Triều Trúc Lâm Đầu Đà Tĩnh Tuệ Giác Hoàng Điều Ngự Tổ Phật (大聖陳朝竹林頭陀靜慧覺皇調御祖佛)"},
+      "Thái thượng hoàng": {
+        "name": "Trần Thánh Tông (1278-1290)",
+        "url": "/wiki/Tr%E1%BA%A7n_Th%C3%A1nh_T%C3%B4ng"
+      },
+      "Trường phái": {
+        "name": "Đại thừa",
+        "url": "/wiki/%C4%90%E1%BA%A1i_th%E1%BB%ABa"
+      },
+      "Quốc tịch": {
+        "name": "Đại Việt",
+        "url": "/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+      },
       "Mất": {
         "name": "14 hoặc 16 tháng 12, 1308 (50 tuổi) Am Ngọa Vân, núi Yên Tử",
         "url": "/dia-danh/nui-yen-tu"
       },
-      "Tôn giáo": {"name": "Phật giáo"},
-      "Miếu hiệu": {"name": "Nhân Tông"},
-      "Hoàng tộc": {"name": "Nhà Trần"},
+      "Tên khác": {"name": "Hương Vân Đại Đầu đà (香雲大頭陀) Trúc Lâm Đại Đầu đà (竹林大頭陀) Trúc Lâm Đại sĩ (竹林大士)"},
       "Hậu duệ": {
         "name": "Hậu duệ Trần Anh Tông Trần Quốc Chẩn Thượng Trân công chúa Thiên Trân công chúa Huyền Trân công chúa",
         "url": "/nhan-vat/tran-anh-tong"
       },
       "An táng": {"name": "Đức Lăng"},
-      "Thân phụ": {
-        "name": "Trần Thánh Tông",
-        "url": "/nhan-vat/tran-thanh-tong"
+      "Tông phái": {
+        "name": "Thiền tông",
+        "url": "/wiki/Thi%E1%BB%81n_t%C3%B4ng"
       }
     }
   },
@@ -18887,6 +19125,10 @@
       "Miếu hiệu": {"name": "Nghệ Tông (藝宗)"},
       "Tại vị": {"name": "9 tháng 11 năm 1372 - 15 tháng 12 năm 1394 (23 năm, 36 ngày)"},
       "An táng": {"name": "Nguyên Lăng (沅陵)"},
+      "Hậu duệ": {
+        "name": "Hậu duệ Trần Ngạc Giản Định Đế Trần Thuận Tông Thiên Huy Công chúa",
+        "url": "/wiki/Tr%E1%BA%A7n_Ng%E1%BA%A1c"
+      },
       "Thân phụ": {
         "name": "Trần Minh Tông",
         "url": "/nhan-vat/tran-minh-tong"
@@ -19420,7 +19662,36 @@
     ],
     "id": "c526",
     "url": "/nhan-vat/khuc-thua-my",
-    "info": {}
+    "info": {
+      "Trị vì": {
+        "name": "917 \u2013 923 hoặc 930",
+        "url": "/wiki/917"
+      },
+      "Kế nhiệm": {
+        "name": "Dương Đình Nghệ",
+        "url": "/wiki/D%C6%B0%C6%A1ng_%C4%90%C3%ACnh_Ngh%E1%BB%87"
+      },
+      "Tên thật": {
+        "name": "Tên thật Khúc Thừa Mỹ (曲承美) Miếu hiệu Hậu Chủ",
+        "url": "/wiki/Mi%E1%BA%BFu_hi%E1%BB%87u"
+      },
+      "Sinh": {
+        "name": "Trước 900 Hải Dương",
+        "url": "/wiki/900"
+      },
+      "Mất": {
+        "name": "931",
+        "url": "/wiki/931"
+      },
+      "Tiền nhiệm": {
+        "name": "Khúc Trung Chủ",
+        "url": "/wiki/Kh%C3%BAc_H%E1%BA%A1o"
+      },
+      "Thân phụ": {
+        "name": "Khúc Trung Chủ",
+        "url": "/wiki/Kh%C3%BAc_H%E1%BA%A1o"
+      }
+    }
   },
   {
     "name": "Kiến Phúc",
@@ -19657,6 +19928,18 @@
     "info": {
       "trị vì": {"name": "907-917"},
       "Kế nhiệm": {"name": "Khúc Hậu Chủ"},
+      "Trị vì": {
+        "name": "907 \u2013 917",
+        "url": "/wiki/907"
+      },
+      "Tên thật": {
+        "name": "Tên thật Khúc Hạo (曲顥) hoặc Khúc Thừa Hạo (曲承顥) Miếu hiệu Trung Chủ",
+        "url": "/wiki/Mi%E1%BA%BFu_hi%E1%BB%87u"
+      },
+      "Sinh": {
+        "name": "860 Hồng Châu, An Nam (nay là Hải Dương,Việt Nam)",
+        "url": "/wiki/An_Nam"
+      },
       "Mất": {"name": "cuối năm 917 Thành Đại La, Hà Nội"},
       "Miếu hiệu": {"name": "Trung Chủ"},
       "Hậu duệ": {
@@ -19827,6 +20110,7 @@
       "Tôn giáo": {"name": "Phật giáo"},
       "Miếu hiệu": {"name": "Hiến Tông (憲宗)"},
       "An táng": {"name": "An Lăng (安陵)"},
+      "Hậu duệ": {"name": "1 công chúa"},
       "Thân phụ": {
         "name": "Trần Minh Tông",
         "url": "/nhan-vat/tran-minh-tong"
@@ -21033,7 +21317,6 @@
     "id": "c567",
     "url": "/nhan-vat/le-anh-tong",
     "info": {
-      "Triều đại": {"name": "Nhà Lê trung hưng"},
       "Thụy hiệu": {"name": "Tuấn Hoàng đế (峻皇帝)"},
       "Niên hiệu": {"name": "Thiên Hựu (天祐; 1557) Chính trị (正治; 1558 - 1571) Hồng Phúc (洪福; 1572)"},
       "Kế nhiệm": {
@@ -21044,15 +21327,25 @@
         "name": "Lê Duy Bang (黎維邦)",
         "url": "/nhan-vat/le-duy-bang"
       },
-      "Sinh": {"name": "1532"},
-      "Mất": {"name": "22 tháng 1, 1573 (40\u201341 tuổi) Đại Việt"},
-      "Miếu hiệu": {"name": "Anh Tông (英宗)"},
-      "Tại vị": {"name": "1556 - 1573"},
-      "An táng": {"name": "Bố Vệ lăng hay Thổ Lăng (土陵)"},
       "Tiền nhiệm": {
         "name": "Lê Trung Tông",
         "url": "/nhan-vat/le-trung-tong"
-      }
+      },
+      "Triều đại": {"name": "Nhà Lê trung hưng"},
+      "Trị vì": {
+        "name": "24 tháng 1 năm 1556 \u2013 22 tháng 1 năm 1573 (16 năm, 364 ngày)",
+        "url": "/wiki/24_th%C3%A1ng_1"
+      },
+      "Sinh": {"name": "1532"},
+      "Mất": {"name": "22 tháng 1, 1573 (40\u201341 tuổi) Đại Việt"},
+      "Chúa Trịnh": {
+        "name": "Trịnh Kiểm (1556-1570) Trịnh Cối (1570) Trịnh Tùng (1570-1573)",
+        "url": "/wiki/Tr%E1%BB%8Bnh_Ki%E1%BB%83m"
+      },
+      "Miếu hiệu": {"name": "Anh Tông (英宗)"},
+      "Tại vị": {"name": "1556 - 1573"},
+      "An táng": {"name": "Bố Vệ lăng hay Thổ Lăng (土陵)"},
+      "Thân phụ": {"name": "Lê Duy Khoáng"}
     }
   },
   {
@@ -21132,6 +21425,14 @@
       "Trị vì": {"name": "? - Thế kỷ VII TCN"},
       "Kế nhiệm": {"name": "Hùng Vương thứ I"},
       "Thân mẫu": {"name": "Long Mẫu Thần Long"},
+      "Sinh": {
+        "name": "2825 TCN Xích Quỷ",
+        "url": "/w/index.php?title=2825_TCN&action=edit&redlink=1"
+      },
+      "Mất": {
+        "name": "2524 TCN (300-301 tuổi) Không rõ",
+        "url": "/w/index.php?title=2524_TCN&action=edit&redlink=1"
+      },
       "Tên": {"name": "Sùng Lãm"},
       "Hậu duệ": {"name": "Hậu duệ Một trăm con, con trưởng là Hùng Vương thứ I."},
       "Tiền nhiệm": {
@@ -21900,11 +22201,17 @@
         "url": "/nhan-vat/le-than-tong"
       },
       "Triều đại": {"name": "Nhà Lê trung hưng"},
+      "Nhiếp chính": {
+        "name": "Trịnh Tráng (1643-1649)",
+        "url": "/wiki/Tr%E1%BB%8Bnh_Tr%C3%A1ng"
+      },
       "Trị vì": {"name": "1643 \u2013 1649"},
       "Sinh": {"name": "1630"},
       "Mất": {"name": "1649 (18\u201319 tuổi) Đông Kinh, Đại Việt"},
+      "Phối ngẫu": {"name": "Phương Từ Hoàng Hậu Trịnh Thị"},
       "Miếu hiệu": {"name": "Chân Tông (真宗)"},
       "An táng": {"name": "Lăng Hoa Phố"},
+      "Hậu duệ": {"name": "Tinh Thụy Công Chúa Lê Thị Ngọc Phù"},
       "Thân phụ": {
         "name": "Lê Thần Tông",
         "url": "/nhan-vat/le-than-tong"
@@ -22276,6 +22583,10 @@
       "Sinh": {"name": "4 tháng 10, 1506 hoặc 1501 Đông Kinh"},
       "Mất": {"name": "18 tháng 12, 1526 (20 tuổi) phường Đông Hà (Hàng Chiếu), Đông Kinh, Đại Việt"},
       "Miếu hiệu": {"name": "Chiêu Tông (昭宗)"},
+      "Hoàng tộc": {
+        "name": "Hoàng triều Lê",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_s%C6%A1"
+      },
       "Hậu duệ": {
         "name": "Hậu duệ Lê Trang Tông",
         "url": "/nhan-vat/le-trang-tong"
@@ -22355,6 +22666,10 @@
       "Tiền nhiệm": {
         "name": "Lê Chiêu Tông",
         "url": "/nhan-vat/le-chieu-tong"
+      },
+      "Thê thiếp": {
+        "name": "Quý Phi Nguyễn Thị (贵妃阮氏),con gái Thông quốc công Nguyễn Thì Ung",
+        "url": "/w/index.php?title=Nguy%E1%BB%85n_Th%C3%AC_Ung&action=edit&redlink=1"
       },
       "Triều đại": {"name": "Nhà Lê sơ"},
       "Sinh": {"name": "26 tháng 7, 1507 Đông Kinh"},
@@ -22464,6 +22779,10 @@
       "Trị vì": {"name": "1786 \u2013 1789"},
       "Sinh": {"name": "1765 Đông Kinh, Đại Việt"},
       "Mất": {"name": "1793 (27\u201328 tuổi) Yên Kinh, Đại Thanh"},
+      "Chúa Trịnh": {
+        "name": "Trịnh Bồng (1786 \u2013 1787)",
+        "url": "/wiki/Tr%E1%BB%8Bnh_B%E1%BB%93ng"
+      },
       "An táng": {"name": "tháng 11 năm 1804 Lăng Bàn Thạch, Việt Nam"},
       "Thân phụ": {"name": "Lê Duy Vĩ"}
     }
@@ -22689,6 +23008,7 @@
       "Thụy hiệu": {"name": "Thuần Chính Huy Nhu Ôn Giản Từ Tường Khoan Huệ Tôn Mẫu Hòa Hoàng đế"},
       "Niên hiệu": {"name": "Vĩnh Thịnh (永盛: 1706 - 1719) Bảo Thái (保泰: 1720 - 1729)"},
       "Kế nhiệm": {"name": "Lê Ý Tông"},
+      "Thân mẫu": {"name": "không rõ"},
       "Tên thật": {
         "name": "Lê Duy Đường",
         "url": "/nhan-vat/le-duy-duong"
@@ -22704,6 +23024,7 @@
       "Chúa Trịnh": {"name": "Trịnh Căn Trịnh Cương"},
       "Miếu hiệu": {"name": "Dụ Tông (裕宗)"},
       "Tại vị": {"name": "1729 \u2013 1731"},
+      "An táng": {"name": "Cổ Đô lăng (古都陵), sau dời về Kim Thạch lăng (金石陵)"},
       "Thân phụ": {
         "name": "Lê Hy Tông",
         "url": "/nhan-vat/le-hy-tong"
@@ -23013,6 +23334,7 @@
         "url": "/nhan-vat/tran-minh-tong"
       },
       "Thân mẫu": {"name": "Bảo Thánh hoàng hậu"},
+      "Tước vị": {"name": "Anh Hoàng (英皇, 1293 - 1314) Ứng Thiên Quảng Vận Nhân Minh Thánh Hiếu Hoàng Đế 應天廣運仁明聖孝皇帝"},
       "Tên húy": {
         "name": "Trần Thuyên (陳烇)",
         "url": "/nhan-vat/tran-thuyen"
@@ -23032,7 +23354,23 @@
       "Mất": {"name": "21/4/1320.Hưởng dương 45 tuổi. Cung Trùng Quang, Thiên Trường"},
       "Tôn giáo": {"name": "Phật giáo"},
       "Miếu hiệu": {"name": "Anh Tông (英宗)"},
+      "Hoàng tộc": {
+        "name": "Hoàng triều Trần",
+        "url": "/wiki/Nh%C3%A0_Tr%E1%BA%A7n"
+      },
+      "Hậu phi": {
+        "name": "xem danh sách",
+        "url": "#Gia_đình"
+      },
       "An táng": {"name": "10 tháng 1 năm 1321Thái lăng, Yên Sinh"},
+      "Tại vị": {
+        "name": "3 tháng 4 năm 1314 \u2013 21 tháng 4 năm 1320 (6 năm, 18 ngày)",
+        "url": "/wiki/3_th%C3%A1ng_4"
+      },
+      "Hậu duệ": {
+        "name": "xem danh sách",
+        "url": "#Gia_đình"
+      },
       "Thân phụ": {
         "name": "Trần Nhân Tông",
         "url": "/nhan-vat/tran-nhan-tong"
@@ -23456,25 +23794,37 @@
     "id": "c632",
     "url": "/nhan-vat/le-duy-phuong",
     "info": {
+      "Niên hiệu": {"name": "Vĩnh Khánh (永慶)"},
+      "Kế nhiệm": {
+        "name": "Lê Thuần Tông",
+        "url": "/nhan-vat/le-thuan-tong"
+      },
+      "Thân mẫu": {
+        "name": "Hoàng hậu Trịnh Thị Ngọc Trang",
+        "url": "/w/index.php?title=Tr%E1%BB%8Bnh_Th%E1%BB%8B_Ng%E1%BB%8Dc_Trang&action=edit&redlink=1"
+      },
+      "Tên thật": {"name": "Lê Duy Phường"},
+      "Tiền nhiệm": {
+        "name": "Lê Dụ Tông",
+        "url": "/nhan-vat/le-du-tong"
+      },
+      "Thê thiếp": {
+        "name": "Hoàng hậu Trịnh Thị Ngọc Nhu",
+        "url": "/w/index.php?title=Tr%E1%BB%8Bnh_Th%E1%BB%8B_Ng%E1%BB%8Dc_Nhu&action=edit&redlink=1"
+      },
       "Triều đại": {"name": "Nhà Lê trung hưng"},
       "Thái thượng hoàng": {
         "name": "Lê Dụ Tông",
         "url": "/nhan-vat/le-du-tong"
       },
-      "Niên hiệu": {"name": "Vĩnh Khánh (永慶)"},
       "Trị vì": {"name": "1729 \u2013 1732"},
-      "Kế nhiệm": {
-        "name": "Lê Thuần Tông",
-        "url": "/nhan-vat/le-thuan-tong"
-      },
-      "Tên thật": {"name": "Lê Duy Phường"},
       "Sinh": {"name": "1709"},
       "Mất": {"name": "1735 (25\u201326 tuổi)"},
       "Tại vị": {"name": "1732 \u2013 1735"},
       "An táng": {"name": "Kim Lũ"},
-      "Tiền nhiệm": {
-        "name": "Lê Dụ Tông",
-        "url": "/nhan-vat/le-du-tong"
+      "Hậu duệ": {
+        "name": "Lê Duy Diêu Lê Duy Hiên",
+        "url": "/wiki/L%C3%AA_Duy_Di%C3%AAu"
       },
       "Thân phụ": {
         "name": "Lê Dụ Tông",
@@ -24948,6 +25298,10 @@
         "url": "/nhan-vat/le-huyen-tong"
       },
       "Triều đại": {"name": "Nhà Lê trung hưng"},
+      "Nhiếp chính": {
+        "name": "Trịnh Tạc (1671-1675)",
+        "url": "/wiki/Tr%E1%BB%8Bnh_T%E1%BA%A1c"
+      },
       "Trị vì": {"name": "1671 - 1675"},
       "Sinh": {"name": "1661"},
       "Mất": {"name": "1675 (13\u201314 tuổi) Đông Kinh, Đại Việt"},
@@ -25245,9 +25599,21 @@
       "Thê thiếp": {"name": "Trang Thuận Duệ hoàng hậu Chiêu Nhân Duệ hoàng hậu Từ Trinh Liêm hoàng hậu"},
       "Triều đại": {"name": "Nhà Lê sơ"},
       "Trị vì": {"name": "1497 - 1504"},
+      "Tước hiệu": {
+        "name": "Thượng Dương động chủ (上陽洞主, 1497 - 1504)",
+        "url": "/wiki/1497"
+      },
       "Sinh": {"name": "10 tháng 8, 1461"},
       "Mất": {"name": "24 tháng 5, 1504 (42 tuổi) Điện Đồ Trị, Đông Kinh"},
       "Miếu hiệu": {"name": "Hiến Tông (憲宗)"},
+      "Hoàng tộc": {
+        "name": "Hoàng triều Lê",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_s%C6%A1"
+      },
+      "Hậu phi": {
+        "name": "Hậu phi Trang Thuận Duệ Hoàng hậu Chiêu Nhân Duệ Hoàng hậu Từ Trinh Liêm Hoàng hậu",
+        "url": "/wiki/Trang_Thu%E1%BA%ADn_ho%C3%A0ng_h%E1%BA%ADu"
+      },
       "Hậu duệ": {
         "name": "Hậu duệ An vương Lê Tuân Lê Uy Mục Lê Túc Tông Thông Vương Lê Dung Minh Vương Lê Trị Tư Vương Lê Dưỡng",
         "url": "/nhan-vat/le-uy-muc"
@@ -25345,6 +25711,14 @@
       "Mất": {"name": "4 tháng 10, 1847 (40 tuổi) Huế, Đại Nam"},
       "Tôn giáo": {"name": "Nho giáo, Phật giáo"},
       "Miếu hiệu": {"name": "Hiến Tổ (憲祖)"},
+      "Hoàng tộc": {
+        "name": "Hoàng triều Nguyễn",
+        "url": "/wiki/Nh%C3%A0_Nguy%E1%BB%85n"
+      },
+      "Hậu phi": {
+        "name": "Nghi Thiên Chương Hoàng hậu cùng nhiều phi tần khác",
+        "url": "/wiki/T%E1%BB%AB_D%E1%BB%A5"
+      },
       "Hậu duệ": {"name": "Hậu duệ 64 người, gồm 29 hoàng tử và 35 công chúa"},
       "An táng": {"name": "Xương Lăng"},
       "Thân phụ": {"name": "Minh Mạng"}
@@ -26100,10 +26474,8 @@
     "id": "c695",
     "url": "/nhan-vat/le-huyen-tong",
     "info": {
-      "Triều đại": {"name": "Nhà Lê trung hưng"},
       "Thụy hiệu": {"name": "Mục Hoàng đế"},
       "Niên hiệu": {"name": "Cảnh Trị (景治: 1663 - 1671)"},
-      "Trị vì": {"name": "1662 - 1671"},
       "Kế nhiệm": {
         "name": "Lê Gia Tông",
         "url": "/nhan-vat/le-gia-tong"
@@ -26113,13 +26485,20 @@
         "name": "Lê Duy Vũ (黎維禑)",
         "url": "/nhan-vat/le-duy-vu"
       },
-      "Sinh": {"name": "1654"},
-      "Mất": {"name": "1671 (16\u201317 tuổi) Đông Kinh, Đại Việt"},
-      "Miếu hiệu": {"name": "Huyền Tông (玄宗)"},
       "Tiền nhiệm": {
         "name": "Lê Thần Tông",
         "url": "/nhan-vat/le-than-tong"
       },
+      "Triều đại": {"name": "Nhà Lê trung hưng"},
+      "Nhiếp chính": {
+        "name": "Trịnh Tạc (1662-1671)",
+        "url": "/wiki/Tr%E1%BB%8Bnh_T%E1%BA%A1c"
+      },
+      "Trị vì": {"name": "1662 - 1671"},
+      "Sinh": {"name": "1654"},
+      "Mất": {"name": "1671 (16\u201317 tuổi) Đông Kinh, Đại Việt"},
+      "Miếu hiệu": {"name": "Huyền Tông (玄宗)"},
+      "An táng": {"name": "Quả Thịnh lăng (果盛陵)"},
       "Thân phụ": {
         "name": "Lê Thần Tông",
         "url": "/nhan-vat/le-than-tong"
@@ -26213,6 +26592,10 @@
       "Tiền nhiệm": {
         "name": "Lê Thần Tông",
         "url": "/nhan-vat/le-than-tong"
+      },
+      "Nhiếp chinh": {
+        "name": "Trịnh Tạc (1675-1682) Trịnh Căn (1682-1705)",
+        "url": "/wiki/Tr%E1%BB%8Bnh_T%E1%BA%A1c"
       },
       "Triều đại": {"name": "Nhà Lê trung hưng"},
       "Sinh": {"name": "1663"},
@@ -27233,10 +27616,8 @@
     "id": "c725",
     "url": "/nhan-vat/le-kinh-tong",
     "info": {
-      "Triều đại": {"name": "Nhà Lê trung hưng"},
       "Thụy hiệu": {"name": "Hiển Nhân Dụ Khánh Tuy Phúc Huệ Hoàng đế (显仁裕庆绥福惠皇帝)1 Giản Huy Hoàng đế (簡輝皇帝)2"},
       "Niên hiệu": {"name": "Thận Đức (慎德: 1600 - 1601) Hoằng Định (弘定: 1601 - 1619)"},
-      "Trị vì": {"name": "1599 \u2013 1619"},
       "Kế nhiệm": {
         "name": "Lê Thần Tông",
         "url": "/nhan-vat/le-than-tong"
@@ -27246,13 +27627,20 @@
         "name": "Lê Duy Tân (黎維新)",
         "url": "/nhan-vat/le-duy-tan"
       },
-      "Sinh": {"name": "1588"},
-      "Mất": {"name": "1619 (30\u201331 tuổi) Đông Kinh, Đại Việt"},
-      "Miếu hiệu": {"name": "Kính Tông (敬宗)"},
       "Tiền nhiệm": {
         "name": "Lê Thế Tông",
         "url": "/nhan-vat/le-the-tong"
       },
+      "Triều đại": {"name": "Nhà Lê trung hưng"},
+      "Nhiếp chính": {
+        "name": "Trịnh Tùng (1599-1619)",
+        "url": "/wiki/Tr%E1%BB%8Bnh_T%C3%B9ng"
+      },
+      "Trị vì": {"name": "1599 \u2013 1619"},
+      "Sinh": {"name": "1588"},
+      "Mất": {"name": "1619 (30\u201331 tuổi) Đông Kinh, Đại Việt"},
+      "Miếu hiệu": {"name": "Kính Tông (敬宗)"},
+      "An táng": {"name": "Hoa Loan lăng (華巒陵)"},
       "Thân phụ": {
         "name": "Lê Thế Tông",
         "url": "/nhan-vat/le-the-tong"
@@ -29717,6 +30105,7 @@
       "Trị vì": {"name": "1442 \u2013 1459"},
       "Sinh": {"name": "9 tháng 5, 14411 Đông Kinh, Đại Việt"},
       "Mất": {"name": "3 tháng 10, 1459 (18 tuổi) Đông Kinh, Đại Việt"},
+      "Phối ngẫu": {"name": "không có"},
       "Miếu hiệu": {"name": "Nhân Tông (仁宗)"},
       "An táng": {"name": "Mục Lăng (穆陵)"},
       "Thân phụ": {
@@ -32306,15 +32695,27 @@
         "name": "Phạm Vấn Lê Sát Lê Ngân1",
         "url": "/nhan-vat/le-sat"
       },
+      "Vợ": {
+        "name": "Vợ Nguyễn Thị Anh Ngô Thị Ngọc Dao xem danh sách",
+        "url": "/wiki/Nguy%E1%BB%85n_Th%E1%BB%8B_Anh"
+      },
       "Thê thiếp": {"name": "Tuyên Từ Văn hoàng hậu Quang Thục Văn hoàng hậu"},
       "Triều đại": {"name": "Nhà Lê sơ"},
       "Trị vì": {"name": "1433 \u2013 1442"},
+      "Tước hiệu": {
+        "name": "Quế Lâm động chủ (桂林洞主, 1433 - 1442)",
+        "url": "/wiki/1433"
+      },
       "Sinh": {
         "name": "20 tháng 11, 1423 Lam Sơn, huyện Thọ Xuân, Thanh Hóa",
         "url": "/dia-danh/huyen-tho-xuan"
       },
       "Mất": {"name": "4 tháng 8, 1442 (18 tuổi) Lệ Chi viên, huyện Gia Định 2"},
       "Miếu hiệu": {"name": "Thái Tông (太宗)"},
+      "Hoàng tộc": {
+        "name": "Hoàng triều Lê",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_s%C6%A1"
+      },
       "Hậu duệ": {
         "name": "Hậu duệ Lê Nghi Dân Lê Khắc Xương Lê Bang Cơ Lê Tư Thành",
         "url": "/nhan-vat/le-nghi-dan"
@@ -32709,6 +33110,10 @@
         "url": "/nhan-vat/le-chan-tong"
       },
       "Triều đại": {"name": "Nhà Lê trung hưng"},
+      "Nhiếp chính": {
+        "name": "Trịnh Tráng (1649-1657) Trịnh Tạc (1657-1662)",
+        "url": "/wiki/Tr%E1%BB%8Bnh_Tr%C3%A1ng"
+      },
       "Trị vì": {"name": "1649 \u2013 1662"},
       "Sinh": {"name": "1607"},
       "Mất": {"name": "1662 (54\u201355 tuổi) Đông Kinh, Đại Việt"},
@@ -32917,7 +33322,15 @@
         "url": "/dia-danh/quan-dong-da"
       },
       "Mất": {"name": "3 tháng 3, 1497 (54 tuổi) Điện Bảo Quang, Đông Kinh"},
+      "Tôn giáo": {
+        "name": "Tân Nho giáo",
+        "url": "/wiki/T%C3%A2n_Nho_gi%C3%A1o"
+      },
       "Miếu hiệu": {"name": "Thánh Tông (聖宗)"},
+      "Hoàng tộc": {
+        "name": "Nhà Lê",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_s%C6%A1"
+      },
       "Hậu duệ": {
         "name": "Hậu duệ Lê Hiến Tông Lương Vương Lê Thuyên Tống Vương Lê Tung Đường Vương Lê Cảo Kiến Vương Lê Tân Phúc Vương Lê Tranh Diễn Vương Lê Thông Quảng Vương Lê Tảo Lâm Vương Lê Tương Ứng Vương Lê Chiêu Nghĩa Vương Lê Cảnh Trần Vương Lê Kinh Triệu Vương Lê Toan Kinh Vương Lê Kiện Lôi Ý công chúa Lan Minh công chúa Minh Kính công chúa Và 17 công chúa khác",
         "url": "/nhan-vat/le-hien-tong"
@@ -33122,6 +33535,10 @@
         "url": "/nhan-vat/le-kinh-tong"
       },
       "Tên thật": {"name": "Lê Duy Đàm (黎維潭)"},
+      "Chấp chính": {
+        "name": "Trịnh Tùng (1573-1599)",
+        "url": "/wiki/Tr%E1%BB%8Bnh_T%C3%B9ng"
+      },
       "Sinh": {"name": "1567"},
       "Mất": {"name": "1599 Đại Việt"},
       "Miếu hiệu": {"name": "Thế Tông (世宗)"},
@@ -33731,6 +34148,10 @@
       "Thụy hiệu": {"name": "Thuần Tông (純宗)"},
       "Niên hiệu": {"name": "Long Đức (龍德)"},
       "Kế nhiệm": {"name": "Lê Ý Tông"},
+      "Thân mẫu": {
+        "name": "Cung Phi Trần Thị",
+        "url": "/w/index.php?title=Cung_Phi_Tr%E1%BA%A7n_Th%E1%BB%8B&action=edit&redlink=1"
+      },
       "Tên thật": {"name": "Lê Duy Tường"},
       "Tiền nhiệm": {
         "name": "Lê Đế Duy Phường",
@@ -33738,11 +34159,16 @@
       },
       "Thê thiếp": {"name": "Nhu Thuận hoàng hậu"},
       "Triều đại": {"name": "Nhà Lê trung hưng"},
+      "Nhiếp chính": {
+        "name": "Trịnh Giang (1732-1735)",
+        "url": "/wiki/Tr%E1%BB%8Bnh_Giang"
+      },
       "Trị vì": {"name": "1732 - 1735"},
       "Sinh": {"name": "1699"},
       "Mất": {"name": "1735 Việt Nam"},
       "Miếu hiệu": {"name": "Giản Hoàng đế"},
       "Hậu duệ": {"name": "Hậu duệ Lê Hiển Tông"},
+      "An táng": {"name": "Bình Ngô lăng (平吳陵)"},
       "Thân phụ": {
         "name": "Lê Dụ Tông",
         "url": "/nhan-vat/le-du-tong"
@@ -35610,6 +36036,7 @@
         "url": "/nhan-vat/le-uy-muc"
       },
       "Thân mẫu": {"name": "Trang Thuận Duệ hoàng hậu"},
+      "Tước vị": {"name": "Tự Hoàng (嗣皇)"},
       "Tên thật": {"name": "Lê Thuần (黎㵮)"},
       "Tiền nhiệm": {
         "name": "Lê Hiến Tông",
@@ -35620,6 +36047,10 @@
       "Sinh": {"name": "6 tháng 9, 1488 Đông Kinh"},
       "Mất": {"name": "30 tháng 12, 1504 (16 tuổi) Điện Hoàng Cực, Đông Kinh"},
       "Miếu hiệu": {"name": "Túc Tông (肅宗)"},
+      "Hoàng tộc": {
+        "name": "Hoàng triều Lê",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_s%C6%A1"
+      },
       "An táng": {"name": "Kính lăng (敬陵)"},
       "Thân phụ": {
         "name": "Lê Hiến Tông",
@@ -35997,12 +36428,21 @@
       "Thê thiếp": {"name": "Khâm Đức hoàng hậu"},
       "Triều đại": {"name": "Nhà Lê sơ"},
       "Trị vì": {"name": "1509 - 1516"},
+      "Tước hiệu": {
+        "name": "Nhân Hải động chủ (仁海洞主, 1509 - 1516)",
+        "url": "/wiki/1509"
+      },
       "Sinh": {"name": "25 tháng 6, 1495"},
       "Mất": {
         "name": "7 tháng 4, 1516 (20 tuổi) hồ Chu Tước, phường Bích Câu, Đông Kinh",
         "url": "/dia-danh/phuong-bich-cau"
       },
+      "Hoàng tộc": {
+        "name": "Hoàng triều Lê",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_s%C6%A1"
+      },
       "An táng": {"name": "Nguyên Lăng (元陵)"},
+      "Hậu duệ": {"name": "Hậu duệ Bảo Túc công chúa Công chúa Thọ Nguyên Công chúa Thọ Kính"},
       "Thân phụ": {
         "name": "Lê Tân",
         "url": "/nhan-vat/le-tan"
@@ -36150,6 +36590,10 @@
       "Thê thiếp": {"name": "Trần hoàng hậu"},
       "Triều đại": {"name": "Nhà Lê sơ"},
       "Trị vì": {"name": "1504 - 1509"},
+      "Tước hiệu": {
+        "name": "Quỳnh Đô động chủ (瓊都洞主, 1504 - 1509)",
+        "url": "/wiki/1504"
+      },
       "Sinh": {"name": "5 tháng 5, 1488 Đông Kinh"},
       "Mất": {"name": "1 tháng 12, 1509 (21 tuổi) cửa Lệ Cảnh, Đông Kinh"},
       "An táng": {"name": "An Lăng (安陵)"},
@@ -37890,6 +38334,10 @@
         "name": "Lý Thiên Tộ (李天祚)",
         "url": "/nhan-vat/ly-thien-to"
       },
+      "Hoàng hậu": {
+        "name": "Chiêu Linh Linh Đạo",
+        "url": "/wiki/Chi%C3%AAu_Linh_ho%C3%A0ng_h%E1%BA%ADu"
+      },
       "Tiền nhiệm": {
         "name": "Lý Thần Tông",
         "url": "/nhan-vat/ly-than-tong"
@@ -38731,11 +39179,19 @@
         "name": "Không có Hoàng hậu đầu tiên của nhà Trần",
         "url": "/nhan-vat/nha-tran"
       },
+      "Phụ chính": {
+        "name": "Thái úy Trần Thừa",
+        "url": "/wiki/Tr%E1%BA%A7n_Th%E1%BB%ABa"
+      },
       "Nhiếp chính": {
         "name": "Trần Thủ Độ",
         "url": "/nhan-vat/tran-thu-do"
       },
       "Triều đại": {"name": "Nhà Lý"},
+      "Đăng quang": {
+        "name": "1224",
+        "url": "/wiki/1224"
+      },
       "Phu quân": {
         "name": "Trần Thái Tông Lê Phụ Trần",
         "url": "/nhan-vat/tran-thai-tong"
@@ -38743,6 +39199,10 @@
       "Tước hiệu": {"name": "Chiêu Thánh công chúa Chiêu Hoàng Hoàng hậu Chiêu Thánh công chúa"},
       "Sinh": {"name": "Tháng 9, 1218 Thăng Long"},
       "Mất": {"name": "Tháng 3, 1278 Cổ Pháp"},
+      "Phối ngẫu": {
+        "name": "Trần Thái Tông Trần Cảnh Lê Phụ Trần",
+        "url": "/wiki/Tr%E1%BA%A7n_Th%C3%A1i_T%C3%B4ng"
+      },
       "Tôn giáo": {"name": "Phật giáo"},
       "Tại vị": {"name": "1225 - 1237"},
       "Hậu duệ": {"name": "Hậu duệ Thái tử Trần Thịnh Thượng vị hầu Lê Tông Ứng Thụy công chúa Lê Ngọc Khuê"},
@@ -42571,6 +43031,10 @@
       "Mất": {"name": "3 tháng 11, 1054 (54 tuổi) Trường Xuân điện, Thăng Long"},
       "Tôn giáo": {"name": "Phật giáo"},
       "Miếu hiệu": {"name": "Thái Tông (太宗)"},
+      "Hậu phi": {
+        "name": "Hậu phi Linh Cảm Hoàng hậu Đinh Hoàng hậu Vương Hoàng hậu Thiên Cảm Hoàng hậu",
+        "url": "/wiki/Kim_Thi%C3%AAn_ho%C3%A0ng_h%E1%BA%ADu"
+      },
       "An táng": {"name": "Thọ Lăng"},
       "Thân phụ": {
         "name": "Lý Thái Tổ",
@@ -45157,6 +45621,10 @@
     "url": "/nhan-vat/nguyen-quang-toan",
     "info": {
       "Triều đại": {"name": "Nhà Tây Sơn"},
+      "Nhiếp chính": {
+        "name": "Thái sư Bùi Đắc Tuyên",
+        "url": "/wiki/B%C3%B9i_%C4%90%E1%BA%AFc_Tuy%C3%AAn"
+      },
       "Niên hiệu": {"name": "Cảnh Thịnh (景盛: 1793 - 1801) Bảo Hưng (寶興: 1801 - 1802)"},
       "Trị vì": {"name": "1792 \u2013 1802"},
       "Kế nhiệm": {"name": "Nhà Tây Sơn sụp đổ"},
@@ -46428,6 +46896,10 @@
       "Thân phụ": {
         "name": "Mạc Kính Điển",
         "url": "/nhan-vat/mac-kinh-dien"
+      },
+      "Thê thiếp": {
+        "name": "Nguyễn Thị Duệ",
+        "url": "/wiki/Nguy%E1%BB%85n_Th%E1%BB%8B_Du%E1%BB%87"
       }
     }
   },
@@ -46714,27 +47186,39 @@
     "id": "c1223",
     "url": "/nhan-vat/mac-hien-tong",
     "info": {
-      "Triều đại": {"name": "Nhà Mạc"},
-      "Thái thượng hoàng": {
-        "name": "Mạc Thái Tổ",
-        "url": "/nhan-vat/mac-thai-to"
-      },
       "Thụy hiệu": {"name": "Hiển hoàng đế"},
       "Niên hiệu": {"name": "Quang Hòa"},
-      "Trị vì": {"name": "1540 \u2013 1546"},
       "Kế nhiệm": {
         "name": "Mạc Tuyên Tông",
         "url": "/nhan-vat/mac-tuyen-tong"
+      },
+      "Thân mẫu": {
+        "name": "Phạm Thị",
+        "url": "/w/index.php?title=Ph%E1%BA%A1m_Th%E1%BB%8B&action=edit&redlink=1"
       },
       "Tên thật": {
         "name": "Mạc Phúc Hải (莫福海) Mạc Đức Nguyên",
         "url": "/nhan-vat/mac-phuc-hai"
       },
-      "Mất": {"name": "1546 Trung Quốc"},
-      "Miếu hiệu": {"name": "Hiến Tông (憲宗)"},
       "Tiền nhiệm": {
         "name": "Mạc Thái Tông",
         "url": "/nhan-vat/mac-thai-tong"
+      },
+      "Triều đại": {"name": "Nhà Mạc"},
+      "Thái thượng hoàng": {
+        "name": "Mạc Thái Tổ",
+        "url": "/nhan-vat/mac-thai-to"
+      },
+      "Trị vì": {"name": "1540 \u2013 1546"},
+      "Sinh": {
+        "name": "1517",
+        "url": "/wiki/1517"
+      },
+      "Mất": {"name": "1546 Trung Quốc"},
+      "Miếu hiệu": {"name": "Hiến Tông (憲宗)"},
+      "Hậu duệ": {
+        "name": "Tuyên Tông Mạc Phúc Nguyên(莫宣宗-莫福源) Mạc Phúc Đăng(莫福登)",
+        "url": "/wiki/M%E1%BA%A1c_Ph%C3%BAc_Nguy%C3%AAn"
       },
       "Thân phụ": {
         "name": "Mạc Thái Tông",
@@ -47166,10 +47650,15 @@
         "name": "Vũ An Đế",
         "url": "/dia-danh/vu-an"
       },
+      "Thân mẫu": {"name": "Bùi Thị"},
       "Tên húy": {"name": "Mạc Mậu Hợp (莫茂洽)"},
       "Tiền nhiệm": {
         "name": "Mạc Tuyên Tông",
         "url": "/nhan-vat/mac-tuyen-tong"
+      },
+      "Thê thiếp": {
+        "name": "Mục Tông Hoàng Hậu Nguyễn Thị con gái Nguyễn Quyện Cung phi Vũ Thị Hoành",
+        "url": "/wiki/Nguy%E1%BB%85n_Quy%E1%BB%87n"
       },
       "Nhiếp chính": {
         "name": "Mạc Kính Điển (1562 - 1580) Mạc Đôn Nhượng (1580 - 1592)",
@@ -47678,6 +48167,10 @@
         "url": "/nhan-vat/nguyen-phuc"
       },
       "Gia tộc": {"name": "Họ Nguyễn"},
+      "Thê thiếp": {
+        "name": "Trương Thị Dung Trần Thị Xạ Nguyễn Phúc Ngọc Cầu và nhiều cung tần khác",
+        "url": "/wiki/Tr%C6%B0%C6%A1ng_Th%E1%BB%8B_Dung"
+      },
       "Tước hiệu": {
         "name": "Võ Vương (武王)",
         "url": "/nhan-vat/vo-vuong"
@@ -47686,6 +48179,10 @@
       "Mất": {"name": "1765 Đàng Trong, Đại Việt"},
       "Miếu hiệu": {"name": "Thế Tông (世宗)"},
       "Tại vị": {"name": "1738 - 1765"},
+      "Hậu duệ": {
+        "name": "Hậu duệ 18 công tử 12 công nữ",
+        "url": "#Hậu_duệ"
+      },
       "Thân phụ": {
         "name": "Nguyễn Phúc Chú",
         "url": "/nhan-vat/nguyen-phuc"
@@ -47813,6 +48310,10 @@
         "url": "/nhan-vat/nguyen-phuc-thai"
       },
       "Gia tộc": {"name": "Họ Nguyễn"},
+      "Thê thiếp": {
+        "name": "Tống Thị Được",
+        "url": "/wiki/T%E1%BB%91ng_Th%E1%BB%8B_%C4%90%C6%B0%E1%BB%A3c"
+      },
       "Trị vì": {"name": "1691 - 1725"},
       "Sinh": {"name": "11 tháng 6, 1675 1"},
       "Mất": {"name": "1 tháng 6, 1725 (49 tuổi) 1 Đàng Trong, Đại Việt"},
@@ -47955,6 +48456,10 @@
         "name": "Hậu duệ Nguyễn Phúc Diễn Nguyễn Phúc Thái Nguyễn Phúc Trân Nguyễn Phúc Thuần Nguyễn Phúc Niên Nguyễn Phúc Nhiễu Nguyễn Phúc Ngọc Tảo Hai hoàng nữ khuyết danh",
         "url": "/nhan-vat/nguyen-phuc-thai"
       },
+      "An táng": {
+        "name": "Lăng Trường Hưng (長興陵)",
+        "url": "/wiki/L%C4%83ng_Tr%C6%B0%E1%BB%9Dng_H%C6%B0ng"
+      },
       "Thân phụ": {
         "name": "Nguyễn Phúc Lan",
         "url": "/nhan-vat/nguyen-phuc-lan"
@@ -48077,6 +48582,10 @@
         "name": "Mạc Hiến Tông",
         "url": "/nhan-vat/mac-hien-tong"
       },
+      "Thân mẫu": {
+        "name": "Nguyễn Thị Ngọc Tuyền",
+        "url": "/wiki/Nguy%E1%BB%85n_Th%E1%BB%8B_Ng%E1%BB%8Dc_Tuy%E1%BB%81n"
+      },
       "Sinh": {"name": "?"},
       "Tên húy": {
         "name": "Mạc Đăng Doanh (莫登瀛)",
@@ -48184,24 +48693,36 @@
         "name": "Nguyễn Phúc Ngọc Cầu",
         "url": "/nhan-vat/nguyen-phuc"
       },
-      "Tước hiệu": {"name": "Định Vương (定王)"},
-      "Sinh": {"name": "31 tháng 12 năm 1754"},
       "Tên húy": {
         "name": "Nguyễn Phúc Thuần (阮福淳)",
         "url": "/nhan-vat/nguyen-phuc"
       },
-      "Mất": {"name": "18 tháng 10, 1777 (22 tuổi) Đàng Trong, Đại Việt"},
-      "Miếu hiệu": {"name": "Duệ Tông"},
-      "Tại vị": {"name": "1765 - 1776"},
       "Tiền nhiệm": {
         "name": "Nguyễn Phúc Khoát",
         "url": "/nhan-vat/nguyen-phuc"
       },
+      "Gia tộc": {"name": "Họ Nguyễn"},
+      "Thê thiếp": {
+        "name": "Nguyễn Thị Châu",
+        "url": "/w/index.php?title=Nguy%E1%BB%85n_Th%E1%BB%8B_Ch%C3%A2u&action=edit&redlink=1"
+      },
+      "Nhiếp chính": {
+        "name": "Trương Phúc Loan",
+        "url": "/wiki/Tr%C6%B0%C6%A1ng_Ph%C3%BAc_Loan"
+      },
+      "Tước hiệu": {"name": "Định Vương (定王)"},
+      "Sinh": {"name": "31 tháng 12 năm 1754"},
+      "Mất": {"name": "18 tháng 10, 1777 (22 tuổi) Đàng Trong, Đại Việt"},
+      "Miếu hiệu": {"name": "Duệ Tông"},
+      "Tại vị": {"name": "1765 - 1776"},
+      "Hậu duệ": {
+        "name": "Nguyễn Phúc Ngọc Thục",
+        "url": "/w/index.php?title=Nguy%E1%BB%85n_Ph%C3%BAc_Ng%E1%BB%8Dc_Th%E1%BB%A5c&action=edit&redlink=1"
+      },
       "Thân phụ": {
         "name": "Nguyễn Phúc Khoát",
         "url": "/nhan-vat/nguyen-phuc"
-      },
-      "Gia tộc": {"name": "Họ Nguyễn"}
+      }
     }
   },
   {
@@ -48425,6 +48946,10 @@
         "name": "Mạc Kính Chỉ",
         "url": "/nhan-vat/mac-kinh-chi"
       },
+      "Sinh": {
+        "name": "1580 Hoàng thành Thăng Long",
+        "url": "/wiki/1580"
+      },
       "Tên húy": {"name": "Mạc Toàn"},
       "Mất": {"name": "1593 Việt Nam"},
       "Miếu hiệu": {"name": "Cảnh Tông"},
@@ -48478,27 +49003,36 @@
     "id": "c1257",
     "url": "/nhan-vat/mac-tuyen-tong",
     "info": {
+      "Thụy hiệu": {"name": "Anh Nghị Duệ Hoàng đế"},
+      "Niên hiệu": {"name": "Vĩnh Định (1547) Cảnh Lịch (1548-1553) Quang Bảo (1554-1561)"},
+      "Kế nhiệm": {
+        "name": "Mạc Mậu Hợp",
+        "url": "/nhan-vat/mac-mau-hop"
+      },
+      "Thân mẫu": {"name": "Vũ Thị"},
+      "Tên húy": {
+        "name": "Mạc Phúc Nguyên",
+        "url": "/nhan-vat/mac-phuc-nguyen"
+      },
+      "Tiền nhiệm": {
+        "name": "Mạc Hiến Tông",
+        "url": "/nhan-vat/mac-hien-tong"
+      },
       "Nhiếp chính": {
         "name": "Mạc Kính Điển",
         "url": "/nhan-vat/mac-kinh-dien"
       },
       "Triều đại": {"name": "Nhà Mạc"},
-      "Thụy hiệu": {"name": "Anh Nghị Duệ Hoàng đế"},
-      "Niên hiệu": {"name": "Vĩnh Định (1547) Cảnh Lịch (1548-1553) Quang Bảo (1554-1561)"},
       "Trị vì": {"name": "1546 - 1561"},
-      "Kế nhiệm": {
-        "name": "Mạc Mậu Hợp",
-        "url": "/nhan-vat/mac-mau-hop"
-      },
-      "Tên húy": {
-        "name": "Mạc Phúc Nguyên",
-        "url": "/nhan-vat/mac-phuc-nguyen"
+      "Sinh": {
+        "name": "1535 Hoàng thành Thăng Long, Đại Việt",
+        "url": "/wiki/1535"
       },
       "Mất": {"name": "Tháng 12, 1561 Việt Nam"},
       "Miếu hiệu": {"name": "Tuyên Tông (宣宗)"},
-      "Tiền nhiệm": {
-        "name": "Mạc Hiến Tông",
-        "url": "/nhan-vat/mac-hien-tong"
+      "Hậu duệ": {
+        "name": "Mạc Mậu Hợp Mạc Kính Dụng",
+        "url": "/wiki/M%E1%BA%A1c_M%E1%BA%ADu_H%E1%BB%A3p"
       },
       "Thân phụ": {
         "name": "Mạc Hiến Tông",
@@ -48815,6 +49349,10 @@
     "id": "c1264",
     "url": "/nhan-vat/minh-mang",
     "info": {
+      "Các vợ khác": {
+        "name": "Các vợ khác Xem danh sách",
+        "url": "#Gia_quyến"
+      },
       "Thụy hiệu": {"name": "Nhân Hoàng đế (仁皇帝)"},
       "Niên hiệu": {"name": "Minh Mạng (明命): 1820 - 1841"},
       "Kế nhiệm": {"name": "Thiệu Trị"},
@@ -48832,9 +49370,17 @@
       "Mất": {"name": "20 tháng 1, 1841 (49 tuổi) Huế, Đại Nam"},
       "Tôn giáo": {"name": "Nho giáo"},
       "Miếu hiệu": {"name": "Thánh Tổ (聖祖)"},
+      "Hoàng tộc": {
+        "name": "Hoàng triều Nguyễn",
+        "url": "/wiki/Nh%C3%A0_Nguy%E1%BB%85n"
+      },
       "Hậu duệ": {"name": "Hậu duệ 142 con, bao gồm 78 hoàng tử và 64 công chúa"},
       "An táng": {"name": "Hiếu Lăng, Huế, Việt Nam"},
-      "Thân phụ": {"name": "Gia Long"}
+      "Thân phụ": {"name": "Gia Long"},
+      "Chính thất": {
+        "name": "Tá Thiên Nhân Hoàng hậu",
+        "url": "/wiki/T%C3%A1_Thi%C3%AAn_Nh%C3%A2n_Ho%C3%A0ng_h%E1%BA%ADu"
+      }
     }
   },
   {
@@ -52176,6 +52722,7 @@
       "Trị vì": {"name": "951 \u2013 954"},
       "Kế nhiệm": {"name": "Nam Tấn Vương"},
       "Đồng trị vì": {"name": "Nam Tấn Vương"},
+      "Tước hiệu": {"name": "Thiên Sách vương (天策王)"},
       "Tên húy": {"name": "Ngô Xương Ngập (吳昌岌)"},
       "Mất": {"name": "954"},
       "Hậu duệ": {
@@ -52240,6 +52787,11 @@
       },
       "Thân mẫu": {"name": "Dương hậu"},
       "Đồng trị vì": {"name": "Thiên Sách Vương"},
+      "Tước hiệu": {"name": "Nam Tấn vương (南晉王)"},
+      "Sinh": {
+        "name": "12 tháng 9, 934",
+        "url": "/wiki/12_th%C3%A1ng_9"
+      },
       "Tên húy": {"name": "Ngô Xương Văn (吳昌文)"},
       "Mất": {"name": "965"},
       "Tiền nhiệm": {
@@ -52325,10 +52877,13 @@
     "info": {
       "Triều đại": {"name": "Nhà Ngô"},
       "Kế nhiệm": {"name": "Thoái nhượng Do thế lực suy yếu nên lui về làm sứ quân."},
+      "Thân mẫu": {"name": "Phạm Thị Uy Duyên"},
       "Tên húy": {"name": "Ngô Xương Xí (吳昌熾)"},
       "Tại vị": {"name": "965"},
+      "Hậu duệ": {"name": "Ngô Xương Sắc Ngô Ích Vệ"},
       "Tiền nhiệm": {"name": "Nam Tấn Vương"},
-      "Thân phụ": {"name": "Thiên Sách Vương"}
+      "Thân phụ": {"name": "Thiên Sách Vương"},
+      "Thê thiếp": {"name": "Lý Thị Khoan Dung"}
     }
   },
   {
@@ -55815,5 +56370,2311 @@
     "id": "c1452",
     "url": "/nhan-vat/nguyen-duy",
     "info": {}
+  },
+  {
+    "name": "Hùng Vương thứ I",
+    "description": "Hùng Vương thứ I là một vị vua truyền thuyết trong lịch sử Việt Nam. Ông là người có công thành lập nước Văn Lang.\n",
+    "connection": [
+      {
+        "name": "truyền thuyết",
+        "url": "/wiki/Truy%E1%BB%81n_thuy%E1%BA%BFt"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Văn Lang",
+        "url": "/wiki/V%C4%83n_Lang"
+      }
+    ],
+    "id": "c1453",
+    "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_I",
+    "info": {
+      "trị vì": {"name": "? - ?"},
+      "Triều đại": {
+        "name": "Hồng Bàng",
+        "url": "/wiki/H%E1%BB%93ng_B%C3%A0ng"
+      },
+      "Kế nhiệm": {
+        "name": "Hùng Vương thứ II",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_II"
+      },
+      "Thân mẫu": {
+        "name": "Âu Cơ",
+        "url": "/wiki/%C3%82u_C%C6%A1"
+      },
+      "Tước hiệu": {
+        "name": "Hùng Vương[1]",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng"
+      },
+      "Hậu duệ": {
+        "name": "Hậu duệ Hùng Vương thứ II",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_II"
+      },
+      "Tiền nhiệm": {
+        "name": "Lạc Long Quân",
+        "url": "/wiki/L%E1%BA%A1c_Long_Qu%C3%A2n"
+      },
+      "Thân phụ": {
+        "name": "Lạc Long Quân",
+        "url": "/wiki/L%E1%BA%A1c_Long_Qu%C3%A2n"
+      }
+    }
+  },
+  {
+    "name": "Hùng Vương thứ VI",
+    "description": "Hùng Vương thứ VI là một vị vua truyền thuyết của nước Văn Lang trong lịch sử Việt Nam. Tương truyền ông là người đã lãnh đạo người dân Văn Lang chống lại sự tấn công của quân xâm lược Ân.[3]\n",
+    "connection": [
+      {
+        "name": "Văn Lang",
+        "url": "/wiki/V%C4%83n_Lang"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Ân",
+        "url": "/wiki/Nh%C3%A0_Th%C6%B0%C6%A1ng"
+      },
+      {
+        "name": "[3]",
+        "url": "#cite_note-3"
+      },
+      {
+        "name": "[4]",
+        "url": "#cite_note-4"
+      },
+      {
+        "name": "Vũ Ninh",
+        "url": "/wiki/V%C5%A9_Ninh_(b%E1%BB%99)"
+      },
+      {
+        "name": "trượng",
+        "url": "/wiki/Tr%C6%B0%E1%BB%A3ng"
+      },
+      {
+        "name": "Sóc Sơn",
+        "url": "/wiki/S%C3%B3c_S%C6%A1n"
+      }
+    ],
+    "id": "c1454",
+    "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_VI",
+    "info": {
+      "Triều đại": {
+        "name": "Hồng Bàng",
+        "url": "/wiki/H%E1%BB%93ng_B%C3%A0ng"
+      },
+      "Thụy hiệu": {
+        "name": "Thụy hiệu Hùng Vương[2]",
+        "url": "/wiki/Th%E1%BB%A5y_hi%E1%BB%87u"
+      },
+      "Trị vì": {
+        "name": "1712 \u2013 1632 TCN",
+        "url": "/wiki/1712"
+      },
+      "Kế nhiệm": {
+        "name": "Hùng Vương thứ VII",
+        "url": "/wiki/Lang_Li%C3%AAu"
+      },
+      "An táng": {
+        "name": "Lăng Hùng Vương",
+        "url": "/wiki/%C4%90%E1%BB%81n_H%C3%B9ng"
+      },
+      "Hậu duệ": {
+        "name": "Lang Liêu 33 Quan lang 19 Mỵ nương",
+        "url": "/wiki/Lang_Li%C3%AAu"
+      },
+      "Tiền nhiệm": {
+        "name": "Hùng Vương thứ V",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_V"
+      },
+      "Thân phụ": {
+        "name": "Hùng Vương thứ V",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_V"
+      }
+    }
+  },
+  {
+    "name": "Lang Liêu",
+    "description": "Hùng Vương thứ VII, tên là Lang Liêu (chữ Hán: 郎僚), cũng gọi Tiết Lang Liêu, là một vị vua theo truyền thuyết của nước Văn Lang trong lịch sử Việt Nam.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "vua",
+        "url": "/wiki/Vua"
+      },
+      {
+        "name": "truyền thuyết",
+        "url": "/wiki/Truy%E1%BB%81n_thuy%E1%BA%BFt"
+      },
+      {
+        "name": "Văn Lang",
+        "url": "/wiki/V%C4%83n_Lang"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "bánh chưng",
+        "url": "/wiki/B%C3%A1nh_ch%C6%B0ng"
+      },
+      {
+        "name": "Hùng Vương thứ 6",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_VI"
+      },
+      {
+        "name": "Ân",
+        "url": "/wiki/Nh%C3%A0_Th%C6%B0%C6%A1ng"
+      }
+    ],
+    "id": "c1455",
+    "url": "/wiki/Lang_Li%C3%AAu",
+    "info": {
+      "Triều đại": {
+        "name": "Hồng Bàng",
+        "url": "/wiki/H%E1%BB%93ng_B%C3%A0ng"
+      },
+      "Thụy hiệu": {
+        "name": "Thụy hiệu Hùng Vương[1]",
+        "url": "/wiki/Th%E1%BB%A5y_hi%E1%BB%87u"
+      },
+      "Trị vì": {"name": "? TCN \u2013 ? TCN"},
+      "Kế nhiệm": {
+        "name": "Hùng Vương thứ VIII",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_VIII"
+      },
+      "Tiền nhiệm": {
+        "name": "Hùng Vương thứ VI",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_VI"
+      },
+      "Thân phụ": {
+        "name": "Hùng Vương thứ VI",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_VI"
+      }
+    }
+  },
+  {
+    "name": "Hùng Vương thứ XVI",
+    "description": "Hùng Vương thứ XVI là một vị vua truyền thuyết của nước Văn Lang trong lịch sử Việt Nam.\n",
+    "connection": [
+      {
+        "name": "Văn Lang",
+        "url": "/wiki/V%C4%83n_Lang"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "[2]",
+        "url": "#cite_note-2"
+      },
+      {
+        "name": "trống đồng Đông Sơn",
+        "url": "/wiki/Tr%E1%BB%91ng_%C4%91%E1%BB%93ng_%C4%90%C3%B4ng_S%C6%A1n"
+      },
+      {
+        "name": "[3]",
+        "url": "#cite_note-3"
+      },
+      {
+        "name": "văn hóa Việt Nam",
+        "url": "/wiki/V%C4%83n_h%C3%B3a_Vi%E1%BB%87t_Nam"
+      }
+    ],
+    "id": "c1456",
+    "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVI",
+    "info": {
+      "Triều đại": {
+        "name": "Hồng Bàng",
+        "url": "/wiki/H%E1%BB%93ng_B%C3%A0ng"
+      },
+      "Thụy hiệu": {
+        "name": "Thụy hiệu Hùng Vương[1]",
+        "url": "/wiki/Th%E1%BB%A5y_hi%E1%BB%87u"
+      },
+      "Trị vì": {"name": "? TCN \u2013 ? TCN"},
+      "Kế nhiệm": {
+        "name": "Hùng Vương thứ XVII",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVII"
+      },
+      "Tiền nhiệm": {
+        "name": "Hùng Vương thứ XV",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XV"
+      },
+      "Thân phụ": {
+        "name": "Hùng Vương thứ XV",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XV"
+      }
+    }
+  },
+  {
+    "name": "Hùng Vương thứ XVII",
+    "description": "Hùng Vương thứ XVII là một vị vua truyền thuyết của nước Văn Lang trong lịch sử Việt Nam. Tương truyền, vua Hùng thứ XVII có một người con nuôi là Mai An Tiêm, ông tổ trồng dưa ở Việt Nam.\n",
+    "connection": [
+      {
+        "name": "Văn Lang",
+        "url": "/wiki/V%C4%83n_Lang"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Mai An Tiêm",
+        "url": "/wiki/Mai_An_Ti%C3%AAm"
+      },
+      {
+        "name": "dưa",
+        "url": "/wiki/D%C6%B0a_h%E1%BA%A5u"
+      },
+      {
+        "name": "Truyền thuyết",
+        "url": "/wiki/Truy%E1%BB%81n_thuy%E1%BA%BFt"
+      },
+      {
+        "name": "An Tiêm",
+        "url": "/wiki/Mai_An_Ti%C3%AAm"
+      },
+      {
+        "name": "quả dưa",
+        "url": "/wiki/Qu%E1%BA%A3_d%C6%B0a"
+      },
+      {
+        "name": "Nguyễn Tuấn",
+        "url": "/w/index.php?title=Nguy%E1%BB%85n_Tu%E1%BA%A5n&action=edit&redlink=1"
+      }
+    ],
+    "id": "c1457",
+    "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVII",
+    "info": {
+      "Triều đại": {
+        "name": "Hồng Bàng",
+        "url": "/wiki/H%E1%BB%93ng_B%C3%A0ng"
+      },
+      "Thụy hiệu": {
+        "name": "Thụy hiệu Hùng Vương[1]",
+        "url": "/wiki/Th%E1%BB%A5y_hi%E1%BB%87u"
+      },
+      "Trị vì": {
+        "name": "? \u2013 ?",
+        "url": "/wiki/%3F"
+      },
+      "Kế nhiệm": {
+        "name": "Hùng Vương thứ XVIII",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVIII"
+      },
+      "Hậu duệ": {
+        "name": "20 Quan lang 15 Mỵ nương Mai An Tiêm (con nuôi) 1 con gái nuôi",
+        "url": "/wiki/Mai_An_Ti%C3%AAm"
+      },
+      "Tiền nhiệm": {
+        "name": "Hùng Vương thứ XVI",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVI"
+      },
+      "Thân phụ": {
+        "name": "Hùng Vương thứ XV",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XV"
+      }
+    }
+  },
+  {
+    "name": "Hùng Vương thứ XVIII",
+    "description": "Hùng Vương thứ XVIII (~334 - 258 TCN) còn gọi Hùng Duệ Vương, là một vị vua truyền thuyết của nước Văn Lang trong lịch sử Việt Nam và là vị Hùng Vương cuối cùng. Tương truyền Hùng Vương thứ XVIII có hai con rể là Chử Đồng Tử và Sơn Tinh.\n",
+    "connection": [
+      {
+        "name": "Duệ Vương",
+        "url": "/wiki/Du%E1%BB%87_V%C6%B0%C6%A1ng"
+      },
+      {
+        "name": "Văn Lang",
+        "url": "/wiki/V%C4%83n_Lang"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Hùng Vương",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng"
+      },
+      {
+        "name": "Chử Đồng Tử",
+        "url": "/wiki/Ch%E1%BB%AD_%C4%90%E1%BB%93ng_T%E1%BB%AD"
+      },
+      {
+        "name": "Sơn Tinh",
+        "url": "/wiki/S%C6%A1n_Tinh"
+      },
+      {
+        "name": "Tiên Dung",
+        "url": "/wiki/Ti%C3%AAn_Dung"
+      },
+      {
+        "name": "Thủy Tinh",
+        "url": "/wiki/Th%E1%BB%A7y_Tinh_(nh%C3%A2n_v%E1%BA%ADt)"
+      }
+    ],
+    "id": "c1458",
+    "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVIII",
+    "info": {
+      "Triều đại": {
+        "name": "Hồng Bàng",
+        "url": "/wiki/H%E1%BB%93ng_B%C3%A0ng"
+      },
+      "Thụy hiệu": {
+        "name": "Thụy hiệu Hùng Duệ Vương",
+        "url": "/wiki/Th%E1%BB%A5y_hi%E1%BB%87u"
+      },
+      "Trị vì": {
+        "name": "? \u2013 258 TCN",
+        "url": "/wiki/%3F"
+      },
+      "Kế nhiệm": {
+        "name": "Mất nước, An Dương Vương lên ngôi",
+        "url": "/wiki/An_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng"
+      },
+      "Mất": {
+        "name": "257 TCN hoặc 208 TCN Văn Lang",
+        "url": "/wiki/257_TCN"
+      },
+      "Hậu duệ": {
+        "name": "Hậu duệ Công chúa Tiên Dung Công chúa Ngọc Hoa Công chúa Ngọc Nương Quan lang kế vị",
+        "url": "/wiki/Ti%C3%AAn_Dung"
+      },
+      "Tiền nhiệm": {
+        "name": "Hùng Vương thứ XVII",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVII"
+      },
+      "Thân phụ": {
+        "name": "Hùng Vương thứ XVII",
+        "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng_th%E1%BB%A9_XVII"
+      }
+    }
+  },
+  {
+    "name": "Vua Việt Nam",
+    "description": "Vua nước Việt (chữ Nôm:𤤰渃越) là vị quân chủ nước Việt Nam độc lập tự chủ từ thời dựng nước đến Cách mạng Tháng Tám năm 1945, tùy thuộc vào hoàn cảnh lịch sử mà vua Việt Nam có thể mang tước hiệu khác nhau. Ở trong nước, tước hiệu tự xưng cao nhất là Hoàng đế và thấp hơn là Quốc vương hoặc Quận vương\n",
+    "connection": [
+      {
+        "name": "Thời tiền sử",
+        "url": "/wiki/Vi%E1%BB%87t_Nam_th%E1%BB%9Di_ti%E1%BB%81n_s%E1%BB%AD"
+      },
+      {
+        "name": "Hồng Bàng",
+        "url": "/wiki/H%E1%BB%93ng_B%C3%A0ng"
+      },
+      {
+        "name": "An Dương Vương",
+        "url": "/wiki/An_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng"
+      },
+      {
+        "name": "chữ Nôm",
+        "url": "/wiki/Ch%E1%BB%AF_N%C3%B4m"
+      },
+      {
+        "name": "quân chủ",
+        "url": "/wiki/Vua"
+      },
+      {
+        "name": "Việt Nam",
+        "url": "/wiki/Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Cách mạng Tháng Tám",
+        "url": "/wiki/C%C3%A1ch_m%E1%BA%A1ng_Th%C3%A1ng_T%C3%A1m"
+      },
+      {
+        "name": "1945",
+        "url": "/wiki/1945"
+      }
+    ],
+    "id": "c1459",
+    "url": "#cite_note-22",
+    "info": {}
+  },
+  {
+    "name": "Triệu Dương Vương",
+    "description": "Triệu Dương Vương (趙陽王), hay Triệu Thuật Dương Vương (趙術陽王), Triệu Vệ Dương Vương (趙衛陽王)[1], tên họ thật là Triệu Kiến Đức (趙建德), trị vì từ năm 112 TCN \u2013 111 TCN, là vị vua cuối cùng của nhà Triệu nước Nam Việt trong lịch sử Việt Nam.\n",
+    "connection": [
+      {
+        "name": "[1]",
+        "url": "#cite_note-1"
+      },
+      {
+        "name": "112 TCN",
+        "url": "/wiki/112_TCN"
+      },
+      {
+        "name": "111 TCN",
+        "url": "/wiki/111_TCN"
+      },
+      {
+        "name": "vua",
+        "url": "/wiki/Vua"
+      },
+      {
+        "name": "nhà Triệu",
+        "url": "/wiki/Nh%C3%A0_Tri%E1%BB%87u"
+      },
+      {
+        "name": "Nam Việt",
+        "url": "/wiki/Nam_Vi%E1%BB%87t"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Vương tử",
+        "url": "/wiki/Ho%C3%A0ng_t%E1%BB%AD"
+      }
+    ],
+    "id": "c1460",
+    "url": "/wiki/Tri%E1%BB%87u_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng",
+    "info": {
+      "Nhiếp chính": {
+        "name": "Thừa tướng Lữ Gia",
+        "url": "/wiki/L%E1%BB%AF_Gia"
+      },
+      "Triều đại": {
+        "name": "Nhà Triệu",
+        "url": "/wiki/Nh%C3%A0_Tri%E1%BB%87u"
+      },
+      "Trị vì": {
+        "name": "112 TCN \u2013 111 TCN",
+        "url": "/wiki/112_TCN"
+      },
+      "Kế nhiệm": {"name": "Triều đại diệt vong"},
+      "Thân mẫu": {"name": "người Việt (không rõ tên)"},
+      "Sinh": {
+        "name": "?",
+        "url": "/wiki/D%E1%BA%A5u_ch%E1%BA%A5m_h%E1%BB%8Fi"
+      },
+      "Mất": {
+        "name": "111 TCN Nam Việt",
+        "url": "/wiki/111_TCN"
+      },
+      "Tiền nhiệm": {
+        "name": "Triệu Ai Vương",
+        "url": "/wiki/Tri%E1%BB%87u_Ai_V%C6%B0%C6%A1ng"
+      },
+      "Thân phụ": {
+        "name": "Triệu Minh Vương",
+        "url": "/wiki/Tri%E1%BB%87u_Minh_V%C6%B0%C6%A1ng"
+      },
+      "Tên đầy đủ": {"name": "Tên đầy đủ Triệu Kiến Đức (趙建德)"}
+    }
+  },
+  {
+    "name": "Hậu Lý Nam Đế",
+    "description": "Hậu Lý Nam Đế (chữ Hán: 後李南帝; trị vì: 571 \u2013 602) là vua nhà Tiền Lý trong lịch sử Việt Nam. Ông tên thật là Lý Phật Tử (李佛子; 518 \u2013 602), người Thái Bình, phủ Long Hưng (tỉnh Sơn Tây, Hà Nội), là cháu họ của Lý Nam Đế.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "571",
+        "url": "/wiki/571"
+      },
+      {
+        "name": "602",
+        "url": "/wiki/602"
+      },
+      {
+        "name": "nhà Tiền Lý",
+        "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%BD"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Sơn Tây",
+        "url": "/wiki/S%C6%A1n_T%C3%A2y_(t%E1%BB%89nh_c%C5%A9)"
+      },
+      {
+        "name": "Lý Nam Đế",
+        "url": "/wiki/L%C3%BD_Nam_%C4%90%E1%BA%BF"
+      },
+      {
+        "name": "Vạn Xuân",
+        "url": "/wiki/V%E1%BA%A1n_Xu%C3%A2n"
+      }
+    ],
+    "id": "c1461",
+    "url": "/wiki/H%E1%BA%ADu_L%C3%BD_Nam_%C4%90%E1%BA%BF",
+    "info": {
+      "Triều đại": {
+        "name": "Nhà Tiền Lý",
+        "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%BD"
+      },
+      "Trị vì": {
+        "name": "555 \u2013 571",
+        "url": "/wiki/555"
+      },
+      "Kế nhiệm": {
+        "name": "Lý Sư Lợi",
+        "url": "/wiki/L%C3%BD_S%C6%B0_L%E1%BB%A3i"
+      },
+      "Húy": {
+        "name": "Húy Lý Phật Tử (李佛子) Thụy hiệu Nam Việt Hoàng Đế (後)南越皇帝 Anh Liệt Nhân Hiếu Khâm Minh Thánh Vũ Hoàng Đế (英烈仁孝欽明聖武皇帝)[1]",
+        "url": "/wiki/Th%E1%BB%A5y_hi%E1%BB%87u"
+      },
+      "Sinh": {
+        "name": "518",
+        "url": "/wiki/518"
+      },
+      "Mất": {
+        "name": "602 Tây An",
+        "url": "/wiki/602"
+      },
+      "Tại vị": {
+        "name": "571 - 602",
+        "url": "/wiki/571"
+      },
+      "Hậu duệ": {"name": "Lý Nhã Lang"},
+      "Tiền nhiệm": {
+        "name": "Triệu Việt Vương",
+        "url": "/wiki/Tri%E1%BB%87u_Vi%E1%BB%87t_V%C6%B0%C6%A1ng"
+      }
+    }
+  },
+  {
+    "name": "Lý Sư Lợi",
+    "description": "Lý Sư Lợi là vị vua cuối cùng của nhà Tiền Lý, nước Vạn Xuân. Ông là con trai của Hậu Lý Nam Đế Lý Phật Tử. Sau khi Lý Phật Tử bị bắt giải sang Trung Quốc, ông kế vị được vài năm thì bị tướng nhà Tùy đem quân sang đánh bại.\n",
+    "connection": [
+      {
+        "name": "Tiền Lý",
+        "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%BD"
+      },
+      {
+        "name": "Vạn Xuân",
+        "url": "/wiki/V%E1%BA%A1n_Xu%C3%A2n"
+      },
+      {
+        "name": "Hậu Lý Nam Đế",
+        "url": "/wiki/H%E1%BA%ADu_L%C3%BD_Nam_%C4%90%E1%BA%BF"
+      },
+      {
+        "name": "Trung Quốc",
+        "url": "/wiki/Nh%C3%A0_T%C3%B9y"
+      },
+      {
+        "name": "Lưu Phương",
+        "url": "/wiki/L%C6%B0u_Ph%C6%B0%C6%A1ng"
+      },
+      {
+        "name": "[1]",
+        "url": "#cite_note-1"
+      }
+    ],
+    "id": "c1462",
+    "url": "/wiki/L%C3%BD_S%C6%B0_L%E1%BB%A3i",
+    "info": {
+      "Kế nhiệm": {"name": "Triều đại sụp đổ"},
+      "Mất": {
+        "name": "603 Trung Quốc",
+        "url": "/wiki/Trung_Qu%E1%BB%91c"
+      },
+      "Tại vị": {"name": "602 - 603"},
+      "Tiền nhiệm": {
+        "name": "Hậu Lý Nam Đế",
+        "url": "/wiki/H%E1%BA%ADu_L%C3%BD_Nam_%C4%90%E1%BA%BF"
+      },
+      "Thân phụ": {"name": "Lý Phật Tử (Hậu Lý Nam Đế)"}
+    }
+  },
+  {
+    "name": "Mai Thúc Huy",
+    "description": "Mai Thiếu Đế (chữ Hán: 梅少帝; ? \u2013 723?) là một vị vua truyền thuyết Việt Nam. Tương truyền, ông là người kế vị vua Mai Hắc Đế trong lịch sử Việt Nam.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "723",
+        "url": "/wiki/723"
+      },
+      {
+        "name": "Mai Hắc Đế",
+        "url": "/wiki/Mai_H%E1%BA%AFc_%C4%90%E1%BA%BF"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Đinh Ngọc Tô",
+        "url": "/w/index.php?title=%C4%90inh_Ng%E1%BB%8Dc_T%C3%B4&action=edit&redlink=1"
+      },
+      {
+        "name": "Phạm Thị Uyển",
+        "url": "/w/index.php?title=Ph%E1%BA%A1m_Th%E1%BB%8B_Uy%E1%BB%83n&action=edit&redlink=1"
+      },
+      {
+        "name": "Đường Lâm",
+        "url": "/wiki/%C4%90%C6%B0%E1%BB%9Dng_L%C3%A2m"
+      },
+      {
+        "name": "[1]",
+        "url": "#cite_note-1"
+      }
+    ],
+    "id": "c1463",
+    "url": "/wiki/Mai_Thi%E1%BA%BFu_%C4%90%E1%BA%BF",
+    "info": {
+      "Lãnh đạo": {
+        "name": "722 - 723",
+        "url": "/wiki/722"
+      },
+      "Kế nhiệm": {
+        "name": "Bạch Đầu đế",
+        "url": "/wiki/Mai_K%E1%BB%B3_S%C6%A1n"
+      },
+      "Mất": {
+        "name": "723",
+        "url": "/wiki/723"
+      },
+      "Tên húy": {
+        "name": "Tên húy Mai Thúc Huy (梅叔輝) Thụy hiệu Thiếu Đế",
+        "url": "/wiki/Th%E1%BB%A5y_hi%E1%BB%87u"
+      },
+      "Tiền nhiệm": {
+        "name": "Mai Hắc Đế",
+        "url": "/wiki/Mai_H%E1%BA%AFc_%C4%90%E1%BA%BF"
+      },
+      "Thân phụ": {
+        "name": "Mai Hắc Đế",
+        "url": "/wiki/Mai_H%E1%BA%AFc_%C4%90%E1%BA%BF"
+      }
+    }
+  },
+  {
+    "name": "Mai Kỳ Sơn",
+    "description": "Mai Kỳ Sơn (chữ Hán: 梅奇山, ? \u2013 723?), thường được gọi là Bạch Đầu đế (白頭帝), là một vị vua truyền thuyết Việt Nam.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "Mai Hắc Đế",
+        "url": "/wiki/Mai_H%E1%BA%AFc_%C4%90%E1%BA%BF"
+      },
+      {
+        "name": "Đinh Ngọc Tô",
+        "url": "/w/index.php?title=%C4%90inh_Ng%E1%BB%8Dc_T%C3%B4&action=edit&redlink=1"
+      },
+      {
+        "name": "Mai Thiếu Đế",
+        "url": "/wiki/Mai_Th%C3%BAc_Huy"
+      },
+      {
+        "name": "[1]",
+        "url": "#cite_note-:0-1"
+      },
+      {
+        "name": "[2]",
+        "url": "#cite_note-2"
+      }
+    ],
+    "id": "c1464",
+    "url": "/wiki/B%E1%BA%A1ch_%C4%90%E1%BA%A7u_%C4%90%E1%BA%BF",
+    "info": {
+      "Lãnh đạo": {
+        "name": "723",
+        "url": "/wiki/723"
+      },
+      "Kế nhiệm": {
+        "name": "Bố Cái Đại Vương",
+        "url": "/wiki/B%E1%BB%91_C%C3%A1i_%C4%90%E1%BA%A1i_V%C6%B0%C6%A1ng"
+      },
+      "Thân mẫu": {"name": "Đinh Ngọc Tô"},
+      "Mất": {
+        "name": "7 tháng 12 năm 723",
+        "url": "/wiki/723"
+      },
+      "Tiền nhiệm": {
+        "name": "Mai Thiếu Đế",
+        "url": "/wiki/Mai_Thi%E1%BA%BFu_%C4%90%E1%BA%BF"
+      },
+      "Thân phụ": {
+        "name": "Mai Hắc Đế",
+        "url": "/wiki/Mai_H%E1%BA%AFc_%C4%90%E1%BA%BF"
+      },
+      "Tên đầy đủ": {
+        "name": "Tên đầy đủ Mai Kỳ Sơn (梅奇山) Tôn hiệu Bạch Đầu đế (白頭帝)",
+        "url": "/wiki/T%C3%B4n_hi%E1%BB%87u"
+      }
+    }
+  },
+  {
+    "name": "Phùng An",
+    "description": "Phùng An là vua Việt Nam trong thời thuộc Đường đầu thế kỷ thứ 9.\n",
+    "connection": [
+      {
+        "name": "thế kỷ thứ 9",
+        "url": "/wiki/Th%E1%BA%BF_k%E1%BB%B7_9"
+      },
+      {
+        "name": "Phùng Hưng",
+        "url": "/wiki/Ph%C3%B9ng_H%C6%B0ng"
+      },
+      {
+        "name": "thế kỷ thứ 8",
+        "url": "/wiki/Th%E1%BA%BF_k%E1%BB%B7_8"
+      },
+      {
+        "name": "[1]",
+        "url": "#cite_note-1"
+      },
+      {
+        "name": "[2]",
+        "url": "#cite_note-2"
+      },
+      {
+        "name": "An Nam đô hộ phủ",
+        "url": "/wiki/An_Nam_%C4%91%C3%B4_h%E1%BB%99_ph%E1%BB%A7"
+      },
+      {
+        "name": "Triệu Xương",
+        "url": "/wiki/Tri%E1%BB%87u_X%C6%B0%C6%A1ng"
+      },
+      {
+        "name": "803",
+        "url": "/wiki/803"
+      }
+    ],
+    "id": "c1465",
+    "url": "/wiki/Ph%C3%B9ng_An",
+    "info": {
+      "Kế nhiệm": {
+        "name": "Không có (đầu hàng nhà Đường)",
+        "url": "/wiki/Nh%C3%A0_%C4%90%C6%B0%E1%BB%9Dng"
+      },
+      "Sinh": {
+        "name": "771",
+        "url": "/wiki/771"
+      },
+      "Mất": {
+        "name": "18 tháng 4,806 (34-35 tuổi)",
+        "url": "/wiki/18_th%C3%A1ng_4"
+      },
+      "Tên húy": {"name": "Tên húy Phùng An (馮安)"},
+      "An táng": {
+        "name": "22 tháng 4, 806",
+        "url": "/wiki/22_th%C3%A1ng_4"
+      },
+      "Ở ngôi": {
+        "name": "789/791/802-803",
+        "url": "/wiki/789"
+      },
+      "Tiền nhiệm": {
+        "name": "Bố Cái Đại Vương",
+        "url": "/wiki/Ph%C3%B9ng_H%C6%B0ng"
+      },
+      "Thân phụ": {
+        "name": "Phùng Hưng",
+        "url": "/wiki/Ph%C3%B9ng_H%C6%B0ng"
+      }
+    }
+  },
+  {
+    "name": "Lê Trung Tông (Tiền Lê)",
+    "description": "Tiền Lê Trung Tông (chữ Hán: 前黎中宗 983 \u2013 1005) là vị hoàng đế thứ hai của nhà Tiền Lê. Khi vua cha Lê Đại Hành mất, Thái tử Lê Long Việt vâng theo di chiếu nối ngôi nhưng bị anh em tranh chấp ngôi báu trong 8 tháng mới dẹp yên. Khi chính thức lên ngôi được 3 ngày thì bị em là Lê Long Đĩnh sai người đầu độc cướp ngôi vua.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "hoàng đế",
+        "url": "/wiki/Ho%C3%A0ng_%C4%91%E1%BA%BF"
+      },
+      {
+        "name": "nhà Tiền Lê",
+        "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%AA"
+      },
+      {
+        "name": "Lê Đại Hành",
+        "url": "/wiki/L%C3%AA_%C4%90%E1%BA%A1i_H%C3%A0nh"
+      },
+      {
+        "name": "Lê Long Việt",
+        "url": "/wiki/L%C3%AA_Long_Vi%E1%BB%87t"
+      },
+      {
+        "name": "Lê Long Đĩnh",
+        "url": "/wiki/L%C3%AA_Long_%C4%90%C4%A9nh"
+      },
+      {
+        "name": "Quý Mùi",
+        "url": "/wiki/Qu%C3%BD_M%C3%B9i"
+      },
+      {
+        "name": "983",
+        "url": "/wiki/983"
+      }
+    ],
+    "id": "c1466",
+    "url": "/wiki/L%C3%AA_Trung_T%C3%B4ng_(Ti%E1%BB%81n_L%C3%AA)",
+    "info": {
+      "Triều đại": {
+        "name": "Nhà Tiền Lê",
+        "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%AA"
+      },
+      "Kế nhiệm": {
+        "name": "Lê Long Đĩnh",
+        "url": "/wiki/L%C3%AA_Long_%C4%90%C4%A9nh"
+      },
+      "Thân mẫu": {
+        "name": "Chi hậu Diệu nữ",
+        "url": "/w/index.php?title=Chi_h%E1%BA%ADu_Di%E1%BB%87u_n%E1%BB%AF&action=edit&redlink=1"
+      },
+      "Tên thật": {
+        "name": "Tên thật Lê Long Việt (黎龍鉞) Thụy hiệu Trung Tông Hoàng đế (中宗皇帝) Miếu hiệu Trung Tông (中宗)",
+        "url": "/wiki/Th%E1%BB%A5y_hi%E1%BB%87u"
+      },
+      "Sinh": {
+        "name": "983 Hoa Lư",
+        "url": "/wiki/983"
+      },
+      "Mất": {
+        "name": "1005 (21\u201322 tuổi) Đại Cồ Việt",
+        "url": "/wiki/%C4%90%E1%BA%A1i_C%E1%BB%93_Vi%E1%BB%87t"
+      },
+      "Phối ngẫu": {
+        "name": "Vương Huệ Chi Hoàng Hậu 王蕙之皇后",
+        "url": "/w/index.php?title=V%C6%B0%C6%A1ng_Hu%E1%BB%87_Chi_Ho%C3%A0ng_H%E1%BA%ADu&action=edit&redlink=1"
+      },
+      "Tại vị": {
+        "name": "1005 (3 ngày)",
+        "url": "/wiki/1005"
+      },
+      "Tiền nhiệm": {
+        "name": "Lê Đại Hành",
+        "url": "/wiki/L%C3%AA_%C4%90%E1%BA%A1i_H%C3%A0nh"
+      },
+      "Thân phụ": {
+        "name": "Lê Đại Hành",
+        "url": "/wiki/L%C3%AA_%C4%90%E1%BA%A1i_H%C3%A0nh"
+      }
+    }
+  },
+  {
+    "name": "Lê Long Đĩnh",
+    "description": "Lê Long Đĩnh (chữ Hán: 黎龍鋌 15 tháng 11 năm 986 \u2013 19 tháng 11 năm 1009) là vị hoàng đế cuối cùng của nhà Tiền Lê trong lịch sử Việt Nam. Ông lên ngôi sau khi ám sát người anh trai là Lê Trung Tông để giành ngôi. Ông trị vì được 4 năm, từ năm 1005 đến năm 1009. Cái chết đột ngột của ông ở tuổi 24 dẫn đến việc chấm dứt nhà Tiền Lê, quyền lực rơi vào tay Lý Công Uẩn, người lập ra nhà Lý.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "hoàng đế",
+        "url": "/wiki/Ho%C3%A0ng_%C4%91%E1%BA%BF"
+      },
+      {
+        "name": "nhà Tiền Lê",
+        "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%AA"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Lê Trung Tông",
+        "url": "/wiki/L%C3%AA_Trung_T%C3%B4ng"
+      },
+      {
+        "name": "1005",
+        "url": "/wiki/1005"
+      },
+      {
+        "name": "1009",
+        "url": "/wiki/1009"
+      },
+      {
+        "name": "Lý Công Uẩn",
+        "url": "/wiki/L%C3%BD_C%C3%B4ng_U%E1%BA%A9n"
+      }
+    ],
+    "id": "c1467",
+    "url": "/wiki/L%C3%AA_Long_%C4%90%C4%A9nh",
+    "info": {
+      "Triều đại": {
+        "name": "Nhà Tiền Lê",
+        "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%AA"
+      },
+      "Trị vì": {"name": "1005 \u2013 19 tháng 11 năm 1009"},
+      "Kế nhiệm": {
+        "name": "Triều đại sụp đổ Lý Thái Tổ (Nhà Lý)",
+        "url": "/wiki/L%C3%BD_Th%C3%A1i_T%E1%BB%95"
+      },
+      "Thân mẫu": {
+        "name": "Quảng Thánh Hoàng thái hậu",
+        "url": "/w/index.php?title=Qu%E1%BA%A3ng_Th%C3%A1nh_Ho%C3%A0ng_th%C3%A1i_h%E1%BA%ADu&action=edit&redlink=1"
+      },
+      "Sinh": {
+        "name": "15 tháng 11, 986 Kinh đô Hoa Lư",
+        "url": "/wiki/15_th%C3%A1ng_11"
+      },
+      "Mất": {
+        "name": "19 tháng 11, 1009(1009-11-19) (23 tuổi) Đại Cồ Việt",
+        "url": "/wiki/Vi%E1%BB%87t_Nam"
+      },
+      "Tên húy": {
+        "name": "Tên húy Lê Long Đĩnh (黎龍鋌) Lê Chí Trung (黎至忠) Niên hiệu Ứng Thiên (應天 1005 - 1007) Cảnh Thụy (景瑞 1008 - 1009) Tôn hiệu Khai Thiên Ứng Vận Thánh Văn Thần Vũ Tắc Thiên Sùng Đạo Đại Thắng Minh Quang Hiếu Hoàng đế (開天應運聖文神武則天崇道大勝明光孝皇帝) Thụy hiệu Ngọa Triều Hoàng đế (臥朝皇帝)",
+        "url": "/wiki/Ni%C3%AAn_hi%E1%BB%87u"
+      },
+      "Hậu duệ": {
+        "name": "Khai Phong vương Lê Cao Sạ",
+        "url": "/w/index.php?title=L%C3%AA_Cao_S%E1%BA%A1&action=edit&redlink=1"
+      },
+      "Tiền nhiệm": {
+        "name": "Lê Trung Tông",
+        "url": "/wiki/L%C3%AA_Trung_T%C3%B4ng_(Ti%E1%BB%81n_L%C3%AA)"
+      },
+      "Thân phụ": {
+        "name": "Lê Đại Hành",
+        "url": "/wiki/L%C3%AA_%C4%90%E1%BA%A1i_H%C3%A0nh"
+      },
+      "Thê thiếp": {
+        "name": "Cảm Thánh Hoàng hậu và một số người vợ khác",
+        "url": "/w/index.php?title=C%E1%BA%A3m_Th%C3%A1nh_Ho%C3%A0ng_h%E1%BA%ADu&action=edit&redlink=1"
+      }
+    }
+  },
+  {
+    "name": "Trần Phế Đế (Đại Việt)",
+    "description": "Trần Phế Đế (chữ Hán: 陳廢帝 6 tháng 3 năm 1361 - 6 tháng 12 năm 1388), hiệu Giản Hoàng (簡皇), là vị hoàng đế thứ 11 của nhà Trần nước Đại Việt. Ông ở ngôi từ năm 1377 đến khi bị phế vào năm 1388, tổng cộng hơn 10 năm trị vì.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "hoàng đế",
+        "url": "/wiki/Ho%C3%A0ng_%C4%91%E1%BA%BF"
+      },
+      {
+        "name": "nhà Trần",
+        "url": "/wiki/Nh%C3%A0_Tr%E1%BA%A7n"
+      },
+      {
+        "name": "Đại Việt",
+        "url": "/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+      },
+      {
+        "name": "1377",
+        "url": "/wiki/1377"
+      },
+      {
+        "name": "1388",
+        "url": "/wiki/1388"
+      },
+      {
+        "name": "Trần Duệ Tông",
+        "url": "/wiki/Tr%E1%BA%A7n_Du%E1%BB%87_T%C3%B4ng"
+      },
+      {
+        "name": "Trần Nghệ Tông",
+        "url": "/wiki/Tr%E1%BA%A7n_Ngh%E1%BB%87_T%C3%B4ng"
+      }
+    ],
+    "id": "c1468",
+    "url": "/wiki/Tr%E1%BA%A7n_Ph%E1%BA%BF_%C4%90%E1%BA%BF_(%C4%90%E1%BA%A1i_Vi%E1%BB%87t)",
+    "info": {
+      "Kế nhiệm": {
+        "name": "Trần Thuận Tông",
+        "url": "/wiki/Tr%E1%BA%A7n_Thu%E1%BA%ADn_T%C3%B4ng"
+      },
+      "Thân mẫu": {
+        "name": "Gia Từ Hoàng hậu",
+        "url": "/wiki/Gia_T%E1%BB%AB_ho%C3%A0ng_h%E1%BA%ADu"
+      },
+      "Tên húy": {
+        "name": "Tên húy Trần Hiện (陳晛) Trần Nhật Vĩ (陳日煒) Niên hiệu Xương Phù (昌符) Tôn hiệu Giản Hoàng (1377 - 1388)",
+        "url": "/wiki/Ni%C3%AAn_hi%E1%BB%87u"
+      },
+      "Tiền nhiệm": {
+        "name": "Trần Duệ Tông",
+        "url": "/wiki/Tr%E1%BA%A7n_Du%E1%BB%87_T%C3%B4ng"
+      },
+      "Thê thiếp": {
+        "name": "Quang Loan Hoàng hậu",
+        "url": "/wiki/Quang_Loan_ho%C3%A0ng_h%E1%BA%ADu"
+      },
+      "Triều đại": {
+        "name": "Nhà Trần",
+        "url": "/wiki/Nh%C3%A0_Tr%E1%BA%A7n"
+      },
+      "Thái thượng hoàng": {
+        "name": "Trần Nghệ Tông (1372-1395)",
+        "url": "/wiki/Tr%E1%BA%A7n_Ngh%E1%BB%87_T%C3%B4ng"
+      },
+      "Trị vì": {
+        "name": "13 tháng 5 năm 1377 \u2013 6 tháng 12 năm 1388 (11 năm, 207 ngày)",
+        "url": "/wiki/13_th%C3%A1ng_5"
+      },
+      "Tước hiệu": {"name": "Linh Đức Đại vương (靈德大王)"},
+      "Sinh": {
+        "name": "6 tháng 3, 1361 Thăng Long",
+        "url": "/wiki/6_th%C3%A1ng_3"
+      },
+      "Mất": {
+        "name": "6 tháng 12, 1388(1388-12-06) (28 tuổi) Thăng Long",
+        "url": "/wiki/Th%C4%83ng_Long"
+      },
+      "Tôn giáo": {
+        "name": "Phật giáo",
+        "url": "/wiki/Ph%E1%BA%ADt_gi%C3%A1o"
+      },
+      "Hậu duệ": {"name": "Thuận Đức Vương"},
+      "Thân phụ": {
+        "name": "Trần Duệ Tông",
+        "url": "/wiki/Tr%E1%BA%A7n_Du%E1%BB%87_T%C3%B4ng"
+      }
+    }
+  },
+  {
+    "name": "Giản Định Đế",
+    "description": "Giản Định Đế (chữ Hán: 簡定帝; 1375 \u2013 1410) là vị hoàng đế khai lập nhà Hậu Trần trong lịch sử Việt Nam. Ông tên thật là Trần Ngỗi (陳頠), sinh tại kinh đô Thăng Long, (nay là Hà Nội). Có tài liệu phiên âm tên ông là Quỹ. Ông ở ngôi từ năm 1407 đến năm 1409, sau đó làm Thái thượng hoàng cho tới khi mất năm 1410.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "hoàng đế",
+        "url": "/wiki/Ho%C3%A0ng_%C4%91%E1%BA%BF"
+      },
+      {
+        "name": "nhà Hậu Trần",
+        "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_Tr%E1%BA%A7n"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Thăng Long",
+        "url": "/wiki/Th%C4%83ng_Long"
+      },
+      {
+        "name": "Hà Nội",
+        "url": "/wiki/H%C3%A0_N%E1%BB%99i"
+      },
+      {
+        "name": "1407",
+        "url": "/wiki/1407"
+      },
+      {
+        "name": "1409",
+        "url": "/wiki/1409"
+      }
+    ],
+    "id": "c1469",
+    "url": "/wiki/Gi%E1%BA%A3n_%C4%90%E1%BB%8Bnh_%C4%90%E1%BA%BF",
+    "info": {
+      "Triều đại": {
+        "name": "Nhà Hậu Trần",
+        "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_Tr%E1%BA%A7n"
+      },
+      "Đăng quang": {
+        "name": "1407",
+        "url": "/wiki/1407"
+      },
+      "Kế nhiệm": {"name": "Thái thượng hoàng Hậu Trần cuối cùng"},
+      "Sinh": {
+        "name": "1375",
+        "url": "/wiki/1375"
+      },
+      "Mất": {
+        "name": "1410",
+        "url": "/wiki/1410"
+      },
+      "Tên húy": {
+        "name": "Tên húy Trần Ngỗi (陳頠) Niên hiệu Hưng Khánh (興慶): 1407\u20141409 Thụy hiệu Giản Định Hoàng Đế (簡定皇帝)",
+        "url": "/wiki/Ni%C3%AAn_hi%E1%BB%87u"
+      },
+      "Tại vị": {
+        "name": "20 tháng 04 năm 1409 \u2013 tháng 07 năm 1409",
+        "url": "/wiki/20_th%C3%A1ng_04"
+      },
+      "Tiền nhiệm": {
+        "name": "Thái thượng hoàng đầu tiên Trần Thuận Tông (nhà Trần) Hồ Quý Ly (nhà Hồ)",
+        "url": "/wiki/Tr%E1%BA%A7n_Thu%E1%BA%ADn_T%C3%B4ng"
+      },
+      "Thân phụ": {
+        "name": "Trần Nghệ Tông",
+        "url": "/wiki/Tr%E1%BA%A7n_Ngh%E1%BB%87_T%C3%B4ng"
+      }
+    }
+  },
+  {
+    "name": "Trùng Quang Đế",
+    "description": "Trùng Quang Đế (chữ Hán: 重光帝 ? \u2013 14 tháng 4 năm 1414[1]) là vị hoàng đế thứ hai của nhà Hậu Trần, một triều đại được dựng lên ở miền nam Đại Việt để chống lại sự đô hộ của đế quốc Minh sau năm 1407. Ông có tên húy là Trần Quý Khoáng (陳季擴) hay Trần Quý Khoách[2], là cháu nội của Trần Nghệ Tông. Khi chú ông là Giản Định Đế dựng nhà Hậu Trần (1407), ông giữ chức Nhập nội thị trung. Năm 1408, các tướng Đặng Dung và Nguyễn Cảnh Dị bất bình với Giản Định Đế mới vào Nghệ An lập Trần Quý Khoáng lên ngôi vua. Trần Quý Khoáng tôn Giản Định Đế làm Thái thượng hoàng, cùng tiến quân ra bắc đánh Minh, đến năm 1409, Thượng hoàng bị địch bắt giết.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "[1]",
+        "url": "#cite_note-1"
+      },
+      {
+        "name": "hoàng đế",
+        "url": "/wiki/Ho%C3%A0ng_%C4%91%E1%BA%BF"
+      },
+      {
+        "name": "nhà Hậu Trần",
+        "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_Tr%E1%BA%A7n"
+      },
+      {
+        "name": "Đại Việt",
+        "url": "/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+      },
+      {
+        "name": "đế quốc Minh",
+        "url": "/wiki/Nh%C3%A0_Minh"
+      },
+      {
+        "name": "1407",
+        "url": "/wiki/1407"
+      },
+      {
+        "name": "[2]",
+        "url": "#cite_note-FOOTNOTETrần_Trọng_Kim197179-2"
+      }
+    ],
+    "id": "c1470",
+    "url": "/wiki/Tr%C3%B9ng_Quang_%C4%90%E1%BA%BF",
+    "info": {
+      "Trị vì": {
+        "name": "20 tháng 4 năm 1409 \u2013 31 tháng 3 năm 1413 (3 năm, 345 ngày)",
+        "url": "/wiki/20_th%C3%A1ng_4"
+      },
+      "Kế nhiệm": {
+        "name": "Nhà Hậu Trần sụp đổ Lê Thái Tổ (Hậu Lê)",
+        "url": "/wiki/L%C3%AA_Th%C3%A1i_T%E1%BB%95"
+      },
+      "Mất": {
+        "name": "14 tháng 4 năm 1414",
+        "url": "/wiki/1414"
+      },
+      "Tên húy": {
+        "name": "Tên húy Trần Quý Khoáng Niên hiệu Trùng Quang (重光 1409-1413)",
+        "url": "/wiki/Ni%C3%AAn_hi%E1%BB%87u"
+      },
+      "Hoàng tộc": {
+        "name": "Hoàng tộc Trần",
+        "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_Tr%E1%BA%A7n"
+      },
+      "Thượng hoàng": {
+        "name": "Giản Định Đế",
+        "url": "/wiki/Gi%E1%BA%A3n_%C4%90%E1%BB%8Bnh_%C4%90%E1%BA%BF"
+      },
+      "Tiền nhiệm": {
+        "name": "Giản Định Đế",
+        "url": "/wiki/Gi%E1%BA%A3n_%C4%90%E1%BB%8Bnh_%C4%90%E1%BA%BF"
+      },
+      "Thân phụ": {
+        "name": "Trang Định vương Trần Ngạc",
+        "url": "/wiki/Tr%E1%BA%A7n_Ng%E1%BA%A1c"
+      }
+    }
+  },
+  {
+    "name": "Vua Việt Nam",
+    "description": "Vua nước Việt (chữ Nôm:𤤰渃越) là vị quân chủ nước Việt Nam độc lập tự chủ từ thời dựng nước đến Cách mạng Tháng Tám năm 1945, tùy thuộc vào hoàn cảnh lịch sử mà vua Việt Nam có thể mang tước hiệu khác nhau. Ở trong nước, tước hiệu tự xưng cao nhất là Hoàng đế và thấp hơn là Quốc vương hoặc Quận vương\n",
+    "connection": [
+      {
+        "name": "Thời tiền sử",
+        "url": "/wiki/Vi%E1%BB%87t_Nam_th%E1%BB%9Di_ti%E1%BB%81n_s%E1%BB%AD"
+      },
+      {
+        "name": "Hồng Bàng",
+        "url": "/wiki/H%E1%BB%93ng_B%C3%A0ng"
+      },
+      {
+        "name": "An Dương Vương",
+        "url": "/wiki/An_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng"
+      },
+      {
+        "name": "chữ Nôm",
+        "url": "/wiki/Ch%E1%BB%AF_N%C3%B4m"
+      },
+      {
+        "name": "quân chủ",
+        "url": "/wiki/Vua"
+      },
+      {
+        "name": "Việt Nam",
+        "url": "/wiki/Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Cách mạng Tháng Tám",
+        "url": "/wiki/C%C3%A1ch_m%E1%BA%A1ng_Th%C3%A1ng_T%C3%A1m"
+      },
+      {
+        "name": "1945",
+        "url": "/wiki/1945"
+      }
+    ],
+    "id": "c1471",
+    "url": "#cite_note-156",
+    "info": {}
+  },
+  {
+    "name": "Lê Do",
+    "description": "Lê Do (Chữ Hán: 黎槱; Hán Việt: Lê Dữu[1][2] ?-1519) là một vị hoàng đế nhà Lê sơ trong lịch sử Việt Nam. Do được lập lên ngôi và thất bại trong thời gian loạn lạc ngắn ngủi, ông ít được nhắc tới trong danh sách các vị vua chính thống của Việt Nam.\n",
+    "connection": [
+      {
+        "name": "[1]",
+        "url": "#cite_note-1"
+      },
+      {
+        "name": "[2]",
+        "url": "#cite_note-2"
+      },
+      {
+        "name": "nhà Lê sơ",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_s%C6%A1"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "các vị vua chính thống của Việt Nam",
+        "url": "/wiki/Vua_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Đại Việt sử ký toàn thư",
+        "url": "/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t_s%E1%BB%AD_k%C3%BD_to%C3%A0n_th%C6%B0"
+      },
+      {
+        "name": "Lê Bảng",
+        "url": "/wiki/L%C3%AA_B%E1%BA%A3ng"
+      },
+      {
+        "name": "Lê Thánh Tông",
+        "url": "/wiki/L%C3%AA_Th%C3%A1nh_T%C3%B4ng"
+      }
+    ],
+    "id": "c1472",
+    "url": "/wiki/L%C3%AA_Do",
+    "info": {
+      "Triều đại": {
+        "name": "Nhà Hậu Lê",
+        "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA"
+      },
+      "Mất": {"name": "1519"},
+      "Tên húy": {
+        "name": "Tên húy Lê Do Niên hiệu Thiên Hiến (1519)",
+        "url": "/wiki/Ni%C3%AAn_hi%E1%BB%87u"
+      },
+      "Tại vị": {
+        "name": "1519",
+        "url": "/wiki/1519"
+      },
+      "Thân phụ": {"name": "Tĩnh Tu công Lê Lộc?"}
+    }
+  },
+  {
+    "name": "Vua Việt Nam",
+    "description": "Vua nước Việt (chữ Nôm:𤤰渃越) là vị quân chủ nước Việt Nam độc lập tự chủ từ thời dựng nước đến Cách mạng Tháng Tám năm 1945, tùy thuộc vào hoàn cảnh lịch sử mà vua Việt Nam có thể mang tước hiệu khác nhau. Ở trong nước, tước hiệu tự xưng cao nhất là Hoàng đế và thấp hơn là Quốc vương hoặc Quận vương\n",
+    "connection": [
+      {
+        "name": "Thời tiền sử",
+        "url": "/wiki/Vi%E1%BB%87t_Nam_th%E1%BB%9Di_ti%E1%BB%81n_s%E1%BB%AD"
+      },
+      {
+        "name": "Hồng Bàng",
+        "url": "/wiki/H%E1%BB%93ng_B%C3%A0ng"
+      },
+      {
+        "name": "An Dương Vương",
+        "url": "/wiki/An_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng"
+      },
+      {
+        "name": "chữ Nôm",
+        "url": "/wiki/Ch%E1%BB%AF_N%C3%B4m"
+      },
+      {
+        "name": "quân chủ",
+        "url": "/wiki/Vua"
+      },
+      {
+        "name": "Việt Nam",
+        "url": "/wiki/Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Cách mạng Tháng Tám",
+        "url": "/wiki/C%C3%A1ch_m%E1%BA%A1ng_Th%C3%A1ng_T%C3%A1m"
+      },
+      {
+        "name": "1945",
+        "url": "/wiki/1945"
+      }
+    ],
+    "id": "c1473",
+    "url": "#cite_note-ab-157",
+    "info": {}
+  },
+  {
+    "name": "Vua Việt Nam",
+    "description": "Vua nước Việt (chữ Nôm:𤤰渃越) là vị quân chủ nước Việt Nam độc lập tự chủ từ thời dựng nước đến Cách mạng Tháng Tám năm 1945, tùy thuộc vào hoàn cảnh lịch sử mà vua Việt Nam có thể mang tước hiệu khác nhau. Ở trong nước, tước hiệu tự xưng cao nhất là Hoàng đế và thấp hơn là Quốc vương hoặc Quận vương\n",
+    "connection": [
+      {
+        "name": "Thời tiền sử",
+        "url": "/wiki/Vi%E1%BB%87t_Nam_th%E1%BB%9Di_ti%E1%BB%81n_s%E1%BB%AD"
+      },
+      {
+        "name": "Hồng Bàng",
+        "url": "/wiki/H%E1%BB%93ng_B%C3%A0ng"
+      },
+      {
+        "name": "An Dương Vương",
+        "url": "/wiki/An_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng"
+      },
+      {
+        "name": "chữ Nôm",
+        "url": "/wiki/Ch%E1%BB%AF_N%C3%B4m"
+      },
+      {
+        "name": "quân chủ",
+        "url": "/wiki/Vua"
+      },
+      {
+        "name": "Việt Nam",
+        "url": "/wiki/Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Cách mạng Tháng Tám",
+        "url": "/wiki/C%C3%A1ch_m%E1%BA%A1ng_Th%C3%A1ng_T%C3%A1m"
+      },
+      {
+        "name": "1945",
+        "url": "/wiki/1945"
+      }
+    ],
+    "id": "c1474",
+    "url": "#cite_note-160",
+    "info": {}
+  },
+  {
+    "name": "Vua Việt Nam",
+    "description": "Vua nước Việt (chữ Nôm:𤤰渃越) là vị quân chủ nước Việt Nam độc lập tự chủ từ thời dựng nước đến Cách mạng Tháng Tám năm 1945, tùy thuộc vào hoàn cảnh lịch sử mà vua Việt Nam có thể mang tước hiệu khác nhau. Ở trong nước, tước hiệu tự xưng cao nhất là Hoàng đế và thấp hơn là Quốc vương hoặc Quận vương\n",
+    "connection": [
+      {
+        "name": "Thời tiền sử",
+        "url": "/wiki/Vi%E1%BB%87t_Nam_th%E1%BB%9Di_ti%E1%BB%81n_s%E1%BB%AD"
+      },
+      {
+        "name": "Hồng Bàng",
+        "url": "/wiki/H%E1%BB%93ng_B%C3%A0ng"
+      },
+      {
+        "name": "An Dương Vương",
+        "url": "/wiki/An_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng"
+      },
+      {
+        "name": "chữ Nôm",
+        "url": "/wiki/Ch%E1%BB%AF_N%C3%B4m"
+      },
+      {
+        "name": "quân chủ",
+        "url": "/wiki/Vua"
+      },
+      {
+        "name": "Việt Nam",
+        "url": "/wiki/Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Cách mạng Tháng Tám",
+        "url": "/wiki/C%C3%A1ch_m%E1%BA%A1ng_Th%C3%A1ng_T%C3%A1m"
+      },
+      {
+        "name": "1945",
+        "url": "/wiki/1945"
+      }
+    ],
+    "id": "c1475",
+    "url": "#cite_note-178",
+    "info": {}
+  },
+  {
+    "name": "Lê Trung Tông (Hậu Lê)",
+    "description": "Lê Trung Tông (chữ Hán: 黎中宗 1535 - 24 tháng 1 năm 1556) là vị Hoàng đế thứ hai của nhà Lê trung hưng và là thứ 13 của nhà Hậu Lê, ở ngôi từ năm 1548 đến năm 1556, cả thảy 8 năm.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "nhà Lê trung hưng",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_trung_h%C6%B0ng"
+      },
+      {
+        "name": "nhà Hậu Lê",
+        "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA"
+      },
+      {
+        "name": "1548",
+        "url": "/wiki/1548"
+      },
+      {
+        "name": "1556",
+        "url": "/wiki/1556"
+      },
+      {
+        "name": "Lê Trang Tông",
+        "url": "/wiki/L%C3%AA_Trang_T%C3%B4ng"
+      },
+      {
+        "name": "triều Hậu Lê",
+        "url": "/wiki/Tri%E1%BB%81u_H%E1%BA%ADu_L%C3%AA"
+      },
+      {
+        "name": "Trịnh Thị Ngọc Cửu",
+        "url": "/w/index.php?title=Tr%E1%BB%8Bnh_Th%E1%BB%8B_Ng%E1%BB%8Dc_C%E1%BB%ADu&action=edit&redlink=1"
+      }
+    ],
+    "id": "c1476",
+    "url": "/wiki/L%C3%AA_Trung_T%C3%B4ng_(H%E1%BA%ADu_L%C3%AA)",
+    "info": {
+      "Nhiếp chính": {
+        "name": "Trịnh Kiểm (1548-1556)",
+        "url": "/wiki/Tr%E1%BB%8Bnh_Ki%E1%BB%83m"
+      },
+      "Triều đại": {
+        "name": "Nhà Lê trung hưng",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_trung_h%C6%B0ng"
+      },
+      "Trị vì": {"name": "9 tháng 3 năm 1548 - 24 tháng 1 năm 1556 7 năm, 321 ngày"},
+      "Kế nhiệm": {
+        "name": "Lê Anh Tông",
+        "url": "/wiki/L%C3%AA_Anh_T%C3%B4ng"
+      },
+      "Thân mẫu": {
+        "name": "Trinh Thục Dụ Hoàng hậu",
+        "url": "/w/index.php?title=Trinh_Th%E1%BB%A5c_D%E1%BB%A5_Ho%C3%A0ng_h%E1%BA%ADu&action=edit&redlink=1"
+      },
+      "Tên thật": {
+        "name": "Tên thật Lê Huyên (黎暄) Niên hiệu Thuận Bình (顺平) Thụy hiệu Vũ Hoàng đế (武皇帝) Miếu hiệu Trung Tông (中宗)",
+        "url": "/wiki/Ni%C3%AAn_hi%E1%BB%87u"
+      },
+      "Sinh": {
+        "name": "1535",
+        "url": "/wiki/1535"
+      },
+      "Mất": {
+        "name": "24 tháng 1, 1556 Tây Đô, Thanh Hóa",
+        "url": "/wiki/24_th%C3%A1ng_1"
+      },
+      "An táng": {"name": "Diên lăng (延陵)"},
+      "Tiền nhiệm": {
+        "name": "Lê Trang Tông",
+        "url": "/wiki/L%C3%AA_Trang_T%C3%B4ng"
+      },
+      "Thân phụ": {
+        "name": "Lê Trang Tông",
+        "url": "/wiki/L%C3%AA_Trang_T%C3%B4ng"
+      }
+    }
+  },
+  {
+    "name": "Lê Ý Tông",
+    "description": "Lê Ý Tông (chữ Hán: 黎懿宗 29 tháng 3 năm 1719 \u2013 10 tháng 8 năm 1759), tên húy là Lê Duy Thận (黎維祳),[1] là vị Hoàng đế thứ 14 của nhà Lê Trung hưng và thứ 25 của nhà Hậu Lê, đồng thời vua Lê Ý Tông cũng là Thái thượng hoàng cuối cùng trong lịch sử Việt Nam.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "húy",
+        "url": "/wiki/H%C3%BAy"
+      },
+      {
+        "name": "[1]",
+        "url": "#cite_note-1"
+      },
+      {
+        "name": "nhà Lê Trung hưng",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_Trung_H%C6%B0ng"
+      },
+      {
+        "name": "nhà Hậu Lê",
+        "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA"
+      },
+      {
+        "name": "Thái thượng hoàng",
+        "url": "/wiki/Th%C3%A1i_th%C6%B0%E1%BB%A3ng_ho%C3%A0ng"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Trịnh Giang",
+        "url": "/wiki/Tr%E1%BB%8Bnh_Giang"
+      }
+    ],
+    "id": "c1477",
+    "url": "/wiki/L%C3%AA_%C3%9D_T%C3%B4ng",
+    "info": {
+      "Nhiếp chính": {
+        "name": "Trịnh Giang (1735-1740) Trịnh Doanh (tháng 1/1740 - tháng 5/1740)",
+        "url": "/wiki/Tr%E1%BB%8Bnh_Giang"
+      },
+      "Triều đại": {
+        "name": "Nhà Lê Trung hưng",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_trung_h%C6%B0ng"
+      },
+      "Trị vì": {"name": "5 tháng 6 năm 1735 - tháng 5 năm 1740"},
+      "Kế nhiệm": {"name": "Thái thượng hoàng cuối cùng của nhà Hậu Lê"},
+      "Thân mẫu": {
+        "name": "Cung Phi Nguyễn Thị",
+        "url": "/w/index.php?title=Cung_Phi_Nguy%E1%BB%85n_Th%E1%BB%8B&action=edit&redlink=1"
+      },
+      "Tên thật": {
+        "name": "Tên thật Lê Duy Thận (黎維祳) Lê Duy Chẩn Niên hiệu Vĩnh Hựu (永佑 1735 - 1740) Thụy hiệu Ôn Gia Trang Túc Khải Túy Minh Mẫn Khoan Hồng Uyên Duệ Huy Hoàng đế Miếu hiệu Ý Tông (懿宗)",
+        "url": "/wiki/Ni%C3%AAn_hi%E1%BB%87u"
+      },
+      "Sinh": {
+        "name": "29 tháng 3, 1719",
+        "url": "/wiki/29_th%C3%A1ng_3"
+      },
+      "Mất": {
+        "name": "10 tháng 8, 1759 Đông Kinh, Đại Việt",
+        "url": "/wiki/10_th%C3%A1ng_8"
+      },
+      "Tại vị": {
+        "name": "1740 - 1759",
+        "url": "/wiki/1740"
+      },
+      "An táng": {"name": "Lăng Phù Lê"},
+      "Tiền nhiệm": {
+        "name": "Lê Dụ Tông",
+        "url": "/wiki/L%C3%AA_D%E1%BB%A5_T%C3%B4ng"
+      },
+      "Thân phụ": {
+        "name": "Lê Dụ Tông",
+        "url": "/wiki/L%C3%AA_D%E1%BB%A5_T%C3%B4ng"
+      }
+    }
+  },
+  {
+    "name": "Lê Hiển Tông",
+    "description": "Lê Hiển Tông (chữ Hán: 黎顯宗 20 tháng 5 năm 1717 \u2013 10 tháng 8 năm 1786), tên húy là Lê Duy Diêu (黎維祧), là vị hoàng đế áp chót của nhà Lê Trung hưng cũng như là thứ 26 của nhà Hậu Lê trong lịch sử Việt Nam. Ông ở ngôi từ tháng 5 năm 1740, sau khi Trịnh Doanh ép vua Lê Ý Tông nhường ngôi cho ông, đến ngày 17 tháng 7 năm 1786.[1]Trong suốt thời gian trị vì ông chỉ dùng một niên hiệu là Cảnh Hưng.\n",
+    "connection": [
+      {
+        "name": "Trịnh Sâm",
+        "url": "/wiki/Tr%E1%BB%8Bnh_S%C3%A2m"
+      },
+      {
+        "name": "Trịnh Cán",
+        "url": "/wiki/Tr%E1%BB%8Bnh_C%C3%A1n"
+      },
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "20 tháng 5",
+        "url": "/wiki/20_th%C3%A1ng_5"
+      },
+      {
+        "name": "1717",
+        "url": "/wiki/1717"
+      },
+      {
+        "name": "10 tháng 8",
+        "url": "/wiki/10_th%C3%A1ng_8"
+      },
+      {
+        "name": "1786",
+        "url": "/wiki/1786"
+      },
+      {
+        "name": "tên húy",
+        "url": "/wiki/T%C3%AAn_h%C3%BAy"
+      }
+    ],
+    "id": "c1478",
+    "url": "/wiki/L%C3%AA_Hi%E1%BB%83n_T%C3%B4ng",
+    "info": {
+      "Nhiếp chính": {
+        "name": "Trịnh Doanh (1740-1767) Trịnh Sâm (1767-1782) Trịnh Cán (1782-1 tháng) Trịnh Tông (1782-1786)",
+        "url": "/wiki/Tr%E1%BB%8Bnh_Doanh"
+      },
+      "Triều đại": {
+        "name": "Nhà Lê Trung hưng",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_trung_h%C6%B0ng"
+      },
+      "Trị vì": {
+        "name": "tháng 5 năm 1740 \u2013 10 tháng 8 năm 1786",
+        "url": "/wiki/Th%C3%A1ng_5"
+      },
+      "Kế nhiệm": {
+        "name": "Lê Mẫn Đế",
+        "url": "/wiki/L%C3%AA_Chi%C3%AAu_Th%E1%BB%91ng"
+      },
+      "Thân mẫu": {"name": "Nhu Thuận Giản Hoàng hậu Đào thị"},
+      "Sinh": {
+        "name": "20 tháng 5, 1717",
+        "url": "/wiki/20_th%C3%A1ng_5"
+      },
+      "Mất": {
+        "name": "10 tháng 8, 1786(69 tuổi) Đông Kinh, Đại Việt",
+        "url": "/wiki/10_th%C3%A1ng_8"
+      },
+      "Tên húy": {
+        "name": "Tên húy Lê Duy Diêu (黎維祧) Niên hiệu Cảnh Hưng (景興 1740 - 1787) Tôn hiệu Uyên Úy Khâm Cung Nhân Từ Đức Thọ Hoàng Đế Thụy hiệu Vĩnh Hoàng đế (永皇帝) Miếu hiệu Hiển Tông (顯宗)",
+        "url": "/wiki/Ni%C3%AAn_hi%E1%BB%87u"
+      },
+      "An táng": {"name": "Bàn Thạch lăng"},
+      "Hậu duệ": {
+        "name": "Hậu duệ Lê Duy Vĩ Lê Duy Cận Lê Ngọc Hân Lê Ngọc Bình một số người khác tổng cộng 23 người",
+        "url": "/wiki/L%C3%AA_Duy_V%E1%BB%B9"
+      },
+      "Tiền nhiệm": {
+        "name": "Lê Ý Tông",
+        "url": "/wiki/L%C3%AA_%C3%9D_T%C3%B4ng"
+      },
+      "Thân phụ": {
+        "name": "Lê Thuần Tông",
+        "url": "/wiki/L%C3%AA_Thu%E1%BA%A7n_T%C3%B4ng"
+      }
+    }
+  },
+  {
+    "name": "Trịnh Cối",
+    "description": "Trịnh Cối (chữ Hán: 鄭檜, ? - 1584) là một nhà chính trị thời chiến tranh Lê-Mạc. Do là con cả của thượng tướng Trịnh Kiểm, ông được cha trao binh quyền trước khi chết. Người em cùng cha khác mẹ của ông - Trịnh Tùng, khởi binh chống lại. Trịnh Cối không kiểm soát được vua Lê, bị kẹp vào giữa quân Mạc và quân Trịnh Tùng, kết quả phải đầu hàng nhà Mạc.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "chiến tranh Lê-Mạc",
+        "url": "/wiki/Chi%E1%BA%BFn_tranh_L%C3%AA-M%E1%BA%A1c"
+      },
+      {
+        "name": "Trịnh Kiểm",
+        "url": "/wiki/Tr%E1%BB%8Bnh_Ki%E1%BB%83m"
+      },
+      {
+        "name": "Trịnh Tùng",
+        "url": "/wiki/Tr%E1%BB%8Bnh_T%C3%B9ng"
+      },
+      {
+        "name": "Thạch Khê",
+        "url": "/wiki/Th%E1%BA%A1ch_Kh%C3%AA"
+      },
+      {
+        "name": "Thạch Hà",
+        "url": "/wiki/Th%E1%BA%A1ch_H%C3%A0"
+      },
+      {
+        "name": "cần dẫn nguồn",
+        "url": "/wiki/Wikipedia:Ch%C3%BA_th%C3%ADch_ngu%E1%BB%93n_g%E1%BB%91c"
+      },
+      {
+        "name": "[2]",
+        "url": "#cite_note-2"
+      }
+    ],
+    "id": "c1479",
+    "url": "/wiki/Tr%E1%BB%8Bnh_C%E1%BB%91i",
+    "info": {
+      "Kế nhiệm": {
+        "name": "Trịnh Tùng",
+        "url": "/wiki/Tr%E1%BB%8Bnh_T%C3%B9ng"
+      },
+      "Tước hiệu": {
+        "name": "Tuấn Đức hầu (俊德侯) Trung quốc công (忠國公)[1]",
+        "url": "#cite_note-1"
+      },
+      "Thời kỳ": {
+        "name": "Lê Anh Tông (1556 - 1573)",
+        "url": "/wiki/L%C3%AA_Anh_T%C3%B4ng"
+      },
+      "Sinh": {
+        "name": "?",
+        "url": "/wiki/D%E1%BA%A5u_ch%E1%BA%A5m_h%E1%BB%8Fi"
+      },
+      "Mất": {
+        "name": "1584",
+        "url": "/wiki/1584"
+      },
+      "Hoàng tộc": {
+        "name": "Chúa Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
+      "Tại vị": {"name": "24 tháng 3 năm 1570 \u2013 tháng 8 năm 1570"},
+      "Tiền nhiệm": {
+        "name": "Trịnh Kiểm",
+        "url": "/wiki/Tr%E1%BB%8Bnh_Ki%E1%BB%83m"
+      },
+      "Tên đầy đủ": {"name": "Tên đầy đủ Trịnh Cối (鄭檜)"}
+    }
+  },
+  {
+    "name": "Vua Việt Nam",
+    "description": "Vua nước Việt (chữ Nôm:𤤰渃越) là vị quân chủ nước Việt Nam độc lập tự chủ từ thời dựng nước đến Cách mạng Tháng Tám năm 1945, tùy thuộc vào hoàn cảnh lịch sử mà vua Việt Nam có thể mang tước hiệu khác nhau. Ở trong nước, tước hiệu tự xưng cao nhất là Hoàng đế và thấp hơn là Quốc vương hoặc Quận vương\n",
+    "connection": [
+      {
+        "name": "Thời tiền sử",
+        "url": "/wiki/Vi%E1%BB%87t_Nam_th%E1%BB%9Di_ti%E1%BB%81n_s%E1%BB%AD"
+      },
+      {
+        "name": "Hồng Bàng",
+        "url": "/wiki/H%E1%BB%93ng_B%C3%A0ng"
+      },
+      {
+        "name": "An Dương Vương",
+        "url": "/wiki/An_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng"
+      },
+      {
+        "name": "chữ Nôm",
+        "url": "/wiki/Ch%E1%BB%AF_N%C3%B4m"
+      },
+      {
+        "name": "quân chủ",
+        "url": "/wiki/Vua"
+      },
+      {
+        "name": "Việt Nam",
+        "url": "/wiki/Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Cách mạng Tháng Tám",
+        "url": "/wiki/C%C3%A1ch_m%E1%BA%A1ng_Th%C3%A1ng_T%C3%A1m"
+      },
+      {
+        "name": "1945",
+        "url": "/wiki/1945"
+      }
+    ],
+    "id": "c1480",
+    "url": "#cite_note-227",
+    "info": {}
+  },
+  {
+    "name": "Trịnh Căn",
+    "description": "Trịnh Căn (chữ Hán: 鄭根, 18 tháng 7 năm 1633[1] - 17 tháng 6 năm 1709), thụy hiệu Chiêu Tổ Khang Vương (昭祖康王), là vị chúa Trịnh thứ 4 dưới thời Lê Trung hưng, trong lịch sử Việt Nam.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "[1]",
+        "url": "#cite_note-saija-1"
+      },
+      {
+        "name": "thụy hiệu",
+        "url": "/wiki/Th%E1%BB%A5y_hi%E1%BB%87u"
+      },
+      {
+        "name": "chúa Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
+      {
+        "name": "Lê Trung hưng",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_trung_h%C6%B0ng"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Trịnh Tạc",
+        "url": "/wiki/Tr%E1%BB%8Bnh_T%E1%BA%A1c"
+      },
+      {
+        "name": "7 cuộc phân tranh giữa họ Trịnh và họ Nguyễn",
+        "url": "/wiki/Tr%E1%BB%8Bnh_%E2%80%93_Nguy%E1%BB%85n_ph%C3%A2n_tranh"
+      }
+    ],
+    "id": "c1481",
+    "url": "/wiki/Tr%E1%BB%8Bnh_C%C4%83n",
+    "info": {
+      "Kế nhiệm": {
+        "name": "Trịnh Cương",
+        "url": "/wiki/Tr%E1%BB%8Bnh_C%C6%B0%C6%A1ng"
+      },
+      "Thân mẫu": {
+        "name": "Vũ Thị Ngọc Lễ",
+        "url": "/w/index.php?title=V%C5%A9_Th%E1%BB%8B_Ng%E1%BB%8Dc_L%E1%BB%85&action=edit&redlink=1"
+      },
+      "Tước hiệu": {"name": "Định Nam Vương (定南王)"},
+      "Thời kỳ": {
+        "name": "Lê Hy Tông (1675 - 1705) Lê Dụ Tông (1705 - 1729)",
+        "url": "/wiki/L%C3%AA_Hy_T%C3%B4ng"
+      },
+      "Sinh": {
+        "name": "18 tháng 7 năm 1633[1]",
+        "url": "#cite_note-saija-1"
+      },
+      "Mất": {
+        "name": "17 tháng 6 năm 1709 Đông Kinh, Đàng Ngoài, Đại Việt",
+        "url": "/wiki/%C4%90%C3%B4ng_Kinh"
+      },
+      "Tại vị": {"name": "24 tháng 9 năm 1682 \u2013 17 tháng 6 năm 1709 26 năm, 266 ngày"},
+      "Tiền nhiệm": {
+        "name": "Trịnh Tạc",
+        "url": "/wiki/Tr%E1%BB%8Bnh_T%E1%BA%A1c"
+      },
+      "Thân phụ": {
+        "name": "Trịnh Tạc",
+        "url": "/wiki/Tr%E1%BB%8Bnh_T%E1%BA%A1c"
+      },
+      "Thê thiếp": {
+        "name": "Nguyễn Thị Ngọc Phượng Phạm Thị Ngọc Quyền Ngô Thị Ngọc Uyên",
+        "url": "/w/index.php?title=Nguy%E1%BB%85n_Th%E1%BB%8B_Ng%E1%BB%8Dc_Ph%C6%B0%E1%BB%A3ng_(Tr%E1%BB%8Bnh_C%C4%83n)&action=edit&redlink=1"
+      },
+      "Tên đầy đủ": {
+        "name": "Tên đầy đủ Trịnh Căn (鄭根) Tôn hiệu Hồng Do Thần Trí Hùng Tài Tuyên Nghĩa Phu Đạo Lập Chính Uyên Ý Thần Trí Thánh Vũ Văn Công Thừa Liệt Hiển Mô Giám Hiến Bỉnh Chiết Bảo Quốc Tuy Phương Quang Tiền Chấn Hậu Chế Trị Thùy Chuẩn Thịnh Nghiệp Đại Công Khôi Võng Chấn Kỷ Tuy Nội Ninh Ngoại Khang Vương Thụy hiệu Khang Vương (康王) Miếu hiệu Chiêu Tổ (昭祖)",
+        "url": "/wiki/T%C3%B4n_hi%E1%BB%87u"
+      },
+      "Gia tộc": {
+        "name": "Chúa Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      }
+    }
+  },
+  {
+    "name": "Trịnh Cương",
+    "description": "Trịnh Cương (chữ Hán: 鄭棡, 9 tháng 7 năm 1686 \u2013 20 tháng 12 năm 1729), còn có tên khác là Trịnh Chù[1], thụy hiệu là Hy Tổ Nhân vương (禧祖仁王), là vị chúa Trịnh thứ 5 dưới thời Lê Trung Hưng trong lịch sử Việt Nam.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "[1]",
+        "url": "#cite_note-FOOTNOTETạ_Chí_Đại_Trường200910-1"
+      },
+      {
+        "name": "thụy hiệu",
+        "url": "/wiki/Th%E1%BB%A5y_hi%E1%BB%87u"
+      },
+      {
+        "name": "chúa Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
+      {
+        "name": "Lê Trung Hưng",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_trung_h%C6%B0ng"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Trịnh Căn",
+        "url": "/wiki/Tr%E1%BB%8Bnh_C%C4%83n"
+      },
+      {
+        "name": "Đại Việt",
+        "url": "/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+      }
+    ],
+    "id": "c1482",
+    "url": "/wiki/Tr%E1%BB%8Bnh_C%C6%B0%C6%A1ng",
+    "info": {
+      "Kế nhiệm": {
+        "name": "Trịnh Giang",
+        "url": "/wiki/Tr%E1%BB%8Bnh_Giang"
+      },
+      "Thân mẫu": {
+        "name": "Trương Thị Ngọc Chử (mẹ sinh) Nguyễn Thị Cảo (nhũ mẫu, mẹ nuôi)",
+        "url": "/wiki/Tr%C6%B0%C6%A1ng_Th%E1%BB%8B_Ng%E1%BB%8Dc_Ch%E1%BB%AD"
+      },
+      "Tên húy": {
+        "name": "Tên húy Trịnh Cương (鄭棡) Thụy hiệu Nhân Vương (仁王) Miếu hiệu Hy Tổ (禧祖)",
+        "url": "/wiki/Th%E1%BB%A5y_hi%E1%BB%87u"
+      },
+      "Tiền nhiệm": {
+        "name": "Trịnh Căn",
+        "url": "/wiki/Tr%E1%BB%8Bnh_C%C4%83n"
+      },
+      "Thê thiếp": {
+        "name": "Chính phi Trịnh thị Thái phi Vũ Thị Ngọc Nguyên Kỳ viên Đặng thị",
+        "url": "/wiki/V%C5%A9_Th%E1%BB%8B_Ng%E1%BB%8Dc_Nguy%C3%AAn"
+      },
+      "Trị vì": {"name": "17 tháng 6 năm 1709 \u2013 20 tháng 12 năm 1729 20 năm, 186 ngày"},
+      "Tước hiệu": {"name": "An Đô Vương (安都王)"},
+      "Thời kỳ": {
+        "name": "Lê Dụ Tông (1705 - 1728) Lê Duy Phường (1729 - 1732)",
+        "url": "/wiki/L%C3%AA_D%E1%BB%A5_T%C3%B4ng"
+      },
+      "Sinh": {
+        "name": "(1686-07-09)9 tháng 7, 1686 Đông Kinh, Đàng Ngoài, Đại Việt",
+        "url": "/wiki/%C4%90%C3%B4ng_Kinh"
+      },
+      "Mất": {
+        "name": "20 tháng 12, 1729(1729-12-20) (43 tuổi) Đông Kinh, Đàng Ngoài, Đại Việt",
+        "url": "/wiki/%C4%90%C3%B4ng_Kinh"
+      },
+      "Hoàng tộc": {
+        "name": "Vương tộc Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
+      "Hậu duệ": {
+        "name": "Hậu duệ Xem mục Gia đình",
+        "url": "#Gia_đình"
+      },
+      "Thân phụ": {
+        "name": "Trịnh Bính",
+        "url": "/wiki/Tr%E1%BB%8Bnh_B%C3%ADnh"
+      }
+    }
+  },
+  {
+    "name": "Trịnh Tông",
+    "description": "Đoan Nam Vương Trịnh Tông (chữ Hán: 鄭棕; 10 tháng 10 năm 1763 - 23 tháng 7 năm 1786), còn có tên gọi khác là Trịnh Khải (鄭楷) là vị chúa Trịnh.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "chúa Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
+      {
+        "name": "Lê Trung Hưng",
+        "url": "/wiki/L%C3%AA_Trung_H%C6%B0ng"
+      },
+      {
+        "name": "lịch sử Việt Nam",
+        "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "1782",
+        "url": "/wiki/1782"
+      },
+      {
+        "name": "1786",
+        "url": "/wiki/1786"
+      },
+      {
+        "name": "Trịnh Sâm",
+        "url": "/wiki/Tr%E1%BB%8Bnh_S%C3%A2m"
+      },
+      {
+        "name": "Dương Thị Ngọc Hoan",
+        "url": "/wiki/D%C6%B0%C6%A1ng_Th%E1%BB%8B_Ng%E1%BB%8Dc_Hoan"
+      }
+    ],
+    "id": "c1483",
+    "url": "/wiki/Tr%E1%BB%8Bnh_Kh%E1%BA%A3i",
+    "info": {
+      "Kế nhiệm": {
+        "name": "Trịnh Bồng",
+        "url": "/wiki/Tr%E1%BB%8Bnh_B%E1%BB%93ng"
+      },
+      "Thân mẫu": {
+        "name": "Dương Thị Ngọc Hoan",
+        "url": "/wiki/D%C6%B0%C6%A1ng_Th%E1%BB%8B_Ng%E1%BB%8Dc_Hoan"
+      },
+      "Tên thật": {
+        "name": "Tên thật Trịnh Tông (鄭棕) Miếu hiệu Linh Vương",
+        "url": "/wiki/Mi%E1%BA%BFu_hi%E1%BB%87u"
+      },
+      "Tước hiệu": {"name": "Đoan Nam Vương (端南王)"},
+      "Thời kỳ": {
+        "name": "Lê Hiển Tông (1740 - 1786)",
+        "url": "/wiki/L%C3%AA_Hi%E1%BB%83n_T%C3%B4ng"
+      },
+      "Sinh": {
+        "name": "10 tháng 10 năm 1763",
+        "url": "/wiki/10_th%C3%A1ng_10"
+      },
+      "Mất": {
+        "name": "23 tháng 7 năm 1786 (22\u201323 tuổi) Đàng Ngoài, Đại Việt",
+        "url": "/wiki/23_th%C3%A1ng_7"
+      },
+      "Hoàng tộc": {
+        "name": "Chúa Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
+      "Tại vị": {"name": "28 tháng 11 năm 1782 \u2013 23 tháng 7 năm 1786 3 năm, 237 ngày"},
+      "Tiền nhiệm": {
+        "name": "Trịnh Cán",
+        "url": "/wiki/Tr%E1%BB%8Bnh_C%C3%A1n"
+      },
+      "Thân phụ": {
+        "name": "Trịnh Sâm",
+        "url": "/wiki/Tr%E1%BB%8Bnh_S%C3%A2m"
+      }
+    }
+  },
+  {
+    "name": "Nguyễn Phúc Chú",
+    "description": "Nguyễn Phúc Chú[3] (chữ Hán: 阮福澍, 1697-1738) hay Trú[4] hay Thụ[1] còn được gọi là Nguyễn Túc Tông, là vị chúa Nguyễn thứ bảy của chính quyền Đàng Trong trong lịch sử Việt Nam (ở ngôi từ 1725 đến 1738), nối ngôi Chúa Nguyễn Phúc Chu.\n",
+    "connection": [
+      {
+        "name": "[3]",
+        "url": "#cite_note-3"
+      },
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "[4]",
+        "url": "#cite_note-4"
+      },
+      {
+        "name": "[1]",
+        "url": "#cite_note-nguyenphuoctoc-1"
+      },
+      {
+        "name": "chúa Nguyễn",
+        "url": "/wiki/Ch%C3%BAa_Nguy%E1%BB%85n"
+      },
+      {
+        "name": "Đàng Trong",
+        "url": "/wiki/%C4%90%C3%A0ng_Trong"
+      },
+      {
+        "name": "Việt Nam",
+        "url": "/wiki/Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "1725",
+        "url": "/wiki/1725"
+      }
+    ],
+    "id": "c1484",
+    "url": "/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Ch%C3%BA",
+    "info": {
+      "Kế nhiệm": {
+        "name": "Nguyễn Phúc Khoát",
+        "url": "/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Kho%C3%A1t"
+      },
+      "Tước vị": {"name": "Tước vị Đại Đô Thống Tổng Quốc Chính Tuyên Quang Thiệu Liệt Tuấn Triết Tĩnh Uyên Kinh Văn Vĩ Vũ Hiếu Ninh Vương"},
+      "Thân mẫu": {
+        "name": "Tống Thị Được",
+        "url": "/wiki/T%E1%BB%91ng_Th%E1%BB%8B_%C4%90%C6%B0%E1%BB%A3c"
+      },
+      "Sinh": {
+        "name": "(1697-01-14)14 tháng 1, 1697 [1][2]",
+        "url": "#cite_note-nguyenphuoctoc-1"
+      },
+      "Mất": {
+        "name": "7 tháng 6, 1738(1738-06-07) (41 tuổi) [1] Đàng Trong, Đại Việt",
+        "url": "#cite_note-nguyenphuoctoc-1"
+      },
+      "Tên húy": {
+        "name": "Tên húy Nguyễn Phúc Chú hay Trú hoặc Thụ Thụy hiệu Tuyên Quang Thiệu Liệt Tuấn Triết Tĩnh Uyên Kinh Văn Vĩ Vũ Hiếu Ninh Hoàng đế (宣光紹烈濬哲靜淵經文緯武孝寧皇帝) Miếu hiệu Túc Tông (肅宗)",
+        "url": "/wiki/Th%E1%BB%A5y_hi%E1%BB%87u"
+      },
+      "Tại vị": {
+        "name": "1725 - 1738",
+        "url": "/wiki/1725"
+      },
+      "Hậu duệ": {
+        "name": "Hậu duệ Nguyễn Phúc Khoát Nguyễn Phúc Tường Nguyễn Phúc Du Và 5 công nữ",
+        "url": "/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Kho%C3%A1t"
+      },
+      "Tiền nhiệm": {
+        "name": "Nguyễn Phúc Chu",
+        "url": "/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Chu"
+      },
+      "Thân phụ": {
+        "name": "Nguyễn Phúc Chu",
+        "url": "/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Chu"
+      },
+      "Thê thiếp": {
+        "name": "Trương Thị Thư",
+        "url": "/wiki/Tr%C6%B0%C6%A1ng_Th%E1%BB%8B_Th%C6%B0"
+      },
+      "Gia tộc": {
+        "name": "Họ Nguyễn",
+        "url": "/wiki/Ch%C3%BAa_Nguy%E1%BB%85n"
+      }
+    }
+  },
+  {
+    "name": "Quang Trung",
+    "description": "Quang Trung Hoàng đế (sinh năm 1753 \u2013 mất ngày 16 tháng 9 năm 1792), miếu hiệu Tây Sơn Thái Tổ (西山太祖; được dùng để phân biệt với Nguyễn Thái Tổ nhà Nguyễn), danh xưng khác là Bắc Bình Vương, tên khai sinh là Hồ Thơm, quê gốc Nghệ An sau đổi tên thành Nguyễn Huệ (阮惠), Nguyễn Quang Bình (阮光平),[1] là một nhà chính trị, nhà quân sự người Việt Nam, vị hoàng đế thứ 2 của Nhà Tây Sơn, sau khi Thái Đức Hoàng đế Nguyễn Nhạc thoái vị và nhường ngôi cho ông.\n",
+    "connection": [
+      {
+        "name": "1753",
+        "url": "/wiki/1753"
+      },
+      {
+        "name": "16 tháng 9",
+        "url": "/wiki/16_th%C3%A1ng_9"
+      },
+      {
+        "name": "1792",
+        "url": "/wiki/1792"
+      },
+      {
+        "name": "miếu hiệu",
+        "url": "/wiki/Mi%E1%BA%BFu_hi%E1%BB%87u"
+      },
+      {
+        "name": "Nguyễn Thái Tổ",
+        "url": "/wiki/Nguy%E1%BB%85n_Ho%C3%A0ng"
+      },
+      {
+        "name": "nhà Nguyễn",
+        "url": "/wiki/Nh%C3%A0_Nguy%E1%BB%85n"
+      },
+      {
+        "name": "[1]",
+        "url": "#cite_note-autogenerated5-1"
+      },
+      {
+        "name": "nhà chính trị",
+        "url": "/wiki/Nh%C3%A0_ch%C3%ADnh_tr%E1%BB%8B"
+      }
+    ],
+    "id": "c1485",
+    "url": "/wiki/Nguy%E1%BB%85n_Hu%E1%BB%87",
+    "info": {
+      "Triều đại": {
+        "name": "Nhà Tây Sơn",
+        "url": "/wiki/Nh%C3%A0_T%C3%A2y_S%C6%A1n"
+      },
+      "Đăng quang": {
+        "name": "22 tháng 12 năm 1788 Núi Bân, Phú Xuân",
+        "url": "/wiki/22_th%C3%A1ng_12"
+      },
+      "Trị vì": {
+        "name": "22 tháng 12 năm 1788 \u2013 16 tháng 9 năm 1792 (3 năm, 269 ngày)",
+        "url": "/wiki/22_th%C3%A1ng_12"
+      },
+      "Kế nhiệm": {
+        "name": "Cảnh Thịnh Đế",
+        "url": "/wiki/Nguy%E1%BB%85n_Quang_To%E1%BA%A3n"
+      },
+      "Tên thật": {
+        "name": "Tên thật Hồ Thơm (胡𦹳) Nguyễn Huệ (阮惠) Nguyễn Văn Huệ (阮文惠) Nguyễn Quang Bình (阮光平) Niên hiệu Quang Trung (光中) Thụy hiệu Vũ Hoàng đế (武皇帝) Miếu hiệu Thái Tổ (太祖)",
+        "url": "/wiki/Ni%C3%AAn_hi%E1%BB%87u"
+      },
+      "Sinh": {
+        "name": "1753 Bình Định, Đàng Trong, Đại Việt",
+        "url": "/wiki/B%C3%ACnh_%C4%90%E1%BB%8Bnh"
+      },
+      "Mất": {
+        "name": "16 tháng 9, 1792(1792-09-16) (38\u201339 tuổi) Phú Xuân, Đại Việt",
+        "url": "/wiki/C%E1%BB%91_%C4%91%C3%B4_Hu%E1%BA%BF"
+      },
+      "An táng": {"name": "Đan Dương lăng (丹陽陵) (còn nghi vấn và nhiều giả thuyết quan trọng khác)"},
+      "Hậu duệ": {
+        "name": "Hậu duệ Nguyễn Quang Toản Nguyễn Thị Ngọc Bảo Nguyễn Quang Thùy và một số người khác.",
+        "url": "/wiki/Nguy%E1%BB%85n_Quang_To%E1%BA%A3n"
+      },
+      "Tiền nhiệm": {
+        "name": "Thái Đức Đế Lê Chiêu Thống (nhà Hậu Lê)",
+        "url": "/wiki/Nguy%E1%BB%85n_Nh%E1%BA%A1c"
+      },
+      "Thân phụ": {
+        "name": "Hồ Phi Phúc",
+        "url": "/wiki/H%E1%BB%93_Phi_Ph%C3%BAc"
+      },
+      "Thê thiếp": {
+        "name": "Chính cung hoàng hậu Phạm Thị Liên Chính cung hoàng hậu Bùi Thị Nhạn Bắc cung hoàng hậu Lê Ngọc Hân Sở Nguyệt Thị (Tiệp dư) Nguyễn Thị Bích (Tiệp dư)",
+        "url": "/wiki/Ph%E1%BA%A1m_Th%E1%BB%8B_Li%C3%AAn"
+      }
+    }
+  },
+  {
+    "name": "Hiệp Hòa",
+    "description": "Hiệp Hòa (chữ Hán: 協和; 1 tháng 11 năm 1847 \u2013 29 tháng 11 năm 1883), húy là Nguyễn Phúc Hồng Dật (阮福洪佚), sau khi lên ngôi đổi thành Nguyễn Phúc Thăng (阮福昇), là vị hoàng đế thứ sáu của triều đại nhà Nguyễn trong lịch sử Việt Nam. Trong khoảng thời gian trị vì ngắn ngủi của mình, ông chỉ sử dụng một niên hiệu là Hiệp Hòa nên thường được gọi theo tên này. Ông không có miếu hiệu, được hậu duệ truy tặng làm Văn Lãng Quận vương (文朗郡王), thụy là Trang Cung (莊恭).Thời gian trị vì của ông Là 4 tháng 10 ngày tổng cộng 130 ngày.\n",
+    "connection": [
+      {
+        "name": "chữ Hán",
+        "url": "/wiki/Ch%E1%BB%AF_H%C3%A1n"
+      },
+      {
+        "name": "1 tháng 11",
+        "url": "/wiki/1_th%C3%A1ng_11"
+      },
+      {
+        "name": "1847",
+        "url": "/wiki/1847"
+      },
+      {
+        "name": "29 tháng 11",
+        "url": "/wiki/29_th%C3%A1ng_11"
+      },
+      {
+        "name": "1883",
+        "url": "/wiki/1883"
+      },
+      {
+        "name": "húy",
+        "url": "/wiki/H%C3%BAy"
+      },
+      {
+        "name": "hoàng đế",
+        "url": "/wiki/Ho%C3%A0ng_%C4%91%E1%BA%BF"
+      },
+      {
+        "name": "nhà Nguyễn",
+        "url": "/wiki/Nh%C3%A0_Nguy%E1%BB%85n"
+      }
+    ],
+    "id": "c1486",
+    "url": "/wiki/Hi%E1%BB%87p_H%C3%B2a",
+    "info": {
+      "Triều đại": {
+        "name": "Nhà Nguyễn",
+        "url": "/wiki/Nh%C3%A0_Nguy%E1%BB%85n"
+      },
+      "Trị vì": {
+        "name": "30 tháng 7 năm 1883 - 29 tháng 11 năm 1883 122 ngày",
+        "url": "/wiki/30_th%C3%A1ng_7"
+      },
+      "Kế nhiệm": {
+        "name": "Kiến Phúc",
+        "url": "/wiki/Ki%E1%BA%BFn_Ph%C3%BAc"
+      },
+      "Thân mẫu": {
+        "name": "Thụy tần Trương Thị Thận",
+        "url": "/wiki/Tr%C6%B0%C6%A1ng_Th%E1%BB%8B_Th%E1%BA%ADn"
+      },
+      "Sinh": {
+        "name": "24 tháng 9 âm lịch, tức 1 tháng 11 năm 1847 [1]",
+        "url": "/wiki/1_th%C3%A1ng_11"
+      },
+      "Mất": {
+        "name": "30 tháng 10 âm lịch, tức 29 tháng 11 năm 1883 Huế, Đại Nam",
+        "url": "/wiki/29_th%C3%A1ng_11"
+      },
+      "Tên húy": {
+        "name": "Tên húy Nguyễn Phúc Hồng Dật 阮福洪佚 Niên hiệu Hiệp Hòa (協和) Thụy hiệu Trang Cung Văn Lãng Quận vương 莊恭文朗郡王",
+        "url": "/wiki/Ni%C3%AAn_hi%E1%BB%87u"
+      },
+      "Hậu duệ": {"name": "11 hoàng tử 6 công chúa"},
+      "Tiền nhiệm": {
+        "name": "Dục Đức",
+        "url": "/wiki/D%E1%BB%A5c_%C4%90%E1%BB%A9c"
+      },
+      "Thân phụ": {
+        "name": "Nguyễn Hiến Tổ Thiệu Trị",
+        "url": "/wiki/Thi%E1%BB%87u_Tr%E1%BB%8B"
+      }
+    }
   }
 ]

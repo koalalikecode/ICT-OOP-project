@@ -162,7 +162,7 @@ public class DataProcessing {
     }
 
     public static void main(String[] args) {
-        DataProcessing b = new DataProcessing("data/characterNKS.json", "processed_data/character.json", "c");
+        DataProcessing b = new DataProcessing("data/characterNKS.json", "data/kingWiki.json", "processed_data/character.json", "c");
         b.processAndSave();
     }
 }

@@ -74,7 +74,7 @@ public class Crawler {
         if(connections.size() > 0) {
             int i = 0;
             for(Element connection: connections) {
-                if(res.stream().noneMatch(p -> p.getString("name").equals(connection.text()))) {
+                if(!connection.attr("href").startsWith("#") && res.stream().noneMatch(p -> p.getString("name").equals(connection.text()))) {
                     JSONObject item = new JSONObject();
                     item.put("name", connection.text());
                     item.put("url", connection.attr("href"));
