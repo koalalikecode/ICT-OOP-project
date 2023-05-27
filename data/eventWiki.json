@@ -1,0 +1,1864 @@
+[
+ {
+  "name": "Kỷ Hồng Bàng (2879 TCN - 257 TCN)",
+  "description": "Hồng Bàng thị (chữ Hán: 鴻龐氏) hay Thời đại Hồng Bàng là một giai đoạn lịch sử thuộc thời đại thượng cổ của lịch sử Việt Nam.",
+  "connection": [
+   {
+    "name": "Âu Việt",
+    "url": "/wiki/%C3%82u_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Lạc Việt",
+    "url": "/wiki/L%E1%BA%A1c_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Văn Lang",
+    "url": "/wiki/V%C4%83n_Lang"
+   },
+   {
+    "name": "Hùng Vương",
+    "url": "/wiki/H%C3%B9ng_V%C6%B0%C6%A1ng"
+   },
+   {
+    "name": "Thục Phán",
+    "url": "/wiki/Th%E1%BB%A5c_Ph%C3%A1n"
+   },
+   {
+    "name": "Âu Lạc",
+    "url": "/wiki/%C3%82u_L%E1%BA%A1c"
+   },
+   {
+    "name": "Nhà Thục",
+    "url": "/wiki/Nh%C3%A0_Th%E1%BB%A5c"
+   }
+  ],
+  "url": "/wiki/H%E1%BB%93ng_B%C3%A0ng",
+  "info": {"event 1": {
+   "Đối phương": "Âu Việt của Thục Phán",
+   "Xung đột": "Chiến tranh giữa người Âu Việt và Lạc Việt (thế kỷ 3 TCN)",
+   "Hùng Vương": "Văn Lang (Lạc Việt) thời Hùng Vương",
+   "Kết quả": "Thay đổi lãnh thổ và triều đại Đất đai Văn Lang sáp nhập vào nhà nước của người Âu Việt Thục Phán lên ngôi Nước Âu Lạc và Nhà Thục thành lập"
+  }}
+ },
+ {
+  "name": "Nhà Thục (257 TCN - 207 TCN)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Chiến tranh Bách Việt-Tần",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_T%E1%BA%A7n-Vi%E1%BB%87t"
+   },
+   {
+    "name": "218 TCN",
+    "url": "/wiki/218_TCN"
+   },
+   {
+    "name": "208 TCN",
+    "url": "/wiki/208_TCN"
+   },
+   {
+    "name": "Bách Việt",
+    "url": "/wiki/B%C3%A1ch_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Âu Lạc",
+    "url": "/wiki/%C3%82u_L%E1%BA%A1c"
+   },
+   {
+    "name": "Nhà Thục",
+    "url": "/wiki/Nh%C3%A0_Th%E1%BB%A5c"
+   },
+   {
+    "name": "Mân Việt",
+    "url": "/wiki/M%C3%A2n_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Nam Việt",
+    "url": "/wiki/Nam_Vi%E1%BB%87t"
+   }
+  ],
+  "url": "/wiki/An_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng",
+  "info": {
+   "event 2": {
+    "Nhà Thục": "Âu Lạc thời Nhà Thục",
+    "Đối phương": "Nam Việt của Triệu Đà",
+    "Xung đột": "Chiến tranh Âu Lạc-Nam Việt (207 TCN hoặc 179 TCN)",
+    "Kết quả": "Thất bại Âu Lạc sáp nhập vào Nam Việt"
+   },
+   "event 1": {
+    "Nhà Thục": "Các bộ tộc Bách Việt: Âu Lạc thời Nhà Thục Mân Việt Nam Việt Đông Việt",
+    "Đối phương": "Nhà Tần",
+    "Xung đột": "Chiến tranh Bách Việt-Tần (218 TCN - 208 TCN)",
+    "Kết quả": "Thay đổi lãnh thổ Mân Việt, Nam Việt và Đông Việt bị sáp nhập vào Nhà Tần Âu Lạc giữ được độc lập"
+   }
+  }
+ },
+ {
+  "name": "Nhà Triệu (207 TCN - 111 TCN)",
+  "description": "Nhà Triệu được giới sử học Trung Hoa coi là một phiên thuộc của nhà Hán, căn cứ vào các bằng chứng sau:",
+  "connection": [
+   {
+    "name": "Chiến tranh Nam Việt-Tây Hán",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_H%C3%A1n-Nam_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Nam Việt",
+    "url": "/wiki/Nam_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Nhà Triệu",
+    "url": "/wiki/Nh%C3%A0_Tri%E1%BB%87u"
+   },
+   {
+    "name": "Nhà Tây Hán",
+    "url": "/wiki/Nh%C3%A0_T%C3%A2y_H%C3%A1n"
+   },
+   {
+    "name": "Bắc thuộc lần 1",
+    "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_1"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_Tri%E1%BB%87u",
+  "info": {"event 1": {
+   "Nhà Triệu": "Nam Việt thời Nhà Triệu",
+   "Đối phương": "Nhà Tây Hán",
+   "Xung đột": "Chiến tranh Nam Việt-Tây Hán (111 TCN)",
+   "Kết quả": "Thất bại Nam Việt bị sáp nhập vào Nhà Tây Hán Bắt đầu thời kỳ Bắc thuộc lần 1"
+  }}
+ },
+ {
+  "name": "Bắc thuộc lần 1 (111 TCN - 40 CN)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Nổi dậy Tây Vu Vương",
+    "url": "/w/index.php?title=N%E1%BB%95i_d%E1%BA%ADy_T%C3%A2y_Vu_V%C6%B0%C6%A1ng&action=edit&redlink=1"
+   },
+   {
+    "name": "111 TCN",
+    "url": "/wiki/111_TCN"
+   },
+   {
+    "name": "Tây Vu Vương",
+    "url": "/wiki/T%C3%A2y_Vu_V%C6%B0%C6%A1ng"
+   },
+   {
+    "name": "Quận Giao Chỉ",
+    "url": "/wiki/Giao_Ch%E1%BB%89"
+   },
+   {
+    "name": "Quận Cửu Chân",
+    "url": "/wiki/C%E1%BB%ADu_Ch%C3%A2n"
+   },
+   {
+    "name": "Nhà Đông Hán",
+    "url": "/wiki/Nh%C3%A0_%C4%90%C3%B4ng_H%C3%A1n"
+   },
+   {
+    "name": "Khởi nghĩa Hai Bà Trưng",
+    "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Hai_B%C3%A0_Tr%C6%B0ng"
+   },
+   {
+    "name": "40",
+    "url": "/wiki/40"
+   }
+  ],
+  "url": "/wiki/Th%E1%BB%9Di_k%E1%BB%B3_B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_th%E1%BB%A9_nh%E1%BA%A5t",
+  "info": {
+   "event 2": {
+    "Đối phương": "Nhà Đông Hán",
+    "Xung đột": "Khởi nghĩa Hai Bà Trưng (40)",
+    "Giao Chỉ": "Lực lượng Hai Bà Trưng ở Giao Chỉ",
+    "Kết quả": "Chiến thắng Trưng Trắc tự xưng vua Nước Lĩnh Nam của Trưng Vương được thành lập Chấm dứt thời kỳ Bắc thuộc lần 1"
+   },
+   "event 1": {
+    "Đối phương": "Nhà Đông Hán",
+    "Xung đột": "Nổi dậy Tây Vu Vương (111 TCN)",
+    "Giao Chỉ": "Lực lượng Tây Vu Vương ở Quận Giao Chỉ và Quận Cửu Chân",
+    "Kết quả": "Thất bại Tây Vu Vương bị giết"
+   }
+  }
+ },
+ {
+  "name": "Trưng Vương (40 - 43)",
+  "description": "Hai Bà Trưng (13 tháng 9 năm 14 \u2013 5 tháng 3 năm 43) là tên chỉ chung hai chị em Trưng Trắc (徵側) và Trưng Nhị (徵貳), hai người phụ nữ được đánh giá là anh hùng dân tộc của người Việt.[5] Trong sử sách, hai bà được biết đến như là những thủ lĩnh khởi binh chống lại chính quyền đô hộ của Đông Hán, lập ra một quốc gia với kinh đô tại Mê Linh và Trưng Trắc tự phong là Nữ vương. Thời kì của hai Bà xen giữa thời kỳ Bắc thuộc lần 1 và Bắc thuộc lần 2 trong lịch sử Việt Nam. Đại Việt sử ký toàn thư coi Trưng Trắc là một vị vua trong lịch sử, với tên gọi Trưng Nữ vương (徵女王).",
+  "connection": [
+   {
+    "name": "Chiến tranh Lĩnh Nam-Đông Hán",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_H%C3%A1n-Vi%E1%BB%87t,_42-43"
+   },
+   {
+    "name": "42",
+    "url": "/wiki/42"
+   },
+   {
+    "name": "43",
+    "url": "/wiki/43"
+   },
+   {
+    "name": "Lĩnh Nam",
+    "url": "/wiki/L%C4%A9nh_Nam"
+   },
+   {
+    "name": "Trưng Vương",
+    "url": "/wiki/Tr%C6%B0ng_V%C6%B0%C6%A1ng"
+   },
+   {
+    "name": "Nhà Đông Hán",
+    "url": "/wiki/Nh%C3%A0_%C4%90%C3%B4ng_H%C3%A1n"
+   },
+   {
+    "name": "Bắc thuộc lần 2",
+    "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_2"
+   }
+  ],
+  "url": "/wiki/Tr%C6%B0ng_V%C6%B0%C6%A1ng",
+  "info": {"event 1": {
+   "Đối phương": "Nhà Đông Hán",
+   "Xung đột": "Chiến tranh Lĩnh Nam-Đông Hán (42 - 43)",
+   "Trưng Vương": "Lĩnh Nam thời Trưng Vương",
+   "Kết quả": "Thất bại Hai Bà Trưng tự vẫn Lĩnh Nam bị sáp nhập vào Nhà Đông Hán Bắt đầu thời kỳ Bắc thuộc lần 2"
+  }}
+ },
+ {
+  "name": "Bắc thuộc lần 2 (43 - 541)",
+  "description": "Bắc thuộc lần thứ hai (chữ Nôm: 北屬吝次二, ngắn gọn: Bắc thuộc lần 2) trong lịch sử Việt Nam kéo dài khoảng 500 năm từ năm 43 đến năm 543, từ khi Mã Viện theo lệnh Hán Quang Vũ Đế nhà Đông Hán đánh chiếm lại bộ Giao Chỉ từ tay Trưng Vương, đến khi Lý Bí khởi binh đánh đuổi thứ sử[1] nhà Lương là Tiêu Tư năm 542 rồi lập ra nước Vạn Xuân năm 544.",
+  "connection": [
+   {
+    "name": "Khởi nghĩa Chu Đạt",
+    "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Chu_%C4%90%E1%BA%A1t"
+   },
+   {
+    "name": "157",
+    "url": "/wiki/157"
+   },
+   {
+    "name": "160",
+    "url": "/wiki/160"
+   },
+   {
+    "name": "Chu Đạt",
+    "url": "/wiki/Chu_%C4%90%E1%BA%A1t"
+   },
+   {
+    "name": "Quận Cửu Chân",
+    "url": "/wiki/C%E1%BB%ADu_Ch%C3%A2n"
+   },
+   {
+    "name": "Nhà Đông Hán",
+    "url": "/wiki/Nh%C3%A0_%C4%90%C3%B4ng_H%C3%A1n"
+   },
+   {
+    "name": "Khởi nghĩa Lương Long",
+    "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_L%C6%B0%C6%A1ng_Long"
+   },
+   {
+    "name": "178",
+    "url": "/wiki/178"
+   }
+  ],
+  "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_2",
+  "info": {
+   "event 6": {
+    "Đối phương": "Nhà Tây Tấn",
+    "Xung đột": "Khởi nghĩa Triệu Chỉ (299)",
+    "Kết quả": "Thất bại Khởi nghĩa bị đàn áp",
+    "Giao Chỉ/Giao Châu": "Lực lượng Triệu Chỉ ở Quận Cửu Chân"
+   },
+   "event 7": {
+    "Đối phương": "Nhà Đông Tấn",
+    "Xung đột": "Nổi loạn Lương Thạc (317 - 323)",
+    "Kết quả": "Thất bại Nổi loạn bị đánh dẹp",
+    "Giao Chỉ/Giao Châu": "Lực lượng Lương Thạc ở Giao Châu"
+   },
+   "event 8": {
+    "Đối phương": "Lâm Ấp",
+    "Xung đột": "Xung đột Đông Tấn-Lâm Ấp lần 1 (351 - 359)",
+    "Kết quả": "Nhà Đông Tấn chiến thắng Lâm Ấp bị tàn phá",
+    "Giao Chỉ/Giao Châu": "Nhà Đông Tấn"
+   },
+   "event 9": {
+    "Đối phương": "Lâm Ấp",
+    "Xung đột": "Xung đột Đông Tấn-Lâm Ấp lần 2 (399)",
+    "Kết quả": "Nhà Đông Tấn chiến thắng Quân Lâm Ấp bị đẩy lui",
+    "Giao Chỉ/Giao Châu": "Nhà Đông Tấn"
+   },
+   "event 11": {
+    "Đối phương": "Lâm Ấp",
+    "Xung đột": "Xung đột Lưu Tống-Lâm Ấp (445 - 446)",
+    "Kết quả": "Nhà Lưu Tống chiến thắng Lâm Ấp suy yếu",
+    "Giao Chỉ/Giao Châu": "Nhà Lưu Tống"
+   },
+   "event 12": {
+    "Đối phương": "Nhà Lưu Tống",
+    "Xung đột": "Nổi loạn Lý Trường Nhân (468)",
+    "Kết quả": "Chiến thắng Nhà Lưu Tống chấp nhận phong Lý Trường Nhân làm Thứ sử",
+    "Giao Chỉ/Giao Châu": "Lực lượng Lý Trường Nhân ở Giao Châu"
+   },
+   "event 10": {
+    "Đối phương": "Lâm Ấp",
+    "Xung đột": "Xung đột Đông Tấn-Lâm Ấp lần 3 (413 - 415)",
+    "Kết quả": "Nhà Đông Tấn chiến thắng Quân Lâm Ấp bị đẩy lui",
+    "Giao Chỉ/Giao Châu": "Nhà Đông Tấn"
+   },
+   "event 2": {
+    "Đối phương": "Nhà Đông Hán",
+    "Xung đột": "Khởi nghĩa Lương Long (178 - 181)",
+    "Kết quả": "Thất bại Khởi nghĩa bị đàn áp",
+    "Giao Chỉ/Giao Châu": "Lực lượng Lương Long ở Quận Giao Chỉ, Quận Cửu Chân, Quận Nhật Nam và Quận Hợp Phố"
+   },
+   "event 3": {
+    "Đối phương": "Nhà Đông Hán",
+    "Xung đột": "Khởi nghĩa Khu Liên (192)",
+    "Kết quả": "Chiến thắng Nước Lâm Ấp của Chăm Pa được thành lập ở phía nam",
+    "Giao Chỉ/Giao Châu": "Lực lượng Khu Liên ở Quận Nhật Nam"
+   },
+   "event 4": {
+    "Đối phương": "Nhà Đông Ngô",
+    "Xung đột": "Khởi nghĩa Bà Triệu (248)",
+    "Kết quả": "Thất bại Bà Triệu tự vẫn",
+    "Giao Chỉ/Giao Châu": "Lực lượng Bà Triệu ở Giao Châu"
+   },
+   "event 13": {
+    "Đối phương": "Nhà Lương Lâm Ấp",
+    "Xung đột": "Khởi nghĩa Lý Bí (542)",
+    "Kết quả": "Chiến thắng Lý Bí lên ngôi Nước Vạn Xuân và Nhà Tiền Lý thành lập Chấm dứt thời kỳ Bắc thuộc lần 2",
+    "Giao Chỉ/Giao Châu": "Lực lượng Lý Bí ở Giao Châu"
+   },
+   "event 5": {
+    "Đối phương": "Nhà Tây Tấn",
+    "Xung đột": "Chiến dịch Giao-Quảng (268 - 271)",
+    "Kết quả": "Nhà Đông Ngô chiến thắng Nhà Đông Ngô thu hồi được Giao Châu",
+    "Giao Chỉ/Giao Châu": "Nhà Đông Ngô"
+   },
+   "event 1": {
+    "Đối phương": "Nhà Đông Hán",
+    "Xung đột": "Khởi nghĩa Chu Đạt (157 - 160)",
+    "Kết quả": "Thất bại Khởi nghĩa bị đàn áp",
+    "Giao Chỉ/Giao Châu": "Lực lượng Chu Đạt ở Quận Cửu Chân"
+   }
+  }
+ },
+ {
+  "name": "Nhà Tiền Lý (544 - 602)",
+  "description": "Đầu năm Giáp Tý 544, Lý Bí nhân thắng quân địch, tự xưng là Nam Việt Đế, đặt niên hiệu là Thiên Đức, đặt tên nước là Vạn Xuân, có ý mong xã tắc lâu dài đến muôn đời. Ông dựng điện Vạn Xuân[1] để làm chỗ triều hội, xây chùa Trấn Quốc.",
+  "connection": [
+   {
+    "name": "Chiến tranh Vạn Xuân-Dã Năng",
+    "url": "/w/index.php?title=Chi%E1%BA%BFn_tranh_V%E1%BA%A1n_Xu%C3%A2n-D%C3%A3_N%C4%83ng&action=edit&redlink=1"
+   },
+   {
+    "name": "557",
+    "url": "/wiki/557"
+   },
+   {
+    "name": "571",
+    "url": "/wiki/571"
+   },
+   {
+    "name": "Triệu Quang Phục",
+    "url": "/wiki/Tri%E1%BB%87u_Quang_Ph%E1%BB%A5c"
+   },
+   {
+    "name": "Lý Phật Tử",
+    "url": "/wiki/L%C3%BD_Ph%E1%BA%ADt_T%E1%BB%AD"
+   },
+   {
+    "name": "Dã Năng",
+    "url": "/wiki/D%C3%A3_N%C4%83ng"
+   },
+   {
+    "name": "Vạn Xuân",
+    "url": "/wiki/V%E1%BA%A1n_Xu%C3%A2n"
+   },
+   {
+    "name": "Chiến tranh Vạn Xuân-Tùy",
+    "url": "/w/index.php?title=Chi%E1%BA%BFn_tranh_V%E1%BA%A1n_Xu%C3%A2n-T%C3%B9y&action=edit&redlink=1"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%BD",
+  "info": {
+   "event 2": {
+    "Nhà Tiền Lý": "Vạn Xuân thời Nhà Tiền Lý",
+    "Đối phương": "Nhà Tùy",
+    "Xung đột": "Chiến tranh Vạn Xuân-Tùy (602)",
+    "Kết quả": "Thất bại Lý Phật Tử bị bắt Vạn Xuân bị sáp nhập vào Nhà Tùy Bắt đầu thời kỳ Bắc thuộc lần 3"
+   },
+   "event 1": {
+    "Nhà Tiền Lý": "Lực lượng Triệu Quang Phục ở Vạn Xuân",
+    "Đối phương": "Lực lượng Lý Phật Tử ở Dã Năng",
+    "Xung đột": "Chiến tranh Vạn Xuân-Dã Năng (557 - 571)",
+    "Kết quả": "Thay đổi lãnh thổ và ngôi vị Lý Phật Tử lên ngôi Dã Năng sáp nhập vào Vạn Xuân"
+   }
+  }
+ },
+ {
+  "name": "Bắc thuộc lần 3 (602 - 905)",
+  "description": "Bắc thuộc lần thứ ba (chữ Nôm: 北屬吝次三, ngắn gọn: Bắc thuộc lần 3) trong lịch sử Việt Nam kéo dài từ năm 602 đến năm 905 hoặc năm 939. Thời kỳ này bắt đầu khi Tùy Văn Đế sai Lưu Phương đánh chiếm nước Vạn Xuân, bức hàng Hậu Lý Nam Đế, kéo dài cho đến khi Khúc Thừa Dụ tiến vào Đại La, giành quyền cai quản toàn bộ Tĩnh Hải quân năm 905 - thời Đường Ai Đế, ông vua bù nhìn trong tay quyền thần Chu Ôn.",
+  "connection": [
+   {
+    "name": "Khởi nghĩa Lý Tự Tiên - Đinh Kiến",
+    "url": "/w/index.php?title=Kh%E1%BB%9Fi_ngh%C4%A9a_L%C3%BD_T%E1%BB%B1_Ti%C3%AAn_-_%C4%90inh_Ki%E1%BA%BFn&action=edit&redlink=1"
+   },
+   {
+    "name": "687",
+    "url": "/wiki/687"
+   },
+   {
+    "name": "Lý Tự Tiên",
+    "url": "/wiki/L%C3%BD_T%E1%BB%B1_Ti%C3%AAn"
+   },
+   {
+    "name": "Đinh Kiến",
+    "url": "/wiki/%C4%90inh_Ki%E1%BA%BFn"
+   },
+   {
+    "name": "Nhà Đường",
+    "url": "/wiki/Nh%C3%A0_%C4%90%C6%B0%E1%BB%9Dng"
+   },
+   {
+    "name": "Khởi nghĩa Mai Thúc Loan",
+    "url": "/w/index.php?title=Kh%E1%BB%9Fi_ngh%C4%A9a_Mai_Th%C3%BAc_Loan&action=edit&redlink=1"
+   },
+   {
+    "name": "713",
+    "url": "/wiki/713"
+   },
+   {
+    "name": "723",
+    "url": "/wiki/723"
+   }
+  ],
+  "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_3",
+  "info": {
+   "event 6": {
+    "Giao Châu/An Nam/ Tĩnh Hải quân": "Nhà Đường",
+    "Đối phương": "Hoàn Vương",
+    "Xung đột": "Xung đột Đường-Hoàn Vương lần 2 (809)",
+    "Kết quả": "Nhà Đường chiến thắng Nhà Đường tái chiếm An Nam"
+   },
+   "event 11": {
+    "Giao Châu/An Nam/ Tĩnh Hải quân": "Lực lượng Khúc Thừa Dụ ở Tĩnh Hải quân",
+    "Đối phương": "Nhà Đường",
+    "Xung đột": "Nổi loạn Khúc Thừa Dụ (905)",
+    "Kết quả": "Chiến thắng Nhà Đường phải chấp nhận Khúc Thừa Dụ làm Tiết độ sứ Họ Khúc xây dựng chính quyền tự chủ của người Việt Chấm dứt thời kỳ Bắc thuộc lần 3"
+   },
+   "event 7": {
+    "Giao Châu/An Nam/ Tĩnh Hải quân": "Lực lượng Dương Thanh ở An Nam",
+    "Đối phương": "Nhà Đường",
+    "Xung đột": "Nổi loạn Dương Thanh (819 - 820)",
+    "Kết quả": "Thất bại Dương Thanh bị bắt giết"
+   },
+   "event 8": {
+    "Giao Châu/An Nam/ Tĩnh Hải quân": "Nhà Đường",
+    "Đối phương": "Nam Chiếu",
+    "Xung đột": "Xung đột Đường-Nam Chiếu lần 1 (860 - 861)",
+    "Kết quả": "Nhà Đường chiến thắng Quân Nam Chiếu bị đẩy lùi"
+   },
+   "event 9": {
+    "Giao Châu/An Nam/ Tĩnh Hải quân": "Nhà Đường",
+    "Đối phương": "Nam Chiếu",
+    "Xung đột": "Xung đột Đường-Nam Chiếu lần 2 (863)",
+    "Kết quả": "Nhà Đường thất bại Quân Nam Chiếu chiếm được An Nam"
+   },
+   "event 10": {
+    "Giao Châu/An Nam/ Tĩnh Hải quân": "Nhà Đường",
+    "Đối phương": "Nam Chiếu",
+    "Xung đột": "Xung đột Đường-Nam Chiếu lần 3 (865 - 867)",
+    "Kết quả": "Nhà Đường chiến thắng Nhà Đường tái chiếm An Nam"
+   },
+   "event 2": {
+    "Giao Châu/An Nam/ Tĩnh Hải quân": "Lực lượng Mai Thúc Loan ở An Nam",
+    "Đối phương": "Nhà Đường",
+    "Xung đột": "Khởi nghĩa Mai Thúc Loan (713 - 723)",
+    "Kết quả": "Thất bại Mai Thúc Loan rút chạy vào rừng, sau bệnh mất"
+   },
+   "event 3": {
+    "Giao Châu/An Nam/ Tĩnh Hải quân": "Nhà Đường",
+    "Đối phương": "Java",
+    "Xung đột": "Xung đột Đường-Java (767)",
+    "Kết quả": "Nhà Đường chiến thắng Nhà Đường tái chiếm An Nam"
+   },
+   "event 4": {
+    "Giao Châu/An Nam/ Tĩnh Hải quân": "Lực lượng Phùng Hưng ở An Nam",
+    "Đối phương": "Nhà Đường",
+    "Xung đột": "Khởi Nghĩa Phùng Hưng(766 -791)",
+    "Kết quả": "Thất bại Phùng Hưng mất sớm, sau con là Phùng An đầu hàng Nhà Đường"
+   },
+   "event 5": {
+    "Giao Châu/An Nam/ Tĩnh Hải quân": "Nhà Đường",
+    "Đối phương": "Hoàn Vương",
+    "Xung đột": "Xung đột Đường-Hoàn Vương lần 1 (803)",
+    "Kết quả": "Nhà Đường thất bại Quân Hoàn Vương chiếm được một phần An Nam"
+   },
+   "event 1": {
+    "Giao Châu/An Nam/ Tĩnh Hải quân": "Lực lượng Lý Tự Tiên và Đinh Kiến ở An Nam",
+    "Đối phương": "Nhà Đường",
+    "Xung đột": "Khởi nghĩa Lý Tự Tiên - Đinh Kiến (687)",
+    "Kết quả": "Thất bại Khởi nghĩa bị đàn áp"
+   }
+  }
+ },
+ {
+  "name": "Họ Khúc (905 - 923 hoặc 930) và Họ Dương (931 - 938)",
+  "description": "Họ Khúc là dòng họ nắm quyền cai trị Việt Nam đầu thế kỷ X, mở đầu Thời kỳ tự chủ Việt Nam sau hơn 1000 năm Bắc thuộc. Họ Khúc truyền nối làm chức Tiết độ sứ gồm 3 đời: Khúc Thừa Dụ, Khúc Hạo, Khúc Thừa Mỹ, cai trị từ năm 905 tới năm 923 hoặc 930.",
+  "connection": [
+   {
+    "name": "Chiến tranh Tĩnh Hải quân-Nam Hán lần 1",
+    "url": "/w/index.php?title=Chi%E1%BA%BFn_tranh_T%C4%A9nh_H%E1%BA%A3i_qu%C3%A2n-Nam_H%C3%A1n_l%E1%BA%A7n_1&action=edit&redlink=1"
+   },
+   {
+    "name": "923",
+    "url": "/wiki/923"
+   },
+   {
+    "name": "930",
+    "url": "/wiki/930"
+   },
+   {
+    "name": "Tĩnh Hải quân",
+    "url": "/wiki/T%C4%A9nh_H%E1%BA%A3i_qu%C3%A2n"
+   },
+   {
+    "name": "Họ Khúc",
+    "url": "/wiki/H%E1%BB%8D_Kh%C3%BAc_(l%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam)"
+   },
+   {
+    "name": "Nhà Nam Hán",
+    "url": "/wiki/Nh%C3%A0_Nam_H%C3%A1n"
+   },
+   {
+    "name": "Khúc Thừa Mỹ",
+    "url": "/wiki/Kh%C3%BAc_Th%E1%BB%ABa_M%E1%BB%B9"
+   },
+   {
+    "name": "Nam Hán",
+    "url": "/wiki/Nam_H%C3%A1n"
+   }
+  ],
+  "url": "/wiki/H%E1%BB%8D_Kh%C3%BAc_(l%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam)",
+  "info": {
+   "event 2": {
+    "Đối phương": "Nhà Nam Hán",
+    "Xung đột": "Nổi dậy Dương Đình Nghệ (931)",
+    "Kết quả": "Chiến thắng Dương Đình Nghệ tự xưng Tiết độ sứ",
+    "Họ Khúc/Họ Dương": "Lực lượng Dương Đình Nghệ"
+   },
+   "event 3": {
+    "Đối phương": "Nhà Nam Hán Lực lượng Kiều Công Tiễn",
+    "Xung đột": "Chiến tranh Tĩnh Hải quân-Nam Hán lần 2 (938)",
+    "Kết quả": "Chiến thắng Quân Nam Hán đại bại và rút về nước Ngô Quyền lên ngôi Nhà Ngô thành lập Bắt đầu thời kỳ độc lập của Việt Nam",
+    "Họ Khúc/Họ Dương": "Lực lượng Ngô Quyền"
+   },
+   "event 1": {
+    "Đối phương": "Nhà Nam Hán",
+    "Xung đột": "Chiến tranh Tĩnh Hải quân-Nam Hán lần 1 (923 hoặc 930)",
+    "Kết quả": "Thất bại Khúc Thừa Mỹ bị bắt Quân Nam Hán kiểm soát Tĩnh Hải quân",
+    "Họ Khúc/Họ Dương": "Tĩnh Hải quân thời Họ Khúc"
+   }
+  }
+ },
+ {
+  "name": "Nhà Ngô (939 - 965)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Loạn Dương Tam Kha",
+    "url": "/w/index.php?title=Lo%E1%BA%A1n_D%C6%B0%C6%A1ng_Tam_Kha&action=edit&redlink=1"
+   },
+   {
+    "name": "950",
+    "url": "/wiki/950"
+   },
+   {
+    "name": "Ngô Xương Ngập",
+    "url": "/wiki/Ng%C3%B4_X%C6%B0%C6%A1ng_Ng%E1%BA%ADp"
+   },
+   {
+    "name": "Ngô Xương Văn",
+    "url": "/wiki/Ng%C3%B4_X%C6%B0%C6%A1ng_V%C4%83n"
+   },
+   {
+    "name": "Dương Tam Kha",
+    "url": "/wiki/D%C6%B0%C6%A1ng_Tam_Kha"
+   },
+   {
+    "name": "Nhà Ngô",
+    "url": "/wiki/Nh%C3%A0_Ng%C3%B4"
+   },
+   {
+    "name": "Loạn 12 sứ quân",
+    "url": "/wiki/Lo%E1%BA%A1n_12_s%E1%BB%A9_qu%C3%A2n"
+   },
+   {
+    "name": "965",
+    "url": "/wiki/965"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_Ng%C3%B4",
+  "info": {
+   "event 2": {
+    "Nhà Ngô": "12 sứ quân",
+    "Đối phương": "Lực lượng Đinh Bộ Lĩnh",
+    "Xung đột": "Loạn 12 sứ quân (965 - 968)",
+    "Kết quả": "Thay đổi triều đại Đinh Bộ Lĩnh thống nhất đất nước và lên ngôi Nước Đại Cồ Việt và Nhà Đinh thành lập"
+   },
+   "event 1": {
+    "Nhà Ngô": "Lực lượng Ngô Xương Ngập sau có thêm Ngô Xương Văn",
+    "Đối phương": "Lực lượng Dương Tam Kha",
+    "Xung đột": "Loạn Dương Tam Kha (950)",
+    "Kết quả": "Chiến thắng Dương Tam Kha bị đánh dẹp Ngô Xương Văn và Ngô Xương Ngập cùng lên ngôi Nhà Ngô suy yếu Bắt đầu thời kỳ Loạn 12 sứ quân"
+   }
+  }
+ },
+ {
+  "name": "Nhà Đinh (968 - 980)",
+  "description": "Đối với các định nghĩa khác, xem Đinh (định hướng).",
+  "connection": [
+   {
+    "name": "Tranh chấp ngôi vị thời Đinh",
+    "url": "/w/index.php?title=Tranh_ch%E1%BA%A5p_ng%C3%B4i_v%E1%BB%8B_th%E1%BB%9Di_%C4%90inh&action=edit&redlink=1"
+   },
+   {
+    "name": "979",
+    "url": "/wiki/979"
+   },
+   {
+    "name": "Đinh Điền",
+    "url": "/wiki/%C4%90inh_%C4%90i%E1%BB%81n"
+   },
+   {
+    "name": "Nguyễn Bặc",
+    "url": "/wiki/Nguy%E1%BB%85n_B%E1%BA%B7c"
+   },
+   {
+    "name": "Phạm Hạp",
+    "url": "/wiki/Ph%E1%BA%A1m_H%E1%BA%A1p"
+   },
+   {
+    "name": "Lê Hoàn",
+    "url": "/wiki/L%C3%AA_Ho%C3%A0n"
+   },
+   {
+    "name": "Nhà Tiền Lê",
+    "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%AA"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_%C4%90inh",
+  "info": {"event 1": {
+   "Đối phương": "Lực lượng Lê Hoàn",
+   "Xung đột": "Tranh chấp ngôi vị thời Đinh (979)",
+   "Kết quả": "Thay đổi triều đại Lê Hoàn lên ngôi Nhà Tiền Lê thành lập",
+   "Nhà Đinh": "Lực lượng Đinh Điền, Nguyễn Bặc, Phạm Hạp"
+  }}
+ },
+ {
+  "name": "Nhà Tiền Lê (981 - 1009)",
+  "description": "Lê Hoàn là một vị Hoàng đế có rất nhiều con trai. Con trưởng của ông là Lê Long Thâu đã được chọn làm người kế vị từ những năm đầu tiên khi ông lên ngôi, nhưng lại đột ngột qua đời sớm vào năm 1000, để lại ngôi vị Thái tử bỏ ngỏ.",
+  "connection": [
+   {
+    "name": "Chiến tranh Đại Cồ Việt-Đại Tống",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_T%E1%BB%91ng%E2%80%93Vi%E1%BB%87t_(981)"
+   },
+   {
+    "name": "981",
+    "url": "/wiki/981"
+   },
+   {
+    "name": "Đại Cồ Việt",
+    "url": "/wiki/%C4%90%E1%BA%A1i_C%E1%BB%93_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Nhà Tiền Lê",
+    "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%AA"
+   },
+   {
+    "name": "Nhà Tống",
+    "url": "/wiki/Nh%C3%A0_T%E1%BB%91ng"
+   },
+   {
+    "name": "Chiến tranh Đại Cồ Việt-Chiêm Thành lần 1",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_982"
+   },
+   {
+    "name": "982",
+    "url": "/wiki/982"
+   },
+   {
+    "name": "Chiêm Thành",
+    "url": "/wiki/Chi%C3%AAm_Th%C3%A0nh"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%AA",
+  "info": {
+   "event 2": {
+    "Nhà Tiền Lê": "Đại Cồ Việt thời Nhà Tiền Lê",
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Cồ Việt-Chiêm Thành lần 1 (982)",
+    "Kết quả": "Chiến thắng Chiêm Thành bị tàn phá"
+   },
+   "event 3": {
+    "Nhà Tiền Lê": "Lực lượng Lê Long Việt",
+    "Đối phương": "Lực lượng Lê Long Tích",
+    "Xung đột": "Tranh chấp ngôi vị thời Tiền Lê lần 1 (1005)",
+    "Kết quả": "Xác lập ngôi vị Lê Long Việt lên ngôi Lê Long Tích bị giết"
+   },
+   "event 4": {
+    "Nhà Tiền Lê": "Lực lượng Lê Ngọa Triều",
+    "Đối phương": "Lực lượng Lê Long Cân, Lê Long Kính, Lê Long Đinh",
+    "Xung đột": "Tranh chấp ngôi vị thời Tiền Lê lần 2 (1005)",
+    "Kết quả": "Xác lập ngôi vị Lê Ngọa Triều giữ được ngôi vị Lê Long Kính bị giết Lê Long Cân và Lê Long Đinh đầu hàng"
+   },
+   "event 1": {
+    "Nhà Tiền Lê": "Đại Cồ Việt thời Nhà Tiền Lê",
+    "Đối phương": "Nhà Tống",
+    "Xung đột": "Chiến tranh Đại Cồ Việt-Đại Tống (981)",
+    "Kết quả": "Chiến thắng Quân Tống đại bại và rút về nước Nhà Tống chính thức thừa nhận Nhà Tiền Lê"
+   }
+  }
+ },
+ {
+  "name": "Nhà Lý (1009 - 1225)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Chiến tranh Đại Cồ Việt-Đại Lý",
+    "url": "/w/index.php?title=Chi%E1%BA%BFn_tranh_%C4%90%E1%BA%A1i_C%E1%BB%93_Vi%E1%BB%87t-%C4%90%E1%BA%A1i_L%C3%BD&action=edit&redlink=1"
+   },
+   {
+    "name": "1014",
+    "url": "/wiki/1014"
+   },
+   {
+    "name": "Đại Cồ Việt",
+    "url": "/wiki/%C4%90%E1%BA%A1i_C%E1%BB%93_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Nhà Lý",
+    "url": "/wiki/Nh%C3%A0_L%C3%BD"
+   },
+   {
+    "name": "Đại Lý",
+    "url": "/wiki/%C4%90%E1%BA%A1i_L%C3%BD"
+   },
+   {
+    "name": "Loạn tam vương thời Lý",
+    "url": "/wiki/Lo%E1%BA%A1n_ba_v%C6%B0%C6%A1ng"
+   },
+   {
+    "name": "1028",
+    "url": "/wiki/1028"
+   },
+   {
+    "name": "Lý Phật Mã",
+    "url": "/wiki/L%C3%BD_Th%C3%A1i_T%C3%B4ng"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_L%C3%BD",
+  "info": {
+   "event 6": {
+    "Nhà Lý": "Đại Việt thời Nhà Lý",
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Việt-Chiêm Thành lần 1 (1069)",
+    "Kết quả": "Chiến thắng Chiêm Thành dâng các châu Bố Chính, Ma Linh và Địa Lý cho Đại Việt"
+   },
+   "event 7": {
+    "Nhà Lý": "Đại Việt thời Nhà Lý",
+    "Đối phương": "Nhà Tống",
+    "Xung đột": "Chiến dịch đánh Tống 1075\u20131076 (1075 - 1076)",
+    "Kết quả": "Chiến thắng Quân Đại Việt tiêu diệt các thành lũy Nhà Tống ngay trên đất Tống rồi rút về"
+   },
+   "event 8": {
+    "Nhà Lý": "Đại Việt thời Nhà Lý",
+    "Đối phương": "Nhà Tống",
+    "Xung đột": "Chiến tranh Đại Việt-Đại Tống lần 2 (1077)",
+    "Kết quả": "Chiến thắng Quân Tống đại bại và rút về nước"
+   },
+   "event 9": {
+    "Nhà Lý": "Đại Việt thời Nhà Lý",
+    "Đối phương": "Đế quốc Khmer",
+    "Xung đột": "Chiến tranh Đại Việt-Khmer lần 1 (1128)",
+    "Kết quả": "Chiến thắng Quân Khmer bị đẩy lùi"
+   },
+   "event 11": {
+    "Nhà Lý": "Đại Việt thời Nhà Lý",
+    "Đối phương": "Đế quốc Khmer",
+    "Xung đột": "Chiến tranh Đại Việt-Khmer lần 3 (1138)",
+    "Kết quả": "Chiến thắng Quân Khmer bị đẩy lùi"
+   },
+   "event 12": {
+    "Nhà Lý": "Đại Việt thời Nhà Lý",
+    "Đối phương": "Lực lượng Quách Bốc",
+    "Xung đột": "Loạn Quách Bốc (1209)",
+    "Kết quả": "Chiến thắng Nổi loạn bị đánh dẹp Nhà Lý suy yếu"
+   },
+   "event 10": {
+    "Nhà Lý": "Đại Việt thời Nhà Lý",
+    "Đối phương": "Đế quốc Khmer Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Việt-Khmer lần 2 (1132)",
+    "Kết quả": "Chiến thắng Quân Khmer bị đẩy lùi"
+   },
+   "event 2": {
+    "Nhà Lý": "Lực lượng Lý Phật Mã",
+    "Đối phương": "Lực lượng Đông Chinh Vương, Vũ Đức Vương, Dực Thánh Vương",
+    "Xung đột": "Loạn tam vương thời Lý (1028)",
+    "Kết quả": "Xác lập ngôi vị Lý Phật Mã lên ngôi Vũ Đức Vương bị giết Đông Chinh Vương và Dực Thánh Vương bỏ trốn"
+   },
+   "event 3": {
+    "Nhà Lý": "Đại Cồ Việt thời Nhà Lý",
+    "Đối phương": "Trường Sinh Quốc của Nùng Tồn Phúc",
+    "Xung đột": "Loạn họ Nùng lần 1 (1038 - 1041)",
+    "Kết quả": "Chiến thắng Nùng Tồn Phúc bị tiêu diệt"
+   },
+   "event 4": {
+    "Nhà Lý": "Đại Cồ Việt thời Nhà Lý",
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Cồ Việt-Chiêm Thành lần 2 (1044)",
+    "Kết quả": "Chiến thắng Chiêm Thành bị tàn phá"
+   },
+   "event 13": {
+    "Nhà Lý": "Đại Việt thời Nhà Lý",
+    "Đối phương": "Lực lượng Nguyễn Nộn",
+    "Xung đột": "Loạn Nguyễn Nộn (1213 - 1219)",
+    "Kết quả": "Chiến thắng Nổi loạn bị đánh dẹp Nhà Lý suy yếu"
+   },
+   "event 5": {
+    "Nhà Lý": "Đại Cồ Việt thời Nhà Lý",
+    "Đối phương": "Đại Lịch, sau là Đại Nam của Nùng Trí Cao",
+    "Xung đột": "Loạn họ Nùng lần 2 (1048 - 1055)",
+    "Kết quả": "Chiến thắng Nùng Trí Cao bị tiêu diệt"
+   },
+   "event 1": {
+    "Nhà Lý": "Đại Cồ Việt thời Nhà Lý",
+    "Đối phương": "Đại Lý",
+    "Xung đột": "Chiến tranh Đại Cồ Việt-Đại Lý (1014)",
+    "Kết quả": "Chiến thắng Đại Cồ Việt chiếm giữ một phần lãnh thổ của Đại Lý"
+   }
+  }
+ },
+ {
+  "name": "Nhà Trần (1226 - 1400)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Chiến tranh Đại Việt-Chiêm Thành lần 2",
+    "url": "/w/index.php?title=Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_(1252)&action=edit&redlink=1"
+   },
+   {
+    "name": "1252",
+    "url": "/wiki/1252"
+   },
+   {
+    "name": "Đại Việt",
+    "url": "/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Nhà Trần",
+    "url": "/wiki/Nh%C3%A0_Tr%E1%BA%A7n"
+   },
+   {
+    "name": "Chiêm Thành",
+    "url": "/wiki/Chi%C3%AAm_Th%C3%A0nh"
+   },
+   {
+    "name": "Chiến tranh Đại Việt-Nguyên Mông lần 1",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Nguy%C3%AAn_M%C3%B4ng%E2%80%93%C4%90%E1%BA%A1i_Vi%E1%BB%87t_l%E1%BA%A7n_1"
+   },
+   {
+    "name": "1258",
+    "url": "/wiki/1258"
+   },
+   {
+    "name": "Đế quốc Mông Cổ",
+    "url": "/wiki/%C4%90%E1%BA%BF_qu%E1%BB%91c_M%C3%B4ng_C%E1%BB%95"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_Tr%E1%BA%A7n",
+  "info": {
+   "event 6": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Ai Lao",
+    "Xung đột": "Chiến tranh Đại Việt-Ai Lao lần 2 (1297)",
+    "Kết quả": "Chiến thắng Chiếm được một phần mà ngày nay là phía đông tỉnh Xiêng Khoảng"
+   },
+   "event 7": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Ai Lao",
+    "Xung đột": "Chiến tranh Đại Việt-Ai Lao lần 3 (1301)",
+    "Kết quả": "Chiến thắng Chiếm được một phần mà ngày nay là phía đông tỉnh Xiêng Khoảng"
+   },
+   "event 8": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Việt-Chiêm Thành lần 3 (1311)",
+    "Kết quả": "Chiến thắng Chế Chí bị bắt"
+   },
+   "event 9": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Việt-Chiêm Thành lần 4 (1318)",
+    "Kết quả": "Chiến thắng Chế Năng bỏ chạy sang Java"
+   },
+   "event 11": {
+    "Nhà Trần": "Lực lượng Dương Nhật Lễ",
+    "Đối phương": "Lực lượng Trần Phủ",
+    "Xung đột": "Tranh chấp ngôi vị thời Trần (1369 - 1370)",
+    "Kết quả": "Dương Nhật Lễ Thất bại Dương Nhật Lễ bị phế Trần Phủ lên ngôi"
+   },
+   "event 12": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Việt-Chiêm Thành lần 6 (1371)",
+    "Kết quả": "Thất bại Quân Chiêm Thành cướp phá Thăng Long"
+   },
+   "event 10": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Việt-Chiêm Thành lần 5 (1367 - 1368)",
+    "Kết quả": "Thất bại Quân Đại Việt bị phục kích và thiệt hại nặng"
+   },
+   "event 2": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Đế quốc Mông Cổ",
+    "Xung đột": "Chiến tranh Đại Việt-Nguyên Mông lần 1 (1258)",
+    "Kết quả": "Chiến thắng Quân Mông Cổ đại bại và rút về nước"
+   },
+   "event 15": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Việt-Chiêm Thành lần 9 (1382)",
+    "Kết quả": "Chiến thắng Quân Chiêm Thành bị đẩy lùi"
+   },
+   "event 3": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần Chiêm Thành",
+    "Đối phương": "Nhà Nguyên",
+    "Xung đột": "Chiến tranh Đại Việt-Nguyên Mông lần 2 (1285)",
+    "Kết quả": "Chiến thắng Quân Nguyên đại bại và rút về nước"
+   },
+   "event 16": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Việt-Chiêm Thành lần 10 (1389 - 1390)",
+    "Kết quả": "Chiến thắng Chế Bồng Nga tử trận Chiêm Thành thần phục Đại Việt Nhà Trần suy yếu"
+   },
+   "event 4": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Nhà Nguyên",
+    "Xung đột": "Chiến tranh Đại Việt-Nguyên Mông lần 3 (1287 - 1288)",
+    "Kết quả": "Chiến thắng Quân Nguyên đại bại và phải từ bỏ ý đồ xâm lược Đại Việt"
+   },
+   "event 13": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Việt-Chiêm Thành lần 7 (1377)",
+    "Kết quả": "Thất bại Trần Duệ Tông tử trận Quân Chiêm Thành cướp phá Thăng Long"
+   },
+   "event 5": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Ai Lao",
+    "Xung đột": "Chiến tranh Đại Việt-Ai Lao lần 1 (1294)",
+    "Kết quả": "Chiến thắng Chiếm được một phần mà ngày nay là phía đông tỉnh Xiêng Khoảng"
+   },
+   "event 14": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Việt-Chiêm Thành lần 8 (1378)",
+    "Kết quả": "Thất bại Quân Chiêm Thành cướp phá Thăng Long"
+   },
+   "event 1": {
+    "Nhà Trần": "Đại Việt thời Nhà Trần",
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Việt-Chiêm Thành lần 2 (1252)",
+    "Kết quả": "Chiến thắng Chiêm Thành thần phục Đại Việt"
+   }
+  }
+ },
+ {
+  "name": "Nhà Hồ (1400 - 1407)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Chiến tranh Đại Ngu-Chiêm Thành lần 1",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_1400-1407"
+   },
+   {
+    "name": "1400",
+    "url": "/wiki/1400"
+   },
+   {
+    "name": "Đại Ngu",
+    "url": "/wiki/%C4%90%E1%BA%A1i_Ngu"
+   },
+   {
+    "name": "Nhà Hồ",
+    "url": "/wiki/Nh%C3%A0_H%E1%BB%93"
+   },
+   {
+    "name": "Chiêm Thành",
+    "url": "/wiki/Chi%C3%AAm_Th%C3%A0nh"
+   },
+   {
+    "name": "Đại Việt",
+    "url": "/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Chiến tranh Đại Ngu-Chiêm Thành lần 2",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_1400-1407"
+   },
+   {
+    "name": "1402",
+    "url": "/wiki/1402"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_H%E1%BB%93",
+  "info": {
+   "event 2": {
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Ngu-Chiêm Thành lần 2 (1402)",
+    "Kết quả": "Chiến thắng Chiêm Thành dâng Chiêm Động và Cổ Lũy cho Đại Ngu",
+    "Nhà Hồ": "Đại Ngu thời Nhà Hồ"
+   },
+   "event 3": {
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Ngu-Chiêm Thành lần 3 (1403)",
+    "Kết quả": "Thất bại Quân Đại Việt không hạ được Chà Bàn và rút về Chiêm Thành cầu cứu Nhà Minh",
+    "Nhà Hồ": "Đại Ngu thời Nhà Hồ"
+   },
+   "event 4": {
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Ngu-Chiêm Thành lần 4 (1407)",
+    "Kết quả": "Thất bại Chiêm Thành chiếm lại được Chiêm Động và Cổ Lũy với sự hỗ trợ của quân Minh",
+    "Nhà Hồ": "Đại Ngu thời Nhà Hồ"
+   },
+   "event 5": {
+    "Đối phương": "Nhà Minh Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Ngu-Đại Minh (1406 - 1407)",
+    "Kết quả": "Thất bại Hồ Hán Thương bị bắt giết Đại Ngu bị sáp nhập vào Nhà Minh Bắt đầu thời kỳ Bắc thuộc lần 4",
+    "Nhà Hồ": "Đại Ngu thời Nhà Hồ"
+   },
+   "event 1": {
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Ngu-Chiêm Thành lần 1 (1400)",
+    "Kết quả": "Thất bại Quân Đại Việt phải rút lui",
+    "Nhà Hồ": "Đại Ngu thời Nhà Hồ"
+   }
+  }
+ },
+ {
+  "name": "Nhà Hậu Lê - giai đoạn Lê sơ (1428 - 1527)",
+  "description": "Nhà Hậu Lê (chữ Nôm: 茹後黎, chữ Hán: 後黎朝, Hán Việt: Hậu Lê triều; (1428-1789) là một triều đại phong kiến Việt Nam tồn tại sau thời Bắc thuộc lần 4 và đồng thời với nhà Mạc, nhà Tây Sơn trong một thời gian, trước Nhà Nguyễn",
+  "connection": [
+   {
+    "name": "Khởi nghĩa Nhà Hậu Trần",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Minh%E2%80%93Vi%E1%BB%87t_(1407-1414)"
+   },
+   {
+    "name": "1407",
+    "url": "/wiki/1407"
+   },
+   {
+    "name": "1414",
+    "url": "/wiki/1414"
+   },
+   {
+    "name": "Hậu Trần",
+    "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_Tr%E1%BA%A7n"
+   },
+   {
+    "name": "Nhà Minh",
+    "url": "/wiki/Nh%C3%A0_Minh"
+   },
+   {
+    "name": "Khởi nghĩa Lam Sơn",
+    "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Lam_S%C6%A1n"
+   },
+   {
+    "name": "1418",
+    "url": "/wiki/1418"
+   },
+   {
+    "name": "1427",
+    "url": "/wiki/1427"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA",
+  "info": {
+   "event 2": {
+    "Đối phương": "Nhà Minh",
+    "Xung đột": "Khởi nghĩa Lam Sơn (1418 - 1427)",
+    "Giao Chỉ": "Lực lượng Lam Sơn",
+    "Kết quả": "Chiến thắng Quân Minh đại bại và rút về nước Chấm dứt thời kỳ Bắc thuộc lần 4 Lê Lợi lên ngôi Nhà Hậu Lê thành lập"
+   },
+   "event 1": {
+    "Đối phương": "Nhà Minh",
+    "Xung đột": "Khởi nghĩa Nhà Hậu Trần (1407 - 1414)",
+    "Giao Chỉ": "Lực lượng Hậu Trần",
+    "Kết quả": "Thất bại Khởi nghĩa bị đàn áp"
+   }
+  }
+ },
+ {
+  "name": "Nhà Mạc (1527 - 1677)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Loạn Đèo Cát Hãn",
+    "url": "/wiki/%C4%90%C3%A8o_C%C3%A1t_H%C3%A3n"
+   },
+   {
+    "name": "1431",
+    "url": "/wiki/1431"
+   },
+   {
+    "name": "1432",
+    "url": "/wiki/1432"
+   },
+   {
+    "name": "Đại Việt",
+    "url": "/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Nhà Lê sơ",
+    "url": "/wiki/Nh%C3%A0_L%C3%AA_s%C6%A1"
+   },
+   {
+    "name": "Đèo Cát Hãn",
+    "url": "/wiki/%C4%90%C3%A8o_C%C3%A1t_H%C3%A3n"
+   },
+   {
+    "name": "Chiến tranh Đại Việt-Chiêm Thành lần 11",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_1446"
+   },
+   {
+    "name": "1446",
+    "url": "/wiki/1446"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_M%E1%BA%A1c",
+  "info": {
+   "event 6": {
+    "Đối phương": "Lực lượng Lê Oanh",
+    "Xung đột": "Tranh chấp ngôi vị thời Lê sơ lần 2 (1509)",
+    "Kết quả": "Thay đổi ngôi vị Lê Uy Mục bị phế Lê Oanh lên ngôi",
+    "Nhà Hậu Lê": "Lực lượng Lê Uy Mục"
+   },
+   "event 11": {
+    "Đối phương": "Lực lượng Trịnh Tuy, Lê Bảng, Lê Do",
+    "Xung đột": "Loạn Trịnh Tuy (1518 - 1522)",
+    "Kết quả": "Thay đổi ngôi vị Trịnh Tuy đưa Lê Bảng rồi Lê Do lên ngôi trong thời gian ngắn ngủi Mạc Đăng Dung trở thành quyền thần Lê Chiêu Tông sau bỏ sang phe Trịnh Tuy",
+    "Nhà Hậu Lê": "Lực lượng Lê Chiêu Tông, Mạc Đăng Dung"
+   },
+   "event 7": {
+    "Đối phương": "Lực lượng Trần Tuân",
+    "Xung đột": "Loạn Trần Tuân (1511 - 1512)",
+    "Kết quả": "Chiến thắng Nổi loạn bị đánh dẹp Nhà Hậu Lê suy yếu",
+    "Nhà Hậu Lê": "Đại Việt thời Nhà Lê sơ"
+   },
+   "event 12": {
+    "Đối phương": "Lực lượng Trịnh Tuy, Lê Chiêu Tông",
+    "Xung đột": "Loạn Mạc Đăng Dung (1522 - 1526)",
+    "Kết quả": "Thay đổi ngôi vị và triều đại Mạc Đăng Dung đưa Lê Xuân lên ngôi Lê Chiêu Tông bị bắt giết, Lê Cung Hoàng sau bị phế Mạc Đăng Dung dẹp tan các quân nổi loạn và lên ngôi Nhà Mạc thành lập",
+    "Nhà Hậu Lê": "Lực lượng Mạc Đăng Dung, Lê Cung Hoàng"
+   },
+   "event 8": {
+    "Đối phương": "Các lực lượng cát cứ",
+    "Xung đột": "Khủng hoảng cuối nhà Lê sơ (1516-1526)",
+    "Kết quả": "Thay đổi ngôi vị Nhà Lê Sơ sụp đổ Nhà Mạc nắm quyền",
+    "Nhà Hậu Lê": "Đại Việt thời Nhà Lê sơ"
+   },
+   "event 9": {
+    "Đối phương": "Lực lượng Trịnh Duy Sản, Lê Y",
+    "Xung đột": "Loạn Trịnh Duy Sản (1516)",
+    "Kết quả": "Thay đổi ngôi vị Lê Tương Dực bị phế Trịnh Duy Sản đưa Lê Y lên ngôi Nhà Hậu Lê suy yếu",
+    "Nhà Hậu Lê": "Lực lượng Lê Tương Dực"
+   },
+   "event 10": {
+    "Đối phương": "Lực lượng Trần Cảo",
+    "Xung đột": "Loạn Trần Cảo (1516 - 1521)",
+    "Kết quả": "Chiến thắng Trần Cảo bỏ chạy Trịnh Duy Sản tử trận Nhà Hậu Lê bắt đầu loạn lạc",
+    "Nhà Hậu Lê": "Đại Việt thời Nhà Lê sơ"
+   },
+   "event 2": {
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Việt-Chiêm Thành lần 11 (1446)",
+    "Kết quả": "Chiến thắng Bí Cai bị bắt",
+    "Nhà Hậu Lê": "Đại Việt thời Nhà Lê sơ"
+   },
+   "event 3": {
+    "Đối phương": "Lực lượng Nguyễn Xí, Đinh Liệt, Lê Lăng",
+    "Xung đột": "Tranh chấp ngôi vị thời Lê sơ lần 1 (1450)",
+    "Kết quả": "Thay đổi ngôi vị Lê Nghi Dân bị phế Các đại thần tôn Lê Tư Thành lên ngôi",
+    "Nhà Hậu Lê": "Lực lượng Lê Nghi Dân"
+   },
+   "event 4": {
+    "Đối phương": "Chiêm Thành",
+    "Xung đột": "Chiến tranh Đại Việt-Chiêm Thành lần 12 (1471)",
+    "Kết quả": "Chiến thắng Chiêm Thành suy vong Miền bắc Chiêm Thành sáp nhập vào Đại Việt",
+    "Nhà Hậu Lê": "Đại Việt thời Nhà Lê sơ"
+   },
+   "event 5": {
+    "Đối phương": "Lan Xang Lan Na Bồn Man Ayutthaya Ava",
+    "Xung đột": "Chiến tranh Đại Việt-Lan Xang (1478 - 1480)",
+    "Kết quả": "Chiến thắng Lan Xang, Ayutthaya, Ava thần phục Đại Việt Bồn Man sáp nhập vào Đại Việt",
+    "Nhà Hậu Lê": "Đại Việt thời Nhà Lê sơ"
+   },
+   "event 1": {
+    "Đối phương": "Lực lượng Đèo Cát Hãn",
+    "Xung đột": "Loạn Đèo Cát Hãn (1431 - 1432)",
+    "Kết quả": "Chiến thắng Đèo Cát Hãn bị bắt",
+    "Nhà Hậu Lê": "Đại Việt thời Nhà Lê sơ"
+   }
+  }
+ },
+ {
+  "name": "Nhà Hậu Lê - giai đoạn Lê trung hưng (1533 - 1789)",
+  "description": "Nhà Hậu Lê (chữ Nôm: 茹後黎, chữ Hán: 後黎朝, Hán Việt: Hậu Lê triều; (1428-1789) là một triều đại phong kiến Việt Nam tồn tại sau thời Bắc thuộc lần 4 và đồng thời với nhà Mạc, nhà Tây Sơn trong một thời gian, trước Nhà Nguyễn",
+  "connection": [
+   {
+    "name": "Chiến tranh Lê-Mạc lần 1",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_L%C3%AA-M%E1%BA%A1c"
+   },
+   {
+    "name": "1533",
+    "url": "/wiki/1533"
+   },
+   {
+    "name": "1592",
+    "url": "/wiki/1592"
+   },
+   {
+    "name": "Bắc triều",
+    "url": "/wiki/B%E1%BA%AFc_tri%E1%BB%81u"
+   },
+   {
+    "name": "Nhà Mạc",
+    "url": "/wiki/Nh%C3%A0_M%E1%BA%A1c"
+   },
+   {
+    "name": "Nam triều",
+    "url": "/wiki/Nam_tri%E1%BB%81u"
+   },
+   {
+    "name": "Nhà Lê trung hưng",
+    "url": "/wiki/Nh%C3%A0_L%C3%AA_trung_h%C6%B0ng"
+   },
+   {
+    "name": "Chúa Trịnh",
+    "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA",
+  "info": {
+   "event 2": {
+    "Nhà Mạc": "Lực lượng Mạc Phúc Nguyên",
+    "Đối phương": "Lực lượng Mạc Chính Trung",
+    "Xung đột": "Tranh chấp ngôi vị thời Mạc (1546 - 1547)",
+    "Kết quả": "Xác lập ngôi vị Mạc Phúc Nguyên lên ngôi Mạc Chính Trung bỏ chạy sang Trung Quốc Nhà Mạc suy yếu"
+   },
+   "event 1": {
+    "Nhà Mạc": "Bắc triều thời Nhà Mạc",
+    "Đối phương": "Nam triều thời Nhà Lê trung hưng Chúa Trịnh Chúa Nguyễn Chúa Bầu",
+    "Xung đột": "Chiến tranh Lê-Mạc lần 1 (1533 - 1592)",
+    "Kết quả": "Thay đổi triều đại Nhà Hậu Lê chiếm được Đông Kinh Tàn dư Nhà Mạc rút lên cát cứ ở Cao Bằng Họ Trịnh và Họ Nguyễn trở thành quyền thần"
+   }
+  }
+ },
+ {
+  "name": "Nhà Tây Sơn (1778 - 1802)",
+  "description": "Trong thế kỷ 18, nước Đại Việt nằm dưới quyền cai trị tượng trưng của vua Lê, có danh mà không có quyền hành chính trị. Quyền lực thực sự nằm trong tay hai gia đình phong kiến, các chúa Trịnh ở phía Bắc, kiểm soát nhà vua và điều khiển triều đình ở Thăng Long và các chúa Nguyễn ở phía Nam, đóng đô tại thành Phú Xuân. Hai bên từng đánh lẫn nhau để giành quyền kiểm soát toàn bộ đất nước trong suốt 45 năm và đều tuyên bố trung thành với nhà Lê để củng cố quyền lực cho mình.",
+  "connection": [
+   {
+    "name": "Chiến tranh Lê-Mạc lần 2",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_L%C3%AA-M%E1%BA%A1c"
+   },
+   {
+    "name": "1592",
+    "url": "/wiki/1592"
+   },
+   {
+    "name": "1677",
+    "url": "/wiki/1677"
+   },
+   {
+    "name": "Đại Việt",
+    "url": "/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Nhà Lê trung hưng",
+    "url": "/wiki/Nh%C3%A0_L%C3%AA_trung_h%C6%B0ng"
+   },
+   {
+    "name": "Chúa Trịnh",
+    "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+   },
+   {
+    "name": "Chúa Nguyễn",
+    "url": "/wiki/Ch%C3%BAa_Nguy%E1%BB%85n"
+   },
+   {
+    "name": "Nhà Mạc",
+    "url": "/wiki/Nh%C3%A0_M%E1%BA%A1c"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_T%C3%A2y_S%C6%A1n",
+  "info": {"event 1": {
+   "Đối phương": "Nhà Mạc ở Cao Bằng Chúa Bầu (từ 1594)",
+   "Xung đột": "Chiến tranh Lê-Mạc lần 2 (1592 - 1677)",
+   "Kết quả": "Chiến thắng Tàn dư Nhà Mạc chấm dứt Nhà Hậu Lê khôi phục hoàn toàn lãnh thổ Tiếp tục thời kỳ Trịnh-Nguyễn phân tranh",
+   "Nhà Hậu Lê": "Đại Việt thời Nhà Lê trung hưng Chúa Trịnh Chúa Nguyễn (đến 1600)"
+  }}
+ },
+ {
+  "name": "Nhà Nguyễn - giai đoạn độc lập (1802 - 1884)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Loạn Chúa Bầu",
+    "url": "/w/index.php?title=Lo%E1%BA%A1n_Ch%C3%BAa_B%E1%BA%A7u&action=edit&redlink=1"
+   },
+   {
+    "name": "1594",
+    "url": "/wiki/1594"
+   },
+   {
+    "name": "1699",
+    "url": "/wiki/1699"
+   },
+   {
+    "name": "Đàng Ngoài",
+    "url": "/wiki/%C4%90%C3%A0ng_Ngo%C3%A0i"
+   },
+   {
+    "name": "Chúa Trịnh",
+    "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+   },
+   {
+    "name": "Chúa Bầu",
+    "url": "/wiki/Ch%C3%BAa_B%E1%BA%A7u"
+   },
+   {
+    "name": "Khởi nghĩa Hoàng Công Chất",
+    "url": "/w/index.php?title=Kh%E1%BB%9Fi_ngh%C4%A9a_Ho%C3%A0ng_C%C3%B4ng_Ch%E1%BA%A5t&action=edit&redlink=1"
+   },
+   {
+    "name": "1739",
+    "url": "/wiki/1739"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_Nguy%E1%BB%85n",
+  "info": {
+   "event 6": {
+    "Đối phương": "Luang Phrabang",
+    "Xung đột": "Chiến tranh Đại Việt-Luang Phrabang (1749)",
+    "Chúa Trịnh": "Đàng Ngoài thời Chúa Trịnh",
+    "Kết quả": "Thất bại Quân Trịnh bị đẩy lùi khỏi Luang Prabang"
+   },
+   "event 7": {
+    "Đối phương": "Lính tam phủ Xứ Thanh - Xứ Nghệ",
+    "Xung đột": "Nạn kiêu binh (1782 - 1786)",
+    "Chúa Trịnh": "Đàng Ngoài thời Chúa Trịnh",
+    "Kết quả": "Chiến thắng Lính tam phủ tan rã Chúa Trịnh suy yếu"
+   },
+   "event 2": {
+    "Đối phương": "Lực lượng Hoàng Công Chất",
+    "Xung đột": "Khởi nghĩa Hoàng Công Chất (1739 - 1769)",
+    "Chúa Trịnh": "Đàng Ngoài thời Chúa Trịnh",
+    "Kết quả": "Chiến thắng Khởi nghĩa bị đánh dẹp"
+   },
+   "event 3": {
+    "Đối phương": "Lực lượng Lê Duy Mật",
+    "Xung đột": "Khởi nghĩa Lê Duy Mật (1740 - 1770)",
+    "Chúa Trịnh": "Đàng Ngoài thời Chúa Trịnh",
+    "Kết quả": "Chiến thắng Khởi nghĩa bị đánh dẹp"
+   },
+   "event 4": {
+    "Đối phương": "Lực lượng Nguyễn Hữu Cầu",
+    "Xung đột": "Khởi nghĩa Nguyễn Hữu Cầu (1743 - 1751)",
+    "Chúa Trịnh": "Đàng Ngoài thời Chúa Trịnh",
+    "Kết quả": "Chiến thắng Khởi nghĩa bị đánh dẹp"
+   },
+   "event 5": {
+    "Đối phương": "Lực lượng Nguyễn Danh Phương",
+    "Xung đột": "Khởi nghĩa Nguyễn Danh Phương (1744 - 1751)",
+    "Chúa Trịnh": "Đàng Ngoài thời Chúa Trịnh",
+    "Kết quả": "Chiến thắng Khởi nghĩa bị đánh dẹp"
+   },
+   "event 1": {
+    "Đối phương": "Chúa Bầu",
+    "Xung đột": "Loạn Chúa Bầu (1594 - 1699)",
+    "Chúa Trịnh": "Đàng Ngoài thời Chúa Trịnh",
+    "Kết quả": "Chiến thắng Chúa Bầu bị tiêu diệt"
+   }
+  }
+ },
+ {
+  "name": "Pháp thuộc (1858 - 1945)",
+  "description": "Pháp thuộc là một giai đoạn trong lịch sử Việt Nam kéo dài 61 năm, bắt đầu từ 1884 khi Pháp ép triều đình Huế kí Hòa ước Giáp Thân cho đến 1945 khi Pháp mất quyền cai trị ở Đông Dương. Tuy nhiên, nhiều tài liệu khác cho rằng thời kỳ Pháp thuộc cần được tính từ năm 1867 (tức là kéo dài gần 80 năm), khi Nam Kỳ Lục tỉnh bị nhà Nguyễn cắt nhượng cho Pháp, trở thành lãnh thổ đầu tiên Pháp chiếm được trong quá trình Pháp xâm lược Đại Nam.",
+  "connection": [
+   {
+    "name": "Chiến tranh Đại Việt-Panduranga lần 1",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm,_1611"
+   },
+   {
+    "name": "1611",
+    "url": "/wiki/1611"
+   },
+   {
+    "name": "Đàng Trong",
+    "url": "/wiki/%C4%90%C3%A0ng_Trong"
+   },
+   {
+    "name": "Chúa Nguyễn",
+    "url": "/wiki/Ch%C3%BAa_Nguy%E1%BB%85n"
+   },
+   {
+    "name": "Panduranga-Chăm Pa",
+    "url": "/wiki/Panduranga-Ch%C4%83m_Pa"
+   },
+   {
+    "name": "Xung đột Công ty Đông Ấn Hà Lan với Đàng Trong",
+    "url": "/wiki/Tr%E1%BA%ADn_c%E1%BA%A3ng_Eo_1643"
+   },
+   {
+    "name": "1643",
+    "url": "/wiki/1643"
+   },
+   {
+    "name": "",
+    "url": "/wiki/T%E1%BA%ADp_tin:VOC.svg"
+   }
+  ],
+  "url": "/wiki/Ph%C3%A1p_thu%E1%BB%99c",
+  "info": {
+   "event 6": {
+    "Chúa Nguyễn": "Đàng Trong thời Chúa Nguyễn",
+    "Đối phương": "Panduranga-Chăm Pa",
+    "Xung đột": "Chiến tranh Đại Việt-Panduranga lần 3 (1693 - 1697)",
+    "Kết quả": "Thất bại Quân Nguyễn rút lui Panduranga-Chăm Pa được quyền tự trị"
+   },
+   "event 11": {
+    "Chúa Nguyễn": "Đàng Trong thời Chúa Nguyễn Lực lượng Outey II",
+    "Đối phương": "Xiêm La thời Nhà Thonburi Lực lượng Ang Non II",
+    "Xung đột": "Chiến tranh Đại Việt-Xiêm La lần 2 (1771 - 1772)",
+    "Kết quả": "Thất bại Ang Non II lên ngôi vua Cao Miên Quân Nguyễn rút khỏi Cao Miên Chúa Nguyễn suy yếu"
+   },
+   "event 7": {
+    "Chúa Nguyễn": "Đàng Trong thời Chúa Nguyễn",
+    "Đối phương": "Cao Miên thời Chey Chettha IV",
+    "Xung đột": "Chiến tranh Đại Việt-Cao Miên lần 3 (1699)",
+    "Kết quả": "Chiến Thắng Chey Chettha IV xin hàng Chúa Nguyễn"
+   },
+   "event 12": {
+    "Chúa Nguyễn": "Đàng Trong thời Chúa Nguyễn",
+    "Đối phương": "Lực lượng Tây Sơn",
+    "Xung đột": "Khởi nghĩa Tây Sơn (1771 - 1777)",
+    "Kết quả": "Thay đổi triều đại Quân Trịnh nam tiến Chúa Nguyễn bị tiêu diệt Nhà Tây Sơn thành lập ở Đàng Trong"
+   },
+   "event 8": {
+    "Chúa Nguyễn": "Đàng Trong thời Chúa Nguyễn Lực lượng Ang Em",
+    "Đối phương": "Cao Miên thời Thommo Reachea III Xiêm La thời Nhà Ayutthaya",
+    "Xung đột": "Chiến tranh Đại Việt-Cao Miên lần 4 (1708)",
+    "Kết quả": "Chiến thắng Thommo Reachea III bỏ chạy sang Xiêm La Ang Em lên ngôi vua Cao Miên"
+   },
+   "event 9": {
+    "Chúa Nguyễn": "Đàng Trong thời Chúa Nguyễn",
+    "Đối phương": "Xiêm La thời Nhà Ayutthaya",
+    "Xung đột": "Chiến tranh Đại Việt-Xiêm La lần 1 (1718)",
+    "Kết quả": "Thất bại Quân Xiêm cướp phá Hà Tiên"
+   },
+   "event 10": {
+    "Chúa Nguyễn": "Đàng Trong thời Chúa Nguyễn",
+    "Đối phương": "Cao Miên thời Chey Chettha VII",
+    "Xung đột": "Chiến tranh Đại Việt-Cao Miên lần 5 (1753 - 1756)",
+    "Kết quả": "Chiến thắng Chey Chettha VII đầu hàng Chúa Nguyễn"
+   },
+   "event 2": {
+    "Chúa Nguyễn": "Đàng Trong thời Chúa Nguyễn",
+    "Đối phương": "Công ty Đông Ấn Hà Lan",
+    "Xung đột": "Xung đột Công ty Đông Ấn Hà Lan với Đàng Trong (1643)",
+    "Kết quả": "Chiến thắng Hạm đội Công ty Đông Ấn Hà Lan bị đánh tan"
+   },
+   "event 3": {
+    "Chúa Nguyễn": "Đàng Trong thời Chúa Nguyễn",
+    "Đối phương": "Panduranga-Chăm Pa",
+    "Xung đột": "Chiến tranh Đại Việt-Panduranga lần 2 (1653)",
+    "Kết quả": "Chiến thắng Chúa Nguyễn mở rộng lãnh thổ"
+   },
+   "event 4": {
+    "Chúa Nguyễn": "Đàng Trong thời Chúa Nguyễn Lực lượng Ang Sur và Ang Tan",
+    "Đối phương": "Cao Miên thời Ramathipadi I",
+    "Xung đột": "Chiến tranh Đại Việt-Cao Miên lần 1 (1658)",
+    "Kết quả": "Chiến thắng Ramathipadi I bị bắt"
+   },
+   "event 5": {
+    "Chúa Nguyễn": "Đàng Trong thời Chúa Nguyễn Lực lượng Ang Nan II và Ang Tan",
+    "Đối phương": "Cao Miên thời Keo Fa II",
+    "Xung đột": "Chiến tranh Đại Việt-Cao Miên lần 2 (1674)",
+    "Kết quả": "Chiến thắng Keo Fa II bỏ chạy Cao Miên bị chia cắt thành 2 nửa do Ang Nan II và Chey Chettha IV lãnh đạo"
+   },
+   "event 1": {
+    "Chúa Nguyễn": "Đàng Trong thời Chúa Nguyễn",
+    "Đối phương": "Panduranga-Chăm Pa",
+    "Xung đột": "Chiến tranh Đại Việt-Panduranga lần 1 (1611)",
+    "Kết quả": "Chiến thắng Chúa Nguyễn mở rộng lãnh thổ"
+   }
+  }
+ },
+ {
+  "name": "Nhật thuộc (1940 - 1945)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Trịnh-Nguyễn phân tranh lần 1",
+    "url": "/wiki/Tr%E1%BB%8Bnh-Nguy%E1%BB%85n_ph%C3%A2n_tranh"
+   },
+   {
+    "name": "1627",
+    "url": "/wiki/1627"
+   },
+   {
+    "name": "Đàng Ngoài",
+    "url": "/wiki/%C4%90%C3%A0ng_Ngo%C3%A0i"
+   },
+   {
+    "name": "Đàng Trong",
+    "url": "/wiki/%C4%90%C3%A0ng_Trong"
+   },
+   {
+    "name": "Trịnh-Nguyễn phân tranh lần 2",
+    "url": "/wiki/Tr%E1%BB%8Bnh-Nguy%E1%BB%85n_ph%C3%A2n_tranh"
+   },
+   {
+    "name": "1633",
+    "url": "/wiki/1633"
+   },
+   {
+    "name": "1640",
+    "url": "/wiki/1640"
+   },
+   {
+    "name": "Bố Chính",
+    "url": "/wiki/B%E1%BB%91_Ch%C3%ADnh"
+   }
+  ],
+  "url": "/w/index.php?title=Nh%E1%BA%ADt_thu%E1%BB%99c&action=edit&redlink=1",
+  "info": {
+   "event 6": {
+    "Chúa Nguyễn": "Đàng Trong",
+    "Xung đột": "Trịnh-Nguyễn phân tranh lần 6 (1661 - 1662)",
+    "Chúa Trịnh": "Đàng Ngoài",
+    "Kết quả": "Quân Trịnh thất bại Quân Nguyễn giữ được Nam Bố Chính"
+   },
+   "event 7": {
+    "Chúa Nguyễn": "Đàng Trong",
+    "Xung đột": "Trịnh-Nguyễn phân tranh lần 7 (1672)",
+    "Chúa Trịnh": "Đàng Ngoài",
+    "Kết quả": "Quân Trịnh thất bại Quân Nguyễn giữ được Lũy Trấn Ninh"
+   },
+   "event 8": {
+    "Chúa Nguyễn": "Đàng Trong",
+    "Xung đột": "Trịnh-Nguyễn phân tranh lần 8 (1774 - 1775)",
+    "Chúa Trịnh": "Đàng Ngoài Lực lượng Tây Sơn (từ 1775)",
+    "Kết quả": "Quân Nguyễn thất bại Quân Trịnh và quân Tây Sơn chiếm được Phú Xuân Chúa Nguyễn bỏ chạy vào Nam Hà"
+   },
+   "event 2": {
+    "Chúa Nguyễn": "Đàng Trong",
+    "Xung đột": "Trịnh-Nguyễn phân tranh lần 2 (1633 - 1640)",
+    "Chúa Trịnh": "Đàng Ngoài",
+    "Kết quả": "Quân Trịnh thất bại Quân Nguyễn chiếm được Bố Chính"
+   },
+   "event 3": {
+    "Chúa Nguyễn": "Đàng Trong",
+    "Xung đột": "Trịnh-Nguyễn phân tranh lần 3 (1643)",
+    "Chúa Trịnh": "Đàng Ngoài",
+    "Kết quả": "Quân Nguyễn thất bại Quân Trịnh tái chiếm Bắc Bố Chính"
+   },
+   "event 4": {
+    "Chúa Nguyễn": "Đàng Trong",
+    "Xung đột": "Trịnh-Nguyễn phân tranh lần 4 (1648)",
+    "Chúa Trịnh": "Đàng Ngoài",
+    "Kết quả": "Bất phân thắng bại"
+   },
+   "event 5": {
+    "Chúa Nguyễn": "Đàng Trong",
+    "Xung đột": "Trịnh-Nguyễn phân tranh lần 5 (1655 - 1660)",
+    "Chúa Trịnh": "Đàng Ngoài",
+    "Kết quả": "Quân Nguyễn thất bại Quân Trịnh tái chiếm 7 huyện Nghệ An"
+   },
+   "event 1": {
+    "Chúa Nguyễn": "Đàng Trong",
+    "Xung đột": "Trịnh-Nguyễn phân tranh lần 1 (1627)",
+    "Chúa Trịnh": "Đàng Ngoài",
+    "Kết quả": "Quân Trịnh thất bại"
+   }
+  }
+ },
+ {
+  "name": "Việt Nam Dân chủ Cộng hòa (1945 - 1976)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Chiến tranh Tây Sơn-Chúa Trịnh",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_T%C3%A2y_S%C6%A1n-Ch%C3%BAa_Tr%E1%BB%8Bnh"
+   },
+   {
+    "name": "1775",
+    "url": "/wiki/1775"
+   },
+   {
+    "name": "1786",
+    "url": "/wiki/1786"
+   },
+   {
+    "name": "",
+    "url": "/wiki/T%E1%BA%ADp_tin:Red_flag.svg"
+   },
+   {
+    "name": "Đàng Trong",
+    "url": "/wiki/%C4%90%C3%A0ng_Trong"
+   },
+   {
+    "name": "Nhà Tây Sơn",
+    "url": "/wiki/Nh%C3%A0_T%C3%A2y_S%C6%A1n"
+   },
+   {
+    "name": "Đàng Ngoài",
+    "url": "/wiki/%C4%90%C3%A0ng_Ngo%C3%A0i"
+   },
+   {
+    "name": "Chúa Trịnh",
+    "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+   }
+  ],
+  "url": "/wiki/Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a",
+  "info": {
+   "event 6": {
+    "Đối phương": "Nhà Thanh Lực lượng Lê Chiêu Thống",
+    "Xung đột": "Chiến tranh Đại Việt-Đại Thanh (1789)",
+    "Nhà Tây Sơn": "Đại Việt thời Nhà Tây Sơn",
+    "Kết quả": "Chiến thắng Quân Thanh đại bại và rút về nước Nhà Hậu Lê chính thức sụp đổ Nhà Tây Sơn tiến gần đến công cuộc thống nhất đất nước"
+   },
+   "event 7": {
+    "Đối phương": "Viêng Chăn Bồn Man",
+    "Xung đột": "Chiến tranh Đại Việt-Viêng Chăn (1791)",
+    "Nhà Tây Sơn": "Đại Việt thời Nhà Tây Sơn",
+    "Kết quả": "Chiến thắng Viêng Chăn thần phục Nhà Tây Sơn Bồn Man sáp nhập vào Đại Việt"
+   },
+   "event 8": {
+    "Đối phương": "Lực lượng Nguyễn Ánh ở Nam Hà",
+    "Xung đột": "Chiến tranh Tây Sơn-Chúa Nguyễn lần 2 (1787 - 1802)",
+    "Nhà Tây Sơn": "Đại Việt thời Nhà Tây Sơn",
+    "Kết quả": "Thay đổi triều đại Nhà Tây Sơn sụp đổ Nhà Nguyễn được thành lập và thống nhất đất nước"
+   },
+   "event 2": {
+    "Đối phương": "Lực lượng Nguyễn Ánh ở Nam Hà",
+    "Xung đột": "Chiến tranh Tây Sơn-Chúa Nguyễn lần 1 (1771 - 1785)",
+    "Nhà Tây Sơn": "Đàng Trong thời Nhà Tây Sơn",
+    "Kết quả": "Thay đổi lãnh thổ Nguyễn Ánh bỏ chạy sang Xiêm La Nhà Tây Sơn tái chiếm được Nam Hà"
+   },
+   "event 3": {
+    "Đối phương": "Xiêm La thời Nhà Chakri Lực lượng Nguyễn Ánh",
+    "Xung đột": "Chiến tranh Đại Việt-Xiêm La lần 3 (1785)",
+    "Nhà Tây Sơn": "Đàng Trong thời Nhà Tây Sơn",
+    "Kết quả": "Chiến thắng Quân Xiêm bị đánh tan Nguyễn Ánh bỏ chạy sang Xiêm La"
+   },
+   "event 4": {
+    "Đối phương": "Cao Miên",
+    "Xung đột": "Chiến tranh Đại Việt-Cao Miên lần 6 (1785)",
+    "Nhà Tây Sơn": "Đàng Trong thời Nhà Tây Sơn",
+    "Kết quả": "Chiến thắng Cao Miên thần phục Nhà Tây Sơn"
+   },
+   "event 5": {
+    "Đối phương": "Lực lượng Nguyễn Nhạc ở Quy Nhơn",
+    "Xung đột": "Xung đột Nguyễn Huệ-Nguyễn Nhạc (1787)",
+    "Nhà Tây Sơn": "Lực lượng Nguyễn Huệ ở Phú Xuân",
+    "Kết quả": "Bất phân thắng bại Nguyễn Nhạc và Nguyễn Huệ giảng hòa Nguyễn Nhạc cho phép Nguyễn Huệ cai quản phía bắc"
+   },
+   "event 1": {
+    "Đối phương": "Đàng Ngoài thời Chúa Trịnh",
+    "Xung đột": "Chiến tranh Tây Sơn-Chúa Trịnh (1775 - 1786)",
+    "Nhà Tây Sơn": "Đàng Trong thời Nhà Tây Sơn",
+    "Kết quả": "Thay đổi triều đại và lãnh thổ Chúa Trịnh bị tiêu diệt Quân Tây Sơn tiến ra Đàng Ngoài nhưng sau đó rút về Nhà Hậu Lê vẫn cai trị Đàng Ngoài trên danh nghĩa"
+   }
+  }
+ },
+ {
+  "name": "Quốc gia Việt Nam và Việt Nam Cộng hòa (1949 - 1975)",
+  "description": "Ngày 7/12/1947, tại cuộc họp trên tàu chiến Pháp ở Vịnh Hạ Long, Bảo Đại và Pháp đàm phán rồi ký kết Hiệp ước Sơ bộ Vịnh Hạ Long. Hiệp ước thể hiện sự đồng thuận của hai bên về việc thành lập Quốc gia Việt Nam trên cơ sở nguyên tắc độc lập và thống nhất của Việt Nam trong Liên hiệp Pháp. Dù vậy nghĩa chính xác của từ \"độc lập\", quyền hạn cụ thể của chính phủ mới cũng như vai trò chính phủ này trong cuộc chiến Việt - Pháp đang tiếp diễn không được xác định rõ[21].",
+  "connection": [
+   {
+    "name": "Nổi dậy ở Đá Vách thời Nguyễn",
+    "url": "/wiki/N%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_%C4%90%C3%A1_V%C3%A1ch_th%E1%BB%9Di_Nguy%E1%BB%85n"
+   },
+   {
+    "name": "1803",
+    "url": "/wiki/1803"
+   },
+   {
+    "name": "1885",
+    "url": "/wiki/1885"
+   },
+   {
+    "name": "",
+    "url": "/wiki/T%E1%BA%ADp_tin:Long_tinh_flag_(variant).svg"
+   },
+   {
+    "name": "Nhà Nguyễn",
+    "url": "/wiki/Nh%C3%A0_Nguy%E1%BB%85n"
+   },
+   {
+    "name": "Quảng Ngãi",
+    "url": "/wiki/Qu%E1%BA%A3ng_Ng%C3%A3i"
+   },
+   {
+    "name": "Nổi loạn Cao Miên",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_lo%E1%BA%A1n_Campuchia_(1811-1812)"
+   },
+   {
+    "name": "1811",
+    "url": "/wiki/1811"
+   }
+  ],
+  "url": "/wiki/Qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam",
+  "info": {
+   "event 6": {
+    "Đối phương": "Lực lượng Lê Văn Khôi",
+    "Xung đột": "Nổi dậy Lê Văn Khôi (1833 - 1835)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn"
+   },
+   "event 7": {
+    "Đối phương": "Xiêm La thời Nhà Chakri",
+    "Xung đột": "Chiến tranh Việt Nam-Xiêm La (1833 - 1834)",
+    "Kết quả": "Chiến thắng Xiêm La xin giảng hòa",
+    "Nhà Nguyễn": "Việt Nam thời Nhà Nguyễn"
+   },
+   "event 8": {
+    "Đối phương": "Lực lượng Nông Văn Vân",
+    "Xung đột": "Nổi dậy Nông Văn Vân (1833 - 1835)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Việt Nam thời Nhà Nguyễn"
+   },
+   "event 9": {
+    "Đối phương": "Lực lượng Ba Nhàn và Tiền Bột",
+    "Xung đột": "Nổi dậy Ba Nhàn - Tiền Bột (1833 - 1843)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn"
+   },
+   "event 11": {
+    "Đối phương": "Lực lượng Khmer ở Hà Tiên",
+    "Xung đột": "Nổi dậy Ba Xuyên (1841)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn"
+   },
+   "event 22": {
+    "Đối phương": "Cộng hòa Pháp",
+    "Xung đột": "Biến cố Bắc Kỳ (1873)",
+    "Kết quả": "Bất phân thắng bại Hòa ước Giáp Tuất 1874 Quân Pháp rút khỏi Bắc Kỳ",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn Quân Cờ Đen"
+   },
+   "event 12": {
+    "Đối phương": "Lực lượng Khmer ở Thất Sơn",
+    "Xung đột": "Nổi dậy Thất Sơn (1841)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn"
+   },
+   "event 23": {
+    "Đối phương": "Cộng hòa Pháp",
+    "Xung đột": "Chiến dịch Bắc Kỳ (1883 - 1886)",
+    "Kết quả": "Thất bại Hòa ước Quý Mùi 1883 và Hòa ước Giáp Thân 1884 Bắc Kỳ và Trung Kỳ trở thành xứ bảo hộ của Pháp Nhà Nguyễn trở thành chế độ bù nhìn",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn Nhà Thanh Quân Cờ Đen"
+   },
+   "event 20": {
+    "Đối phương": "Quân Cờ Đen (đến 1870) Quân Cờ Vàng Quân Cờ Trắng",
+    "Xung đột": "Tiểu trừ giặc Khách ở Bắc Kỳ (1865 - 1875)",
+    "Kết quả": "Chiến thắng Quân Cờ Đen theo hàng Nhà Nguyễn Quân Cờ Trắng và Quân Cờ Vàng bị tiêu diệt",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn Nhà Thanh Quân Cờ Đen (từ 1870)"
+   },
+   "event 10": {
+    "Đối phương": "Lực lượng Ba Nhàn và Tiền Bột",
+    "Xung đột": "Nổi dậy Hà Tiên (1840)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn"
+   },
+   "event 21": {
+    "Đối phương": "Lực lượng Đoàn Hữu Trưng",
+    "Xung đột": "Nổi dậy Đoàn Hữu Trưng (1866)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn"
+   },
+   "event 2": {
+    "Đối phương": "Xiêm La thời Nhà Chakri Lực lượng Ang Snguon",
+    "Xung đột": "Nổi loạn Cao Miên (1811 - 1812)",
+    "Kết quả": "Chiến thắng Ang Chan II giữ được ngôi vị Cao Miên suy yếu và lệ thuộc vào Việt Nam",
+    "Nhà Nguyễn": "Việt Nam thời Nhà Nguyễn Cao Miên thời Ang Chan II"
+   },
+   "event 15": {
+    "Đối phương": "Hải Tặc Trung Hoa",
+    "Xung đột": "Tiểu trừ Hải tặc Tàu Ô (1849)",
+    "Kết quả": "Chiến thắng Các tàu chiến hải tặc bị đánh tan",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn Nhà Thanh Vương quốc Anh"
+   },
+   "event 3": {
+    "Đối phương": "Lực lượng Phan Bá Vành",
+    "Xung đột": "Nổi dậy Phan Bá Vành (1821 - 1827)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Việt Nam thời Nhà Nguyễn"
+   },
+   "event 16": {
+    "Đối phương": "Lực lượng Cao Bá Quát",
+    "Xung đột": "Nổi dậy Cao Bá Quát (1854 - 1856)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn"
+   },
+   "event 4": {
+    "Đối phương": "Xiêm La thời Nhà Chakri",
+    "Xung đột": "Nổi loạn Viêng Chăn (1826 - 1828)",
+    "Kết quả": "Thất bại Xiêm La kiểm soát Viêng Chăn",
+    "Nhà Nguyễn": "Viêng Chăn Champasak Việt Nam thời Nhà Nguyễn"
+   },
+   "event 13": {
+    "Đối phương": "Lực lượng Lâm Sâm",
+    "Xung đột": "Nổi dậy Lâm Sâm (1841)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn"
+   },
+   "event 5": {
+    "Đối phương": "Lực lượng Lê Duy Lương",
+    "Xung đột": "Nổi dậy Lê Duy Lương (1832 - 1837)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn"
+   },
+   "event 14": {
+    "Đối phương": "Xiêm La thời Nhà Chakri Lực lượng Ang Duong và Ang Em",
+    "Xung đột": "Chiến tranh Đại Nam-Xiêm La (1841 - 1845)",
+    "Kết quả": "Bất phân thắng bại Ký kết hòa ước Cao Miên phải thần phục cả Đại Nam và Xiêm La",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn Lực lượng Ang Mey"
+   },
+   "event 19": {
+    "Đối phương": "Lực lượng Cai Vàng",
+    "Xung đột": "Nổi dậy Cai Vàng (1862 - 1865)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn"
+   },
+   "event 17": {
+    "Đối phương": "Đế chế Pháp Vương quốc Tây Ban Nha",
+    "Xung đột": "Chiến dịch Nam Kỳ (1858 - 1862)",
+    "Kết quả": "Thất bại Hòa ước Nhâm Tuất 1862 Nam Kỳ trở thành thuộc địa của Pháp",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn"
+   },
+   "event 1": {
+    "Đối phương": "Dân tộc thiểu số ở Quảng Ngãi",
+    "Xung đột": "Nổi dậy ở Đá Vách thời Nguyễn (1803 - 1885)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Việt Nam thời Nhà Nguyễn"
+   },
+   "event 18": {
+    "Đối phương": "Lực lượng Tạ Văn Phụng",
+    "Xung đột": "Nổi dậy Tạ Văn Phụng (1861 - 1865)",
+    "Kết quả": "Chiến thắng Nổi dậy bị đánh dẹp",
+    "Nhà Nguyễn": "Đại Nam thời Nhà Nguyễn"
+   }
+  }
+ }
+]

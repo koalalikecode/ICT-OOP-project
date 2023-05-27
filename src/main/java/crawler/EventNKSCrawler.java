@@ -1,0 +1,119 @@
+package crawler;
+
+import historyobject.Character;
+import historyobject.Event;
+import org.json.JSONArray;
+import org.json.JSONObject;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import java.io.IOException;
+import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+public class EventNKSCrawler extends Crawler{
+    public EventNKSCrawler(){
+        setWebLink("https://nguoikesu.com");
+        setFolder("data/eventNKS.json");
+        setStartLink("/tu-lieu/quan-su");
+        setPageLimit(15);
+    }
+
+    @Override
+    public void scrapePage(List eventList, Set<String> pagesDiscovered, List<String> pagesToScrape){
+        String url = pagesToScrape.remove(0);
+        pagesDiscovered.add(url);
+        Document doc;
+        try {
+            // fetching the target website
+            doc = Jsoup.connect(getWebLink() + url).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        Elements paginationElements = doc.select("ul.pagination a.page-link");
+        Elements eventLinks = doc.select(".blog-item h2 a");
+
+        // iterating over the list of HTML products
+        for (Element eventLink : eventLinks) {
+            Event eventItem = new Event();
+
+            Document doc2;
+
+            try {
+                // fetching the target website
+                doc2 = Jsoup.connect(getWebLink() + eventLink.attr("href")).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+
+            Elements name = doc2.select(".page-header h1");
+            List<JSONObject> moreEvent = scapeMoreConnection(doc2,"div.com-content-article__body a.annotation");
+            String description = scrapeDescription(doc2, "div.com-content-article__body > p:first-of-type");
+            JSONObject eventInfo = scrapeInfoBox(doc2, "div.com-content-article__body > table > tbody > tr");
+
+            eventItem.setName(name.text());
+            eventItem.setUrl(eventLinks.attr("href"));
+            eventItem.setDescription(description);
+            eventItem.setInfo(eventInfo);
+            eventItem.setConnection(moreEvent);
+            eventList.add(eventItem);
+        }
+
+        // iterating over the pagination HTML elements
+        for (Element pageElement : paginationElements) {
+            // the new link discovered
+            String pageUrl = pageElement.attr("href");
+
+            // if the web page discovered is new and should be scraped
+            if (!pagesDiscovered.contains(pageUrl) && !pagesToScrape.contains(pageUrl) && !pageUrl.equals("#")) {
+                pagesToScrape.add(pageUrl);
+            }
+
+            // adding the link just discovered
+            // to the set of pages discovered so far
+            pagesDiscovered.add(pageUrl);
+        }
+        System.out.println("Done: " + url);
+    }
+
+    @Override
+    public void crawlData() throws InterruptedException {
+        List<Event> crawlObjectList = Collections.synchronizedList(new ArrayList<>());
+
+        Set<String> pagesDiscovered = Collections.synchronizedSet(new HashSet<>());
+
+        List<String> pagesToScrape = Collections.synchronizedList(new ArrayList<>());
+
+        pagesToScrape.add(getStartLink());
+
+        // initializing the ExecutorService to run the
+        // web scraping process in parallel on 4 pages at a time
+        ExecutorService executorService = Executors.newFixedThreadPool(4);
+
+        scrapePage(crawlObjectList, pagesDiscovered, pagesToScrape);
+
+        // the number of iteration executed
+        int i = 1;
+
+        while (!pagesToScrape.isEmpty() && i < getPageLimit()) {
+            // registering the web scraping task
+            executorService.execute(() -> scrapePage(crawlObjectList, pagesDiscovered, pagesToScrape));
+
+            // adding a 200ms delay to avoid overloading the server
+            TimeUnit.MILLISECONDS.sleep(200);
+
+            // incrementing the iteration number
+            i++;
+        }
+
+        // waiting up to 300 seconds for all pending tasks to end
+        executorService.shutdown();
+        executorService.awaitTermination(300, TimeUnit.SECONDS);
+
+        setOutput(new JSONArray(crawlObjectList));
+        System.out.println("Crawled " + getOutput().length() + " events");
+    }
+}
