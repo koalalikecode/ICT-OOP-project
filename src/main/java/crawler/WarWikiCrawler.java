@@ -50,9 +50,7 @@ public class WarWikiCrawler extends Crawler{
                         doc2 = Jsoup.connect(getWebLink() + warURL).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
                         String description = doc2.select("div.navbox + p").text();
                         JSONObject warInfo = new JSONObject();
-
                         Elements tableInfo = doc2.select("div.mw-parser-output > table.infobox > tbody > tr > td > table");
-//                        System.out.println(tableInfo);
                         Elements infos = tableInfo.select("tbody > tr");
                         for (Element info: infos){
                             warInfo.put(info.select("th").text(), info.select("td").text());
@@ -60,8 +58,6 @@ public class WarWikiCrawler extends Crawler{
 
                         warItem.setConnection(null);
                         warItem.setInfo(warInfo);
-//                        if (warInfo != null) warItem.setInfo(warInfo);
-//                        else  warItem.setInfo(null);
                         warItem.setDescription(description);
                         warItem.setName(name);
                         warItem.setUrl(warURL);
@@ -93,21 +89,6 @@ public class WarWikiCrawler extends Crawler{
 
         scrapePage(crawlObjectList, pagesDiscovered, pagesToScrape);
 
-        // the number of iteration executed
-//        int i = 1;
-//
-//        while (!pagesToScrape.isEmpty() && i < getPageLimit()) {
-//            // registering the web scraping task
-//            executorService.execute(() -> scrapePage(crawlObjectList, pagesDiscovered, pagesToScrape));
-//
-//            // adding a 200ms delay to avoid overloading the server
-//            TimeUnit.MILLISECONDS.sleep(200);
-//
-//            // incrementing the iteration number
-//            i++;
-//        }
-
-        // waiting up to 300 seconds for all pending tasks to end
         executorService.shutdown();
         executorService.awaitTermination(300, TimeUnit.SECONDS);
 

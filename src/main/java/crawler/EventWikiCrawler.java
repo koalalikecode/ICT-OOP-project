@@ -95,7 +95,6 @@ public class EventWikiCrawler extends Crawler{
             eventItem.setName(name);
             eventItem.setUrl(eventURL);
             eventItem.setInfo(eventInfo);
-//            eventItem.setConnection(null);
             eventItem.setDescription(description);
             eventItem.setConnection(connections);
             eventList.add(eventItem);
@@ -118,20 +117,6 @@ public class EventWikiCrawler extends Crawler{
         ExecutorService executorService = Executors.newFixedThreadPool(4);
 
         scrapePage(crawlObjectList, pagesDiscovered, pagesToScrape);
-
-        // the number of iteration executed
-//        int i = 1;
-//
-//        while (!pagesToScrape.isEmpty() && i < getPageLimit()) {
-//            // registering the web scraping task
-//            executorService.execute(() -> scrapePage(crawlObjectList, pagesDiscovered, pagesToScrape));
-//
-//            // adding a 200ms delay to avoid overloading the server
-//            TimeUnit.MILLISECONDS.sleep(200);
-//
-//            // incrementing the iteration number
-//            i++;
-//        }
 
         // waiting up to 300 seconds for all pending tasks to end
         executorService.shutdown();
