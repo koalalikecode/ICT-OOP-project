@@ -72,12 +72,13 @@ public class WarWikiCrawler extends Crawler{
                         if (position != -1){
                             for (int j = position; j <= tableInfo.size() - 2; j += 2){
                                 String field = tableInfo.get(j).select("th").text();
-                                String side = "";
+                                JSONObject side = new JSONObject();
                                 Elements attribute = tableInfo.get(j + 1).select("td");
                                 if (attribute.size() == 2){
-                                    side += attribute.get(0).text() + " vs " + attribute.get(1).text();
+                                    side.put("phe 2", attribute.get(1).text());
+                                    side.put("phe 1", attribute.get(0).text());
                                 }
-                                else side += attribute.text();
+                                else side.put("phe", attribute.text());
                                 warInfo.put(field, side);
                             }
                         }
@@ -91,6 +92,7 @@ public class WarWikiCrawler extends Crawler{
                             connection.put("url", cnt.select("a").attr("href"));
                             connections.add(connection);
                         }
+
                         warItem.setConnection(connections);
                         warItem.setInfo(warInfo);
                         warItem.setDescription(description);
