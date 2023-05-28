@@ -49,14 +49,49 @@ public class WarWikiCrawler extends Crawler{
                         // fetching the target website
                         doc2 = Jsoup.connect(getWebLink() + warURL).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
                         String description = doc2.select("div.navbox + p").text();
+                        // Info of war
                         JSONObject warInfo = new JSONObject();
-                        Elements tableInfo = doc2.select("div.mw-parser-output > table.infobox > tbody > tr > td > table");
-                        Elements infos = tableInfo.select("tbody > tr");
-                        for (Element info: infos){
-                            warInfo.put(info.select("th").text(), info.select("td").text());
+                        Elements tableInfo = doc2.select("div.mw-parser-output > table.infobox > tbody > tr");
+
+                        Elements summarytable = tableInfo.select("tr > td > table > tbody > tr");
+                        if (summarytable.size() > 0){
+                            String time = summarytable.get(0).select("td").text();
+                            String place = summarytable.get(1).select("td").text();
+                            String result = summarytable.get(2).select("td").text();
+                            warInfo.put("Thời gian", time);
+                            warInfo.put("Địa điểm", place);
+                            warInfo.put("Kết quả", result);
+                        }
+                        int position = -1;
+                        for (int j = 0; j < tableInfo.size(); j++){
+                            if (tableInfo.get(j).select("th").text().equals("Tham chiến")){
+                                position = j;
+                                break;
+                            }
+                        }
+                        if (position != -1){
+                            for (int j = position; j <= tableInfo.size() - 2; j += 2){
+                                String field = tableInfo.get(j).select("th").text();
+                                String side = "";
+                                Elements attribute = tableInfo.get(j + 1).select("td");
+                                if (attribute.size() == 2){
+                                    side += attribute.get(0).text() + " vs " + attribute.get(1).text();
+                                }
+                                else side += attribute.text();
+                                warInfo.put(field, side);
+                            }
                         }
 
-                        warItem.setConnection(null);
+                        // Get connection
+                        List connections = new ArrayList<JSONObject>();
+                        Elements ConnectionList = doc2.select("h2:has(span#Xem_thêm) + ul").select("li");
+                        for (Element cnt: ConnectionList){
+                            JSONObject connection = new JSONObject();
+                            connection.put("name", cnt.select("a").text());
+                            connection.put("url", cnt.select("a").attr("href"));
+                            connections.add(connection);
+                        }
+                        warItem.setConnection(connections);
                         warItem.setInfo(warInfo);
                         warItem.setDescription(description);
                         warItem.setName(name);
