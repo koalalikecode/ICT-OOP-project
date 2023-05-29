@@ -15,7 +15,10 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.json.JSONObject;
+//import java.lang.IndexOutOfBoundsException;
 //import org.jsoup.nodes.Element;
+import java.lang.IndexOutOfBoundsException;
+import java.util.ArrayList;
 
 public class EventsNKSCrawler extends Crawler{
     public EventsNKSCrawler()
@@ -23,7 +26,7 @@ public class EventsNKSCrawler extends Crawler{
         setWebLink("https://nguoikesu.com");
         setFolder("data/eventsNKS.json");
         setStartLink("/tu-lieu/quan-su?filter_tag[0]=");
-        setPageLimit(15);
+        setPageLimit(1);
     }
 
     @Override
@@ -55,13 +58,10 @@ public class EventsNKSCrawler extends Crawler{
             Elements name = doc2.select(".page-header h1");
             List<JSONObject> moreEvent = scapeMoreConnection(doc2, "div.com-content-article__body a.annotation");
             String description = scrapeDescription(doc2, "div.com-content-article__body > p:first-of-type");
-            
-            JSONObject eventInfo1 = scrapeInfoEvent1(doc2, "table > tbody > tr > td > table > tbody >tr:nth-child(4)>td>table>tbody>tr");
-            JSONObject eventInfo2 = scrapeInfoEvent2(doc2, "table > tbody > tr > td > table > tbody >tr");
-            JSONObject eventInfo = new JSONObject();
-            eventInfo.append("",eventInfo1);
-            eventInfo.append("",eventInfo2);
-
+            JSONObject eventInfo = scrapeInfoEvent1(doc2);
+            //System.out.println(doc2.text());
+            //JSONObject eventInfo2 = scrapeInfoEvent2(doc2, "table > tbody > tr > td > table > tbody >tr");
+            //JSONObject eventInfo = new JSONObject();
            // eventInfo.put("",eventInfo1);
             eventItem.setName(name.text());
             eventItem.setUrl(EventLink.attr("href"));
@@ -81,10 +81,9 @@ public class EventsNKSCrawler extends Crawler{
         }  
         System.out.println("Done: " + url);
     }
-    public JSONObject scrapeInfoEvent1(Document doc, String cssQuery) {
+    public JSONObject scrapeInfoEvent1(Document doc) {
         JSONObject info = new JSONObject();
-        Elements tr = doc.select(cssQuery); // Lấy ra các thẻ tr của bảng infobox
-        //String"tr:nth-child(3) td";
+        Elements tr = doc.select("table > tbody > tr > td > table > tbody >tr:nth-child(4)>td>table>tbody>tr"); // Lấy ra các thẻ tr của bảng infobox
         if (tr != null && tr.size()>0) {
             for (Element element : tr) {
                 JSONObject infoItem = new JSONObject();
@@ -92,71 +91,34 @@ public class EventsNKSCrawler extends Crawler{
                 Element td = element.selectFirst("td:nth-child(2)");
                 //Elements tdGroup = element.select("");
                 if (th != null && td != null) {
-                    //Element urlConnect = td.selectFirst("a");
                     infoItem.put("name", td.text());
-                    /*if (urlConnect != null) {
-                        infoItem.put("url", urlConnect.attr("href"));
-                    }*/
                     info.put(th.text(), infoItem);
-                } /*else if (th == null && tdGroup.size() > 1) {
-                    Element urlConnect = tdGroup.get(1).selectFirst("a");
-                    infoItem.put("name", tdGroup.get(1).text());
-                    if (urlConnect != null) {
-                        infoItem.put("url", urlConnect.attr("href"));
-                    }
-                    info.put(tdGroup.get(0).text(), infoItem);
-                }*/
+                }
             }
         }
-        return info;
-    }
-
-    public JSONObject scrapeInfoEvent2(Document doc, String cssQuery) {
-        JSONObject info = new JSONObject();
-        
-        // Elements tr = doc.select("table > tbody > tr > td > table > tbody > tr[valign]");
-        // //Elements url = doc.select("table > tbody > tr > td > table > tbody > tr[valign]>td");
-        // Elements thKey = doc.select("table > tbody > tr > td > table > tbody > tr > th");
-        // //Elements group = doc.select("table > tbody > tr > td > table > tbody > tr > th"); 
-        // for (int i = 0; i < tr.size(); i++) {
-        //     //if
-        //     info.put(thKey.get(i).text(), tr.get(i).text());
-        //     //Element url = group.get(i).text()
-            
-
-        // }
-        // return info;    
-        Elements tr = doc.select("table > tbody > tr > td > table > tbody > tr[valign]");
+        Elements trKey = doc.select("table > tbody > tr > td > table > tbody > tr[valign]");
         Elements thKey = doc.select("table > tbody > tr > td > table > tbody > tr > th");
-        
-        // for(int i= 0; i < tr.size(); i++) {
-        //     info.put(thKey.get(i).text(),tr.get(i).text());
-        //     //System.out.println(info);
-
-        // }
-    
-        for (int i = 0; i < tr.size(); i++) {
-            Elements td = tr.get(i).select("td");
-            JSONObject url = new JSONObject();
-            Elements hrefs = td.select("a");
-            //System.out.println(hrefs);
-            //if(hrefs==null)
-             info.append (thKey.get(i).text(),tr.get(i).text());
-             //else{
+        //System.out.println(tr.size());
+        for (int i=0 ; i<trKey.size() ; i++) {
+            Elements tdchild = trKey.get(i).select("td");
+            JSONArray url = new JSONArray();
+            Elements hrefs = tdchild.select("a");
+            //System.out.println("test"+i + hrefs.size());
+            if(hrefs.size()==0)
+             info.put(thKey.get(i).text(),trKey.get(i).text());
+             else{
             for (Element href : hrefs){
                 JSONObject hrefObject = new JSONObject();
-                hrefObject.append("name",href.text());
-                hrefObject.append("url", href.attr("href"));
-                url.append("url", hrefObject);
+                hrefObject.put("name",href.text());
+                hrefObject.put("url", href.attr("href"));
+                url.put(hrefObject);
             }
-            //info.put("url",url.get(1).selectFirst("a[href]").text());
-            //info.put("name", thKey.text());
-            info.append(thKey.get(i).text(), url);
-        //}
-    }
+            info.put(thKey.get(i).text(), url);
+        }
+    }  
         return info;
-       //System.out.println(info);
     }
+
     
     @Override
     public void crawlData() throws InterruptedException {
