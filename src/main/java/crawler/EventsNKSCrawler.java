@@ -26,7 +26,7 @@ public class EventsNKSCrawler extends Crawler{
         setWebLink("https://nguoikesu.com");
         setFolder("data/eventsNKS.json");
         setStartLink("/tu-lieu/quan-su?filter_tag[0]=");
-        setPageLimit(1);
+        setPageLimit(15);
     }
 
     @Override
