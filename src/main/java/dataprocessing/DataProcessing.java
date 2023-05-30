@@ -165,4 +165,8 @@ public class DataProcessing {
         DataProcessing b = new DataProcessing("data/characterNKS.json", "data/kingWiki.json", "processed_data/character.json", "c");
         b.processAndSave();
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> duy

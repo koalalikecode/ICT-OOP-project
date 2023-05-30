@@ -11,8 +11,16 @@
     </padding>
 
     <Label fx:id="welcomeText">
+<<<<<<< HEAD
         <font>
             <Font name="Arial" size="12.0" />
         </font></Label>
     <Button onAction="#onHelloButtonClick" text="Hello!" />
 </VBox>
+=======
+      <font>
+         <Font name="Arial" size="12.0" />
+      </font></Label>
+    <Button onAction="#onHelloButtonClick" text="Hello!" />
+</VBox>
+>>>>>>> duy
