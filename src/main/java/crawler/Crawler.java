@@ -1,6 +1,5 @@
 package crawler;
 
-import historyobject.Character;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.nodes.Document;
@@ -9,9 +8,7 @@ import org.jsoup.select.Elements;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class Crawler {
     private String webLink; // trang web để crawl data
@@ -19,6 +16,7 @@ public class Crawler {
     private JSONArray output; // kết quả mảng JSON sau khi crawl
     private String folder; // nơi lưu trữ file json kết quả
     private int pageLimit; // giới hạn số lượng page trong startLink để crawl
+
 
     public JSONArray getOutput() {
         return output;
@@ -70,31 +68,62 @@ public class Crawler {
         return res;
     }
 
-    // Hàm để crawl connection của các object
-    public List<JSONObject> scapeConnection(Document doc, String cssQuery) {
+    // Hàm để crawl các đối tượng xem thêm của các object
+    public List<JSONObject> scapeMoreConnection(Document doc, String cssQuery) {
         List<JSONObject> res = new ArrayList<>();
         Elements connections = doc.select(cssQuery);
         if(connections.size() > 0) {
+            int i = 0;
             for(Element connection: connections) {
                 if(res.stream().noneMatch(p -> p.getString("name").equals(connection.text()))) {
                     JSONObject item = new JSONObject();
                     item.put("name", connection.text());
                     item.put("url", connection.attr("href"));
                     res.add(item);
+                    i++;
                 }
-
+                if (i >= 8) break;
             }
         }
         return res;
     }
 
+    // Hàm để scrape bảng thông tin nhân vật trong web NKS
+    public JSONObject scrapeInfoBox(Document doc, String cssQuery) {
+        JSONObject info = new JSONObject();
+        Elements tr = doc.select(cssQuery); // Lấy ra các thẻ tr của bảng infobox
+        if (tr != null && tr.size() > 0) {
+            for (Element element : tr) {
+                JSONObject infoItem = new JSONObject();
+                Element th = element.selectFirst("th");
+                Element td = element.selectFirst("td");
+                Elements tdGroup = element.select("td");
+                if (th != null && td != null) {
+                    Element urlConnect = td.selectFirst("a");
+                    infoItem.put("name", td.text());
+                    if (urlConnect != null) {
+                        infoItem.put("url", urlConnect.attr("href"));
+                    }
+                    info.put(th.text(), infoItem);
+                } else if (th == null && tdGroup.size() > 1) {
+                    Element urlConnect = tdGroup.get(1).selectFirst("a");
+                    infoItem.put("name", tdGroup.get(1).text());
+                    if (urlConnect != null) {
+                        infoItem.put("url", urlConnect.attr("href"));
+                    }
+                    info.put(tdGroup.get(0).text(), infoItem);
+                }
+            }
+        }
+        return info;
+    }
+
     // Hàm scrape dữ liệu dành cho page Nguoi ke su
     public void scrapePage(
-            List<Character> CrawlerObjectList,
+            List CrawlerObjectList,
             Set<String> pagesDiscovered,
             List<String> pagesToScrape) {
     }
-
     // Ham scrape du lieu danh cho page khac
     public void scrapePage() {
     }
@@ -133,3 +162,5 @@ public class Crawler {
         saveData();
     }
 }
+
+

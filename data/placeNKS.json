@@ -1,0 +1,918 @@
+[
+ {
+  "name": "Chiến khu Tân Trào",
+  "description": "Chiến khu Tân Trào là khu di tích lịch sử của cách mạng Việt Nam thời kỳ Cách mạng tháng Tám. Hiện nay, nơi đây đã được thủ tướng chính phủ Việt Nam đưa vào danh sách xếp hạng 23 di tích quốc gia đặc biệt. Tân Trào là thủ đô lâm thời của khu giải phóng, nơi Ðảng Cộng sản Việt Nam tiến hành hội nghị toàn quốc ngày 13 tháng 8 năm 1945 để quyết định tổng khởi nghĩa. Ðại hội quốc dân đã họp tại đây ngày 16 tháng 8 năm 1945, thông qua 10 chính sách lớn của Việt Minh, bầu ra một chính phủ lâm thời do Hồ Chí Minh làm chủ tịch và quân giải phóng Việt Nam làm lễ ra quân.\n",
+  "connection": [
+   {
+    "name": "huyện Sơn Dương",
+    "url": "/dia-danh/huyen-son-duong"
+   },
+   {
+    "name": "tỉnh Tuyên Quang",
+    "url": "/dia-danh/tinh-tuyen-quang"
+   },
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   },
+   {
+    "name": "Thành phố Tuyên Quang",
+    "url": "/dia-danh/thanh-pho-tuyen-quang"
+   },
+   {
+    "name": "sông Đáy",
+    "url": "/dia-danh/song-day"
+   },
+   {
+    "name": "sông Hồng",
+    "url": "/dia-danh/song-hong"
+   },
+   {
+    "name": "Võ Nguyên Giáp",
+    "url": "/nhan-vat/vo-nguyen-giap"
+   }
+  ],
+  "url": "/dia-danh/chien-khu-tan-trao",
+  "info": {
+   "Thành lập": {"name": "1945"},
+   "Trang web": {"name": "Du lịch Tân Trào"},
+   "Vị trí": {
+    "name": "Thôn Tân Lập, xã Tân Trào, huyện Sơn Dương, tỉnh Tuyên Quang",
+    "url": "/dia-danh/huyen-son-duong"
+   },
+   "Giám đốc": {"name": "Hoàng Như Loan"}
+  }
+ },
+ {
+  "name": "chùa Phổ Minh",
+  "description": "Chùa Phổ Minh (Phổ Minh tự 普明寺) hay chùa Tháp là một ngôi chùa ở thôn Tức Mạc, nằm cách thành phố Nam Định khoảng 5 km về phía bắc. Năm 2012, di tích lịch sử và kiến trúc nghệ thuật đền Trần và chùa Phổ Minh được xếp hạng di tích quốc gia đặc biệt. 1\n",
+  "connection": [
+   {
+    "name": "thành phố Nam Định",
+    "url": "/dia-danh/thanh-pho-nam-dinh"
+   },
+   {
+    "name": "chùa Tháp",
+    "url": "/dia-danh/chua-thap"
+   },
+   {
+    "name": "đền Trần",
+    "url": "/dia-danh/den-tran"
+   },
+   {
+    "name": "nhà Trần",
+    "url": "/nhan-vat/nha-tran"
+   },
+   {
+    "name": "nhà Lý",
+    "url": "/nhan-vat/nha-ly"
+   },
+   {
+    "name": "Trần Nhân Tông",
+    "url": "/nhan-vat/tran-nhan-tong"
+   }
+  ],
+  "url": "/dia-danh/chua-pho-minh",
+  "info": {
+   "Khởi lập": {"name": "1061"},
+   "Quốc gia": {"name": "Việt Nam"},
+   "Địa chỉ": {
+    "name": "thôn Tức Mạc, thành phố Nam Định",
+    "url": "/dia-danh/thanh-pho-nam-dinh"
+   }
+  }
+ },
+ {
+  "name": "chùa Thầy",
+  "description": "Chùa Thầy là một ngôi chùa ở chân núi Sài Sơn, huyện Quốc Oai, tỉnh Hà Tây cũ, nay là xã Sài Sơn, huyện Quốc Oai, Hà Nội, cách trung tâm Hà Nội khoảng 20 km về phía Tây nam, đi theo đường cao tốc Láng - Hòa Lạc. Sài Sơn có tên Nôm là núi Thầy, nên chùa được gọi là chùa Thầy. Chùa được xây dựng từ thời nhà Đinh. Đây từng là nơi tu hành của Thiền sư Từ Đạo Hạnh, lúc này núi Thầy còn gọi là núi Phật Tích.\n",
+  "connection": [
+   {
+    "name": "nhà Lý",
+    "url": "/nhan-vat/nha-ly"
+   },
+   {
+    "name": "tỉnh Hà Tây",
+    "url": "/dia-danh/tinh-ha-tay"
+   },
+   {
+    "name": "nhà Đinh",
+    "url": "/nhan-vat/nha-dinh"
+   },
+   {
+    "name": "chùa Tây Phương",
+    "url": "/dia-danh/chua-tay-phuong"
+   },
+   {
+    "name": "Chùa Hương",
+    "url": "/dia-danh/chua-huong"
+   },
+   {
+    "name": "Lý Nhân Tông",
+    "url": "/nhan-vat/ly-nhan-tong"
+   },
+   {
+    "name": "chùa Cao",
+    "url": "/dia-danh/chua-cao"
+   },
+   {
+    "name": "Lý Thần Tông",
+    "url": "/nhan-vat/ly-than-tong"
+   }
+  ],
+  "url": "/dia-danh/chua-thay",
+  "info": {
+   "Khởi lập": {
+    "name": "Chùa được xây dựng từ thời nhà Lý",
+    "url": "/nhan-vat/nha-ly"
+   },
+   "Quốc gia": {"name": "Việt Nam"},
+   "Địa chỉ": {"name": "Sài Sơn, huyện Quốc Oai, Hà Nội"},
+   "Tông phái": {"name": "Thiền Ti-ni-đa-lưu-chi"},
+   "Thầy": {"name": "Thiền sư Từ Đạo Hạnh"},
+   "Quản lý": {"name": "Giáo hội Phật giáo Việt Nam"}
+  }
+ },
+ {
+  "name": "Cố đô Hoa Lư",
+  "description": "Cố đô Hoa Lư là quần thể di tích quốc gia đặc biệt quan trọng của Việt Nam đồng thời là một trong 4 vùng lõi của quần thể di sản thế giới Tràng An đã được UNESCO công nhận. Hệ thống di tích ở Hoa Lư liên quan đến sự nghiệp của các nhân vật lịch sử thuộc ba triều đại nhà Đinh, nhà Tiền Lê và khởi đầu nhà Lý, tính từ Đinh Tiên Hoàng đến Lý Thái Tông trong lịch sử.1 2 Hoa Lư là kinh đô đầu tiên của nhà nước phong kiến Trung ương tập quyền ở Việt Nam với các dấu ấn lịch sử: thống nhất giang sơn, đánh Tống - dẹp Chiêm và phát tích quá trình định đô Hà Nội.3 Năm 1010 vua Lý Thái Tổ dời kinh đô từ Hoa Lư (Ninh Bình) về Thăng Long (Hà Nội), Hoa Lư trở thành Cố đô. Các triều vua Lý, Trần, Lê, Nguyễn sau đó dù không đóng đô ở Hoa Lư nữa nhưng vẫn cho tu bổ và xây dựng thêm ở đây nhiều công trình kiến trúc như đền, lăng, đình, chùa, phủ\u2026 Khu di tích lịch sử Cố đô Hoa Lư hiện nay có diện tích quy hoạch 13,87 km² thuộc tỉnh Ninh Bình. Với bề dày thời gian hơn 1000 năm, Cố đô Hoa Lư là nơi lưu trữ các di tích lịch sử qua nhiều thời đại.\n",
+  "connection": [
+   {
+    "name": "nhà Đinh",
+    "url": "/nhan-vat/nha-dinh"
+   },
+   {
+    "name": "nhà Tiền Lê",
+    "url": "/nhan-vat/nha-tien-le"
+   },
+   {
+    "name": "nhà Lý",
+    "url": "/nhan-vat/nha-ly"
+   },
+   {
+    "name": "Đinh Tiên Hoàng",
+    "url": "/nhan-vat/dinh-tien-hoang"
+   },
+   {
+    "name": "Lý Thái Tông",
+    "url": "/nhan-vat/ly-thai-tong"
+   },
+   {
+    "name": "Lý Thái Tổ",
+    "url": "/nhan-vat/ly-thai-to"
+   },
+   {
+    "name": "thành Cố",
+    "url": "/dia-danh/thanh-co"
+   },
+   {
+    "name": "tỉnh Ninh Bình",
+    "url": "/dia-danh/tinh-ninh-binh"
+   }
+  ],
+  "url": "/dia-danh/co-do-hoa-lu",
+  "info": {}
+ },
+ {
+  "name": "Dinh Độc Lập",
+  "description": "Dinh Độc Lập (tên gọi trước đây là dinh Norodom, ngày nay còn gọi là dinh Thống Nhất hay hội trường Thống Nhất) là một công trình kiến trúc, tòa nhà ở Thành phố Hồ Chí Minh. Nó từng là nơi ở và làm việc của Tổng thống Việt Nam Cộng hòa. Hiện nay, nó đã được chính phủ Việt Nam xếp hạng là di tích quốc gia đặc biệt.\n",
+  "connection": [
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   },
+   {
+    "name": "Ngô Viết Thụ",
+    "url": "/nhan-vat/ngo-viet-thu"
+   },
+   {
+    "name": "Ngô Đình Diệm",
+    "url": "/nhan-vat/ngo-dinh-diem"
+   },
+   {
+    "name": "Phạm Phú Quốc",
+    "url": "/nhan-vat/pham-phu-quoc"
+   },
+   {
+    "name": "Nguyễn Văn Thiệu",
+    "url": "/nhan-vat/nguyen-van-thieu"
+   },
+   {
+    "name": "Nguyễn Thành Trung",
+    "url": "/nhan-vat/nguyen-thanh-trung"
+   },
+   {
+    "name": "Bùi Quang Thận",
+    "url": "/nhan-vat/bui-quang-than"
+   },
+   {
+    "name": "Vũ Đăng Toàn",
+    "url": "/nhan-vat/vu-dang-toan"
+   }
+  ],
+  "url": "/dia-danh/dinh-doc-lap",
+  "info": {
+   "Địa điểm": {
+    "name": "135 Nam Kỳ khởi nghĩa, phường Bến Nghé, quận 1, Thành phố Hồ Chí Minh, Việt Nam",
+    "url": "/nhan-vat/ho-chi-minh"
+   },
+   "Hoàn thành": {"name": "31 tháng 10 năm 1966"},
+   "Diện tích sàn": {"name": "120.000"},
+   "Tên cũ": {"name": "Dinh Norodom"},
+   "Khởi công": {"name": "1 tháng 7 năm 1962"},
+   "Chiều cao": {"name": "26m"},
+   "Dạng": {"name": "Dinh Toàn quyền, Dinh Tổng thống"},
+   "Kỹ sư công chính": {"name": "Phan Văn Điển"},
+   "Tọa độ": {"name": "10°46\u203240\u2033B 106°41\u203246\u2033Đ / 10,777749°B 106,696105°Đ"},
+   "Kiến trúc sư": {
+    "name": "Ngô Viết Thụ",
+    "url": "/nhan-vat/ngo-viet-thu"
+   }
+  }
+ },
+ {
+  "name": "Đền Hùng",
+  "description": "Đền Hùng là tên gọi khái quát của Khu di tích lịch sử Đền Hùng - quần thể đền chùa thờ phụng các Vua Hùng và tôn thất của nhà vua trên núi Nghĩa Lĩnh, gắn với Giỗ Tổ Hùng Vương - Lễ hội Đền Hùng được tổ chức tại địa điểm đó hàng năm vào ngày 10 tháng 3 âm lịch. Hiện nay, theo các tài liệu khoa học đã công bố đa số đều thống nhất nền móng kiến trúc đền Hùng bắt đầu được xây dựng từ thời vua Đinh Tiên Hoàng trị vì. Đến thời Hậu Lê (thế kỷ 15) được xây dựng hoàn chỉnh theo quy mô như hiện tại.1 2 3\n",
+  "connection": [
+   {
+    "name": "Đinh Tiên Hoàng",
+    "url": "/nhan-vat/dinh-tien-hoang"
+   },
+   {
+    "name": "thành phố Việt Trì",
+    "url": "/dia-danh/thanh-pho-viet-tri"
+   },
+   {
+    "name": "tỉnh Phú Thọ",
+    "url": "/dia-danh/tinh-phu-tho"
+   },
+   {
+    "name": "huyện Lâm Thao",
+    "url": "/dia-danh/huyen-lam-thao"
+   },
+   {
+    "name": "điện Kính Thiên",
+    "url": "/dia-danh/dien-kinh-thien"
+   },
+   {
+    "name": "Lạc Long Quân",
+    "url": "/nhan-vat/lac-long-quan"
+   },
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   },
+   {
+    "name": "đền Thượng",
+    "url": "/dia-danh/den-thuong"
+   }
+  ],
+  "url": "/dia-danh/den-hung",
+  "info": {}
+ },
+ {
+  "name": "Đền Ngọc Sơn",
+  "description": "Đền Ngọc Sơn là một ngôi đền thờ nằm trên đảo Ngọc của hồ Hoàn Kiếm ở Hà Nội, Việt Nam. Đây cũng là một di tích quốc gia đặc biệt của Việt Nam được xếp hạng đợt 4.1\n",
+  "connection": [
+   {
+    "name": "Trần Quốc Tuấn",
+    "url": "/nhan-vat/tran-quoc-tuan"
+   },
+   {
+    "name": "quận Hoàn Kiếm",
+    "url": "/dia-danh/quan-hoan-kiem"
+   },
+   {
+    "name": "thành phố Hà Nội",
+    "url": "/dia-danh/thanh-pho-ha-noi"
+   },
+   {
+    "name": "Trần Hưng Đạo",
+    "url": "/nhan-vat/tran-hung-dao"
+   },
+   {
+    "name": "Lý Thái Tổ",
+    "url": "/nhan-vat/ly-thai-to"
+   },
+   {
+    "name": "nhà Trần",
+    "url": "/nhan-vat/nha-tran"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "Lê Chiêu Thống",
+    "url": "/nhan-vat/le-chieu-thong"
+   }
+  ],
+  "url": "/dia-danh/den-ngoc-son",
+  "info": {
+   "Thành lập": {"name": "thế kỷ 19"},
+   "Đối tượng thờ": {"name": "thần và anh hùng dân tộc"},
+   "Người sáng lập": {"name": "Tín Trai"},
+   "Thánh tích": {"name": "chủ quản công danh"},
+   "Địa chỉ": {
+    "name": "quận Hoàn Kiếm, thành phố Hà Nội, Việt Nam",
+    "url": "/dia-danh/quan-hoan-kiem"
+   },
+   "Vị trí Đền Ngọc Sơn trên bản đồ Việt Nam": {"name": "Vị trí Đền Ngọc Sơn trên bản đồ Việt Nam Đền Ngọc Sơn"},
+   "Công trạng": {"name": "ba lần phá tan quân Nguyên-Mông"},
+   "Tọa độ": {"name": "21°02\u2032B 105°51\u2032Đ / 21,03°B 105,85°Đ"}
+  }
+ },
+ {
+  "name": "Đền Phù Đổng",
+  "description": "Đền Phù Đổng hay còn gọi là đền Gióng thờ Thánh Gióng - Phù Đổng Thiên Vương, nằm ở xã Phù Đổng, Gia Lâm, ngoại thành Hà Nội.\n",
+  "connection": [
+   {
+    "name": "huyện Gia Lâm",
+    "url": "/dia-danh/huyen-gia-lam"
+   },
+   {
+    "name": "thành phố Hà Nội",
+    "url": "/dia-danh/thanh-pho-ha-noi"
+   },
+   {
+    "name": "Lý Thái Tổ",
+    "url": "/nhan-vat/ly-thai-to"
+   },
+   {
+    "name": "thành Hà Nội",
+    "url": "/dia-danh/thanh-ha-noi"
+   },
+   {
+    "name": "đền Thượng",
+    "url": "/dia-danh/den-thuong"
+   },
+   {
+    "name": "sông Đuống",
+    "url": "/dia-danh/song-duong"
+   },
+   {
+    "name": "chùa Kiến Sơ",
+    "url": "/dia-danh/chua-kien-so"
+   }
+  ],
+  "url": "/dia-danh/den-phu-dong",
+  "info": {
+   "Vị trí Đền Phù Đổng trên bản đồ Việt Nam": {"name": "Vị trí Đền Phù Đổng trên bản đồ Việt Nam Đền Phù Đổng"},
+   "Người sáng lập": {
+    "name": "Lý Thái Tổ",
+    "url": "/nhan-vat/ly-thai-to"
+   },
+   "Địa chỉ": {
+    "name": "xã Phù Đổng, huyện Gia Lâm, thành phố Hà Nội, Việt Nam",
+    "url": "/dia-danh/huyen-gia-lam"
+   },
+   "Công trạng": {"name": "Đánh đuổi giặc Ân"},
+   "Lễ hội": {"name": "6 - 9 tháng 4 Âm lịch hàng năm"},
+   "Phân loại": {"name": "Di tích lịch sử, kiến trúc"},
+   "Tọa độ": {"name": "21°03\u203218\u2033B 105°57\u203236\u2033Đ / 21,055°B 105,96°Đ"}
+  }
+ },
+ {
+  "name": "Đền Trần (Nam Định)",
+  "description": "Đền Trần (陳廟 - Trần Miếu) là một quần thể đền thờ tại đường Trần Thừa, phường Lộc Vượng, thành phố Nam Định (sát quốc lộ 10), là nơi thờ các vua nhà Trần cùng các quan lại có công phù tá nhà Trần. Đền Trần được xây dựng từ năm 1695, trên nền Thái miếu cũ của nhà Trần đã bị quân Minh phá hủy vào thế kỷ 15.\n",
+  "connection": [
+   {
+    "name": "đền Trần",
+    "url": "/dia-danh/den-tran"
+   },
+   {
+    "name": "nhà Trần",
+    "url": "/nhan-vat/nha-tran"
+   },
+   {
+    "name": "tỉnh Nam Định",
+    "url": "/dia-danh/tinh-nam-dinh"
+   },
+   {
+    "name": "Trần Thừa",
+    "url": "/nhan-vat/tran-thua"
+   },
+   {
+    "name": "thành phố Nam Định",
+    "url": "/dia-danh/thanh-pho-nam-dinh"
+   },
+   {
+    "name": "đền Thượng",
+    "url": "/dia-danh/den-thuong"
+   },
+   {
+    "name": "Trần Hưng Đạo",
+    "url": "/nhan-vat/tran-hung-dao"
+   },
+   {
+    "name": "Phạm Ngộ",
+    "url": "/nhan-vat/pham-ngo"
+   }
+  ],
+  "url": "/dia-danh/den-tran-nam-dinh",
+  "info": {
+   "Thành lập": {"name": "1695"},
+   "Địa chỉ": {
+    "name": "phường Lộc Vượng, thành phố Nam Định, tỉnh Nam Định, Việt Nam",
+    "url": "/dia-danh/tinh-nam-dinh"
+   },
+   "Lễ hội": {"name": "15 - 20 tháng 8 âm lịch"},
+   "Vị trí Đền Trần trên bản đồ Việt Nam": {"name": "Vị trí Đền Trần trên bản đồ Việt Nam Đền Trần"},
+   "Tọa độ": {"name": "20°28\u2032B 106°10\u2032Đ / 20,46°B 106,17°Đ / 20.46; 106.17"}
+  }
+ },
+ {
+  "name": "Đền Trần (Thái Bình)",
+  "description": "Đền Trần Thái Bình là một quần thể di tích gồm các đền thờ, lăng mộ thờ các vị vua quan nhà Trần. Đền thờ các vua Trần trên đất phát tích Thái Bình (còn gọi là Thái Đường Lăng) thuộc làng Tam Đường, xã Tiến Đức, huyện Hưng Hà. Hệ thống các di tích lịch sử ở đây gồm Khu lăng mộ và đền thờ các vị vua triều Trần đều đã được chính phủ Việt Nam xếp hạng di tích quốc gia đặc biệt quan trọng.\n",
+  "connection": [
+   {
+    "name": "nhà Trần",
+    "url": "/nhan-vat/nha-tran"
+   },
+   {
+    "name": "huyện Hưng Hà",
+    "url": "/dia-danh/huyen-hung-ha"
+   },
+   {
+    "name": "tỉnh Thái Bình",
+    "url": "/dia-danh/tinh-thai-binh"
+   },
+   {
+    "name": "đền Trần",
+    "url": "/dia-danh/den-tran"
+   },
+   {
+    "name": "Trần Thái Tông",
+    "url": "/nhan-vat/tran-thai-tong"
+   },
+   {
+    "name": "Trần Thánh Tông",
+    "url": "/nhan-vat/tran-thanh-tong"
+   },
+   {
+    "name": "Trần Nhân Tông",
+    "url": "/nhan-vat/tran-nhan-tong"
+   },
+   {
+    "name": "Trần Thủ Độ",
+    "url": "/nhan-vat/tran-thu-do"
+   }
+  ],
+  "url": "/dia-danh/den-tran-thai-binh",
+  "info": {
+   "Người sáng lập": {
+    "name": "Hoàng tộc nhà Trần",
+    "url": "/nhan-vat/nha-tran"
+   },
+   "Địa chỉ": {
+    "name": "làng Tam Đường, xã Tiến Đức, huyện Hưng Hà, tỉnh Thái Bình, Việt Nam",
+    "url": "/dia-danh/huyen-hung-ha"
+   }
+  }
+ },
+ {
+  "name": "Hồ Hoàn Kiếm",
+  "description": "Hồ Hoàn Kiếm còn được gọi là Hồ Gươm (trong bản đồ Hà Nội năm 1886, hồ này được gọi là Hồ Hoàn Gươm - Lac de Hoan Guom), là một hồ nước ngọt tự nhiên của thành phố Hà Nội. Hồ có diện tích khoảng 12 ha2 . Trước kia, hồ còn có các tên gọi là hồ Lục Thủy (vì nước có màu xanh quanh năm), hồ Thủy Quân (dùng để duyệt thủy binh), hồ Tả Vọng và Hữu Vọng (trong thời Lê mạt). Tên gọi Hoàn Kiếm xuất hiện vào đầu thế kỷ 15 gắn với truyền thuyết vua Lê Lợi trả gươm báu cho Rùa thần. Tên hồ được lấy để đặt cho một quận trung tâm của Hà Nội (quận Hoàn Kiếm) và là hồ nước duy nhất của quận này cho đến ngày nay.\n",
+  "connection": [
+   {
+    "name": "quận Hoàn Kiếm",
+    "url": "/dia-danh/quan-hoan-kiem"
+   },
+   {
+    "name": "thành phố Hà Nội",
+    "url": "/dia-danh/thanh-pho-ha-noi"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   },
+   {
+    "name": "Cầu Gỗ",
+    "url": "/dia-danh/cau-go"
+   },
+   {
+    "name": "Đinh Tiên Hoàng",
+    "url": "/nhan-vat/dinh-tien-hoang"
+   },
+   {
+    "name": "sông Hồng",
+    "url": "/dia-danh/song-hong"
+   },
+   {
+    "name": "Lý Thường Kiệt",
+    "url": "/nhan-vat/ly-thuong-kiet"
+   },
+   {
+    "name": "Lê Trung",
+    "url": "/nhan-vat/le-trung"
+   }
+  ],
+  "url": "/dia-danh/ho-hoan-kiem",
+  "info": {
+   "Khu vực": {
+    "name": "quận Hoàn Kiếm, Hà Nội",
+    "url": "/dia-danh/quan-hoan-kiem"
+   },
+   "Chu vi": {"name": "1.750 m"},
+   "Độ dài tối đa": {"name": "700 m"},
+   "Quốc gia lưu vực": {"name": "Việt Nam"},
+   "Độ sâu trung bình": {"name": "1-1,4 m 1"},
+   "Kiểu hồ": {"name": "Nước ngọt"},
+   "Độ rộng tối đa": {"name": "250 m"},
+   "Diện tích bề mặt": {"name": "12 ha"},
+   "Tọa độ": {"name": "21°01\u203244\u2033B 105°51\u20329\u2033Đ / 21,02889°B 105,8525°Đ"},
+   "Khu dân cư": {"name": "Hà Nội"}
+  }
+ },
+ {
+  "name": "Thành nhà Hồ",
+  "description": "Tọa độ: 20°4\u203240\u2033B 105°36\u203217\u2033Đ / 20,07778°B 105,60472°Đ\n",
+  "connection": [
+   {
+    "name": "nhà Hồ",
+    "url": "/nhan-vat/nha-ho"
+   },
+   {
+    "name": "thành Tây Đô",
+    "url": "/dia-danh/thanh-tay-do"
+   },
+   {
+    "name": "thành Tây Giai",
+    "url": "/dia-danh/thanh-tay-giai"
+   },
+   {
+    "name": "tỉnh Thanh Hóa",
+    "url": "/dia-danh/tinh-thanh-hoa"
+   },
+   {
+    "name": "xã Vĩnh Long",
+    "url": "/dia-danh/xa-vinh-long"
+   },
+   {
+    "name": "thành phố Tam Điệp",
+    "url": "/dia-danh/thanh-pho-tam-diep"
+   },
+   {
+    "name": "Hồ Quý Ly",
+    "url": "/nhan-vat/ho-quy-ly"
+   },
+   {
+    "name": "thành Thăng Long",
+    "url": "/dia-danh/thanh-thang-long"
+   }
+  ],
+  "url": "/dia-danh/thanh-nha-ho",
+  "info": {
+   "Công nhận": {"name": "2011 (kì thứ 35)"},
+   "Vùng UNESCO": {"name": "Châu Á-Thái Bình Dương"},
+   "Quốc gia": {"name": "Việt Nam"},
+   "Kiểu": {"name": "Văn hóa"},
+   "Hạng mục": {"name": "ii, iv"},
+   "Tham khảo": {"name": "1358"}
+  }
+ },
+ {
+  "name": "Khu di tích chiến thắng Điện Biên Phủ",
+  "description": "Khu di tích chiến trường Ðiện Biên Phủ là một quần thể các di tích lịch sử ghi lại chiến công của quân và dân Việt Nam trong cuộc kháng chiến anh dũng chống thực dân Pháp xâm lược. Hiện nay, nơi đây đã được thủ tướng chính phủ Việt Nam đưa vào danh sách xếp hạng 23 di tích quốc gia đặc biệt.\n",
+  "connection": [
+   {
+    "name": "Điện Biên Phủ",
+    "url": "/dia-danh/dien-bien-phu"
+   },
+   {
+    "name": "tỉnh Điện Biên",
+    "url": "/dia-danh/tinh-dien-bien"
+   },
+   {
+    "name": "huyện Điện Biên",
+    "url": "/dia-danh/huyen-dien-bien"
+   },
+   {
+    "name": "Võ Nguyên Giáp",
+    "url": "/nhan-vat/vo-nguyen-giap"
+   },
+   {
+    "name": "Hoàng Văn Thái",
+    "url": "/nhan-vat/hoang-van-thai"
+   }
+  ],
+  "url": "/dia-danh/khu-di-tich-chien-thang-dien-bien-phu",
+  "info": {}
+ },
+ {
+  "name": "Văn Miếu - Quốc Tử Giám",
+  "description": "Văn Miếu - Quốc Tử Giám (chữ Hán:文廟 - 國子監) là quần thể di tích đa dạng và phong phú hàng đầu của thành phố Hà Nội, nằm ở phía Nam kinh thành Thăng Long. Hiện nay, nơi đây đã được thủ tướng chính phủ Việt Nam đưa vào danh sách xếp hạng 23 di tích quốc gia đặc biệt. Quần thể kiến trúc Văn Miếu - Quốc Tử Giám bao gồm: hồ Văn, khu Văn Miếu - Quốc Tử Giám và vườn Giám và kiến trúc chủ thể là Văn Miếu - nơi thờ Khổng Tử và Quốc Tử Giám - trường đại học đầu tiên của Việt Nam. Khu Văn Miếu - Quốc Tử Giám có tường gạch vồ bao quanh, phía trong chia thành 5 lớp không gian với các kiến trúc khác nhau. Mỗi lớp không gian đó được giới hạn bởi các tường gạch có 3 cửa để thông với nhau (gồm cửa chính giữa và hai cửa phụ hai bên). Từ ngoài vào trong có các cổng lần lượt là: cổng Văn Miếu, Đại Trung, Đại Thành và cổng Thái Học. Với hơn 700 năm hoạt động đã đào tạo hàng nghìn nhân tài cho đất nước. Ngày nay, Văn Miếu Quốc Tử Giám là nơi tham quan của du khách trong và ngoài nước đồng thời cũng là nơi khen tặng cho học sinh xuất sắc và còn là nơi tổ chức hội thơ hàng năm vào ngày rằm tháng giêng. Đây từng là nơi các sĩ tử đến \"cầu may\" trước mỗi kỳ thi bằng cách vuốt đầu rùa tại các bia tiến sĩ, tuy nhiên, ngày nay, để bảo tồn di tích, một hàng rào được thiết lập và các sĩ tử không còn làm nghi thức cầu may như trước nữa.Nơi này là nơi trên tờ tiền polymer 100.000 VND của Việt Nam\n",
+  "connection": [
+   {
+    "name": "thành phố Hà Nội",
+    "url": "/dia-danh/thanh-pho-ha-noi"
+   },
+   {
+    "name": "thành Thăng Long",
+    "url": "/dia-danh/thanh-thang-long"
+   },
+   {
+    "name": "Lý Thánh Tông",
+    "url": "/nhan-vat/ly-thanh-tong"
+   },
+   {
+    "name": "Lý Càn Đức",
+    "url": "/nhan-vat/ly-can-duc"
+   },
+   {
+    "name": "Lý Nhân Tông",
+    "url": "/nhan-vat/ly-nhan-tong"
+   },
+   {
+    "name": "Lý Anh Tông",
+    "url": "/nhan-vat/ly-anh-tong"
+   },
+   {
+    "name": "Trần Thái Tông",
+    "url": "/nhan-vat/tran-thai-tong"
+   },
+   {
+    "name": "Trần Minh Tông",
+    "url": "/nhan-vat/tran-minh-tong"
+   }
+  ],
+  "url": "/dia-danh/van-mieu-quoc-tu-giam",
+  "info": {}
+ },
+ {
+  "name": "Khu di tích Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch",
+  "description": "Khu di tích Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch, gọi tắt là Khu di tích Phủ Chủ tịch tại Hà Nội, là nơi sống và làm việc lâu nhất của Hồ Chí Minh (từ 19 tháng 12 năm 1954 đến 2 tháng 9 năm 1969), được Bộ Văn hóa Thông tin ra Quyết định xếp hạng là Khu di tích ngày 15 tháng 5 năm 1975. Hiện nay, nơi đây đã được thủ tướng chính phủ Việt Nam đưa vào danh sách xếp hạng 23 di tích quốc gia đặc biệt.\n",
+  "connection": [
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   },
+   {
+    "name": "thành Thăng Long",
+    "url": "/dia-danh/thanh-thang-long"
+   },
+   {
+    "name": "Nguyễn Sinh Sắc",
+    "url": "/nhan-vat/nguyen-sinh-sac"
+   }
+  ],
+  "url": "/dia-danh/khu-di-tich-chu-tich-ho-chi-minh-tai-phu-chu-tich",
+  "info": {}
+ },
+ {
+  "name": "Khu di tích Pác Bó",
+  "description": "Khu di tích Pác Bó là một khu di tích lịch sử cách mạng quốc gia - đặc biệt của Việt Nam, thuộc bản Pác Bó xã Trường Hà huyện Hà Quảng tỉnh Cao Bằng1 , cách thành phố Cao Bằng 55 km về phía Bắc. Khu di tích bao gồm: nhà tưởng niệm Bác Hồ, hang Cốc Pó(tên địa phương có nghĩa là \"đầu nguồn\"1 ), hang Lũng Lạn, hang Ngườm Vài (đều trên núi Các Mác), suối Lê nin, bàn đá nơi Bác Hồ làm việc, nền nhà ông Lý Quốc Súng, nền nhà ông La Thành, v.v...2\n",
+  "connection": [
+   {
+    "name": "huyện Hà Quảng",
+    "url": "/dia-danh/huyen-ha-quang"
+   },
+   {
+    "name": "tỉnh Cao Bằng",
+    "url": "/dia-danh/tinh-cao-bang"
+   },
+   {
+    "name": "thành phố Cao Bằng",
+    "url": "/dia-danh/thanh-pho-cao-bang"
+   },
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   }
+  ],
+  "url": "/dia-danh/khu-di-tich-pac-bo",
+  "info": {}
+ },
+ {
+  "name": "Khu lăng mộ và đền thờ các vị vua triều Lý",
+  "description": "Đền Lý Bát Đế, còn gọi là Đền Đô hoặc Cổ Pháp điện là một quần thể kiến trúc tín ngưỡng thờ tám vị vua đầu tiên của nhà Lý. Đền Lý Bát Đế đã được Nhà nước Việt Nam công nhận là di tích lịch sử - văn hóa theo Quyết định số 154 của Bộ Văn hóa - Thông tin (nay là Bộ Văn hóa, Thể thao và Du lịch) ngày 25 tháng 1 năm 1991. Năm 2014, nơi đây cùng với khu lăng mộ các Vua nhà Lý đã được xếp hạng di tích quốc gia đặc biệt.\n",
+  "connection": [
+   {
+    "name": "nhà Lý",
+    "url": "/nhan-vat/nha-ly"
+   },
+   {
+    "name": "thị xã Từ Sơn",
+    "url": "/dia-danh/thi-xa-tu-son"
+   },
+   {
+    "name": "tỉnh Bắc Ninh",
+    "url": "/dia-danh/tinh-bac-ninh"
+   },
+   {
+    "name": "Lý Thái Tông",
+    "url": "/nhan-vat/ly-thai-tong"
+   },
+   {
+    "name": "Nhà nước Việt Nam",
+    "url": "/nhan-vat/nha-nuoc-viet-nam"
+   },
+   {
+    "name": "Lý Thái Tổ",
+    "url": "/nhan-vat/ly-thai-to"
+   },
+   {
+    "name": "Lý Công Uẩn",
+    "url": "/nhan-vat/ly-cong-uan"
+   },
+   {
+    "name": "Lý Thánh Tông",
+    "url": "/nhan-vat/ly-thanh-tong"
+   }
+  ],
+  "url": "/dia-danh/khu-lang-mo-va-den-tho-cac-vi-vua-trieu-ly",
+  "info": {
+   "Thành lập": {"name": "3 tháng 3, 1030"},
+   "Xây mới": {"name": "1989"},
+   "Người sáng lập": {
+    "name": "Lý Thái Tông",
+    "url": "/nhan-vat/ly-thai-tong"
+   },
+   "Địa chỉ": {
+    "name": "khu Phố Thượng, phường Đình Bảng, thị xã Từ Sơn, tỉnh Bắc Ninh, Việt Nam",
+    "url": "/dia-danh/thi-xa-tu-son"
+   },
+   "Tôn tạo": {"name": "1602"},
+   "Lễ hội": {"name": "14, 15, 16 tháng 3 âm lịch hàng năm"}
+  }
+ },
+ {
+  "name": "Khu lưu niệm Chủ tịch Tôn Đức Thắng",
+  "description": "Khu lưu niệm Chủ tịch Tôn Đức Thắng tọa lạc trên cù lao Ông Hổ, thuộc xã Mỹ Hòa Hưng, thành phố Long Xuyên, tỉnh An Giang. Đây là một trong số 23 di tích Việt Nam đã được xếp hạng di tích quốc gia đặc biệt (ký ngày 10 tháng 5 năm 2012, công bố ngày 17 tháng 7 năm 2012).1\n",
+  "connection": [
+   {
+    "name": "Tôn Đức Thắng",
+    "url": "/nhan-vat/ton-duc-thang"
+   },
+   {
+    "name": "thành phố Long Xuyên",
+    "url": "/dia-danh/thanh-pho-long-xuyen"
+   },
+   {
+    "name": "tỉnh An Giang",
+    "url": "/dia-danh/tinh-an-giang"
+   },
+   {
+    "name": "sông Hậu",
+    "url": "/dia-danh/song-hau"
+   },
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   }
+  ],
+  "url": "/dia-danh/khu-luu-niem-chu-tich-ton-duc-thang",
+  "info": {}
+ },
+ {
+  "name": "Quần thể di tích Cố đô Huế",
+  "description": "Quần thể di tích Cố đô Huế hay Quần thể di tích Huế là những di tích lịch sử - văn hoá do triều Nguyễn chủ trương xây dựng trong khoảng thời gian từ đầu thế kỷ 19 đến nửa đầu thế kỷ 20 trên địa bàn kinh đô Huế xưa; nay thuộc phạm vi thành phố Huế và một vài vùng phụ cận thuộc tỉnh Thừa Thiên-Huế, Việt Nam. Phần lớn các di tích này nay thuộc sự quản lý của Trung tâm Bảo tồn Di tích Cố đô Huế và được UNESCO công nhận là Di sản Văn hoá Thế giới vào ngày 11 tháng 12 năm 1993. Hiện tại, cố đô Huế đã được thủ tướng chính phủ Việt Nam đưa vào danh sách xếp hạng 62 di tích quốc gia đặc biệt quan trọng. Quần thể di tích Cố đô Huế có thể phân chia thành các cụm công trình gồm các cụm công trình ngoài Kinh thành Huế và trong kinh thành Huế.\n",
+  "connection": [
+   {
+    "name": "thành phố Huế",
+    "url": "/dia-danh/thanh-pho-hue"
+   },
+   {
+    "name": "thành Huế",
+    "url": "/dia-danh/thanh-hue"
+   },
+   {
+    "name": "huyện Hương Trà",
+    "url": "/dia-danh/huyen-huong-tra"
+   },
+   {
+    "name": "sông Hương",
+    "url": "/dia-danh/song-huong"
+   },
+   {
+    "name": "Lê Trực",
+    "url": "/nhan-vat/le-truc"
+   },
+   {
+    "name": "điện Long An",
+    "url": "/dia-danh/dien-long-an"
+   },
+   {
+    "name": "hồ Tịnh Tâm",
+    "url": "/dia-danh/ho-tinh-tam"
+   },
+   {
+    "name": "nhà Tây Sơn",
+    "url": "/nhan-vat/nha-tay-son"
+   }
+  ],
+  "url": "/dia-danh/quan-the-di-tich-co-do-hue",
+  "info": {
+   "Công nhận": {"name": "1993 (kì thứ 17)"},
+   "Vùng UNESCO": {"name": "Châu Á-Thái Bình Dương"},
+   "Quốc gia": {"name": "Việt Nam"},
+   "Kiểu": {"name": "Văn hóa"},
+   "Hạng mục": {"name": "IV"},
+   "Tham khảo": {"name": "678"}
+  }
+ },
+ {
+  "name": "Quần thể di tích danh thắng Yên Tử",
+  "description": "Quần thể di tích và danh thắng Yên Tử bao gồm một hệ thống các di tích lịch sử văn hóa gắn liền với sự ra đời, hình thành và phát triển của thiền phái Trúc Lâm ở Việt Nam. Các di tích này nằm ở khu vực giáp ranh giữa 3 tỉnh Bắc Giang, Hải Dương và Quảng Ninh, bao gồm 5 khu vực: Khu di tích và danh thắng Đông Yên Tử (TP Uông Bí, Quảng Ninh), Khu di tích lịch sử nhà Trần (Đông Triều, Quảng Ninh), Khu di tích và danh thắng Tây Yên Tử (nằm trên các huyện Yên Dũng, Lục Nam, Lục Ngạn, Sơn Động tỉnh Bắc Giang)1 , Khu di tích Côn Sơn - Kiếp Bạc \u2013 Thanh Mai (Chí Linh, tỉnh Hải Dương).2\n",
+  "connection": [
+   {
+    "name": "tỉnh Bắc Giang",
+    "url": "/dia-danh/tinh-bac-giang"
+   },
+   {
+    "name": "nhà Trần",
+    "url": "/nhan-vat/nha-tran"
+   },
+   {
+    "name": "huyện Yên Dũng",
+    "url": "/dia-danh/huyen-yen-dung"
+   },
+   {
+    "name": "tỉnh Hải Dương",
+    "url": "/dia-danh/tinh-hai-duong"
+   },
+   {
+    "name": "núi Yên Tử",
+    "url": "/dia-danh/nui-yen-tu"
+   },
+   {
+    "name": "Trần Nhân Tông",
+    "url": "/nhan-vat/tran-nhan-tong"
+   },
+   {
+    "name": "Vũ Lâm",
+    "url": "/dia-danh/vu-lam"
+   },
+   {
+    "name": "Trần Cảnh",
+    "url": "/nhan-vat/tran-canh"
+   }
+  ],
+  "url": "/dia-danh/quan-the-di-tich-danh-thang-yen-tu",
+  "info": {}
+ },
+ {
+  "name": "thành Cổ Loa",
+  "description": "Cổ Loa là kinh đô của nhà nước Âu Lạc, dưới thời An Dương Vương vào khoảng thế kỷ thứ 3 trước Công nguyên và của nhà nước phong kiến dưới thời Ngô Quyền thế kỷ 10 sau Công nguyên.\n",
+  "connection": [
+   {
+    "name": "Dương Vương",
+    "url": "/nhan-vat/duong-vuong"
+   },
+   {
+    "name": "Ngô Quyền",
+    "url": "/nhan-vat/ngo-quyen"
+   },
+   {
+    "name": "huyện Đông Anh",
+    "url": "/dia-danh/huyen-dong-anh"
+   },
+   {
+    "name": "sông Hồng",
+    "url": "/dia-danh/song-hong"
+   },
+   {
+    "name": "sông Hoàng",
+    "url": "/dia-danh/song-hoang"
+   },
+   {
+    "name": "sông Cầu",
+    "url": "/dia-danh/song-cau"
+   },
+   {
+    "name": "sông Thái Bình",
+    "url": "/dia-danh/song-thai-binh"
+   },
+   {
+    "name": "sông Thương",
+    "url": "/dia-danh/song-thuong"
+   }
+  ],
+  "url": "/dia-danh/thanh-co-loa",
+  "info": {}
+ },
+ {
+  "name": "Thành cổ Quảng Trị",
+  "description": "Tọa độ: 16°45\u203206\u2033B 107°11\u203212\u2033Đ / 16,751672°B 107,186772°Đ\n",
+  "connection": [
+   {
+    "name": "thị xã Quảng Trị",
+    "url": "/dia-danh/thi-xa-quang-tri"
+   },
+   {
+    "name": "tỉnh Quảng Trị",
+    "url": "/dia-danh/tinh-quang-tri"
+   },
+   {
+    "name": "Triệu Phong",
+    "url": "/nhan-vat/trieu-phong"
+   }
+  ],
+  "url": "/dia-danh/thanh-co-quang-tri",
+  "info": {
+   "Diện tích": {"name": "25 ha"},
+   "Xây dựng": {"name": "1809"},
+   "Chiều cao": {"name": "4 m"},
+   "Vị trí": {"name": "Quảng Trị"}
+  }
+ }
+]

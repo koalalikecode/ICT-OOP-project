@@ -3,8 +3,6 @@ package historyobject;
 import org.json.JSONObject;
 
 import java.util.List;
-import java.util.Set;
-
 
 public class Character {
     private String name;
