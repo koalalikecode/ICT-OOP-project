@@ -17,6 +17,7 @@ public class Crawler {
     private String folder; // nơi lưu trữ file json kết quả
     private int pageLimit; // giới hạn số lượng page trong startLink để crawl
 
+
     public JSONArray getOutput() {
         return output;
     }
@@ -123,7 +124,6 @@ public class Crawler {
             Set<String> pagesDiscovered,
             List<String> pagesToScrape) {
     }
-
     // Ham scrape du lieu danh cho page khac
     public void scrapePage() {
     }
@@ -162,6 +162,3 @@ public class Crawler {
         saveData();
     }
 }
-
-
-

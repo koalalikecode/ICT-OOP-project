@@ -965,6 +965,3122 @@
     "url": "/dia-danh/tinh-ha-tinh"
    },
    {
+    "name": "tỉnh Điện Biên",
+    "url": "/dia-danh/tinh-dien-bien"
+   }
+  ],
+  "url": "/nhan-vat/phan-dinh-giot",
+  "info": {
+   "Tham chiến": {"name": "Chiến tranh Đông Dương"},
+   "Khen thưởng": {"name": "Anh hùng lực lượng vũ trang nhân dân"},
+   "Quốc tịch": {"name": "Việt Nam"},
+   "Đơn vị": {"name": "Đại đoàn 312"},
+   "Sinh": {"name": "19221 Cẩm Xuyên, Hà Tĩnh, Liên bang Đông Dương"},
+   "Mất": {"name": "1954"},
+   "Năm tại ngũ": {"name": "1950-1954"},
+   "Thuộc": {"name": "Quân đội Nhân dân Việt Nam"}
+  }
+ },
+ {
+  "name": "Phan Phu Tiên",
+  "description": "Phan Phu Tiên hay Phan Phù Tiên (chữ Hán: 潘孚先, 1370 - 14821 ), tự: Tín Thần, hiệu: Mặc Hiên; là nhà biên khảo, nhà sử học, và là thầy thuốc Việt Nam ở đầu thời Nhà Lê sơ. Thành tựu đáng kể của ông, đó là đã biên soạn ra bộ Việt âm thi tập và bộ Đại Việt sử ký tục biên.\n",
+  "connection": [
+   {
+    "name": "huyện Thiên Lộc",
+    "url": "/dia-danh/huyen-thien-loc"
+   },
+   {
+    "name": "trấn Nghệ An",
+    "url": "/dia-danh/tran-nghe-an"
+   },
+   {
+    "name": "tỉnh Hà Tĩnh",
+    "url": "/dia-danh/tinh-ha-tinh"
+   },
+   {
+    "name": "Trần Thuận Tông",
+    "url": "/nhan-vat/tran-thuan-tong"
+   },
+   {
+    "name": "Lê Thái Tổ",
+    "url": "/nhan-vat/le-thai-to"
+   },
+   {
+    "name": "Trần Thuấn Du",
+    "url": "/nhan-vat/tran-thuan-du"
+   },
+   {
+    "name": "nước Việt",
+    "url": "/dia-danh/nuoc-viet"
+   },
+   {
+    "name": "Lê Nhân Tông",
+    "url": "/nhan-vat/le-nhan-tong"
+   }
+  ],
+  "url": "/nhan-vat/phan-phu-tien",
+  "info": {}
+ },
+ {
+  "name": "Phan Kích Nam",
+  "description": "Phan Kích Nam (? - 1946) là Đảng viên Việt Nam Quốc Dân Đảng và là đại biểu Quốc hội Việt Nam khóa 1. Ông bị chính quyền Việt Nam Dân chủ Cộng hòa bắt trong vụ án Ôn Như Hầu.\n",
+  "connection": [
+   {
+    "name": "tỉnh Quảng Nam",
+    "url": "/dia-danh/tinh-quang-nam"
+   },
+   {
+    "name": "tỉnh Phú Thọ",
+    "url": "/dia-danh/tinh-phu-tho"
+   },
+   {
+    "name": "Lê Ninh",
+    "url": "/nhan-vat/le-ninh"
+   }
+  ],
+  "url": "/nhan-vat/phan-kich-nam",
+  "info": {}
+ },
+ {
+  "name": "Lê Khắc Xương",
+  "description": "Lê Khắc Xương (? - 1476) là một vị hoàng tử triều Hậu Lê, con vua Lê Thái Tông trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   },
+   {
+    "name": "Bùi Cầm Hổ",
+    "url": "/nhan-vat/bui-cam-ho"
+   },
+   {
+    "name": "Lê Thánh Tông",
+    "url": "/nhan-vat/le-thanh-tong"
+   },
+   {
+    "name": "Lê Nhân Tông",
+    "url": "/nhan-vat/le-nhan-tong"
+   },
+   {
+    "name": "Nguyễn Xí",
+    "url": "/nhan-vat/nguyen-xi"
+   },
+   {
+    "name": "Đinh Liệt",
+    "url": "/nhan-vat/dinh-liet"
+   },
+   {
+    "name": "Lê Nghi Dân",
+    "url": "/nhan-vat/le-nghi-dan"
+   },
+   {
+    "name": "Lê Tư Thành",
+    "url": "/nhan-vat/le-tu-thanh"
+   }
+  ],
+  "url": "/nhan-vat/le-khac-xuong",
+  "info": {
+   "Thân mẫu": {"name": "Bùi Quý nhân"},
+   "Sinh": {"name": "?"},
+   "Mất": {"name": "1476 Đông Kinh"},
+   "Thân phụ": {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   },
+   "Tên đầy đủ": {"name": "Lê Khắc Xương"}
+  }
+ },
+ {
+  "name": "Phan Đình Niệm",
+  "description": "Phan Đình Niệm (1931), nguyên là một tướng lĩnh Bộ binh của Quân lực Việt Nam Cộng hòa, cấp bậc Thiếu tướng.1 Ông xuất thân từ những khóa đầu tiên tại trường Võ bị Liên quân được Chính phủ Quốc gia mở ra tại nam Cao nguyên Trung phần dưới sự cố vấn và huấn luyện của Quân đội Pháp. Ra trường ông được chọn về đơn vị Bộ binh. Ông đã tuần tự giữ những chức vụ từ Trung đội trưởng cho đến Chỉ huy cấp Sư đoàn. Trong thời gian tại ngũ, ông còn được bổ nhiệm vào các chức vụ thuộc lĩnh vực Quân huấn2 và Hành chính Quân sự3\n",
+  "connection": [
+   {
+    "name": "Lý Thường Kiệt",
+    "url": "/nhan-vat/ly-thuong-kiet"
+   },
+   {
+    "name": "Lê Đức Đạt",
+    "url": "/nhan-vat/le-duc-dat"
+   },
+   {
+    "name": "Trần Văn Hương",
+    "url": "/nhan-vat/tran-van-huong"
+   },
+   {
+    "name": "Nguyễn Văn Minh",
+    "url": "/nhan-vat/nguyen-van-minh"
+   },
+   {
+    "name": "Nguyễn Khánh",
+    "url": "/nhan-vat/nguyen-khanh"
+   }
+  ],
+  "url": "/nhan-vat/phan-dinh-niem",
+  "info": {
+   "Công việc khác": {"name": "Tỉnh trưởng"},
+   "Tham chiến": {"name": "Chiến tranh Việt Nam"},
+   "Đơn vị": {"name": "Sư đoàn 16 Khinh chiến Sư đoàn 25 Bộ binh Sư đoàn 18 Bộ binh Huấn khu Dục Mỹ Sư đoàn 22 Bộ binh"},
+   "Sinh": {"name": "Tháng 6, 1931 (86 tuổi]] Thừa Thiên, Việt Nam"},
+   "Cấp bậc": {"name": "Thiếu tướng"},
+   "Năm tại ngũ": {"name": "1951-1975"},
+   "Chỉ huy": {"name": "QĐ Liên hiệp Pháp Quân lực VNCH"},
+   "Phục vụ": {"name": "Việt Nam Cộng hòa"},
+   "Thuộc": {"name": "Quân lực VNCH"}
+  }
+ },
+ {
+  "name": "Lê Khôi",
+  "description": "Lê Khôi (chữ Hán: 黎魁; ? - 1446), tên thụy là Vũ Mục, công thần khai quốc nhà Lê sơ. Ông là con trai của Lê Trừ- anh thứ hai của Lê Lợi, tham gia khởi nghĩa Lam Sơn, lập nhiều công lao. Lê Thái Tổ lên ngôi phong cho là Kì Lân Hổ Vệ tướng quân, hàm Nhập nội thiếu úy, tước Đình Thượng hầu. Lê Khôi được điều làm trấn thủ Hóa châu, nhiều lần tham gia đánh Chiêm thành, lập nhiều chiến tích.1\n",
+  "connection": [
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   },
+   {
+    "name": "Lê Thái Tổ",
+    "url": "/nhan-vat/le-thai-to"
+   },
+   {
+    "name": "huyện Thọ Xuân",
+    "url": "/dia-danh/huyen-tho-xuan"
+   },
+   {
+    "name": "tỉnh Thanh Hóa",
+    "url": "/dia-danh/tinh-thanh-hoa"
+   },
+   {
+    "name": "Lê Sát",
+    "url": "/nhan-vat/le-sat"
+   },
+   {
+    "name": "Lê Lễ",
+    "url": "/nhan-vat/le-le"
+   },
+   {
+    "name": "Lê Nhân Chú",
+    "url": "/nhan-vat/le-nhan-chu"
+   }
+  ],
+  "url": "/nhan-vat/le-khoi",
+  "info": {}
+ },
+ {
+  "name": "Phan Sào Nam",
+  "description": "Phan Bội Châu (chữ Hán: 潘佩珠; 1867 \u2013 1940) là một danh sĩ và là nhà cách mạng Việt Nam, hoạt động trong thời kỳ Pháp thuộc.\n",
+  "connection": [
+   {
+    "name": "Phan Bội Châu",
+    "url": "/nhan-vat/phan-boi-chau"
+   },
+   {
+    "name": "huyện Nam Đàn",
+    "url": "/dia-danh/huyen-nam-dan"
+   },
+   {
+    "name": "tỉnh Nghệ An",
+    "url": "/dia-danh/tinh-nghe-an"
+   },
+   {
+    "name": "Thành Thái",
+    "url": "/nhan-vat/thanh-thai"
+   },
+   {
+    "name": "Phan Chu Trinh",
+    "url": "/nhan-vat/phan-chu-trinh"
+   },
+   {
+    "name": "Huỳnh Thúc Kháng",
+    "url": "/nhan-vat/huynh-thuc-khang"
+   },
+   {
+    "name": "Trần Quý Cáp",
+    "url": "/nhan-vat/tran-quy-cap"
+   },
+   {
+    "name": "Nguyễn Thượng Hiền",
+    "url": "/nhan-vat/nguyen-thuong-hien"
+   }
+  ],
+  "url": "/nhan-vat/phan-sao-nam",
+  "info": {
+   "Triều đại": {"name": "nhà Nguyễn - Liên bang Đông Dương"},
+   "Thân mẫu": {"name": "Nguyễn Thị Nhàn"},
+   "Quốc tịch": {"name": "Việt Nam"},
+   "Húy": {"name": "Phan Văn San"},
+   "Sinh": {
+    "name": "26 tháng 12 năm 1867 làng Đan Nhiễm, xã Nam Hòa, huyện Nam Đàn, tỉnh Nghệ An.",
+    "url": "/dia-danh/huyen-nam-dan"
+   },
+   "Mất": {"name": "29 tháng 10, 1940 (72 tuổi) Huế"},
+   "Hiệu": {"name": "Hải Thụ/Sào Nam"},
+   "Bút danh": {"name": "Thị Hán, Phan Giải San, Sào Nam Tử, Hạo Sinh, Hiếu Hán"},
+   "Thân phụ": {"name": "Phan Văn Phổ"}
+  }
+ },
+ {
+  "name": "Lê Lễ",
+  "description": "Lê Lễ (1368, 4/4/1449)1 là khai quốc công thần nhà Hậu Lê, nối đời làm gia thần cho vua Lê Thái Tổ, làm đến Nhập nội thị trung, tước Đình thượng hầu.\n",
+  "connection": [
+   {
+    "name": "nhà Hậu Lê",
+    "url": "/nhan-vat/nha-hau-le"
+   },
+   {
+    "name": "Lê Thái Tổ",
+    "url": "/nhan-vat/le-thai-to"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   },
+   {
+    "name": "Nguyễn Thị Lộ",
+    "url": "/nhan-vat/nguyen-thi-lo"
+   }
+  ],
+  "url": "/nhan-vat/le-le",
+  "info": {}
+ },
+ {
+  "name": "Lê Kính Tông",
+  "description": "Lê Kính Tông (chữ Hán: 黎敬宗, 1588 \u2013 1619), có tên là Lê Duy Tân (黎維新), là vị hoàng đế thứ năm của nhà Lê trung hưng trong lịch sử Việt Nam, người huyện Thọ Xuân, Thanh Hóa, Việt Nam. Ông làm vua từ năm 1599 đến năm 1618.\n",
+  "connection": [
+   {
+    "name": "Lê Thế Tông",
+    "url": "/nhan-vat/le-the-tong"
+   },
+   {
+    "name": "Lê Thần Tông",
+    "url": "/nhan-vat/le-than-tong"
+   },
+   {
+    "name": "Lê Duy Tân",
+    "url": "/nhan-vat/le-duy-tan"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "huyện Thọ Xuân",
+    "url": "/dia-danh/huyen-tho-xuan"
+   },
+   {
+    "name": "tỉnh Thanh Hóa",
+    "url": "/dia-danh/tinh-thanh-hoa"
+   },
+   {
+    "name": "Lê Anh Tông",
+    "url": "/nhan-vat/le-anh-tong"
+   },
+   {
+    "name": "nhà Mạc",
+    "url": "/nhan-vat/nha-mac"
+   }
+  ],
+  "url": "/nhan-vat/le-kinh-tong",
+  "info": {
+   "Triều đại": {"name": "Nhà Lê trung hưng"},
+   "Thụy hiệu": {"name": "Hiển Nhân Dụ Khánh Tuy Phúc Huệ Hoàng đế (显仁裕庆绥福惠皇帝)1 Giản Huy Hoàng đế (簡輝皇帝)2"},
+   "Niên hiệu": {"name": "Thận Đức (慎德: 1600 - 1601) Hoằng Định (弘定: 1601 - 1619)"},
+   "Trị vì": {"name": "1599 \u2013 1619"},
+   "Kế nhiệm": {
+    "name": "Lê Thần Tông",
+    "url": "/nhan-vat/le-than-tong"
+   },
+   "Thân mẫu": {"name": "Ý Đức hoàng thái hậu"},
+   "Tên thật": {
+    "name": "Lê Duy Tân (黎維新)",
+    "url": "/nhan-vat/le-duy-tan"
+   },
+   "Sinh": {"name": "1588"},
+   "Mất": {"name": "1619 (30\u201331 tuổi) Đông Kinh, Đại Việt"},
+   "Miếu hiệu": {"name": "Kính Tông (敬宗)"},
+   "Tiền nhiệm": {
+    "name": "Lê Thế Tông",
+    "url": "/nhan-vat/le-the-tong"
+   },
+   "Thân phụ": {
+    "name": "Lê Thế Tông",
+    "url": "/nhan-vat/le-the-tong"
+   }
+  }
+ },
+ {
+  "name": "Phan Đình Phùng",
+  "description": "Phan Đình Phùng (chữ Hán: 潘廷逢; 18471 - 1895) hiệu: Châu Phong, là nhà thơ và là lãnh tụ cuộc khởi nghĩa Hương Khê (1885-1896) trong phong trào Cần Vương chống Pháp ở cuối thế kỷ 19 trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "Hương Khê",
+    "url": "/dia-danh/huong-khe"
+   },
+   {
+    "name": "huyện Đức Thọ",
+    "url": "/dia-danh/huyen-duc-tho"
+   },
+   {
+    "name": "tỉnh Hà Tĩnh",
+    "url": "/dia-danh/tinh-ha-tinh"
+   },
+   {
+    "name": "tỉnh Ninh Bình",
+    "url": "/dia-danh/tinh-ninh-binh"
+   },
+   {
+    "name": "Nguyễn Chánh",
+    "url": "/nhan-vat/nguyen-chanh"
+   },
+   {
+    "name": "thành Nam Định",
+    "url": "/dia-danh/thanh-nam-dinh"
+   },
+   {
+    "name": "Tôn Thất Thuyết",
+    "url": "/nhan-vat/ton-that-thuyet"
+   },
+   {
+    "name": "Thành phố Hồ Chí Minh",
+    "url": "/dia-danh/thanh-pho-ho-chi-minh"
+   }
+  ],
+  "url": "/nhan-vat/phan-dinh-phung",
+  "info": {
+   "Phong trào chính trị": {"name": "Cần Vương"},
+   "Tổ chức": {"name": "triều Nguyễn"},
+   "Sinh": {"name": "1847 Đông Thái, Hà Tĩnh, Việt Nam"},
+   "Mất": {"name": "28 tháng 12 năm 1895 (48 tuổi) Ha Tinh, Việt Nam"},
+   "Tên khác": {"name": "Phan Đình Phùng"},
+   "Tôn giáo": {"name": "đạo Khổng"},
+   "Giải thưởng": {"name": "Đỗ Đình Nguyên, 1877"}
+  }
+ },
+ {
+  "name": "Lê Liêm",
+  "description": "Lê Liêm (sinh năm 1922 - 1985) nhà cách mạng Việt Nam, Ủy viên Dự khuyết Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam, đã giữ các chức vụ: Phó Chủ nhiệm Tổng cục Chính trị Quân đội Nhân dân Việt Nam thời kỳ mới thành lập, Thứ trưởng Bộ Văn hóa, Chủ nhiệm Văn phòng Văn giáo Phủ Thủ tướng, Thứ trưởng Bộ Giáo dục Việt Nam Dân chủ Cộng hòa.\n",
+  "connection": [
+   {
+    "name": "tỉnh Hà Đông",
+    "url": "/dia-danh/tinh-ha-dong"
+   },
+   {
+    "name": "tỉnh Phúc Yên",
+    "url": "/dia-danh/tinh-phuc-yen"
+   },
+   {
+    "name": "Điện Biên",
+    "url": "/dia-danh/dien-bien"
+   },
+   {
+    "name": "Hoàng Văn Thái",
+    "url": "/nhan-vat/hoang-van-thai"
+   },
+   {
+    "name": "Đặng Kim Giang",
+    "url": "/nhan-vat/dang-kim-giang"
+   },
+   {
+    "name": "Hoàng Minh Giám",
+    "url": "/nhan-vat/hoang-minh-giam"
+   }
+  ],
+  "url": "/nhan-vat/le-liem",
+  "info": {}
+ },
+ {
+  "name": "Lê Lai",
+  "description": "Lê Lai (chữ Hán: 黎 來, ? - 29 tháng 4, 1418) là một viên tướng nổi tiếng của khởi nghĩa Lam Sơn, có công lao giúp đỡ Lê Thái Tổ gây dựng sự nghiệp. Câu chuyện ông hy sinh thân mình cứu Lê Thái Tổ thoát khỏi vòng vây của quân Minh được đời sau truyền tụng, gọi là Lê Lai cứu chúa (黎來救主).\n",
+  "connection": [
+   {
+    "name": "Lê Thái Tổ",
+    "url": "/nhan-vat/le-thai-to"
+   },
+   {
+    "name": "Thành Sơn",
+    "url": "/dia-danh/thanh-son"
+   },
+   {
+    "name": "tỉnh Thanh Hóa",
+    "url": "/dia-danh/tinh-thanh-hoa"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   },
+   {
+    "name": "Ngô Thì Sĩ",
+    "url": "/nhan-vat/ngo-thi-si"
+   },
+   {
+    "name": "nhà Minh",
+    "url": "/nhan-vat/nha-minh"
+   },
+   {
+    "name": "thành Tây Đô",
+    "url": "/dia-danh/thanh-tay-do"
+   },
+   {
+    "name": "Nguyễn Trãi",
+    "url": "/nhan-vat/nguyen-trai"
+   }
+  ],
+  "url": "/nhan-vat/le-lai",
+  "info": {
+   "Triều đại": {"name": "Hậu Lê"},
+   "Thụy hiệu": {"name": "Toàn Nghĩa"},
+   "Sinh": {"name": "? Thanh Hóa"},
+   "Mất": {"name": "29 tháng 4, 1418"}
+  }
+ },
+ {
+  "name": "Lê Long Cân",
+  "description": "Lê Long Cân (chữ Hán: 黎龍釿) là một hoàng tử của nhà Tiền Lê trong lịch sử Việt Nam. Ông là con trai thứ sáu của Vua Lê Đại Hành. Sinh tại kinh đô Hoa Lư, Ninh Bình, Việt Nam. Ông được vua phong tước Ngự Bắc Vương(禦北王) năm 991,[1] đóng tại Phù Lan, tức vùng đất thuộc tỉnh Hưng Yên ngày nay. Căn cứ vào năm sinh người con trai thứ năm của vua Lê Đại Hành (986) và năm phong vương thì năm sinh của ông nằm trong khoảng từ 986 đến 991.\n",
+  "connection": [
+   {
+    "name": "nhà Tiền Lê",
+    "url": "/nhan-vat/nha-tien-le"
+   },
+   {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   },
+   {
+    "name": "tỉnh Hưng Yên",
+    "url": "/dia-danh/tinh-hung-yen"
+   },
+   {
+    "name": "Lê Long Thâu",
+    "url": "/nhan-vat/le-long-thau"
+   },
+   {
+    "name": "Lê Long Việt",
+    "url": "/nhan-vat/le-long-viet"
+   },
+   {
+    "name": "Lê Long Kính",
+    "url": "/nhan-vat/le-long-kinh"
+   },
+   {
+    "name": "Lê Long Tích",
+    "url": "/nhan-vat/le-long-tich"
+   },
+   {
+    "name": "Lê Long Tung",
+    "url": "/nhan-vat/le-long-tung"
+   }
+  ],
+  "url": "/nhan-vat/le-long-can",
+  "info": {}
+ },
+ {
+  "name": "Phan Đình Tá",
+  "description": "Phan Đình Tá (1468\u2013?) là một đại thần của triều Lê sơ và nhà Mạc.\n",
+  "connection": [
+   {
+    "name": "nhà Mạc",
+    "url": "/nhan-vat/nha-mac"
+   },
+   {
+    "name": "huyện Thiên Lộc",
+    "url": "/dia-danh/huyen-thien-loc"
+   },
+   {
+    "name": "trấn Nghệ An",
+    "url": "/dia-danh/tran-nghe-an"
+   },
+   {
+    "name": "Lê Hiến Tông",
+    "url": "/nhan-vat/le-hien-tong"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "Mạc Đăng Dung",
+    "url": "/nhan-vat/mac-dang-dung"
+   },
+   {
+    "name": "Nguyễn Văn Giai",
+    "url": "/nhan-vat/nguyen-van-giai"
+   }
+  ],
+  "url": "/nhan-vat/phan-dinh-ta",
+  "info": {}
+ },
+ {
+  "name": "Lê Liệt",
+  "description": "Đinh Liệt (chữ Hán: 丁列) hay Lê Liệt (? - 1471) là công thần khai quốc nhà nhà Lê Sơ trong lịch sử Việt Nam, người thôn Phúc Long, xã Minh Tiến, huyện Ngọc Lặc, Thanh Hóa.\n",
+  "connection": [
+   {
+    "name": "Đinh Liệt",
+    "url": "/nhan-vat/dinh-liet"
+   },
+   {
+    "name": "nhà Lê Sơ",
+    "url": "/nhan-vat/nha-le-so"
+   },
+   {
+    "name": "Lê Thái Tổ",
+    "url": "/nhan-vat/le-thai-to"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   },
+   {
+    "name": "huyện Đỗ Gia",
+    "url": "/dia-danh/huyen-do-gia"
+   },
+   {
+    "name": "huyện Hương Sơn",
+    "url": "/dia-danh/huyen-huong-son"
+   },
+   {
+    "name": "Lê Sát",
+    "url": "/nhan-vat/le-sat"
+   },
+   {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   }
+  ],
+  "url": "/nhan-vat/le-liet",
+  "info": {}
+ },
+ {
+  "name": "Phạm Xuân Thệ",
+  "description": "Phạm Xuân Thệ (sinh năm 1947) là một sĩ quan cấp cao trong Quân đội Nhân dân Việt Nam, hàm Trung tướng, nguyên Tư lệnh Quân đoàn 2 (1995-2000), Tư lệnh Quân khu 1 (2002-2007).1 2 3 4 5 Ông là người đã dẫn độ tổng thống Dương Văn Minh từ Dinh Độc lập đến Đài phát thanh Sài Gòn để tuyên bố đầu hàng vô điều kiện vào ngày 30 tháng 4 năm 1975, chấm dứt Chiến tranh Việt Nam.6\n",
+  "connection": [{
+   "name": "Dương Văn Minh",
+   "url": "/nhan-vat/duong-van-minh"
+  }],
+  "url": "/nhan-vat/pham-xuan-the",
+  "info": {}
+ },
+ {
+  "name": "Lê Long Đề",
+  "description": "Lê Long Đề (chữ Hán: 黎龍鍉) hay Lê Minh Đề(黎明提) là một hoàng tử của nhà Tiền Lê trong lịch sử Việt Nam. Ông là con trai thứ 11 của Vua Lê Đại Hành. Sinh tại kinh đô Hoa Lư, Ninh Bình, Việt Nam. Ông được vua phong tước Hành Quân Vương(行軍王), đóng tại Bắc Ngạn, tức vùng đất thuộc tỉnh Bắc Ninh ngày nay. Căn cứ vào năm sinh người con trai thứ năm của vua Lê Đại Hành (986) và năm phong vương thì năm sinh của ông nằm trong khoảng từ 986 đến 995.\n",
+  "connection": [
+   {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   },
+   {
+    "name": "nhà Tiền Lê",
+    "url": "/nhan-vat/nha-tien-le"
+   },
+   {
+    "name": "tỉnh Bắc Ninh",
+    "url": "/dia-danh/tinh-bac-ninh"
+   },
+   {
+    "name": "Ngô Thì Sĩ",
+    "url": "/nhan-vat/ngo-thi-si"
+   },
+   {
+    "name": "nhà Đinh",
+    "url": "/nhan-vat/nha-dinh"
+   },
+   {
+    "name": "nước Tống",
+    "url": "/dia-danh/nuoc-tong"
+   },
+   {
+    "name": "nhà Tống",
+    "url": "/nhan-vat/nha-tong"
+   },
+   {
+    "name": "Lê Long Thâu",
+    "url": "/nhan-vat/le-long-thau"
+   }
+  ],
+  "url": "/nhan-vat/le-long-de",
+  "info": {
+   "Triều đại": {"name": "Nhà Tiền Lê"},
+   "Tước hiệu": {"name": "Hành Quân Vương"},
+   "Sinh": {"name": "?, Hoa Lư, Ninh Bình"},
+   "Tên húy": {"name": "Lê Long Đề"},
+   "Mất": {"name": "?"},
+   "Tại vị": {"name": "995 - ?"},
+   "Thân phụ": {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   }
+  }
+ },
+ {
+  "name": "Lê Lợi",
+  "description": "Lê Thái Tổ (chữ Hán: 黎太祖; 10 tháng 9, 13852 \u2013 5 tháng 10, 1433 (22 tháng Tám năm Quý Sửu)), tên thật là Lê Lợi (黎利), là vị hoàng đế đầu tiên của nhà Hậu Lê \u2013 triều đại lâu dài nhất trong lịch sử Việt Nam. Ông trị vì từ năm 1428 đến khi qua đời, và sử dụng niên hiệu Thuận Thiên (順天).\n",
+  "connection": [
+   {
+    "name": "Lê Thái Tổ",
+    "url": "/nhan-vat/le-thai-to"
+   },
+   {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   },
+   {
+    "name": "Lê Tư Tề",
+    "url": "/nhan-vat/le-tu-te"
+   },
+   {
+    "name": "nhà Hậu Lê",
+    "url": "/nhan-vat/nha-hau-le"
+   },
+   {
+    "name": "nhà Minh",
+    "url": "/nhan-vat/nha-minh"
+   },
+   {
+    "name": "nước Việt",
+    "url": "/dia-danh/nuoc-viet"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "Trần Nguyên Hãn",
+    "url": "/nhan-vat/tran-nguyen-han"
+   }
+  ],
+  "url": "/nhan-vat/le-loi",
+  "info": {
+   "Thụy hiệu": {"name": "Thống Thiên Khải Vận Thánh Đức Thần Công Duệ Văn Anh Vũ Khoan Minh Dũng Trí Hoàng Nghĩa Chí Minh Đại Hiếu Cao Hoàng đế (統天啟運聖德神功睿文英武寬明勇智弘義至明大孝高皇帝)"},
+   "Niên hiệu": {"name": "Thuận Thiên (順天)"},
+   "Kế nhiệm": {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   },
+   "Thân mẫu": {"name": "Trịnh Ngọc Thương"},
+   "Tên húy": {"name": "Lê Lợi (黎利)"},
+   "Tiền nhiệm": {"name": "Sáng lập triều đại"},
+   "Thê thiếp": {"name": "Cung Từ Cao hoàng hậu"},
+   "Triều đại": {"name": "Nhà Lê sơ"},
+   "Trị vì": {"name": "29 tháng 4 năm 1428 \u2013 5 tháng 10 năm 1433 (5 năm, 159 ngày)"},
+   "Sinh": {"name": "10 tháng 9, 1383/851 Lam Sơn, Thanh Hóa"},
+   "Mất": {"name": "5 tháng 10, 1433 (50 tuổi) Đông Kinh, Đại Việt"},
+   "Miếu hiệu": {"name": "Thái Tổ (太祖)"},
+   "Hậu duệ": {
+    "name": "Hậu duệ Quận Ai vương Lê Tư Tề Lê Thái Tông Trang Từ Công chúa",
+    "url": "/nhan-vat/le-tu-te"
+   },
+   "An táng": {"name": "Vĩnh lăng (永陵), Thanh Hóa"},
+   "Thân phụ": {"name": "Lê Khoáng"}
+  }
+ },
+ {
+  "name": "Phạm Thông",
+  "description": "Phạm Thông (12/8/1943 - 03/11/2016) là một điêu khắc gia và nhà báo người Việt, đặc biệt là tác giả của nhiều pho tượng Đức ông Trần Hưng Đạo tại Việt Nam trước 1975 và sau này tại Hoa Kỳ.\n",
+  "connection": [
+   {
+    "name": "Trần Hưng Đạo",
+    "url": "/nhan-vat/tran-hung-dao"
+   },
+   {
+    "name": "sông Sài Gòn",
+    "url": "/dia-danh/song-sai-gon"
+   },
+   {
+    "name": "Ngô Đình Diệm",
+    "url": "/nhan-vat/ngo-dinh-diem"
+   },
+   {
+    "name": "thành Sài Gòn",
+    "url": "/dia-danh/thanh-sai-gon"
+   },
+   {
+    "name": "Trần Quốc Tuấn",
+    "url": "/nhan-vat/tran-quoc-tuan"
+   },
+   {
+    "name": "thành phố Westminster",
+    "url": "/dia-danh/thanh-pho-westminster"
+   },
+   {
+    "name": "Ngô Đình Nhu",
+    "url": "/nhan-vat/ngo-dinh-nhu"
+   }
+  ],
+  "url": "/nhan-vat/pham-thong",
+  "info": {}
+ },
+ {
+  "name": "Phan Anh",
+  "description": "Phan Anh có thể là:\n",
+  "connection": [],
+  "url": "/nhan-vat/phan-anh",
+  "info": {}
+ },
+ {
+  "name": "Lê Lộng",
+  "description": "Lê Lộng, quê làng Khả Lam huyện Lương Giang phủ Thanh Đô1 (nay là xã Xuân Lam, huyện Thọ Xuân tỉnh Thanh Hóa Việt Nam), một khai quốc công thần nhà Lê sơ, một viên tướng tài phụng sự tới 4 triều vua Lê sơ là: Lê Thái Tổ, Lê Thái Tông, Lê Nhân Tông và Lê Thánh Tông.\n",
+  "connection": [
+   {
+    "name": "huyện Thọ Xuân",
+    "url": "/dia-danh/huyen-tho-xuan"
+   },
+   {
+    "name": "tỉnh Thanh Hóa",
+    "url": "/dia-danh/tinh-thanh-hoa"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "Lê Thái Tổ",
+    "url": "/nhan-vat/le-thai-to"
+   },
+   {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   },
+   {
+    "name": "Lê Nhân Tông",
+    "url": "/nhan-vat/le-nhan-tong"
+   },
+   {
+    "name": "Lê Thánh Tông",
+    "url": "/nhan-vat/le-thanh-tong"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   }
+  ],
+  "url": "/nhan-vat/le-long",
+  "info": {}
+ },
+ {
+  "name": "Lê Long Kính",
+  "description": "Lê Long Kính (chữ Hán: 黎龍鏡, ?-1005) là một hoàng tử của nhà Tiền Lê trong lịch sử Việt Nam. Ông là con trai thứ 9 của Vua Lê Đại Hành. Sinh tại kinh đô Hoa Lư, Ninh Bình, Việt Nam. Ông được vua phong tước Trung Quốc Vương(中國王) năm 993,[1] đóng tại Càn Đà, tức vùng đất thuộc tỉnh Hưng Yên ngày nay. Ông bị Lê Long Đĩnh giết năm 1005 do chống đối người anh thứ 5 này lên ngôi. Căn cứ vào năm sinh người con trai thứ ba của vua Lê Đại Hành (986) và năm phong vương thì năm sinh của ông nằm trong khoảng từ 986 đến 993.\n",
+  "connection": [
+   {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   },
+   {
+    "name": "nhà Tiền Lê",
+    "url": "/nhan-vat/nha-tien-le"
+   },
+   {
+    "name": "tỉnh Hưng Yên",
+    "url": "/dia-danh/tinh-hung-yen"
+   },
+   {
+    "name": "Lê Long Thâu",
+    "url": "/nhan-vat/le-long-thau"
+   },
+   {
+    "name": "Lê Long Việt",
+    "url": "/nhan-vat/le-long-viet"
+   },
+   {
+    "name": "Lê Trung Tông",
+    "url": "/nhan-vat/le-trung-tong"
+   },
+   {
+    "name": "Lê Long Cân",
+    "url": "/nhan-vat/le-long-can"
+   },
+   {
+    "name": "thành phố Hưng Yên",
+    "url": "/dia-danh/thanh-pho-hung-yen"
+   }
+  ],
+  "url": "/nhan-vat/le-long-kinh",
+  "info": {
+   "Triều đại": {"name": "Nhà Tiền Lê"},
+   "Tước hiệu": {"name": "Trung Quốc Vương"},
+   "Sinh": {"name": "?, Hoa Lư, Ninh Bình"},
+   "Tên húy": {"name": "Lê Long Kính"},
+   "Mất": {"name": "1005, Phù Lan, Hưng Yên"},
+   "Tại vị": {"name": "993 - 1005"},
+   "Thân phụ": {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   }
+  }
+ },
+ {
+  "name": "Phan Bội Châu",
+  "description": "Phan Bội Châu (chữ Hán: 潘佩珠; 1867 \u2013 1940) là một danh sĩ và là nhà cách mạng Việt Nam, hoạt động trong thời kỳ Pháp thuộc.\n",
+  "connection": [
+   {
+    "name": "huyện Nam Đàn",
+    "url": "/dia-danh/huyen-nam-dan"
+   },
+   {
+    "name": "tỉnh Nghệ An",
+    "url": "/dia-danh/tinh-nghe-an"
+   },
+   {
+    "name": "Thành Thái",
+    "url": "/nhan-vat/thanh-thai"
+   },
+   {
+    "name": "Phan Chu Trinh",
+    "url": "/nhan-vat/phan-chu-trinh"
+   },
+   {
+    "name": "Huỳnh Thúc Kháng",
+    "url": "/nhan-vat/huynh-thuc-khang"
+   },
+   {
+    "name": "Trần Quý Cáp",
+    "url": "/nhan-vat/tran-quy-cap"
+   },
+   {
+    "name": "Nguyễn Thượng Hiền",
+    "url": "/nhan-vat/nguyen-thuong-hien"
+   },
+   {
+    "name": "Nguyễn Quyền",
+    "url": "/nhan-vat/nguyen-quyen"
+   }
+  ],
+  "url": "/nhan-vat/phan-boi-chau",
+  "info": {
+   "Triều đại": {"name": "nhà Nguyễn - Liên bang Đông Dương"},
+   "Thân mẫu": {"name": "Nguyễn Thị Nhàn"},
+   "Quốc tịch": {"name": "Việt Nam"},
+   "Húy": {"name": "Phan Văn San"},
+   "Sinh": {
+    "name": "26 tháng 12 năm 1867 làng Đan Nhiễm, xã Nam Hòa, huyện Nam Đàn, tỉnh Nghệ An.",
+    "url": "/dia-danh/huyen-nam-dan"
+   },
+   "Mất": {"name": "29 tháng 10, 1940 (72 tuổi) Huế"},
+   "Hiệu": {"name": "Hải Thụ/Sào Nam"},
+   "Bút danh": {"name": "Thị Hán, Phan Giải San, Sào Nam Tử, Hạo Sinh, Hiếu Hán"},
+   "Thân phụ": {"name": "Phan Văn Phổ"}
+  }
+ },
+ {
+  "name": "Lê Long Mang",
+  "description": "Lê Long Mang (chữ Hán: 黎龍鋩) là một hoàng tử của nhà Tiền Lê trong lịch sử Việt Nam. Ông là con trai thứ 10 của Vua Lê Đại Hành. Sinh tại kinh đô Hoa Lư, Ninh Bình, Việt Nam. Ông được vua phong tước Nam Quốc Vương(南國王), đóng tại Vu Lung, tức vùng đất thuộc tỉnh Thanh Hóa ngày nay. Căn cứ vào năm sinh người con trai thứ năm của vua Lê Đại Hành (986) và năm phong vương thì năm sinh của ông nằm trong khoảng từ 986 đến 994.\n",
+  "connection": [
+   {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   },
+   {
+    "name": "nhà Tiền Lê",
+    "url": "/nhan-vat/nha-tien-le"
+   },
+   {
+    "name": "tỉnh Thanh Hóa",
+    "url": "/dia-danh/tinh-thanh-hoa"
+   },
+   {
+    "name": "Ngô Thì Sĩ",
+    "url": "/nhan-vat/ngo-thi-si"
+   },
+   {
+    "name": "nhà Đinh",
+    "url": "/nhan-vat/nha-dinh"
+   },
+   {
+    "name": "Lê Long Thâu",
+    "url": "/nhan-vat/le-long-thau"
+   },
+   {
+    "name": "Lê Long Tích",
+    "url": "/nhan-vat/le-long-tich"
+   },
+   {
+    "name": "Lê Long Việt",
+    "url": "/nhan-vat/le-long-viet"
+   }
+  ],
+  "url": "/nhan-vat/le-long-mang",
+  "info": {
+   "Triều đại": {"name": "Nhà Tiền Lê"},
+   "Tước hiệu": {"name": "Nam Quốc Vương"},
+   "Sinh": {"name": "?, Hoa Lư, Ninh Bình"},
+   "Tên húy": {"name": "Lê Long Mang"},
+   "Mất": {"name": "?"},
+   "Tại vị": {"name": "994 - ?"},
+   "Thân phụ": {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   }
+  }
+ },
+ {
+  "name": "Phan Châu Trinh",
+  "description": "Phan Châu Trinh (còn được gọi Phan Chu Trinh; 1872\u20131926), hiệu là Tây Hồ,1 Hy Mã, tự là Tử Cán. Ông là nhà thơ, nhà văn, và là nhà hoạt động chính trị thời cận đại trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "tỉnh Quảng Nam",
+    "url": "/dia-danh/tinh-quang-nam"
+   },
+   {
+    "name": "Phan Chu Trinh",
+    "url": "/nhan-vat/phan-chu-trinh"
+   },
+   {
+    "name": "Trần Quý Cáp",
+    "url": "/nhan-vat/tran-quy-cap"
+   },
+   {
+    "name": "Huỳnh Thúc Kháng",
+    "url": "/nhan-vat/huynh-thuc-khang"
+   },
+   {
+    "name": "Nguyễn Sinh Sắc",
+    "url": "/nhan-vat/nguyen-sinh-sac"
+   },
+   {
+    "name": "Nguyễn Thông",
+    "url": "/nhan-vat/nguyen-thong"
+   },
+   {
+    "name": "Phan Bội Châu",
+    "url": "/nhan-vat/phan-boi-chau"
+   },
+   {
+    "name": "nước Việt",
+    "url": "/dia-danh/nuoc-viet"
+   }
+  ],
+  "url": "/nhan-vat/phan-chau-trinh",
+  "info": {
+   "Người tình": {"name": "Lê Thị Tỵ (vợ)"},
+   "Con cái": {"name": "Phan Châu Dật (trai) Phan Thị Châu Liên (gái) Phan Thị Châu Lan (gái)"},
+   "Sinh": {
+    "name": "Phan Châu Trinh phủ Tam Kỳ, tỉnh Quảng Nam, Đại Nam",
+    "url": "/dia-danh/tinh-quang-nam"
+   },
+   "Mất": {"name": "Sài Gòn, Đông Dương thuộc Pháp"},
+   "Tên khác": {"name": "Phan Tây Hồ"},
+   "Nghề nghiệp": {"name": "nhà thơ, nhà văn, nhà hoạt động chính trị"},
+   "Cha mẹ": {"name": "Phan Văn Bình (cha) Lê Thị Chung (mẹ)"},
+   "Nơi an nghỉ": {"name": "Sài Gòn"},
+   "Dân tộc": {"name": "Kinh"}
+  }
+ },
+ {
+  "name": "Phan Chu Trinh",
+  "description": "Phan Chu Trinh có thể là:\n",
+  "connection": [
+   {
+    "name": "Phan Châu Trinh",
+    "url": "/nhan-vat/phan-chau-trinh"
+   },
+   {
+    "name": "quận Hoàn Kiếm",
+    "url": "/dia-danh/quan-hoan-kiem"
+   }
+  ],
+  "url": "/nhan-vat/phan-chu-trinh",
+  "info": {}
+ },
+ {
+  "name": "Phạm Tu",
+  "description": "Phạm Tu (范脩, 476-545) là võ tướng, công thần khai quốc nhà Tiền Lý trong lịch sử Việt Nam. Ông là người có công giúp Lý Nam Đế đánh đuổi quân xâm lược nhà Lương, thành lập nước Vạn Xuân độc lập.\n",
+  "connection": [
+   {
+    "name": "huyện Thanh Trì",
+    "url": "/dia-danh/huyen-thanh-tri"
+   },
+   {
+    "name": "Lý Nam Đế",
+    "url": "/nhan-vat/ly-nam-de"
+   },
+   {
+    "name": "nhà Lương",
+    "url": "/nhan-vat/nha-luong"
+   },
+   {
+    "name": "nước Vạn Xuân",
+    "url": "/dia-danh/nuoc-van-xuan"
+   },
+   {
+    "name": "sông Tô",
+    "url": "/dia-danh/song-to"
+   },
+   {
+    "name": "châu Cửu Đức",
+    "url": "/dia-danh/chau-cuu-duc"
+   },
+   {
+    "name": "Lý Bí",
+    "url": "/nhan-vat/ly-bi"
+   },
+   {
+    "name": "Triệu Túc",
+    "url": "/nhan-vat/trieu-tuc"
+   }
+  ],
+  "url": "/nhan-vat/pham-tu",
+  "info": {}
+ },
+ {
+  "name": "Lê Long Thâu",
+  "description": "Lê Long Thâu (chữ Hán: 黎龍鍮, ? - 1000) là một hoàng tử của nhà Tiền Lê trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "nhà Tiền Lê",
+    "url": "/nhan-vat/nha-tien-le"
+   },
+   {
+    "name": "Lê Long Việt",
+    "url": "/nhan-vat/le-long-viet"
+   },
+   {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   },
+   {
+    "name": "tỉnh Ninh Bình",
+    "url": "/dia-danh/tinh-ninh-binh"
+   },
+   {
+    "name": "nhà Tống",
+    "url": "/nhan-vat/nha-tong"
+   },
+   {
+    "name": "Lê Hoàn",
+    "url": "/nhan-vat/le-hoan"
+   },
+   {
+    "name": "Dương Vân Nga",
+    "url": "/nhan-vat/duong-van-nga"
+   },
+   {
+    "name": "Phủ Vườn Thiên",
+    "url": "/dia-danh/phu-vuon-thien"
+   }
+  ],
+  "url": "/nhan-vat/le-long-thau",
+  "info": {
+   "Triều đại": {"name": "Nhà Tiền Lê"},
+   "Kế nhiệm": {
+    "name": "Lê Long Việt",
+    "url": "/nhan-vat/le-long-viet"
+   },
+   "Tước hiệu": {"name": "Kình Thiên Vương"},
+   "Sinh": {"name": "?"},
+   "Tên húy": {"name": "Lê Long Thâu"},
+   "Mất": {"name": "1000, Hoa Lư, Ninh Bình"},
+   "Tại vị": {"name": "989 - 1000"},
+   "Thân phụ": {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   }
+  }
+ },
+ {
+  "name": "Phạm Văn",
+  "description": "Phạm Văn (范文, ?-349) là tên (phiên âm Hán-Việt) của vị vua mở đầu triều đại thứ hai của Chăm Pa sau triều đại thứ nhất do Khu Liên thành lập\n",
+  "connection": [],
+  "url": "/nhan-vat/pham-van",
+  "info": {}
+ },
+ {
+  "name": "Phạm Tử Nghi",
+  "description": "Phạm Tử Nghi (范子儀, 1509-1551) là tướng nhà Mạc trong lịch sử Việt Nam, người làng Vinh Niệm, tổng An Dương, huyện An Dương, phủ Kinh Môn, trấn Hải Dương \u2013 nay là phường Vĩnh Niệm, quận Lê Chân, thành phố Hải Phòng, Việt Nam.\n",
+  "connection": [
+   {
+    "name": "nhà Mạc",
+    "url": "/nhan-vat/nha-mac"
+   },
+   {
+    "name": "huyện An Dương",
+    "url": "/dia-danh/huyen-an-duong"
+   },
+   {
+    "name": "thành phố Hải Phòng",
+    "url": "/dia-danh/thanh-pho-hai-phong"
+   },
+   {
+    "name": "xã An Dương",
+    "url": "/dia-danh/xa-an-duong"
+   },
+   {
+    "name": "Mạc Chính Trung",
+    "url": "/nhan-vat/mac-chinh-trung"
+   },
+   {
+    "name": "nhà Hậu Lê",
+    "url": "/nhan-vat/nha-hau-le"
+   },
+   {
+    "name": "Mạc Đăng Dung",
+    "url": "/nhan-vat/mac-dang-dung"
+   },
+   {
+    "name": "Nguyễn Kim",
+    "url": "/nhan-vat/nguyen-kim"
+   }
+  ],
+  "url": "/nhan-vat/pham-tu-nghi",
+  "info": {}
+ },
+ {
+  "name": "Phạm Tuân",
+  "description": "Phạm Tuân (sinh năm 1947) là phi công, phi hành gia người Việt Nam. Ông là người đầu tiên của Việt Nam và châu Á bay lên vũ trụ vào năm 1980 trong chương trình Interkosmos của Liên Xô.\n",
+  "connection": [
+   {
+    "name": "huyện Kiến Xương",
+    "url": "/dia-danh/huyen-kien-xuong"
+   },
+   {
+    "name": "tỉnh Thái Bình",
+    "url": "/dia-danh/tinh-thai-binh"
+   },
+   {
+    "name": "Võ Nguyên Giáp",
+    "url": "/nhan-vat/vo-nguyen-giap"
+   },
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   },
+   {
+    "name": "Điện Biên Phủ",
+    "url": "/dia-danh/dien-bien-phu"
+   }
+  ],
+  "url": "/nhan-vat/pham-tuan",
+  "info": {
+   "Hiện trạng": {"name": "Về hưu"},
+   "Phi vụ": {"name": "Soyuz 37 / 36"},
+   "Hàm": {"name": "Trung tướng Không quân Việt Nam"},
+   "Quốc tịch": {"name": "Việt Nam"},
+   "Chọn": {"name": "Nhóm Intercosmos 1979"},
+   "Thời gian trên không gian": {"name": "7 ngày 20 giờ 42 phút"},
+   "Sinh": {"name": ""},
+   "Huy hiệu công vụ": {"name": ""},
+   "Nghề trước": {"name": "Phi công"}
+  }
+ },
+ {
+  "name": "Phạm Văn Điển",
+  "description": "Phạm Văn Điển (范文典, 1769[1]- 1842), là danh tướng nhà Nguyễn trong lịch sử Việt Nam. Ông từng xông pha nhiều trận mạc, trải nhiều gian lao, nhưng nổi bật hơn cả là việc ông đã sai người thiêu chết thủ lĩnh Nông Văn Vân.\n",
+  "connection": [],
+  "url": "/nhan-vat/pham-van-dien",
+  "info": {}
+ },
+ {
+  "name": "Phạm Văn Sơn",
+  "description": "Phạm Văn Sơn (1915 - 1978) là một sử gia Việt Nam và là sĩ quan Quân lực Việt Nam Cộng hòa.\n",
+  "connection": [
+   {
+    "name": "Sông Thao",
+    "url": "/dia-danh/song-thao"
+   },
+   {
+    "name": "tỉnh Hà Đông",
+    "url": "/dia-danh/tinh-ha-dong"
+   },
+   {
+    "name": "thành phố Hà Nội",
+    "url": "/dia-danh/thanh-pho-ha-noi"
+   },
+   {
+    "name": "Nguyễn Huệ",
+    "url": "/nhan-vat/nguyen-hue"
+   },
+   {
+    "name": "huyện Sông Thao",
+    "url": "/dia-danh/huyen-song-thao"
+   },
+   {
+    "name": "tỉnh Phú Thọ",
+    "url": "/dia-danh/tinh-phu-tho"
+   }
+  ],
+  "url": "/nhan-vat/pham-van-son",
+  "info": {
+   "Quốc tịch": {"name": "Việt Nam"},
+   "Sinh": {"name": "Phạm Văn Sơn Hà Đông (nay thuộc Hà Nội), Việt Nam"},
+   "Quốc gia": {"name": "Việt Nam"},
+   "Mất": {
+    "name": "Sông Thao, Vĩnh Phú (nay là Yên Lập, Phú Thọ), Việt Nam",
+    "url": "/dia-danh/song-thao"
+   },
+   "Nghề nghiệp": {"name": "Sử gia, sĩ quan Quân lực Việt Nam Cộng hòa"},
+   "Nguyên nhân mất": {"name": "Chết trong trại tù cải tạo"}
+  }
+ },
+ {
+  "name": "Phạm Tuyên",
+  "description": "Phạm Tuyên (sinh năm 1930) là một nhạc sĩ Việt Nam nổi tiếng, cựu Chủ tịch Hội Âm nhạc Hà Nội,1 tác giả của bài hát \"Như có Bác trong ngày đại thắng\", một bài hát cộng đồng được nhiều người hát tại Việt Nam.\n",
+  "connection": [
+   {
+    "name": "huyện Bình Giang",
+    "url": "/dia-danh/huyen-binh-giang"
+   },
+   {
+    "name": "Trần Quốc Tuấn",
+    "url": "/nhan-vat/tran-quoc-tuan"
+   },
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   },
+   {
+    "name": "Nhà nước Việt Nam",
+    "url": "/nhan-vat/nha-nuoc-viet-nam"
+   },
+   {
+    "name": "Phạm Quỳnh",
+    "url": "/nhan-vat/pham-quynh"
+   },
+   {
+    "name": "Điện Biên Phủ",
+    "url": "/dia-danh/dien-bien-phu"
+   }
+  ],
+  "url": "/nhan-vat/pham-tuyen",
+  "info": {
+   "Ca sĩ trình bày thành công": {"name": "Quốc Hương, Trần Khánh, Quang Hưng"},
+   "Sinh": {"name": "12 tháng 1, 1930 (87 tuổi) Bình Giang, Hải Dương, Bắc Kỳ, Liên bang Đông Dương"},
+   "Nghề nghiệp": {"name": "Nhạc sĩ"},
+   "Ca khúc tiêu biểu": {"name": "Bài ca người thợ rừng, Bài ca người thợ mỏ, hợp xướng Miền Nam anh dũng và bất khuất, Như có Bác trong ngày đại thắng"},
+   "Tên khai sinh": {"name": "Phạm Tuyên"},
+   "Thể loại": {"name": "Nhạc đỏ, nhạc thiếu nhi"}
+  }
+ },
+ {
+  "name": "Phạm Văn Đồng",
+  "description": "Phạm Văn Đồng (1 tháng 3 năm 1906 \u2013 29 tháng 4 năm 2000) là Thủ tướng đầu tiên của nước Cộng hòa Xã hội chủ nghĩa Việt Nam từ năm 1976 (từ năm 1981 gọi là Chủ tịch Hội đồng Bộ trưởng) cho đến khi nghỉ hưu năm 1987. Trước đó ông từng giữ chức vụ Thủ tướng Chính phủ Việt Nam Dân chủ Cộng hòa từ năm 1955 đến năm 1976. Ông là vị Thủ tướng Việt Nam tại vị lâu nhất (1955\u20131987). Ông là học trò, cộng sự của Chủ tịch Hồ Chí Minh. Ông có tên gọi thân mật là Tô1 2 3 , đây từng là bí danh của ông4 5 6 . Ông còn có tên gọi là Lâm Bá Kiệt khi làm Phó chủ nhiệm cơ quan Biện sự xứ tại Quế Lâm (Chủ nhiệm là Hồ Học Lãm).\n",
+  "connection": [
+   {
+    "name": "Phạm Văn",
+    "url": "/nhan-vat/pham-van"
+   },
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   },
+   {
+    "name": "Phạm Hùng",
+    "url": "/nhan-vat/pham-hung"
+   },
+   {
+    "name": "Hoàng Minh Giám",
+    "url": "/nhan-vat/hoang-minh-giam"
+   },
+   {
+    "name": "Phan Châu Trinh",
+    "url": "/nhan-vat/phan-chau-trinh"
+   },
+   {
+    "name": "Võ Nguyên Giáp",
+    "url": "/nhan-vat/vo-nguyen-giap"
+   },
+   {
+    "name": "Nguyễn Ái Quốc",
+    "url": "/nhan-vat/nguyen-ai-quoc"
+   },
+   {
+    "name": "Nguyễn Tường Tam",
+    "url": "/nhan-vat/nguyen-tuong-tam"
+   }
+  ],
+  "url": "/nhan-vat/pham-van-dong",
+  "info": {
+   "Kế nhiệm": {"name": "Ung Văn Khiêm"},
+   "Sinh": {"name": "1 tháng 3, 1906 Đức Tân, Mộ Đức, Quảng Ngãi, Liên bang Đông Dương"},
+   "Mất": {"name": "29 tháng 4, 2000 (94 tuổi) Hà Nội, Việt Nam"},
+   "Nhiệm kỳ": {"name": "tháng 4 năm 1954 \u2013 tháng 2 năm 1961"},
+   "Đảng phái": {"name": "Đảng Cộng sản Việt Nam"},
+   "Tiền nhiệm": {
+    "name": "Hoàng Minh Giám",
+    "url": "/nhan-vat/hoang-minh-giam"
+   }
+  }
+ },
+ {
+  "name": "Lê Long Tích",
+  "description": "Lê Long Tích (chữ Hán: 黎龍錫; ? - 1005) là con thứ hai của Lê Đại Hành. Sinh thời ông được nhận tước phong là Đông Thành vương (東城王). Hiện còn 2 di tích riêng thuộc cố đô Hoa Lư tỉnh Ninh Bình là nơi thờ Đông Thành Vương Lê Ngân Tích.\n",
+  "connection": [
+   {
+    "name": "Thành Vương",
+    "url": "/nhan-vat/thanh-vuong"
+   },
+   {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   },
+   {
+    "name": "tỉnh Ninh Bình",
+    "url": "/dia-danh/tinh-ninh-binh"
+   },
+   {
+    "name": "Lê Long Thâu",
+    "url": "/nhan-vat/le-long-thau"
+   },
+   {
+    "name": "Lê Long Việt",
+    "url": "/nhan-vat/le-long-viet"
+   },
+   {
+    "name": "Lê Long Tung",
+    "url": "/nhan-vat/le-long-tung"
+   },
+   {
+    "name": "nhà Lý",
+    "url": "/nhan-vat/nha-ly"
+   },
+   {
+    "name": "Lê Hoàn",
+    "url": "/nhan-vat/le-hoan"
+   }
+  ],
+  "url": "/nhan-vat/le-long-tich",
+  "info": {
+   "Triều đại": {"name": "Nhà Tiền Lê"},
+   "Tước hiệu": {"name": "Đông Thành Đại Vương"},
+   "Sinh": {"name": "?"},
+   "Tên húy": {"name": "Lê Long Tích Lê Ngân Tích"},
+   "Mất": {"name": "1005, Thạch Hà, Nghệ An"},
+   "Tại vị": {"name": "989 - 1005"},
+   "Thân phụ": {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   }
+  }
+ },
+ {
+  "name": "Phạm Văn Tham",
+  "description": "Phạm Văn Tham (chữ Hán: 范文參; ?-1789) một tướng lĩnh của phong trào Tây Sơn.\n",
+  "connection": [
+   {
+    "name": "Phạm Ngạn",
+    "url": "/nhan-vat/pham-ngan"
+   },
+   {
+    "name": "Nguyễn Lữ",
+    "url": "/nhan-vat/nguyen-lu"
+   }
+  ],
+  "url": "/nhan-vat/pham-van-tham",
+  "info": {}
+ },
+ {
+  "name": "Lê Long Tung",
+  "description": "Lê Long Tung (chữ Hán: 黎龍鏦) là một hoàng tử của nhà Tiền Lê trong lịch sử Việt Nam. Ông là con trai thứ 7 của Vua Lê Đại Hành. Sinh tại kinh đô Hoa Lư, Ninh Bình, Việt Nam. Ông được vua phong tước Định Phiên Vương (定藩王), đóng tại Tư Doanh, tức vùng đất thuộc Cổ Loa Hà Nội ngày nay.[1] Căn cứ vào năm sinh người con trai thứ năm của vua Lê Đại Hành (986) và năm phong vương thì năm sinh của ông nằm trong khoảng từ 986 đến 993.\n",
+  "connection": [
+   {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   },
+   {
+    "name": "nhà Tiền Lê",
+    "url": "/nhan-vat/nha-tien-le"
+   },
+   {
+    "name": "Thành Vương",
+    "url": "/nhan-vat/thanh-vuong"
+   },
+   {
+    "name": "Bùi Dương Lịch",
+    "url": "/nhan-vat/bui-duong-lich"
+   },
+   {
+    "name": "nhà Lý",
+    "url": "/nhan-vat/nha-ly"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "biển Đông",
+    "url": "/dia-danh/bien-dong"
+   },
+   {
+    "name": "huyện Diễn Châu",
+    "url": "/dia-danh/huyen-dien-chau"
+   }
+  ],
+  "url": "/nhan-vat/le-long-tung",
+  "info": {
+   "Triều đại": {"name": "Nhà Tiền Lê"},
+   "Tước hiệu": {"name": "Định Phiên Vương"},
+   "Sinh": {"name": "?, Hoa Lư, Ninh Bình"},
+   "Tên húy": {"name": "Lê Long Tung"},
+   "Mất": {"name": "?"},
+   "Tại vị": {"name": "993 - 1009"},
+   "Thân phụ": {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   }
+  }
+ },
+ {
+  "name": "Phạm Văn Huấn",
+  "description": "Phạm Văn Huấn1 là một sĩ quan cấp cao trong Quân đội Nhân dân Việt Nam, hàm Thiếu tướng, Tổng Biên tập Báo Quân đội Nhân dân2\n",
+  "connection": [],
+  "url": "/nhan-vat/pham-van-huan",
+  "info": {}
+ },
+ {
+  "name": "Lê Mã Lương",
+  "description": "Lê Mã Lương (sinh 1950) là một tướng lĩnh cấp cao của Quân đội Nhân dân Việt Nam, hàm Thiếu tướng, nguyên Giám đốc Bảo tàng Lịch sử Quân sự Việt Nam, Anh hùng Lực lượng vũ trang Nhân dân.1\n",
+  "connection": [{
+   "name": "Điện Biên Phủ",
+   "url": "/dia-danh/dien-bien-phu"
+  }],
+  "url": "/nhan-vat/le-ma-luong",
+  "info": {
+   "Danh hiệu": {"name": "Anh hùng Lực lượng vũ trang Nhân dân"},
+   "Sinh": {"name": "1950 Trung Thành, Nông Cống, Thanh Hóa"},
+   "Cấp bậc": {"name": "Thiếu tướng"},
+   "Vị trí": {"name": "Việt Nam"},
+   "Nhiệm kỳ": {"name": "2006 \u2013 2011"},
+   "Thuộc": {"name": "Quân đội nhân dân Việt Nam"}
+  }
+ },
+ {
+  "name": "Phạm Văn Trà",
+  "description": "Phạm Văn Trà (sinh ngày 19 tháng 8 năm 1935) là một chính khách Việt Nam, Anh hùng lực lượng vũ trang nhân dân Việt Nam (1976), ông mang quân hàm Đại tướng và từng là Bộ trưởng Bộ Quốc phòng Việt Nam từ năm 1997 đến năm 2006, Tổng Tham mưu trưởng Quân đội nhân dân Việt Nam (1995 - 1997), Ủy viên Bộ Chính trị khóa VIII, IX.\n",
+  "connection": [
+   {
+    "name": "Trần Hanh",
+    "url": "/nhan-vat/tran-hanh"
+   },
+   {
+    "name": "Trương Khánh Châu",
+    "url": "/nhan-vat/truong-khanh-chau"
+   },
+   {
+    "name": "Nguyễn Huy Hiệu",
+    "url": "/nhan-vat/nguyen-huy-hieu"
+   },
+   {
+    "name": "Nguyễn Văn Rinh",
+    "url": "/nhan-vat/nguyen-van-rinh"
+   },
+   {
+    "name": "Nguyễn Văn Được",
+    "url": "/nhan-vat/nguyen-van-duoc"
+   },
+   {
+    "name": "Phan Trung Kiên",
+    "url": "/nhan-vat/phan-trung-kien"
+   },
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   },
+   {
+    "name": "tỉnh Bắc Ninh",
+    "url": "/dia-danh/tinh-bac-ninh"
+   }
+  ],
+  "url": "/nhan-vat/pham-van-tra",
+  "info": {
+   "Thứ trưởng": {
+    "name": "Trần Hanh (1996 - 2000) Trương Khánh Châu (1996 - 2000) Đào Trọng Lịch (1997 - 1998) Nguyễn Huy Hiệu (1998 - 2011) Nguyễn Văn Rinh (1998 - 2007) Nguyễn Văn Được (2002 - 2011) Phan Trung Kiên (2002 - 2011)",
+    "url": "/nhan-vat/tran-hanh"
+   },
+   "Kế nhiệm": {"name": "Nguyễn Thế Trị"},
+   "Năm tại ngũ": {"name": "1953\u20132006"},
+   "Nhiệm kỳ": {"name": "1985 \u2013 1988"},
+   "Đảng phái": {"name": "Đảng Cộng sản Việt Nam"},
+   "Chỉ huy": {"name": "Trung đoàn 1, Quân khu 9 Ban Tham mưu Sư đoàn 4 Ban Tham mưu Sư đoàn 330 Sư đoàn 330 Ban Tham mưu Quân khu 9 Quân khu 3 Bộ Tổng tham mưu"},
+   "Tiền nhiệm": {"name": "Nguyễn Trọng Xuyên"},
+   "Tham chiến": {
+    "name": "Chiến dịch Mậu Thân 1968 Chiến dịch Hồ Chí Minh Chiến tranh biên giới Tây Nam",
+    "url": "/nhan-vat/ho-chi-minh"
+   },
+   "Khen thưởng": {"name": "Huân chương Quân công hạng nhất Huân chương Chiến công hạng nhì Anh hùng Lực lượng vũ trang nhân dân ..."},
+   "Quốc tịch": {"name": "Việt Nam"},
+   "Sinh": {"name": "19 tháng 8, 1935 (85 tuổi) Quế Võ, Bắc Ninh, Liên bang Đông Dương"},
+   "Cấp bậc": {"name": "Đại tướng"},
+   "Vị trí": {"name": "Việt Nam"},
+   "Thuộc": {"name": "Quân đội nhân dân Việt Nam"}
+  }
+ },
+ {
+  "name": "Phạm Văn Phú",
+  "description": "Phạm Văn Phú (1928-1975), nguyên là một tướng lĩnh gốc Nhảy dù của Quân lực Việt Nam Cộng hòa, cấp bậc Thiếu tướng. Ông xuất thân từ trường Võ bị Liên quân do Chính phủ Quốc gia Việt Nam mở ra ở nam Cao nguyên Trung phần vào thời điểm Quân đội Quốc gia còn là thành phần trong Quân đội Liên hiệp Pháp. Ra trường, ông gia nhập vào Binh chủng Nhảy dù, về sau ông chuyển sang Chỉ huy Binh chủng Lực lượng Đặc biệt và Bộ binh cấp Sư đoàn. Sau cùng ông là Tư lệnh một trong 4 Quân đoàn và Vùng chiến thuật của Quân lực Cộng hòa. Ông là một trong năm tướng lĩnh Việt Nam Cộng hòa đã tự sát trong sự kiện 30 tháng 4 năm 1975.\n",
+  "connection": [
+   {
+    "name": "Điện Biên",
+    "url": "/dia-danh/dien-bien"
+   },
+   {
+    "name": "sông Bến Hải",
+    "url": "/dia-danh/song-ben-hai"
+   },
+   {
+    "name": "tỉnh Quảng Trị",
+    "url": "/dia-danh/tinh-quang-tri"
+   },
+   {
+    "name": "tỉnh Vĩnh Long",
+    "url": "/dia-danh/tinh-vinh-long"
+   },
+   {
+    "name": "Nguyễn Khánh",
+    "url": "/nhan-vat/nguyen-khanh"
+   },
+   {
+    "name": "Ngô Quang Trưởng",
+    "url": "/nhan-vat/ngo-quang-truong"
+   },
+   {
+    "name": "Nguyễn Văn Toàn",
+    "url": "/nhan-vat/nguyen-van-toan"
+   },
+   {
+    "name": "Nguyễn Văn Thiệu",
+    "url": "/nhan-vat/nguyen-van-thieu"
+   }
+  ],
+  "url": "/nhan-vat/pham-van-phu",
+  "info": {
+   "Tham chiến": {"name": "Chiến tranh Việt Nam"},
+   "Khen thưởng": {"name": "B.quốc H.chương đệ III1"},
+   "Đơn vị": {"name": "Binh chủng Nhảy dù Sư đoàn 1 Bộ binh Lực lượng Đặc biệt TTHL Quang Trung Quân đoàn II và QK 2"},
+   "Sinh": {"name": "16 tháng 10 năm 1928 Hà Đông, Việt Nam"},
+   "Cấp bậc": {"name": "Thiếu tướng"},
+   "Mất": {"name": "30 tháng 4, 1975 (47 tuổi) Sài Gòn, Việt Nam"},
+   "Năm tại ngũ": {"name": "1952-1975"},
+   "Chỉ huy": {"name": "QĐ Liên hiệp Pháp Quân đội Quốc gia Quân lực VNCH"},
+   "Phục vụ": {"name": "Việt Nam Cộng hòa"},
+   "Thuộc": {"name": "Quân lực VNCH"}
+  }
+ },
+ {
+  "name": "Lê Long Tương",
+  "description": "Lê Long Tương (chữ Hán: 黎龍鏘) là một hoàng tử của nhà Tiền Lê trong lịch sử Việt Nam. Ông là con trai thứ 8 của Vua Lê Đại Hành. Sinh tại kinh đô Hoa Lư, Ninh Bình, Việt Nam. Ông được vua phong tước Phó Vương(副王) năm 993,[1] đóng tại Đỗ Động Giang, tức vùng đất thuộc các huyện Thanh Oai, Quốc Oai phía tây Hà Nội ngày nay. Căn cứ vào năm sinh người con trai thứ năm của vua Lê Đại Hành (986) và năm phong vương thì năm sinh của ông nằm trong khoảng từ 986 đến 993.\n",
+  "connection": [
+   {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   },
+   {
+    "name": "nhà Tiền Lê",
+    "url": "/nhan-vat/nha-tien-le"
+   },
+   {
+    "name": "huyện Thanh Oai",
+    "url": "/dia-danh/huyen-thanh-oai"
+   },
+   {
+    "name": "Ngô Thì Sĩ",
+    "url": "/nhan-vat/ngo-thi-si"
+   },
+   {
+    "name": "nhà Đinh",
+    "url": "/nhan-vat/nha-dinh"
+   },
+   {
+    "name": "Lê Long Thâu",
+    "url": "/nhan-vat/le-long-thau"
+   },
+   {
+    "name": "Lê Long Tích",
+    "url": "/nhan-vat/le-long-tich"
+   },
+   {
+    "name": "Lê Long Việt",
+    "url": "/nhan-vat/le-long-viet"
+   }
+  ],
+  "url": "/nhan-vat/le-long-tuong",
+  "info": {
+   "Triều đại": {"name": "Nhà Tiền Lê"},
+   "Tước hiệu": {"name": "Phó Vương"},
+   "Sinh": {"name": "?, Hoa Lư, Ninh Bình"},
+   "Tên húy": {"name": "Lê Long Tương"},
+   "Mất": {"name": "?"},
+   "Tại vị": {"name": "993 - ?"},
+   "Thân phụ": {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   }
+  }
+ },
+ {
+  "name": "Lê Mẫn Đế",
+  "description": "Lê Chiêu Thống (chữ Hán: 黎昭統, 1765 \u2013 1793), tên thật là Lê Duy Khiêm (黎維 ), khi lên ngôi lại đổi tên là Lê Duy Kỳ (黎維祁)1 , là vị hoàng đế thứ 16 và là cuối cùng của nhà Lê trung hưng, thực ở ngôi từ cuối tháng 7 âm lịch2 năm 1786 tới đầu tháng 1 năm 1789.\n",
+  "connection": [
+   {
+    "name": "Lê Duy Kỳ",
+    "url": "/nhan-vat/le-duy-ky"
+   },
+   {
+    "name": "Lê Chiêu Thống",
+    "url": "/nhan-vat/le-chieu-thong"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "nhà Tây Sơn",
+    "url": "/nhan-vat/nha-tay-son"
+   },
+   {
+    "name": "nhà Thanh",
+    "url": "/nhan-vat/nha-thanh"
+   },
+   {
+    "name": "Trịnh Sâm",
+    "url": "/nhan-vat/trinh-sam"
+   },
+   {
+    "name": "Trịnh Cán",
+    "url": "/nhan-vat/trinh-can"
+   },
+   {
+    "name": "Trịnh Khải",
+    "url": "/nhan-vat/trinh-khai"
+   }
+  ],
+  "url": "/nhan-vat/le-man-de",
+  "info": {
+   "Thụy hiệu": {"name": "Mẫn Hoàng đế (愍皇帝)"},
+   "Niên hiệu": {"name": "Chiêu Thống (昭統)"},
+   "Kế nhiệm": {"name": "Triều đại sụp đổ Nhà Tây Sơn"},
+   "Thân mẫu": {"name": "Mẫn Thái hậu"},
+   "Tên thật": {
+    "name": "Lê Duy Khiêm (黎維兼) Lê Duy Kỳ (黎維祁)",
+    "url": "/nhan-vat/le-duy-ky"
+   },
+   "Tiền nhiệm": {"name": "Lê Hiển Tông"},
+   "Thê thiếp": {"name": "Nguyễn Thị Kim"},
+   "Triều đại": {"name": "Nhà Lê trung hưng"},
+   "Trị vì": {"name": "1786 \u2013 1789"},
+   "Sinh": {"name": "1765 Đông Kinh, Đại Việt"},
+   "Mất": {"name": "1793 (27\u201328 tuổi) Yên Kinh, Đại Thanh"},
+   "An táng": {"name": "tháng 11 năm 1804 Lăng Bàn Thạch, Việt Nam"},
+   "Thân phụ": {"name": "Lê Duy Vĩ"}
+  }
+ },
+ {
+  "name": "Phạm Văn Tuấn",
+  "description": "Phạm Văn Tuấn (1221-?) người xã Nghĩa Lư (nay là thôn Nghĩa Phú, xã Cẩm Vũ, huyện Cẩm Giàng, tỉnh Hải Dương), là cháu nội của Phạm Tử Hư; đỗ Bảng Nhãn1 khoa thi Đại tỉ Thủ Sĩ năm Bính Ngọ, niên hiệu Thiên Ứng Chính Bình 15 (1246) đời Trần Thái Tông. Ông làm qua đến chức Hành Khiển hàm Thái phó, tước Trình Quốc Công, khi mất được tặng Tư Đô.2\n",
+  "connection": [
+   {
+    "name": "huyện Cẩm Giàng",
+    "url": "/dia-danh/huyen-cam-giang"
+   },
+   {
+    "name": "tỉnh Hải Dương",
+    "url": "/dia-danh/tinh-hai-duong"
+   },
+   {
+    "name": "Trần Thái Tông",
+    "url": "/nhan-vat/tran-thai-tong"
+   }
+  ],
+  "url": "/nhan-vat/pham-van-tuan",
+  "info": {}
+ },
+ {
+  "name": "Lê Long Việt",
+  "description": "Lê Trung Tông (chữ Hán: 黎中宗; 983 \u2013 1005) là vị hoàng đế thứ hai của nhà Tiền Lê, tại vị được ba ngày.\n",
+  "connection": [
+   {
+    "name": "Lê Trung Tông",
+    "url": "/nhan-vat/le-trung-tong"
+   },
+   {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   },
+   {
+    "name": "nhà Tiền Lê",
+    "url": "/nhan-vat/nha-tien-le"
+   },
+   {
+    "name": "Ngô Sĩ Liên",
+    "url": "/nhan-vat/ngo-si-lien"
+   },
+   {
+    "name": "Lý Công Uẩn",
+    "url": "/nhan-vat/ly-cong-uan"
+   },
+   {
+    "name": "nhà Hậu Lê",
+    "url": "/nhan-vat/nha-hau-le"
+   },
+   {
+    "name": "sông Cà Lồ",
+    "url": "/dia-danh/song-ca-lo"
+   },
+   {
+    "name": "Lê Long Tung",
+    "url": "/nhan-vat/le-long-tung"
+   }
+  ],
+  "url": "/nhan-vat/le-long-viet",
+  "info": {
+   "Triều đại": {"name": "Nhà Tiền Lê"},
+   "Thụy hiệu": {"name": "Trung Tông hoàng đế"},
+   "Kế nhiệm": {"name": "Lê Long Đĩnh"},
+   "Thân mẫu": {"name": "Chi hậu Diệu Nữ"},
+   "Tên thật": {"name": "Lê Long Việt (黎龍鉞)"},
+   "Sinh": {"name": "983 Hoa Lư"},
+   "Mất": {"name": "1005 (21\u201322 tuổi) Đại Cồ Việt"},
+   "Miếu hiệu": {"name": "Trung Tông (中宗)"},
+   "Tại vị": {"name": "1005 (3 ngày)"},
+   "Tiền nhiệm": {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   },
+   "Thân phụ": {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   }
+  }
+ },
+ {
+  "name": "Lê Mạnh Thát",
+  "description": "Giáo sư, tiến sĩ, sử gia, thiền sư1 Lê Mạnh Thát, pháp danh là Thượng tọa Thích Trí Siêu sinh ngày 15 tháng 4 năm 1944 tại Làng Cu Hoan, Xã Hải Thiện, huyện Hải Lăng, tỉnh Quảng Trị. Ông là một lãnh tụ của Giáo hội Phật giáo Việt Nam Thống nhất, và bị tuyên án tử hình năm 1988. Ông được biết nhiều bởi những công trình nghiên cứu về lịch sử Phật giáo cũng như lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "tỉnh Quảng Trị",
+    "url": "/dia-danh/tinh-quang-tri"
+   },
+   {
+    "name": "huyện Hải Lăng",
+    "url": "/dia-danh/huyen-hai-lang"
+   },
+   {
+    "name": "Dương Vương",
+    "url": "/nhan-vat/duong-vuong"
+   },
+   {
+    "name": "Ngô Sỹ Liên",
+    "url": "/nhan-vat/ngo-sy-lien"
+   },
+   {
+    "name": "Triệu Đà",
+    "url": "/nhan-vat/trieu-da"
+   },
+   {
+    "name": "nhà Thục",
+    "url": "/nhan-vat/nha-thuc"
+   },
+   {
+    "name": "Trưng Trắc",
+    "url": "/nhan-vat/trung-trac"
+   },
+   {
+    "name": "Trưng Nhị",
+    "url": "/nhan-vat/trung-nhi"
+   }
+  ],
+  "url": "/nhan-vat/le-manh-that",
+  "info": {
+   "Sinh": {
+    "name": "15 tháng 4, 1944 (73 tuổi) Huyện Hải Lăng, tỉnh Quảng Trị",
+    "url": "/dia-danh/tinh-quang-tri"
+   },
+   "Quốc gia": {"name": "Việt Nam"},
+   "Tên khác": {"name": "Thích Trí Siêu (pháp danh)"}
+  }
+ },
+ {
+  "name": "Phạm Thị Hải Chuyền",
+  "description": "Phạm Thị Hải Chuyền (sinh năm 1952, quê quán: huyện Yên Dũng, tỉnh Bắc Giang) là một chính khách Việt Nam. Bà nguyên là Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam khóa X, XI, Đại biểu Quốc hội Việt Nam khóa X. Ngày 3 tháng 8 năm 2011 bà được Quốc hội phê chuẩn làm Bộ trưởng Bộ Lao động, Thương binh và Xã hội là người kế nhiệm cho bà Nguyễn Thị Kim Ngân. Bà nguyên Phó Chủ nhiệm Thường trực Ủy ban Kiểm tra Trung ương.\n",
+  "connection": [],
+  "url": "/nhan-vat/pham-thi-hai-chuyen",
+  "info": {
+   "Kế nhiệm": {"name": "Chưa có"},
+   "Sinh": {"name": "19 tháng 8, 1952 (66 tuổi) Bắc Giang, Việt Nam Dân chủ Cộng hòa"},
+   "Tôn giáo": {"name": "Không"},
+   "Nhiệm kỳ": {"name": "9 tháng 11 năm 2016 \u2013 nay 2 năm, 102 ngày"},
+   "Đảng phái": {"name": "Đảng Cộng sản Việt Nam"},
+   "Tiền nhiệm": {"name": "Cù Thị Hậu"}
+  }
+ },
+ {
+  "name": "Lê Mao",
+  "description": "Lê Mao, hay còn gọi Lê Viết Mao (1903-1931), bí danh là Cát, là nhà cách mạng Việt Nam, một trong những người lãnh đạo phong trào Xô Viết Nghệ Tĩnh. Ông là Bí thư Xứ ủy Trung Kỳ và Ủy viên Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam.\n",
+  "connection": [
+   {
+    "name": "thành phố Vinh",
+    "url": "/dia-danh/thanh-pho-vinh"
+   },
+   {
+    "name": "tỉnh Nghệ An",
+    "url": "/dia-danh/tinh-nghe-an"
+   },
+   {
+    "name": "Phan Bội Châu",
+    "url": "/nhan-vat/phan-boi-chau"
+   },
+   {
+    "name": "Phan Châu Trinh",
+    "url": "/nhan-vat/phan-chau-trinh"
+   },
+   {
+    "name": "Nguyễn Phong Sắc",
+    "url": "/nhan-vat/nguyen-phong-sac"
+   },
+   {
+    "name": "Đinh Xuân Lâm",
+    "url": "/nhan-vat/dinh-xuan-lam"
+   }
+  ],
+  "url": "/nhan-vat/le-mao",
+  "info": {}
+ },
+ {
+  "name": "Phạm Văn Xảo",
+  "description": "Phạm Văn Xảo (chữ Hán: 范文巧, ? \u2013 14301 hoặc 14312 ) là công thần khai quốc nhà Lê sơ, người ở miền Kinh lộ.\n",
+  "connection": [
+   {
+    "name": "Phạm Văn",
+    "url": "/nhan-vat/pham-van"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   },
+   {
+    "name": "Đỗ Bí",
+    "url": "/nhan-vat/do-bi"
+   },
+   {
+    "name": "Trịnh Khả",
+    "url": "/nhan-vat/trinh-kha"
+   },
+   {
+    "name": "Lê Triện",
+    "url": "/nhan-vat/le-trien"
+   },
+   {
+    "name": "Bùi Bị",
+    "url": "/nhan-vat/bui-bi"
+   },
+   {
+    "name": "Nguyễn Xí",
+    "url": "/nhan-vat/nguyen-xi"
+   }
+  ],
+  "url": "/nhan-vat/pham-van-xao",
+  "info": {}
+ },
+ {
+  "name": "Lê Lựu",
+  "description": "Nhà văn Lê Lựu sinh ngày 12 tháng 12 năm 1942 tại xã Tân Châu, huyện Khoái Châu - Hưng Yên, là một nhà văn Việt Nam, thành viên của Hội nhà văn Việt Nam từ năm 1974, chuyên về tiểu thuyết và truyện ngắn, tiêu biểu là Thời xa vắng đã được đạo diễn Hồ Quang Minh của Hãng phim Giải Phóng dựng thành phim truyện nhựa và ra mắt công chúng năm 2004. Ông hiện nay đang đảm nhiệm chức Giám đốc của Trung tâm Văn hóa Doanh nhân tại Hà Nội.\n",
+  "connection": [{
+   "name": "huyện Khoái Châu",
+   "url": "/dia-danh/huyen-khoai-chau"
+  }],
+  "url": "/nhan-vat/le-luu",
+  "info": {
+   "Công việc": {"name": "nhà văn"},
+   "Sinh": {"name": "ngày 12/12/1942 Khoái Châu - Hưng Yên"}
+  }
+ },
+ {
+  "name": "Phạm Thị Hằng",
+  "description": "Nghi Thiên Chương Hoàng hậu (chữ Hán: 儀天章皇后; 20 tháng 6 năm 1810 - 12 tháng 5 năm 1902), hay Từ Dụ hoàng thái hậu (慈裕皇太后) hoặc Nghi Thiên thái hoàng thái hậu (儀天太皇太后), là chính thất Quý phi của Thiệu Trị Hoàng đế, thân mẫu của Tự Đức. Bà là tổ mẫu trên danh nghĩa của các Hoàng đế Dục Đức, Kiến Phúc, Hàm Nghi, Đồng Khánh và là tằng tổ mẫu trên danh nghĩa của hai vị vua Thành Thái và Khải Định\n",
+  "connection": [
+   {
+    "name": "Thành Thái",
+    "url": "/nhan-vat/thanh-thai"
+   },
+   {
+    "name": "Thành phố Hồ Chí Minh",
+    "url": "/dia-danh/thanh-pho-ho-chi-minh"
+   },
+   {
+    "name": "tỉnh Gia Định",
+    "url": "/dia-danh/tinh-gia-dinh"
+   },
+   {
+    "name": "tỉnh Tiền Giang",
+    "url": "/dia-danh/tinh-tien-giang"
+   },
+   {
+    "name": "thành Huế",
+    "url": "/dia-danh/thanh-hue"
+   },
+   {
+    "name": "Tôn Thất Thuyết",
+    "url": "/nhan-vat/ton-that-thuyet"
+   },
+   {
+    "name": "Phan Đình Phùng",
+    "url": "/nhan-vat/phan-dinh-phung"
+   },
+   {
+    "name": "Nguyễn Hữu Độ",
+    "url": "/nhan-vat/nguyen-huu-do"
+   }
+  ],
+  "url": "/nhan-vat/pham-thi-hang",
+  "info": {
+   "Thụy hiệu": {"name": "Nghi Thiên Tán Thánh Từ Dụ Bác Huệ Trai Túc Tuệ Đạt Thọ Đức Nhân Công Chương hoàng hậu 儀天贊聖慈裕博惠齋肅慧達壽德仁功章皇后"},
+   "Kế nhiệm": {"name": "Trang Ý Thái hoàng thái hậu"},
+   "Thân mẫu": {"name": "Phạm Phu nhân"},
+   "Tiền nhiệm": {"name": "Nhân Tuyên Thái hoàng thái hậu"},
+   "Tên đầy đủ": {"name": "Phạm Thị Hằng (范氏姮)"},
+   "Phu quân": {"name": "Thiệu Trị Thiệu Trị hoàng đế"},
+   "Tước hiệu": {"name": "Phủ thiếp Nhị giai Thành phi Nhất giai Quý phi Hoàng thái hậu Thái hoàng thái hậu Thái thái hoàng thái hậu"},
+   "Sinh": {"name": "20 tháng 6, 1810 Tân Hòa (sau là Gò Công), Đại Nam"},
+   "Mất": {"name": "12 tháng 5, 1902 (91 tuổi) Huế, Đại Nam"},
+   "Tôn giáo": {"name": "Phật giáo"},
+   "Hoàng tộc": {"name": "Nhà Nguyễn"},
+   "Tại vị": {"name": "1885 - 1902"},
+   "Hậu duệ": {"name": "Hậu duệ Diên Phúc Công chúa Tự Đức Hoàng nữ Uyên Ý"},
+   "An táng": {"name": "Xương Thọ Lăng"},
+   "Thân phụ": {"name": "Phạm Đăng Hưng"}
+  }
+ },
+ {
+  "name": "Lê Nại",
+  "description": "Lê Nại (chữ Hán: 黎鼐, 1479 - ?), hiệu Nam Hiên, người xã Mộ Trạch, huyện Đường Am, phủ Thượng Hồng (nay là huyện Bình Giang, tỉnh Hải Dương). Ông đỗ Đệ nhất giáp Tiến sĩ cập đệ Đệ nhất danh (Trạng nguyên) năm 27 tuổi, tại khoa Ất Sửu năm Đoan Khánh thứ 1 (1505) đời Lê Uy Mục1 , trong tháng 2 âm lịch năm đó cùng bảng nhãn Bùi Doãn Văn, thám hoa Trần Phỉ và 52 người khác đỗ tiến sĩ. Ông là con rể của hoàng giáp Vũ Quỳnh và cháu nội của danh thần Lê Cảnh Tuân đã tuẫn quốc dưới thời Minh thuộc. Ông có tiếng hay chữ, thi hương, thi đình đều đỗ đầu. Làm quan tới chức Hữu thị lang bộ Hộ. Sau khi mất, được triều đình truy tặng tước Đạo Trạch bá.\n",
+  "connection": [
+   {
+    "name": "huyện Bình Giang",
+    "url": "/dia-danh/huyen-binh-giang"
+   },
+   {
+    "name": "tỉnh Hải Dương",
+    "url": "/dia-danh/tinh-hai-duong"
+   },
+   {
+    "name": "Lê Uy Mục",
+    "url": "/nhan-vat/le-uy-muc"
+   },
+   {
+    "name": "Vũ Quỳnh",
+    "url": "/nhan-vat/vu-quynh"
+   },
+   {
+    "name": "Lê Cảnh Tuân",
+    "url": "/nhan-vat/le-canh-tuan"
+   },
+   {
+    "name": "Lê Quang Bí",
+    "url": "/nhan-vat/le-quang-bi"
+   }
+  ],
+  "url": "/nhan-vat/le-nai",
+  "info": {}
+ },
+ {
+  "name": "Phạm Sư Mạnh",
+  "description": "Phạm Sư Mạnh (chữ Hán: 范師孟; ? - ?), tên thật là Phạm Độ, tự Nghĩa Phu, hiệu Úy Trai, biệt hiệu Hiệp Thạch; là danh sĩ và là quan nhà Trần trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "nhà Trần",
+    "url": "/nhan-vat/nha-tran"
+   },
+   {
+    "name": "huyện Kinh Môn",
+    "url": "/dia-danh/huyen-kinh-mon"
+   },
+   {
+    "name": "tỉnh Hải Dương",
+    "url": "/dia-danh/tinh-hai-duong"
+   },
+   {
+    "name": "Trần Minh Tông",
+    "url": "/nhan-vat/tran-minh-tong"
+   },
+   {
+    "name": "Trần Thủ Độ",
+    "url": "/nhan-vat/tran-thu-do"
+   },
+   {
+    "name": "Trần Dụ Tông",
+    "url": "/nhan-vat/tran-du-tong"
+   },
+   {
+    "name": "nhà Nguyên",
+    "url": "/nhan-vat/nha-nguyen-mong-co"
+   },
+   {
+    "name": "Lê Quát",
+    "url": "/nhan-vat/le-quat"
+   }
+  ],
+  "url": "/nhan-vat/pham-su-manh",
+  "info": {}
+ },
+ {
+  "name": "Lê Ngân",
+  "description": "Lê Ngân (chữ Hán: 黎銀, ?-1437) là công thần khai quốc nhà Lê sơ trong lịch sử Việt Nam, người xã Đàm Di, thuộc Lam Sơn, huyện Thọ Xuân, Thanh Hóa, Việt Nam.1\n",
+  "connection": [
+   {
+    "name": "huyện Thọ Xuân",
+    "url": "/dia-danh/huyen-tho-xuan"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   },
+   {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   },
+   {
+    "name": "Lê Sát",
+    "url": "/nhan-vat/le-sat"
+   },
+   {
+    "name": "nhà Minh",
+    "url": "/nhan-vat/nha-minh"
+   },
+   {
+    "name": "Lê Thạch",
+    "url": "/nhan-vat/le-thach"
+   },
+   {
+    "name": "Nguyễn Lý",
+    "url": "/nhan-vat/nguyen-ly"
+   }
+  ],
+  "url": "/nhan-vat/le-ngan",
+  "info": {
+   "Tham chiến": {"name": "Khởi nghĩa Lam Sơn, Trận Lạc Thủy, Trận Bồ Ải, Trận Nghệ An."},
+   "Sinh": {
+    "name": "Xã Đàm Di, thuộc Lam Sơn, huyện Thọ Xuân, Thanh Hóa, Việt Nam",
+    "url": "/dia-danh/huyen-tho-xuan"
+   },
+   "Năm tại ngũ": {"name": "1418-1428"},
+   "Phục vụ": {"name": "Nhà Hậu Lê"},
+   "Thuộc": {"name": "Quân đội Đại Việt"}
+  }
+ },
+ {
+  "name": "Phạm Thị Liên",
+  "description": "Nguyễn Huệ (1753 \u2013 1792), tức Quang Trung Hoàng đế (光中皇帝) hay Bắc Bình Vương, là vị hoàng đế thứ hai của nhà Tây Sơn, sau khi Thái Đức Hoàng đế Nguyễn Nhạc thoái vị và nhường ngôi cho ông. Nguyễn Huệ không những là một trong những vị tướng lĩnh quân sự xuất sắc mà còn là một nhà cai trị tài giỏi, đưa ra nhiều cải cách kinh tế, xã hội nổi bật trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "tỉnh Bình Định",
+    "url": "/dia-danh/tinh-binh-dinh"
+   },
+   {
+    "name": "Núi Bân",
+    "url": "/dia-danh/nui-ban"
+   },
+   {
+    "name": "Bùi Thị Nhạn",
+    "url": "/nhan-vat/bui-thi-nhan"
+   },
+   {
+    "name": "Lê Ngọc Hân",
+    "url": "/nhan-vat/le-ngoc-han"
+   },
+   {
+    "name": "Nguyễn Thị Bích",
+    "url": "/nhan-vat/nguyen-thi-bich"
+   },
+   {
+    "name": "Nguyễn Quang Toản",
+    "url": "/nhan-vat/nguyen-quang-toan"
+   },
+   {
+    "name": "Nguyễn Quang Thùy",
+    "url": "/nhan-vat/nguyen-quang-thuy"
+   },
+   {
+    "name": "Nguyễn Huệ",
+    "url": "/nhan-vat/nguyen-hue"
+   }
+  ],
+  "url": "/nhan-vat/pham-thi-lien",
+  "info": {
+   "Thụy hiệu": {"name": "Võ Hoàng đế (武皇帝)"},
+   "Niên hiệu": {"name": "Quang Trung (光中: 1788 - 1792)"},
+   "Kế nhiệm": {"name": "Cảnh Thịnh Hoàng đế"},
+   "Tên thật": {
+    "name": "Hồ Thơm Nguyễn Huệ",
+    "url": "/nhan-vat/nguyen-hue"
+   },
+   "Tiền nhiệm": {"name": "Thái Đức Hoàng đế"},
+   "Thê thiếp": {
+    "name": "Chính Cung hoàng hậu Phạm Thị Liên Chính Cung hoàng hậu Bùi Thị Nhạn Bắc Cung hoàng hậu Lê Ngọc Hân Trần Thị Quỵ Nguyễn Thị Bích",
+    "url": "/nhan-vat/bui-thi-nhan"
+   },
+   "Triều đại": {"name": "Nhà Tây Sơn"},
+   "Đăng quang": {
+    "name": "22 tháng 12 năm 1788 Núi Bân, Phú Xuân",
+    "url": "/dia-danh/nui-ban"
+   },
+   "Trị vì": {"name": "22 tháng 12 năm 1788 \u2013 16 tháng 9 năm 1792 (4 năm, 268 ngày)"},
+   "Tước hiệu": {"name": "Long Nhương Tướng quân Bắc Bình Vương Hoàng đế"},
+   "Sinh": {"name": "1753 Bình Định, Đàng Trong, Đại Việt"},
+   "Mất": {"name": "16 tháng 9, 1792 (38\u201339 tuổi) Phú Xuân, Đại Việt"},
+   "Miếu hiệu": {"name": "Tây Sơn Thái Tổ (西山太祖)"},
+   "Hậu duệ": {
+    "name": "Hậu duệ Nguyễn Quang Toản Nguyễn Quang Bàn Nguyễn Quang Thiệu Nguyễn Quang Khanh Nguyễn Quang Đức Nguyễn Thị Ngọc Bảo Nguyễn Quang Thùy Nguyễn Quang Cương Nguyễn Quang Tự Nguyễn Quang Điện Nguyễn Quang Duy và một số khác, tổng cộng khoảng 20.",
+    "url": "/nhan-vat/nguyen-quang-toan"
+   },
+   "Thân phụ": {"name": "Nguyễn Phi Phúc"}
+  }
+ },
+ {
+  "name": "Phạm Sư Ôn",
+  "description": "Phạm Sư Ôn (chữ Hán: 范師温) là nhà sư nổi tiếng của đất Quốc Oai (Hà Nội). Sư chuẩn bị khởi nghĩa vào năm 1390.\n",
+  "connection": [{
+   "name": "thành Thăng Long",
+   "url": "/dia-danh/thanh-thang-long"
+  }],
+  "url": "/nhan-vat/pham-su-on",
+  "info": {}
+ },
+ {
+  "name": "Lê Nghi Dân",
+  "description": "Lê Nghi Dân (chữ Hán: 黎宜民; tháng 10, 14393 - 6 tháng 6, 1460), thường được gọi là Lệ Đức hầu (厲德侯), Lạng Sơn Vương, là vị hoàng đế thứ tư của triều đại Lê sơ trong lịch sử Việt Nam. Ông tiếm vị trong một thời gian ngắn, từ tháng 10 năm 1459 đến khi bị truất vào tháng 6 năm 1460, với niên hiệu là Thiên Hưng (天興). Đôi khi, ông được gọi là Thiên Hưng Đế (天興帝).\n",
+  "connection": [
+   {
+    "name": "Lê Nhân Tông",
+    "url": "/nhan-vat/le-nhan-tong"
+   },
+   {
+    "name": "Lê Thánh Tông",
+    "url": "/nhan-vat/le-thanh-tong"
+   },
+   {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   },
+   {
+    "name": "Lê Bang Cơ",
+    "url": "/nhan-vat/le-bang-co"
+   },
+   {
+    "name": "nhà Hậu Lê",
+    "url": "/nhan-vat/nha-hau-le"
+   },
+   {
+    "name": "Dương Thị Bí",
+    "url": "/nhan-vat/duong-thi-bi"
+   },
+   {
+    "name": "Lê Khắc Xương",
+    "url": "/nhan-vat/le-khac-xuong"
+   },
+   {
+    "name": "Trịnh Khả",
+    "url": "/nhan-vat/trinh-kha"
+   }
+  ],
+  "url": "/nhan-vat/le-nghi-dan",
+  "info": {
+   "Triều đại": {"name": "Nhà Lê sơ"},
+   "Thụy hiệu": {"name": "Lệ Đức hầu (厲德侯)"},
+   "Niên hiệu": {"name": "Thiên Hưng (天興)"},
+   "Trị vì": {"name": "7 tháng 10 năm 1459 - 6 tháng 6 năm 1460 (0 năm, 243 ngày)"},
+   "Kế nhiệm": {
+    "name": "Lê Thánh Tông",
+    "url": "/nhan-vat/le-thanh-tong"
+   },
+   "Tước vị": {"name": "Lạng Sơn Vương"},
+   "Thân mẫu": {"name": "Dương phi"},
+   "Sinh": {"name": "tháng 6, 14391"},
+   "Tên húy": {"name": "Lê Nghi Dân (黎宜民)"},
+   "Mất": {"name": "6 tháng 6, 1460 (20\u201321 tuổi)2 Đông Kinh, Đại Việt"},
+   "Tiền nhiệm": {
+    "name": "Lê Nhân Tông",
+    "url": "/nhan-vat/le-nhan-tong"
+   },
+   "Thân phụ": {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   }
+  }
+ },
+ {
+  "name": "Lê Nguyên Khang",
+  "description": "Lê Nguyên Khang (1931-1996), nguyên là một tướng lĩnh gốc Hải quân của Quân lực Việt Nam Cộng hòa, cấp bậc Trung tướng Ông xuất thân từ khóa đầu tiên tại trường Sĩ quan Trừ bị do Quốc gia Việt Nam mở ra ở miền Bắc Việt Nam. Ra trường, ông phục vụ trong Quân chủng Hải quân, sau chuyển sang bộ phận Bộ binh Hải quân (Thuỷ quân Lục Chiến).5 Hầu hết thời gian tại ngũ, ông phục vụ trong Binh chủng này. Ông là người chỉ huy Binh chủng Thủy Quân Lục Chiến với thời gian lâu nhất. Ông cũng từng là chỉ huy đơn vị cấp Biệt khu, Quân đoàn và là sĩ quan giữ chức vụ cao cấp tại Bộ Tổng Tham mưu.\n",
+  "connection": [
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   },
+   {
+    "name": "Ngô Đình Diệm",
+    "url": "/nhan-vat/ngo-dinh-diem"
+   },
+   {
+    "name": "Nguyễn Khánh",
+    "url": "/nhan-vat/nguyen-khanh"
+   },
+   {
+    "name": "Hoàng Xuân Lãm",
+    "url": "/nhan-vat/hoang-xuan-lam"
+   },
+   {
+    "name": "tỉnh Quảng Trị",
+    "url": "/dia-danh/tinh-quang-tri"
+   },
+   {
+    "name": "tỉnh Nam Định",
+    "url": "/dia-danh/tinh-nam-dinh"
+   },
+   {
+    "name": "tỉnh Gia Định",
+    "url": "/dia-danh/tinh-gia-dinh"
+   },
+   {
+    "name": "Đặng Văn Quang",
+    "url": "/nhan-vat/dang-van-quang"
+   }
+  ],
+  "url": "/nhan-vat/le-nguyen-khang",
+  "info": {
+   "Công việc khác": {"name": "Tuỳ viên Quân sự4"},
+   "Tham chiến": {"name": "Chiến tranh Việt Nam"},
+   "Đơn vị": {"name": "Hải quân VNCH1 Thủy quân Lục chiến2 Biệt khu Thủ đô Quân đoàn III và QK 3 Bộ Tổng Tham mưu3"},
+   "Sinh": {"name": "Tháng 10 năm 1931 Sơn Tây, Việt Nam"},
+   "Cấp bậc": {"name": "Trung tướng"},
+   "Mất": {"name": "12 tháng 11, 1996 (65 tuổi) Los Angeles, California Hoa Kỳ"},
+   "Năm tại ngũ": {"name": "1951-1975"},
+   "Chỉ huy": {"name": "Quân đội Quốc gia Quân lực VNCH"},
+   "Phục vụ": {"name": "Việt Nam Cộng hòa"},
+   "Thuộc": {"name": "Quân lực VNCH"}
+  }
+ },
+ {
+  "name": "Phạm Thị Nghiêu",
+  "description": "Phạm Thị Nghiêu (chữ Hán: 范惠妃; ? - 1441) là vợ thứ của vua Lê Thái Tổ trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "Lê Thái Tổ",
+    "url": "/nhan-vat/le-thai-to"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   },
+   {
+    "name": "nhà Minh",
+    "url": "/nhan-vat/nha-minh"
+   },
+   {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   },
+   {
+    "name": "Lê Quý Đôn",
+    "url": "/nhan-vat/le-quy-don"
+   }
+  ],
+  "url": "/nhan-vat/pham-thi-nghieu",
+  "info": {}
+ },
+ {
+  "name": "Lê Ngọa Triều",
+  "description": "Lê Long Đĩnh (chữ Hán: 黎龍鋌; 15 tháng 11, 986 \u2013 19 tháng 11, 1009), còn gọi là Lê Ngọa Triều (黎臥朝), là vị hoàng đế cuối cùng của nhà Tiền Lê trong lịch sử Việt Nam. Ông trị vì 4 năm từ năm 1005 đến năm 1009. Cái chết bí ẩn của ông ở tuổi 24 dẫn đến việc chấm dứt nhà Tiền Lê, quyền lực rơi vào tay nhà Lý.1\n",
+  "connection": [
+   {
+    "name": "Lê Trung Tông",
+    "url": "/nhan-vat/le-trung-tong"
+   },
+   {
+    "name": "Lý Thái Tổ",
+    "url": "/nhan-vat/ly-thai-to"
+   },
+   {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   },
+   {
+    "name": "nhà Tiền Lê",
+    "url": "/nhan-vat/nha-tien-le"
+   },
+   {
+    "name": "nhà Lý",
+    "url": "/nhan-vat/nha-ly"
+   },
+   {
+    "name": "Lê Long Việt",
+    "url": "/nhan-vat/le-long-viet"
+   },
+   {
+    "name": "Lê Long Tích",
+    "url": "/nhan-vat/le-long-tich"
+   },
+   {
+    "name": "Lê Long Kính",
+    "url": "/nhan-vat/le-long-kinh"
+   }
+  ],
+  "url": "/nhan-vat/le-ngoa-trieu",
+  "info": {
+   "Triều đại": {"name": "Nhà Tiền Lê"},
+   "Thụy hiệu": {
+    "name": "Ngọa Triều Hoàng Đế (臥朝皇帝) (do Lý Thái Tổ truy) Khai Thiên Ứng Vận Thánh Văn Thần Vũ Tắc Thiên Sùng Đạo Đại Thắng Minh Quang Hiếu Hoàng Đế (開天應運聖文神武則天崇道大勝明光孝皇帝) (tôn hiệu tự xưng của Lê đế Long Đĩnh và được mặc định thành thụy hiệu theo lễ pháp)",
+    "url": "/nhan-vat/ly-thai-to"
+   },
+   "Niên hiệu": {"name": "Ứng Thiên (應天) Cảnh Thụy (景瑞)"},
+   "Trị vì": {"name": "1005 \u2013 1009"},
+   "Kế nhiệm": {"name": "Triều đại sụp đổ"},
+   "Thân mẫu": {"name": "Chi hậu Diệu Nữ"},
+   "Tên thật": {"name": "Lê Long Đĩnh (黎龍鋌) Lê Chí Trung (黎至忠)"},
+   "Sinh": {"name": "15 tháng 11, 986"},
+   "Mất": {"name": "19 tháng 11, 1009 (23 tuổi) Đại Cồ Việt"},
+   "Hậu duệ": {"name": "Hậu duệ Khai Phong Vương Lê Long Sạ"},
+   "Tiền nhiệm": {
+    "name": "Lê Trung Tông",
+    "url": "/nhan-vat/le-trung-tong"
+   },
+   "Thân phụ": {
+    "name": "Lê Đại Hành",
+    "url": "/nhan-vat/le-dai-hanh"
+   }
+  }
+ },
+ {
+  "name": "Lê Nguyên Long",
+  "description": "Lê Thái Tông (chữ Hán: 黎太宗; 20 tháng 11, 1423 - 4 tháng 8, 1442), là vị Hoàng đế thứ hai của triều đại Hậu Lê trong lịch sử Việt Nam. Ông trị vì Đại Việt từ năm 1433 tới năm 1442, tổng cộng 9 năm.3\n",
+  "connection": [
+   {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   },
+   {
+    "name": "Lê Thái Tổ",
+    "url": "/nhan-vat/le-thai-to"
+   },
+   {
+    "name": "Lê Sát",
+    "url": "/nhan-vat/le-sat"
+   },
+   {
+    "name": "Lê Ngân",
+    "url": "/nhan-vat/le-ngan"
+   },
+   {
+    "name": "Lê Nhân Tông",
+    "url": "/nhan-vat/le-nhan-tong"
+   },
+   {
+    "name": "Lê Nghi Dân",
+    "url": "/nhan-vat/le-nghi-dan"
+   },
+   {
+    "name": "Lê Khắc Xương",
+    "url": "/nhan-vat/le-khac-xuong"
+   },
+   {
+    "name": "Lê Bang Cơ",
+    "url": "/nhan-vat/le-bang-co"
+   }
+  ],
+  "url": "/nhan-vat/le-nguyen-long",
+  "info": {
+   "Thụy hiệu": {"name": "Kế Thiên Thể Đạo Hiển Đức Thánh Công Khâm Minh Văn Tư Anh Duệ Triết Chiêu Hiến Kiến Trung Văn Hoàng đế (繼天體道顯德功欽明文思英睿仁哲昭憲建中文皇帝)"},
+   "Niên hiệu": {"name": "Thiệu Bình (紹平: 1434 - 1439) Đại Bảo (大寶: 1440 - 1442)"},
+   "Kế nhiệm": {
+    "name": "Lê Nhân Tông",
+    "url": "/nhan-vat/le-nhan-tong"
+   },
+   "Thân mẫu": {"name": "Cung Từ Cao hoàng hậu"},
+   "Tên húy": {"name": "Lê Nguyên Long"},
+   "Tiền nhiệm": {
+    "name": "Lê Thái Tổ",
+    "url": "/nhan-vat/le-thai-to"
+   },
+   "Phụ chính": {
+    "name": "Phạm Vấn Lê Sát Lê Ngân1",
+    "url": "/nhan-vat/le-sat"
+   },
+   "Thê thiếp": {"name": "Tuyên Từ Văn hoàng hậu Quang Thục Văn hoàng hậu"},
+   "Triều đại": {"name": "Nhà Lê sơ"},
+   "Trị vì": {"name": "1433 \u2013 1442"},
+   "Sinh": {
+    "name": "20 tháng 11, 1423 Lam Sơn, huyện Thọ Xuân, Thanh Hóa",
+    "url": "/dia-danh/huyen-tho-xuan"
+   },
+   "Mất": {"name": "4 tháng 8, 1442 (18 tuổi) Lệ Chi viên, huyện Gia Định 2"},
+   "Miếu hiệu": {"name": "Thái Tông (太宗)"},
+   "Hậu duệ": {
+    "name": "Hậu duệ Lê Nghi Dân Lê Khắc Xương Lê Bang Cơ Lê Tư Thành",
+    "url": "/nhan-vat/le-nghi-dan"
+   },
+   "An táng": {"name": "Hựu Lăng (祐陵)"},
+   "Thân phụ": {
+    "name": "Lê Thái Tổ",
+    "url": "/nhan-vat/le-thai-to"
+   }
+  }
+ },
+ {
+  "name": "Phạm Thái",
+  "description": "Phạm Thái (chữ Hán: 範泰, 1777-1813), còn gọi Phạm Đan Phượng, Phạm Phượng Sinh, hiệu Chiêu Lì (hoặc Chiêu Lỳ); là một danh sĩ ở cuối thế kỷ 18 đến đầu thế kỷ 19 trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "tỉnh Bắc Ninh",
+    "url": "/dia-danh/tinh-bac-ninh"
+   },
+   {
+    "name": "huyện Kiến Xương",
+    "url": "/dia-danh/huyen-kien-xuong"
+   },
+   {
+    "name": "trấn Sơn Nam",
+    "url": "/dia-danh/tran-son-nam"
+   },
+   {
+    "name": "tỉnh Thái Bình",
+    "url": "/dia-danh/tinh-thai-binh"
+   },
+   {
+    "name": "Vũ Văn Dũng",
+    "url": "/nhan-vat/vu-van-dung"
+   },
+   {
+    "name": "Nguyễn Huy Lượng",
+    "url": "/nhan-vat/nguyen-huy-luong"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "tỉnh Nam Định",
+    "url": "/dia-danh/tinh-nam-dinh"
+   }
+  ],
+  "url": "/nhan-vat/pham-thai",
+  "info": {}
+ },
+ {
+  "name": "Lê Ngọc Hân",
+  "description": "Lê Ngọc Hân (chữ Hán: 黎玉忻, 1770-1799) còn gọi Ngọc Hân công chúa hay Bắc Cung Hoàng hậu (北宮皇后) là công chúa nhà Hậu Lê và hoàng hậu nhà Tây Sơn trong lịch sử Việt Nam, vợ của vua Quang Trung (Nguyễn Huệ). Dân gian còn lưu truyền tên gọi bà là Bà Chúa Tiên khi bà ở Phú Xuân vì dinh phủ lập ở chùa Kim Tiên.1\n",
+  "connection": [
+   {
+    "name": "nhà Tây Sơn",
+    "url": "/nhan-vat/nha-tay-son"
+   },
+   {
+    "name": "nhà Hậu Lê",
+    "url": "/nhan-vat/nha-hau-le"
+   },
+   {
+    "name": "Nguyễn Huệ",
+    "url": "/nhan-vat/nguyen-hue"
+   },
+   {
+    "name": "thành Thăng Long",
+    "url": "/dia-danh/thanh-thang-long"
+   },
+   {
+    "name": "Nguyễn Hữu Chỉnh",
+    "url": "/nhan-vat/nguyen-huu-chinh"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "Lê Duy Kỳ",
+    "url": "/nhan-vat/le-duy-ky"
+   },
+   {
+    "name": "Trịnh Sâm",
+    "url": "/nhan-vat/trinh-sam"
+   }
+  ],
+  "url": "/nhan-vat/le-ngoc-han",
+  "info": {
+   "Thụy hiệu": {"name": "Như Ý Trang Thuận Trinh Nhất Vũ Hoàng hậu"},
+   "Thân mẫu": {"name": "Chiêu nghi Nguyễn Thị Huyền"},
+   "Tên đầy đủ": {"name": "Lê Ngọc Hân"},
+   "Phu quân": {"name": "Vua Quang Trung"},
+   "Tước hiệu": {"name": "Ngọc Hân công chúa Hữu cung hoàng hậu Bắc cung hoàng hậu"},
+   "Sinh": {"name": "27 tháng 4, 1770 Thăng Long, Đại Việt"},
+   "Mất": {"name": "4 tháng 12, 1799 (29 tuổi) chùa Kim Tiền, Huế, Đại Việt"},
+   "Tôn giáo": {"name": "Phật giáo"},
+   "Hoàng tộc": {"name": "Nhà Hậu Lê Nhà Tây Sơn"},
+   "Tại vị": {"name": "1788 - 1792"},
+   "Hậu duệ": {"name": "Hậu duệ Nguyễn Quang Đức Nguyễn Mỹ Hạnh"},
+   "An táng": {"name": "Gia Lâm, Thăng Long, Đại Việt"},
+   "Thân phụ": {"name": "Lê Hiển Tông"}
+  }
+ },
+ {
+  "name": "Phạm Thịnh",
+  "description": "Phạm Thịnh (? - ?)1 là một thượng thư thời Lê sơ, đỗ tiến sĩ năm 14871 2 vào thời vua Lê Thánh Tông.3\n",
+  "connection": [
+   {
+    "name": "Lê Thánh Tông",
+    "url": "/nhan-vat/le-thanh-tong"
+   },
+   {
+    "name": "nhà Mạc",
+    "url": "/nhan-vat/nha-mac"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "Phan Huy Chú",
+    "url": "/nhan-vat/phan-huy-chu"
+   },
+   {
+    "name": "Phạm Tu",
+    "url": "/nhan-vat/pham-tu"
+   },
+   {
+    "name": "Thành phố Hồ Chí Minh",
+    "url": "/dia-danh/thanh-pho-ho-chi-minh"
+   },
+   {
+    "name": "tỉnh Lạng Sơn",
+    "url": "/dia-danh/tinh-lang-son"
+   },
+   {
+    "name": "tỉnh Thanh Hóa",
+    "url": "/dia-danh/tinh-thanh-hoa"
+   }
+  ],
+  "url": "/nhan-vat/pham-thinh",
+  "info": {
+   "Chức quan cao nhất": {"name": "Thượng thư"},
+   "Triều đại": {"name": "Lê sơ, Mạc"},
+   "Học vấn": {"name": "Tiến sĩ"},
+   "Giới tính": {"name": "Nam"},
+   "Quốc gia": {"name": "Đại Việt"}
+  }
+ },
+ {
+  "name": "Lê Nhân Chú",
+  "description": "Lưu Nhân Chú (chữ Hán: 劉仁澍, ?-1433), hay Lê Nhân Chú, là công thần khai quốc nhà Lê sơ trong lịch sử Việt Nam, người xã An Thuận Thượng, huyện Đại Từ, tỉnh Thái Nguyên, Việt Nam1\n",
+  "connection": [
+   {
+    "name": "huyện Đại Từ",
+    "url": "/dia-danh/huyen-dai-tu"
+   },
+   {
+    "name": "tỉnh Thái Nguyên",
+    "url": "/dia-danh/tinh-thai-nguyen"
+   },
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "thành Tây Đô",
+    "url": "/dia-danh/thanh-tay-do"
+   },
+   {
+    "name": "Lê Thái Tổ",
+    "url": "/nhan-vat/le-thai-to"
+   },
+   {
+    "name": "Lê Sát",
+    "url": "/nhan-vat/le-sat"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/nhan-vat/le-loi"
+   },
+   {
+    "name": "núi Chí Linh",
+    "url": "/dia-danh/nui-chi-linh"
+   }
+  ],
+  "url": "/nhan-vat/le-nhan-chu",
+  "info": {
+   "Tham chiến": {"name": "Trận ải Khả Lưu, trận Tây Đô, trận Chi Lăng \u2013 Xương Giang"},
+   "Khen thưởng": {"name": "Suy trung Tán trị Hiệp mưu Dương vũ công thần, nhập nội kiểm hiệu, Bình chương quân quốc trọng sự; Thái phó Vinh quốc công (1484)"},
+   "Sinh": {
+    "name": "? xã An Thuận Thượng, huyện Đại Từ, tỉnh Thái Nguyên, Việt Nam",
+    "url": "/dia-danh/huyen-dai-tu"
+   },
+   "Cấp bậc": {"name": "Thứ thủ ở vệ kỵ binh quân Thiết Đột (1418); Hành quân đô đốc tổng quản, Nhập nội đại tư mã (1427); Suy trung Tán trị Hiệp mưu Dương vũ công thần, Nhập nội kiểm hiệu, Bình chương quân quốc trọng sự"},
+   "Mất": {"name": "1433 Đông Kinh, Đại Việt"},
+   "Năm tại ngũ": {"name": "1418-1433"},
+   "Phục vụ": {"name": "Khởi nghĩa Lam Sơn"},
+   "Thuộc": {"name": "Quân đội Đại Việt"}
+  }
+ },
+ {
+  "name": "Phạm Thế Căng",
+  "description": "Phạm Thế Căng (chữ Hán: 范世矜; ?-1408) là tướng nhà Trần và nhà Hồ trong lịch sử Việt Nam. Ông đã cộng tác với quân Minh khi nhà Hồ mất và sau bị nhà Hậu Trần tiêu diệt.\n",
+  "connection": [
+   {
+    "name": "nhà Trần",
+    "url": "/nhan-vat/nha-tran"
+   },
+   {
+    "name": "nhà Hồ",
+    "url": "/nhan-vat/nha-ho"
+   },
+   {
+    "name": "nhà Hậu Trần",
+    "url": "/nhan-vat/nha-hau-tran"
+   },
+   {
+    "name": "nhà Minh",
+    "url": "/nhan-vat/nha-minh"
+   },
+   {
+    "name": "Hoàng Hối Khanh",
+    "url": "/nhan-vat/hoang-hoi-khanh"
+   },
+   {
+    "name": "Đặng Tất",
+    "url": "/nhan-vat/dang-tat"
+   },
+   {
+    "name": "Trương Phụ",
+    "url": "/nhan-vat/truong-phu"
+   },
+   {
+    "name": "Trần Ngỗi",
+    "url": "/nhan-vat/tran-ngoi"
+   }
+  ],
+  "url": "/nhan-vat/pham-the-cang",
+  "info": {}
+ },
+ {
+  "name": "Lê Nhân Tông",
+  "description": "Lê Nhân Tông (chữ Hán: 黎仁宗, 9 tháng 5 năm 1441 \u2013 3 tháng 10 năm 1459), là vị hoàng đế thứ ba của nhà Hậu Lê trong lịch sử Việt Nam, trị vì trong vòng 17 năm, từ năm 1442 sau khi Lê Thái Tông qua đời đến khi bị Lê Nghi Dân ám sát vào năm 1459.\n",
+  "connection": [
+   {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   },
+   {
+    "name": "Lê Nghi Dân",
+    "url": "/nhan-vat/le-nghi-dan"
+   },
+   {
+    "name": "Lê Bang Cơ",
+    "url": "/nhan-vat/le-bang-co"
+   },
+   {
+    "name": "nhà Hậu Lê",
+    "url": "/nhan-vat/nha-hau-le"
+   },
+   {
+    "name": "Lê Khả",
+    "url": "/nhan-vat/le-kha"
+   },
+   {
+    "name": "Lê Thụ",
+    "url": "/nhan-vat/le-thu"
+   },
+   {
+    "name": "nhà Minh",
+    "url": "/nhan-vat/nha-minh"
+   },
+   {
+    "name": "huyện Đông Sơn",
+    "url": "/dia-danh/huyen-dong-son"
+   }
+  ],
+  "url": "/nhan-vat/le-nhan-tong",
+  "info": {
+   "Thụy hiệu": {"name": "Khâm Văn Nhân Hiếu Tuyên Minh Thông Duệ Tuyên hoàng đế (欽文仁孝宣明聰睿宣皇帝)"},
+   "Niên hiệu": {"name": "Thái Hòa (大和, 1443 - 1453) Diên Ninh (延寧, 1454 - 1459)"},
+   "Kế nhiệm": {
+    "name": "Lê Nghi Dân",
+    "url": "/nhan-vat/le-nghi-dan"
+   },
+   "Thân mẫu": {"name": "Nguyễn Thị Anh"},
+   "Tên húy": {
+    "name": "Lê Bang Cơ (黎邦基)",
+    "url": "/nhan-vat/le-bang-co"
+   },
+   "Tiền nhiệm": {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   },
+   "Nhiếp chính": {"name": "Thái hậu Nguyễn Thị Anh"},
+   "Triều đại": {"name": "Nhà Lê sơ"},
+   "Trị vì": {"name": "1442 \u2013 1459"},
+   "Sinh": {"name": "9 tháng 5, 14411 Đông Kinh, Đại Việt"},
+   "Mất": {"name": "3 tháng 10, 1459 (18 tuổi) Đông Kinh, Đại Việt"},
+   "Miếu hiệu": {"name": "Nhân Tông (仁宗)"},
+   "An táng": {"name": "Mục Lăng (穆陵)"},
+   "Thân phụ": {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   }
+  }
+ },
+ {
+  "name": "Lê Ngọc Trinh",
+  "description": "Ả Chạ, hay Lê Ngọc Trinh (181 -421 ) là một nữ tướng thời Hai Bà Trưng trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "tỉnh Vĩnh Phúc",
+    "url": "/dia-danh/tinh-vinh-phuc"
+   },
+   {
+    "name": "Trưng Trắc",
+    "url": "/nhan-vat/trung-trac"
+   },
+   {
+    "name": "Trưng Vương",
+    "url": "/nhan-vat/trung-vuong"
+   }
+  ],
+  "url": "/nhan-vat/le-ngoc-trinh",
+  "info": {}
+ },
+ {
+  "name": "Phạm Thế Hiển",
+  "description": "Phạm Thế Hiển (范世顯,1 1803\u20131861) là một danh thần đời Minh Mạng, chết trong trận Pháp công phá đại đồn Chí Hòa năm 1861. Ông là anh ruột Phó bảng Phạm Thế Húc.\n",
+  "connection": [
+   {
+    "name": "tỉnh Nam Định",
+    "url": "/dia-danh/tinh-nam-dinh"
+   },
+   {
+    "name": "tỉnh Thái Bình",
+    "url": "/dia-danh/tinh-thai-binh"
+   },
+   {
+    "name": "tỉnh Quảng Nam",
+    "url": "/dia-danh/tinh-quang-nam"
+   },
+   {
+    "name": "Nguyễn Tri Phương",
+    "url": "/nhan-vat/nguyen-tri-phuong"
+   },
+   {
+    "name": "Phạm Huy Quang",
+    "url": "/nhan-vat/pham-huy-quang"
+   },
+   {
+    "name": "thành Gia Định",
+    "url": "/dia-danh/thanh-gia-dinh"
+   }
+  ],
+  "url": "/nhan-vat/pham-the-hien",
+  "info": {}
+ },
+ {
+  "name": "Phạm Khắc Hòe",
+  "description": "Phạm Khắc Hòe (1901-1995) là một luật sư, nhà văn, Đổng lý Ngự tiền văn phòng triều Bảo Đại - vua cuối cùng thời phong kiến trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "huyện Đức Thọ",
+    "url": "/dia-danh/huyen-duc-tho"
+   },
+   {
+    "name": "tỉnh Hà Tĩnh",
+    "url": "/dia-danh/tinh-ha-tinh"
+   },
+   {
+    "name": "Lê Quang Đạo",
+    "url": "/nhan-vat/le-quang-dao"
+   },
+   {
+    "name": "Nhà nước Việt Nam",
+    "url": "/nhan-vat/nha-nuoc-viet-nam"
+   },
+   {
+    "name": "Hoàng Minh Giám",
+    "url": "/nhan-vat/hoang-minh-giam"
+   }
+  ],
+  "url": "/nhan-vat/pham-khac-hoe",
+  "info": {}
+ },
+ {
+  "name": "Lê Niệm",
+  "description": "Lê Niệm (chữ Hán:? - 1485), quê ở xã Duy Trinh, huyện Thuần Hựu, là con trai của danh tướng Lê Lâm, cháu trai của Trung túc Vương Lê Lai. Ông làm quan trải 4 triều vua, Lê Thái Tông, Lê Nhân Tông, Lê Nghi Dân, Lê Thánh Tông; tham gia lật đổ vua Lê Nghi Dân lập vua Lê Thánh Tông.1\n",
+  "connection": [
+   {
+    "name": "Lê Lai",
+    "url": "/nhan-vat/le-lai"
+   },
+   {
+    "name": "Lê Thái Tông",
+    "url": "/nhan-vat/le-thai-tong"
+   },
+   {
+    "name": "Lê Nhân Tông",
+    "url": "/nhan-vat/le-nhan-tong"
+   },
+   {
+    "name": "Lê Nghi Dân",
+    "url": "/nhan-vat/le-nghi-dan"
+   },
+   {
+    "name": "Lê Thánh Tông",
+    "url": "/nhan-vat/le-thanh-tong"
+   },
+   {
+    "name": "Lê Thụ",
+    "url": "/nhan-vat/le-thu"
+   },
+   {
+    "name": "Đỗ Bí",
+    "url": "/nhan-vat/do-bi"
+   },
+   {
+    "name": "Nguyễn Xí",
+    "url": "/nhan-vat/nguyen-xi"
+   }
+  ],
+  "url": "/nhan-vat/le-niem",
+  "info": {}
+ },
+ {
+  "name": "Phạm Ngô Cầu",
+  "description": "Phạm Ngô Cầu(chữ Hán: 范吳俅) tức Tạo Quận công là một tướng nhà Lê trung hưng, thời chúa Trịnh Sâm trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "nhà Lê",
+    "url": "/nhan-vat/nha-le"
+   },
+   {
+    "name": "Trịnh Sâm",
+    "url": "/nhan-vat/trinh-sam"
+   },
+   {
+    "name": "Hoàng Phùng Cơ",
+    "url": "/nhan-vat/hoang-phung-co"
+   },
+   {
+    "name": "Lê Duy Mật",
+    "url": "/nhan-vat/le-duy-mat"
+   },
+   {
+    "name": "Bùi Thế Đạt",
+    "url": "/nhan-vat/bui-the-dat"
+   },
+   {
+    "name": "Lê Quý Đôn",
+    "url": "/nhan-vat/le-quy-don"
+   },
+   {
+    "name": "Hoàng Đình Thể",
+    "url": "/nhan-vat/hoang-dinh-the"
+   },
+   {
+    "name": "Hoàng Ngũ Phúc",
+    "url": "/nhan-vat/hoang-ngu-phuc"
+   }
+  ],
+  "url": "/nhan-vat/pham-ngo-cau",
+  "info": {}
+ },
+ {
+  "name": "Phạm Phòng Át",
+  "description": "Phạm Bạch Hổ (chữ Hán: 范白虎; 910 - 9721 ) tên xưng Phạm Phòng Át (范防遏), là võ tướng các triều nhà Ngô, nhà Đinh và là một sứ quân trong loạn 12 sứ quân cuối thời nhà Ngô trong lịch sử Việt Nam. Ông là người gốc Nam Sách, Hải Dương nhưng được sinh ra và lớn lên ở Đằng Châu, Hưng Yên. Ngày nay, ông được thờ ở nhiều nơi thuộc vùng châu thổ sông Hồng.\n",
+  "connection": [
+   {
+    "name": "Phạm Bạch Hổ",
+    "url": "/nhan-vat/pham-bach-ho"
+   },
+   {
+    "name": "nhà Ngô",
+    "url": "/nhan-vat/nha-ngo"
+   },
+   {
+    "name": "nhà Đinh",
+    "url": "/nhan-vat/nha-dinh"
+   },
+   {
+    "name": "sông Hồng",
+    "url": "/dia-danh/song-hong"
+   },
+   {
+    "name": "Ngô Quyền",
+    "url": "/nhan-vat/ngo-quyen"
+   },
+   {
+    "name": "Đinh Bộ Lĩnh",
+    "url": "/nhan-vat/dinh-bo-linh"
+   },
+   {
+    "name": "Phạm Lệnh Công",
+    "url": "/nhan-vat/pham-lenh-cong"
+   },
+   {
+    "name": "Ngô Xương Văn",
+    "url": "/nhan-vat/ngo-xuong-van"
+   }
+  ],
+  "url": "/nhan-vat/pham-phong-at",
+  "info": {}
+ },
+ {
+  "name": "Phạm Lệnh Công",
+  "description": "Phạm Lệnh Công (889 - 951), có giả thuyết cho rằng tên thật là Phạm Chiêm, là một tướng lĩnh nhà Ngô trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "nhà Ngô",
+    "url": "/nhan-vat/nha-ngo"
+   },
+   {
+    "name": "Ngô Quyền",
+    "url": "/nhan-vat/ngo-quyen"
+   },
+   {
+    "name": "Dương Đình Nghệ",
+    "url": "/nhan-vat/duong-dinh-nghe"
+   },
+   {
+    "name": "thành Đại La",
+    "url": "/dia-danh/thanh-dai-la"
+   },
+   {
+    "name": "nhà Nam Hán",
+    "url": "/nhan-vat/nha-nam-han"
+   },
+   {
+    "name": "sông Bạch Đằng",
+    "url": "/dia-danh/song-bach-dang"
+   },
+   {
+    "name": "Ngô Xương Ngập",
+    "url": "/nhan-vat/ngo-xuong-ngap"
+   },
+   {
+    "name": "Dương Tam Kha",
+    "url": "/nhan-vat/duong-tam-kha"
+   }
+  ],
+  "url": "/nhan-vat/pham-lenh-cong",
+  "info": {}
+ },
+ {
+  "name": "Phạm Phú Quốc",
+  "description": "Phạm Phú Quốc (1935-1965), nguyên là một sĩ quan cao cấp của Quân chủng Không quân thuộc Quân lực Việt Nam Cộng hòa. Ông xuất thân từ trường Võ bị Không quân Pháp tại một nước Thuộc địa của Pháp ở Bắc Phi. Ông là một trong hai sĩ quan Hoa tiêu Khu trục cơ3 đánh bom Dinh Tổng thống Việt Nam Cộng hòa vào Ngày 27/2/1962 nhằm ám sát Tổng thống Ngô Đình Diệm và Cố vấn Ngô Đình Nhu. Năm 1965, khi đang là Trung tá Tư lệnh một Không đoàn Chiến thuật. Trong một phi vụ do ông chỉ huy (gồm 18 khu trục cơ) bay ra đánh bom xuống các tỉnh thuộc miền Bắc. Máy bay của ông bị rơi do trúng đạn phòng không của đối phương. Ông tử trận được truy thăng Đại tá.\n",
+  "connection": [
+   {
+    "name": "Ngô Đình Diệm",
+    "url": "/nhan-vat/ngo-dinh-diem"
+   },
+   {
+    "name": "Ngô Đình Nhu",
+    "url": "/nhan-vat/ngo-dinh-nhu"
+   },
+   {
+    "name": "tỉnh Quảng Nam",
+    "url": "/dia-danh/tinh-quang-nam"
+   },
+   {
+    "name": "Lê Quý Đôn",
+    "url": "/nhan-vat/le-quy-don"
+   },
+   {
+    "name": "sông Sài Gòn",
+    "url": "/dia-danh/song-sai-gon"
+   },
+   {
+    "name": "sông Bạch Đằng",
+    "url": "/dia-danh/song-bach-dang"
+   },
+   {
+    "name": "Nguyễn Khánh",
+    "url": "/nhan-vat/nguyen-khanh"
+   },
+   {
+    "name": "Triệu Vũ",
+    "url": "/nhan-vat/trieu-vu"
+   }
+  ],
+  "url": "/nhan-vat/pham-phu-quoc",
+  "info": {
+   "Tham chiến": {"name": "Chiến tranh Việt Nam"},
+   "Khen thưởng": {"name": "B.quốc H.chương đệ V 2"},
+   "Đơn vị": {"name": "Không đoàn 23 CT1"},
+   "Sinh": {"name": "20 tháng 10 năm 1935 Đà Nẵng,Việt Nam"},
+   "Cấp bậc": {"name": "Đại tá Không quân"},
+   "Mất": {"name": "19 tháng 4, 1966 (30 tuổi) Hà Tĩnh, Việt Nam"},
+   "Năm tại ngũ": {"name": "1954-1965"},
+   "Chỉ huy": {"name": "Quân đội VNCH"},
+   "Phục vụ": {"name": "Việt Nam Cộng hòa"},
+   "Thuộc": {"name": "' Quân đội VNCH"}
+  }
+ },
+ {
+  "name": "Phạm Mại",
+  "description": "Phạm Mại (chữ Hán: 范邁), hay Phạm Tông Mại (范宗邁, ? - ?), hiệu: Kính Khê; là nhà thơ và là quan nhà Trần trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
+    "name": "nhà Trần",
+    "url": "/nhan-vat/nha-tran"
+   },
+   {
+    "name": "huyện Kim Môn",
+    "url": "/dia-danh/huyen-kim-mon"
+   },
+   {
+    "name": "tỉnh Hải Dương",
+    "url": "/dia-danh/tinh-hai-duong"
+   },
+   {
+    "name": "Trần Nhân Tông",
+    "url": "/nhan-vat/tran-nhan-tong"
+   },
+   {
+    "name": "Nguyễn Sĩ Cố",
+    "url": "/nhan-vat/nguyen-si-co"
+   },
+   {
+    "name": "Phạm Ngộ",
+    "url": "/nhan-vat/pham-ngo"
+   },
+   {
+    "name": "Trần Minh Tông",
+    "url": "/nhan-vat/tran-minh-tong"
+   },
+   {
+    "name": "Nguyễn Trung Ngạn",
+    "url": "/nhan-vat/nguyen-trung-ngan"
+   }
+  ],
+  "url": "/nhan-vat/pham-mai",
+  "info": {}
+ },
+ {
+  "name": "Phạm Ngọc Mậu",
+  "description": "Phạm Ngọc Mậu (1919-1993) là một cựu tướng lĩnh Quân đội Nhân dân Việt Nam, hàm Thượng tướng. Ông từng giữ chức Phó Chủ nhiệm Tổng cục Chính trị (1961-1988), Tổng cục trưởng Tổng cục cán bộ Quân đội Nhân dân Việt Nam.\n",
+  "connection": [
+   {
+    "name": "huyện Kiến Xương",
+    "url": "/dia-danh/huyen-kien-xuong"
+   },
+   {
+    "name": "tỉnh Thái Bình",
+    "url": "/dia-danh/tinh-thai-binh"
+   },
+   {
+    "name": "tỉnh Sơn Tây",
+    "url": "/dia-danh/tinh-son-tay"
+   },
+   {
+    "name": "thị xã Sơn Tây",
+    "url": "/dia-danh/thi-xa-son-tay"
+   },
+   {
+    "name": "Hồ Chí Minh",
+    "url": "/nhan-vat/ho-chi-minh"
+   }
+  ],
+  "url": "/nhan-vat/pham-ngoc-mau",
+  "info": {}
+ },
+ {
+  "name": "Lê Ninh",
+  "description": "Lê Ninh (1857-1887), hiệu Mạnh Khang, là người đầu tiên1 hưởng ứng chiếu Cần Vương ở vùng Nghệ-Tĩnh trong lịch sử Việt Nam.\n",
+  "connection": [
+   {
     "name": "huyện Đức Thọ",
     "url": "/dia-danh/huyen-duc-tho"
    },

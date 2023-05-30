@@ -20,7 +20,7 @@ public class CharacterNKSCrawler extends Crawler {
         setWebLink("https://nguoikesu.com");
         setFolder("data/characterNKS.json");
         setStartLink("/nhan-vat");
-        setPageLimit(5);
+        setPageLimit(291);
     }
 
     @Override
@@ -65,7 +65,6 @@ public class CharacterNKSCrawler extends Crawler {
             characterItem.setInfo(characterInfo);
             characterItem.setConnection(moreCharacter);
             characterList.add(characterItem);
-
         }
 
         // iterating over the pagination HTML elements
