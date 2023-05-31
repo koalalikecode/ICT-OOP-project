@@ -46,12 +46,11 @@ public class DataProcessing {
     // Giá trị trả về là JSONObject nếu tìm thấy, null nếu không
     public JSONObject searchObjectByName(String url, String name) {
         File file = new File(url);
-        try
-        {
+        try {
             String content = new String(Files.readAllBytes(Paths.get(file.toURI())));
             //Read JSON file
             JSONArray objectList = new JSONArray(content);
-            for(int i = 0; i < objectList.length(); i++) {
+            for (int i = 0; i < objectList.length(); i++) {
                 JSONObject item = objectList.optJSONObject(i);
                 if (item.get("name").equals(name)) return item;
             }
@@ -66,15 +65,14 @@ public class DataProcessing {
         JSONArray objectList;
         List<JSONObject> result = new ArrayList<>();
 
-        try
-        {
+        try {
             // Đọc file và lưu vào biến kiểu String
             String content1 = new String(Files.readAllBytes(Paths.get(new File(firstUrl).toURI())));
 
             objectList = new JSONArray(content1);
 
             // Hợp nhất info của từng object
-            for(int i = 0; i < objectList.length(); i++) {
+            for (int i = 0; i < objectList.length(); i++) {
                 JSONObject item = objectList.getJSONObject(i);
                 increment++;
                 item.put("id", id_prefix + increment);
@@ -92,8 +90,7 @@ public class DataProcessing {
         JSONArray objectList2;
         List<JSONObject> result = new ArrayList<>();
 
-        try
-        {
+        try {
             // Đọc file và lưu vào biến kiểu String
             String content1 = new String(Files.readAllBytes(Paths.get(new File(firstUrl).toURI())));
             String content2 = new String(Files.readAllBytes(Paths.get(new File(secondUrl).toURI())));
@@ -103,14 +100,14 @@ public class DataProcessing {
             objectList2 = new JSONArray(content2);
 
             // Hợp nhất info của từng object
-            for(int i = 0; i < objectList1.length(); i++) {
+            for (int i = 0; i < objectList1.length(); i++) {
                 JSONObject item = objectList1.getJSONObject(i);
                 JSONObject searchObject = searchObjectByName(secondUrl, (String) item.get("name"));
 
                 if (searchObject != null) {
                     JSONObject searchObjectInfo = searchObject.getJSONObject("info");
                     JSONObject itemObjectInfo = item.getJSONObject("info");
-                    for(Object key : searchObjectInfo.keySet()) {
+                    for (Object key : searchObjectInfo.keySet()) {
                         String keyStr = (String) key;
                         if (itemObjectInfo.optJSONObject(keyStr) == null) {
                             itemObjectInfo.put(keyStr, searchObjectInfo.get(keyStr));
@@ -123,7 +120,7 @@ public class DataProcessing {
             }
 
             // Hợp nhất những object từ file 2 mà file 1 chưa có
-            for(int i = 0; i < objectList2.length(); i++) {
+            for (int i = 0; i < objectList2.length(); i++) {
                 JSONObject item = (JSONObject) objectList2.get(i);
                 JSONObject searchObject = searchObjectByName(firstUrl, (String) item.get("name"));
 
@@ -165,8 +162,4 @@ public class DataProcessing {
         DataProcessing b = new DataProcessing("data/characterNKS.json", "data/kingWiki.json", "processed_data/character.json", "c");
         b.processAndSave();
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> duy
