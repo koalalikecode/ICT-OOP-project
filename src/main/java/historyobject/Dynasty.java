@@ -2,8 +2,6 @@ package historyobject;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,7 +54,6 @@ public class Dynasty {
     }
 
     public void loadField(JSONObject jsonObject) {
-        JSONParser parser = new JSONParser();
         String strKings = new JSONArray(kings).toString();
         JSONArray jsonKings = new JSONArray();
         try {
