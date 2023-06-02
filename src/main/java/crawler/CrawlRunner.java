@@ -8,7 +8,9 @@ public class CrawlRunner {
         KingWikiCrawler kingWikiCrawler = new KingWikiCrawler();
         EventsNKSCrawler eventsNKSCrawler = new EventsNKSCrawler();
         WarWiki warWikiCrawler = new WarWiki();
-        
+        DynastyWikiCrawler dynastyWikiCrawler = new DynastyWikiCrawler();
+
+//        dynastyWikiCrawler.crawlAndSave();
 //        kingWikiCrawler.crawlAndSave();
 //        characterNKSCrawler.crawlAndSave();
 //        placeNKSCrawler.crawlAndSave();
