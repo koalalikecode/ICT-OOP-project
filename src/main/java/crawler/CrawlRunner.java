@@ -7,12 +7,14 @@ public class CrawlRunner {
         PlaceWikiCrawler placeWikiCrawler = new PlaceWikiCrawler();
         KingWikiCrawler kingWikiCrawler = new KingWikiCrawler();
         EventsNKSCrawler eventsNKSCrawler = new EventsNKSCrawler();
+        WarWiki warWikiCrawler = new WarWiki();
         
 //        kingWikiCrawler.crawlAndSave();
 //        characterNKSCrawler.crawlAndSave();
 //        placeNKSCrawler.crawlAndSave();
 //        placeWikiCrawler.crawlAndSave();
 //        eventsNKSCrawler.crawlAndSave();
+//        warWikiCrawler.crawlAndSave();
     }
 }
 
