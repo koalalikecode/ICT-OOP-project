@@ -18,96 +18,12 @@ public class EventWikiCrawler extends Crawler{
     public EventWikiCrawler(){
         setWebLink("https://vi.wikipedia.org");
         setFolder("data/eventWiki.json");
-        setStartLink("/wiki/Các_cuộc_chiến_tranh_Việt_Nam_tham_gia");
+        setStartLink("/wiki/Danh_sách_trận_đánh_trong_lịch_sử_Việt_Nam");
         setPageLimit(1);
     }
 
     @Override
     public void scrapePage(List eventList, Set<String> pagesDiscovered, List<String> pagesToScrape){
-        scrapePage1(eventList, pagesDiscovered, pagesToScrape);
-        pagesToScrape.add("/wiki/Danh_sách_trận_đánh_trong_lịch_sử_Việt_Nam");
-        scrapePage2(eventList, pagesDiscovered, pagesToScrape);
-    }
-    public void scrapePage1(List eventList, Set<String> pagesDiscovered, List<String> pagesToScrape){
-        String url = pagesToScrape.remove(0);
-        pagesDiscovered.add(url);
-        Document doc;
-        try {
-            // fetching the target website
-            doc = Jsoup.connect(getWebLink() + url).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        Elements eventNames = doc.select("div.mw-parser-output > h3 > span.mw-headline");
-        Elements eventTable = doc.select("table.wikitable > tbody");
-
-        for (int i = 0; i < eventNames.size(); i++){
-            // Create a event JSONOject
-            Event eventItem = new Event();
-
-            // Get event name:
-            String name = eventNames.get(i).text();
-            System.out.println("Name: " + name);
-            // Get event url:
-            String eventURL = eventNames.get(i).selectFirst("a").attr("href");
-
-            // Get event description
-            Document doc2;
-            try {
-                // fetching the target website
-                doc2 = Jsoup.connect(getWebLink() + eventURL).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-            String description = doc2.select("table[class='table toccolours'] + p").text();
-
-            // Info of the event
-            JSONObject eventInfo = new JSONObject();
-            // Table info
-            Elements table = eventTable.get(i).select("tr");
-            // Connection
-            List connections = new ArrayList<>();
-            List exist = new ArrayList<String>();
-            Elements moreEvent = table.select("a");
-
-            int NUMBER_OF_CONNECTION = 8;
-            int k = 0, m = 0;
-            while (m < NUMBER_OF_CONNECTION && k < moreEvent.size()){
-                JSONObject connection = new JSONObject();
-                String moreName = moreEvent.get(k).text();
-                if (!exist.contains(moreName)){
-                    exist.add(moreName);
-                    connection.put("name", moreName);
-                    connection.put("url", moreEvent.get(k).attr("href"));
-                    connections.add(connection);
-                    m++;
-                }
-                k++;
-            }
-
-            // Key list:
-            Elements keys = table.get(0).select("th");
-            // Value list and get info
-            for (int j = 1; j < table.size(); j++){
-                JSONObject info = new JSONObject();
-                for (int z = 0; z < keys.size(); z++){
-                    info.put(keys.get(z).text(), table.get(j).select("td").get(z).text());
-                }
-                eventInfo.put("event " + j, info);
-            }
-
-            eventItem.setName(name);
-            eventItem.setUrl(eventURL);
-            eventItem.setInfo(eventInfo);
-            eventItem.setDescription(description);
-            eventItem.setConnection(connections);
-            eventList.add(eventItem);
-            System.out.println("Done: " + eventURL);
-        }
-        System.out.println("Done: " + url);
-    }
-
-    public void scrapePage2(List warList, Set<String> pagesDiscovered, List<String> pagesToScrape){
         String url = pagesToScrape.remove(0);
         pagesDiscovered.add(url);
         Document doc;
@@ -180,7 +96,7 @@ public class EventWikiCrawler extends Crawler{
                         warItem.setDescription(description);
                         warItem.setName(name);
                         warItem.setUrl(warURL);
-                        warList.add(warItem);
+                        eventList.add(warItem);
                         System.out.println("Done: " + warURL);
                     } catch (IOException e) {
                         throw new RuntimeException(e);
