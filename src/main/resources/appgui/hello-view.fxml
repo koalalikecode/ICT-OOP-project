@@ -16,4 +16,3 @@
         </font></Label>
     <Button onAction="#onHelloButtonClick" text="Hello!" />
 </VBox>
-

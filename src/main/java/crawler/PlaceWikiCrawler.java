@@ -1,6 +1,7 @@
 package crawler;
 
 import historyobject.PlaceNKS;
+import crawler.PlaceWikiInfoCrawler;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -37,7 +38,7 @@ public class PlaceWikiCrawler extends Crawler {
             throw new RuntimeException(e);
         }
 
-        Elements placeLinks = doc.select("table.wikitable > tbody > tr:gt(0) > td:eq(0) a");
+        Elements placeLinks = doc.select("table.wikitable > tbody > tr:gt(0) > td:eq(0) > a:eq(0)");
         Elements name = doc.select("table.wikitable > tbody > tr > td:eq(0) ");
 
         for (Element placeLink : placeLinks) {
@@ -48,7 +49,7 @@ public class PlaceWikiCrawler extends Crawler {
                 String placeLinkStr = URLDecoder.decode(placeLink.attr("abs:href"), "UTF-8");
                 Doc = Jsoup.connect(placeLinkStr)
                         .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36")
-//                        .ignoreHttpErrors(true)
+                        .ignoreHttpErrors(true)
                         .header("Accept-Language", "*")
                         .get();
             } catch (IOException e) {
@@ -57,52 +58,55 @@ public class PlaceWikiCrawler extends Crawler {
 
             List<JSONObject> morePlace = scapeMoreConnection(Doc,".mw-parser-output > p > a");
             String description = scrapeDescription(Doc, "div.mw-parser-output > p:first-of-type");
-            JSONObject placeInfo = scrapeInfoBox(doc, "table.wikitable ");
 
             placeWiki.setName(name.get(nameIndex).text());
             nameIndex++;
 
-            placeWiki.setUrl(placeLink.attr("href"));
+            if (placeLink.attr("href").contains("redlink=1")){
+                placeWiki.setUrl("The page does not exist");
+            } else {
+                placeWiki.setUrl(placeLink.attr("abs:href"));
+            }
+
             placeWiki.setDescription(description);
-            placeWiki.setInfo(placeInfo);
+//            PlaceWikiInfoCrawler.wikiInfoCrawler(placeWiki, nameIndex);
             placeWiki.setConnection(morePlace);
             placeList.add(placeWiki);
             System.out.println(placeWiki.getName());
         }
         setOutput(new JSONArray(placeList));
     }
-    @Override
-    public JSONObject scrapeInfoBox(Document doc, String cssQuery) {
-        JSONObject info = new JSONObject();
-        List<String> header = new ArrayList<String>();
-        header.add("Vị trí");
-        header.add("Loại di tích");
-        header.add("Năm CN");
-        header.add("Ghi chú");
-        Elements tr = doc.select(cssQuery + " > tbody > tr");
-
-        if (tr.size() > 0) {
-            for (Element element : tr) {
-                JSONObject infoItem = new JSONObject();
-                Elements dataCells = element.select("td:not(:first-child)");
-                int index = 0;
-                for (Element dataCell : dataCells) {
-                    if (index >= header.size()) {
-                        break;
-                    }
-                    String dataText = dataCell.text();
-                    Element urlConnect = dataCell.selectFirst("a");
-                    infoItem.put("name", dataText);
-                    if (urlConnect != null) {
-                        infoItem.put("url", urlConnect.attr("href"));
-                    }
-                    infoItem.put(header.get(index), infoItem);
-                    index++;
-                }
-            }
-        }
-        return info;
-    }
+//    @Override
+//    public JSONObject scrapeInfoBox(Document doc, String cssQuery) {
+//        JSONObject info = new JSONObject();
+//        List<String> header = new ArrayList<String>();
+//        header.add("Vị trí");
+//        header.add("Loại di tích");
+//        header.add("Năm CN");
+//        header.add("Ghi chú");
+//
+//        List<String> headerSpecial = new ArrayList<String>();
+//        header.add("Địa điểm");
+//        header.add("Giá trị nổi bật");
+//
+//        int index = 0;
+//        for (Element dataCell : doc.select(cssQuery)) {
+//            if (index >= header.size()) {
+//                break;
+//            }
+//            JSONObject infoItem = new JSONObject();
+//            Element urlConnect = dataCell.selectFirst("a");
+//            infoItem.put("name", dataCell.text());
+//            if (urlConnect != null) {
+//                infoItem.put("url", urlConnect.attr("href"));
+//            } else {
+//                infoItem.put("url", "");
+//            }
+//            info.put(header.get(index), infoItem);
+//            index++;
+//        }
+//        return info;
+//    }
 
 
 }

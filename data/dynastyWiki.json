@@ -1,0 +1,199 @@
+[
+ {
+  "vua": [],
+  "tên": "Thời tiền sử"
+ },
+ {
+  "vua": [
+   "Hùng Vương I",
+   "Hùng Vương XVIII"
+  ],
+  "thủ đô": "Ngàn Hống (~2879 TCN \u2013 ?) Nghĩa Lĩnh (Thế kỷ XXIX TCN) Phong Châu (Tới 258 TCN)",
+  "tên": "Hồng Bàng"
+ },
+ {
+  "vua": [],
+  "tên": "An Dương Vương"
+ },
+ {
+  "vua": [
+   "Hán Vũ Đế",
+   "Hán Chiêu Đế",
+   "Hán Quang Vũ Đế"
+  ],
+  "bắt đầu": "207 TCN",
+  "thủ đô": "Giao Chỉ",
+  "tên": "Bắc thuộc lần I",
+  "kết thúc": "40"
+ },
+ {
+  "vua": [],
+  "bắt đầu": "40",
+  "tên": "Hai Bà Trưng",
+  "kết thúc": "43"
+ },
+ {
+  "vua": [
+   "Hán Quang Vũ Đế",
+   "Tôn Quyền",
+   "Tấn Vũ Đế",
+   "Lưu Tống Vũ Đế",
+   "Nam Tề Cao Đế",
+   "Lương Vũ Đế"
+  ],
+  "bắt đầu": "43",
+  "thủ đô": "Long Biên",
+  "tên": "Bắc thuộc lần II",
+  "kết thúc": "541"
+ },
+ {
+  "vua": [
+   "Lý Nam Đế",
+   "Triệu Việt Vương",
+   "Lý Phật Tử"
+  ],
+  "thủ đô": "Long Biên",
+  "tên": "Nhà Tiền Lý"
+ },
+ {
+  "vua": [],
+  "bắt đầu": "541",
+  "tên": "Triệu Việt Vương",
+  "kết thúc": "602"
+ },
+ {
+  "vua": [
+   "Tùy Văn Đế",
+   "Đường Cao Tổ",
+   "Lưu Nham",
+   "Độc Cô Tổn",
+   "Khúc Thừa Dụ",
+   "Khúc Hạo",
+   "Khúc Thừa Mỹ",
+   "Dương Đình Nghệ",
+   "Kiều Công Tiễn"
+  ],
+  "bắt đầu": "602",
+  "thủ đô": "Đại La",
+  "tên": "Bắc thuộc lần III",
+  "kết thúc": "905"
+ },
+ {
+  "vua": [],
+  "bắt đầu": "905",
+  "tên": "Tự chủ",
+  "kết thúc": "938"
+ },
+ {
+  "vua": [
+   "Ngô Quyền",
+   "Dương Tam Kha",
+   "Ngô Xương Văn",
+   "Ngô Xương Ngập"
+  ],
+  "bắt đầu": "938",
+  "thủ đô": "Cổ Loa",
+  "tên": "Nhà Ngô",
+  "kết thúc": "967"
+ },
+ {
+  "vua": [
+   "Đinh Tiên Hoàng",
+   "Đinh Phế Đế"
+  ],
+  "bắt đầu": "968",
+  "thủ đô": "Hoa Lư",
+  "tên": "Nhà Đinh",
+  "kết thúc": "980"
+ },
+ {
+  "vua": [
+   "Lê Đại Hành",
+   "Lê Trung Tông",
+   "Lê Ngọa Triều"
+  ],
+  "bắt đầu": "980",
+  "thủ đô": "Hoa Lư",
+  "tên": "Nhà Tiền Lê",
+  "kết thúc": "1009"
+ },
+ {
+  "vua": [
+   "Lý Thái Tổ",
+   "Lý Chiêu Hoàng"
+  ],
+  "bắt đầu": "1009",
+  "thủ đô": "Hoa Lư (1009 - 1010) Thăng Long (1010 - 1225)",
+  "tên": "Nhà Lý",
+  "kết thúc": "1225"
+ },
+ {
+  "vua": [
+   "Trần Thái Tông",
+   "Trần Thiếu Đế"
+  ],
+  "bắt đầu": "1225",
+  "thủ đô": "Thăng Long Thiên Trường[1] Thanh Hoá (tạm thời)",
+  "tên": "Nhà Trần",
+  "kết thúc": "1400"
+ },
+ {
+  "vua": [
+   "Hồ Quý Ly",
+   "Hồ Hán Thương"
+  ],
+  "bắt đầu": "1400",
+  "thủ đô": "Tây Đô 20°4\u2032B 105°36\u2032Đ﻿ / ﻿20,067°B 105,6°Đ﻿ / 20.067; 105.600",
+  "tên": "Nhà Hồ",
+  "kết thúc": "1407"
+ },
+ {
+  "vua": [],
+  "bắt đầu": "1407",
+  "tên": "Bắc thuộc lần IV",
+  "kết thúc": "1427"
+ },
+ {
+  "vua": [],
+  "tên": "Nhà Hậu Lê"
+ },
+ {
+  "vua": [
+   "Nguyễn Nhạc",
+   "Nguyễn Huệ",
+   "Nguyễn Quang Toản"
+  ],
+  "bắt đầu": "1778",
+  "thủ đô": "Quy Nhơn (1778-1788) Phú Xuân (1788-1802) Phượng Hoàng Trung Đô (1788-1802)",
+  "tên": "Nhà Tây Sơn",
+  "kết thúc": "1802"
+ },
+ {
+  "vua": [
+   "Gia Long",
+   "Hàm Nghi",
+   "Bảo Đại"
+  ],
+  "bắt đầu": "1802",
+  "thủ đô": "Phú Xuân (nay là Huế) 16°28\u2032B 107°36\u2032Đ﻿ / ﻿16,467°B 107,6°Đ﻿ / 16.467; 107.600",
+  "tên": "Nhà Nguyễn",
+  "kết thúc": "1945"
+ },
+ {
+  "vua": [],
+  "bắt đầu": "1945",
+  "tên": "Chiến tranh Đông Dương",
+  "kết thúc": "1975"
+ },
+ {
+  "vua": [
+   "Nguyễn Phú Trọng",
+   "Võ Văn Thưởng",
+   "Phạm Minh Chính",
+   "Vương Đình Huệ"
+  ],
+  "bắt đầu": "từ 1976",
+  "thủ đô": "Hà Nội 21°2\u2032B 105°51\u2032Đ﻿ / ﻿21,033°B 105,85°Đ﻿ / 21.033; 105.850",
+  "tên": "Cộng hòa Xã hội Chủ nghĩa Việt Nam"
+ }
+]

@@ -125,7 +125,7 @@ public class Crawler {
             List<String> pagesToScrape) {
     }
     // Ham scrape du lieu danh cho page khac
-    public void scrapePage() {
+    public void scrapePage(String pageToScrape) {
     }
 
     // Kết hợp với hàm scrapePage để crawl toàn bộ các page, phân trang,...
@@ -151,7 +151,6 @@ public class Crawler {
             }
         }
     }
-
     // Hàm để thực hiện crawl và save dữ liệu vào file
     public void crawlAndSave() {
         try {
