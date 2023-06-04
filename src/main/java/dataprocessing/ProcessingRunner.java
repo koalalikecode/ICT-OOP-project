@@ -14,7 +14,7 @@ public class ProcessingRunner {
 //        characterProcess.processAndSave();
 //        eventProcess.processAndSave();
 //        eventProcess2.processAndSave();
-        placeProcess.processAndSave();
+//        placeProcess.processAndSave();
     }
 
 }
