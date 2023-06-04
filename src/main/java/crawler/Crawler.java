@@ -1,43 +1,29 @@
 package crawler;
 
-import org.json.simple.JSONArray;
-import org.jsoup.Jsoup;
-
-
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.net.UnknownHostException;
 import java.util.*;
 
-/**
- * Lớp chứa những thuộc tính và các phương thức phục vụ cho việc thu thập dữ liệu
- * @since: 15/01/2023
- */
 public class Crawler {
-    private String webLink; // Trang chủ của trang web muốn crawl
-    private JSONArray output = new JSONArray(); // Dùng để xuất ra file json
-    private String startLink; // Trang đầu tiên của phần chúng ta muốn crawl
-    private String folder; // Đường tới thư mục lưu trữ dữ liệu
+    private String webLink; // trang web để crawl data
+    private String startLink; // trang web con để crawl data, ví dụ "/nhan-vat" của "https://nguoikesu.com"
+    private JSONArray output; // kết quả mảng JSON sau khi crawl
+    private String folder; // nơi lưu trữ file json kết quả
     private int pageLimit; // giới hạn số lượng page trong startLink để crawl
 
-    public String getWebLink() {
-        return webLink;
+
+    public JSONArray getOutput() {
+        return output;
     }
 
-    public void setWebLink(String root) {
-        this.webLink = root;
-    }
-
-    public String getStartLink() {
-        return startLink;
-    }
-
-    public void setStartLink(String start) {
-        this.startLink = start;
+    public void setOutput(JSONArray output) {
+        this.output = output;
     }
 
     public String getFolder() {
@@ -48,169 +34,130 @@ public class Crawler {
         this.folder = folder;
     }
 
-    public JSONArray getOutput() {
-        return output;
+    public String getWebLink() {
+        return webLink;
     }
 
-    public void scrapePage(String start) throws  IOException{
-        return;
+    public void setWebLink(String webLink) {
+        this.webLink = webLink;
     }
 
-    /**
-     * Dùng để thu thập mô tả, thông tin về các thực thể lịch sử
-     * @param url
-     * @param css
-     * @return info
-     * @throws IOException
-     */
-    public String scrapeInformation(String url, String css) throws IOException{
-
-        String info = "";
-        Document doc;
-        try {
-            doc = Jsoup.connect(url).userAgent("Jsoup client").timeout(20000).get();
-            Elements text = doc.select(css);
-            for (Element element:text){
-                info += element.text() + '\n';
-            }
-        }  catch (IOException e){
-            e.printStackTrace();
-        }
-        return info;
+    public String getStartLink() {
+        return startLink;
     }
 
-    /**
-     * Dùng để thu thập mô tả, thông tin về các thực thể lịch sử
-     * @param urls
-     * @param css
-     * @return info
-     * @throws IOException
-     */
-    public String scrapeInformation(List<String> urls, String css) throws IOException{
-        String info = "";
-        Document doc;
-        try {
-            for (String url:urls){
-                info += scrapeInformation(url,css);
-            }
-        }catch (IOException e){
-            e.printStackTrace();
-        }
-        return info;
+    public void setStartLink(String startLink) {
+        this.startLink = startLink;
     }
 
-    /**
-     * Dùng để thu thập các liên kết đối với thực thể
-     * @param url
-     * @param css
-     * @return connect
-     * @throws IOException
-     */
-    public List<String> scrapeConnect(String url, String css) throws IOException{
-        List<String> connection = null;
-        Document doc;
-        try {
-            doc = Jsoup.connect(url).userAgent("Jsoup client").timeout(20000).get();
-            Elements connect = doc.select(css);
-            List<String> text = new ArrayList<>();
-            for (Element element:connect){
-                if(!element.text().equals("")) text.add(element.text());
-            }
-            connection = kMostOccurrence(text,pageLimit);
-        } catch (IOException e){
-            e.printStackTrace();
-        }
-        return connection;
+    public int getPageLimit() {
+        return pageLimit;
     }
 
-    /**
-     * Dùng để thu thập các liên kết đối với thực thể
-     * @param urls
-     * @param css
-     * @return connect
-     * @throws IOException
-     */
-    public List<String> scrapeConnect(List<String> urls, String css) throws IOException{
-        List<String> connection = null;
-        Document doc;
-        try {
-            List<String> text = new ArrayList<>();
-            for(String url:urls){
-                doc = Jsoup.connect(url).userAgent("Jsoup client").timeout(20000).get();
-                Elements connect = doc.select(css);
-                for (Element element:connect){
-                    if(!element.text().equals("")) text.add(element.text());
-                }
-            }
-            connection = kMostOccurrence(text,pageLimit);
-        } catch (IOException e){
-            e.printStackTrace();
-        }
-        return connection;
+    public void setPageLimit(int pageLimit) {
+        this.pageLimit = pageLimit;
     }
 
-    /**
-     * Dùng để lưu trữ dữ liệu vào thư mục được chỉ định
-     * @param folder
-     * @throws IOException
-     */
-    public void saveData(String folder) throws IOException {
-        try (FileWriter file = new FileWriter(folder)){
-            file.write(output.toJSONString());
-            file.flush();
-        } catch (IOException e){
-            e.printStackTrace();
-        }
-    }
-
-    /**
-     * Dùng để chọn ra k phần tử xuất hiện nhiều nhất trong một dãy
-     * @param data
-     * @param k
-     * @return list_of_k_most_occurrence
-     */
-    public List<String> kMostOccurrence(List<String> data, int k){
-        List<String> res = new ArrayList<>();
-        Map<String, Integer> mp = new HashMap<>();
-
-        // Lưu số lượng các phần tử ứng với số lần xuất hiện của chúng
-        for (int i = 0; i < data.size(); i++) {
-            mp.put(data.get(i), mp.getOrDefault(data.get(i), 0) + 1);
-        }
-
-        // Tạo ra một list sao cho mỗi phần tử là một cặp gồm phần tử của dãy ban đầu ứng với số
-        // lần xuất hiện của phần tử
-        List<Map.Entry<String, Integer> > list = new ArrayList<>(mp.entrySet());
-
-        // Sắp xếp lại list vừa được tạo
-        Collections.sort(list,
-                new Comparator<>() {
-                    public int compare(
-                            Map.Entry<String, Integer> o1,
-                            Map.Entry<String, Integer> o2)
-                    {
-                        if (o1.getValue() == o2.getValue())
-                            return 0;
-                        else
-                            return o2.getValue()
-                                    - o1.getValue();
-                    }
-                });
-        // Chọn ra k phần tử có số lượng xuất hiện nhiều nhất
-        for (int i = 0 ; i < Math.min(k, list.size()); i++){
-            res.add(list.get(i).getKey());
+    // Hàm để scrape description của đối tượng từ trang web
+    public String scrapeDescription(Document doc, String cssQuery) {
+        Elements description = doc.select(cssQuery);
+        String res = "";
+        for (Element item:description) {
+            res += item.text() + "\n";
         }
         return res;
     }
 
-    /**
-     * Dùng để thu thập và lưu trữ dữ liệu
-     * @throws IOException
-     */
-    public void crawlAndSave() throws IOException{
-        this.scrapePage(startLink);
-        this.saveData(folder);
-        System.out.println("Crawled " + output.size() + " objects");
+    // Hàm để crawl các đối tượng xem thêm của các object
+    public List<JSONObject> scapeMoreConnection(Document doc, String cssQuery) {
+        List<JSONObject> res = new ArrayList<>();
+        Elements connections = doc.select(cssQuery);
+        if(connections.size() > 0) {
+            int i = 0;
+            for(Element connection: connections) {
+                if(!connection.attr("href").startsWith("#") && res.stream().noneMatch(p -> p.getString("name").equals(connection.text()))) {
+                    JSONObject item = new JSONObject();
+                    item.put("name", connection.text());
+                    item.put("url", connection.attr("href"));
+                    res.add(item);
+                    i++;
+                }
+                if (i >= 8) break;
+            }
+        }
+        return res;
     }
 
+    // Hàm để scrape bảng thông tin nhân vật trong web NKS
+    public JSONObject scrapeInfoBox(Document doc, String cssQuery) {
+        JSONObject info = new JSONObject();
+        Elements tr = doc.select(cssQuery); // Lấy ra các thẻ tr của bảng infobox
+        if (tr != null && tr.size() > 0) {
+            for (Element element : tr) {
+                JSONObject infoItem = new JSONObject();
+                Element th = element.selectFirst("th");
+                Element td = element.selectFirst("td");
+                Elements tdGroup = element.select("td");
+                if (th != null && td != null) {
+                    Element urlConnect = td.selectFirst("a");
+                    infoItem.put("name", td.text());
+                    if (urlConnect != null) {
+                        infoItem.put("url", urlConnect.attr("href"));
+                    }
+                    info.put(th.text(), infoItem);
+                } else if (th == null && tdGroup.size() > 1) {
+                    Element urlConnect = tdGroup.get(1).selectFirst("a");
+                    infoItem.put("name", tdGroup.get(1).text());
+                    if (urlConnect != null) {
+                        infoItem.put("url", urlConnect.attr("href"));
+                    }
+                    info.put(tdGroup.get(0).text(), infoItem);
+                }
+            }
+        }
+        return info;
+    }
+
+    // Hàm scrape dữ liệu dành cho page Nguoi ke su
+    public void scrapePage(
+            List CrawlerObjectList,
+            Set<String> pagesDiscovered,
+            List<String> pagesToScrape) {
+    }
+    // Ham scrape du lieu danh cho page khac
+    public void scrapePage(String pageToScrape) throws IOException {
+    }
+
+    // Kết hợp với hàm scrapePage để crawl toàn bộ các page, phân trang,...
+    public void crawlData() throws InterruptedException {
+    }
+
+
+    //    Hàm để lưu dữ liệu vào file Json
+    private void saveData() {
+        FileWriter file = null;
+        try {
+            // Constructs a FileWriter given a file name, using the platform's default charset
+            file = new FileWriter(folder);
+            file.write(output.toString(1));
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                file.flush();
+                file.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    // Hàm để thực hiện crawl và save dữ liệu vào file
+    public void crawlAndSave() {
+        try {
+            crawlData();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        saveData();
+    }
 }

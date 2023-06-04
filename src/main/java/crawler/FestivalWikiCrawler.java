@@ -8,15 +8,16 @@ import org.jsoup.select.Elements;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.net.UnknownHostException;
-public class FestivalWikiCrawler extends Crawler {
+import java.util.*;
+
+public class FestivalWikiCrawler extends Crawlers {
     public FestivalWikiCrawler() {
         setWebLink("https://vi.wikipedia.org");
         setFolder("data/FestivalWiki.json");
         setStartLink("https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Vi%E1%BB%87t_Nam");
     }
-
     @Override
-    public void scrapePage(String pageToString) throws IOException {
+    public void scrapePage(String pageToString) {
         Document doc;
         try {
             doc = Jsoup.connect(pageToString).userAgent("Jsoup client").timeout(20000).get();
@@ -67,13 +68,15 @@ public class FestivalWikiCrawler extends Crawler {
                 super.getOutput().add(obj);
             }
         } catch (UnknownHostException e){
-            throw new UnknownHostException("Turn on your Internet please");
+            try {
+                throw new UnknownHostException("Turn on your Internet please");
+            } catch (UnknownHostException ex) {
+                throw new RuntimeException(ex);
+            }
         } catch (IOException e){
             e.printStackTrace();
         }
     }
-
-    @Override
     public void saveData(String folder) throws IOException {
         FileWriter fileWriter = null;
         try {
@@ -93,9 +96,6 @@ public class FestivalWikiCrawler extends Crawler {
             }
         }
     }
-
-
-
     public String scrapeInformation(String url, String css) throws IOException{
 
         String info = "";
@@ -111,9 +111,90 @@ public class FestivalWikiCrawler extends Crawler {
         }
         return info;
     }
-
-    public static void main(String[] args) throws  Exception{
-        FestivalWikiCrawler f = new FestivalWikiCrawler();
-        f.crawlAndSave();
+    public String scrapeInformation(List<String> urls, String css) throws IOException{
+        String info = "";
+        Document doc;
+        try {
+            for (String url:urls){
+                info += scrapeInformation(url,css);
+            }
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        return info;
     }
 }
+
+ class Crawlers {
+    private String webLink;
+    private org.json.simple.JSONArray output = new org.json.simple.JSONArray();
+    private String startLink;
+    private String folder;
+    private int pageLimit;
+    public String getWebLink() {
+        return webLink;
+    }
+    public void setWebLink(String root) {
+        this.webLink = root;
+    }
+    public String getStartLink() {
+        return startLink;
+    }
+    public void setStartLink(String start) {
+        this.startLink = start;
+    }
+    public String getFolder() {
+        return folder;
+    }
+    public void setFolder(String folder) {
+        this.folder = folder;
+    }
+    public org.json.simple.JSONArray getOutput() {
+        return output;
+    }
+    public void scrapePage(String start) throws  IOException{
+        return;
+    }
+    public String scrapeInformation(String url, String css) throws IOException{
+
+        String info = "";
+        Document doc;
+        try {
+            doc = Jsoup.connect(url).userAgent("Jsoup client").timeout(20000).get();
+            Elements text = doc.select(css);
+            for (Element element:text){
+                info += element.text() + '\n';
+            }
+        }  catch (IOException e){
+            e.printStackTrace();
+        }
+        return info;
+    }
+    public String scrapeInformation(List<String> urls, String css) throws IOException{
+        String info = "";
+        Document doc;
+        try {
+            for (String url:urls){
+                info += scrapeInformation(url,css);
+            }
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        return info;
+    }
+
+    public void saveData(String folder) throws IOException {
+        try (FileWriter file = new FileWriter(folder)){
+            file.write(output.toJSONString());
+            file.flush();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+    public void crawlAndSave() throws IOException{
+        this.scrapePage(startLink);
+        this.saveData(folder);
+        System.out.println("Crawled " + output.size() + " objects");
+    }
+}
+
