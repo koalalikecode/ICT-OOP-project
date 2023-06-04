@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 import historyobject.Event;
 import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONML;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -100,21 +101,36 @@ public class EventsNKSCrawler extends Crawler{
         Elements thKey = doc.select("table > tbody > tr > td > table > tbody > tr > th");
         //System.out.println(tr.size());
         for (int i=0 ; i<trKey.size() ; i++) {
-            Elements tdchild = trKey.get(i).select("td");
-            JSONArray url = new JSONArray();
-            Elements hrefs = tdchild.select("a");
-            //System.out.println("test"+i + hrefs.size());
-            if(hrefs.size()==0)
-             info.put(thKey.get(i).text(),trKey.get(i).text());
-             else{
-            for (Element href : hrefs){
-                JSONObject hrefObject = new JSONObject();
-                hrefObject.put("name",href.text());
-                hrefObject.put("url", href.attr("href"));
-                url.put(hrefObject);
+            Elements tdchild_1 = trKey.get(i).select("td:nth-child(1)");
+            Elements tdChild_2 = trKey.get(i).select("td:nth-child(2)");
+            JSONObject url = new JSONObject();
+            Elements hrefs_1 = tdchild_1.select("a");
+            Elements hrefs_2 = tdChild_2.select("a");
+            if(hrefs_1.size()==0 && hrefs_2.size()==0) {
+                JSONObject info1 = new JSONObject();
+                info1.put("phe 1", tdchild_1.text());
+                info1.put("phe 2",tdChild_2.text());
+             info.put(thKey.get(i).text(), info1);
             }
+            if(hrefs_1.size()!=0||hrefs_2.size()!=0){
+            if(hrefs_1.size()!=0){
+            for (Element href_1 : hrefs_1){
+                JSONObject hrefObject = new JSONObject();
+                hrefObject.put("name",href_1.text());
+                hrefObject.put("url", href_1.attr("href"));
+                url.put("phe 1",hrefObject);
+                }
+            }else url.put("phe 1",tdchild_1.text());
+            if(hrefs_2.size()!=0){
+            for (Element href_2 : hrefs_2){
+                JSONObject hrefObject = new JSONObject();
+                hrefObject.put("name",href_2.text());
+                hrefObject.put("url", href_2.attr("href"));
+                url.put("phe 2",hrefObject);
+                }
+            }else url.put("phe 1",tdchild_1.text());
             info.put(thKey.get(i).text(), url);
-        }
+            }
     }  
         return info;
     }
