@@ -30,6 +30,7 @@ public class FestivalWikiCrawler extends Crawlers {
                 String url = table.get(i).select("td:nth-of-type(3) > a").attr("href");
                 url = super.getWebLink() + url;
                 String connection="";
+                String info="";
                 System.out.println(name);
                 System.out.println(url);
                 obj.put("name", name);
@@ -38,14 +39,14 @@ public class FestivalWikiCrawler extends Crawlers {
 
                 // Scrape the organized day
                 if (table.get(i).select("td:nth-of-type(1)").text() != null)
-                    description += "Ngày bắt đầu (âm lịch): " + table.get(i).select("td:nth-of-type(1)").text() + "   ";
+                    info += "Ngày bắt đầu (âm lịch): " + table.get(i).select("td:nth-of-type(1)").text() + "   ";
                 // Scrape the position
                 if (table.get(i).select("td:nth-of-type(2)") != null) {
                     String position = "";
                     for (Element element : table.get(i).select("td:nth-of-type(2)")) {
                         position += element.text();
                     }
-                    description += "Vị trí: " + position + "   ";
+                    info += "Vị trí: " + position + "   ";
                 }
                 // Scrape the first time
                 String start = null;
@@ -56,8 +57,8 @@ public class FestivalWikiCrawler extends Crawlers {
                         start = table.get(i).select("td:nth-of-type(4)").text();
                     }
                 }
-                if (start != null) description += "Lần đầu tổ chức: " + start + "   " ;
-                else{description += "Lần đầu tổ chức: " + "Chưa rõ"+ "  ";}
+                if (start != null) info += "Lần đầu tổ chức: " + start + "   " ;
+                else{info += "Lần đầu tổ chức: " + "Chưa rõ"+ "  ";}
                 // Scrape the connected character
                 String connect = null;
                 if (table.get(i).select("td:nth-of-type(5)").text() != null) {
@@ -71,6 +72,7 @@ public class FestivalWikiCrawler extends Crawlers {
                     description += scrapeInformation(url, "div.mw-body-content.mw-content-ltr > div > p:first-of-type");
                 System.out.println(description);
                 obj.put("description", description);
+                obj.put("info",info);
                 obj.put("connection", connection);
                 super.getOutput().add(obj);
             }
@@ -170,7 +172,7 @@ class Crawlers {
             doc = Jsoup.connect(url).userAgent("Jsoup client").timeout(20000).get();
             Elements text = doc.select(css);
             for (Element element:text){
-                info += element.text() + '\n';
+                    info += element.text() + '\n';
             }
         }  catch (IOException e){
             e.printStackTrace();
