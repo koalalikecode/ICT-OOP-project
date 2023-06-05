@@ -29,24 +29,25 @@ public class FestivalWikiCrawler extends Crawlers {
                 for (Element element : names) name += element.text();
                 String url = table.get(i).select("td:nth-of-type(3) > a").attr("href");
                 url = super.getWebLink() + url;
-                String connection="";
-                String info="";
+                JSONObject connectJson=new JSONObject();
+                JSONObject info = new JSONObject();
                 System.out.println(name);
                 System.out.println(url);
                 obj.put("name", name);
 
                 String description = "";
-
+               String startDate="";
                 // Scrape the organized day
                 if (table.get(i).select("td:nth-of-type(1)").text() != null)
-                    info += "Ngày bắt đầu (âm lịch): " + table.get(i).select("td:nth-of-type(1)").text() + "   ";
+               startDate=table.get(i).select("td:nth-of-type(1)").text() ;
+                info.put("Ngày bắt đầu(Âm lịch): ", startDate);
                 // Scrape the position
                 if (table.get(i).select("td:nth-of-type(2)") != null) {
                     String position = "";
                     for (Element element : table.get(i).select("td:nth-of-type(2)")) {
                         position += element.text();
                     }
-                    info += "Vị trí: " + position + "   ";
+                  info.put("Vị trí:",position);
                 }
                 // Scrape the first time
                 String start = null;
@@ -57,23 +58,21 @@ public class FestivalWikiCrawler extends Crawlers {
                         start = table.get(i).select("td:nth-of-type(4)").text();
                     }
                 }
-                if (start != null) info += "Lần đầu tổ chức: " + start + "   " ;
-                else{info += "Lần đầu tổ chức: " + "Chưa rõ"+ "  ";}
+                if (start != null) info.put("Lần đầu tổ chức: " ,start ) ;
                 // Scrape the connected character
                 String connect = null;
                 if (table.get(i).select("td:nth-of-type(5)").text() != null) {
                     connect = table.get(i).select("td:nth-of-type(5)").text();
                 }
                 if (connect != null)
-                    connection+=  "url:   "+url +"    ";
-
-                    connection += "Nhân vật liên quan: " + connect + "   ";
+                    connectJson.put("Url: ",url);
+                    connectJson.put("Nhân vật liên quan: ",connect);
                 if (scrapeInformation(url, "div.mw-body-content.mw-content-ltr > div > p:first-of-type") != null)
                     description += scrapeInformation(url, "div.mw-body-content.mw-content-ltr > div > p:first-of-type");
                 System.out.println(description);
                 obj.put("description", description);
                 obj.put("info",info);
-                obj.put("connection", connection);
+                obj.put("connection", connectJson);
                 super.getOutput().add(obj);
             }
         } catch (UnknownHostException e){
