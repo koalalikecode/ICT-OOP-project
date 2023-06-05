@@ -2,8 +2,8 @@ package crawler;
 
 public class CrawlRunner {
  public static void main(String[] args)  throws  Exception{
-     FestivalWikiCrawler f = new FestivalWikiCrawler();
-     f.crawlAndSave();
+    FestivalWikiCrawler f = new FestivalWikiCrawler();
+    f.crawlAndSave();
  }}
 //       CharacterNKSCrawler characterNKSCrawler = new CharacterNKSCrawler();
 ////        PlaceNKSCrawler placeNKSCrawler = new PlaceNKSCrawler();

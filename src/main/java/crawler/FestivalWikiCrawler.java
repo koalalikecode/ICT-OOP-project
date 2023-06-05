@@ -27,23 +27,25 @@ public class FestivalWikiCrawler extends Crawlers {
                 Elements names = table.get(i).select("td:nth-of-type(3)");
                 String name = "";
                 for (Element element : names) name += element.text();
-                String id = table.get(i).select("td:nth-of-type(3) > a").attr("href");
-                id = super.getWebLink() + id;
+                String url = table.get(i).select("td:nth-of-type(3) > a").attr("href");
+                url = super.getWebLink() + url;
+                String connection="";
                 System.out.println(name);
-                System.out.println(id);
+                System.out.println(url);
                 obj.put("name", name);
-                obj.put("id", id);
+
                 String description = "";
+
                 // Scrape the organized day
                 if (table.get(i).select("td:nth-of-type(1)").text() != null)
-                    description += "Ngày bắt đầu (âm lịch): " + table.get(i).select("td:nth-of-type(1)").text() + "\n";
+                    description += "Ngày bắt đầu (âm lịch): " + table.get(i).select("td:nth-of-type(1)").text() + "   ";
                 // Scrape the position
                 if (table.get(i).select("td:nth-of-type(2)") != null) {
                     String position = "";
                     for (Element element : table.get(i).select("td:nth-of-type(2)")) {
                         position += element.text();
                     }
-                    description += "Vị trí: " + position + "\n";
+                    description += "Vị trí: " + position + "   ";
                 }
                 // Scrape the first time
                 String start = null;
@@ -54,22 +56,27 @@ public class FestivalWikiCrawler extends Crawlers {
                         start = table.get(i).select("td:nth-of-type(4)").text();
                     }
                 }
-                if (start != null) description += "Lần đầu tổ chức: " + start + "\n";
+                if (start != null) description += "Lần đầu tổ chức: " + start + "   " ;
+                else{description += "Lần đầu tổ chức: " + "Chưa rõ"+ "  ";}
                 // Scrape the connected character
                 String connect = null;
                 if (table.get(i).select("td:nth-of-type(5)").text() != null) {
                     connect = table.get(i).select("td:nth-of-type(5)").text();
                 }
-                if (connect != null) description += "Nhân vật liên quan: " + connect + "\n";
-                if (scrapeInformation(id, "div.mw-body-content.mw-content-ltr > div > p:first-of-type") != null)
-                    description += scrapeInformation(id, "div.mw-body-content.mw-content-ltr > div > p:first-of-type");
+                if (connect != null)
+                    connection+=  "url:   "+url +"    ";
+
+                    connection += "Nhân vật liên quan: " + connect + "   ";
+                if (scrapeInformation(url, "div.mw-body-content.mw-content-ltr > div > p:first-of-type") != null)
+                    description += scrapeInformation(url, "div.mw-body-content.mw-content-ltr > div > p:first-of-type");
                 System.out.println(description);
-                obj.put("info", description);
+                obj.put("description", description);
+                obj.put("connection", connection);
                 super.getOutput().add(obj);
             }
         } catch (UnknownHostException e){
             try {
-                throw new UnknownHostException("Turn on your Internet please");
+                throw new UnknownHostException("");
             } catch (UnknownHostException ex) {
                 throw new RuntimeException(ex);
             }
@@ -125,7 +132,7 @@ public class FestivalWikiCrawler extends Crawlers {
     }
 }
 
- class Crawlers {
+class Crawlers {
     private String webLink;
     private org.json.simple.JSONArray output = new org.json.simple.JSONArray();
     private String startLink;
@@ -197,4 +204,3 @@ public class FestivalWikiCrawler extends Crawlers {
         System.out.println("Crawled " + output.size() + " objects");
     }
 }
-
