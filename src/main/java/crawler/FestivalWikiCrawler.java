@@ -29,7 +29,6 @@ public class FestivalWikiCrawler extends Crawlers {
                 for (Element element : names) name += element.text();
                 String url = table.get(i).select("td:nth-of-type(3) > a").attr("href");
                 url = super.getWebLink() + url;
-                JSONObject connectJson=new JSONObject();
                 JSONObject info = new JSONObject();
                 System.out.println(name);
                 System.out.println(url);
@@ -49,7 +48,6 @@ public class FestivalWikiCrawler extends Crawlers {
                     }
                   info.put("Vị trí:",position);
                 }
-                // Scrape the first time
                 String start = null;
                 if (table.get(i).select("td:nth-of-type(4) > a") != null) {
                     start = table.get(i).select("td:nth-of-type(4) > a").text();
@@ -65,14 +63,19 @@ public class FestivalWikiCrawler extends Crawlers {
                     connect = table.get(i).select("td:nth-of-type(5)").text();
                 }
                 if (connect != null)
-                    connectJson.put("Url: ",url);
-                    connectJson.put("Nhân vật liên quan: ",connect);
+                   info.put("Url: ",url);
+                    info.put("Nhân vật liên quan: ",connect);
+                    String note=null;
+                if (table.get(i).select("td:nth-of-type(6)").text() != null) {
+                    note = table.get(i).select("td:nth-of-type(6)").text();}
+                if(note!=null){
+                    info.put("Ghi chú: ",note);
+                }
                 if (scrapeInformation(url, "div.mw-body-content.mw-content-ltr > div > p:first-of-type") != null)
                     description += scrapeInformation(url, "div.mw-body-content.mw-content-ltr > div > p:first-of-type");
                 System.out.println(description);
                 obj.put("description", description);
                 obj.put("info",info);
-                obj.put("connection", connectJson);
                 super.getOutput().add(obj);
             }
         } catch (UnknownHostException e){
