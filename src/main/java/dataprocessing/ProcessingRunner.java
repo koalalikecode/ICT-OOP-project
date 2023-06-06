@@ -10,11 +10,14 @@ public class ProcessingRunner {
                 "processed_data/event.json", "e");
         DataProcessing placeProcess = new DataProcessing("data/placeNKS.json", "data/placeWiki.json",
                 "processed_data/place.json", "p");
+        DataProcessing festivalProcess = new DataProcessing("data/FestivalWiki.json",
+                "processed_data/festival.json", "f");
 
 //        characterProcess.processAndSave();
 //        eventProcess.processAndSave();
 //        eventProcess2.processAndSave();
 //        placeProcess.processAndSave();
+//        festivalProcess.processAndSave();
     }
 
 }
