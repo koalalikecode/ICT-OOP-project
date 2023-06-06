@@ -37,38 +37,38 @@ public class FestivalCrawler extends Crawler {
         return info;
     }
     @Override
-    public void scrapePage(String pageToScrape) throws IOException {
+    public void scrapePage(String pageToString) {
         Document doc;
-        JSONObject festivalList= new JSONObject();
-        JSONObject info=new JSONObject();
-        String description="";
-        String name="";
-        String note=null;
-        String connect=null;
-        String startDate="";
-        String position="";
-        String start=null;
         try {
-            doc = Jsoup.connect(pageToScrape).userAgent("Jsoup client").timeout(20000).get();
+            doc = Jsoup.connect(pageToString).userAgent("Jsoup client").timeout(20000).get();
             Elements table = doc.select("table.prettytable.wikitable > tbody > tr");
             for (int i = 1; i < table.size(); i++) {
+                JSONObject obj = new JSONObject();
                 Elements names = table.get(i).select("td:nth-of-type(3)");
+                String name = "";
                 for (Element element : names) name += element.text();
                 String url = table.get(i).select("td:nth-of-type(3) > a").attr("href");
                 url = super.getWebLink() + url;
+                JSONObject info = new JSONObject();
                 System.out.println(name);
                 System.out.println(url);
-                festivalList.put("name", name);
+                obj.put("name", name);
+
+                String description = "";
+                String startDate="";
+                // Scrape the organized day
                 if (table.get(i).select("td:nth-of-type(1)").text() != null)
                     startDate=table.get(i).select("td:nth-of-type(1)").text() ;
                 info.put("Ngày bắt đầu(Âm lịch): ", startDate);
                 // Scrape the position
                 if (table.get(i).select("td:nth-of-type(2)") != null) {
+                    String position = "";
                     for (Element element : table.get(i).select("td:nth-of-type(2)")) {
                         position += element.text();
                     }
                     info.put("Vị trí:",position);
                 }
+                String start = null;
                 if (table.get(i).select("td:nth-of-type(4) > a") != null) {
                     start = table.get(i).select("td:nth-of-type(4) > a").text();
                 } else {
@@ -78,22 +78,25 @@ public class FestivalCrawler extends Crawler {
                 }
                 if (start != null) info.put("Lần đầu tổ chức: " ,start ) ;
                 // Scrape the connected character
+                String connect = null;
                 if (table.get(i).select("td:nth-of-type(5)").text() != null) {
                     connect = table.get(i).select("td:nth-of-type(5)").text();
                 }
                 if (connect != null)
 //                    info.put("Url: ",url);
                 info.put("Nhân vật liên quan: ",connect);
+                String note=null;
                 if (table.get(i).select("td:nth-of-type(6)").text() != null) {
                     note = table.get(i).select("td:nth-of-type(6)").text();}
                 if(note!=null){
                     info.put("Ghi chú: ",note);
-                }if (scrapeDescription(url, "div.mw-body-content.mw-content-ltr > div > p:first-of-type") != null)
+                }
+                if (scrapeDescription(url, "div.mw-body-content.mw-content-ltr > div > p:first-of-type") != null)
                     description += scrapeDescription(url, "div.mw-body-content.mw-content-ltr > div > p:first-of-type");
                 System.out.println(description);
-               festivalList.put("description", description);
-                festivalList.put("info",info);
-                super.getOutput().put(festivalList);
+                obj.put("description", description);
+                obj.put("info",info);
+                super.getOutput().put(obj);
             }
         } catch (UnknownHostException e){
             try {
