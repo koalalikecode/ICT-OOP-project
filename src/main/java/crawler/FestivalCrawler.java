@@ -1,6 +1,6 @@
 package crawler;
 import org.json.JSONArray;
-import org.json.simple.JSONObject;
+import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -8,11 +8,9 @@ import org.jsoup.select.Elements;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.net.UnknownHostException;
-import java.util.*;
 
 
 public class FestivalCrawler extends Crawler {
-
 
     public FestivalCrawler() {
         setOutput(new JSONArray());
@@ -83,9 +81,8 @@ public class FestivalCrawler extends Crawler {
                     connect = table.get(i).select("td:nth-of-type(5)").text();
                 }
                 if (connect != null)
-//                    info.put("Url: ",url);
-                info.put("Nhân vật liên quan: ",connect);
-                String note=null;
+                    info.put("Nhân vật liên quan: ",connect);
+                    String note=null;
                 if (table.get(i).select("td:nth-of-type(6)").text() != null) {
                     note = table.get(i).select("td:nth-of-type(6)").text();}
                 if(note!=null){
@@ -134,10 +131,6 @@ public class FestivalCrawler extends Crawler {
         this.saveData(getFolder());
         System.out.println("Crawled " + getOutput().length() + " objects");
     }
-
-
-
-
 }
 
 
