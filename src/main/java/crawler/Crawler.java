@@ -152,7 +152,7 @@ public class Crawler {
         }
     }
     // Hàm để thực hiện crawl và save dữ liệu vào file
-    public void crawlAndSave() {
+    public void crawlAndSave() throws IOException {
         try {
             crawlData();
         } catch (InterruptedException e) {
