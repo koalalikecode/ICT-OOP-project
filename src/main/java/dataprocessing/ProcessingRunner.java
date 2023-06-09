@@ -12,12 +12,15 @@ public class ProcessingRunner {
                 "processed_data/place.json", "p");
         DataProcessing festivalProcess = new DataProcessing("data/FestivalWiki.json",
                 "processed_data/festival.json", "f");
+        DataProcessing dynastyProcess = new DataProcessing("data/dynastyWiki.json",
+                "processed_data/dynasty.json", "d");
 
 //        characterProcess.processAndSave();
 //        eventProcess.processAndSave();
 //        eventProcess2.processAndSave();
 //        placeProcess.processAndSave();
 //        festivalProcess.processAndSave();
+        dynastyProcess.processAndSave();
     }
 
 }
