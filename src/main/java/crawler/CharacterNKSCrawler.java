@@ -21,7 +21,7 @@ public class CharacterNKSCrawler extends Crawler {
         setWebLink("https://nguoikesu.com");
         setFolder("data/characterNKS.json");
         setStartLink("/nhan-vat");
-        setPageLimit(5);
+        setPageLimit(291);
     }
 
     @Override
@@ -35,7 +35,7 @@ public class CharacterNKSCrawler extends Crawler {
         Document doc;
         try {
             // fetching the target website
-            doc = Jsoup.connect(getWebLink() + url).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
+            doc = Jsoup.connect(getWebLink() + url).userAgent("").header("Accept-Language", "*").get();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -66,7 +66,6 @@ public class CharacterNKSCrawler extends Crawler {
             characterItem.setInfo(characterInfo);
             characterItem.setConnection(moreCharacter);
             characterList.add(characterItem);
-
         }
 
         // iterating over the pagination HTML elements

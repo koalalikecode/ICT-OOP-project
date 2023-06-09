@@ -17,6 +17,7 @@ public class Crawler {
     private String folder; // nơi lưu trữ file json kết quả
     private int pageLimit; // giới hạn số lượng page trong startLink để crawl
 
+
     public JSONArray getOutput() {
         return output;
     }
@@ -74,7 +75,7 @@ public class Crawler {
         if(connections.size() > 0) {
             int i = 0;
             for(Element connection: connections) {
-                if(res.stream().noneMatch(p -> p.getString("name").equals(connection.text()))) {
+                if(!connection.attr("href").startsWith("#") && res.stream().noneMatch(p -> p.getString("name").equals(connection.text()))) {
                     JSONObject item = new JSONObject();
                     item.put("name", connection.text());
                     item.put("url", connection.attr("href"));
@@ -123,9 +124,8 @@ public class Crawler {
             Set<String> pagesDiscovered,
             List<String> pagesToScrape) {
     }
-
     // Ham scrape du lieu danh cho page khac
-    public void scrapePage() {
+    public void scrapePage(String pageToScrape) throws IOException {
     }
 
     // Kết hợp với hàm scrapePage để crawl toàn bộ các page, phân trang,...
@@ -151,9 +151,8 @@ public class Crawler {
             }
         }
     }
-
     // Hàm để thực hiện crawl và save dữ liệu vào file
-    public void crawlAndSave() {
+    public void crawlAndSave() throws IOException {
         try {
             crawlData();
         } catch (InterruptedException e) {
@@ -162,6 +161,3 @@ public class Crawler {
         saveData();
     }
 }
-
-
-

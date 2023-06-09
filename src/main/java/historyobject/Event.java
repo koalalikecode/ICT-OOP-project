@@ -4,7 +4,7 @@ import org.json.JSONObject;
 
 import java.util.List;
 
-public class Dynasty {
+public class Event {
     private String name;
     private String url;
     private JSONObject info;
