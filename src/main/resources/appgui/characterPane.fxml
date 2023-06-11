@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="533.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.HistoryController">
+   <children>
+      <BorderPane prefHeight="533.0" prefWidth="894.0">
+         <left>
+            <VBox prefHeight="484.0" prefWidth="147.0" style="-fx-background-color: #C70039;" stylesheets="@style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Character" textAlignment="CENTER" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
+                           <image>
+                              <Image url="@icons/character-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Event" textAlignment="CENTER" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
+                           <image>
+                              <Image url="@icons/character-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Dynasty" textAlignment="CENTER" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
+                           <image>
+                              <Image url="@icons/character-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Festival" textAlignment="CENTER" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
+                           <image>
+                              <Image url="@icons/character-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Place" textAlignment="CENTER" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
+                           <image>
+                              <Image url="@icons/character-icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </left>
+         <top>
+            <HBox prefHeight="54.0" prefWidth="894.0" style="-fx-background-color: #740021;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true" translateX="20.0" translateY="9.0" translateZ="12.0" x="12.0" y="12.0">
+                     <image>
+                        <Image url="@icons/logo-icon.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="TOP_CENTER" contentDisplay="CENTER" text="Group name / Proj's name" textAlignment="CENTER" textFill="WHITE" translateX="30.0" translateY="18.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#quitButtonClick" style="-fx-background-color: #FDF1F5;" stylesheets="@style.css" text="X" translateX="650.0" translateY="14.0" />
+               </children></HBox>
+         </top>
+         <center>
+            <TabPane prefHeight="200.0" prefWidth="747.0" stylesheets="style.css" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+               <tabs>
+                  <Tab text="All Character">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="417.0" prefWidth="331.0" style="-fx-text-base-color: red;">
+                           <children>
+                              <BorderPane prefHeight="472.0" prefWidth="745.0">
+                                 <center>
+                                    <BorderPane prefHeight="350.0" prefWidth="712.0" BorderPane.alignment="CENTER">
+                                       <center>
+                                          <AnchorPane prefHeight="402.0" prefWidth="757.0" BorderPane.alignment="CENTER">
+                                             <children>
+                                                <TableView layoutX="14.0" layoutY="25.0" maxWidth="254.0" prefHeight="361.0" prefWidth="202.0" stylesheets="@style.css">
+                                                   <columns>
+                                                      <TableColumn prefWidth="199.20001602172852" text="Name" />
+                                                   </columns>
+                                                </TableView>
+                                                <ScrollPane layoutX="241.0" layoutY="26.0" prefHeight="360.0" prefWidth="482.0" stylesheets="@style.css">
+                                                   <content>
+                                                      <AnchorPane prefHeight="548.0" prefWidth="855.0" />
+                                                   </content>
+                                                </ScrollPane>
+                                             </children>
+                                          </AnchorPane>
+                                       </center>
+                                    </BorderPane>
+                                 </center>
+                                 <top>
+                                    <AnchorPane prefHeight="46.0" prefWidth="743.0" style="-fx-background-color: #F6F6F6;" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <TextField alignment="CENTER_RIGHT" layoutX="14.0" layoutY="18.0" prefHeight="26.0" prefWidth="202.0" promptText="Search" style="-fx-background-color: #FDF1F5; -fx-alignment: center; -fx-border-color: #FCB5B5;" styleClass="search" />
+                                          <ImageView fitHeight="16.0" fitWidth="19.0" layoutX="21.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@icons/search-icon2.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </AnchorPane>
+                                 </top>
+                              </BorderPane>
+                           </children></AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="All Kings">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="417.0" prefWidth="331.0" style="-fx-text-base-color: red;">
+                           <children>
+                              <BorderPane prefHeight="472.0" prefWidth="745.0">
+                                 <center>
+                                    <BorderPane prefHeight="350.0" prefWidth="712.0" BorderPane.alignment="CENTER">
+                                       <center>
+                                          <AnchorPane prefHeight="402.0" prefWidth="757.0" BorderPane.alignment="CENTER">
+                                             <children>
+                                                <TableView fx:id="tvKings" layoutX="14.0" layoutY="25.0" maxWidth="254.0" prefHeight="361.0" prefWidth="221.0" stylesheets="@style.css">
+                                                   <columns>
+                                                      <TableColumn fx:id="tcName" prefWidth="199.20001602172852" text="Name" />
+                                                   </columns>
+                                                </TableView>
+                                                <ScrollPane layoutX="241.0" layoutY="26.0" prefHeight="360.0" prefWidth="482.0" stylesheets="@style.css">
+                                                   <content>
+                                                      <AnchorPane prefHeight="548.0" prefWidth="855.0" />
+                                                   </content>
+                                                </ScrollPane>
+                                             </children>
+                                          </AnchorPane>
+                                       </center>
+                                    </BorderPane>
+                                 </center>
+                                 <top>
+                                    <AnchorPane prefHeight="46.0" prefWidth="743.0" style="-fx-background-color: #F6F6F6;" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <TextField alignment="CENTER_RIGHT" layoutX="14.0" layoutY="18.0" prefHeight="26.0" prefWidth="202.0" promptText="Search" style="-fx-background-color: #FDF1F5; -fx-alignment: center; -fx-border-color: #FCB5B5;" styleClass="search" />
+                                          <ImageView fitHeight="16.0" fitWidth="19.0" layoutX="21.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@icons/search-icon2.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </AnchorPane>
+                                 </top>
+                              </BorderPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+               </tabs>
+            </TabPane>
+         </center></BorderPane>
+   </children>
+</AnchorPane>
