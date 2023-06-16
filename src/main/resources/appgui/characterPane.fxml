@@ -5,9 +5,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="533.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.HistoryController">
+<AnchorPane prefHeight="534.0" prefWidth="1123.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.CharacterController">
    <children>
-      <BorderPane prefHeight="533.0" prefWidth="894.0">
+      <BorderPane prefHeight="534.0" prefWidth="1125.0">
          <left>
             <VBox prefHeight="484.0" prefWidth="147.0" style="-fx-background-color: #C70039;" stylesheets="@style.css" BorderPane.alignment="CENTER">
                <children>
@@ -42,16 +42,16 @@
                      <graphic>
                         <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
                            <image>
-                              <Image url="@icons/character-icon.png" />
+                              <Image url="@icons/lantern.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
                   <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Place" textAlignment="CENTER" textFill="WHITE">
                      <graphic>
-                        <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
+                        <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
                            <image>
-                              <Image url="@icons/character-icon.png" />
+                              <Image url="@icons/temple-of-literature.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -60,11 +60,11 @@
             </VBox>
          </left>
          <top>
-            <HBox prefHeight="54.0" prefWidth="894.0" style="-fx-background-color: #740021;" BorderPane.alignment="CENTER">
+            <HBox prefHeight="54.0" prefWidth="1038.0" style="-fx-background-color: #740021;" BorderPane.alignment="CENTER">
                <children>
                   <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true" translateX="20.0" translateY="9.0" translateZ="12.0" x="12.0" y="12.0">
                      <image>
-                        <Image url="@icons/logo-icon.png" />
+                        <Image url="@icons/vietnam-logo.png" />
                      </image>
                   </ImageView>
                   <Label alignment="TOP_CENTER" contentDisplay="CENTER" text="Group name / Proj's name" textAlignment="CENTER" textFill="WHITE" translateX="30.0" translateY="18.0">
@@ -72,11 +72,10 @@
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#quitButtonClick" style="-fx-background-color: #FDF1F5;" stylesheets="@style.css" text="X" translateX="650.0" translateY="14.0" />
                </children></HBox>
          </top>
          <center>
-            <TabPane prefHeight="200.0" prefWidth="747.0" stylesheets="style.css" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+            <TabPane fx:id="sceneCharacter" prefHeight="480.0" prefWidth="1040.0" stylesheets="style.css" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
                <tabs>
                   <Tab text="All Character">
                      <content>
@@ -88,16 +87,20 @@
                                        <center>
                                           <AnchorPane prefHeight="402.0" prefWidth="757.0" BorderPane.alignment="CENTER">
                                              <children>
-                                                <TableView layoutX="14.0" layoutY="25.0" maxWidth="254.0" prefHeight="361.0" prefWidth="202.0" stylesheets="@style.css">
+                                                <TableView fx:id="tbvCharacters" layoutX="14.0" layoutY="25.0" maxWidth="254.0" prefHeight="362.0" prefWidth="203.0" stylesheets="@style.css">
                                                    <columns>
-                                                      <TableColumn prefWidth="199.20001602172852" text="Name" />
+                                                      <TableColumn fx:id="tbcName" prefWidth="199.20001602172852" text="Name" />
                                                    </columns>
                                                 </TableView>
-                                                <ScrollPane layoutX="241.0" layoutY="26.0" prefHeight="360.0" prefWidth="482.0" stylesheets="@style.css">
+                                                <ScrollPane fx:id="infoScrollPane" layoutX="241.0" layoutY="26.0" prefHeight="360.0" prefWidth="482.0" stylesheets="@style.css">
                                                    <content>
-                                                      <AnchorPane prefHeight="548.0" prefWidth="855.0" />
-                                                   </content>
-                                                </ScrollPane>
+                                                      <AnchorPane fx:id="infoAnchorPane" prefHeight="401.0" prefWidth="488.0">
+                                                         <children>
+                                                            <Label fx:id="labelName" layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="441.0" />
+                                                            <Pane fx:id="infoPane" layoutX="14.0" layoutY="41.0" prefHeight="364.0" prefWidth="442.0" />
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </content></ScrollPane>
                                              </children>
                                           </AnchorPane>
                                        </center>
@@ -121,24 +124,38 @@
                   </Tab>
                   <Tab text="All Kings">
                      <content>
-                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="417.0" prefWidth="331.0" style="-fx-text-base-color: red;">
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="451.0" prefWidth="969.0" style="-fx-text-base-color: red;">
                            <children>
-                              <BorderPane prefHeight="472.0" prefWidth="745.0">
+                              <BorderPane prefHeight="472.0" prefWidth="971.0">
                                  <center>
-                                    <BorderPane prefHeight="350.0" prefWidth="712.0" BorderPane.alignment="CENTER">
+                                    <BorderPane prefHeight="426.0" prefWidth="982.0" BorderPane.alignment="CENTER">
                                        <center>
-                                          <AnchorPane prefHeight="402.0" prefWidth="757.0" BorderPane.alignment="CENTER">
+                                          <AnchorPane prefHeight="426.0" prefWidth="1015.0" BorderPane.alignment="CENTER">
                                              <children>
-                                                <TableView fx:id="tvKings" layoutX="14.0" layoutY="25.0" maxWidth="254.0" prefHeight="361.0" prefWidth="221.0" stylesheets="@style.css">
+                                                <TableView layoutX="14.0" layoutY="25.0" maxWidth="254.0" prefHeight="362.0" prefWidth="203.0" stylesheets="@style.css">
                                                    <columns>
-                                                      <TableColumn fx:id="tcName" prefWidth="199.20001602172852" text="Name" />
+                                                      <TableColumn fx:id="tbcName" prefWidth="199.20001602172852" text="Name" />
                                                    </columns>
                                                 </TableView>
                                                 <ScrollPane layoutX="241.0" layoutY="26.0" prefHeight="360.0" prefWidth="482.0" stylesheets="@style.css">
                                                    <content>
-                                                      <AnchorPane prefHeight="548.0" prefWidth="855.0" />
+                                                      <AnchorPane prefHeight="374.0" prefWidth="488.0">
+                                                         <children>
+                                                            <VBox layoutX="15.0" layoutY="12.0" prefHeight="511.0" prefWidth="439.0">
+                                                               <children>
+                                                                  <Label prefHeight="26.0" prefWidth="450.0" />
+                                                                  <Pane prefHeight="230.0" prefWidth="435.0" />
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                      </AnchorPane>
                                                    </content>
                                                 </ScrollPane>
+                                                <TableView layoutX="755.0" layoutY="25.0" maxWidth="314.0" prefHeight="362.0" prefWidth="187.0" stylesheets="@style.css">
+                                                   <columns>
+                                                      <TableColumn prefWidth="184.79986572265625" text="Connection" />
+                                                   </columns>
+                                                </TableView>
                                              </children>
                                           </AnchorPane>
                                        </center>
