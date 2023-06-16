@@ -13,7 +13,7 @@
     -fx-background-color: #7156DD;
 }
 
-.button: focused {
+.button:focused {
     -fx-background-color: #7D6CC8;
     -fx-border-color : #C70039;
     -fx-border-width: Opx 0px Opx 3px;
@@ -42,8 +42,8 @@
     -fx-text-fi11: #000000;
     -fx-alignment: CENTER_LEFT;
 }
-.table-row-cell: selected {
-    -fx-background-color: qb(127, 172, 243);
+.table-row-cell:selected {
+    -fx-background-color: rgb(127, 172, 243);
 }
 .table-row-cell:selected .text {
     -fx-fill : white;
@@ -97,18 +97,18 @@
     -fx-background-color: transparent;
 }
 .chart-pie {
-    -fx-border-color: derive(-fx-pie-color, 18);
+    /*-fx-border-color: derive(-fx-pie-color, 18);*/
     -fx-border-width: 0px;
 }
 
  .text-field {
-     -fx-background color: linear-gradient (to bottom, #efefef, #eee);
+     -fx-background-color: linear-gradient(to bottom, #efefef, #eee);
      -fx-border-color:linear-gradient(to bottom right, #272b3f, #256b51);
      -fx-border-width: .8px;
      -fx-font-family: "Tahoma";
      -fx-border-radius: 4px;
  }
- .text-field: focused {
+ .text-field:focused {
      -fx-background-color: #fff;
      -fx-border-width: 1.8px;
  }
@@ -120,7 +120,7 @@
      -fx-padding: Opx Opx Opx 28px;
      -fx-text-alignment: center-left;
  }
- .search: focused{
+ .search:focused{
      -fx-border-width:2px;
  }
 
