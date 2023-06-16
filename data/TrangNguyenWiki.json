@@ -24,28 +24,47 @@
   "description": "Mạc Hiển Tích (chữ Hán: 莫顯績 1060\u20141189) là người đỗ đầu tại khoa thi năm Quảng Hựu thứ 2 (Bính Dần, 1086) thời vua Lý Nhân Tông.[1][2]",
   "connection": [],
   "url": "/wiki/Mạc_Hiển_Tích",
-  "info": {}
+  "info": {
+   "Vua": "Lý Nhân Tông",
+   "Sinh": "1060-1189",
+   "QueQuan": "Hải Dương",
+   "Tại vị": "1086"
+  }
  },
  {
   "name": "Bùi Quốc Khái",
   "description": "Bùi Quốc Khái (chữ Hán: 裴國愾 1141-1234) là người đỗ đầu khoa thi Tiến sĩ năm Trinh Phù thứ 10 (Ất Tỵ, 1185) dưới thời vua Lý Cao Tông (ở ngôi: 1176-1210) nước Đại Việt.",
   "connection": [],
   "url": "/wiki/Bùi_Quốc_Khái",
-  "info": {}
+  "info": {
+   "Vua": "Lý Cao Tông",
+   "Sinh": "1141-1234",
+   "QueQuan": "Hải Dương",
+   "Tại vị": "1185"
+  }
  },
  {
   "name": "Trương Hanh",
   "description": "Trương Hanh (chữ Hán: 張亨; 1200-?), là người đỗ đệ nhất giáp kỳ thi Thái học sinh năm Kiến Trung thứ 8 (Nhâm Thìn, 1232),[1][2] đời vua Trần Thái Tông, cùng Lưu Diễm. Đỗ đệ nhị giáp khoa thi này là Đặng Diễn, Trịnh Phẫu còn đệ tam giáp là Trần Chu Phổ.[1]",
   "connection": [],
   "url": "/wiki/Trương_Hanh",
-  "info": {}
+  "info": {
+   "Vua": "Trần Thái Tông",
+   "Sinh": "1200-?",
+   "QueQuan": "Hải Dương",
+   "Tại vị": "1232"
+  }
  },
  {
   "name": "Lưu Miễn",
   "description": "Lưu Miễn có thể là tên của:",
   "connection": [],
   "url": "/wiki/Lưu_Miễn",
-  "info": {}
+  "info": {
+   "Vua": "Trần Thái Tông",
+   "QueQuan": "Thanh Hóa",
+   "Tại vị": "1239"
+  }
  },
  {
   "name": "Nguyễn Quan Quang",
@@ -61,7 +80,12 @@
    }
   ],
   "url": "/wiki/Nguyễn_Quan_Quang",
-  "info": {}
+  "info": {
+   "Vua": "Trần Thái Tông",
+   "Sinh": "1222- ?",
+   "QueQuan": "Bắc Ninh",
+   "Tại vị": "1246"
+  }
  },
  {
   "name": "Nguyễn Hiền",
@@ -100,28 +124,47 @@
   "description": "Trần Quốc Lặc (chữ Hán: 陳國扐, 1230 - ?) là Trạng nguyên của Việt Nam, ông là người làng Uông Hạ, huyện Thanh Lâm, châu Thượng Hồng[1][2] (nay là thôn Uông Hạ, xã Minh Tân, huyện Nam Sách, tỉnh Hải Dương). Tháng 2 năm 1256, ông đỗ Kinh trạng nguyên khoa Bính Thìn niên hiệu Nguyên Phong thứ 6, đời Trần Thái Tông, cùng khoa với Trại trạng nguyên Trương Xán, bảng nhãn Chu Hinh, thám hoa lang Trần Uyên[3]. Làm quan đến Thượng thư. Sau khi mất, vua phong làm Phúc thần, hiệu là Mạnh Đạo Đại Vương[1].",
   "connection": [],
   "url": "/wiki/Trần_Quốc_Lặc",
-  "info": {}
+  "info": {
+   "Vua": "Trần Thái Tông",
+   "Sinh": "1230-?",
+   "QueQuan": "Hải Dương",
+   "Tại vị": "1256"
+  }
  },
  {
   "name": "Trương Xán",
   "description": "Trương Xán (chữ Hán: 張燦, 1227 - ?) là Trạng nguyên thứ 3 trong lịch sử khoa cử của Việt Nam.",
   "connection": [],
   "url": "/wiki/Trương_Xán",
-  "info": {}
+  "info": {
+   "Vua": "Trần Thái Tông",
+   "Sinh": "1227-?",
+   "QueQuan": "Quảng Bình",
+   "Tại vị": "1256"
+  }
  },
  {
   "name": "Trần Cố",
   "description": "Trần Cố (chữ Hán: 陳固, ? - ?), người xã Phạm Triền, huyện Thanh Miện, phủ Hạ Hồng[1] (nay là thôn Phạm Lý, xã Ngô Quyền, huyện Thanh Miện, tỉnh Hải Dương), đỗ Kinh trạng nguyên khoa Bính Dần, năm Thiệu Long thứ 9 (1266), đời Trần Thánh Tông[2], cùng khoa với Trại trạng nguyên Bạch Liêu. Ông làm quan đến chức Hiến sát sứ[1].",
   "connection": [],
   "url": "/wiki/Trần_Cố",
-  "info": {}
+  "info": {
+   "Vua": "Trần Thánh Tông",
+   "QueQuan": "Hải Dương",
+   "Tại vị": "1266"
+  }
  },
  {
   "name": "Bạch Liêu",
   "description": "Bạch Liêu (chữ Hán: 白遼, một số tài liệu ghi là Bạch Liên[cần dẫn nguồn]) sinh năm 1236[cần dẫn nguồn] quê ở làng Yên Xá, huyện Đông Thành, phủ Diễn Châu[1] (nay thuộc huyện Diễn Châu, tỉnh Nghệ An) nay là xã Mã Thành, huyện Yên Thành, tỉnh Nghệ An, mất năm 1315[cần dẫn nguồn]. Ông là người thông minh nhớ lâu, đọc sách ngàn dòng một mạch.[2] Ông đỗ trạng nguyên năm Thiệu Long thứ 9 (1266) đời vua Trần Thánh Tông, là vị tổ khai khoa của xứ Nghệ, nhưng không ra làm quan.[2] Ông ở lại làm môn khách giúp Chiêu Minh Vương Trần Quang Khải trấn Nghệ An.[2] Với tư cách là một quân sư, ông đã giúp Trần Quang Khải thảo ra kế hoạch về tuyển quân và dự trữ lương thực, củng cố biên giới phía Nam (gọi là Biến pháp tam chương)[cần dẫn nguồn] góp phần quan trọng trong việc đánh thắng quân Nguyên Mông. Ông được cử theo đoàn sứ bộ sang nhà Nguyên, bằng trí tuệ uyên bác và tài ngoại giao, ông đã góp phần thiết lập quan hệ ngoại giao hoà hiếu giữa 2 nước[cần dẫn nguồn].",
   "connection": [],
   "url": "/wiki/Bạch_Liêu",
-  "info": {}
+  "info": {
+   "Vua": "Trần Thánh Tông",
+   "Sinh": "1236-1315",
+   "QueQuan": "Nghệ An",
+   "Tại vị": "1266"
+  }
  },
  {
   "name": "Huyền Quang",
@@ -149,7 +192,11 @@
   "description": "Đào Tiêu (?-?), có tài liệu viết là Đào Thúc hay Đào Dương Bật, là một Trạng nguyên Việt Nam dưới triều Trần.",
   "connection": [],
   "url": "/wiki/Đào_Tiêu",
-  "info": {}
+  "info": {
+   "Vua": "Trần Thánh Tông",
+   "QueQuan": "Thanh Hóa",
+   "Tại vị": "1275"
+  }
  },
  {
   "name": "Mạc Đĩnh Chi",
@@ -178,28 +225,48 @@
   "description": "Đào Sư Tích (chữ Hán: 陶師錫, 1350 - 1396), người làng Cổ Lễ, huyện Nam Chân (sau đổi là huyện Trực Ninh), phủ Thiên Trường. Nay thuộc tỉnh Nam Định. Ông đỗ trạng nguyên khoa Giáp Dần niên hiệu Long Khánh thứ 2 (1374),[1] đời Trần Duệ Tông. Tháng 5 năm 1381, ông được lấy làm Tả tư lang trung, Nhập nội hành khiển.[2] Tháng 12 năm 1383, vua Phế Đế sai ông đề tựa ở đầu sách \"Bảo Hòa [điện] dư bút\".[2] Tháng 12 năm 1392, thời Trần Thuận Tông, ông bị giáng xuống Trung tư thị lang, Tri thẩm hình viện sự, do Quốc tử trợ giáo Đào Xuân Lôi khai rằng ông có xem bức thư của chính Xuân Lôi dâng lên nhà vua để phê phán sách Minh đạo của Hồ Quý Ly. Sau khi qua đời dân làng Cổ Lễ thờ ông làm thành hoàng, được nhiều triều đại vua chúa ban sắc cho làm thượng đẳng thần.",
   "connection": [],
   "url": "/wiki/Đào_Sư_Tích",
-  "info": {}
+  "info": {
+   "Vua": "Trần Duệ Tông",
+   "Sinh": "1348-1396",
+   "QueQuan": "Nam Định",
+   "Tại vị": "1374"
+  }
  },
  {
   "name": "Lưu Thúc Kiệm",
   "description": "Lưu Thúc Kiệm (chữ Hán: 劉叔儉, 1373 - 1434), người làng Trạm Lộ, huyện Gia Bình, phủ Thuận An, xứ Kinh Bắc (nay thuộc xã Trạm Lộ huyện Thuận Thành, tỉnh Bắc Ninh), đỗ Trạng nguyên khoa tháng 8, Canh Thìn, năm Thánh Nguyên thứ 1 (1400), đời Hồ Quý Ly[1] cùng 20 người khác đỗ thái học sinh, trong đó có Nguyễn Trãi, Lý Tử Tấn, Vũ Mộng Nguyên, Hoàng Hiến, Nguyễn Thành v.v. Những người đỗ thái học sinh có nêu tên này sau đều làm quan dưới triều đại Hậu Lê. Sử sách ghi chép rất ít về ông, chỉ biết rằng ông làm quan đến Hàn lâm trực học sĩ. Do giỏi văn từ biện bạch nên Hồ Quý Ly giao cho ông việc thảo các văn từ bang giao với các nước láng giềng.[2]",
   "connection": [],
   "url": "/wiki/Lưu_Thúc_Kiệm",
-  "info": {}
+  "info": {
+   "Vua": "Hồ Quý Ly",
+   "Sinh": "1373-1434",
+   "QueQuan": "Bắc Ninh",
+   "Tại vị": "1400"
+  }
  },
  {
   "name": "Nguyễn Trực",
   "description": "Nguyễn Trực (chữ Hán: 阮直, 1417 - 1474), hiệu là Hu Liêu, tự là Nguyễn Công Dĩnh, quê làng Bối Khê, xã Tam Hưng, huyện Thanh Oai, thành phố Hà Nội). Ông đỗ đầu trong số đệ nhất giáp tiến sĩ cập đệ (tức trạng nguyên) năm 1442[1] đời vua Lê Thái Tông.",
   "connection": [],
   "url": "/wiki/Nguyễn_Trực",
-  "info": {}
+  "info": {
+   "Vua": "Lê Thái Tông",
+   "Sinh": "1417-1474",
+   "QueQuan": "Hà Nội",
+   "Tại vị": "1442"
+  }
  },
  {
   "name": "Nguyễn Nghiêu Tư",
   "description": "Nguyễn Nghiêu Tư (1383 - 1471) tiếng Trung: 阮堯咨, bản danh Nguyễn Nghiêu Trư (阮文豬)[cần dẫn nguồn][1], tự Quân Trù (君廚),[cần dẫn nguồn] hiệu Tùng Khê (松溪),[cần dẫn nguồn] là một trạng nguyên thời nhà Lê sơ,[2] làm quan đến chức Thượng thư.[3] Theo Đại Việt sử ký toàn thư, ông là người đã thông dâm với mẹ vợ nên bị người đời chế giễu là Trạng Lợn. Cũng từ đó, việc xét tiêu chuẩn đạo đức của các trạng nguyên cũng trở nên gắt gao hơn.[cần dẫn nguồn] Tháng 4 năm 1462, định lệ bảo kết (bảo đảm, cam kết) trong thi hương. Ra lệnh chỉ cho các thí sinh trong nước, không cứ là dân hay lính, hạn tới thượng tuần.... đến nhà giám hay đạo sở tại khai tên và căn cước đợi thi hương. .... Cho quan sở tại và xã trưởng xã mình làm giấy bảo đảm rằng người ấy thực là có đức hạnh thì mới được vào danh sách dự thi. Kẻ nào vào loại bất hiếu, bất mục, bất nghĩa, loạn luân, điêu toa... thì dẫu học giỏi, văn thơ hay, cũng không cho vào thi.[4]",
   "connection": [],
   "url": "/wiki/Nguyễn_Nghiêu_Tư",
-  "info": {}
+  "info": {
+   "Vua": "Lê Nhân Tông",
+   "Sinh": "1383-1471",
+   "QueQuan": "Bắc Ninh",
+   "Tại vị": "1448"
+  }
  },
  {
   "name": "Lương Thế Vinh",
@@ -219,35 +286,60 @@
    }
   ],
   "url": "/wiki/Lương_Thế_Vinh",
-  "info": {}
+  "info": {
+   "Vua": "Lê Thánh Tông",
+   "Sinh": "1441-1496",
+   "QueQuan": "Nam Định",
+   "Tại vị": "1463"
+  }
  },
  {
   "name": "Vũ Kiệt",
   "description": "Vũ Kiệt (chữ Hán: 武傑,1452 - ?), người xã Yên Việt, huyện Siêu Loại, Kinh Bắc[1][2] (nay là thôn Cửu Yên thuộc xã Ngũ Thái, thị xã Thuận Thành, tỉnh Bắc Ninh), đỗ đầu đệ nhất giáp tiến sĩ cập đệ (Trạng nguyên) khoa tháng tư, Nhâm Thìn, Hồng Đức năm thứ 3 (1472), đời Lê Thánh Tông[3] cùng Nguyễn Toàn An, Vương Khắc Thuật đỗ đệ nhất giáp tiến sĩ cập đệ; bọn Vũ Đức Khang 7 người đỗ đệ nhị giáp tiến sĩ xuất thân; bọn Chử Phong 16 người đỗ đệ tam giáp đồng tiến sĩ xuất thân. Do ngôi làng quê ông có tên Nôm là làng Vít nên dân gian quen gọi Vũ Kiệt là Trạng Vít (Trạng làng Vít).",
   "connection": [],
   "url": "/wiki/Vũ_Kiệt",
-  "info": {}
+  "info": {
+   "Vua": "Lê Thánh Tông",
+   "Sinh": "1452-?",
+   "QueQuan": "Bắc Ninh",
+   "Tại vị": "1472"
+  }
  },
  {
   "name": "Vũ Tuấn Chiêu",
   "description": "Vũ Tuấn Chiêu (chữ Hán: 武濬昭, 1426 - ?) nguyên quán xã Cổ Liễu, huyện Tây Chân (nay thuộc xã Nam Hùng huyện Nam Trực, tỉnh Nam Định), phủ Phụng Thiên, trú quán phường Nhật Chiêu, huyện Quảng Đức (nay thuộc phường Nhật Tân, quận Tây Hồ, thành phố Hà Nội)[1]. Ông đỗ đầu trong số ba đệ nhất giáp tiến sĩ cập đệ (tức trạng nguyên) khoa thi Hồng Đức năm thứ 6 (1475)[2]. Ông làm quan đến Tả Thị lang Bộ Lại[1].",
   "connection": [],
   "url": "/wiki/Vũ_Tuấn_Chiêu",
-  "info": {}
+  "info": {
+   "Vua": "Lê Thánh Tông",
+   "Sinh": "1425-?",
+   "QueQuan": "Nam Định",
+   "Tại vị": "1475"
+  }
  },
  {
   "name": "Phạm Đôn Lễ",
   "description": "Phạm Đôn Lễ (chữ Hán: 范敦禮, 1457 - 1531), tự là Lư Khanh, là Trạng nguyên khoa Tân Sửu (1481), niên hiệu Hồng Đức 12, đời vua Lê Thánh Tông. Vì có công dạy dân làng dệt chiếu cói nên còn gọi là Trạng Chiếu hay Tam nguyên Đôn Lễ.[1][2]. Ông làm quan đến các chức Tả thị lang, rồi Thượng Thư.",
   "connection": [],
   "url": "/wiki/Phạm_Đôn_Lễ",
-  "info": {}
+  "info": {
+   "Vua": "Lê Thánh Tông",
+   "Sinh": "1454-?",
+   "QueQuan": "Thái Bình",
+   "Tại vị": "1481"
+  }
  },
  {
   "name": "Nguyễn Quang Bật",
   "description": "Nguyễn Quang Bật (chữ Hán: 阮光弼; 1463\u20131505) tên thật Nguyễn Quang Hiếu, là người đỗ trạng nguyên năm 1484 dưới triều vua Lê Thánh Tông.",
   "connection": [],
   "url": "/wiki/Nguyễn_Quang_Bật",
-  "info": {}
+  "info": {
+   "Vua": "Lê Thánh Tông",
+   "Sinh": "1463-1505",
+   "QueQuan": "Bắc Ninh",
+   "Tại vị": "1484"
+  }
  },
  {
   "name": "Trần Sùng Dĩnh",
@@ -257,21 +349,35 @@
    "url": "/wiki/Tr%E1%BA%A7n_N%C4%83ng"
   }],
   "url": "/wiki/Trần_Sùng_Dĩnh",
-  "info": {}
+  "info": {
+   "Vua": "Lê Thánh Tông",
+   "Sinh": "1465-?",
+   "QueQuan": "Hải Dương",
+   "Tại vị": "1487"
+  }
  },
  {
   "name": "Vũ Duệ",
   "description": "Vũ Duệ (chữ Hán: 武睿, 1468-1522)[1], vốn tên là Vũ Nghĩa Chi, sau vua Lê Thánh Tông cho đổi tên là Vũ Duệ[2]; là danh thần nhà Lê sơ trong lịch sử Việt Nam.",
   "connection": [],
   "url": "/wiki/Vũ_Duệ",
-  "info": {}
+  "info": {
+   "Vua": "Lê Thánh Tông",
+   "Sinh": "?-1520",
+   "QueQuan": "Phú Thọ",
+   "Tại vị": "1490"
+  }
  },
  {
   "name": "Vũ Dương",
   "description": "Vũ Dương (chữ Hán: 武暘, 1472 - ?), có sách chép là Vũ Tích, người làng Man Nhuế, huyện Thanh Lâm, thừa tuyên Hải Dương (nay thuộc thôn Mạn Nhuế, thị trấn Nam Sách (xã Thanh Lâm cũ), huyện Nam Sách, tỉnh Hải Dương). Đỗ Trạng nguyên khoa Quý Sửu, niên hiệu Hồng Đức thứ 24 (1493)[1]. Làm quan đến Hàn lâm Thị thư, đi sứ Trung Quốc, được thăng chức thượng thư bộ Công và được phong tước Hầu. Ông có tham gia nhóm Tao đàn Nhị thập bát Tú của Lê Thánh Tông[2].",
   "connection": [],
   "url": "/wiki/Vũ_Dương",
-  "info": {}
+  "info": {
+   "Vua": "Lê Thánh Tông",
+   "QueQuan": "Hải Dương",
+   "Tại vị": "1493"
+  }
  },
  {
   "name": "Nghiêm Hoản",
@@ -281,77 +387,129 @@
    "url": "/wiki/Nghi%C3%AAm"
   }],
   "url": "/wiki/Nghiêm_Hoản",
-  "info": {}
+  "info": {
+   "Vua": "Lê Thánh Tông",
+   "QueQuan": "Bắc Ninh",
+   "Tại vị": "1496"
+  }
  },
  {
   "name": "Đỗ Lý Khiêm",
   "description": "Đỗ Lý Khiêm (chữ Hán: 杜履謙, ? - 1512), người làng Ngoại Lãng xã Song Lãng huyện Thư Trì, phủ Kiến Xương, trấn Sơn Nam Hạ (nay là làng Ngoại Lãng xã Song Lãng là huyện Vũ Thư tỉnh Thái Bình). Đỗ trạng nguyên khoa thi Kỷ Mùi, niên hiệu Cảnh Thống thứ 2 (1499)[1], đời Lê Hiến Tông. Làm quan đến Phó đô Ngự sử. Đi sứ nhà Minh bị mất ở dọc đường.",
   "connection": [],
   "url": "/wiki/Đỗ_Lý_Khiêm",
-  "info": {}
+  "info": {
+   "Vua": "Lê Hiển Tông",
+   "QueQuan": "Thái Bình",
+   "Tại vị": "1499"
+  }
  },
  {
   "name": "Lê Ích Mộc",
   "description": "Lê Ích Mộc (chữ Hán: 黎益沭, 2 tháng 2 năm 1458 - 15 tháng 2 năm 1538[1]), người làng Thanh Lãng, tên Nôm là Ráng, tổng Phù Lưu, huyện Thủy Đường, phủ Kinh Môn[2][3][4] , xứ Hải Dương, nay thuộc xã Quảng Thanh, huyện Thủy Nguyên, thành phố Hải Phòng. Có tài liệu ghi ông người làng Quảng Cư là chưa chính xác, vì tên Quảng Cư tới thời Đồng Khánh (1886 - 1888) còn chưa xuất hiện và tại Bia đá Tiến sĩ tại Quốc Tử Giám ghi ông người làng Thanh Lãng, huyện Thủy Đường. Đỗ Đệ nhất giáp Tiến sĩ cập đệ (Trạng nguyên) khoa tháng hai, Nhâm Tuất, Cảnh Thống năm thứ 5 (1502), đời Lê Hiến Tông cùng Lê Sạn, Nguyễn Văn Thái đỗ đệ nhất giáp tiến sĩ cập đệ; bọn Nguyễn Cảnh Diễn, Lê Nhân Tế 24 người đỗ đệ nhị giáp tiến sĩ xuất thân; bọn Phạm Khiêm Bính, Nguyễn Mậu 34 người đỗ đệ tam giáp đồng tiến sĩ xuất thân.",
   "connection": [],
   "url": "/wiki/Lê_Ích_Mộc",
-  "info": {}
+  "info": {
+   "Vua": "Lê Hiển Tông",
+   "Sinh": "1458-1538",
+   "QueQuan": "Hải Phòng",
+   "Tại vị": "1502"
+  }
  },
  {
   "name": "Lê Nại",
   "description": "Lê Nại (chữ Hán: 黎鼐, 1479 - ?), còn có tên khác là Lê Đỉnh hiệu Nam Hiên, người xã Mộ Trạch, huyện Đường An, phủ Thượng Hồng (nay là huyện Bình Giang, tỉnh Hải Dương), nguyên quán ở hương Lão Lạt, huyện Thống Bình, trấn Thanh Đô (nay thuộc huyện Hậu Lộc, tỉnh Thanh Hóa). Ông đỗ Đệ nhất giáp Tiến sĩ cập đệ Đệ nhất danh (Trạng nguyên) năm 27 tuổi, tại khoa Ất Sửu năm Đoan Khánh thứ 1 (1505) đời Lê Uy Mục[1], trong tháng 2 âm lịch năm đó cùng bảng nhãn Bùi Doãn Văn, thám hoa Trần Phỉ và 52 người khác đỗ tiến sĩ. Ông là con rể của hoàng giáp Vũ Quỳnh và cháu nội của danh thần Lê Cảnh Tuân đã tuẫn quốc dưới thời Minh thuộc. Ông có tiếng hay chữ, thi hương, thi đình đều đỗ đầu. Làm quan tới chức Hữu thị lang bộ Hộ. Sau khi mất, được triều đình truy tặng tước Đạo Trạch bá.",
   "connection": [],
   "url": "/wiki/Lê_Nại",
-  "info": {}
+  "info": {
+   "Vua": "Lê Uy Mục",
+   "Sinh": "1479-?",
+   "QueQuan": "Hải Dương",
+   "Tại vị": "1505"
+  }
  },
  {
   "name": "Nguyễn Giản Thanh",
   "description": "Nguyễn Giản Thanh (chữ Hán: 阮簡清; thường được gọi là Trạng Me; 1482\u20131552) là trạng nguyên khoa thi Đoan Khánh năm thứ tư (1508), đời vua Lê Uy Mục[1]. Ông là con của tiến sĩ Nguyễn Giản Liêm, người làng Ông Mặc (tục gọi là làng Me) huyện Đông Ngàn (nay là phường Hương Mạc, thành phố Từ Sơn), tỉnh Bắc Ninh.",
   "connection": [],
   "url": "/wiki/Nguyễn_Giản_Thanh",
-  "info": {}
+  "info": {
+   "Vua": "Lê Uy Mục",
+   "Sinh": "1482-?",
+   "QueQuan": "Bắc Ninh",
+   "Tại vị": "1508"
+  }
  },
  {
   "name": "Hoàng Nghĩa Phú",
   "description": "Hoàng Nghĩa Phú (chữ Hán: 黃義富, 1479[1] hay 1480[2] - ?), người xã Mạc Xá (Danh sách trạng nguyên chép là Lương Xá), huyện Chương Đức, phủ Ứng Thiên (nay là huyện Chương Mỹ, Hà Nội) sau chuyển sang ở xã Đan Khê, huyện Thanh Oai, phủ Ứng Thiên (nay là làng Đa Sĩ, phường Kiến Hưng, quận Hà Đông, thành phố Hà Nội)[2].",
   "connection": [],
   "url": "/wiki/Hoàng_Nghĩa_Phú",
-  "info": {}
+  "info": {
+   "Vua": "Lê Tương Dực",
+   "Sinh": "1479-?",
+   "QueQuan": "Hà Nội",
+   "Tại vị": "1511"
+  }
  },
  {
   "name": "Nguyễn Đức Lượng",
   "description": "Nguyễn Đức Lượng (chữ Hán: 阮德亮, 1465[1] - ?), người xã Canh Hoạch, huyện Thanh Oai, phủ Ứng Thiên, trấn Sơn Nam[2][3] (nay thuộc xã Dân Hòa huyện Thanh Oai, thành phố Hà Nội),[1] đỗ đầu khoa tháng tư, Giáp Tuất, Hồng Thuận năm thứ 6 (1514), đời Lê Tương Dực cùng Nguyễn Chiêu Huấn (阮昭訓), Hoàng Minh Tá (黃明佐) là 3 người đỗ đệ nhất giáp tiến sĩ cập đệ; Nguyễn Vũ (阮瑀) cùng 19 người khác đỗ đệ nhị giáp tiến sĩ xuất thân; Nguyễn Bỉnh Di (阮秉彝) và 19 người khác đỗ đệ tam giáp đồng tiến sĩ xuất thân.",
   "connection": [],
   "url": "/wiki/Nguyễn_Đức_Lượng",
-  "info": {}
+  "info": {
+   "Vua": "Lê Tương Dực",
+   "Sinh": "1465-?",
+   "QueQuan": "Hà Nội",
+   "Tại vị": "1514"
+  }
  },
  {
   "name": "Ngô Miễn Thiệu",
   "description": "Ngô Miễn Thiệu (chữ Hán: 吳勉紹, 1498[1] hay 1499[2] - 1556), người xã Tam Sơn, huyện Đông Ngàn, phủ Từ Sơn, trấn Kinh Bắc (nay thuộc phường Tam Sơn, thành phố Từ Sơn, tỉnh Bắc Ninh).",
   "connection": [],
   "url": "/wiki/Ngô_Miễn_Thiệu",
-  "info": {}
+  "info": {
+   "Vua": "Lê Chiêu Tông",
+   "Sinh": "1498-?",
+   "QueQuan": "Bắc Ninh",
+   "Tại vị": "1518"
+  }
  },
  {
   "name": "Hoàng Văn Tán",
   "description": "Hoàng Văn Tán (chữ Hán: 黃文贊, ? - ?) người xã Xuân Lôi, huyện Vũ Ninh (nay thuộc phường Đại Xuân thị xã Quế Võ, tỉnh Bắc Ninh)[1]. Ông thi đỗ trạng nguyên năm 1523, trong khoa thi Quý Mùi, niên hiệu Thống Nguyên thứ hai của vua Lê Cung Đế[2][3]. Ông được giao cùng với Đông các đại học sĩ Đạo Nguyện bá Nguyễn Văn Thái thảo tờ chiếu của Lê Cung Hoàng nhường ngôi cho Mạc Đăng Dung[1] (Đại Việt Sử ký Toàn thư chỉ chép là Nguyễn Văn Thái thảo chiếu này[2]). Sau đó, ông làm quan nhà Mạc đến chức Tả Thị lang Bộ Lễ[1].",
   "connection": [],
   "url": "/wiki/Hoàng_Văn_Tán",
-  "info": {}
+  "info": {
+   "Vua": "Lê Cung Hoàng",
+   "QueQuan": "Bắc Ninh",
+   "Tại vị": "1523"
+  }
  },
  {
   "name": "Trần Tất Văn",
   "description": "Trần Tất Văn (chữ Hán: 陳必聞, (tuổi Bính Thìn, 1496 - 1571)[1]), người xã Nguyệt Áng, tổng Phù Lưu, huyện An Lão, phủ Kinh Môn, Hải Dương[2][3] (nay là xã Thái Sơn huyện An Lão thành phố Hải Phòng), đỗ đầu đệ nhất giáp tiến sĩ cập đệ (Trạng nguyên) khoa tháng tư, Bính Tuất, niên hiệu Thống Nguyên thứ 5 (1526), đời Lê Cung Hoàng cùng Nguyễn Văn Du, Lưu Trung Doãn 3 người đỗ đệ nhất giáp tiến sĩ cập đệ; nhóm Lê Quang Bí 4 người đỗ đệ nhị giáp tiến sĩ xuất thân; nhóm Phạm Đình Quang 13 người đỗ đệ tam giáp đồng tiến sĩ xuất thân[2].",
   "connection": [],
   "url": "/wiki/Trần_Tất_Văn",
-  "info": {}
+  "info": {
+   "Vua": "Lê Cung Hoàng",
+   "Sinh": "1496-1571",
+   "QueQuan": "Hải Phòng",
+   "Tại vị": "1526"
+  }
  },
  {
   "name": "Đỗ Tống",
   "description": "Đỗ Tống (chữ Hán: 杜綜, 1504[1] - ?), người xã Lại Ốc, huyện Tế Giang, phủ Thuận An, Kinh Bắc (nay thuộc xã Long Hưng, huyện Văn Giang, tỉnh Hưng Yên)[1]. Ông đỗ trạng nguyên khoa Kỷ Sửu, niên hiệu Minh Đức thứ 3 (1529) đời Mạc Thái Tổ[1][2][3]. Ông làm quan cho nhà Mạc, giữ các chức quan như như Tả Thị lang Bộ Hình, Đông các Đại học sĩ[1].",
   "connection": [],
   "url": "/wiki/Đỗ_Tống",
-  "info": {}
+  "info": {
+   "Vua": "Mạc Thái Tổ",
+   "Sinh": "1504-?",
+   "QueQuan": "Hưng Yên",
+   "Tại vị": "1529"
+  }
  },
  {
   "name": "Nguyễn Thiến",
@@ -479,42 +637,72 @@
   "description": "Giáp Hải (1515 - 1585), sau đổi Giáp Trừng,[1] là một nhà chính trị thời nhà Mạc Việt Nam. Ông nổi bật với việc giữ những chức vụ quan trọng trong triều đình dưới thời Mạc Mậu Hợp, uy tín cá nhân đối với nhà vua và dân chúng.",
   "connection": [],
   "url": "/wiki/Giáp_Hải",
-  "info": {}
+  "info": {
+   "Vua": "Mạc Thái Tông",
+   "Sinh": "1515-1585",
+   "QueQuan": "Bắc Giang",
+   "Tại vị": "1538"
+  }
  },
  {
   "name": "Nguyễn Kỳ",
   "description": "Nguyễn Kỳ (chữ Hán: 阮琦; 1518 - ?), người làng Bình Dân, huyện Đông Yên, phủ Khoái Châu, trấn Sơn Nam Hạ (nay là xã Tân Dân, huyện Khoái Châu, Hưng Yên). Đỗ trạng nguyên khoa Tân Sửu, niên hiệu Quảng Hoà thứ nhất (1541), đời Mạc Hiến Tông (Mạc Phúc Hải). Làm quan đến Hàn lâm thị thư.",
   "connection": [],
   "url": "/wiki/Nguyễn_Kỳ",
-  "info": {}
+  "info": {
+   "Vua": "Mạc Hiến Tông",
+   "Sinh": "1518- ?",
+   "QueQuan": "Hưng Yên",
+   "Tại vị": "1541"
+  }
  },
  {
   "name": "Dương Phúc Tư",
   "description": "Dương Phúc Tư (chữ Hán: 楊福滋, 1505\u20131564), người làng Lạc Đạo, huyện Gia Lâm, phủ Thuận An, trấn Kinh Bắc (nay thuộc huyện Văn Lâm, Hưng Yên). Đỗ trạng nguyên khoa Đinh Mùi, niên hiệu Vĩnh Định thứ nhất (1547), đời Mạc Tuyên Tông (Mạc Phúc Nguyên). Ông làm chức quan tham chính. Sau này ông dâng sớ xin quy thuận Lê Thế Tông rồi đi ở ẩn.",
   "connection": [],
   "url": "/wiki/Dương_Phúc_Tư",
-  "info": {}
+  "info": {
+   "Vua": "Mạc Tuyên Tông",
+   "Sinh": "1505-1564",
+   "QueQuan": "Hưng Yên",
+   "Tại vị": "1547"
+  }
  },
  {
   "name": "Trần Văn Bảo",
   "description": "Trần Văn Bảo (chữ Hán: 陳文寶, 1524 - 1611) là một danh sĩ Việt Nam. Ông từng đỗ Trạng nguyên khoa Canh Tuất, niên hiệu Cảnh Lịch thứ 3 (1550), đời Mạc Tuyên Tông, làm quan đến chức Thượng thư, từng đi sứ phương Bắc, được phong tước Nghĩa quận công.",
   "connection": [],
   "url": "/wiki/Trần_Văn_Bảo",
-  "info": {}
+  "info": {
+   "Vua": "Mạc Tuyên Tông",
+   "Sinh": "1524-1611",
+   "QueQuan": "Nam Định",
+   "Tại vị": "1550"
+  }
  },
  {
   "name": "Nguyễn Lượng Thái",
   "description": "Nguyễn Lượng Thái (chữ Hán: 阮亮采, 1525 - 1576), người xã Bình Ngô, huyện Gia Định[1], phủ Thuận An, trấn Kinh Bắc[2] (nay thuộc phường An Bình, thị xã Thuận Thành, tỉnh Bắc Ninh)[1]. Trú quán xã Trạm Lộ[1] (cùng huyện). Ông đỗ đệ nhất giáp đồng tiến sĩ cập đệ đệ nhất danh (trạng nguyên), khoa Quý Sửu niên hiệu Cảnh Lịch thứ 6 (1553)[3] đời Mạc Tuyên Tông (Mạc Phúc Nguyên). Ông làm quan Tả Thị lang Bộ Lễ, kiêm Đông các Đại học sĩ[2], tước Định Nham hầu[1].",
   "connection": [],
   "url": "/wiki/Nguyễn_Lượng_Thái",
-  "info": {}
+  "info": {
+   "Vua": "Mạc Tuyên Tông",
+   "Sinh": "1525-1576",
+   "QueQuan": "Bắc Ninh",
+   "Tại vị": "1553"
+  }
  },
  {
   "name": "Phạm Trấn",
   "description": "Phạm Trấn có thể là một trong các nhân vật sau:",
   "connection": [],
   "url": "/wiki/Phạm_Trấn",
-  "info": {}
+  "info": {
+   "Vua": "Mạc Tuyên Tông",
+   "Sinh": "1523-?",
+   "QueQuan": "Hải Dương",
+   "Tại vị": "1556"
+  }
  },
  {
   "name": "Đặng Thì Thố",
@@ -530,21 +718,35 @@
    }
   ],
   "url": "/wiki/Đặng_Thì_Thố",
-  "info": {}
+  "info": {
+   "Vua": "Mạc Tuyên Tông",
+   "Sinh": "1526-?",
+   "QueQuan": "Hải Dương",
+   "Tại vị": "1559"
+  }
  },
  {
   "name": "Phạm Duy Quyết",
   "description": "Phạm Đăng Quyết (1521 - ?), tên lúc nhỏ là Phạm Duy Quyết (chữ Hán: 范維玦), người làng Xác Khê, huyện Chí Linh, phủ Nam Sách, Hải Dương. Ông còn có tên khác là Phạm Duy Áng, có sách chép là Phạm Duy Ưởng hay Phạm Duy Trĩ. Đỗ trạng nguyên khoa Nhâm Tuất, niên hiệu Thuần Phúc thứ nhất (1562), đời Mạc Mậu Hợp. Làm quan đến Tả thị lang kiêm Đông các Đại học sĩ, tước Xác Khê Hầu.",
   "connection": [],
   "url": "/wiki/Phạm_Duy_Quyết",
-  "info": {}
+  "info": {
+   "Vua": "Mạc Mậu Hợp",
+   "Sinh": "1521-?",
+   "QueQuan": "Hải Dương",
+   "Tại vị": "1562"
+  }
  },
  {
   "name": "Phạm Quang Tiến",
   "description": "Phạm Quang Tiến (chữ Hán: 范光進, 1530-?) Người làng Lương Xá, huyện Thiện Tài, trấn Kinh Bắc (nay thuộc xã Phú Lương, huyện Lương Tài, tỉnh Bắc Ninh)[1]. Đỗ Tiến sĩ cập đệ thám hoa đình nguyên khoa Ất Sửu, niên hiệu Thuần Phúc thứ 4 (1565) thời Mạc Mậu Hợp[1][2]. Ông làm quan Đông các Đại học sĩ, được cử đi sứ sang nhà Minh (Trung Quốc) và mất trên đường đi. Sau khi mất, ông được truy tặng chức Tả Thị lang[1].",
   "connection": [],
   "url": "/wiki/Phạm_Quang_Tiến",
-  "info": {}
+  "info": {
+   "Vua": "Mạc Mậu Hợp",
+   "QueQuan": "Bắc Ninh",
+   "Tại vị": "1565"
+  }
  },
  {
   "name": "Nguyễn Duy Thì",
@@ -564,48 +766,83 @@
    }
   ],
   "url": "/wiki/Nguyễn_Duy_Thì",
-  "info": {}
+  "info": {
+   "Vua": "Lê Trung Hưng",
+   "Sinh": "1562-1642",
+   "QueQuan": "Vĩnh Phúc",
+   "Tại vị": "1599"
+  }
  },
  {
   "name": "Nguyễn Xuân Chính",
   "description": "Nguyễn Xuân Chính (chữ Hán: 阮春正,1588 - 1647) người làng Phù Chẩn, huyện Đông Ngàn, phủ Từ Sơn, Kinh Bắc (nay là xã Phù Chẩn, thị xã Từ Sơn, tỉnh Bắc Ninh). Đỗ trạng nguyên khoa Đinh Sửu, niên hiệu Dương Hòa thứ 3 (1637), đời Lê Thần Tông[1] khi đó ông đã 50 tuổi. Làm quan đến Tả thị lang Lại bộ, Nhập thị Kinh diên, tước Đạo Ngạn bá. Sau khi mất, ông được tặng chức Thượng thư, tước hầu. Có tài liệu ghi ông là Nguyễn Xuân Sinh[2].",
   "connection": [],
   "url": "/wiki/Nguyễn_Xuân_Chính",
-  "info": {}
+  "info": {
+   "Vua": "Lê Thần Tông",
+   "Sinh": "1587-?",
+   "QueQuan": "Bắc Ninh",
+   "Tại vị": "1637"
+  }
  },
  {
   "name": "Nguyễn Quốc Trinh",
   "description": "Nguyễn Quốc Trinh (chữ Hán: 阮國楨, 1624-1674), người xã Nguyệt Áng, huyện Thanh Trì, phủ Thường Tín, trấn Sơn Nam (nay là xã Đại Áng, huyện Thanh Trì, Hà Nội). Đỗ trạng nguyên khoa Kỷ Hợi, niên hiệu Vĩnh Thọ thứ 2 (1659), đời Lê Thần Tông[1]. Có tài liệu ghi ông tên là Nguyễn Quốc Khôi (阮國櫆)[2] (toàn bộ các đoạn của quyển XIX trong Đại Việt Sử ký toàn thư khi viết về ông đều dùng tên gọi này[3]).",
   "connection": [],
   "url": "/wiki/Nguyễn_Quốc_Trinh",
-  "info": {}
+  "info": {
+   "Vua": "Lê Thần Tông",
+   "Sinh": "1624-1674",
+   "QueQuan": "Hà Nội",
+   "Tại vị": "1659"
+  }
  },
  {
   "name": "Đặng Công Chất",
   "description": "Đặng Công Chất (chữ Hán: 鄧公質, 1621[1] hay 1622[2] - 1683), người làng Phù Đổng, huyện Tiên Du, phủ Từ Sơn, trấn Kinh Bắc (nay thuộc xã Phù Đổng, huyện Gia Lâm, Hà Nội). Nguyên quán của ông là xã Thái Bạt, huyện Bất Bạt (nay thuộc xã Tòng Bạt, huyện Ba Vì, thành phố Hà Nội)[2]. Đỗ trạng nguyên khoa Tân Sửu, niên hiệu Vĩnh Thọ thứ 4 (1661) thời vua Lê Thần Tông[2][3].",
   "connection": [],
   "url": "/wiki/Đặng_Công_Chất",
-  "info": {}
+  "info": {
+   "Vua": "Lê Thần Tông",
+   "Sinh": "1621-1683",
+   "QueQuan": "Hà Nội",
+   "Tại vị": "1661"
+  }
  },
  {
   "name": "Lưu Danh Công",
   "description": "Lưu Danh Công (chữ Hán: 劉名公, 1643[1] hay 1644 [2] - 1675[2]), người xã Phương Liệt, huyện Thanh Trì, phủ Thường Tín, trấn Sơn Nam (nay là phường Phương Liệt, quận Thanh Xuân, Hà Nội). Đỗ trạng nguyên khoa Canh Tuất, niên hiệu Cảnh Trị thứ 8 (1670), đời Lê Huyền Tông[3]. Do kỳ thi Hội của khoa thi này tổ chức vào tháng 11 âm lịch năm này nên kỳ thi Đình diễn ra vào tháng 1 năm 1671[2][3].",
   "connection": [],
   "url": "/wiki/Lưu_Danh_Công",
-  "info": {}
+  "info": {
+   "Vua": "Lê Huyền Tông",
+   "Sinh": "1643-?",
+   "QueQuan": "Hà Nội",
+   "Tại vị": "1670"
+  }
  },
  {
   "name": "Nguyễn Đăng Đạo",
   "description": "Nguyễn Đăng Đạo (chữ Hán: 阮登道, 1651\u20131719) là một trong số rất ít trạng nguyên làm quan tới chức tể tướng thời Lê trung hưng. Ông còn có tên là Trạng Bịu.",
   "connection": [],
   "url": "/wiki/Nguyễn_Đăng_Đạo",
-  "info": {}
+  "info": {
+   "Vua": "Lê Hy Tông",
+   "Sinh": "1650-1718",
+   "QueQuan": "Bắc Ninh",
+   "Tại vị": "1683"
+  }
  },
  {
   "name": "Trịnh Tuệ",
   "description": "Trịnh Tuệ (chữ Hán: 鄭橞; 1701\u2013?, trước có tên là Trịnh Huệ, sau vì trùng tên với Tuyên Phi Đặng Thị Huệ nên đổi sang là Trịnh Tuệ[cần dẫn nguồn], hiệu là Cúc Lam, là vị Trạng nguyên cuối cùng trong lịch sử Việt Nam.",
   "connection": [],
   "url": "/wiki/Trịnh_Tuệ",
-  "info": {}
+  "info": {
+   "Vua": "Lê Ý Tông",
+   "Sinh": "1701-?",
+   "QueQuan": "Thanh Hóa",
+   "Tại vị": "1736"
+  }
  }
 ]

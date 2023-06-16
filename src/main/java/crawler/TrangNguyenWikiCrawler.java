@@ -47,7 +47,6 @@ public class TrangNguyenWikiCrawler extends Crawler{
             try {
                 // fetching the target website
                 characterURL = URLDecoder.decode(characterURL, "UTF-8");
-                System.out.println("URL: " + characterURL);
                 doc2 = Jsoup.connect(getWebLink() + characterURL).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
                 Elements tableInfos = doc2.select("table.infobox > tbody > tr");
                 String description = doc2.selectFirst("div.mw-parser-output > p").text();
@@ -58,6 +57,17 @@ public class TrangNguyenWikiCrawler extends Crawler{
                         info.put(th.text(), td.text());
                     }
                 }
+                if (info.isEmpty()){
+                    String dob = characterTable.select("td").get(2).text();
+                    String place = characterTable.select("td").get(3).text();
+                    String year = characterTable.select("td").get(4).text();
+                    String king = characterTable.select("td").get(5).text();
+                    if (dob.length() > 0) info.put("Sinh", dob);
+                    if(place.length() > 0) info.put("QueQuan", place);
+                    if (year.length() > 0) info.put("Tại vị", year);
+                    if (king.length() > 0) info.put("Vua", king);
+                }
+
                 List connections = new ArrayList<JSONObject>();
                 Elements ConnectionList = doc2.select("h2:has(span#Xem_thêm) + ul").select("li");
                 for (Element cnt : ConnectionList) {
