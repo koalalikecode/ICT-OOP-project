@@ -161,4 +161,20 @@ public class Crawler {
         }
         saveData();
     }
+//////////
+    public void scrapePage(String start) throws  IOException{
+        return;
+    }
+    public void saveData2(String folder) throws IOException {
+        try (FileWriter file = new FileWriter(folder)){
+            file.write(output.toString());
+            file.flush();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+    public void crawlAndSave2() throws IOException{
+        this.scrapePage(startLink);
+        this.saveData2(folder);
+    }
 }
