@@ -65,21 +65,14 @@ public class CharacterController implements Initializable {
 
             characterList = printData.loadCharacters(dataJson);
             printData execDataCharacter = new printData(characterList);
-
-//            Get name data of all characters
-//            dataCharacter = execDataCharacter.getObservableCharacterList(characterList);
-//            dataCharacter = FXCollections.observableArrayList(characterList);
             tbcName.setCellValueFactory(new PropertyValueFactory<CharacterTest, String>("name"));
-
             dataCharacter = FXCollections.observableArrayList(characterList);
             tbvCharacters.setItems(dataCharacter);
-
 //            Vấn đề nho nhỏ - đ hiện tên wtf - fix sau
-
-//            tbcName.setCellValueFactory(cellData -> cellData.getValue().nameProperty());
-//            for (CharacterTest character : characterList) {
-//                dataCharacter.add(character);
-//            }
+            tbcName.setCellValueFactory(cellData -> cellData.getValue().nameProperty());
+            for (CharacterTest character : characterList) {
+                dataCharacter.add(character);
+            }
 
             tbvCharacters.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
                 if (newSelection != null) {
@@ -93,10 +86,10 @@ public class CharacterController implements Initializable {
                     AnchorPane.setRightAnchor(infoPane, 10.0);
                     AnchorPane.setLeftAnchor(infoPane, 10.0);
 
-//                    Add the labels, dataPane, and tbVConnection to the AnchorPane
+//                    Add the labels, dataPane
                     infoAnchorPane.getChildren().addAll(labelName, infoPane);
 
-//                    Add character's information to the dataPane
+
                     infoPane.getChildren().clear();
                     TextFlow textFlow = new TextFlow();
                     String characterInfo = execDataCharacter.searchByName(newSelection.getName());
@@ -122,9 +115,6 @@ public class CharacterController implements Initializable {
                     VBox contentContainer = new VBox(10);
                     contentContainer.setPadding(new Insets(10));
                     contentContainer.getChildren().addAll(textFlow);
-
-//                    Separator separator = new Separator(Orientation.HORIZONTAL);
-//                    contentContainer.getChildren().add(separator);
 
                     for (String hyperlink : hyperlinkTexts) {
                         Hyperlink link = new Hyperlink(hyperlink);

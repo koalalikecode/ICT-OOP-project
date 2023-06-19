@@ -38,8 +38,7 @@ public class printData {
         this.hyperlinkTexts = hyperlinkTexts;
     }
 
-    public printData() {
-    }
+
     public printData(List<CharacterTest> characters) {
         this.characters = characters;
         this.hyperlinkTexts = getHyperlinkTexts(characters);
@@ -237,9 +236,9 @@ public class printData {
         try {
             String jsonContent = new String(Files.readAllBytes(Paths.get(dataJson)));
             JSONObject jsonData = new JSONObject(jsonContent);
-            // Get all jsonArray names
+
             Set<String> jsonArrayNames = jsonData.keySet();
-            // Search in all jsonArray objects
+
             for (String jsonArrayName : jsonArrayNames) {
                 JSONArray jsonArray = jsonData.getJSONArray(jsonArrayName);
                 for (int i = 0; i < jsonArray.length(); i++) {
@@ -286,7 +285,6 @@ public class printData {
             List<CharacterTest> characterList = new ArrayList<>();
             characterList = loadCharacters("data/final.json");
 
-//            Create an instance of PrintData
             printData class1 = new printData(characterList);
 
 //            SearchByName for info of the character
