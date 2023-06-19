@@ -50,7 +50,9 @@ public class CharacterNKSCrawler extends Crawler {
 
             try {
                 // fetching the target website
-                doc2 = Jsoup.connect(getWebLink() + characterLink.attr("href")).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
+                doc2 = Jsoup.connect(getWebLink() + characterLink.attr("href"))
+                        .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36")
+                        .header("Accept-Language", "*").get();
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
