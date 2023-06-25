@@ -29,6 +29,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
+import java.util.stream.Collectors;
 
 public class CharacterController implements Initializable {
     private String dataJson = "data/final.json";
@@ -41,7 +42,21 @@ public class CharacterController implements Initializable {
     private Scene sceneFestival;
     private Scene scenePlace;
 
+//    Button on side menu
     @FXML
+    private Button btnCharacter;
+    @FXML
+    private Button btnDynasty;
+    @FXML
+    private Button btnEvent;
+    @FXML
+    private Button btnFestival;
+    @FXML
+    private Button btnPlace;
+
+
+
+
     private ScrollPane infoScrollPane;
     @FXML
     private Pane infoPane;
@@ -51,7 +66,9 @@ public class CharacterController implements Initializable {
     private Label labelName;
     @FXML
     private AnchorPane infoAnchorPane;
-
+//    Add Search Bar for Character
+    @FXML
+    private TextField searchCharacter;
     // TableView for Character in All Character Tab
     @FXML
     private TableView<CharacterTest> tbvCharacters;
@@ -61,6 +78,7 @@ public class CharacterController implements Initializable {
     private List<CharacterTest> characterList;
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+
         try {
 
             characterList = printData.loadCharacters(dataJson);
@@ -68,11 +86,8 @@ public class CharacterController implements Initializable {
             tbcName.setCellValueFactory(new PropertyValueFactory<CharacterTest, String>("name"));
             dataCharacter = FXCollections.observableArrayList(characterList);
             tbvCharacters.setItems(dataCharacter);
-//            Vấn đề nho nhỏ - đ hiện tên wtf - fix sau
-            tbcName.setCellValueFactory(cellData -> cellData.getValue().nameProperty());
-            for (CharacterTest character : characterList) {
-                dataCharacter.add(character);
-            }
+
+            searchCharacter.setOnKeyReleased(event -> searchCharacter());
 
             tbvCharacters.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
                 if (newSelection != null) {
@@ -88,7 +103,6 @@ public class CharacterController implements Initializable {
 
 //                    Add the labels, dataPane
                     infoAnchorPane.getChildren().addAll(labelName, infoPane);
-
 
                     infoPane.getChildren().clear();
                     TextFlow textFlow = new TextFlow();
@@ -119,16 +133,11 @@ public class CharacterController implements Initializable {
                     for (String hyperlink : hyperlinkTexts) {
                         Hyperlink link = new Hyperlink(hyperlink);
                         link.setOnAction(event -> {
-
                             try {
-                                FXMLLoader loader = new FXMLLoader(getClass().getResource("eventPane.fxml"));
+                                FXMLLoader loader = new FXMLLoader(getClass().getResource("characterPane.fxml"));
                                 Parent root = loader.load();
 
-//                                EventController eventController = loader.getController();
-//                                Ta sẽ add các link của các nhân vật vào đây
-//                                eventController.setEventData(hyperlink);
-
-                                Stage stage = (Stage) tbvCharacters.getScene().getWindow();
+                                Stage stage = (Stage) link.getScene().getWindow();
                                 stage.setScene(new Scene(root));
                                 stage.show();
                             } catch (IOException e) {
@@ -150,6 +159,17 @@ public class CharacterController implements Initializable {
 
     }
 
+    private void searchCharacter() {
+        String searchQuery = searchCharacter.getText().trim().toLowerCase();
+        if (searchQuery.isEmpty()) {
+            tbvCharacters.setItems(dataCharacter);
+        } else {
+            List<CharacterTest> searchResults = characterList.stream()
+                    .filter(character -> character.getName().toLowerCase().contains(searchQuery))
+                    .collect(Collectors.toList());
+            tbvCharacters.setItems(FXCollections.observableArrayList(searchResults));
+        }
+    }
 
     public TextFlow linebreak(String data, TextFlow textFlow) {
         String[] lines = data.split("\\n");
@@ -161,20 +181,6 @@ public class CharacterController implements Initializable {
         return textFlow;
     }
 
-    public void showPersonDetails(CharacterTest character) {
-        if (character != null) {
-            labelName.setText("Name: " + character.getName());
 
-            infoPane.getChildren().clear();
-
-            TextFlow textFlow = new TextFlow();
-            textFlow.setPrefWidth(infoPane.getPrefWidth());
-
-            String data = printData.printdata();
-            linebreak(data, textFlow);
-            infoPane.getChildren().add(textFlow);
-
-        }
-    }
 
 }

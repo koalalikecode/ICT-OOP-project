@@ -1,2 +1,9 @@
-package appgui;public class EventController {
+package appgui;
+
+import javafx.fxml.FXML;
+
+
+public class EventController {
+
+
 }
