@@ -115,7 +115,7 @@
 
  /* Search */
  .search {
-     -fx-background-color:transparent;
+     -fx-background-color: transparent;
      -fx-font-size: 13px;
      -fx-padding: Opx Opx Opx 28px;
      -fx-text-alignment: center-left;
