@@ -1,0 +1,847 @@
+[
+  {
+    "name": "Thời kỳ Bắc thuộc lần thứ nhất",
+    "description": "Bắc thuộc lần thứ nhất (chữ Nôm: 北屬吝次一, ngắn gọn: Bắc thuộc lần 1) trong lịch sử Việt Nam kéo dài từ khoảng thế kỷ thứ 2 trước Công nguyên đến năm 40, dưới sự cai trị của phong kiến Trung Quốc.",
+    "connection": [
+      {
+        "name": "Vấn đề chính thống của nhà Triệu",
+        "url": "/wiki/V%E1%BA%A5n_%C4%91%E1%BB%81_ch%C3%ADnh_th%E1%BB%91ng_c%E1%BB%A7a_nh%C3%A0_Tri%E1%BB%87u"
+      },
+      {
+        "name": "Nhà Triệu",
+        "url": "/wiki/Nh%C3%A0_Tri%E1%BB%87u"
+      },
+      {
+        "name": "Nhà Hán",
+        "url": "/wiki/Nh%C3%A0_H%C3%A1n"
+      },
+      {
+        "name": "Hai Bà Trưng",
+        "url": "/wiki/Hai_B%C3%A0_Tr%C6%B0ng"
+      },
+      {
+        "name": "Bắc thuộc lần 2",
+        "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_2"
+      }
+    ],
+    "id": "d1",
+    "url": "/wiki/Th%E1%BB%9Di_k%E1%BB%B3_B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_th%E1%BB%A9_nh%E1%BA%A5t",
+    "info": {
+      "Lịch sử": {
+        "Chiến tranh Hán-Nam Việt": "111 TCN",
+        "Thành lập bởi quân Giao Chỉ": "111 TCN",
+        "Khởi nghĩa Hai Bà Trưng": "40"
+      },
+      "Đơn vị tiền tệ": "Tiền xu",
+      "Dân số": {"35": "2.000.000"},
+      "Ngôn ngữ thông dụng": "Tiếng Hán thượng cổ",
+      "Chính phủ": "Chế độ quân chủ",
+      "Thủ đô": "Giao Chỉ",
+      "Vị thế": "Quận của Nhà Hán",
+      "Hoàng đế": {
+        "87-74 TCN": "Hán Chiêu Đế",
+        "111-87 TCN": "Hán Vũ Đế (đầu tiên)",
+        "40": "Hán Quang Vũ Đế (cuối cùng)"
+      }
+    }
+  },
+  {
+    "name": "Hai Bà Trưng",
+    "description": "Hai Bà Trưng (13 tháng 9 năm 14 \u2013 5 tháng 3 năm 43) là tên chỉ chung hai chị em Trưng Trắc (徵側) và Trưng Nhị (徵貳), hai người phụ nữ được đánh giá là anh hùng dân tộc của người Việt.[5] Trong sử sách, hai bà được biết đến như là những thủ lĩnh khởi binh chống lại chính quyền đô hộ của Đông Hán, lập ra một quốc gia với kinh đô tại Mê Linh và Trưng Trắc tự phong là Nữ vương. Thời kì của hai Bà xen giữa thời kỳ Bắc thuộc lần 1 và Bắc thuộc lần 2 trong lịch sử Việt Nam. Đại Việt sử ký toàn thư coi Trưng Trắc là một vị vua trong lịch sử, với tên gọi Trưng Nữ vương (徵女王).",
+    "connection": [
+      {
+        "name": "Khởi nghĩa Hai Bà Trưng",
+        "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Hai_B%C3%A0_Tr%C6%B0ng"
+      },
+      {
+        "name": "Chiến tranh Hán-Việt, 42-43",
+        "url": "/wiki/Chi%E1%BA%BFn_tranh_H%C3%A1n-Vi%E1%BB%87t,_42-43"
+      },
+      {
+        "name": "Mã Viện",
+        "url": "/wiki/M%C3%A3_Vi%E1%BB%87n"
+      },
+      {
+        "name": "Hán Quang Vũ Đế",
+        "url": "/wiki/H%C3%A1n_Quang_V%C5%A9_%C4%90%E1%BA%BF"
+      },
+      {
+        "name": "Hành chính Việt Nam thời Bắc thuộc lần 1",
+        "url": "/wiki/H%C3%A0nh_ch%C3%ADnh_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_1"
+      },
+      {
+        "name": "Tiếng trống Mê Linh",
+        "url": "/wiki/Ti%E1%BA%BFng_tr%E1%BB%91ng_M%C3%AA_Linh"
+      }
+    ],
+    "id": "d2",
+    "url": "/wiki/Hai_B%C3%A0_Tr%C6%B0ng",
+    "info": {
+      "Sinh": "13 tháng 9 năm 14",
+      "Mất": "5 tháng 3 năm 43 (29 tuổi)",
+      "Tại vị": "40 - 43",
+      "Tên đầy đủ Thụy hiệu": "Tên đầy đủ Trưng Trắc (徵側) Thụy hiệu Trưng Thánh vương[1] (徵聖王) Linh Trinh Nhị phu nhân[2] (靈貞二夫人) Kính Thắng phu nhân[3] (敬勝夫人) Kính Thắng Bảo Thuận phu nhân[4] (敬勝保順夫人) Trưng Trắc (徵側) Trưng Thánh vương[1] (徵聖王) Linh Trinh Nhị phu nhân[2] (靈貞二夫人) Kính Thắng phu nhân[3] (敬勝夫人) Kính Thắng Bảo Thuận phu nhân[4] (敬勝保順夫人)"
+    }
+  },
+  {
+    "name": "Thời kỳ Bắc thuộc lần thứ hai",
+    "description": "",
+    "connection": [
+      {
+        "name": "Bắc thuộc",
+        "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c"
+      },
+      {
+        "name": "Nhà Hán",
+        "url": "/wiki/Nh%C3%A0_H%C3%A1n"
+      },
+      {
+        "name": "Nam Bắc triều (Trung Quốc)",
+        "url": "/wiki/Nam-B%E1%BA%AFc_tri%E1%BB%81u_(Trung_Qu%E1%BB%91c)"
+      },
+      {
+        "name": "Lâm Ấp",
+        "url": "/wiki/L%C3%A2m_%E1%BA%A4p"
+      },
+      {
+        "name": "Lý Trường Nhân",
+        "url": "/wiki/L%C3%BD_Tr%C6%B0%E1%BB%9Dng_Nh%C3%A2n"
+      },
+      {
+        "name": "Bà Triệu",
+        "url": "/wiki/B%C3%A0_Tri%E1%BB%87u"
+      },
+      {
+        "name": "Nhà Tiền Lý",
+        "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%BD"
+      },
+      {
+        "name": "Bắc thuộc lần 1",
+        "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_1"
+      },
+      {
+        "name": "Bắc thuộc lần 3",
+        "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_3"
+      },
+      {
+        "name": "Văn hóa Đông Sơn",
+        "url": "/wiki/V%C4%83n_h%C3%B3a_%C4%90%C3%B4ng_S%C6%A1n"
+      }
+    ],
+    "id": "d3",
+    "url": "/wiki/Th%E1%BB%9Di_k%E1%BB%B3_B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_th%E1%BB%A9_hai",
+    "info": {
+      "Lịch sử": {
+        "Chiến tranh Hai Bà Trưng-Hán": "43",
+        "Giao Chỉ dưới thời Lưu Tống": "420",
+        "Nhà Tấn thống nhất Trung Quốc": "265",
+        "Giao Chỉ dưới thời Đông Ngô": "222",
+        "Giao Chỉ dưới thời Nhà Lương": "502",
+        "Lý Bí tuyên bố độc lập Giao Chỉ": "544",
+        "Hán Hiến Đế lên ngôi, thu hẹp Nhà Hán": "189 43",
+        "Giao Chỉ dưới thời Nam Tề": "479"
+      },
+      "Đơn vị tiền tệ": "Đồng xu",
+      "Dân số": {
+        "420": "1.000.000",
+        "227": "1.300.000",
+        "184": "1.100.000",
+        "285": "600.000"
+      },
+      "Ngôn ngữ thông dụng": "Tiếng Hán",
+      "Chính phủ": "Chế độ quân chủ",
+      "Thủ đô": "Long Biên",
+      "Vị thế": "Quận của Nhà Hán-Nhà Đông Ngô-Nhà Tấn-Nam Triều",
+      "Hoàng đế": {
+        "479-482": "Nam Tề Cao Đế",
+        "502\u2013544": "Lương Vũ Đế (cuối cùng)",
+        "43-57": "Hán Quang Vũ Đế (đầu tiên)",
+        "266-290": "Tấn Vũ Đế",
+        "420-422": "Lưu Tống Vũ Đế",
+        "229-252": "Tôn Quyền của Đông Ngô"
+      }
+    }
+  },
+  {
+    "name": "Nhà Tiền Lý",
+    "description": "Nhà Tiền Lý (chữ Nôm: 茹前李, chữ Hán: 前李朝, Hán Việt: Tiền Lý triều, 544 \u2013 602) là một triều đại trong lịch sử Việt Nam, gắn liền với quốc hiệu Vạn Xuân. Nhà Tiền Lý kéo dài 61 năm và nước Vạn Xuân kéo dài 58 năm, tổng cộng ba đời vua, trong đó có hai vua họ Lý và một vua họ Triệu cũng được tính gộp vào nhà Tiền Lý, tương tự như Dương Tam Kha trong nhà Ngô sau đó.",
+    "connection": [],
+    "id": "d4",
+    "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%BD",
+    "info": {
+      "Lịch sử": {
+        "Triệu Việt Vương xưng vương": "548",
+        "Hậu Lý Nam Đế đầu hàng nhà Tùy": "602",
+        "Lý Nam Đế xưng đế": "544",
+        "Lý Phật Tử giành ngôi Triệu Việt Vương": "571"
+      },
+      "Đơn vị tiền tệ": "Văn",
+      "Dân số": {"Năm 541": "1.500.000"},
+      "Ngôn ngữ thông dụng": "Tiếng Việt cổ Tiếng Hán trung đại",
+      "Chính phủ": "Chế độ quân chủ",
+      "Thủ đô": "Long Biên",
+      "Hoàng Đế": {
+        "544\u2013548": "Lý Nam Đế (đầu tiên)",
+        "548\u2013571": "Triệu Việt Vương",
+        "571-602": "Lý Phật Tử (cuối cùng)"
+      }
+    }
+  },
+  {
+    "name": "Triệu Việt Vương",
+    "description": "Triệu Việt Vương (chữ Hán: 趙越王; 524 \u2013 571), tên thật là Triệu Quang Phục (趙光復), là một trong những nhà lãnh đạo khởi nghĩa, giành tự chủ thời Bắc thuộc ở Việt Nam cai trị từ năm 548 đến năm 571. Ông có công kế tục Lý Nam Đế đánh đuổi quân xâm lược nhà Lương, giữ nền độc lập cho nước Vạn Xuân. Năm 571, ông bị Lý Phật Tử đánh úp và thua trận. Ông tự tử ở cửa sông Đáy.",
+    "connection": [
+      {
+        "name": "Nhà Tiền Lý",
+        "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%BD"
+      },
+      {
+        "name": "Lý Nam Đế",
+        "url": "/wiki/L%C3%BD_Nam_%C4%90%E1%BA%BF"
+      },
+      {
+        "name": "Hậu Lý Nam Đế",
+        "url": "/wiki/H%E1%BA%ADu_L%C3%BD_Nam_%C4%90%E1%BA%BF"
+      },
+      {
+        "name": "Thánh Tam Giang",
+        "url": "/wiki/Th%C3%A1nh_Tam_Giang"
+      }
+    ],
+    "id": "d5",
+    "url": "/wiki/Tri%E1%BB%87u_Vi%E1%BB%87t_V%C6%B0%C6%A1ng",
+    "info": {
+      "Triều đại": "Nhà Tiền Lý",
+      "Trị vì": "548 \u2013 571",
+      "Kế nhiệm": "Hậu Lý Nam Đế",
+      "Húy": "Húy Triệu Quang Phục (趙光復) Triệu Quang Phục (趙光復)",
+      "Tước hiệu": "Dạ Trạch Vương (夜澤王)",
+      "Sinh": "26 tháng 01 năm 524 Chu Diên, Giao Châu",
+      "Mất": "571 Vạn Xuân",
+      "Hậu duệ": "Cảo Nương",
+      "Tiền nhiệm": "Lý Nam Đế",
+      "Thân phụ": "Triệu Túc (趙肅)"
+    }
+  },
+  {
+    "name": "Thời kỳ Bắc thuộc lần thứ ba",
+    "description": "Bắc thuộc lần thứ ba (chữ Nôm: 北屬吝次三, ngắn gọn: Bắc thuộc lần 3) trong lịch sử Việt Nam kéo dài từ năm 602 đến năm 905 hoặc năm 939. Thời kỳ này bắt đầu khi Tùy Văn Đế sai Lưu Phương đánh chiếm nước Vạn Xuân, bức hàng Hậu Lý Nam Đế, kéo dài cho đến khi Khúc Thừa Dụ tiến vào Đại La, giành quyền cai quản toàn bộ Tĩnh Hải quân năm 905 - thời Đường Ai Đế, ông vua bù nhìn trong tay quyền thần Chu Ôn.",
+    "connection": [
+      {
+        "name": "Nhà Tùy",
+        "url": "/wiki/Nh%C3%A0_T%C3%B9y"
+      },
+      {
+        "name": "Nhà Đường",
+        "url": "/wiki/Nh%C3%A0_%C4%90%C6%B0%E1%BB%9Dng"
+      },
+      {
+        "name": "Nhà Tiền Lý",
+        "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%BD"
+      },
+      {
+        "name": "Lý Phật Tử",
+        "url": "/wiki/H%E1%BA%ADu_L%C3%BD_Nam_%C4%90%E1%BA%BF"
+      },
+      {
+        "name": "Lý Tự Tiên",
+        "url": "/wiki/L%C3%BD_T%E1%BB%B1_Ti%C3%AAn"
+      },
+      {
+        "name": "Đinh Kiến",
+        "url": "/wiki/%C4%90inh_Ki%E1%BA%BFn"
+      },
+      {
+        "name": "Mai Hắc Đế",
+        "url": "/wiki/Mai_H%E1%BA%AFc_%C4%90%E1%BA%BF"
+      },
+      {
+        "name": "Phùng Hưng",
+        "url": "/wiki/Ph%C3%B9ng_H%C6%B0ng"
+      },
+      {
+        "name": "Dương Thanh",
+        "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_D%C6%B0%C6%A1ng_Thanh"
+      }
+    ],
+    "id": "d6",
+    "url": "/wiki/Th%E1%BB%9Di_k%E1%BB%B3_B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_th%E1%BB%A9_ba",
+    "info": {
+      "Tiết độ sứ": {
+        "907\u2013917": "Khúc Hạo",
+        "905\u2013907": "Khúc Thừa Dụ (Thời kỳ tự trị)",
+        "917\u2013923": "Khúc Thừa Mỹ",
+        "923\u2013937": "Dương Đình Nghệ",
+        "905": "Độc Cô Tổn",
+        "937\u2013938": "Kiều Công Tiễn (cuối cùng)"
+      },
+      "Lịch sử": {
+        "Đường Ai Đế công nhận Khúc Thừa Dụ": "905 hoặc 939",
+        "Loạn An Sử": "755",
+        "Chiến tranh Tùy\u2013Tiền Lý": "602",
+        "Đường Cao Tổ Lý Uyên lật đổ triều Tùy.": "618",
+        "Lý Thế Dân tiêu diệt Hậu Lương đế Tiêu Tiển, sát nhập Vạn Xuân": "622",
+        "Khúc Thừa Dụ giành được quyền tự trị ở Việt Nam": "905",
+        "Nhà Tùy sáp nhập Vạn Xuân": "603"
+      },
+      "Đơn vị tiền tệ": "Đồng",
+      "Ngôn ngữ thông dụng": "Tiếng Trung",
+      "Chính phủ": "Chế độ quân chủ",
+      "Tôn giáo chính": "Phật giáo",
+      "Thủ đô": "Đại La",
+      "Vị thế": "Quận của Nhà Tùy-Nhà Đường-Nam Hán Tỉnh tự trị dưới Họ Khúc (905)",
+      "Hoàng đế": {
+        "602\u2013604": "Tùy Văn Đế (đầu tiên)",
+        "917\u2013938": "Lưu Nham (cuối cùng)",
+        "618\u2013626": "Đường Cao Tổ"
+      }
+    }
+  },
+  {
+    "name": "Thời kỳ tự chủ Việt Nam",
+    "description": "Tự chủ là thời kỳ đầu khôi phục lại nền độc lập của Việt Nam đầu thế kỷ 10 sau hơn 1000 năm Bắc thuộc. Thời kỳ này, người Việt đã tự cai trị lãnh thổ nhưng chưa xưng làm vua, và chưa đặt quốc hiệu. Bề ngoài, Việt Nam vẫn là một phần lãnh thổ của \"thiên triều\" phương Bắc ở Trung nguyên với tên gọi \"Tĩnh Hải quân\" và người đứng đầu chỉ nối tiếp nhau làm chức Tiết độ sứ như một quan cai trị của Trung Quốc trước đây.",
+    "connection": [
+      {
+        "name": "Họ Khúc",
+        "url": "/wiki/H%E1%BB%8D_Kh%C3%BAc_(l%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam)"
+      },
+      {
+        "name": "Dương Đình Nghệ",
+        "url": "/wiki/D%C6%B0%C6%A1ng_%C4%90%C3%ACnh_Ngh%E1%BB%87"
+      },
+      {
+        "name": "Kiều Công Tiễn",
+        "url": "/wiki/Ki%E1%BB%81u_C%C3%B4ng_Ti%E1%BB%85n"
+      },
+      {
+        "name": "Tiết độ sứ",
+        "url": "/wiki/Ti%E1%BA%BFt_%C4%91%E1%BB%99_s%E1%BB%A9"
+      },
+      {
+        "name": "Ngoại giao Việt Nam thời Tự chủ",
+        "url": "/wiki/Ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_T%E1%BB%B1_ch%E1%BB%A7"
+      }
+    ],
+    "id": "d7",
+    "url": "/wiki/Th%E1%BB%9Di_k%E1%BB%B3_t%E1%BB%B1_ch%E1%BB%A7_Vi%E1%BB%87t_Nam",
+    "info": {}
+  },
+  {
+    "name": "Nhà Ngô",
+    "description": "Nhà Ngô (chữ Nôm: 茹吳, chữ Hán: 吳朝, Hán Việt: Ngô triều) là một triều đại quân chủ trong lịch sử Việt Nam, truyền được hai đời nhưng có tới ba vị vua, kéo dài từ năm 939 đến năm 965. Khoảng thời gian xen giữa từ 944 đến 950 còn có Dương Bình Vương tức Dương Tam Kha. Khác với các triều đại quân chủ Việt Nam sau này, các vua nhà Ngô vẫn xưng tước vương mà chưa xưng đế hiệu trên phạm vi toàn lãnh thổ do họ cai trị.",
+    "connection": [],
+    "id": "d8",
+    "url": "/wiki/Nh%C3%A0_Ng%C3%B4",
+    "info": {
+      "Lịch sử": {
+        "Chiến tranh chống Nam Hán": "938",
+        "Ngô Quyền lên ngôi": "939",
+        "Loạn 12 sứ quân": "965"
+      },
+      "Đơn vị tiền tệ": "Tiền xu",
+      "Ngôn ngữ thông dụng": "Việt ngữ và Hán ngữ trung đại",
+      "Vua": {
+        "944-950": "Dương Tam Kha",
+        "950-965": "Ngô Xương Văn, Ngô Xương Ngập (cuối cùng)",
+        "939-944": "Ngô Quyền (đầu tiên)"
+      },
+      "Chính phủ": "Quân chủ",
+      "Tôn giáo chính": "Phật giáo, Đạo giáo, Cảnh giáo[1]",
+      "Thủ đô": "Cổ Loa"
+    }
+  },
+  {
+    "name": "Nhà Đinh",
+    "description": "",
+    "connection": [],
+    "id": "d9",
+    "url": "/wiki/Nh%C3%A0_%C4%90inh",
+    "info": {
+      "Lịch sử": {
+        "Đinh Bộ Lĩnh đánh bại 12 sứ quân, lên ngôi hoàng đế": "968",
+        "Lê Hoàn soán ngôi Nhà Đinh": "980"
+      },
+      "Đơn vị tiền tệ": "Tiền xu",
+      "Ngôn ngữ thông dụng": "Hán ngữ trung đại",
+      "Thành phố lớn nhất": "Đại La",
+      "Chính phủ": "Quân chủ",
+      "Tôn giáo chính": "Phật giáo, Đạo giáo,...",
+      "Thủ đô": "Hoa Lư",
+      "Hoàng đế": {
+        "979-980": "Đinh Phế Đế",
+        "968-979": "Đinh Tiên Hoàng"
+      }
+    }
+  },
+  {
+    "name": "Nhà Tiền Lê",
+    "description": "Nhà Lê (chữ Nôm: 茹黎, chữ Hán: 黎朝, Hán Việt: Lê triều), hay còn được gọi là nhà Tiền Lê (chữ Nôm: 家前黎, Chữ Hán: 前黎朝, Hán Việt: Tiền Lê triều)[2] là một triều đại quân chủ trong lịch sử Việt Nam, bắt đầu khi Đinh Phế Đế nhường ngôi cho Lê Hoàn vào năm 980, trải qua ba đời quân chủ và chấm dứt khi Lê Long Đĩnh qua đời. Quốc hiệu vẫn là Đại Cồ Việt.",
+    "connection": [],
+    "id": "d10",
+    "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%AA",
+    "info": {
+      "Lịch sử": {
+        "Chiến tranh chống Tống": "981",
+        "Lý Công Uẩn soán ngôi Nhà Tiền Lê": "1009",
+        "Lê Đại Hành soán ngôi Nhà Đinh": "980"
+      },
+      "Đơn vị tiền tệ": "Tiền xu",
+      "Dân số": {"Năm 1000": "2.152.000[1]"},
+      "Ngôn ngữ thông dụng": "Tiếng Việt trung đại",
+      "Chính phủ": "Quân chủ",
+      "Tôn giáo chính": "Phật giáo, Đạo giáo,...",
+      "Thủ đô": "Hoa Lư",
+      "Hoàng đế": {
+        "1005": "Lê Trung Tông",
+        "980-1005": "Lê Đại Hành",
+        "1005-1009": "Lê Ngọa Triều"
+      }
+    }
+  },
+  {
+    "name": "Nhà Lý",
+    "description": "Nhà Lý (chữ Nôm: 茹李, chữ Hán: 李朝, Hán Việt: Lý triều), đôi khi gọi là nhà Hậu Lý (để phân biệt với triều đại Tiền Lý do Lý Bí thành lập) là một triều đại trong nền quân chủ Việt Nam. Triều đại này bắt đầu khi Lý Công Uẩn lên ngôi vào tháng 10 âm lịch năm 1009 sau khi giành được quyền lực từ tay nhà Tiền Lê. Triều đại này trải qua 9 vị hoàng đế và chấm dứt khi Lý Chiêu Hoàng, lúc đó mới có 7 tuổi, bị ép thoái vị để nhường ngôi cho chồng là Trần Cảnh vào năm 1225 \u2013 tổng cộng là 216 năm.",
+    "connection": [],
+    "id": "d11",
+    "url": "/wiki/Nh%C3%A0_L%C3%BD",
+    "info": {
+      "Diện tích": "",
+      "Lịch sử": {
+        "Chiến tranh chống Tống": "1075-1077",
+        "Lý Công Uẩn được suy tôn lên làm vua": "1009",
+        "Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh": "1225"
+      },
+      "Đơn vị tiền tệ": "Tiền xu",
+      "Ngôn ngữ thông dụng": "Tiếng Việt trung đại",
+      "Chính phủ": "Quân chủ",
+      "\u2022 Ước tính năm 1153": "117.893 km2 (45.519 mi2)",
+      "Tôn giáo chính": "Phật giáo",
+      "Thủ đô": "Hoa Lư (1009 - 1010) Thăng Long (1010 - 1225)",
+      "Hoàng đế": {
+        "1224-1225": "Lý Chiêu Hoàng (cuối cùng)",
+        "1009-1028": "Lý Thái Tổ (đầu tiên)"
+      }
+    }
+  },
+  {
+    "name": "Nhà Trần",
+    "description": "Nhà Trần (chữ Nôm: 茹陳, chữ Hán: 陳朝, Hán Việt: Trần triều) là một triều đại quân chủ cai trị nước Đại Việt từ năm 1226 đến năm 1400. Đây là triều đại được lưu danh với những chiến công hiển hách trong lịch sử Việt Nam. Triều đại này khởi đầu khi Trần Cảnh lên ngôi vào năm 1226 sau khi được vợ là Lý Chiêu Hoàng truyền ngôi. Những năm đầu tiên, Trần Cảnh còn nhỏ tuổi, toàn bộ quyền hành của nhà Trần đều do một tông thất vai chú của Trần Cảnh là Trần Thủ Độ nắm quyền, chính Trần Thủ Độ đã âm thầm ép Lý Chiêu Hoàng nhường ngôi cho cháu mình.",
+    "connection": [
+      {
+        "name": "Kháng chiến chống Nguyên Mông",
+        "url": "/wiki/Chi%E1%BA%BFn_tranh_Nguy%C3%AAn_M%C3%B4ng-%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+      },
+      {
+        "name": "Văn học thời Trần",
+        "url": "/wiki/V%C4%83n_h%E1%BB%8Dc_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_Tr%E1%BA%A7n"
+      },
+      {
+        "name": "Đế quốc Mông Cổ",
+        "url": "/wiki/%C4%90%E1%BA%BF_qu%E1%BB%91c_M%C3%B4ng_C%E1%BB%95"
+      },
+      {
+        "name": "Nhà Nguyên",
+        "url": "/wiki/Nh%C3%A0_Nguy%C3%AAn"
+      },
+      {
+        "name": "Đại Việt tấn công nhà Nguyên",
+        "url": "/wiki/%C4%90%E1%BA%A1i_Vi%E1%BB%87t_t%E1%BA%A5n_c%C3%B4ng_nh%C3%A0_Nguy%C3%AAn"
+      },
+      {
+        "name": "Nhà Lý",
+        "url": "/wiki/Nh%C3%A0_L%C3%BD"
+      },
+      {
+        "name": "Nhà Hồ",
+        "url": "/wiki/Nh%C3%A0_H%E1%BB%93"
+      },
+      {
+        "name": "Chiêm Thành",
+        "url": "/wiki/Chi%C3%AAm_Th%C3%A0nh"
+      }
+    ],
+    "id": "d12",
+    "url": "/wiki/Nh%C3%A0_Tr%E1%BA%A7n",
+    "info": {}
+  },
+  {
+    "name": "Nhà Hồ",
+    "description": "Nhà Hồ (chữ Nôm: 茹胡, chữ Hán: 胡朝, Hán Việt: Hồ triều) là một triều đại quân chủ trong lịch sử Việt Nam, bắt đầu khi Hồ Quý Ly lên ngôi năm 1400 sau khi giành được quyền lực từ tay nhà Trần và chấm dứt khi Hồ Hán Thương bị quân Minh bắt vào năm 1407 \u2013 tổng cộng là 7 năm. Quốc hiệu Đại Việt đã đổi thành Đại Ngu năm 1400.",
+    "connection": [
+      {
+        "name": "Nhà Trần",
+        "url": "/wiki/Nh%C3%A0_Tr%E1%BA%A7n"
+      },
+      {
+        "name": "Nhà Hậu Trần",
+        "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_Tr%E1%BA%A7n"
+      },
+      {
+        "name": "Hồ Quý Ly",
+        "url": "/wiki/H%E1%BB%93_Qu%C3%BD_Ly"
+      },
+      {
+        "name": "Hồ Hán Thương",
+        "url": "/wiki/H%E1%BB%93_H%C3%A1n_Th%C6%B0%C6%A1ng"
+      },
+      {
+        "name": "Đại Ngu",
+        "url": "/wiki/%C4%90%E1%BA%A1i_Ngu"
+      },
+      {
+        "name": "Quân đội nhà Hồ",
+        "url": "/w/index.php?title=Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A0_H%E1%BB%93&action=edit&redlink=1"
+      },
+      {
+        "name": "Hoàng Hối Khanh",
+        "url": "/wiki/Ho%C3%A0ng_H%E1%BB%91i_Khanh"
+      },
+      {
+        "name": "Chiến tranh Việt-Chiêm 1400-1407",
+        "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_1400-1407"
+      },
+      {
+        "name": "Chiến tranh Đại Ngu - Minh",
+        "url": "/wiki/Chi%E1%BA%BFn_tranh_%C4%90%E1%BA%A1i_Ngu_-_Minh"
+      }
+    ],
+    "id": "d13",
+    "url": "/wiki/Nh%C3%A0_H%E1%BB%93",
+    "info": {
+      "Lịch sử": {
+        "Hồ Quý Ly soán ngôi nhà Trần": "1400",
+        "Hồ Hán Thương bị quân Minh bắt": "1407"
+      },
+      "Đơn vị tiền tệ": "Thông bảo hội sao (tiền giấy), Thánh Nguyên thông bảo (tiền kim loại)",
+      "Dân số": {"1400": "5.207.500"},
+      "Ngôn ngữ thông dụng": "Tiếng Việt trung đại",
+      "Chính phủ": "Quân chủ",
+      "Văn tự": "Chữ Nôm",
+      "Tôn giáo chính": "Phật giáo, Đạo giáo, Tín ngưỡng Việt Nam",
+      "Thủ đô": "Tây Đô 20°4\u2032B 105°36\u2032Đ﻿ / ﻿20,067°B 105,6°Đ﻿ / 20.067; 105.600",
+      "Vị thế": "Đế quốc",
+      "Hoàng đế": {
+        "1401-1407": "Hồ Hán Thương (cuối cùng)",
+        "1400-1401": "Hồ Quý Ly (đầu tiên)"
+      }
+    }
+  },
+  {
+    "name": "Thời kỳ Bắc thuộc lần thứ tư",
+    "description": "Thời kỳ Bắc thuộc lần thứ tư (chữ Nôm: 北屬吝次四) hay còn gọi là thời Minh thuộc trong lịch sử Việt Nam bắt đầu từ năm 1407 khi đế quốc Minh đánh bại nhà Hồ-Đại Ngu và chấm dứt năm 1427 khi Lê Lợi đánh đuổi được quân Minh ra khỏi bờ cõi, giành thắng lợi hoàn toàn trong cuộc khởi nghĩa Lam Sơn. Thời kỳ thuộc Minh chỉ kéo dài 20 năm.",
+    "connection": [
+      {
+        "name": "Bắc thuộc",
+        "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c"
+      },
+      {
+        "name": "Giao Chỉ",
+        "url": "/wiki/Giao_Ch%E1%BB%89"
+      },
+      {
+        "name": "Chiến tranh Minh-Đại Ngu",
+        "url": "/wiki/Chi%E1%BA%BFn_tranh_Minh_-_%C4%90%E1%BA%A1i_Ngu"
+      },
+      {
+        "name": "Nhà Hậu Trần",
+        "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_Tr%E1%BA%A7n"
+      },
+      {
+        "name": "Chiến tranh Minh-Việt (1407-1414)",
+        "url": "/wiki/Chi%E1%BA%BFn_tranh_Minh-Vi%E1%BB%87t_(1407-1414)"
+      },
+      {
+        "name": "Khởi nghĩa Lam Sơn",
+        "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Lam_S%C6%A1n"
+      }
+    ],
+    "id": "d14",
+    "url": "/wiki/Th%E1%BB%9Di_k%E1%BB%B3_B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_th%E1%BB%A9_t%C6%B0",
+    "info": {}
+  },
+  {
+    "name": "Nhà Hậu Lê",
+    "description": "Nhà Hậu Lê (chữ Nôm: 茹後黎, chữ Hán: 後黎朝, Hán Việt: Hậu Lê triều; (1428-1789) là một triều đại phong kiến Việt Nam tồn tại sau thời Bắc thuộc lần 4 và đồng thời với nhà Mạc, nhà Tây Sơn trong một thời gian, trước Nhà Nguyễn",
+    "connection": [
+      {
+        "name": "Nhà Lê (định hướng)",
+        "url": "/wiki/Nh%C3%A0_L%C3%AA_(%C4%91%E1%BB%8Bnh_h%C6%B0%E1%BB%9Bng)"
+      },
+      {
+        "name": "Nhà Mạc",
+        "url": "/wiki/Nh%C3%A0_M%E1%BA%A1c"
+      },
+      {
+        "name": "Nam \u2013 Bắc triều",
+        "url": "/wiki/Nam-B%E1%BA%AFc_tri%E1%BB%81u_(Vi%E1%BB%87t_Nam)"
+      },
+      {
+        "name": "Chúa Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
+      {
+        "name": "Chúa Nguyễn",
+        "url": "/wiki/Ch%C3%BAa_Nguy%E1%BB%85n"
+      },
+      {
+        "name": "Chúa Bầu",
+        "url": "/wiki/Ch%C3%BAa_B%E1%BA%A7u"
+      },
+      {
+        "name": "Trịnh \u2013 Nguyễn phân tranh",
+        "url": "/wiki/Tr%E1%BB%8Bnh-Nguy%E1%BB%85n_ph%C3%A2n_tranh"
+      },
+      {
+        "name": "Nhà Tây Sơn",
+        "url": "/wiki/Nh%C3%A0_T%C3%A2y_S%C6%A1n"
+      }
+    ],
+    "id": "d15",
+    "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA",
+    "info": {}
+  },
+  {
+    "name": "Nhà Tây Sơn",
+    "description": "Nhà Tây Sơn (chữ Nôm: 家西山, chữ Hán: 西山朝 / Tây Sơn triều) là một triều đại quân chủ trong lịch sử Việt Nam tồn tại từ năm 1778 đến năm 1802, được thành lập trong bối cảnh tranh chấp quyền lực cuối thời Lê Trung hưng (1533\u20131789). Theo cách gọi của phần lớn sử gia, nhất là các sử gia hiện đại[1] tại Việt Nam thì \"nhà Tây Sơn\" được dùng để gọi triều đại của anh em Nguyễn Nhạc, Nguyễn Lữ và Nguyễn Huệ để phân biệt với nhà Nguyễn của Nguyễn Ánh (vì cùng họ Nguyễn). Ngoài ra, \"Tây Sơn\" cũng chỉ các lãnh tụ và quân đội khởi nghĩa xuất thân từ ấp Tây Sơn; cũng được dùng làm tên cuộc chiến của Tây Sơn.",
+    "connection": [
+      {
+        "name": "Mười chiến dịch lớn của Càn Long",
+        "url": "/wiki/Th%E1%BA%ADp_to%C3%A0n_V%C3%B5_c%C3%B4ng"
+      },
+      {
+        "name": "Nguyễn Nhạc",
+        "url": "/wiki/Nguy%E1%BB%85n_Nh%E1%BA%A1c"
+      },
+      {
+        "name": "Nguyễn Huệ",
+        "url": "/wiki/Nguy%E1%BB%85n_Hu%E1%BB%87"
+      },
+      {
+        "name": "Nguyễn Lữ",
+        "url": "/wiki/Nguy%E1%BB%85n_L%E1%BB%AF"
+      },
+      {
+        "name": "Nguyễn Ánh",
+        "url": "/wiki/Gia_Long"
+      },
+      {
+        "name": "Nhà Hậu Lê",
+        "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA"
+      },
+      {
+        "name": "Chúa Trịnh",
+        "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+      },
+      {
+        "name": "Chúa Nguyễn",
+        "url": "/wiki/Ch%C3%BAa_Nguy%E1%BB%85n"
+      },
+      {
+        "name": "Ngoại giao Việt Nam thời Tây Sơn",
+        "url": "/wiki/Ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_T%C3%A2y_S%C6%A1n"
+      },
+      {
+        "name": "Lê Chiêu Thống",
+        "url": "/wiki/L%C3%AA_Chi%C3%AAu_Th%E1%BB%91ng"
+      }
+    ],
+    "id": "d16",
+    "url": "/wiki/Nh%C3%A0_T%C3%A2y_S%C6%A1n",
+    "info": {
+      "Lịch sử": {
+        "Thành lập": "1778",
+        "Quang Trung đại phá quân Thanh. Nhà Hậu Lê sụp đổ.": "1789",
+        "Nguyễn Nhạc lên ngôi hoàng đế": "1778",
+        "Khởi nghĩa Tây Sơn bùng nổ": "1771",
+        "Quang Trung băng hà, Nguyễn Quang Toản kế vị.": "1792",
+        "Nguyễn Ánh đánh bại Nguyễn Quang Toản, Tây Sơn sụp đổ.": "1802",
+        "Nguyễn Nhạc thoái vị, Nguyễn Huệ lên ngôi hoàng đế": "1788"
+      },
+      "Đơn vị tiền tệ": "Văn",
+      "Ngôn ngữ thông dụng": "Tiếng Việt (Văn tự: Chữ Nôm), Tiếng Chăm, Tiếng Quảng Đông, Tiếng Khách Gia",
+      "Chính phủ": "Quân chủ chuyên chế",
+      "Tôn giáo chính": "Phật giáo, Nho giáo, Công giáo, Tín ngưỡng dân gian",
+      "Thủ đô": "Quy Nhơn (1778-1788) Phú Xuân (1788-1802) Phượng Hoàng Trung Đô (1788-1802)",
+      "Vị thế": "Đế quốc",
+      "Hoàng đế": {
+        "1788-1792": "Nguyễn Huệ",
+        "1792-1802": "Nguyễn Quang Toản",
+        "1778-1788": "Nguyễn Nhạc"
+      }
+    }
+  },
+  {
+    "name": "Nhà Nguyễn",
+    "description": "",
+    "connection": [
+      {
+        "name": "Vua Việt Nam",
+        "url": "/wiki/Vua_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Nguyễn Trường Tộ",
+        "url": "/wiki/Nguy%E1%BB%85n_Tr%C6%B0%E1%BB%9Dng_T%E1%BB%99"
+      },
+      {
+        "name": "Quốc trưởng",
+        "url": "/wiki/Qu%E1%BB%91c_tr%C6%B0%E1%BB%9Fng"
+      }
+    ],
+    "id": "d17",
+    "url": "/wiki/Nh%C3%A0_Nguy%E1%BB%85n",
+    "info": {
+      "Diện tích": "",
+      "\u2022 1830": "557.000 km2 (215.059 mi2)",
+      "Lịch sử": {
+        "Hoà ước Quý Mùi": "28 tháng 8 năm 1883",
+        "Gia Long lên ngôi hoàng đế": "1 tháng 6 năm 1802",
+        "Chiếu thoái vị của Bảo Đại": "25 tháng 8 năm 1945",
+        "Cách mạng Tháng Tám": "19 tháng 8 năm 1945",
+        "Hoà ước Giáp Thân": "6 tháng 6 năm 1884",
+        "Tuyên cáo Việt Nam độc lập": "11 tháng 3 năm 1945",
+        "Nhật đảo chính Pháp": "9 tháng 3 năm 1945",
+        "Chiến tranh Pháp\u2013Đại Nam": "1 tháng 9 năm 1858",
+        "Hoà ước Nhâm Tuất": "5 tháng 6 năm 1862"
+      },
+      "Đơn vị tiền tệ": "Quan",
+      "Dân số": {
+        "1942": "25.552.000",
+        "1830": "10.500.000",
+        "1890": "14.752.000",
+        "1858": "12.031.000"
+      },
+      "Ngôn ngữ thông dụng": "Tiếng Việt Văn ngôn Trung Quốc[1][2][Ghi chú 1] Tiếng Pháp (từ 1884)",
+      "Chính phủ": "Quân chủ chuyên chế",
+      "Tôn giáo chính": "Nho giáo, Phật giáo, Công giáo, Tín ngưỡng dân gian",
+      "Thủ đô": "Phú Xuân (nay là Huế) 16°28\u2032B 107°36\u2032Đ﻿ / ﻿16,467°B 107,6°Đ﻿ / 16.467; 107.600",
+      "Vị thế": "Đế quốc nội địa chịu sự triều cống cho Trung Quốc (1802\u20131884)[3][4] Chế độ bảo hộ của Pháp (1884\u20131945)[5][6] Chính phủ bù nhìn của Nhật Bản (1945)[7][8]",
+      "Hoàng đế": {
+        "1802\u20131820 (đầu)": "Gia Long",
+        "1926\u20131945 (cuối cùng)": "Bảo Đại",
+        "1884\u20131885 (cuối cùng trong giai đoạn độc lập)": "Hàm Nghi"
+      }
+    }
+  },
+  {
+    "name": "Chiến tranh Đông Dương",
+    "description": "",
+    "connection": [
+      {
+        "name": "Nhà Nguyễn",
+        "url": "/wiki/Nh%C3%A0_Nguy%E1%BB%85n"
+      },
+      {
+        "name": "Chiến tranh Pháp-Đại Nam",
+        "url": "/wiki/Chi%E1%BA%BFn_tranh_Ph%C3%A1p-%C4%90%E1%BA%A1i_Nam"
+      },
+      {
+        "name": "Chiến tranh Pháp-Thanh",
+        "url": "/wiki/Chi%E1%BA%BFn_tranh_Ph%C3%A1p-Thanh"
+      },
+      {
+        "name": "Pháp thuộc",
+        "url": "/wiki/Ph%C3%A1p_thu%E1%BB%99c"
+      },
+      {
+        "name": "Thực dân Pháp",
+        "url": "/wiki/%C4%90%E1%BA%BF_qu%E1%BB%91c_th%E1%BB%B1c_d%C3%A2n_Ph%C3%A1p"
+      },
+      {
+        "name": "Quân đội Pháp",
+        "url": "/wiki/Qu%C3%A2n_%C4%91%E1%BB%99i_Ph%C3%A1p"
+      },
+      {
+        "name": "Cao trào kháng Nhật",
+        "url": "/wiki/Cao_tr%C3%A0o_kh%C3%A1ng_Nh%E1%BA%ADt_c%E1%BB%A9u_n%C6%B0%E1%BB%9Bc"
+      },
+      {
+        "name": "Cách mạng tháng tám",
+        "url": "/wiki/C%C3%A1ch_m%E1%BA%A1ng_th%C3%A1ng_T%C3%A1m"
+      },
+      {
+        "name": "Tuyên ngôn độc lập Việt Nam",
+        "url": "/wiki/Tuy%C3%AAn_ng%C3%B4n_%C4%91%E1%BB%99c_l%E1%BA%ADp_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Việt Minh",
+        "url": "/wiki/Vi%E1%BB%87t_Minh"
+      },
+      {
+        "name": "Chiến dịch Điện Biên Phủ",
+        "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_%C4%90i%E1%BB%87n_Bi%C3%AAn_Ph%E1%BB%A7"
+      },
+      {
+        "name": "Bảo Đại",
+        "url": "/wiki/B%E1%BA%A3o_%C4%90%E1%BA%A1i"
+      },
+      {
+        "name": "Quốc gia Việt Nam",
+        "url": "/wiki/Qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Chiến tranh Việt Nam",
+        "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam"
+      },
+      {
+        "name": "Da vàng hóa chiến tranh",
+        "url": "/wiki/Da_v%C3%A0ng_h%C3%B3a_chi%E1%BA%BFn_tranh"
+      }
+    ],
+    "id": "d18",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng",
+    "info": {"Thời gian Địa điểm Kết quả": "Thời gian 19 tháng 12 năm 1946 \u2013 1 tháng 8 năm 1954 (7 năm, 7 tháng, 1 tuần và 6 ngày) Địa điểm Đông Dương thuộc Pháp, chiến trường chính tại Bắc Kỳ Kết quả Việt Nam Dân chủ Cộng hòa chiến thắng. Việt Nam, Lào, Campuchia tách khỏi Liên hiệp Pháp, hoàn toàn độc lập. Pháp và Quốc gia Việt Nam tập kết về miền Nam. Việt Nam bị phân chia tạm thời tại Vĩ tuyến 17. Sau 2 năm Pháp rút khỏi Việt Nam. Hoa Kỳ đẩy mạnh việc can thiệp sâu hơn vào Đông Dương.[1][2] 19 tháng 12 năm 1946 \u2013 1 tháng 8 năm 1954 (7 năm, 7 tháng, 1 tuần và 6 ngày) Đông Dương thuộc Pháp, chiến trường chính tại Bắc Kỳ Việt Nam Dân chủ Cộng hòa chiến thắng. Việt Nam, Lào, Campuchia tách khỏi Liên hiệp Pháp, hoàn toàn độc lập. Pháp và Quốc gia Việt Nam tập kết về miền Nam. Việt Nam bị phân chia tạm thời tại Vĩ tuyến 17. Sau 2 năm Pháp rút khỏi Việt Nam. Hoa Kỳ đẩy mạnh việc can thiệp sâu hơn vào Đông Dương.[1][2]"}
+  },
+  {
+    "name": "Cộng hòa Xã hội Chủ nghĩa Việt Nam",
+    "description": "",
+    "connection": [],
+    "id": "d19",
+    "url": "/wiki/C%E1%BB%99ng_h%C3%B2a_X%C3%A3_h%E1%BB%99i_Ch%E1%BB%A7_ngh%C4%A9a_Vi%E1%BB%87t_Nam",
+    "info": {
+      "": {
+        "Tổng Bí thư": "Nguyễn Phú Trọng",
+        "Chủ tịch nước": "Võ Văn Thưởng",
+        "Thủ tướng": "Phạm Minh Chính",
+        "Chủ tịch Quốc hội": "Vương Đình Huệ"
+      },
+      "GDP (PPP)": "Ước lượng 2022",
+      "Giao thông bên": "phải",
+      "Lập pháp": "Quốc hội Việt Nam",
+      "Lịch sử": {
+        "Cải cách và mở cửa": "18 tháng 12 năm 1986",
+        "pháp": "Quốc hội Việt Nam",
+        "Nhà nước đầu tiên được xác nhận": "k. 257 TCN",
+        "Kết thúc Chiến tranh Việt Nam": "30 tháng 4 năm 1975",
+        "Vương triều đầu tiên": "939",
+        "Hiến pháp đầu tiên": "9 tháng 11 năm 1946",
+        "Chia cắt hai miền": "21 tháng 7 năm 1954",
+        "Tuyên bố độc lập": "2 tháng 9 năm 1945",
+        "Hiến pháp hiện hành": "28 tháng 11 năm 2013",
+        "Hiệp định Paris": "27 tháng 1 năm 1973",
+        "Tái thống nhất": "2 tháng 7 năm 1976",
+        "Gia nhập Liên Hợp Quốc": "20 tháng 9 năm 1977"
+      },
+      "Tên dân cư": "Người Việt",
+      "Chính phủ": "Cộng hòa xã hội chủ nghĩa một đảng đơn nhất theo chủ nghĩa Marx-Lenin",
+      "Cách ghi ngày tháng": "dd.mm.yyyy",
+      "Mã ISO 3166": "VN",
+      "Tôn giáo chính (2019)": "73.7% Không tôn giáo / Tín ngưỡng dân gian 14.9% Phật giáo 8.5% Kitô giáo 1.5% Hòa Hảo 1.2% Đạo Cao Đài 0.2% Khác[2]",
+      "Dân số": "",
+      "Ngôn ngữ quốc gia[a]": "Tiếng Việt",
+      "Múi giờ": "UTC+07:00 (Giờ Đông Dương)",
+      "GDP (danh nghĩa)": "Ước lượng 2022",
+      "HDI ? (2021)": "0.703[11] cao · hạng 115",
+      "Điện thương dụng": "220 V \u2013 50 Hz",
+      "\u2022 Bình quân đầu người": "4,110 USD[8][7][9] (hạng 116)",
+      "Thủ đô": "Hà Nội 21°2\u2032B 105°51\u2032Đ﻿ / ﻿21,033°B 105,85°Đ﻿ / 21.033; 105.850",
+      "Sắc tộc (2019)": "85.32% Việt 14.68% Khác[1]",
+      "Diện tích": "",
+      "Gini ? (2018)": "35.7[10] trung bình",
+      "Đơn vị tiền tệ": "Đồng (\u20ab) (VND)",
+      "Thành phố lớn nhất": "Thành phố Hồ Chí Minh 10°48\u2032B 106°39\u2032Đ﻿ / ﻿10,8°B 106,65°Đ﻿ / 10.800; 106.650",
+      "\u2022 Đất liền": "331.212 km2 127.882 mi2",
+      "\u2022 Mật độ": "300/km2 777/mi2",
+      "Mã điện thoại": "+84"
+    }
+  }
+]
