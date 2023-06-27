@@ -2,6 +2,7 @@ package appgui;
 
 import historyobject.Character;
 
+import historyobject.CharacterTest;
 import javafx.collections.FXCollections;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -26,6 +27,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
+import java.util.stream.Collectors;
 
 public class CharacterController implements Initializable {
     private String dataJson = "data/final.json";
@@ -37,6 +39,10 @@ public class CharacterController implements Initializable {
     private Scene sceneEvent;
     private Scene sceneFestival;
     private Scene scenePlace;
+
+//    Search Character
+    @FXML
+    private TextField searchCharacter;
 
     @FXML
     private ScrollPane infoScrollPane;
@@ -68,9 +74,7 @@ public class CharacterController implements Initializable {
                 dataCharacter
             );
 
-            for (Character character : characterList) {
-                dataCharacter.add(character);
-            }
+            searchCharacter.setOnKeyReleased(event -> searchCharacter());
 
             tbvCharacters.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
                 if (newSelection != null) {
@@ -134,6 +138,17 @@ public class CharacterController implements Initializable {
 
     }
 
+    private void searchCharacter() {
+        String searchQuery = searchCharacter.getText().trim().toLowerCase();
+        if (searchQuery.isEmpty()) {
+            tbvCharacters.setItems(dataCharacter);
+        } else {
+            List<Character> searchResults = characterList.stream()
+                    .filter(character -> character.getName().toLowerCase().contains(searchQuery))
+                    .collect(Collectors.toList());
+            tbvCharacters.setItems(FXCollections.observableArrayList(searchResults));
+        }
+    }
 
     public TextFlow linebreak(String data, TextFlow textFlow) {
         String[] lines = data.split("\\n");
