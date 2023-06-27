@@ -9,6 +9,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -42,7 +44,12 @@ public class WarWiki extends Crawler{
                 String name = table.get(i).select("td").get(0).text();
                 if (xungdot != null){
                     if (xungdot.text().length() > name.length()/3){
-                        String eventURL = xungdot.attr("href");
+                        String eventURL = null;
+                        try {
+                            eventURL = URLDecoder.decode(xungdot.attr("href"), "UTF-8");
+                        } catch (UnsupportedEncodingException e) {
+                            throw new RuntimeException(e);
+                        }
                         if (exist.contains(eventURL)) continue;
                         exist.add(eventURL);
                         Document doc2;
