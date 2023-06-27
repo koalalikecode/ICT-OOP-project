@@ -192,6 +192,15 @@
   }
  },
  {
+  "name": "Chùa Chu Minh",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1877",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ba Vì, xã Chu Minh",
+   "Tọa độ": " 21°11'55.6\"N 105°26'17.2\"E"
+  }
+ },
+ {
   "name": "Đình Hà Mỹ",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1878",
   "info": {
@@ -1103,6 +1112,16 @@
   }
  },
  {
+  "name": "Đền Cẩu Nhi",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1940",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Đối tượng thờ": " thờ thần cá và chó",
+   "Địa chỉ": "Thành phố Hà Nội, Quận Ba Đình, Phường Trúc Bạch",
+   "Tọa độ": " 21°2'55\"N 105°50'20\"E"
+  }
+ },
+ {
   "name": "Đền Hai Bà Trưng",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1941",
   "info": {
@@ -1110,6 +1129,15 @@
    "Địa chỉ": "Thành phố Hà Nội, huyện Mê Linh, xã Mê Linh",
    "Xếp hạng": " Di tích cấp Quốc gia",
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
+   "Tọa độ": " 21°09'20.7\"N 105°44'03.9\"E"
+  }
+ },
+ {
+  "name": "Khu di tích Hai Bà Trưng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1942",
+  "info": {
+   "Loại hình di tích": " Khu di tích",
+   "Địa chỉ": "Thành phố Hà Nội, quận Hai Bà Trưng",
    "Tọa độ": " 21°09'20.7\"N 105°44'03.9\"E"
   }
  },
@@ -1124,6 +1152,24 @@
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 10°56'36\"N 108°09'33\"E",
    "Niên đại khởi dựng": " cuối thế kỷ VIII đầu thế kỷ IX"
+  }
+ },
+ {
+  "name": "Đền Phùng Hưng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1944",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Thành phô Hà Nội, Thị xã Sơn Tây, xã Đường Lâm",
+   "Tọa độ": " 21°01'53.1\"N 105°49'44.3\"E"
+  }
+ },
+ {
+  "name": "Đền Quán Thánh",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1945",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Thành phố Hà Nội, Quận Ba Đình, Phố Quán Thánh",
+   "Tọa độ": " 21°02'35.2\"N 105°50'10.6\"E"
   }
  },
  {
@@ -1155,6 +1201,24 @@
    "Tọa độ": " 21°05'27.9\"N 105°39'44.2\"E",
    "Niên đại khởi dựng": " TK 17",
    "Niên đại chủ đạo": " Thế kỷ 17, 19"
+  }
+ },
+ {
+  "name": "Đình Sủi",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1948",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Phú Thị, Gia Lâm, Hà Nội"
+  }
+ },
+ {
+  "name": "Đình Yên Sở(Quán Giá)",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1949",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Tên khác": " quán Giá",
+   "Địa chỉ": "hành phố Hà Nội, , huyện Hoài Đức, xã Yên Sở",
+   "Tọa độ": " 21°2'15\"N 105°40'20\"E"
   }
  },
  {
@@ -1261,6 +1325,15 @@
   }
  },
  {
+  "name": "Đình Xã Đàn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1957",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Hà Nội, Đống Đa, Nam Đồng",
+   "Tọa độ": " 21°01'01.8\"N 105°49'45.2\"E"
+  }
+ },
+ {
   "name": "Đình Lâu Thượng",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1958",
   "info": {
@@ -1314,6 +1387,15 @@
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 21°18'13\"N 106°29'34\"E",
    "Niên đại khởi dựng": " Trần"
+  }
+ },
+ {
+  "name": "Chùa Thiên Mụ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1962",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Thành phố Huế, xã Hương Long",
+   "Tọa độ": " 16°27'12\"N 107°32'20\"E"
   }
  },
  {
@@ -1694,6 +1776,15 @@
   }
  },
  {
+  "name": "Quán Bình Dân",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1989",
+  "info": {
+   "Loại hình di tích": " Quán",
+   "Địa chỉ": "Tỉnh Hưng yên, huyện Khoái Châu, xã Tan Dân",
+   "Tọa độ": " 20°51'11\"N 105°58'20\"E"
+  }
+ },
+ {
   "name": "đình Quan Lạn",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=1990",
   "info": {
@@ -1935,6 +2026,15 @@
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 16°26'21\"N 107°34'20\"E",
    "Niên đại khởi dựng": " Thời Nguyễn"
+  }
+ },
+ {
+  "name": "Khu di tích Dương Kinh",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2010",
+  "info": {
+   "Loại hình di tích": " Khu di tích",
+   "Địa chỉ": "Tp. Hải Phòng, huyện Kiến Thụy",
+   "Tọa độ": " 20°42'57\"N 106°40'35\"E"
   }
  },
  {
@@ -2353,6 +2453,16 @@
   }
  },
  {
+  "name": "Đình Thù Lỗ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2042",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Đối tượng thờ": " Sơn Tinh",
+   "Địa chỉ": "Thành phố Hà Nội, Huyện Đông Anh, Xã Liên Hà",
+   "Niên đại chủ đạo": " Nửa đầu thế kỷ 20"
+  }
+ },
+ {
   "name": "Đình Lỗ Khê",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2043",
   "info": {
@@ -2600,6 +2710,16 @@
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 21°05'15.4\"N 105°53'10.3\"E",
    "Niên đại chủ đạo": " Nửa đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Chùa Phú Thọ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2062",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Tên khác": " Tăng Phúc tự",
+   "Địa chỉ": "Thành phố Hà Nội, Huyện Đông Anh, Xã Mai Lâm",
+   "Niên đại chủ đạo": " Đầu thế kỷ 20"
   }
  },
  {
@@ -2912,6 +3032,16 @@
    "Địa chỉ": "Thành phố Hà Nội, huyện Gia Lâm, xã Dương Quang",
    "Tọa độ": " 20°59'57.4\"N 105°58'59.7\"E",
    "Niên đại chủ đạo": " Đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đình Tự Môn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2089",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Đối tượng thờ": " Trung Đạo đại vương thần vị",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Gia Lâm, xã Dương Quang",
+   "Tọa độ": " 21°00'31.4\"N 105°59'20.9\"E"
   }
  },
  {
@@ -3239,6 +3369,16 @@
   }
  },
  {
+  "name": "Chùa Vàng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2115",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Tên khác": " Giáo Linh",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Gia Lâm, xã Cổ Bi",
+   "Tọa độ": " 21°02'07.3\"N 105°56'22.3\"E"
+  }
+ },
+ {
   "name": "Chùa Thôn Thượng",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2116",
   "info": {
@@ -3263,6 +3403,35 @@
   }
  },
  {
+  "name": "Chùa Quán Khê",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2118",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Tên khác": " Thiên Kiện tự",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Gia Lâm, xã Dương Quang",
+   "Tọa độ": " 20°59'55.0\"N 105°59'09.1\"E"
+  }
+ },
+ {
+  "name": "Chùa Yên Mỹ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2119",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Gia Lâm, xã Dương Quang",
+   "Tọa độ": " 21°00'27.9\"N 105°59'56.5\"E"
+  }
+ },
+ {
+  "name": "Chùa Bà Tấm",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2120",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Tên khác": " Linh Nhân từ phúc tự",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Gia Lâm, xã Dương Xá",
+   "Tọa độ": " 21°00'02.7\"N 105°58'05.9\"E"
+  }
+ },
+ {
   "name": "Chùa Dương Đanh",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2121",
   "info": {
@@ -3283,6 +3452,16 @@
    "Địa chỉ": "Thành phố Hà Nội, huyện Gia Lâm, xã Dương Xá",
    "Tọa độ": " 21°00'18.5\"N 105°58'01.6\"E",
    "Niên đại chủ đạo": " Thế kỷ 19"
+  }
+ },
+ {
+  "name": "Chùa Thôn Trung",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2123",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Tên khác": " Hiển Quang tự",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Gia Lâm, xã Dương Hà",
+   "Tọa độ": " 21°04'15.2\"N 105°55'45.7\"E"
   }
  },
  {
@@ -3706,6 +3885,16 @@
   }
  },
  {
+  "name": "Lăng Chử Cù Vân",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2159",
+  "info": {
+   "Loại hình di tích": " Lăng",
+   "Đối tượng thờ": " Thân phụ Chử Đồng Tử là Chử Cù Vân",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Gia Lâm, xã Văn Đức",
+   "Tọa độ": " 20°56'31.8\"N 105°53'59.5\"E"
+  }
+ },
+ {
   "name": "Đình Thượng Cung",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2160",
   "info": {
@@ -3880,6 +4069,15 @@
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 20°33'43.0\"N 106°01'52.4\"E",
    "Niên đại chủ đạo": " Giữa TK 19"
+  }
+ },
+ {
+  "name": "Đình - phủ Mẫu Thiên Bùi",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2171",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tình Hà Nam, Huyện Bình Lục, Xã Trịnh Xá",
+   "Tọa độ": " 20°32'03.8\"N 105°59'04.3\"E"
   }
  },
  {
@@ -4122,6 +4320,15 @@
    "Tọa độ": " 20°59'31.9\"N 106°20'15.1\"E",
    "Niên đại khởi dựng": " TK 18",
    "Niên đại chủ đạo": " TK 18: Đại đình, TK 19: Tiền tế"
+  }
+ },
+ {
+  "name": "Đình - chùa Thủ Lễ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2188",
+  "info": {
+   "Loại hình di tích": " Đình, đền, chùa",
+   "Địa chỉ": "Tình Thừa Thiên Huế, Huyện Quảng Điền, thị trấn Sịa",
+   "Tọa độ": " 16°35'06.8\"N 107°30'31.0\"E"
   }
  },
  {
@@ -5193,6 +5400,16 @@
    "Quyết định xếp hạng": " Tỉnh 345/QĐ-UBND, 2015",
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 19°55'47.7\"N 105°50'46.7\"E"
+  }
+ },
+ {
+  "name": "Nghè Sơn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2356",
+  "info": {
+   "Loại hình di tích": " Nghè",
+   "Đối tượng thờ": " Quang Vinh và Hiển Vinh",
+   "Địa chỉ": "Tỉnh Thanh Hóa, huyện Hậu Lộc, xã Tiến Lộc",
+   "Tọa độ": " 19°55'44.1\"N 105°51'01.4\"E"
   }
  },
  {
@@ -6710,6 +6927,14 @@
    "Tọa độ": " 20°00'07.9\"N 105°32'41.3\"E",
    "Niên đại khởi dựng": " Thế kỷ 18",
    "Niên đại chủ đạo": " Thế kỷ 18"
+  }
+ },
+ {
+  "name": "Từ đường họ Lê Văn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2460",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "không rõ"
   }
  },
  {
@@ -9155,6 +9380,15 @@
   }
  },
  {
+  "name": "Nghè Mẫu Sơn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2630",
+  "info": {
+   "Loại hình di tích": " Nghè",
+   "Địa chỉ": "Tỉnh Bắc Giang, huyện Lục Nam, xã Chu Điện,",
+   "Tọa độ": " 21°17'58.6\"N 106°21'18.2\"E"
+  }
+ },
+ {
   "name": "Đình Thân",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2631",
   "info": {
@@ -9359,6 +9593,14 @@
    "Quyết định xếp hạng": " Số: 80/QĐ/UB Thời gian: 30/1/2004",
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 21°16'19.3\"N 105°57'10.4\"E"
+  }
+ },
+ {
+  "name": "Chùa Khánh",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2644",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "không rõ"
   }
  },
  {
@@ -9974,6 +10216,16 @@
   }
  },
  {
+  "name": "Đình Đồng Bảng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2686",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Niên đại tuyệt đối": " Câu đầu gian giữa ghi Minh Mạng 13 (1832)",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ba Vì, xã Đồng Thái",
+   "Tọa độ": " 21°13'17.6\"N 105°24'19.3\"E"
+  }
+ },
+ {
   "name": "Đình Phong Châu",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2688",
   "info": {
@@ -10021,6 +10273,16 @@
   }
  },
  {
+  "name": "Đền Xóm Duy",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2691",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ba Vì, xã Phú Đông",
+   "Tọa độ": " 21°14'59.9\"N 105°22'35.5\"E",
+   "Niên đại chủ đạo": " Còn vài mảng chạm phong cách nghệ thuật nửa sau 19"
+  }
+ },
+ {
   "name": "Đình Đông Lâu",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2692",
   "info": {
@@ -10029,6 +10291,16 @@
    "Địa chỉ": "Thành phố Hà Nội, huyện Ba Vì, xã Phú Đông",
    "Tọa độ": " 21°15'19.2\"N 105°22'24.2\"E",
    "Niên đại chủ đạo": " Đại đình còn mảng chạm nửa đầu thế kỷ 17"
+  }
+ },
+ {
+  "name": "Đền xóm Thuận",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2693",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Niên đại tuyệt đối": " mới đại tu 1996, không còn dấu vết kiến trúc cổ.",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ba Vì, xã Phú Đông",
+   "Tọa độ": " 21°15'35.1\"N 105°22'31.8\"E"
   }
  },
  {
@@ -10351,6 +10623,16 @@
   }
  },
  {
+  "name": "Chùa Lương Châu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2719",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Sóc Sơn, xã Tiên Dược",
+   "Tọa độ": " 21°15'14.1\"N 105°51'14.0\"E"
+  }
+ },
+ {
   "name": "Chùa Ninh Cầm",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2720",
   "info": {
@@ -10519,6 +10801,16 @@
    "Xếp hạng": " Di tích cấp Tỉnh",
    "Quyết định xếp hạng": " UBNDTPHN",
    "Tọa độ": " 21°16'07.2\"N 105°45'52.3\"E"
+  }
+ },
+ {
+  "name": "Đình Phù Xá Đông",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2733",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Sóc Sơn, xã Phú Cường",
+   "Quyết định xếp hạng": " Chưa xếp hạng",
+   "Tọa độ": " 21°12'16.5\"N 105°47'20.9\"E"
   }
  },
  {
@@ -10713,6 +11005,16 @@
   }
  },
  {
+  "name": "Đền Bắc Hạ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2749",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Đối tượng thờ": " Nguyễn Lộn",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Sóc Sơn, xã Quang Tiến",
+   "Tọa độ": " 21°15'18.1\"N 105°48'58.6\"E"
+  }
+ },
+ {
   "name": "Đền Thanh Nhàn",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2750",
   "info": {
@@ -10723,6 +11025,16 @@
    "Xếp hạng": " Di tích cấp Quốc gia",
    "Quyết định xếp hạng": " Số 168VH/QĐ ngày 02/03/1990",
    "Tọa độ": " 21°13'49.4\"N 105°45'48.4\"E"
+  }
+ },
+ {
+  "name": "Đền Lương Châu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2751",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Sóc Sơn, xã Tiên Dược",
+   "Tọa độ": " 21°14'35.4\"N 105°50'29.9\"E",
+   "Niên đại chủ đạo": " Nửa đầu thế kỷ 20"
   }
  },
  {
@@ -11276,6 +11588,16 @@
   }
  },
  {
+  "name": "Đình Định Quán",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2794",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Tiền Phong",
+   "Tọa độ": " 20°50'58.4\"N 105°49'29.7\"E",
+   "Niên đại chủ đạo": " giữa TK 20"
+  }
+ },
+ {
   "name": "Đình Ngọc Động",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2795",
   "info": {
@@ -11325,6 +11647,24 @@
    "Quyết định xếp hạng": " chưa xếp hạng",
    "Tọa độ": " 20°49'41.2\"N 105°53'10.1\"E",
    "Niên đại chủ đạo": " Nửa đầu Tk 20"
+  }
+ },
+ {
+  "name": "Đình Đống Xung hạ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2799",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Thắng Lợi",
+   "Tọa độ": " 20°49'41.2\"N 105°53'10.1\"E"
+  }
+ },
+ {
+  "name": "Đình Tiên Quan",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2800",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Thắng Lợi",
+   "Tọa độ": " 20°49'40.8\"N 105°53'16.9\"E"
   }
  },
  {
@@ -11568,6 +11908,15 @@
    "Quyết định xếp hạng": " Số 05/1999/QĐ-BVHTT ngày 12/02/1999",
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 20°52'36.4\"N 105°52'08.4\"E"
+  }
+ },
+ {
+  "name": "Đình Phục Hổi",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2821",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Văn Bình",
+   "Tọa độ": " 20°52'45.9\"N 105°51'55.5\"E"
   }
  },
  {
@@ -12041,6 +12390,16 @@
   }
  },
  {
+  "name": "chùa Trung thôn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2857",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Nhị Khê",
+   "Tọa độ": " 20°53'48.1\"N 105°50'41.3\"E"
+  }
+ },
+ {
   "name": "Chùa Lưu Xá",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2858",
   "info": {
@@ -12185,6 +12544,16 @@
   }
  },
  {
+  "name": "Chùa Định Quán",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2869",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Tiền Phong",
+   "Tọa độ": " 20°50'59.5\"N 105°49'33.1\"E"
+  }
+ },
+ {
   "name": "Chùa Trát Cầu",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2870",
   "info": {
@@ -12259,6 +12628,16 @@
    "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Thắng Lợi",
    "Tọa độ": " 20°49'41.4\"N 105°53'00.5\"E",
    "Niên đại chủ đạo": " Nhà Tổ cuối Tk 19 Nhà Mẫu giữa Tk 20 Thượng Điện TK 16 Tiền Đường giữa TK 20"
+  }
+ },
+ {
+  "name": "chùa Hội",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2876",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Thắng Lợi",
+   "Tọa độ": " 20°49'41.4\"N 105°53'00.5\"E"
   }
  },
  {
@@ -12456,6 +12835,16 @@
   }
  },
  {
+  "name": "Chùa Văn Giáp",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2891",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Văn Bình",
+   "Tọa độ": " 20°52'45.7\"N 105°51'55.5\"E"
+  }
+ },
+ {
   "name": "Chùa An Lãng",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2892",
   "info": {
@@ -12466,6 +12855,16 @@
    "Quyết định xếp hạng": " chưa xếp hạng",
    "Tọa độ": " 20°47'21.4\"N 105°53'26.3\"E",
    "Niên đại chủ đạo": " Nửa đầu TK 20"
+  }
+ },
+ {
+  "name": "chùa Xâm Xuyên",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2893",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Hồng Vân",
+   "Tọa độ": " 20°52'40.0\"N 105°55'03.7\"E"
   }
  },
  {
@@ -12481,6 +12880,15 @@
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 20°51'06.0\"N 105°54'54.2\"E",
    "Niên đại chủ đạo": " Giữa TK 20"
+  }
+ },
+ {
+  "name": "Văn Chỉ Chương Dươnng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2895",
+  "info": {
+   "Loại hình di tích": " Văn Chỉ",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Chương Dương",
+   "Tọa độ": " 20°50'46.9\"N 105°54'07.8\"E"
   }
  },
  {
@@ -12504,6 +12912,25 @@
    "Quyết định xếp hạng": " chưa xếp hạng",
    "Tọa độ": " 20°54'05.2\"N 105°51'58.2\"E",
    "Niên đại chủ đạo": " Tiền Tế giữa TK 20 ống Muống nửa đầu TK 20"
+  }
+ },
+ {
+  "name": "Miếu Đông Triều",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2898",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Tân Minh",
+   "Quyết định xếp hạng": " chưa xếp hạng",
+   "Tọa độ": " 20°50'56.5\"N 105°50'41.3\"E"
+  }
+ },
+ {
+  "name": "Miếu Xâm Hồ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2899",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Vân Tảo",
+   "Tọa độ": " 20°52'19.3\"N 105°53'47.6\"E"
   }
  },
  {
@@ -12531,6 +12958,16 @@
   }
  },
  {
+  "name": "Đền Nhuệ Giang",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2902",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Hiền Giang",
+   "Quyết định xếp hạng": " chưa xếp hạng",
+   "Tọa độ": " 20°53'07.1\"N 105°49'10.3\"E"
+  }
+ },
+ {
   "name": "Đền Dưỡng Hiền",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2903",
   "info": {
@@ -12540,6 +12977,15 @@
    "Quyết định xếp hạng": " chưa xếp hạng",
    "Tọa độ": " 20°52'51.2\"N 105°50'06.2\"E",
    "Niên đại chủ đạo": " Đầu TK 20"
+  }
+ },
+ {
+  "name": "Đền Đức Thánh Trần",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2904",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Hoà Bình",
+   "Tọa độ": " 20°52'51.2\"N 105°50'06.2\"E"
   }
  },
  {
@@ -12574,6 +13020,16 @@
    "Quyết định xếp hạng": " chưa xếp hạng",
    "Tọa độ": " 20°49'43.2\"N 105°54'02.6\"E",
    "Niên đại chủ đạo": " Giữa Tk 20"
+  }
+ },
+ {
+  "name": "Miếu An Duyên",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2908",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Tô Hiệu",
+   "Quyết định xếp hạng": " chưa xếp hạng",
+   "Tọa độ": " 20°48'09.4\"N 105°53'09.8\"E"
   }
  },
  {
@@ -12650,6 +13106,44 @@
   }
  },
  {
+  "name": "Đền thờ ông tổ nghề Dệt",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2915",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Quất Động",
+   "Tọa độ": " 20°50'51.4\"N 105°52'22.5\"E"
+  }
+ },
+ {
+  "name": "Đền Ngọc Động",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2916",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Tiền Phong",
+   "Tọa độ": " 20°51'17.1\"N 105°49'52.1\"E",
+   "Niên đại chủ đạo": " Giữa TK 20"
+  }
+ },
+ {
+  "name": "Đền Quán Thánh",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2917",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Thống Nhất",
+   "Tọa độ": " 20°48'02.4\"N 105°54'47.9\"E"
+  }
+ },
+ {
+  "name": "Đền Thờ Trần Thế Khoa",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2918",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Vân Tảo",
+   "Quyết định xếp hạng": " chưa xếp hạng",
+   "Tọa độ": " 20°52'23.7\"N 105°54'11.7\"E"
+  }
+ },
+ {
   "name": "Lăng Đá Quận Vân",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2919",
   "info": {
@@ -12691,6 +13185,15 @@
   }
  },
  {
+  "name": "Đền Phục Hồi",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2922",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Văn Bình",
+   "Tọa độ": " 20°52'45.7\"N 105°51'55.1\"E"
+  }
+ },
+ {
   "name": "Đền An Lãng",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2923",
   "info": {
@@ -12702,6 +13205,16 @@
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 20°47'29.8\"N 105°52'31.5\"E",
    "Niên đại chủ đạo": " Đại bái đầu Tk 20, Hậu Cung TK 17"
+  }
+ },
+ {
+  "name": "nhà thờ họ Nguyễn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2924",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Duyên Thái",
+   "Quyết định xếp hạng": " chưa xếp hạng",
+   "Tọa độ": " 20°54'04.2\"N 105°51'56.5\"E"
   }
  },
  {
@@ -12726,6 +13239,26 @@
    "Quyết định xếp hạng": " chưa xếp hạng",
    "Tọa độ": " 20°53'48.3\"N 105°50'39.6\"E",
    "Niên đại chủ đạo": " Thượng lương ghi Bảo Đại 4 Kỷ Tỵ thụ trụ thượng lương (1929)"
+  }
+ },
+ {
+  "name": "nhà thờ Nhị Khê",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2940",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Nhị Khê",
+   "Quyết định xếp hạng": " chưa xếp hạng",
+   "Tọa độ": " 20°53'48.3\"N 105°50'39.6\"E"
+  }
+ },
+ {
+  "name": "Nhà thờ họ Nguyễn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2948",
+  "info": {
+   "Loại hình di tích": " Nhà thờ",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Thường Tín, xã Văn Phú",
+   "Quyết định xếp hạng": " chưa xếp hạng",
+   "Tọa độ": " 20°52'49.2\"N 105°52'35.0\"E"
   }
  },
  {
@@ -12822,6 +13355,16 @@
   }
  },
  {
+  "name": "Đình Thiên Mã",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2958",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Thành phố Hà Nội, thị xã Sơn Tây, xã Cổ Đông",
+   "Tọa độ": " 21°03'37.0\"N 105°30'01.6\"E",
+   "Niên đại chủ đạo": " Đầu thế kỷ 19. Tuy nhiên Đại đình còn giữ được đầu dư chạm rồng phong cách nghệ thuật cuối thế kỷ 17, đầu 18."
+  }
+ },
+ {
   "name": "Chùa Mai Trai",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2959",
   "info": {
@@ -12902,6 +13445,26 @@
    "Quyết định xếp hạng": " Số 2713QĐ/UB ngày 31/12/2003",
    "Tọa độ": " 21°09'15.4\"N 105°29'53.7\"E",
    "Niên đại chủ đạo": " Cuối thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đình Yên Thịnh",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2965",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Niên đại tuyệt đối": " Mới dựng lại năm 2000",
+   "Địa chỉ": "Thành phố Hà Nội, thị xã Sơn Tây, phường Phú Thịnh",
+   "Tọa độ": " 21°09'13.7\"N 105°29'48.6\"E"
+  }
+ },
+ {
+  "name": "Điếm xóm Cá",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=2966",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Địa chỉ": "Thành phố Hà Nội, thị xã Sơn Tây, phường Phú Thịnh",
+   "Tọa độ": " 21°09'14.0\"N 105°29'50.5\"E",
+   "Niên đại chủ đạo": " Kiến trúc mới, phong cách nghệ thuật nửa cuối thế kỷ 20"
   }
  },
  {
@@ -13387,6 +13950,16 @@
   }
  },
  {
+  "name": "Điếm Đông",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3002",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Quốc Oai, xã Cộng Hòa",
+   "Tọa độ": " 20°58'31.5\"N 105°40'37.5\"E",
+   "Niên đại chủ đạo": " Còn vài mảng chạm phong cách nghệ thuật nửa đầu thế kỷ 20"
+  }
+ },
+ {
   "name": "Đình So",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3003",
   "info": {
@@ -13593,6 +14166,16 @@
    "Xếp hạng": " Di tích cấp Tỉnh",
    "Quyết định xếp hạng": " Số 1460QĐ/VH ngày 28/6/1996",
    "Tọa độ": " 20°58'36.2\"N 105°39'53.3\"E"
+  }
+ },
+ {
+  "name": "Từ chỉ thôn Yên Nội",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3019",
+  "info": {
+   "Loại hình di tích": " Văn Chỉ",
+   "Niên đại tuyệt đối": " Phong cách nghệ thuật nửa đầu thế kỷ 20",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Quốc Oai, xã Đồng Quang",
+   "Tọa độ": " 20°58'32.1\"N 105°39'47.7\"E"
   }
  },
  {
@@ -13817,6 +14400,16 @@
   }
  },
  {
+  "name": "Đình Ngọc Bài",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3037",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Niên đại tuyệt đối": " Phong cách nghệ thuật giữa 20.",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Quốc Oai, xã Ngọc Liệp",
+   "Tọa độ": " 20°59'47.9\"N 105°35'46.2\"E"
+  }
+ },
+ {
   "name": "Đình Ngọc Phúc",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3038",
   "info": {
@@ -13839,6 +14432,26 @@
    "Địa chỉ": "Thành phố Hà Nội, huyện Quốc Oai, xã Ngọc Liệp",
    "Tọa độ": " 20°59'47.5\"N 105°35'43.5\"E",
    "Niên đại khởi dựng": " Thượng lương Tiền tế ghi dựng năm 1943. Xà lòng ghi tu sửa năm 1991 Thượng lương Hậu cung ghi dựng năm Bảo Đại 1934"
+  }
+ },
+ {
+  "name": "Quán Liệp Mai",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3040",
+  "info": {
+   "Loại hình di tích": " Quán",
+   "Niên đại tuyệt đối": " Nửa đầu thế kỷ 20",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Quốc Oai, xã Ngọc Liệp",
+   "Tọa độ": " 20°59'50.5\"N 105°36'17.0\"E"
+  }
+ },
+ {
+  "name": "Quán nghỉ thôn Đồng Bụt 1",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3041",
+  "info": {
+   "Loại hình di tích": " Quán",
+   "Niên đại tuyệt đối": " Nửa đầu thế kỷ 20",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Quốc Oai, xã Ngọc Liệp",
+   "Tọa độ": " 20°59'42.1\"N 105°36'36.0\"E"
   }
  },
  {
@@ -14401,6 +15014,16 @@
   }
  },
  {
+  "name": "Đình thôn Hạ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3083",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Niên đại tuyệt đối": " Thượng lương ghi: 1991",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Đan Phượng, xã Liên Trung",
+   "Tọa độ": " 21°06'31.8\"N 105°43'50.5\"E"
+  }
+ },
+ {
   "name": "Đình thôn Trung",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3084",
   "info": {
@@ -14462,6 +15085,16 @@
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 21°05'06.5\"N 105°42'34.0\"E",
    "Niên đại chủ đạo": " Cuối thế kỷ 17"
+  }
+ },
+ {
+  "name": "Đình Tiêu Tân",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3089",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Đối tượng thờ": " Thanh Hoàng",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Đan Phượng, xã Hồng Hà",
+   "Tọa độ": " 21°08'01.3\"N 105°40'58.3\"E"
   }
  },
  {
@@ -14838,6 +15471,16 @@
   }
  },
  {
+  "name": "Đền Tam Thánh",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3118",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Niên đại tuyệt đối": " \"Hoàng Nam Bảo Đại Canh Ngọ niên\u2026\" (1930)",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Đan Phượng, xã Liên Hà",
+   "Tọa độ": " 21°06'44.8\"N 105°42'31.9\"E"
+  }
+ },
+ {
   "name": "Đền Hai Bà Trưng",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3119",
   "info": {
@@ -15013,6 +15656,16 @@
    "Địa chỉ": "Thành phố Hà Nội, huyện Đan Phượng, xã Liên Hồng",
    "Tọa độ": " 21°07'27.8\"N 105°42'33.3\"E",
    "Niên đại chủ đạo": " Cuối TK 18 đầu TK 19"
+  }
+ },
+ {
+  "name": "Văn chỉ làng Thuỵ Ứng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3133",
+  "info": {
+   "Loại hình di tích": " Văn Chỉ",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Đan Phượng, TT Phùng",
+   "Tọa độ": " 21°05'15.7\"N 105°39'37.1\"E",
+   "Niên đại chủ đạo": " Đầu thế kỷ 20"
   }
  },
  {
@@ -16026,6 +16679,15 @@
   }
  },
  {
+  "name": "Đình Xuân",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3210",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ứng Hòa, xã Hồng Quang",
+   "Tọa độ": " 20°37'29.7\"N 105°47'60.0\"E"
+  }
+ },
+ {
   "name": "Đình Hoà Xá",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3211",
   "info": {
@@ -16198,6 +16860,15 @@
   }
  },
  {
+  "name": "Đình Nguyễn Xá",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3225",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ứng Hòa, xã Phương Tú",
+   "Tọa độ": " 20°43'53.3\"N 105°48'04.1\"E"
+  }
+ },
+ {
   "name": "Đình Dư Khê",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3226",
   "info": {
@@ -16286,6 +16957,15 @@
    "Quyết định xếp hạng": " Số 534QĐ/BT ngày 11/5/1993",
    "Tọa độ": " 20°46'52.7\"N 105°47'07.6\"E",
    "Niên đại chủ đạo": " Đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đình Vĩnh Hạ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3233",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ứng Hòa, xã Sơn Công",
+   "Tọa độ": " 20°44'36.0\"N 105°43'24.1\"E"
   }
  },
  {
@@ -16520,6 +17200,15 @@
   }
  },
  {
+  "name": "Đình Dư Xá Thượng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3255",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ứng Hòa, xã Hoà Nam",
+   "Tọa độ": " 20°40'41.0\"N 105°45'46.4\"E"
+  }
+ },
+ {
   "name": "Chùa Tử Dương",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3256",
   "info": {
@@ -16663,6 +17352,16 @@
    "Địa chỉ": "Thành phố Hà Nội, huyện Ứng Hòa, xã Liên Bạt",
    "Tọa độ": " 20°44'29.4\"N 105°46'15.7\"E",
    "Niên đại chủ đạo": " Giữa thế kỷ 20"
+  }
+ },
+ {
+  "name": "Chùa Bặt Ngõ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3273",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ứng Hòa, xã Liên Bạt",
+   "Tọa độ": " 20°45'36.4\"N 105°46'04.6\"E"
   }
  },
  {
@@ -16914,6 +17613,33 @@
   }
  },
  {
+  "name": "Lăng mộ Đoàn Trọng Côn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3307",
+  "info": {
+   "Loại hình di tích": " Lăng mộ",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ứng Hòa, xã Đại Hùng",
+   "Tọa độ": " 20°40'16.1\"N 105°50'28.7\"E"
+  }
+ },
+ {
+  "name": "Sinh từ Đoàn Trọng Côn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3308",
+  "info": {
+   "Loại hình di tích": " Lăng mộ",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ứng Hòa, xã Đại Hùng",
+   "Tọa độ": " 20°40'14.4\"N 105°50'30.0\"E"
+  }
+ },
+ {
+  "name": "Quán Đinh Xuyên",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3310",
+  "info": {
+   "Loại hình di tích": " Quán",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ứng Hòa, xã Hoà Nam",
+   "Tọa độ": " 20°40'50.1\"N 105°45'27.2\"E"
+  }
+ },
+ {
   "name": "Đền Đặng Giang",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3311",
   "info": {
@@ -16978,6 +17704,24 @@
   }
  },
  {
+  "name": "Miếu Trung",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3319",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ứng Hòa, xã Tảo Dương Văn",
+   "Tọa độ": " 20°42'37.6\"N 105°47'40.9\"E"
+  }
+ },
+ {
+  "name": "Lăng Quan Thiếu (Lăng Dương Lâm)",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3322",
+  "info": {
+   "Loại hình di tích": " Lăng mộ",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ứng Hòa, xã Tảo Dương Văn",
+   "Tọa độ": " 20°42'42.3\"N 105°46'54.7\"E"
+  }
+ },
+ {
   "name": "Đền Thanh Sam",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3323",
   "info": {
@@ -17026,6 +17770,15 @@
    "Địa chỉ": "Thành phố Hà Nội, huyện Ứng Hòa, thị trấn Vân Đình",
    "Tọa độ": " 20°44'02.5\"N 105°46'11.0\"E",
    "Niên đại chủ đạo": " Giữa thế kỷ 20"
+  }
+ },
+ {
+  "name": "Văn Chỉ làng Bặt Chùa",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3329",
+  "info": {
+   "Loại hình di tích": " Văn chỉ",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Ứng Hòa, xã Liên Bặt",
+   "Tọa độ": " 20°45'28.6\"N 105°46'02.8\"E"
   }
  },
  {
@@ -17086,6 +17839,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Hợp Hưng",
    "Tọa độ": " 20°24'44.1\"N 106°04'55.1\"E",
    "Niên đại chủ đạo": " Đại bái- Đầu thế kỷ 20,Hậu cung- Giữa Thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đình Hạ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3335",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Minh Tân",
+   "Tọa độ": " 20°22'37.9\"N 106°03'21.2\"E",
+   "Niên đại chủ đạo": " Nửa đầu thế kỷ 20"
   }
  },
  {
@@ -17342,6 +18105,24 @@
   }
  },
  {
+  "name": "Chùa Bối La",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3357",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Cộng Hòa",
+   "Tọa độ": " 20°23'09.8\"N 106°04'34.5\"E"
+  }
+ },
+ {
+  "name": "Chùa Bối Xuyên Thượng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3358",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Cộng Hòa",
+   "Tọa độ": " 20°25'59.7\"N 106°01'51.1\"E"
+  }
+ },
+ {
   "name": "Chùa Châu Bạc",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3359",
   "info": {
@@ -17501,6 +18282,16 @@
   }
  },
  {
+  "name": "Chùa Tiên Hương",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3372",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Kim Thái",
+   "Tọa độ": " 20°21'16.3\"N 106°04'49.6\"E"
+  }
+ },
+ {
   "name": "Chùa Cao",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3373",
   "info": {
@@ -17555,6 +18346,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Minh Thuận",
    "Tọa độ": " 20°26'19.9\"N 106°02'39.0\"E",
    "Niên đại chủ đạo": " Tiền đường- Cuối TK18 đầu Tk19; Thượng điện- Cuối TK18 đầu Tk19"
+  }
+ },
+ {
+  "name": "Chùa Trúc Lâm",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3378",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Quang Trung",
+   "Tọa độ": " 20°22'43.7\"N 106°06'08.1\"E"
   }
  },
  {
@@ -17700,6 +18501,25 @@
   }
  },
  {
+  "name": "Phủ Bà Chúa",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3391",
+  "info": {
+   "Loại hình di tích": " Phủ",
+   "Đối tượng thờ": " Thỏi phi Phựng Thị Ngọc Đài",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Cộng Hòa",
+   "Tọa độ": " 20°23'10.1\"N 106°04'28.6\"E"
+  }
+ },
+ {
+  "name": "Đền An Cự",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3392",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Đại An",
+   "Tọa độ": " 20°23'50.1\"N 106°07'02.4\"E"
+  }
+ },
+ {
   "name": "Đền Võng Cổ",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3393",
   "info": {
@@ -17771,6 +18591,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Đại Thắng",
    "Tọa độ": " 20°19'33.5\"N 106°08'25.6\"E",
    "Niên đại chủ đạo": " Hậu cung- Cuối thế kỷ 19"
+  }
+ },
+ {
+  "name": "Điện Vũ Hầu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3399",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Đối tượng thờ": " Tuấn Đức( Tự là Đạo Minh) họ Vũ",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Đại Thắng",
+   "Tọa độ": " 20°19'33.5\"N 106°08'25.6\"E"
   }
  },
  {
@@ -17901,6 +18731,16 @@
   }
  },
  {
+  "name": "Đền Mẫu Thượng Ngàn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3410",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Kim Thái",
+   "Tọa độ": " 20°21'28.8\"N 106°04'43.8\"E",
+   "Niên đại chủ đạo": " Đại bái- Cuối TK20; Trung cung- Cuối TK20"
+  }
+ },
+ {
   "name": "Đền Đức Vua",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3411",
   "info": {
@@ -17937,6 +18777,15 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Kim Thái",
    "Tọa độ": " 20°21'19.6\"N 106°04'31.8\"E",
    "Niên đại chủ đạo": " Đại bái- Nửa đầu TK20; Trung cung- Nửa đầu TK20; Hậu cung- Nửa đầu Tk20"
+  }
+ },
+ {
+  "name": "Đền Cây Báng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3414",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Vụ Bản, xã Kim Thái",
+   "Tọa độ": " 20°21'16.6\"N 106°04'54.5\"E"
   }
  },
  {
@@ -18594,6 +19443,15 @@
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 21°13\u20191\u201dN 105°38\u201947\u201dE",
    "Niên đại chủ đạo": " Tam bảo: cuối TK XX"
+  }
+ },
+ {
+  "name": "Đình Thích Trung",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3462",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Vĩnh Phúc, Huyện Bình Xuyên, xã Phú Xuân",
+   "Quyết định xếp hạng": " 179/QĐ-UB ngày 15/01/2004"
   }
  },
  {
@@ -23166,6 +24024,16 @@
   }
  },
  {
+  "name": "Nhà thờ họ Phan Hữu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3781",
+  "info": {
+   "Loại hình di tích": " Nhà thờ",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Giao Thủy,thị trấn Ngô Đồng",
+   "Tọa độ": " 20°17'18.0\"N 106°26'38.7\"E",
+   "Niên đại chủ đạo": " Nửa đầu thế kỷ 20"
+  }
+ },
+ {
   "name": "Nhà thờ họ Trần",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3782",
   "info": {
@@ -23197,6 +24065,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Giao Thủy, xã Giao Tiến",
    "Tọa độ": " 20°16'33.6\"N 106°23'48.9\"E",
    "Niên đại chủ đạo": " Cuối thế kỷ 19 đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đền Chính",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3785",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Giao Thủy, xã Giao Tiến",
+   "Tọa độ": " 20°16'25.9\"N 106°23'17.6\"E",
+   "Niên đại chủ đạo": " Nửa đầu thế kỷ 20 (Đại bái); Thế kỷ 19(Hậu cung)"
   }
  },
  {
@@ -23245,6 +24123,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Giao Thủy, xã Giao Yến",
    "Tọa độ": " 20°14'16.9\"N 106°24'17.4\"E",
    "Niên đại chủ đạo": " Cuối thế kỷ 19 đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đền Thanh Khiết",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3791",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Giao Thủy, xã Giao Yến",
+   "Tọa độ": " 20°14'30.2\"N 106°24'17.4\"E",
+   "Niên đại chủ đạo": " Nửa đầu thế kỷ 19"
   }
  },
  {
@@ -23377,6 +24265,16 @@
   }
  },
  {
+  "name": "Nhà thờ xứ Vào Lương",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3801",
+  "info": {
+   "Loại hình di tích": " Nhà thờ",
+   "Niên đại tuyệt đối": " Năm 1932 Xây cuốn vòm",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Mỹ Lộc ,thị trấn Mỹ Lộc",
+   "Tọa độ": " 20°26'22.4\"N 106°06'33.0\"E"
+  }
+ },
+ {
   "name": "Đình Nội Miếu",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3802",
   "info": {
@@ -23442,6 +24340,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Mỹ Lộc ,xã Mỹ Hưng",
    "Tọa độ": " 20°26'21.3\"N 106°07'49.3\"E",
    "Niên đại chủ đạo": " Đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đình Thượng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3808",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Mỹ Lộc ,xã Mỹ Hưng",
+   "Tọa độ": " 20°27'53.9\"N 106°08'33.2\"E",
+   "Niên đại chủ đạo": " Nửa đầu thế kỷ 20"
   }
  },
  {
@@ -23635,6 +24543,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Mỹ Lộc ,xã Mỹ Thịnh",
    "Tọa độ": " 20°25'43.9\"N 106°05'43.3\"E",
    "Niên đại chủ đạo": " Nửa cuối thế kỷ 19"
+  }
+ },
+ {
+  "name": "Đình Liên Thôn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3825",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Mỹ Lộc ,xã Mỹ Thịnh",
+   "Tọa độ": " 20°26'22.1\"N 106°05'06.8\"E",
+   "Niên đại chủ đạo": " Nửa cuối thế kỷ 20"
   }
  },
  {
@@ -24248,6 +25166,16 @@
   }
  },
  {
+  "name": "Đền Vua Lê",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3872",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Đối tượng thờ": " Lê Hoàn",
+   "Địa chỉ": "Tp. Thanh Hóa, huyện Thọ Xuân, xã Lam Sơn",
+   "Tọa độ": " 19°58'26.0\"N 105°32'02.5\"E"
+  }
+ },
+ {
   "name": "Đình Yên Thái",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3873",
   "info": {
@@ -24312,6 +25240,16 @@
   }
  },
  {
+  "name": "chùa Kiếm Sơn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3878",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Gia Lâm, xã Phù Đổng",
+   "Tọa độ": " 21°03'19.2\"N 105°57'38.0\"E"
+  }
+ },
+ {
   "name": "Khu di tích Côn Đảo",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3880",
   "info": {
@@ -24346,6 +25284,43 @@
    "Quyết định xếp hạng": " Quyết định số 1419/QĐ-TTg",
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 18°39'54.0\"N 105°46'00.5\"E"
+  }
+ },
+ {
+  "name": "Khu lưu niệm đồng chí Nguyễn Văn Cừ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3883",
+  "info": {
+   "Loại hình di tích": " Nhà lưu niệm",
+   "Đối tượng thờ": " Nguyễn Văn Cừ",
+   "Địa chỉ": "Tỉnh Bắc Ninh,huyện Từ Sơn, xã Phù Khê",
+   "Tọa độ": " 21°08'54.3\"N 105°55'52.5\"E"
+  }
+ },
+ {
+  "name": "Nhà tưởng niệm Bác Hồ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3884",
+  "info": {
+   "Loại hình di tích": " Nhà lưu niệm",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Gia Lâm"
+  }
+ },
+ {
+  "name": "Nhà tưởng niệm Bác Hồ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3885",
+  "info": {
+   "Loại hình di tích": " Nhà lưu niệm",
+   "Địa chỉ": "Tỉnh Quảng Ninh, huyện Cô Tô, thị trấn Cô Tô",
+   "Tọa độ": " 21°00'22.6\"N 107°45'20.7\"E"
+  }
+ },
+ {
+  "name": "Nhà hát lớn Hải Phòng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3886",
+  "info": {
+   "Loại hình di tích": " Nhà hát",
+   "Địa chỉ": "Tp Hải Phòng, quận Hồng Bàng, Hoàng Văn Thụ",
+   "Xếp hạng": " Di tích cấp Quốc gia",
+   "Tọa độ": " 20°51'24.9\"N 106°40'54.7\"E"
   }
  },
  {
@@ -24397,6 +25372,25 @@
   }
  },
  {
+  "name": "Chùa hội, đền Thượng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3891",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Thái Bình,Huyện Vũ Thư, xã Song Lãng",
+   "Tọa độ": " 20°29'06.3\"N 106°15'32.1\"E"
+  }
+ },
+ {
+  "name": "Đền Thổ Hà",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3892",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Bắc Giang, huyện Việt Yên, xã Vân Hà",
+   "Tọa độ": " 21°12'10.8\"N 106°02'32.3\"E"
+  }
+ },
+ {
   "name": "Miếu Quan Công",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3893",
   "info": {
@@ -24407,6 +25401,25 @@
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 15°52'39.2\"N 108°19'52.9\"E",
    "Niên đại khởi dựng": " khoảng giữa thế kỷ 17."
+  }
+ },
+ {
+  "name": "Cầu cổ Nam Định",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3894",
+  "info": {
+   "Loại hình di tích": " Cầu",
+   "Địa chỉ": "Nam Định, Hải Hậu, Hải Anh",
+   "Tọa độ": " 20°13'34.3\"N 106°16'13.8\"E"
+  }
+ },
+ {
+  "name": "Ngọ Môn Huế",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3895",
+  "info": {
+   "Loại hình di tích": " Cung điện",
+   "Địa chỉ": "Thừa Thiên Huế, thành phố Huế, Phú Hậu",
+   "Tọa độ": " 16°28'03.6\"N 107°34'45.1\"E",
+   "Niên đại chủ đạo": " Thế kỷ 19"
   }
  },
  {
@@ -24423,6 +25436,16 @@
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 21°18\u201906\u201dN; 105°33\u201944\u201dE",
    "Niên đại chủ đạo": " Tam quan: TK XXI"
+  }
+ },
+ {
+  "name": "Bảo tàng Hồ Chí Minh",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3897",
+  "info": {
+   "Loại hình di tích": " Bảo tàng",
+   "Đối tượng thờ": " Hồ Chí Minh",
+   "Địa chỉ": "Tp. Hà Nội, quận Ba Đình, Đội Cấn",
+   "Tọa độ": " 21°02'08.2\"N 105°49'57.5\"E"
   }
  },
  {
@@ -24520,6 +25543,25 @@
   }
  },
  {
+  "name": "Đền Lạc Long Quân - Âu Cơ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3905",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Đối tượng thờ": " Đền Lạc Long Quân - Âu Cơ",
+   "Địa chỉ": "Tỉnh Phú Thọ, huyện Lâm Thao, Chu Hoá",
+   "Tọa độ": " 21°22'36.8\"N 105°19'26.6\"E"
+  }
+ },
+ {
+  "name": "Phủ Tây Hồ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3906",
+  "info": {
+   "Loại hình di tích": " Phủ",
+   "Địa chỉ": "Hà Nội, Tây Hồ, Quảng An",
+   "Tọa độ": " 21°03'18.4\"N 105°49'11.0\"E"
+  }
+ },
+ {
   "name": "KDT Hải Thượng Lãn Ông",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3907",
   "info": {
@@ -24528,6 +25570,15 @@
    "Niên đại tuyệt đối": " thế kỷ 18",
    "Địa chỉ": "Tỉnh Hưng Yên, huyện Yên Mỹ,xã Liêu Xá",
    "Tọa độ": " 20°54'51.8\"N 106°03'22.8\"E"
+  }
+ },
+ {
+  "name": "KDT Làng Sen",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3908",
+  "info": {
+   "Loại hình di tích": " Khu di tích",
+   "Địa chỉ": "Nghệ An, Nam Đàn, Kim Liên",
+   "Tọa độ": " 18°40'27.1\"N 105°33'16.6\"E"
   }
  },
  {
@@ -24540,6 +25591,15 @@
    "Quyết định xếp hạng": " Số: 77/2005/QĐ-BVHTT ngày 28 tháng 11 năm 2005",
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 21°08'55.8\"N 105°28'28.1\"E"
+  }
+ },
+ {
+  "name": "Khu di tích nhà tù Hỏa Lò",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3910",
+  "info": {
+   "Loại hình di tích": " Nhà Tù",
+   "Địa chỉ": "Hà Nội, Hoàn Kiếm, Trần Hưng Đạo",
+   "Tọa độ": " 21°01'30.9\"N 105°50'47.0\"E"
   }
  },
  {
@@ -24570,6 +25630,15 @@
   }
  },
  {
+  "name": "Nhà thờ Phú Nhai",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3913",
+  "info": {
+   "Loại hình di tích": " Nhà thờ",
+   "Địa chỉ": "Nam Định, Xuân Trường, Xuân Phương",
+   "Tọa độ": " 20°17'59.5\"N 106°21'46.0\"E"
+  }
+ },
+ {
   "name": "Đền thờ Trần Hưng Đạo",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3914",
   "info": {
@@ -24578,6 +25647,15 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, Hải Anh",
    "Tọa độ": " 20°13'30.3\"N 106°16'31.6\"E",
    "Niên đại chủ đạo": " Cuối TK 19"
+  }
+ },
+ {
+  "name": "Đền Đức Thánh Trần",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3915",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, Hải Bắc",
+   "Tọa độ": " 20°13'04.3\"N 106°17'44.5\"E"
   }
  },
  {
@@ -24594,6 +25672,15 @@
   }
  },
  {
+  "name": "Cầu đá Hưng Nghĩa",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3917",
+  "info": {
+   "Loại hình di tích": " Cầu",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, Hải Hưng",
+   "Tọa độ": " 20°11'37.9\"N 106°17'55.6\"E"
+  }
+ },
+ {
   "name": "Đền thờ Trần Hưng Đạo",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3918",
   "info": {
@@ -24602,6 +25689,15 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, Hải Minh",
    "Tọa độ": " 20°14'01.1\"N 106°15'30.8\"E",
    "Niên đại chủ đạo": " Nửa đầu TK 20"
+  }
+ },
+ {
+  "name": "Đền thờ Tứ Tổ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3919",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, Hải Minh",
+   "Tọa độ": " 20°14'01.1\"N 106°15'30.8\"E"
   }
  },
  {
@@ -24639,6 +25735,16 @@
   }
  },
  {
+  "name": "Đền thờ Trần Hưng Đạo",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3923",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, Thị trấn Thịnh Long",
+   "Quyết định xếp hạng": " Tỉnh Nam Định năm 2003",
+   "Tọa độ": " 20°03'20.7\"N 106°13'23.8\"E"
+  }
+ },
+ {
   "name": "Nhà thờ họ Vũ",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3924",
   "info": {
@@ -24647,6 +25753,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, xã Hải Anh",
    "Tọa độ": " 20°13'29.5\"N 106°16'26.7\"E",
    "Niên đại chủ đạo": " Nửa đầu Tk 20"
+  }
+ },
+ {
+  "name": "Nhà thờ họ Vương",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3925",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, xã Hải Bắc",
+   "Tọa độ": " 20°13'03.4\"N 106°17'47.3\"E",
+   "Niên đại chủ đạo": " Giữa Tk 20"
   }
  },
  {
@@ -24661,6 +25777,16 @@
   }
  },
  {
+  "name": "Nhà thờ họ Lâm",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3927",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, xã Hải Hà",
+   "Tọa độ": " 20°11'46.8\"N 106°19'13.8\"E",
+   "Niên đại chủ đạo": " Cuối Tk 19"
+  }
+ },
+ {
   "name": "Từ đường họ Đỗ",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3928",
   "info": {
@@ -24672,6 +25798,15 @@
   }
  },
  {
+  "name": "Từ đường họ Đỗ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3929",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, xã Hải Hưng",
+   "Tọa độ": " 20°12'12.7\"N 106°18'25.9\"E"
+  }
+ },
+ {
   "name": "Nhà thờ họ Phan",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3930",
   "info": {
@@ -24680,6 +25815,44 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, xã Hải Minh",
    "Tọa độ": " 20°14'01.7\"N 106°15'32.0\"E",
    "Niên đại chủ đạo": " Nửa cuối Tk 19"
+  }
+ },
+ {
+  "name": "Nhà thờ họ Mai",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3931",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, xã Hải Hưng",
+   "Tọa độ": " 20°12'12.7\"N 106°18'25.9\"E"
+  }
+ },
+ {
+  "name": "Nhà thờ họ Phạm",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3932",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, xã Hải Phương",
+   "Tọa độ": " 20°10'36.7\"N 106°16'47.5\"E"
+  }
+ },
+ {
+  "name": "từ đường họ Nguyễn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3933",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, xã Hải Thanh",
+   "Tọa độ": " 20°11'03.0\"N 106°18'29.8\"E",
+   "Niên đại chủ đạo": " Cuối TK 19 đầu Tk 20"
+  }
+ },
+ {
+  "name": "Từ đường họ Nguyễn Lại",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3934",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, xã Hải Trung",
+   "Tọa độ": " 20°13'20.7\"N 106°17'03.1\"E",
+   "Niên đại chủ đạo": " Cuối Tk 19"
   }
  },
  {
@@ -24756,6 +25929,16 @@
   }
  },
  {
+  "name": "Chùa Phúc Hải",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3941",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " thờ Phật",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, Hải Cường",
+   "Tọa độ": " 20°06'35.3\"N 106°15'10.9\"E"
+  }
+ },
+ {
   "name": "Chùa Phúc Minh",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3942",
   "info": {
@@ -24783,6 +25966,15 @@
   }
  },
  {
+  "name": "Chùa Hội Nam",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3944",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, Hải Nam",
+   "Tọa độ": " 20°14'11.8\"N 106°20'13.5\"E"
+  }
+ },
+ {
   "name": "Chùa Tào Khê",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3945",
   "info": {
@@ -24802,6 +25994,15 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, Hải Nam",
    "Tọa độ": " 20°13'42.9\"N 106°20'40.1\"E",
    "Niên đại chủ đạo": " Tiền đường nửa cuối TK 17 Nhà Tổ cuối TK 19"
+  }
+ },
+ {
+  "name": "chùa Thượng Trại",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3947",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, Hải Phú",
+   "Tọa độ": " 20°08'08.6\"N 106°14'10.4\"E"
   }
  },
  {
@@ -24901,6 +26102,15 @@
   }
  },
  {
+  "name": "Nhà thờ họ Mai",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3956",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, xã Hải Minh",
+   "Tọa độ": " 20°14'01.7\"N 106°15'32.0\"E"
+  }
+ },
+ {
   "name": "từ đường họ Nguyễn Đại",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3957",
   "info": {
@@ -24920,6 +26130,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, xã Hải Long",
    "Tọa độ": " 20°11'02.7\"N 106°15'56.8\"E",
    "Niên đại chủ đạo": " Đại bái nửa đầu TK 20 Hậu cung cuối TK 19"
+  }
+ },
+ {
+  "name": "Từ đường họ Nguyễn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3959",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Hải Hậu, xã Hải Long",
+   "Tọa độ": " 20°11'02.7\"N 106°15'56.8\"E",
+   "Niên đại chủ đạo": " Đầu TK 20"
   }
  },
  {
@@ -25013,6 +26233,16 @@
   }
  },
  {
+  "name": "Đình Xuân Lôi",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3968",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Tên khác": " đình Quan Trạng",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Nam Hùng",
+   "Tọa độ": " 20°20'52.5\"N 106°12'56.3\"E"
+  }
+ },
+ {
   "name": "Đình Thạch Cầu",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3969",
   "info": {
@@ -25035,6 +26265,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Đồng Sơn",
    "Tọa độ": " 20°18'05.0\"N 106°10'40.3\"E",
    "Niên đại chủ đạo": " Gác chuông cuối Tk 19 Hành lang đầu TK 20 Tiền đường cuối TK 17 đâù TK 18"
+  }
+ },
+ {
+  "name": "Chùa Khoát",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3971",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Đồng Sơn",
+   "Tọa độ": " 20°18'07.3\"N 106°10'00.4\"E"
   }
  },
  {
@@ -25107,6 +26347,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Nam Cường",
    "Tọa độ": " 20°21'46.4\"N 106°11'32.6\"E",
    "Niên đại chủ đạo": " Thượng điện - Tam quan nửa cuối TK 20 Gác chuônng cuối TK 19 Tiền đường giữa TK 20"
+  }
+ },
+ {
+  "name": "Chùa Đồng Côi",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3978",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Nam Giang",
+   "Tọa độ": " 20°20'33.5\"N 106°10'44.6\"E"
   }
  },
  {
@@ -25281,6 +26531,16 @@
   }
  },
  {
+  "name": "Chùa Cổ Giả",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3994",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Nam Tiến",
+   "Tọa độ": " 20°17'56.4\"N 106°12'18.3\"E"
+  }
+ },
+ {
   "name": "Chùa Nội",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3995",
   "info": {
@@ -25290,6 +26550,26 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Nam Thanh",
    "Tọa độ": " 20°19'31.0\"N 106°15'06.6\"E",
    "Niên đại chủ đạo": " Tiền đường nửa cuối TK 19 Thượng điện đầu TK 20"
+  }
+ },
+ {
+  "name": "Chùa Đại An",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3996",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Nam Thắng",
+   "Tọa độ": " 20°22'56.9\"N 106°15'52.6\"E"
+  }
+ },
+ {
+  "name": "Chùa Dương A",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=3997",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Nam Thắng",
+   "Tọa độ": " 20°22'56.9\"N 106°15'52.6\"E"
   }
  },
  {
@@ -25348,6 +26628,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Nghĩa An",
    "Tọa độ": " 20°23'38.5\"N 106°09'57.3\"E",
    "Niên đại chủ đạo": " Tk 17"
+  }
+ },
+ {
+  "name": "Chùa Ngọc Thọ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4003",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Tân Thịnh",
+   "Tọa độ": " 20°22'25.6\"N 106°14'50.2\"E"
   }
  },
  {
@@ -25431,6 +26721,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Đồng Sơn",
    "Tọa độ": " 20°18'07.3\"N 106°10'00.4\"E",
    "Niên đại chủ đạo": " Tiền tế cuối Tk 19 Hậu cung nửa cuối TK 17"
+  }
+ },
+ {
+  "name": "Đền thôn Khoát",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4011",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Đồng Sơn",
+   "Tọa độ": " 20°18'07.3\"N 106°10'00.4\"E",
+   "Niên đại chủ đạo": " Giữa TK 20"
   }
  },
  {
@@ -25713,6 +27013,16 @@
   }
  },
  {
+  "name": "Từ đường Ngô Thế Vinh",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4034",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nam Trực, xã Nam Dương",
+   "Tọa độ": " 20°19'21.4\"N 106°10'23.5\"E",
+   "Niên đại chủ đạo": " Giữa TK 20"
+  }
+ },
+ {
   "name": "Nhà thờ họ Nguyễn",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4035",
   "info": {
@@ -25812,6 +27122,45 @@
   }
  },
  {
+  "name": "Đình Vị Lương",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4044",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, xã Nam Phong",
+   "Tọa độ": " 20°25'23.1\"N 106°11'52.5\"E"
+  }
+ },
+ {
+  "name": "Đình Ốc Thượng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4045",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, phường Lộc Hạ",
+   "Tọa độ": " 20°26'51.0\"N 106°11'00.7\"E",
+   "Niên đại chủ đạo": " Đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đình Tức Mặc",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4046",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, phường Lộc Vượng",
+   "Tọa độ": " 20°26'46.1\"N 106°10'01.5\"E",
+   "Niên đại chủ đạo": " Giữa thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đình Vĩnh Trường",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4047",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, phường Lộc Vượng",
+   "Tọa độ": " 20°26'46.1\"N 106°10'01.5\"E",
+   "Niên đại chủ đạo": " Cuối thế kỷ 18 đầu thế kỷ 19"
+  }
+ },
+ {
   "name": "Đình Kênh",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4048",
   "info": {
@@ -25820,6 +27169,24 @@
    "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, phường Lộc Vượng",
    "Tọa độ": " 20°26'46.1\"N 106°10'01.5\"E",
    "Niên đại chủ đạo": " Cuối thế kỷ 20"
+  }
+ },
+ {
+  "name": "đình Phúc Trong",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4049",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, xã Mỹ Xá",
+   "Tọa độ": " 20°24'56.6\"N 106°09'00.5\"E"
+  }
+ },
+ {
+  "name": "Đình Hồ Sen",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4050",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, xã Nam Vân",
+   "Tọa độ": " 20°23'59.2\"N 106°10'58.6\"E"
   }
  },
  {
@@ -25844,6 +27211,55 @@
    "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, phường Lộc Vượng",
    "Tọa độ": " 20°26'45.9\"N 106°10'01.5\"E",
    "Niên đại chủ đạo": " Nửa sau thế kỷ 17-Thượng điện Giữa thế kỷ 20 - Nhà tổ"
+  }
+ },
+ {
+  "name": "Chùa Nha",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4053",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, xã Lộc Hòa",
+   "Tọa độ": " 20°26'09.6\"N 106°08'42.8\"E"
+  }
+ },
+ {
+  "name": "Chùa ốc",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4054",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, xã Lộc Hòa",
+   "Tọa độ": " 20°26'09.6\"N 106°08'42.8\"E"
+  }
+ },
+ {
+  "name": "Chùa ốc Thượng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4055",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, xã Lộc Hòa",
+   "Tọa độ": " 20°26'09.6\"N 106°08'42.8\"E"
+  }
+ },
+ {
+  "name": "chùa Phúc Trọng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4056",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, xã Mỹ Xá",
+   "Tọa độ": " 20°24'56.7\"N 106°09'01.4\"E"
+  }
+ },
+ {
+  "name": "Đền Bách Thuận",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4057",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, xã Mỹ Xá",
+   "Tọa độ": " 20°24'56.7\"N 106°09'01.4\"E"
   }
  },
  {
@@ -25903,6 +27319,44 @@
    "Xếp hạng": " Di tích cấp Quốc gia",
    "Quyết định xếp hạng": " năm 1989",
    "Tọa độ": " 20°27'23.9\"N 106°10'06.7\"E"
+  }
+ },
+ {
+  "name": "Lăng mộ họ Phan",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4063",
+  "info": {
+   "Loại hình di tích": " Lăng mộ",
+   "Niên đại tuyệt đối": " Khải Định Giáp Tý -1924",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, xã Nam Vân",
+   "Tọa độ": " 20°23'59.2\"N 106°10'58.8\"E"
+  }
+ },
+ {
+  "name": "Nhà số 7 phố Bến Ngự",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4064",
+  "info": {
+   "Loại hình di tích": " Di tích lịch sử",
+   "Niên đại tuyệt đối": " Tự Đức Bính Tý tạo (1976): Đinh Mão niên trùng tu(1927)",
+   "Địa chỉ": "Phường Phan Đình Phùng, thành phố Nam Định",
+   "Tọa độ": " 20°25'32.3\"N 106°10'45.3\"E"
+  }
+ },
+ {
+  "name": "Từ đường họ Phạm",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4065",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, xã Nam Phong",
+   "Tọa độ": " 20°25'05.9\"N 106°11'41.8\"E"
+  }
+ },
+ {
+  "name": "Quán Nghỉ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4066",
+  "info": {
+   "Loại hình di tích": " Quán",
+   "Địa chỉ": "Tỉnh Nam Định, thành phố Nam Định, xã Nam Vân",
+   "Tọa độ": " 20°23'59.2\"N 106°10'58.1\"E"
   }
  },
  {
@@ -26842,6 +28296,16 @@
   }
  },
  {
+  "name": "Nhà thờ cụ Trường Chinh",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4134",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Niên đại tuyệt đối": " Thành Thái thứ 4 (1902)",
+   "Địa chỉ": "(xã Xuân Hồng, huyện Xuân Trường, tỉnh Nam Định)",
+   "Tọa độ": " 20°20'40.0\"N 106°19'24.9\"E"
+  }
+ },
+ {
   "name": "Nhà thờ họ Đặng",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4135",
   "info": {
@@ -26918,6 +28382,16 @@
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 21°03'05.8\"N 105°45'04.2\"E",
    "Niên đại chủ đạo": " Nhà Mẫu, Tiền đường, thưọng điện \u2013 nửa cuối thế kỷ 19"
+  }
+ },
+ {
+  "name": "Chùa đình Thôn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4220",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Dấu vết vật chất sớm nhất": " 01 tượng quan âm Toạ Sơn \u2013 Thế kỷ 17",
+   "Tên khác": " Đại Bi Tự",
+   "Địa chỉ": "TP Hà Nội, huyện Từ Liêm, xã Mỹ Đình"
   }
  },
  {
@@ -27089,6 +28563,16 @@
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 21°05'02.7\"N 105°45'11.5\"E",
    "Niên đại chủ đạo": " Thế kỉ 20"
+  }
+ },
+ {
+  "name": "Đền Khánh Vân",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4234",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Đối tượng thờ": " Lã Đồng Tân, Văn xương đế quân, Trần Hưng Đạo",
+   "Địa chỉ": "TP Hà Nội, huyện Từ Liêm, xã Phú Diễn",
+   "Niên đại chủ đạo": " Hậu cung: nửa đầu TK20"
   }
  },
  {
@@ -27298,6 +28782,15 @@
   }
  },
  {
+  "name": "Đình Phúc Lý",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4249",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Niên đại tuyệt đối": " Đại Bái: tuế thứ Nhâm Ngọ thượng lương đại cát",
+   "Địa chỉ": "TP Hà Nội, huyện Từ Liêm, xã Minh Khai"
+  }
+ },
+ {
   "name": "Đình Phú Đô",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4250",
   "info": {
@@ -27388,6 +28881,15 @@
   }
  },
  {
+  "name": "Văn chỉ Đông Ngạc",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4256",
+  "info": {
+   "Loại hình di tích": " Văn Chỉ",
+   "Địa chỉ": "TP Hà Nội, huyện Từ Liêm, xã Đông Ngạc",
+   "Niên đại chủ đạo": " Cuối thế kỉ 20"
+  }
+ },
+ {
   "name": "Văn chỉ Nhật Tảo",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4257",
   "info": {
@@ -27460,6 +28962,16 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Trực Ninh, xã Liêm Hải, thôn Lịch Đông",
    "Tọa độ": " 20°17'23.2\"N 106°17'23.1\"E",
    "Niên đại chủ đạo": " Giữa Tk 17"
+  }
+ },
+ {
+  "name": "Chùa Tuân Lục",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4263",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Trực Ninh, xã Liêm Hải, thôn Tuân Lục",
+   "Tọa độ": " 20°17'21.1\"N 106°18'26.2\"E"
   }
  },
  {
@@ -27592,6 +29104,15 @@
   }
  },
  {
+  "name": "Đền Chùa Miễu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4276",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Trực Ninh, TT Cổ Lễ, thôn Miễu",
+   "Tọa độ": " 20°19'17.8\"N 106°15'48.8\"E"
+  }
+ },
+ {
   "name": "Đền Cự Trữ",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4277",
   "info": {
@@ -27600,6 +29121,15 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Trực Ninh, xã Phương Định, thôn Cự Trữ",
    "Tọa độ": " 20°18'38.0\"N 106°17'27.3\"E",
    "Niên đại khởi dựng": " Thượng lương Đại bái ghi Thành Thái 1 tuế thứ Đinh Sửu thụ trụ thượng lương"
+  }
+ },
+ {
+  "name": "Đền thờ Trang Nguyên Đào Duy Tích",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4278",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Trực Ninh, TT Cổ Lễ, đội 3",
+   "Tọa độ": " 20°18'45.5\"N 106°16'30.5\"E"
   }
  },
  {
@@ -27624,6 +29154,15 @@
    "Địa chỉ": "Lạc Chính- Trực Khang",
    "Tọa độ": " 20°17'44.3\"N 106°16'32.6\"E",
    "Niên đại khởi dựng": " Thượng lương Đại bái ghi Thành Thái kỷ hợi niên thụ trụ thượng lương;Thượng lương Trung cung ghi Bảo Đại 4 thụ trụ thượng lương"
+  }
+ },
+ {
+  "name": "Cầu đá thôn Nam Trực",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4281",
+  "info": {
+   "Loại hình di tích": " Cầu",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Trực Ninh, xã Trực Khang, thôn Nam Trực",
+   "Tọa độ": " 20°15'14.6\"N 106°11'51.0\"E"
   }
  },
  {
@@ -27652,6 +29191,34 @@
   }
  },
  {
+  "name": "Cầu đá Giáp Nhất",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4284",
+  "info": {
+   "Loại hình di tích": " Cầu",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Trực Ninh, xã Trực Thái, thôn Giáp Nhất",
+   "Tọa độ": " 20°10'54.7\"N 106°13'27.0\"E"
+  }
+ },
+ {
+  "name": "Đền Giáp Nhất",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4285",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Niên đại tuyệt đối": " Nửa đầu TK 20",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Trực Ninh, xã Trực Thái, thôn Giáp Nhất",
+   "Tọa độ": " 20°11'35.8\"N 106°13'38.4\"E"
+  }
+ },
+ {
+  "name": "Đền phủ Đông Hạ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4286",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Trực Ninh, xã Trực Thuận",
+   "Tọa độ": " 20°13'38.6\"N 106°11'39.7\"E"
+  }
+ },
+ {
   "name": "Đền Tam Thôn",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4287",
   "info": {
@@ -27660,6 +29227,26 @@
    "Xếp hạng": " Di tích cấp Tỉnh",
    "Quyết định xếp hạng": " Tỉnh Nam Định năm 2005",
    "Tọa độ": " 20°14'51.6\"N 106°10'59.1\"E"
+  }
+ },
+ {
+  "name": "Phủ chủ tịch Hồ Chí Minh",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4288",
+  "info": {
+   "Loại hình di tích": " Phủ",
+   "Địa chỉ": "Hà Nội, Ba Đình, Ngọc Hồi",
+   "Tọa độ": " 21°2\u203221\u2033B 105°50\u20325\u2033Đ",
+   "Niên đại khởi dựng": " 1901-1906"
+  }
+ },
+ {
+  "name": "Đình Hải Lạng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4289",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Niên đại tuyệt đối": " Mới xây lại năm 2004 bê tông cuốn vòm",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nghĩa Hưng, xã Nghĩa Thịnh, thôn Hải Lạng",
+   "Tọa độ": " 20°16'31.6\"N 106°08'46.7\"E"
   }
  },
  {
@@ -27762,6 +29349,15 @@
   }
  },
  {
+  "name": "Chùa Nhân Hậu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4298",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nghĩa Hưng, xã Nhân Hậu- Nghĩa Thịnh",
+   "Tọa độ": " 20°14'37.2\"N 106°09'43.4\"E"
+  }
+ },
+ {
   "name": "Chùa Hải Lạng",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4299",
   "info": {
@@ -27860,6 +29456,16 @@
   }
  },
  {
+  "name": "Chùa Đông Ba Thượng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4307",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Dấu vết vật chất sớm nhất": " 01 Tượng- Quan âm đứng- Cuối thế kỷ 17",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nghĩa Hưng, xã Nghĩa Minh, thôn Đông Ba Thượng",
+   "Tọa độ": " 20°15'36.4\"N 106°07'08.1\"E"
+  }
+ },
+ {
   "name": "Chùa Đắc Thắng Thượng",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4308",
   "info": {
@@ -27907,6 +29513,16 @@
   }
  },
  {
+  "name": "Chùa Quần Lạc",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4312",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nghĩa Hưng, xã Nghĩa Phong",
+   "Tọa độ": " 20°03'30.0\"N 106°11'04.8\"E",
+   "Niên đại chủ đạo": " Đầu thế kỷ 21"
+  }
+ },
+ {
   "name": "Chùa Phúc An",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4313",
   "info": {
@@ -27915,6 +29531,43 @@
    "Địa chỉ": "Tỉnh Nam Định, huyện Nghĩa Hưng, xã Nghĩa Trung, thôn Phúc An",
    "Tọa độ": " 20°13'27.8\"N 106°10'22.2\"E",
    "Niên đại chủ đạo": " Tiền đường- Nửa cuối thế kỷ 19; Thượng điện- Nửa đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Chùa Đào Hạ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4314",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nghĩa Hưng, xã Nghĩa Châu thôn Đào Hạ",
+   "Tọa độ": " 20°13'57.9\"N 106°08'23.9\"E",
+   "Niên đại chủ đạo": " Cuối thế kỷ 19 đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Chùa Hương Ngải",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4315",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nghĩa Hưng, xã Nghĩa Tân, thôn Giáp Nhất",
+   "Tọa độ": " 20°03'26.2\"N 106°10'54.1\"E"
+  }
+ },
+ {
+  "name": "Đền Hạ Kỳ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4316",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nghĩa Hưng, xã Nghĩa Thịnh, thôn Hạ Kỳ",
+   "Tọa độ": " 20°03'07.2\"N 106°10'36.3\"E"
+  }
+ },
+ {
+  "name": "Miếu Thôn Hải Lạng Trang",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4317",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Địa chỉ": "Tỉnh Nam Định, huyện Nghĩa Hưng, xã Nghĩa Thịnh, thôn Hải Lạng Trang",
+   "Tọa độ": " 20°16'12.8\"N 106°08'44.1\"E"
   }
  },
  {
@@ -28916,6 +30569,24 @@
   }
  },
  {
+  "name": "Miếu Tuy Lộc",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4397",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Phúc Thọ xã Trạch Mỹ Lộc, thôn Tuy Lộc",
+   "Niên đại chủ đạo": " Nửa sau thế kỷ 20"
+  }
+ },
+ {
+  "name": "Miếu Thuần Mỹ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4398",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Địa chỉ": "Thành phố Hà Nội, huyện Phúc Thọ xã Trạch Mỹ Lộc thôn Thuần Mỹ",
+   "Niên đại chủ đạo": " Nửa đầu thế kỷ 20"
+  }
+ },
+ {
   "name": "Miếu Bảo Lộc",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4399",
   "info": {
@@ -28987,6 +30658,23 @@
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 21°05'31.6\"N 105°36'02.8\"E",
    "Niên đại chủ đạo": " Giữa thế kỷ 18"
+  }
+ },
+ {
+  "name": "Chùa Thắng Hạ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4405",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "không rõ",
+   "Niên đại chủ đạo": " Nửa đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Nhà Thờ xứ Quần Lạc",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4406",
+  "info": {
+   "Loại hình di tích": " Nhà thờ",
+   "Địa chỉ": "Nam Định, Nghĩa Hưng, Nghĩa Đồng"
   }
  },
  {
@@ -29108,6 +30796,14 @@
   }
  },
  {
+  "name": "Bảo tàng Trà Kiệu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4416",
+  "info": {
+   "Loại hình di tích": " Bảo tàng",
+   "Địa chỉ": "tỉnh Quảng Nam, huyện Duy Xuyên, xã Duy Sơn"
+  }
+ },
+ {
   "name": "Nhà Hát Lớn Hà Nội",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4417",
   "info": {
@@ -29168,6 +30864,14 @@
   }
  },
  {
+  "name": "Chùa Liên Hoa",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4422",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "thành phố Hà Nội, huyện Thanh Trì, xa Định Công"
+  }
+ },
+ {
   "name": "Chùa Diệu Nam",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4423",
   "info": {
@@ -29176,6 +30880,14 @@
    "Địa chỉ": "TP Hà Nội, quận Hai Bà Trưng, phường Trương Định",
    "Tọa độ": " 20°59'46.1\"N 105°50'53.6\"E",
    "Niên đại chủ đạo": " Tiền đường: Đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Chùa Đồng Nhân",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4424",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "TP Hà Nội, quận Hai Bà Trưng, phường Đồng Nhân"
   }
  },
  {
@@ -29335,6 +31047,15 @@
   }
  },
  {
+  "name": "Chùa Thọ Lão",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4436",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "TP Hà Nội, quận Hai Bà Trưng, phường Đồng Nhân",
+   "Tọa độ": " 21°00'38.6\"N 105°51'24.7\"E"
+  }
+ },
+ {
   "name": "Chùa Tô Hoàng",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4437",
   "info": {
@@ -29355,6 +31076,16 @@
    "Địa chỉ": "TP Hà Nội, quận Hai Bà Trưng, phường Phạm Đình Hổ",
    "Tọa độ": " 21°00'55.8\"N 105°51'24.4\"E",
    "Niên đại chủ đạo": " Tam bảo: Nửa đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Chùa Tràng An",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4439",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Niên đại tuyệt đối": " Năm 1991",
+   "Địa chỉ": "TP Hà Nội, quận Hai Bà Trưng, phường Bùi Thị Xuân",
+   "Tọa độ": " 21°01'03.3\"N 105°51'02.1\"E"
   }
  },
  {
@@ -29394,6 +31125,16 @@
    "Quyết định xếp hạng": " Bộ VHTT \u2013 21/1/1992/",
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 21°00'37.3\"N 105°51'11.6\"E"
+  }
+ },
+ {
+  "name": "Đền Cấm Chỉ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4443",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Đối tượng thờ": " Chử Đồng Tử và hai phu nhân",
+   "Địa chỉ": "TP Hà Nội, quận Hai Bà Trưng, phường Bùi Thị Xuân",
+   "Niên đại chủ đạo": " Đại bái: Nửa đầu thế kỷ 20"
   }
  },
  {
@@ -29777,6 +31518,16 @@
   }
  },
  {
+  "name": "Chùa Vĩnh Kiêu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4472",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Từ Sơn , xã Đồng Nguyên",
+   "Tọa độ": " 21°07'46.5\"N 105°58'55.0\"E"
+  }
+ },
+ {
   "name": "Đền Nguyễn Thụ",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4473",
   "info": {
@@ -29802,6 +31553,16 @@
    "Quyết định xếp hạng": " Số 100-VH/QĐ ngày 21/01/1989",
    "Tọa độ": " 21°07'41.8\"N 105°57'56.3\"E",
    "Niên đại khởi dựng": " Đại đình: Cuối thế kỷ 18 Tiền tế - Thế kỷ 19 Đại đình: Hòang Triều Minh Mệnh vạn vạn niên chi thập tuế tại Kỷ Sửu(1829)- Câu đầu trái"
+  }
+ },
+ {
+  "name": "Đình Lễ Xuyên",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4475",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Đối tượng thờ": " Thánh Tam Giang",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Từ Sơn , xã Đồng Nguyên",
+   "Tọa độ": " 21°08'07.1\"N 105°58'37.8\"E"
   }
  },
  {
@@ -30097,6 +31858,16 @@
   }
  },
  {
+  "name": "Đình Phúc Tinh",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4499",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Từ Sơn, xã Tam Sơn",
+   "Tọa độ": " 21°08'57.8\"N 105°58'51.4\"E",
+   "Niên đại khởi dựng": " Tiền tế - Tuế thứ Giáp Dần - 1994- Thượng lương Đại đình: Thành Thái Nhâm Dần (1902)- Câu đầu p hải"
+  }
+ },
+ {
   "name": "Đình Thọ Trai",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4500",
   "info": {
@@ -30130,6 +31901,16 @@
    "Quyết định xếp hạng": " Bộ Văn hóa Thông tin - 1993",
    "Tọa độ": " 21°06'33.5\"N 105°58'28.5\"E",
    "Niên đại khởi dựng": " 01 Bia: Ma Lư tự bi - Vĩnh Tộ 6(1624)"
+  }
+ },
+ {
+  "name": "Chùa Nội Trì",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4503",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Từ Sơn, xã Tân Hồng",
+   "Tọa độ": " 21°06'34.0\"N 105°58'18.7\"E"
   }
  },
  {
@@ -30348,6 +32129,16 @@
   }
  },
  {
+  "name": "Nghè Hưng Phúc",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4521",
+  "info": {
+   "Loại hình di tích": " Nghè",
+   "Niên đại tuyệt đối": " 01 Bia : Bản thể thần bi ký - Duy Tân 4 (1910)",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Từ Sơn, xã Tương Giang",
+   "Tọa độ": " 21°08'18.3\"N 105°59'23.5\"E"
+  }
+ },
+ {
   "name": "Chùa Mộ Trạch",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4522",
   "info": {
@@ -30358,6 +32149,16 @@
    "Địa chỉ": "Tỉnh Hải Dương, huyện Bình Giang, xã Tân Hồng",
    "Tọa độ": " 20°52'50.2\"N 106°10'20.0\"E",
    "Niên đại chủ đạo": " Tiền đường đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Chùa Nhữ Thị",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4523",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Hải Dương, huyện Bình Giang, xã Thái Hoà",
+   "Tọa độ": " 20°51'00.3\"N 106°10'02.1\"E"
   }
  },
  {
@@ -30804,6 +32605,16 @@
   }
  },
  {
+  "name": "Văn Miếu Mao Điền",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4558",
+  "info": {
+   "Loại hình di tích": " Văn miếu",
+   "Đối tượng thờ": " Khổng Tử và những người đỗ đạt",
+   "Địa chỉ": "Tỉnh Hải Dương, huyện Cẩm Giàng, xã Cẩm Điền",
+   "Tọa độ": " 20°56'06.9\"N 106°11'10.1\"E"
+  }
+ },
+ {
   "name": "Nghè Ngọc Lâu",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4559",
   "info": {
@@ -31063,6 +32874,16 @@
    "Quyết định xếp hạng": " UBND Tỉnh - 2006",
    "Tọa độ": " 21°05'38.0\"N 106°19'29.5\"E",
    "Niên đại chủ đạo": " Tiền tế: Cuối thế kỷ 19 đầu thế kỷ 20 . Hậu cung: Đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đình Phục Thiện",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4581",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Đối tượng thờ": " 3 vị thành hòang làng",
+   "Địa chỉ": "Tỉnh Hải Dương, huyện Chí Linh, xã Hoàng Tiến",
+   "Tọa độ": " 21°07'47.7\"N 106°26'59.7\"E"
   }
  },
  {
@@ -31892,6 +33713,14 @@
   }
  },
  {
+  "name": "Cầu đá xã Việt Hưng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4646",
+  "info": {
+   "Loại hình di tích": " Cầu",
+   "Địa chỉ": "Tỉnh Hải Dương, huyện Kim Thành, xã Việt Hưng"
+  }
+ },
+ {
   "name": "Đền Phú Mỹ",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4647",
   "info": {
@@ -32096,6 +33925,16 @@
    "Quyết định xếp hạng": " BVHTT năm 2001",
    "Tọa độ": " 21°03'18.5\"N 106°30'24.7\"E",
    "Niên đại chủ đạo": " Nửa đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Động Kính Chủ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4663",
+  "info": {
+   "Loại hình di tích": " Động",
+   "Địa chỉ": "Tỉnh Hải Dương, huyện Kinh Môn, xã Phạm Mệnh",
+   "Tọa độ": " 21°01'57.7\"N 106°30'20.4\"E",
+   "Niên đại chủ đạo": " Di tích danh thắng"
   }
  },
  {
@@ -32450,6 +34289,16 @@
    "Xếp hạng": " Di tích cấp Quốc gia",
    "Quyết định xếp hạng": " năm 1988",
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
+   "Tọa độ": " 21°15'05.6\"N 106°00'05.3\"E"
+  }
+ },
+ {
+  "name": "Nhà Ông Nguyễn Văn Tuệ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4691",
+  "info": {
+   "Loại hình di tích": " Nhà cổ",
+   "Đối tượng thờ": " Gia tiên",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Yên Phong, xã Dũng Liệt",
    "Tọa độ": " 21°15'05.6\"N 106°00'05.3\"E"
   }
  },
@@ -33773,6 +35622,15 @@
   }
  },
  {
+  "name": "chùa Đại Thành",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4793",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Tỉnh Bắc Ninh, TP Bắc Ninh, phường Kinh Bắc",
+   "Tọa độ": " 21°11'20.3\"N 106°03'51.2\"E"
+  }
+ },
+ {
   "name": "Đình Đông",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4794",
   "info": {
@@ -34054,6 +35912,15 @@
   }
  },
  {
+  "name": "Đền Bảo Tháp (Xem lại ẳnh)",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4818",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Gia Bình, xã Đông Cứu",
+   "Tọa độ": " 21°03'57.2\"N 106°09'52.9\"E"
+  }
+ },
+ {
   "name": "Đền An Dương Vương",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4819",
   "info": {
@@ -34062,6 +35929,34 @@
    "Niên đại tuyệt đối": " Đại bái: Cuối thế kỷ 20",
    "Địa chỉ": "Tỉnh Bắc Ninh, huyện Gia Bình, xã Nhân Thắng",
    "Tọa độ": " 21°03'59.7\"N 106°13'53.0\"E"
+  }
+ },
+ {
+  "name": "Nghè Đức Thánh Hai (Đức Thánh Ba?)",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4820",
+  "info": {
+   "Loại hình di tích": " Nghè",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Gia Bình, xã Vạn Ninh",
+   "Tọa độ": " 21°06'13.9\"N 106°15'48.4\"E"
+  }
+ },
+ {
+  "name": "Đình Diên Lộc",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4821",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Gia Bình, xã Đại Bái",
+   "Quyết định xếp hạng": " Quyết định số 1570/VH-QĐ, ngày 5/9/1989",
+   "Tọa độ": " 21°02'57.7\"N 106°08'36.4\"E"
+  }
+ },
+ {
+  "name": "Đình Du Tràng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4822",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Gia Bình, xã Giang Sơn",
+   "Tọa độ": " 21°05'02.5\"N 106°09'35.0\"E"
   }
  },
  {
@@ -34845,6 +36740,16 @@
   }
  },
  {
+  "name": "Nghĩa trang Liệt Sĩ Trường Sơn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4883",
+  "info": {
+   "Loại hình di tích": " Lăng mộ",
+   "Địa chỉ": "Quảng Trị, Gio Linh, Vĩnh Trường",
+   "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
+   "Tọa độ": " 16°57'29.2\"N 106°57'16.1\"E"
+  }
+ },
+ {
   "name": "Hiển Lâm Các",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4884",
   "info": {
@@ -35111,6 +37016,16 @@
   }
  },
  {
+  "name": "Đền Dưỡng Thái",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4904",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Niên đại tuyệt đối": " Mới xây dựng",
+   "Địa chỉ": "Tỉnh Hưng Yên, huyện Kim Động, xã Chính Nghĩa",
+   "Tọa độ": " 20°44'58.3\"N 106°04'03.3\"E"
+  }
+ },
+ {
   "name": "Đền Hoàng Xá",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4905",
   "info": {
@@ -35244,6 +37159,16 @@
   }
  },
  {
+  "name": "Đình Đống Lương xóm 6",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4915",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Hưng Yên, huyện Kim Động, xã Hiệp Cường",
+   "Tọa độ": " 20°43'05.3\"N 106°03'25.3\"E",
+   "Niên đại chủ đạo": " Đại bái đầu thế kỷ 20"
+  }
+ },
+ {
   "name": "Đình Đống Lương xóm 7",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4916",
   "info": {
@@ -35333,6 +37258,16 @@
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 20°44'23.8\"N 106°05'34.5\"E",
    "Niên đại chủ đạo": " Đại bái nửa đầu thế kỷ 19 - Hậu cung nửa đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đình Tạ Trung",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4922",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Niên đại tuyệt đối": " Mới xây dựng lại",
+   "Địa chỉ": "Tỉnh Hưng Yên, huyện Kim Động, xã Chính Nghĩa",
+   "Tọa độ": " 20°44'58.3\"N 106°04'03.3\"E"
   }
  },
  {
@@ -35500,6 +37435,16 @@
   }
  },
  {
+  "name": "Đình Đào Xá",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4935",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Hưng Yên, huyện Kim Động, xã Vũ Xá",
+   "Tọa độ": " 20°44'23.8\"N 106°05'34.5\"E",
+   "Niên đại chủ đạo": " Đại bái đầu thế kỷ 20"
+  }
+ },
+ {
   "name": "Nhà thờ họ Nguyễn",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4936",
   "info": {
@@ -35512,6 +37457,16 @@
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 20°44'23.8\"N 106°05'34.5\"E",
    "Niên đại chủ đạo": " Đại bái đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Triệu Miếu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4937",
+  "info": {
+   "Loại hình di tích": " Cung điện",
+   "Địa chỉ": "Tỉnh Thừa Thiên Huế, tp. Huế",
+   "Xếp hạng": " Di tích cấp Quốc gia",
+   "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật"
   }
  },
  {
@@ -36293,6 +38248,25 @@
   }
  },
  {
+  "name": "Đàn Tịch Điền",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4998",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Đối tượng thờ": " Thần Nông",
+   "Địa chỉ": "Tỉnh Phú Thọ, thành phố Việt Trì, phường Minh Nông",
+   "Tọa độ": " 21°18'45.9\"N 105°22'58.0\"E"
+  }
+ },
+ {
+  "name": "Đền Hùng Lô",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=4999",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Phú Thọ, thành phố Việt Trì, xã Hùng Lô",
+   "Tọa độ": " 21°22'06.4\"N 105°23'06.7\"E"
+  }
+ },
+ {
   "name": "Văn chỉ Hùng Lô",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5000",
   "info": {
@@ -36380,6 +38354,25 @@
   }
  },
  {
+  "name": "Nhà ông Nguyễn Văn Cường",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5007",
+  "info": {
+   "Loại hình di tích": " Nhà cổ",
+   "Địa chỉ": "Tỉnh Phú Thọ, thành phố Việt Trì, xã Hùng Lô",
+   "Tọa độ": " 21°22'06.4\"N 105°23'06.7\"E",
+   "Niên đại chủ đạo": " Nửa sau thế kỷ 19"
+  }
+ },
+ {
+  "name": "Chùa Cổ Tích",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5008",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Tỉnh Phú Thọ, thành phố Việt Trì, xã Hy Cương",
+   "Tọa độ": " 21°22'07.1\"N 105°18'51.8\"E"
+  }
+ },
+ {
   "name": "Chùa Bùi",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5009",
   "info": {
@@ -36402,6 +38395,16 @@
    "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài , thị trấn Thứa",
    "Tọa độ": " 21°00'56.4\"N 106°11'47.1\"E",
    "Niên đại chủ đạo": " Tiền đường: Đầu thế kỷ 21"
+  }
+ },
+ {
+  "name": "Chùa Đông Hương",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5011",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài , thị trấn Thứa",
+   "Tọa độ": " 21°01'04.0\"N 106°12'18.0\"E"
   }
  },
  {
@@ -36466,6 +38469,16 @@
   }
  },
  {
+  "name": "Chùa An Trụ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5016",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã An Thịnh",
+   "Tọa độ": " 21°03'59.9\"N 106°16'45.5\"E"
+  }
+ },
+ {
   "name": "Chùa Cường Tráng",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5017",
   "info": {
@@ -36488,6 +38501,16 @@
    "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã An Thịnh",
    "Tọa độ": " 21°03'56.7\"N 106°16'33.2\"E",
    "Niên đại chủ đạo": " Phong cách chung: Thế kỷ 21"
+  }
+ },
+ {
+  "name": "Chùa Lôi Châu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5019",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã An Thịnh",
+   "Tọa độ": " 21°03'43.1\"N 106°16'58.3\"E"
   }
  },
  {
@@ -36584,6 +38607,15 @@
    "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã An Thịnh",
    "Tọa độ": " 21°03'23.9\"N 106°16'26.8\"E",
    "Niên đại chủ đạo": " Đại đình: Cuối thế kỷ 19"
+  }
+ },
+ {
+  "name": "Đình Thanh Lâm",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5027",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã An Thịnh",
+   "Tọa độ": " 21°03'06.1\"N 106°16'39.3\"E"
   }
  },
  {
@@ -36689,6 +38721,15 @@
    "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Bình Định",
    "Tọa độ": " 21°00'10.5\"N 106°09'50.9\"E",
    "Niên đại chủ đạo": " Đại đình: Đầu thế kỷ 21"
+  }
+ },
+ {
+  "name": "Đình Tỉnh Ngô",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5036",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Bình Định",
+   "Tọa độ": " 20°59'41.6\"N 106°09'57.7\"E"
   }
  },
  {
@@ -36840,6 +38881,16 @@
   }
  },
  {
+  "name": "Đình Thái Trì",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5048",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Lâm Thao",
+   "Tọa độ": " 20°58'49.9\"N 106°10'51.2\"E",
+   "Niên đại chủ đạo": " Đầu thế kỷ 21"
+  }
+ },
+ {
   "name": "Lăng phu nhân thứ 3 Tiến sĩ Vũ Miên",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5049",
   "info": {
@@ -36874,6 +38925,16 @@
    "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Minh Tân",
    "Tọa độ": " 21°01'00.9\"N 106°15'49.0\"E",
    "Niên đại chủ đạo": " Tam bảo: Giữa thế kỷ 20"
+  }
+ },
+ {
+  "name": "Nhà thờ họ Vũ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5052",
+  "info": {
+   "Loại hình di tích": " Nhà thờ",
+   "Đối tượng thờ": " Tứ Vị Liệt tổ của Vũ Tộc Ngọc Quan",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Minh Tân",
+   "Tọa độ": " 20°58'27.8\"N 106°10'02.1\"E"
   }
  },
  {
@@ -36959,6 +39020,36 @@
    "Tên khác": " Bảo Lâm",
    "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Phú Hòa",
    "Tọa độ": " 21°03'25.6\"N 106°14'27.8\"E"
+  }
+ },
+ {
+  "name": "Chùa Sùng Quang",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5060",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Phú Hòa",
+   "Tọa độ": " 21°02'28.2\"N 106°14'14.7\"E"
+  }
+ },
+ {
+  "name": "Chùa Tĩnh Xá",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5061",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Phú Hòa",
+   "Tọa độ": " 21°02'13.0\"N 106°13'33.5\"E"
+  }
+ },
+ {
+  "name": "Chùa Văn Xá",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5062",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Phú Hòa",
+   "Tọa độ": " 21°02'47.3\"N 106°15'45.2\"E"
   }
  },
  {
@@ -37066,6 +39157,15 @@
   }
  },
  {
+  "name": "Từ đường họ Đặng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5070",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Phú Hòa",
+   "Tọa độ": " 21°02'44.3\"N 106°15'00.2\"E"
+  }
+ },
+ {
   "name": "Chùa Lương Xá",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5071",
   "info": {
@@ -37087,6 +39187,15 @@
    "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Phú Lương",
    "Tọa độ": " 20°59'42.1\"N 106°13'04.6\"E",
    "Niên đại chủ đạo": " Tiền đường -Đầu thế kỷ 21"
+  }
+ },
+ {
+  "name": "Đền Bích Khê",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5073",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Phú Lương",
+   "Tọa độ": " 20°59'53.0\"N 106°12'03.4\"E"
   }
  },
  {
@@ -37269,6 +39378,16 @@
   }
  },
  {
+  "name": "Đình Lạng Khê",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5088",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Tân lãng",
+   "Tọa độ": " 21°01'51.9\"N 106°12'06.3\"E",
+   "Niên đại chủ đạo": " Đại đình: đầu thế kỷ 20"
+  }
+ },
+ {
   "name": "Đình Tam Sơn",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5089",
   "info": {
@@ -37343,6 +39462,25 @@
    "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Trung Chính",
    "Tọa độ": " 21°00'04.7\"N 106°14'38.7\"E",
    "Niên đại chủ đạo": " Đại đình: Nửa đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Miếu Thiên Đức",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5095",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Trung Chính",
+   "Tọa độ": " 21°00'40.4\"N 106°13'19.8\"E"
+  }
+ },
+ {
+  "name": "Nhà thờ Lai Tê",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5096",
+  "info": {
+   "Loại hình di tích": " Nhà thờ",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Trung Chính",
+   "Tọa độ": " 20°59'50.1\"N 106°13'38.6\"E",
+   "Niên đại khởi dựng": " Nhà thờ: Xây dựng năm 1930, giữa thế kỷ 20"
   }
  },
  {
@@ -37427,6 +39565,16 @@
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 21°02'31.7\"N 106°16'55.1\"E",
    "Niên đại chủ đạo": " Đại đình: Cuối thế kỷ 20"
+  }
+ },
+ {
+  "name": "Chùa Đỉnh Dương",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5103",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Lương Tài, xã Trừng Xá",
+   "Tọa độ": " 21°01'01.2\"N 106°14'33.4\"E"
   }
  },
  {
@@ -37614,6 +39762,16 @@
   }
  },
  {
+  "name": "Văn chỉ họ Phạm",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5117",
+  "info": {
+   "Loại hình di tích": " Văn Chỉ",
+   "Dấu vết vật chất sớm nhất": " - Bia: + Bia không tên - Cuối thế kỷ 19 Hương án - Đầu thế kỷ 20",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Quế Võ, xã Kim Chân",
+   "Tọa độ": " 21°11'56.3\"N 106°06'43.8\"E"
+  }
+ },
+ {
   "name": "Đền Đậu",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5118",
   "info": {
@@ -37698,6 +39856,15 @@
    "Địa chỉ": "Tỉnh Bắc Ninh, huyện Quế Võ, xã Nhân Hòa",
    "Tọa độ": " 21°11'11.4\"N 106°09'01.6\"E",
    "Niên đại chủ đạo": " - Tiền đường nửa đầu thế kỷ 20 - Thượng điện cuối thế kỷ 19 - Nhà tổ đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đền Mẫu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5124",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Quế Võ, xã Phù Lương",
+   "Tọa độ": " 21°08'44.4\"N 106°12'46.9\"E"
   }
  },
  {
@@ -37941,6 +40108,16 @@
    "Quyết định xếp hạng": " số 161/QĐ-CT ngày 8/2/2002",
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 21°09'42.9\"N 106°07'39.9\"E"
+  }
+ },
+ {
+  "name": "Chùa Mao Dộc",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5144",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Tỉnh Bắc Ninh, huyện Quế Võ, xã Phượng Mao",
+   "Tọa độ": " 21°09'18.3\"N 106°08'12.8\"E"
   }
  },
  {
@@ -38223,6 +40400,16 @@
    "Loại hình xếp hạng": " Di tích lịch sử văn hóa",
    "Tọa độ": " 20°58'13.2\"N 105°46'32.3\"E",
    "Niên đại chủ đạo": " Cuối TK 19"
+  }
+ },
+ {
+  "name": "chùa Xa La",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5163",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Tp Hà Nội, quận Hà Đông, phường Phúc La",
+   "Tọa độ": " 20°57'46.5\"N 105°47'13.6\"E",
+   "Niên đại chủ đạo": " Giữa TK 20"
   }
  },
  {
@@ -39134,6 +41321,15 @@
   }
  },
  {
+  "name": "quán Ngãi Cầu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5227",
+  "info": {
+   "Loại hình di tích": " Quán",
+   "Địa chỉ": "Tp. Hà Nội, huyện Hoài Đức, xã An Khánh",
+   "Tọa độ": " 20°59'21.3\"N 105°42'59.4\"E"
+  }
+ },
+ {
   "name": "chùa An Hạ",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5228",
   "info": {
@@ -39205,6 +41401,15 @@
    "Xếp hạng": " Chưa xếp hạng",
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 20°59'15.5\"N 105°42'28.6\"E"
+  }
+ },
+ {
+  "name": "đền Thanh Quang",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5233",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Tp. Hà Nội, huyện Hoài Đức, xã An Thượng",
+   "Tọa độ": " 20°59'05.3\"N 105°42'29.6\"E"
   }
  },
  {
@@ -40770,6 +42975,15 @@
   }
  },
  {
+  "name": "đình Kim Lâm",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5342",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tp.Hà Nội, huyện Thanh Oai, tt Kim Bài",
+   "Xếp hạng": " Chưa xếp hạng"
+  }
+ },
+ {
   "name": "đình Phú Mỹ",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5343",
   "info": {
@@ -40811,6 +43025,15 @@
    "Quyết định xếp hạng": " QĐ số 1586 của UBND tỉnh Hà Tây 28/11/2002",
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Niên đại chủ đạo": " Giữa TK 20"
+  }
+ },
+ {
+  "name": "miếu Ông Già",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5346",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Địa chỉ": "Tp.Hà Nội, huyện Thanh Oai, xã Biên Giang",
+   "Xếp hạng": " Chưa xếp hạng"
   }
  },
  {
@@ -40863,6 +43086,16 @@
    "Quyết định xếp hạng": " UBND tỉnh Hà Tây",
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 20°53'24.8\"N 105°45'49.0\"E"
+  }
+ },
+ {
+  "name": "đình Nội",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5351",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Dấu vết vật chất sớm nhất": " 1 bia 17667, 1 bia 1930",
+   "Địa chỉ": "Tp.Hà Nội, huyện Thanh Oai, xã Bình Minh",
+   "Xếp hạng": " Chưa xếp hạng"
   }
  },
  {
@@ -41015,6 +43248,15 @@
    "Quyết định xếp hạng": " QĐ số 28 ngày 30/9/1983 của Bộ VHTT",
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Niên đại chủ đạo": " Nửa đầu TK 20"
+  }
+ },
+ {
+  "name": "miếu Áng Phao",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5363",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Địa chỉ": "Tp.Hà Nội, huyện Thanh Oai, xã Cao Dương",
+   "Xếp hạng": " Chưa xếp hạng"
   }
  },
  {
@@ -41821,6 +44063,16 @@
   }
  },
  {
+  "name": "chùa Kim Châu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5424",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Dấu vết vật chất sớm nhất": " 1 bia 1731, 1 chuông 1838\u2026",
+   "Địa chỉ": "Tp.Hà Nội, huyện Thanh Oai, xã Kim Thư",
+   "Xếp hạng": " Chưa xếp hạng"
+  }
+ },
+ {
   "name": "đình Đôn Thư",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5425",
   "info": {
@@ -41863,6 +44115,15 @@
   }
  },
  {
+  "name": "nhà thờ Họ Phạm",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5428",
+  "info": {
+   "Loại hình di tích": " Nhà thờ",
+   "Địa chỉ": "Tp.Hà Nội, huyện Thanh Oai, xã Kim Thư",
+   "Xếp hạng": " Chưa xếp hạng"
+  }
+ },
+ {
   "name": "nhà thờ Họ Trịnh",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5429",
   "info": {
@@ -41896,6 +44157,15 @@
    "Địa chỉ": "Tp.Hà Nội, huyện Thanh Oai, xã Kim Thư",
    "Xếp hạng": " Chưa xếp hạng",
    "Niên đại chủ đạo": " Giữa TK 20"
+  }
+ },
+ {
+  "name": "UBND xã Kim Thư",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5432",
+  "info": {
+   "Loại hình di tích": " Di tích lịch sử",
+   "Địa chỉ": "Tp.Hà Nội, huyện Thanh Oai, xã Kim Thư",
+   "Xếp hạng": " Chưa xếp hạng"
   }
  },
  {
@@ -42192,6 +44462,16 @@
   }
  },
  {
+  "name": "chùa Phúc Thụy",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5454",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Tên khác": " (Thiên Thụy Tự",
+   "Địa chỉ": "Tp.Hà Nội, huyện Thanh Oai, xã Tân Ước",
+   "Xếp hạng": " Chưa xếp hạng"
+  }
+ },
+ {
   "name": "chùa Quế Sơn",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5455",
   "info": {
@@ -42418,6 +44698,16 @@
    "Quyết định xếp hạng": " QĐ số 03/2000 ngày 1/3/2000 của Bộ VHTT",
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Niên đại chủ đạo": " Giữa TK 20"
+  }
+ },
+ {
+  "name": "đình My Thượng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5471",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Tp.Hà Nội, huyện Thanh Oai, xã Thanh Mai",
+   "Xếp hạng": " Chưa xếp hạng",
+   "Niên đại chủ đạo": " Mới xây lại"
   }
  },
  {
@@ -43643,6 +45933,25 @@
   }
  },
  {
+  "name": "từ đường Họ Chu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5562",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Dấu vết vật chất sớm nhất": " Nửa cuối KT 19",
+   "Địa chỉ": "Hải Dương, Nam Sách, Nam Đồng",
+   "Tọa độ": " 20°56'05.1\"N 106°21'56.8\"E"
+  }
+ },
+ {
+  "name": "từ đường Họ Nguyễn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5563",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Hải Dương, Nam Sách, Nam Đồng",
+   "Tọa độ": " 20°57'05.3\"N 106°21'50.7\"E"
+  }
+ },
+ {
   "name": "đình Thượng Đáp",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5564",
   "info": {
@@ -43734,6 +46043,24 @@
    "Địa chỉ": "Hải Dương, Nam Sách, Quốc Tuấn",
    "Tọa độ": " 21°01'38.1\"N 106°20'31.5\"E",
    "Niên đại chủ đạo": " Nhà thờ chính: Cuối TK 19"
+  }
+ },
+ {
+  "name": "từ đường Họ Trần",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5571",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Hải Dương, Nam Sách, Quốc Tuấn",
+   "Tọa độ": " 21°01'53.9\"N 106°20'25.8\"E"
+  }
+ },
+ {
+  "name": "nhà bà Trần Thị Ngọ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5572",
+  "info": {
+   "Loại hình di tích": " Nhà cổ",
+   "Địa chỉ": "Hải Dương, Nam Sách, Thanh Quang",
+   "Tọa độ": " 21°02'27.7\"N 106°21'14.4\"E"
   }
  },
  {
@@ -44092,6 +46419,16 @@
    "Địa chỉ": "Hải Dương, Ninh Giang, Ninh Thành",
    "Tọa độ": " 20°45'18.0\"N 106°21'54.4\"E",
    "Niên đại chủ đạo": " Đại bái đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "đình Văn",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5600",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Dấu vết vật chất sớm nhất": " Bia: Bản thôn tạo đình bi ký- Thế kỷ 17",
+   "Địa chỉ": "Hải Dương, Ninh Giang, Quang Hưng",
+   "Tọa độ": " 20°49'18.5\"N 106°31'18.5\"E"
   }
  },
  {
@@ -44550,6 +46887,16 @@
    "Niên đại tuyệt đối": " Hoàng triều Thành Thái Đinh Dậu niên\u2026 đại cát (1897)",
    "Địa chỉ": "Hải Dương, Thanh Miện, Ngũ Hùng",
    "Tọa độ": " 20°45'12.9\"N 106°15'15.8\"E"
+  }
+ },
+ {
+  "name": "chùa Đạo Phái",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5636",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Hải Dương, Thanh Miện, Phạm Kha",
+   "Tọa độ": " 20°48'55.6\"N 106°14'14.7\"E"
   }
  },
  {
@@ -45852,6 +48199,26 @@
   }
  },
  {
+  "name": "Đền Hạ Tụ Nghĩa",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5732",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Đối tượng thờ": " thần",
+   "Địa chỉ": "Vĩnh Phúc, Tam Đảo, Đại Đình",
+   "Tọa độ": " 21°28\u201953\u2019\u2019B; 105°36\u201947\u2019\u2019Đ"
+  }
+ },
+ {
+  "name": "Miếu Sơn Thần",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5733",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Đối tượng thờ": " thần",
+   "Địa chỉ": "Vĩnh Phúc, Tam Đảo, Đại Đình",
+   "Tọa độ": " 21°27'44.2\"N 105°35'04.7\"E"
+  }
+ },
+ {
   "name": "Đình Phong Cầu",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5734",
   "info": {
@@ -45874,6 +48241,15 @@
    "Địa chỉ": "Hải Phòng, Kiến Thụy, Đại Đồng",
    "Tọa độ": " 20°46'29.0\"N 106°40'49.2\"E",
    "Niên đại chủ đạo": " Chùa - Cuối thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đền Phong Cầu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5736",
+  "info": {
+   "Loại hình di tích": " Đền",
+   "Địa chỉ": "Hải Phòng, Kiến Thụy, Đại Đồng",
+   "Tọa độ": " 20°46'29.4\"N 106°40'49.0\"E"
   }
  },
  {
@@ -45957,6 +48333,25 @@
   }
  },
  {
+  "name": "Miếu thờ Trần Thị Dung",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5744",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Đối tượng thờ": " Linh từ quốc mẫu Trần Thị Dung",
+   "Địa chỉ": "Hải Phòng, Thủy Nguyên, thị trấn Minh Đức",
+   "Tọa độ": " 20°57'40.0\"N 106°44'29.4\"E"
+  }
+ },
+ {
+  "name": "Miếu thờ Vũ Lạc",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5745",
+  "info": {
+   "Loại hình di tích": " Miếu",
+   "Địa chỉ": "Hải Phòng, Thủy Nguyên, thị trấn Minh Đức",
+   "Tọa độ": " 20°57'38.9\"N 106°44'26.6\"E"
+  }
+ },
+ {
   "name": "Chùa Cao",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5746",
   "info": {
@@ -46034,6 +48429,16 @@
    "Địa chỉ": "Hải Phòng,Thủy Nguyên, Đông Sơn",
    "Tọa độ": " 20°56'37.2\"N 106°38'44.5\"E",
    "Niên đại chủ đạo": " Đại bái: Nửa đầu thé kỷ 20"
+  }
+ },
+ {
+  "name": "Từ đường họ Bùi",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5752",
+  "info": {
+   "Loại hình di tích": " Từ Đường",
+   "Địa chỉ": "Hải Phòng,Thủy Nguyên, Đông Sơn",
+   "Tọa độ": " 20°56'15.8\"N 106°39'34.1\"E",
+   "Niên đại chủ đạo": " Nhà thờ: Nửa đầu TK20"
   }
  },
  {
@@ -46379,6 +48784,16 @@
   }
  },
  {
+  "name": "Đình Cửu Cao",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5779",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Dấu vết vật chất sớm nhất": " 01 Cửa võng - Đầu thế kỷ 19 06 Sắc phong: Quang Trung 5(1792), Chiêu Thống 1(1787), Cảnh Hưng 44(1783), Cảnh Hưng 28(1767), Cảnh Thịnh 2(1706), Bảo Hưng 2(1802)",
+   "Địa chỉ": "tỉnh Hưng Yên, huyện Văn Giang, xã Cửu Cao",
+   "Tọa độ": " 20°57'30.0\"N 105°57'04.9\"E"
+  }
+ },
+ {
   "name": "Đình Lại ốc",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5780",
   "info": {
@@ -46586,6 +49001,26 @@
   }
  },
  {
+  "name": "Đình Vĩnh An",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5795",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Đối tượng thờ": " Thành hoàng làng",
+   "Địa chỉ": "tỉnh Hưng Yên, huyện Văn Giang, xã Vĩnh Khúc",
+   "Tọa độ": " 20°56'20.4\"N 106°00'10.3\"E"
+  }
+ },
+ {
+  "name": "Đình Vĩnh Khúc",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5796",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Đối tượng thờ": " Thành hoàng làng",
+   "Địa chỉ": "tỉnh Hưng Yên, huyện Văn Giang, xã Vĩnh Khúc",
+   "Tọa độ": " 20°56'20.4\"N 106°00'10.3\"E"
+  }
+ },
+ {
   "name": "Đình Triệu Đà",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5797",
   "info": {
@@ -46693,6 +49128,16 @@
   }
  },
  {
+  "name": "Chùa Vĩnh An",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5805",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "tỉnh Hưng Yên, huyện Văn Giang, xã Nghĩa Trụ",
+   "Tọa độ": " 20°57'19.1\"N 105°59'17.0\"E"
+  }
+ },
+ {
   "name": "Chùa Ngò",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5806",
   "info": {
@@ -46739,6 +49184,16 @@
    "Địa chỉ": "tỉnh Hưng Yên, huyện Văn Giang, xã Thắng Lợi",
    "Tọa độ": " 20°54'33.3\"N 105°55'11.0\"E",
    "Niên đại chủ đạo": " Tam bảo: Thế kỷ 20"
+  }
+ },
+ {
+  "name": "Chùa Chợ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5810",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "tỉnh Hưng Yên, huyện Văn Giang, thị trấn Văn Giang",
+   "Tọa độ": " 20°56'27.5\"N 105°55'52.3\"E"
   }
  },
  {
@@ -46833,6 +49288,16 @@
    "Địa chỉ": "tỉnh Hưng Yên, huyện Văn Giang, xã Cửu Cao",
    "Tọa độ": " 20°57'30.0\"N 105°57'04.9\"E",
    "Niên đại chủ đạo": " Tam bảo: Nửa đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Lăng Miếu",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5818",
+  "info": {
+   "Loại hình di tích": " Lăng",
+   "Đối tượng thờ": " Thành hoàng làng",
+   "Địa chỉ": "tỉnh Hưng Yên, huyện Văn Giang, xã Nghĩa Trụ",
+   "Tọa độ": " 20°57'19.2\"N 105°59'17.0\"E"
   }
  },
  {
@@ -47490,6 +49955,15 @@
   }
  },
  {
+  "name": "Làng Nôm",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5870",
+  "info": {
+   "Loại hình di tích": " Làng cổ",
+   "Địa chỉ": "tỉnh Hưng Yên, huyện Văn Lâm, xã Đại Đồng",
+   "Tọa độ": " 20°59'34.5\"N 106°03'56.1\"E"
+  }
+ },
+ {
   "name": "Đình Đào Quạt",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5871",
   "info": {
@@ -47624,6 +50098,16 @@
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 20°49'27.3\"N 106°06'40.8\"E",
    "Niên đại chủ đạo": " Đại đình: Nửa đầu thế kỷ 20, ống muống+ Hạu cung: Đầu thế kỷ 21"
+  }
+ },
+ {
+  "name": "Đình Ngô Xá",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5880",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Hưng Yên, Ân Thi, Quảng Lăng",
+   "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
+   "Tọa độ": " 20°48'30.9\"N 106°03'58.6\"E"
   }
  },
  {
@@ -47941,6 +50425,16 @@
    "Xếp hạng": " Di tích cấp Quốc gia",
    "Quyết định xếp hạng": " nâm 1989",
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
+   "Tọa độ": " 20°53'31.4\"N 106°08'11.6\"E"
+  }
+ },
+ {
+  "name": "Phủ Chúa",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5902",
+  "info": {
+   "Loại hình di tích": " Phủ",
+   "Đối tượng thờ": " Cung phi Tĩnh Huệ",
+   "Địa chỉ": "Hưng Yên, Ân Thi, Phù Ủng",
    "Tọa độ": " 20°53'31.4\"N 106°08'11.6\"E"
   }
  },
@@ -48293,6 +50787,16 @@
   }
  },
  {
+  "name": "Đình Dương Trạch",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5928",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Hưng Yên, Khoái Châu, Tân Dân",
+   "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
+   "Tọa độ": " 20°51'48.9\"N 105°58'59.1\"E"
+  }
+ },
+ {
   "name": "Đình Bình Dân",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5929",
   "info": {
@@ -48439,6 +50943,16 @@
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 20°50'16.2\"N 106°00'43.3\"E",
    "Niên đại chủ đạo": " Tam bảo: Thế kỷ 20"
+  }
+ },
+ {
+  "name": "Chùa Đào Viên",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5941",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Hưng Yên, Khoái Châu, Dân Tiến",
+   "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
+   "Tọa độ": " 20°50'16.2\"N 106°00'43.3\"E"
   }
  },
  {
@@ -48591,6 +51105,26 @@
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 20°48'14.8\"N 105°59'31.3\"E",
    "Niên đại chủ đạo": " Tiền đường: Nửa đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Chùa Dương Trạch",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5953",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Hưng Yên, Khoái Châu, Tân Dân",
+   "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
+   "Tọa độ": " 20°51'48.9\"N 105°58'59.1\"E"
+  }
+ },
+ {
+  "name": "Chùa Quan Xuyên",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5954",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Địa chỉ": "Hưng Yên, Khoái Châu, Thành Công",
+   "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
+   "Tọa độ": " 20°46'09.4\"N 105°59'35.7\"E"
   }
  },
  {
@@ -49037,6 +51571,16 @@
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Tọa độ": " 20°43'15.4\"N 106°05'53.3\"E",
    "Niên đại chủ đạo": " Đại đình: Nửa đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Đình Linh Hạ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=5989",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Địa chỉ": "Hưng Yên, Tiên Lữ, Nhật Tân",
+   "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
+   "Tọa độ": " 20°41'45.4\"N 106°05'25.9\"E"
   }
  },
  {
@@ -50343,6 +52887,16 @@
   }
  },
  {
+  "name": "Chùa Đặng Xá (Hằng Thuỷ)",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6090",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Hưng Yên, Yên Mỹ, Thanh Long",
+   "Tọa độ": " 20°53'26.8\"N 106°01'20.0\"E"
+  }
+ },
+ {
   "name": "Chùa Nhân Lý (Kim Liên)",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6091",
   "info": {
@@ -50507,6 +53061,15 @@
    "Xếp hạng": " Di tích cấp Quốc gia",
    "Tọa độ": " 20°52'27.1\"N 106°03'35.3\"E",
    "Niên đại chủ đạo": " Đại bái- Nửa đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Nghè Thiên Lộc",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6106",
+  "info": {
+   "Loại hình di tích": " Nghè",
+   "Địa chỉ": "Hưng Yên, Yên Mỹ, Trung Hoà",
+   "Tọa độ": " 20°52'27.1\"N 106°03'35.3\"E"
   }
  },
  {
@@ -50740,6 +53303,16 @@
   }
  },
  {
+  "name": "Nhà bà Phạm Thị Hay",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6125",
+  "info": {
+   "Loại hình di tích": " Nhà cổ",
+   "Địa chỉ": "Hải Phòng, Tiên Lãng, Toàn Thắng",
+   "Tọa độ": " 20°42'34.3\"N 106°36'14.1\"E",
+   "Niên đại chủ đạo": " Nhà chính: Đầu thế kỷ 20"
+  }
+ },
+ {
   "name": "Nhà bà Nguyễn thị Đé",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6126",
   "info": {
@@ -50748,6 +53321,16 @@
    "Địa chỉ": "Hải Phòng, Tiên Lãng, Toàn Thắng",
    "Tọa độ": " 20°42'31.6\"N 106°36'03.3\"E",
    "Niên đại chủ đạo": " Nhà chính: Đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Nhà ông Nguyễn Văn Ánh",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6127",
+  "info": {
+   "Loại hình di tích": " Nhà cổ",
+   "Địa chỉ": "Hải Phòng, Tiên Lãng, Toàn Thắng",
+   "Tọa độ": " 20°42'31.6\"N 106°36'03.4\"E",
+   "Niên đại chủ đạo": " Nhà chính: PCNT Giữa thế kỷ 20"
   }
  },
  {
@@ -50832,6 +53415,16 @@
    "Quyết định xếp hạng": " UBND Tỉnh \u2013 2006",
    "Tọa độ": " 20°41'25.5\"N 106°37'30.0\"E",
    "Niên đại chủ đạo": " Đại đình: Đầu thế kỷ 20"
+  }
+ },
+ {
+  "name": "Chùa Đông Trúc",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6134",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Đối tượng thờ": " Phật",
+   "Địa chỉ": "Hải Phòng, Thủy Nguyên, thị trấn Minh Đức",
+   "Tọa độ": " 20°57'23.4\"N 106°44'48.4\"E"
   }
  },
  {
@@ -50987,6 +53580,16 @@
   }
  },
  {
+  "name": "Đình Hạ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6147",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Niên đại tuyệt đối": " Tiền bái: Việt Nam ất dậu (1995) \u2013 Thượng lương, đại bái: Bảo Đại 3 (1928) \u2013 Câu đầu trái",
+   "Địa chỉ": "Ninh Bình, Gia Viễn, Gia Hưng",
+   "Niên đại chủ đạo": " Tiền bái: Nửa cuối Tk19, Đại bái: nửa đầu Tk20"
+  }
+ },
+ {
   "name": "Đình Gia Phong",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6148",
   "info": {
@@ -51040,6 +53643,15 @@
   }
  },
  {
+  "name": "Đình Văn Bồng",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6152",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Đối tượng thờ": " Đinh Tiên Hoàng",
+   "Địa chỉ": "Ninh Bình, Gia Viễn, Gia Phương"
+  }
+ },
+ {
   "name": "Đình Núi Thiệu",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6153",
   "info": {
@@ -51066,6 +53678,16 @@
    "Quyết định xếp hạng": " BVHTT&DL",
    "Loại hình xếp hạng": " Di tích kiến trúc nghệ thuật",
    "Niên đại chủ đạo": " Đại bái: cuối Tk19"
+  }
+ },
+ {
+  "name": "Đình Trùng Hạ",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6155",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Đối tượng thờ": " Triệu Việt Vương, Tô Hiến Thành",
+   "Địa chỉ": "Ninh Bình, Gia Viễn, Gia Tân",
+   "Niên đại chủ đạo": " Đại bái: Nửa sau Tk17"
   }
  },
  {
@@ -51200,6 +53822,16 @@
   }
  },
  {
+  "name": "Đình Mai Trung",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6167",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Đối tượng thờ": " Ngọ Sơn Đại Vương",
+   "Dấu vết vật chất sớm nhất": " 05 sắc phong: 02 sắc phong Khải Định 9 (1924), Duy Tân 5 (1911), Duy Tân 3 (1909), Thành Thái 13 (1860), 01 bộ bát bửu, 01 nhang án \u2013 Tk19",
+   "Địa chỉ": "Ninh Bình, Gia Viễn, Gia Vân"
+  }
+ },
+ {
   "name": "Đình Tập Ninh",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6168",
   "info": {
@@ -51238,6 +53870,16 @@
   }
  },
  {
+  "name": "Đình Vũ Đại",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6171",
+  "info": {
+   "Loại hình di tích": " Đình",
+   "Niên đại tuyệt đối": " đại đình: Nguyễn Hoàng Triều Nhâm Dần niên thụ trụ thượng lương (1902) \u2013 Thượng lương",
+   "Địa chỉ": "Ninh Bình, Gia Viễn, Gia Xuân",
+   "Niên đại chủ đạo": " đại đình: Đầu Tk20"
+  }
+ },
+ {
   "name": "Đình Bình Khang",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6172",
   "info": {
@@ -51250,6 +53892,26 @@
   }
  },
  {
+  "name": "Chùa Sào Long",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6173",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Dấu vết vật chất sớm nhất": " 01 bia - PCNT cuối Tk16 đầu Tk17",
+   "Địa chỉ": "Ninh Bình, Gia Viễn, Gia Lập",
+   "Niên đại chủ đạo": " Nửa sau 20"
+  }
+ },
+ {
+  "name": "Chùa Xuân Đài",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6174",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Niên đại tuyệt đối": " Tiền đường: Tuế Thứ Quý Mùi 2003 \u2013 Thượng lương",
+   "Địa chỉ": "Ninh Bình, Gia Viễn, Gia Lập",
+   "Niên đại chủ đạo": " Tiền đường: Cuối Tk19, Thượng điện: đầu Tk20"
+  }
+ },
+ {
   "name": "Chùa Giá Thượng",
   "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6175",
   "info": {
@@ -51258,6 +53920,16 @@
    "Địa chỉ": "Ninh Bình, Gia Viễn, Gia Hoà",
    "Xếp hạng": " Di tích cấp Tỉnh",
    "Niên đại chủ đạo": " Tiền đường: nửa đầu Tk20, Thượng điện: nửa sau Tk20, Nhà tổ: cuối Tk19 đầu Tk20"
+  }
+ },
+ {
+  "name": "Chùa Hoàng Quyển",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6176",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Niên đại tuyệt đối": " Tiền đường: Lê triều tạo lập CHXHCN VN \u2013 Thượng lương",
+   "Địa chỉ": "Ninh Bình, Gia Viễn, Gia Hoà",
+   "Niên đại chủ đạo": " Nửa sau 20"
   }
  },
  {
@@ -51280,6 +53952,16 @@
    "Niên đại tuyệt đối": " Tiền đường: Khải Định vạn vạn niên \u2013 Thượng lương, Tiền đường: Hoàng triều Duy Tân vạn vạn niên \u2013 Thượng lương",
    "Địa chỉ": "Ninh Bình, Gia Viễn, Gia Phong",
    "Niên đại chủ đạo": " Tiền sảnh, tiền đường - Đầu Tk20"
+  }
+ },
+ {
+  "name": "Chùa Vân Thị",
+  "url": "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=6179",
+  "info": {
+   "Loại hình di tích": " Chùa",
+   "Dấu vết vật chất sớm nhất": " 01 chuông: \u201ckhánh vân tự chung\u201d \u2013 Tự Đức 4 (1851)",
+   "Địa chỉ": "Ninh Bình, Gia Viễn, Gia Tân",
+   "Niên đại chủ đạo": " Nửa sau 20"
   }
  },
  {

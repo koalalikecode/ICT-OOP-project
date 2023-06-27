@@ -35,14 +35,15 @@ public class DiTich extends Crawler {
                 throw new RuntimeException(e);
             }
             Elements divItems = doc.select("div.hl__illustrated-list__list-item>span:not(.hl__illustrated-list__image-wrapper)");
-            if(divItems.size()<10) continue;
+            if(doc.select("h2.hl__comp-heading.hl__comp_heading_custom").size()<3) continue;
             Place diTich = new Place();
             String name = doc.select("div.hl__library-info__features>section>h2").text();
             diTich.setName(name);
             diTich.setUrl(pageToScrape);
             JSONObject info = new JSONObject();
-            //String diachi = doc.selectFirst("div.hl__contact-info__address>span").text();
+            if(doc.selectFirst("div.hl__contact-info__address>span.address-line1")!=null)
             info.put("Địa chỉ",doc.selectFirst("div.hl__contact-info__address>span.address-line1").text());
+            else info.put("Địa chỉ","không rõ");
 //            Elements divItems = doc.select("div.hl__illustrated-list__list-item>span:not(.hl__illustrated-list__image-wrapper)");
             for(int i=0; i<divItems.size(); i++) {
                 String divText = divItems.get(i).text();
