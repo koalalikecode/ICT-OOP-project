@@ -20,7 +20,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Event" textAlignment="CENTER" textFill="WHITE">
+                  <Button fx:id="btnEvent" alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Event" textAlignment="CENTER" textFill="WHITE">
                      <graphic>
                         <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
                            <image>

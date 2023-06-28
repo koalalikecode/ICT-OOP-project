@@ -1,10 +1,21 @@
+/* Việc cần làm khi sửa code :
+    * 1. Tối ưu exception handling trong file
+    * 2.
+ */
+
+
+
 package appgui;
 
 import historyobject.Character;
 
 import historyobject.CharacterTest;
 import javafx.collections.FXCollections;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
+import javafx.event.EventHandler;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
@@ -14,6 +25,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.input.MouseEvent;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -21,6 +33,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.collections.ObservableList;
 import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
+import javafx.stage.Stage;
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -33,12 +46,36 @@ public class CharacterController implements Initializable {
     private String dataJson = "data/final.json";
     private JSONObject characterInfoBox;
 
+//    Menu Buttons
+    @FXML
+    private Button btnCharacter;
+    @FXML
+    private Button btnDynasty;
+    @FXML
+    private Button btnEvent;
+    @FXML
+    private Button btnFestival;
+    @FXML
+    private Button btnPlace;
+
+//    @FXML
+//    private void handleButtonAction(ActionEvent event) throws IOException {
+//        String fxmlFile;
+//        FXMLLoader loader = new FXMLLoader(getClass().getResource("eventPane.fxml"));
+//        Pane newPane = loader.load();
+//        Scene currentScene = btnEvent.getScene();
+//        currentScene.setRoot(newPane);
+//    }
+
+
 //    Scenes
     private Scene sceneCharacter;
     private Scene sceneDynasty;
     private Scene sceneEvent;
     private Scene sceneFestival;
     private Scene scenePlace;
+
+
 
 //    Search Character
     @FXML
@@ -70,9 +107,7 @@ public class CharacterController implements Initializable {
             printData execDataCharacter = new printData(characterList);
             tbcName.setCellValueFactory(new PropertyValueFactory<Character, String>("name"));
             dataCharacter = FXCollections.observableArrayList(characterList);
-            tbvCharacters.setItems(
-                dataCharacter
-            );
+            tbvCharacters.setItems(dataCharacter);
 
             searchCharacter.setOnKeyReleased(event -> searchCharacter());
 
@@ -131,12 +166,35 @@ public class CharacterController implements Initializable {
 
                     infoScrollPane.setContent(infoAnchorPane);
                 }
+
             });
+
+            addSceneSwitchingHandler(btnEvent, "eventPane.fxml");
+            addSceneSwitchingHandler(btnCharacter, "characterPane.fxml");
+            addSceneSwitchingHandler(btnDynasty, "dynastyPane.fxml");
+            addSceneSwitchingHandler(btnFestival, "festivalPane.fxml");
+            addSceneSwitchingHandler(btnPlace, "placePane.fxml");
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
     }
+
+    private void addSceneSwitchingHandler(Button button, String fxmlFile) {
+        button.setOnAction(event -> {
+            try {
+                FXMLLoader loader = new FXMLLoader(getClass().getResource(fxmlFile));
+                Parent root = loader.load();
+                Stage stage = (Stage) button.getScene().getWindow();
+                stage.setScene(new Scene(root));
+                stage.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        });
+    }
+
 
     private void searchCharacter() {
         String searchQuery = searchCharacter.getText().trim().toLowerCase();
