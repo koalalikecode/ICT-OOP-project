@@ -19,6 +19,8 @@ public class Main extends Application {
         Scene sc = new Scene(root);
 //        stage.initStyle(StageStyle.UNDECORATED);
 
+        String css = this.getClass().getResource("style.css").toExternalForm();
+        sc.getStylesheets().add(css);
         root.setOnMousePressed(event -> {
             x = event.getSceneX();
             y = event.getSceneY();

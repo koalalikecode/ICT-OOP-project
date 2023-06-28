@@ -4,22 +4,12 @@ import org.json.JSONObject;
 
 import java.util.List;
 
-public class Character {
-    private String id;
+public class Event {
     private String name;
     private String url;
     private JSONObject info;
     private String description;
     private List<JSONObject> connection;
-
-    public Character() {}
-    public Character(String name,String description, String url, JSONObject info, List<JSONObject> connection) {
-        this.name = name;
-        this.url = url;
-        this.info = info;
-        this.description = description;
-        this.connection = connection;
-    }
 
     public JSONObject getInfo() {
         return info;

@@ -1,0 +1,4064 @@
+[
+ {
+  "name": "Chiến tranh Bách Việt-Tần (218 TCN - 208 TCN)",
+  "description": "Chiến tranh Việt \u2013 Tần là cuộc kháng chiến chống nhà Tần mở rộng về phía nam của các bộ tộc Bách Việt ở vùng Hoa Nam, đây là các tộc người phân bố ở miền nam Trung hoa và Bắc Bộ Việt Nam hiện nay. Chiến dịch diễn ra 221 TCN đến năm 214 TCN, nghĩa là nhà Tần thực hiện mở rộng lãnh thổ về phía nam ngay sau khi thống nhất Trung Quốc.",
+  "connection": [
+   {
+    "name": "Nhà Tần",
+    "url": "/wiki/Nh%C3%A0_T%E1%BA%A7n"
+   },
+   {
+    "name": "An Dương Vương",
+    "url": "/wiki/An_D%C6%B0%C6%A1ng_V%C6%B0%C6%A1ng"
+   },
+   {
+    "name": "Âu Lạc",
+    "url": "/wiki/%C3%82u_L%E1%BA%A1c"
+   },
+   {
+    "name": "Tần Thủy Hoàng",
+    "url": "/wiki/T%E1%BA%A7n_Th%E1%BB%A7y_Ho%C3%A0ng"
+   },
+   {
+    "name": "Triệu Đà",
+    "url": "/wiki/Tri%E1%BB%87u_V%C5%A9_V%C6%B0%C6%A1ng"
+   },
+   {
+    "name": "Nam Việt",
+    "url": "/wiki/Nam_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Phiên Ngung (kinh đô)",
+    "url": "/wiki/Phi%C3%AAn_Ngung_(kinh_%C4%91%C3%B4)"
+   },
+   {
+    "name": "Mân Việt",
+    "url": "/wiki/M%C3%A2n_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Lưỡng Quảng",
+    "url": "/wiki/L%C6%B0%E1%BB%A1ng_Qu%E1%BA%A3ng"
+   },
+   {
+    "name": "Bách Việt",
+    "url": "/wiki/B%C3%A1ch_Vi%E1%BB%87t"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_T%E1%BA%A7n-Vi%E1%BB%87t",
+  "info": {
+   "Địa điểm": "Hoa Nam và miền Bắc Việt Nam (tranh chấp)",
+   "Tham chiến": {
+    "phe 2": "Nhà Tần",
+    "phe 1": "Bách Việt"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Đồ Thư Sử Lộc",
+    "phe 1": "Dịch Hu Tống Thục Phán (hoặc Kiệt Tuấn)"
+   },
+   "Kết quả": "Nhà Tần chiếm được nhiều vùng lãnh thổ ở phương Nam, lập ra ba quận là Nam Hải, Quế Lâm, và Tượng Quận vào năm 214 TCN Tộc Âu Việt do Thục Phán chỉ huy kháng cự thành công",
+   "Thương vong và tổn thất": {
+    "phe 2": "Không rõ",
+    "phe 1": "Không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "Ước tính hơn 500.000 quân",
+    "phe 1": "Không rõ"
+   },
+   "Thời gian": "221\u2013 214 TCN"
+  }
+ },
+ {
+  "name": "Chiến tranh Nam Việt-Tây Hán (111 TCN)",
+  "description": "Chiến tranh Hán\u2013Nam Việt là một cuộc chiến tranh giữa nhà Tây Hán và nước Nam Việt vào cuối thế kỷ 2 trước Công nguyên.",
+  "connection": [],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_H%C3%A1n-Nam_Vi%E1%BB%87t",
+  "info": {
+   "Địa điểm": "Lưỡng Quảng và miền Bắc Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Nam Việt",
+    "phe 1": "Nhà Hán"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Triệu Dương Vương \u2020 Lữ Gia \u2020",
+    "phe 1": "Lộ Bác Đức Dương Bộc"
+   },
+   "Kết quả": "Nhà Hán chiến thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "không rõ",
+    "phe 1": "không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "không rõ",
+    "phe 1": "100.000"
+   },
+   "Thời gian": "111 TCN"
+  }
+ },
+ {
+  "name": "Khởi nghĩa Hai Bà Trưng (40)",
+  "description": "Từ khi nhà Triệu tiêu diệt An Dương Vương và thiết lập quyền cai trị trên lãnh thổ Âu Lạc cũ, chế độ thống trị dừng lại ở cấp quận với đại diện là 2 viên quan sứ ở 2 quận Giao Chỉ và Cửu Chân. Đến khi nhà Tây Hán diệt nhà Triệu và mở ra thời kỳ Bắc thuộc (111 TCN), cấp độ thống trị vẫn ở cấp quận; chế độ các Lạc hầu, Lạc tướng của người Việt với quyền thế tập trên lãnh thổ Âu Lạc cũ được các chính quyền phương Bắc chấp nhận cho duy trì, nhưng ngày càng suy yếu.",
+  "connection": [],
+  "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Hai_B%C3%A0_Tr%C6%B0ng",
+  "info": {
+   "Địa điểm": "Miền Bắc Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Lạc Việt",
+    "phe 1": "Nhà Hán"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Trưng Trắc [b] Trưng Nhị Đô Dương",
+    "phe 1": "Mã Viện[a] Lưu Long"
+   },
+   "Kết quả": "Nhà Hán chiến thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "Quân hai bà Trưng: \u2022 vài ngàn quân thiệt mạng; \u2022 hơn 20,000 quân đầu hàng[3][4] Quân Đô Dương: \u2022 hơn 5,000 (tiệt mang và đầu hàng);[3] \u2022 hơn 300 bị đày ải[5]",
+    "phe 1": "40\u201350% quân Hán (chủ yếu là do bệnh)[2]"
+   },
+   "Lực lượng": {
+    "phe 2": "Không rõ",
+    "phe 1": "20,000 quân 2,000 thuyền chiến[1]"
+   },
+   "Thời gian": "40\u201343 AD (khởi nghĩa) 42\u201343 AD (nhà Hán can thiệp)"
+  }
+ },
+ {
+  "name": "Chiến tranh Lĩnh Nam-Đông Hán (42 - 43)",
+  "description": "Chiến tranh Hán-Việt 42-43 là tên gọi của cuộc chiến do tướng nhà Đông Hán Mã Viện chỉ huy chống lại quân nổi dậy của Hai Bà Trưng ở đất Việt năm 42-43.",
+  "connection": [
+   {
+    "name": "Hai Bà Trưng",
+    "url": "/wiki/Hai_B%C3%A0_Tr%C6%B0ng"
+   },
+   {
+    "name": "Mã Viện",
+    "url": "/wiki/M%C3%A3_Vi%E1%BB%87n"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_H%C3%A1n-Vi%E1%BB%87t,_42-43",
+  "info": {
+   "Địa điểm": "Giao Chỉ, nay là miền Bắc Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Nhà Đông Hán",
+    "phe 1": "Quân đội Hai Bà Trưng"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Mã Viện Lưu Long Hàn Vũ (tướng nhà Đông Hán) \u2020",
+    "phe 1": "Trưng Trắc \u2020 Trưng Nhị \u2020 Thánh Thiên \u2020 Lê Chân Đô Dương Chu Bá Lã Văn Ất Thiều Hoa Ngọc Lâm Vũ Thục Nương"
+   },
+   "Kết quả": "Quân Hán chiến thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "Khoảng 10.000 quân bị giết hoặc chết do bệnh tật",
+    "phe 1": "Vài nghìn bị giết, hơn 10.000 bị bắt[1]"
+   },
+   "Lực lượng": {
+    "phe 2": "Khoảng 20.000 quân",
+    "phe 1": "Khoảng 20.000 quân"
+   },
+   "Thời gian": "42-43"
+  }
+ },
+ {
+  "name": "Khởi nghĩa Chu Đạt (157 - 160)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Chu_%C4%90%E1%BA%A1t",
+  "info": {}
+ },
+ {
+  "name": "Khởi nghĩa Lương Long (178 - 181)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Bắc thuộc",
+    "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c"
+   },
+   {
+    "name": "Bắc thuộc lần 2",
+    "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_2"
+   },
+   {
+    "name": "Giao Châu",
+    "url": "/wiki/Giao_Ch%C3%A2u"
+   },
+   {
+    "name": "Giao Chỉ",
+    "url": "/wiki/Giao_Ch%E1%BB%89"
+   }
+  ],
+  "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_L%C6%B0%C6%A1ng_Long",
+  "info": {}
+ },
+ {
+  "name": "Khởi nghĩa Bà Triệu (248)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_B%C3%A0_Tri%E1%BB%87u",
+  "info": {}
+ },
+ {
+  "name": "Chiến dịch Giao-Quảng (268 - 271)",
+  "description": "Chiến dịch Giao Quảng (còn gọi theo Hán Việt là Giao Chỉ chi loạn hoặc Tấn Ngô Giao Chỉ chi chiến) là cuộc chiến thời Tam Quốc giữa hai nước Tấn và Đông Ngô trong lịch sử Trung Quốc.",
+  "connection": [
+   {
+    "name": "Tam Quốc",
+    "url": "/wiki/Tam_Qu%E1%BB%91c"
+   },
+   {
+    "name": "Lã Hưng",
+    "url": "/wiki/L%C3%A3_H%C6%B0ng"
+   },
+   {
+    "name": "Đào Hoàng",
+    "url": "/wiki/%C4%90%C3%A0o_Ho%C3%A0ng"
+   },
+   {
+    "name": "Dương Tắc",
+    "url": "/wiki/D%C6%B0%C6%A1ng_T%E1%BA%AFc"
+   },
+   {
+    "name": "Tôn Hạo",
+    "url": "/wiki/T%C3%B4n_H%E1%BA%A1o"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_Giao-Qu%E1%BA%A3ng",
+  "info": {}
+ },
+ {
+  "name": "Khởi nghĩa Triệu Chỉ (299)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Bắc thuộc",
+    "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c"
+   },
+   {
+    "name": "Nhà Hán",
+    "url": "/wiki/Nh%C3%A0_H%C3%A1n"
+   },
+   {
+    "name": "Nam Bắc triều (Trung Quốc)",
+    "url": "/wiki/Nam-B%E1%BA%AFc_tri%E1%BB%81u_(Trung_Qu%E1%BB%91c)"
+   },
+   {
+    "name": "Lâm Ấp",
+    "url": "/wiki/L%C3%A2m_%E1%BA%A4p"
+   },
+   {
+    "name": "Lý Trường Nhân",
+    "url": "/wiki/L%C3%BD_Tr%C6%B0%E1%BB%9Dng_Nh%C3%A2n"
+   },
+   {
+    "name": "Bà Triệu",
+    "url": "/wiki/B%C3%A0_Tri%E1%BB%87u"
+   },
+   {
+    "name": "Nhà Tiền Lý",
+    "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%BD"
+   },
+   {
+    "name": "Bắc thuộc lần 1",
+    "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_1"
+   },
+   {
+    "name": "Bắc thuộc lần 3",
+    "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_3"
+   },
+   {
+    "name": "Văn hóa Đông Sơn",
+    "url": "/wiki/V%C4%83n_h%C3%B3a_%C4%90%C3%B4ng_S%C6%A1n"
+   }
+  ],
+  "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Tri%E1%BB%87u_Ch%E1%BB%89",
+  "info": {"": "Nhà Tiền Lý "}
+ },
+ {
+  "name": "Khởi nghĩa Lý Bí (542)",
+  "description": "Chiến tranh Tiền Lý - Lương là cuộc chiến bùng nổ từ năm 545 đến năm 550 kéo dài 5 năm do Triệu Quang Phục lãnh đạo chống quân Lương.",
+  "connection": [
+   {
+    "name": "Nhà Tiền Lý",
+    "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%BD"
+   },
+   {
+    "name": "Lý Bí",
+    "url": "/wiki/L%C3%BD_B%C3%AD"
+   },
+   {
+    "name": "Triệu Quang Phục",
+    "url": "/wiki/Tri%E1%BB%87u_Quang_Ph%E1%BB%A5c"
+   },
+   {
+    "name": "Trần Bá Tiên",
+    "url": "/wiki/Tr%E1%BA%A7n_B%C3%A1_Ti%C3%AAn"
+   },
+   {
+    "name": "Phạm Tu",
+    "url": "/wiki/Ph%E1%BA%A1m_Tu"
+   },
+   {
+    "name": "Triệu Túc",
+    "url": "/wiki/Tri%E1%BB%87u_T%C3%BAc"
+   },
+   {
+    "name": "Tinh Thiều",
+    "url": "/wiki/Tinh_Thi%E1%BB%81u"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Ti%E1%BB%81n_L%C3%BD%E2%80%93L%C6%B0%C6%A1ng_(545-550)",
+  "info": {
+   "Địa điểm": "nước Vạn Xuân",
+   "Tham chiến": {
+    "phe 2": "Nhà Lương",
+    "phe 1": "Nhà Tiền Lý"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Trần Bá Tiên Dương Phiêu Tiêu Bột Dương Sàn",
+    "phe 1": "Lý Bí Triệu Quang Phục Triệu Túc Phạm Tu Tinh Thiều."
+   },
+   "Kết quả": "Lý Bí thua trận Triệu Quang Phục đánh tan quân Lương, lên ngôi vua (Triệu Việt Vương).",
+   "Thương vong và tổn thất": {
+    "phe 2": "300.000 quân tử trận",
+    "phe 1": "140.000 quân tử trận"
+   },
+   "Lực lượng": {
+    "phe 2": "500.000 quân",
+    "phe 1": "300.000 quân"
+   },
+   "Thời gian": "545\u2013 550"
+  }
+ },
+ {
+  "name": "Chiến tranh Tĩnh Hải quân-Nam Hán lần 2 (938)",
+  "description": "Trận Bạch Đằng (chữ Hán: 白藤江之戰) năm 938 là một trận đánh giữa quân dân Tĩnh Hải quân (vào thời đó, Việt Nam chưa có quốc hiệu chính thức) do Ngô Quyền lãnh đạo đánh với quân Nam Hán trên sông Bạch Đằng. Kết quả là người Việt giành thắng lợi lớn nhờ kế sách cắm cọc nhọn dưới lòng sông Bạch Đằng của Ngô Quyền.[1] Trước sự chiến đấu dũng mãnh của người Việt, quá nửa quân Nam Hán chết đuối, Hoàng tử Nam Hán là Lưu Hoằng Tháo cũng tử trận[1]. Đây là một trận đánh quan trọng trong lịch sử Việt Nam. Nó đánh dấu cho việc chấm dứt hơn 1000 năm Bắc thuộc của Việt Nam, nối lại quốc thống cho người Việt[1].",
+  "connection": [
+   {
+    "name": "Các bãi cọc trên sông Bạch Đằng",
+    "url": "/wiki/C%C3%A1c_b%C3%A3i_c%E1%BB%8Dc_tr%C3%AAn_s%C3%B4ng_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng"
+   },
+   {
+    "name": "Ngô Xương Ngập",
+    "url": "/wiki/Ng%C3%B4_X%C6%B0%C6%A1ng_Ng%E1%BA%ADp"
+   },
+   {
+    "name": "Dương Đình Nghệ",
+    "url": "/wiki/D%C6%B0%C6%A1ng_%C4%90%C3%ACnh_Ngh%E1%BB%87"
+   },
+   {
+    "name": "Ngô Quyền",
+    "url": "/wiki/Ng%C3%B4_Quy%E1%BB%81n"
+   },
+   {
+    "name": "Dương Tam Kha",
+    "url": "/wiki/D%C6%B0%C6%A1ng_Tam_Kha"
+   },
+   {
+    "name": "Kiều Công Tiễn",
+    "url": "/wiki/Ki%E1%BB%81u_C%C3%B4ng_Ti%E1%BB%85n"
+   },
+   {
+    "name": "Nam Hán",
+    "url": "/wiki/Nam_H%C3%A1n"
+   },
+   {
+    "name": "Lưu Nghiễm",
+    "url": "/wiki/Nam_H%C3%A1n_Cao_T%E1%BB%95"
+   },
+   {
+    "name": "Nguyễn Tất Tố",
+    "url": "/wiki/Nguy%E1%BB%85n_T%E1%BA%A5t_T%E1%BB%91"
+   },
+   {
+    "name": "Đào Nhuận",
+    "url": "/wiki/%C4%90%C3%A0o_Nhu%E1%BA%ADn"
+   }
+  ],
+  "url": "/wiki/Tr%E1%BA%ADn_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng_(938)",
+  "info": {
+   "Địa điểm": "Sông Bạch Đằng nay thuộc Quảng Yên (Quảng Ninh) và Thủy Nguyên (Hải Phòng)",
+   "Tham chiến": {
+    "phe 2": "Tĩnh Hải quân",
+    "phe 1": "Nam Hán"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Ngô Quyền",
+    "phe 1": "Lưu Cung Lưu Hoằng Tháo \u2020"
+   },
+   "Kết quả": "Tĩnh Hải quân chiến thắng Chấm dứt hoàn toàn thời kỳ Bắc thuộc sau hơn 1000 năm[1] Nhà Ngô được thành lập vào năm 939",
+   "Thương vong và tổn thất": {
+    "phe 2": "Không rõ",
+    "phe 1": "10.000, Lưu Hoằng Tháo tử trận.[2]"
+   },
+   "Lực lượng": {
+    "phe 2": "5.000-10.000 quân",
+    "phe 1": "20.000 quân"
+   },
+   "Thời gian": "Năm 938 sau công nguyên"
+  }
+ },
+ {
+  "name": "Loạn 12 sứ quân (965 - 968)",
+  "description": "Loạn 12 sứ quân (chữ Nôm: 亂12使君; chữ Hán: 十二使君之亂, Thập nhị sứ quân chi loạn) là một giai đoạn nội chiến diễn ra vào cuối thời nhà Ngô, kéo dài từ năm 944 sau khi Ngô Quyền mất cho đến khi Đinh Bộ Lĩnh thống nhất đất nước, lập ra nhà Đinh năm 968, được ghi chép trong phần Bản kỷ Ngô sứ quân Ngô Xương Xí.",
+  "connection": [
+   {
+    "name": "12 sứ quân",
+    "url": "/wiki/12_s%E1%BB%A9_qu%C3%A2n"
+   },
+   {
+    "name": "Danh nhân thời Đinh",
+    "url": "/wiki/Danh_nh%C3%A2n_th%E1%BB%9Di_%C4%90inh"
+   },
+   {
+    "name": "Nhà Ngô",
+    "url": "/wiki/Nh%C3%A0_Ng%C3%B4"
+   },
+   {
+    "name": "Nhà Đinh",
+    "url": "/wiki/Nh%C3%A0_%C4%90inh"
+   },
+   {
+    "name": "Đinh Tiên Hoàng",
+    "url": "/wiki/%C4%90inh_Ti%C3%AAn_Ho%C3%A0ng"
+   }
+  ],
+  "url": "/wiki/Lo%E1%BA%A1n_12_s%E1%BB%A9_qu%C3%A2n",
+  "info": {}
+ },
+ {
+  "name": "Chiến tranh Đại Cồ Việt-Đại Tống (981)",
+  "description": "Chiến tranh Tống-Việt là một cuộc chiến tranh giữa Nhà Tống thời Tống Thái Tông và Đại Cồ Việt thời Lê Đại Hành diễn ra từ tháng 1 đến tháng 4 năm 981 trên lãnh thổ Đại Cồ Việt. Kết quả, Đại Cồ Việt đã đánh bại quân đội nhà Tống. Sau cuộc chiến này, vào năm 986, Hoàng đế Đại Tống công nhận nhà Tiền Lê và ban chế phong cho Lê Đại Hành.",
+  "connection": [
+   {
+    "name": "Lê Hoàn",
+    "url": "/wiki/L%C3%AA_%C4%90%E1%BA%A1i_H%C3%A0nh"
+   },
+   {
+    "name": "Hoa Lư",
+    "url": "/wiki/Hoa_L%C6%B0"
+   },
+   {
+    "name": "Nhà Tiền Lê",
+    "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%AA"
+   },
+   {
+    "name": "Đại Cồ Việt",
+    "url": "/wiki/%C4%90%E1%BA%A1i_C%E1%BB%93_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Chiến tranh Tống - Việt, 1075-1077",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_T%E1%BB%91ng-Vi%E1%BB%87t,_1075-1077"
+   },
+   {
+    "name": "nhà Tống",
+    "url": "/wiki/Nh%C3%A0_T%E1%BB%91ng"
+   },
+   {
+    "name": "Bắc Tống",
+    "url": "/wiki/B%E1%BA%AFc_T%E1%BB%91ng"
+   },
+   {
+    "name": "Hầu Nhân Bảo",
+    "url": "/wiki/H%E1%BA%A7u_Nh%C3%A2n_B%E1%BA%A3o"
+   },
+   {
+    "name": "Các bãi cọc trên sông Bạch Đằng",
+    "url": "/wiki/C%C3%A1c_b%C3%A3i_c%E1%BB%8Dc_tr%C3%AAn_s%C3%B4ng_B%E1%BA%A1ch_%C4%90%E1%BA%B1ng"
+   },
+   {
+    "name": "Chiến tranh Đại Cồ Việt - Đại Lý",
+    "url": "/w/index.php?title=Chi%E1%BA%BFn_tranh_%C4%90%E1%BA%A1i_C%E1%BB%93_Vi%E1%BB%87t_-_%C4%90%E1%BA%A1i_L%C3%BD&action=edit&redlink=1"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_T%E1%BB%91ng%E2%80%93Vi%E1%BB%87t_(981)",
+  "info": {
+   "Địa điểm": "miền Bắc Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Tống",
+    "phe 1": "Đại Cồ Việt"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Tống Thái Tông Hầu Nhân Bảo \u2020 Tôn Toàn Hưng Trương Tuyền Thôi Lượng",
+    "phe 1": "Lê Hoàn Phạm Cự Lạng"
+   },
+   "Kết quả": "Đại Cồ Việt chiến thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "80.000 quân chết hoặc bị bắt",
+    "phe 1": "Không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "30.000 - 40.000 quân 60.000 phu phen",
+    "phe 1": "100.000 quân"
+   },
+   "Thời gian": "từ tháng 1 đến tháng 4 năm 981"
+  }
+ },
+ {
+  "name": "Chiến tranh Đại Cồ Việt-Chiêm Thành lần 1 (982)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Lịch sử Chăm Pa",
+    "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Ch%C4%83m_Pa"
+   },
+   {
+    "name": "Vua Chăm Pa",
+    "url": "/wiki/Vua_Ch%C4%83m_Pa"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_982",
+  "info": {
+   "Địa điểm": "vùng Quảng Nam, Vương quốc Chiêm Thành, Nam Trung Bộ Việt Nam hiện nay",
+   "Tham chiến": {
+    "phe 2": "Chiêm Thành",
+    "phe 1": "Nhà Tiền Lê"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Bê Mi Thuế \u2020",
+    "phe 1": "Lê Hoàn"
+   },
+   "Kết quả": "Đại Việt toàn thắng. Chém được Bê Mi Thuế, bắt dân lính Chăm về, phá hủy thành trì, kho tàng.",
+   "Thương vong và tổn thất": {
+    "phe 2": "rất nặng",
+    "phe 1": "không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "không rõ",
+    "phe 1": "không rõ"
+   },
+   "Thời gian": "mùa hè 982"
+  }
+ },
+ {
+  "name": "Tranh chấp ngôi vị thời Tiền Lê lần 1 (1005)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Nhà Tiền Lê",
+    "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%AA"
+   },
+   {
+    "name": "Lê Đại Hành",
+    "url": "/wiki/L%C3%AA_%C4%90%E1%BA%A1i_H%C3%A0nh"
+   },
+   {
+    "name": "Lê Long Đĩnh",
+    "url": "/wiki/L%C3%AA_Long_%C4%90%C4%A9nh"
+   },
+   {
+    "name": "Lê Long Việt",
+    "url": "/wiki/L%C3%AA_Long_Vi%E1%BB%87t"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_k%E1%BA%BF_v%E1%BB%8B_th%E1%BB%9Di_Ti%E1%BB%81n_L%C3%AA",
+  "info": {}
+ },
+ {
+  "name": "Loạn tam vương thời Lý (1028)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Lo%E1%BA%A1n_ba_v%C6%B0%C6%A1ng",
+  "info": {}
+ },
+ {
+  "name": "Chiến tranh Đại Cồ Việt-Chiêm Thành lần 2 (1044)",
+  "description": "Chiến tranh Việt-Chiêm 1044 là tên gọi của cuộc chiến do nhà Lý phát động năm 1044 nhằm tấn công nước Chiêm Thành ở phương Nam với lý do người Chiêm bỏ nộp cống cho nhà Lý trong suốt 16 năm.",
+  "connection": [
+   {
+    "name": "Lý Thái Tông",
+    "url": "/wiki/L%C3%BD_Th%C3%A1i_T%C3%B4ng"
+   },
+   {
+    "name": "Chiến tranh Việt-Chiêm 1069",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_1069"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_1044",
+  "info": {
+   "Địa điểm": "Vương quốc Chiêm Thành",
+   "Tham chiến": {
+    "phe 2": "Chiêm Thành",
+    "phe 1": "Đại Cồ Việt"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Sạ Đẩu Quách Gia Di",
+    "phe 1": "Lý Thái Tông"
+   },
+   "Kết quả": "Đại Cồ Việt chiến thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "Chúa Sạ Đẩu và 30.000 quân Chiêm chết, 5000 người bị bắt 2660 căn nhà bị thiêu rụi",
+    "phe 1": "Không rõ"
+   },
+   "Thời gian": "1044"
+  }
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Chiêm Thành lần 1 (1069)",
+  "description": "Chiến tranh Việt-Chiêm 1069 là cuộc chiến do vua Lý Thánh Tông của Đại Việt phát động năm 1069 nhằm đánh vương quốc Chiêm Thành ở phương Nam với lý do người Chiêm từ chối thần phục nhà Lý. Nhà Lý gọi cuộc chiến này là Chiến dịch phạt Chiêm 1069.",
+  "connection": [
+   {
+    "name": "Lý Thánh Tông",
+    "url": "/wiki/L%C3%BD_Th%C3%A1nh_T%C3%B4ng"
+   },
+   {
+    "name": "Chiến tranh Việt-Chiêm 1044",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_1044"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_1069",
+  "info": {
+   "Địa điểm": "Vương quốc Chiêm Thành",
+   "Tham chiến": {
+    "phe 2": "Chiêm Thành",
+    "phe 1": "Đại Việt"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Chế Củ Bố Bì Đà La",
+    "phe 1": "Lý Thánh Tông Lý Thường Kiệt Lý Thường Hiến"
+   },
+   "Kết quả": "Đại Việt chiến thắng, chiếm được 3 châu của Chiêm Thành",
+   "Thương vong và tổn thất": {
+    "phe 2": "Không rõ",
+    "phe 1": "Không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "20.000 quân",
+    "phe 1": "40.000-60.000 quân"
+   },
+   "Thời gian": "1069"
+  }
+ },
+ {
+  "name": "Chiến dịch đánh Tống 1075\u20131076 (1075 - 1076)",
+  "description": "Chiến dịch đánh Tống 1075\u20131076 là tên gọi chiến dịch do tướng nhà Lý là Lý Thường Kiệt phát động nhằm tấn công quân Tống ở 3 châu dọc theo biên giới Tống - Việt năm 1075-1076.",
+  "connection": [
+   {
+    "name": "Nhà Lý",
+    "url": "/wiki/Nh%C3%A0_L%C3%BD"
+   },
+   {
+    "name": "Lý Thường Kiệt",
+    "url": "/wiki/L%C3%BD_Th%C6%B0%E1%BB%9Dng_Ki%E1%BB%87t"
+   },
+   {
+    "name": "Lý Nhân Tông",
+    "url": "/wiki/L%C3%BD_Nh%C3%A2n_T%C3%B4ng"
+   },
+   {
+    "name": "Nùng Tông Đản",
+    "url": "/wiki/N%C3%B9ng_T%C3%B4ng_%C4%90%E1%BA%A3n"
+   },
+   {
+    "name": "Phạt Tống lộ bố văn",
+    "url": "/wiki/Ph%E1%BA%A1t_T%E1%BB%91ng_l%E1%BB%99_b%E1%BB%91_v%C4%83n"
+   },
+   {
+    "name": "Chiến tranh Tống - Việt, 1075-1077",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_T%E1%BB%91ng-Vi%E1%BB%87t,_1075-1077"
+   },
+   {
+    "name": "Nam Quốc Sơn Hà",
+    "url": "/wiki/Nam_Qu%E1%BB%91c_S%C6%A1n_H%C3%A0"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_%C4%91%C3%A1nh_T%E1%BB%91ng_1075%E2%80%931076",
+  "info": {
+   "Địa điểm": "Khâm Châu, Liêm Châu, Ung Châu thuộc Trung Quốc",
+   "Tham chiến": {
+    "phe 2": "Nhà Tống",
+    "phe 1": "Đại Việt"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Lưu Di Tô Giám \u2020 Trương Thủ Tiết \u2020 Trần Vĩnh Thái \u2020 Thẩm Tông Cổ \u2020 Phan Nhược Cốc \u2020 Cổ Cấn Lặc",
+    "phe 1": "Lý Thường Kiệt Lưu Kỷ Tông Đản Hoàng Kim Mãn Vi Thủ An Thân Cảnh Phúc"
+   },
+   "Kết quả": "Đại Việt chiến thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "70.000-100.000 quân, dân phu và dân thường bị giết",
+    "phe 1": "20.000 thương vong"
+   },
+   "Lực lượng": {
+    "phe 2": "80.000 quân và dân phu",
+    "phe 1": "100.000 quân và dân phu"
+   },
+   "Thời gian": "27 tháng 10 năm 1075 - 1 tháng 3 năm 1076"
+  }
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Đại Tống lần 2 (1077)",
+  "description": "Trận Như Nguyệt là một trận đánh lớn diễn ra ở một khúc sông Như Nguyệt (hay sông Cầu) vào năm 1077, là trận đánh có tính quyết định của cuộc Chiến tranh Tống-Việt, 1075-1077, và là trận đánh cuối cùng của nhà Tống trên đất Đại Việt. Trận chiến diễn ra trong nhiều tháng, kết thúc bằng chiến thắng của quân đội Đại Việt và thiệt hại nhân mạng lớn của quân Tống, đánh bại hoàn toàn ý chí xâm lược Đại Việt của họ, buộc họ phải thừa nhận Đại Việt là một quốc gia.[6] ",
+  "connection": [
+   {
+    "name": "Nam quốc sơn hà [43]",
+    "url": "/wiki/Nam_qu%E1%BB%91c_s%C6%A1n_h%C3%A0"
+   },
+   {
+    "name": "Nhà Lý",
+    "url": "/wiki/Nh%C3%A0_L%C3%BD"
+   },
+   {
+    "name": "Lý Thường Kiệt",
+    "url": "/wiki/L%C3%BD_Th%C6%B0%E1%BB%9Dng_Ki%E1%BB%87t"
+   },
+   {
+    "name": "Hoằng Chân",
+    "url": "/wiki/Ho%E1%BA%B1ng_Ch%C3%A2n"
+   },
+   {
+    "name": "Chiêu Văn",
+    "url": "/wiki/Chi%C3%AAu_V%C4%83n"
+   },
+   {
+    "name": "Chiến tranh Tống - Việt, 1075-1077",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_T%E1%BB%91ng-Vi%E1%BB%87t,_1075-1077"
+   },
+   {
+    "name": "Thân Cảnh Phúc",
+    "url": "/wiki/Th%C3%A2n_C%E1%BA%A3nh_Ph%C3%BAc"
+   },
+   {
+    "name": "Tông Đản",
+    "url": "/wiki/T%C3%B4ng_%C4%90%E1%BA%A3n"
+   }
+  ],
+  "url": "/wiki/Tr%E1%BA%ADn_Nh%C6%B0_Nguy%E1%BB%87t",
+  "info": {
+   "Địa điểm": "sông Như Nguyệt, Đại Việt",
+   "Tham chiến": {
+    "phe 2": "Đại Việt",
+    "phe 1": "Đại Tống"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Lý Thường Kiệt Hoằng Chân \u2020 Chiêu Văn \u2020 Thân Cảnh Phúc \u2020 Lý Kế Nguyên Lưu Ba",
+    "phe 1": "Quách Quỳ Triệu Tiết Miêu Lý Hòa Mâu Khái Linh"
+   },
+   "Kết quả": "chiến thắng quyết định cho Đại Việt",
+   "Thương vong và tổn thất": {
+    "phe 2": "không rõ",
+    "phe 1": "76.600 quân và 80.000 phu phục dịch[5] Hơn 6.000 ngựa"
+   },
+   "Lực lượng": {
+    "phe 2": "60.000 quân[4]-100.000 quân",
+    "phe 1": "45.000 lính chính quy 55.000 binh trưng tập ở biên giới[1] 10.000 ngựa 200.000 dân phu[2][3]"
+   },
+   "Thời gian": "18 tháng 1,1077-28 tháng 2,1077"
+  }
+ },
+ {
+  "name": "Loạn Quách Bốc (1209)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Lý Cao Tông",
+    "url": "/wiki/L%C3%BD_Cao_T%C3%B4ng"
+   },
+   {
+    "name": "Phạm Bỉnh Di",
+    "url": "/wiki/Ph%E1%BA%A1m_B%E1%BB%89nh_Di"
+   },
+   {
+    "name": "Phạm Du",
+    "url": "/wiki/Ph%E1%BA%A1m_Du"
+   },
+   {
+    "name": "Lý Thẩm",
+    "url": "/wiki/L%C3%BD_Th%E1%BA%A9m"
+   },
+   {
+    "name": "Lý Huệ Tông",
+    "url": "/wiki/L%C3%BD_Hu%E1%BB%87_T%C3%B4ng"
+   },
+   {
+    "name": "Quách Bốc",
+    "url": "/wiki/Qu%C3%A1ch_B%E1%BB%91c"
+   }
+  ],
+  "url": "/wiki/Lo%E1%BA%A1n_Qu%C3%A1ch_B%E1%BB%91c",
+  "info": {}
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Nguyên Mông lần 1 (1258)",
+  "description": "Chiến tranh Nguyên Mông \u2013 Đại Việt lần thứ nhất hay Kháng chiến chống Nguyên Mông lần thứ nhất là cách người Việt Nam gọi cuộc chiến đấu của quân dân Đại Việt chống lại quân đội của đế quốc Mông Cổ do Uriyangqatai (Ngột Lương Hợp Thai) chỉ huy vào trong khoảng thời gian nửa tháng cuối tháng 1 năm 1258 (hay năm Nguyên Phong[1] thứ 7). Cuộc chiến mở đầu với thất bại của quân Đại Việt trong trận Bình Lệ Nguyên, sau đó là trận ở Phù Lỗ, dù thắng nhưng quân đội của Ngột Lương Hợp Thai không đánh bại được đạo quân chủ lực của nhà Trần. Quân Mông Cổ tiến vào kinh thành của Đại Việt trong 9 ngày. Quân đội nhà Trần đã phản công, đại phá quân Mông trong trận Đông Bộ Đầu[2] khiến cho đội quân này phải chạy về phía Bắc, sau đó còn phải hứng chịu một cuộc tập kích khác của thủ lĩnh miền núi - Hà Bổng. Cuộc chiến này đã kết thúc với chiến thắng của nước Đại Việt, ghi dấu công lao của vua Trần Thái Tông trong việc lãnh đạo quân dân Đại Việt chiến đấu chống quân đội Mông Cổ.[3] Lỗi chú thích: Đã tìm thấy thẻ <ref> với tên nhóm \u201cghi chú\u201d, nhưng không tìm thấy thẻ tương ứng <references group=\"ghi chú\"/> tương ứng, hoặc thẻ đóng <\/ref> bị thiếu",
+  "connection": [
+   {
+    "name": "Kháng chiến chống Nguyên Mông lần thứ 2",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Nguy%C3%AAn_M%C3%B4ng-%C4%90%E1%BA%A1i_Vi%E1%BB%87t_l%E1%BA%A7n_2"
+   },
+   {
+    "name": "Kháng chiến chống Nguyên Mông lần thứ 3",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Nguy%C3%AAn_M%C3%B4ng-%C4%90%E1%BA%A1i_Vi%E1%BB%87t_l%E1%BA%A7n_3"
+   },
+   {
+    "name": "Trần Thái Tông",
+    "url": "/wiki/Tr%E1%BA%A7n_Th%C3%A1i_T%C3%B4ng"
+   },
+   {
+    "name": "Trần Thủ Độ",
+    "url": "/wiki/Tr%E1%BA%A7n_Th%E1%BB%A7_%C4%90%E1%BB%99"
+   },
+   {
+    "name": "Lê Phụ Trần",
+    "url": "/wiki/L%C3%AA_Ph%E1%BB%A5_Tr%E1%BA%A7n"
+   },
+   {
+    "name": "Lê Tắc",
+    "url": "/wiki/L%C3%AA_T%E1%BA%AFc"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Nguy%C3%AAn_M%C3%B4ng%E2%80%93%C4%90%E1%BA%A1i_Vi%E1%BB%87t_l%E1%BA%A7n_1",
+  "info": {
+   "Địa điểm": "Miền Bắc nước Đại Việt",
+   "Tham chiến": {
+    "phe 2": "Đế quốc Mông Cổ",
+    "phe 1": "Nhà Trần Đại Việt"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Uriyangqatai (Ngột Lương Hợp Thai) Aju (A Truật) Cacakdu (Triệt Triệt Đô) Quaidu (Hoài Đô) Abiska",
+    "phe 1": "Trần Thái Tông Trần Thánh Tông Trần Thủ Độ Trần Nhật Hiệu Trần Quốc Tuấn Lê Phụ Trần Hà Bổng"
+   },
+   "Kết quả": "Đại Việt chiến thắng; Quân Mông Cổ rút về Vân Nam",
+   "Thương vong và tổn thất": {
+    "phe 2": "Khoảng 2/3 chết, bị bắt hoặc đào ngũ (khi Uriyangqatai hội quân với Hốt Tất Liệt ở Ngạc Châu thì chỉ còn lại 3.000 kị binh và 10.000 quân Đại Lý)",
+    "phe 1": "Không có số liệu"
+   },
+   "Lực lượng": {
+    "phe 2": "Khoảng 40.000-45.000 quân (gồm khoảng 20.000 - 25.000 quân Mông Cổ và 20.000 quân Đại Lý)",
+    "phe 1": "100.000 quân trên cả nước, trong đó khoảng 60 nghìn được huy động tham chiến"
+   },
+   "Thời gian": "Năm 1257-1258"
+  }
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Nguyên Mông lần 2 (1285)",
+  "description": "Chiến tranh Nguyên Mông \u2013 Đại Việt lần 2[1] là cuộc chiến tranh giữa Đại Nguyên và Đại Việt diễn ra trên lãnh thổ Đại Việt từ cuối tháng 1 đến cuối tháng 5 năm 1285 (dương lịch). Cuộc chiến tranh lần này diễn ra sau cuộc chiến giữa hai nước lần thứ nhất khoảng 27 năm.[2] Trong lần này, quân Nguyên huy động lực lượng đông đảo gấp cả chục lần so với cuộc chiến lần trước. Nhưng dù cho quân Nguyên Mông hùng mạnh và có nhiều Vương hầu của triều Trần mang tư tưởng cầu an, quân dân Đại Việt dưới sự lãnh đạo của Trần Hưng Đạo, Thái thượng hoàng Trần Thánh Tông và vua con Trần Nhân Tông đã giành chiến thắng vang dội trong cuộc kháng chiến này, thể hiện \"Hào khí Đông A\" của nước Đại Việt thời đó.[3]",
+  "connection": [
+   {
+    "name": "Nhà Trần",
+    "url": "/wiki/Nh%C3%A0_Tr%E1%BA%A7n"
+   },
+   {
+    "name": "Kháng chiến chống Nguyên Mông",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Nguy%C3%AAn_M%C3%B4ng-%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Kháng chiến chống Nguyên Mông lần thứ nhất",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Nguy%C3%AAn_M%C3%B4ng-%C4%90%E1%BA%A1i_Vi%E1%BB%87t_l%E1%BA%A7n_1"
+   },
+   {
+    "name": "Kháng chiến chống Nguyên Mông lần thứ 3",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Nguy%C3%AAn_M%C3%B4ng-%C4%90%E1%BA%A1i_Vi%E1%BB%87t_l%E1%BA%A7n_3"
+   },
+   {
+    "name": "Hành cung Vũ Lâm",
+    "url": "/wiki/H%C3%A0nh_cung_V%C5%A9_L%C3%A2m"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Nguy%C3%AAn_M%C3%B4ng-%C4%90%E1%BA%A1i_Vi%E1%BB%87t_l%E1%BA%A7n_2",
+  "info": {
+   "Địa điểm": "Bắc Bộ và Bắc Trung Bộ Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Đế quốc Mông Cổ",
+    "phe 1": "Nhà Trần Đại Việt Chiêm Thành Tàn quân người Tống do Triệu Trung mang sang quy hàng Đại Việt"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Thoát Hoan Ariq Qaya (A Lý Hải Nha) Ô Mã Nhi Toa Đô \u2020 Lý Hằng \u2020 Koncak (Khoan Triệt) Bolqadar (Bột La Hợp Đáp Nhĩ) Satartai (Sát Tháp Nhi Đài) Mangqudai (Mãng Cổ Thái) Naqai (Nạp Hải) Lý Bang Hiến Tôn Hựu Tôn Đức Lâm Lưu Thế Anh Lưu Khuê Nghê Nhuận",
+    "phe 1": "Trần Thánh Tông Trần Nhân Tông Trần Quốc Tuấn Trần Quang Khải Trần Nhật Duật Trần Khánh Dư Trần Bình Trọng \u2020 Trần Quốc Toản \u2020 Phạm Ngũ Lão Trần Quốc Nghiễn Nguyễn Khoái Nguyễn Thế Lộc Hà Chương Hà Đặc \u2020 Triệu Trung Trần Ích Tắc Trần Kiện \u2020 Lê Tắc"
+   },
+   "Kết quả": "Quân Đại Việt chiến thắng, Nguyên Mông phải rút lui khỏi Đại Việt",
+   "Thương vong và tổn thất": {
+    "phe 2": "Khoảng 100.000-200.000 chết 50.000 bị bắt",
+    "phe 1": "Không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "Khoảng 500.000 quân và dân phu",
+    "phe 1": "150.000-200.000 quân"
+   },
+   "Thời gian": "Năm 1285"
+  }
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Nguyên Mông lần 3 (1287 - 1288)",
+  "description": "Chiến tranh Nguyên Mông \u2013 Đại Việt lần 3 (theo cách gọi khác ở Việt Nam là Kháng chiến chống quân Nguyên Mông lần thứ 3) là cuộc chiến tranh giữa Đại Nguyên và Đại Việt diễn ra trên lãnh thổ Đại Việt từ tháng 12 năm 1287 đến cuối tháng 4 năm 1288.",
+  "connection": [
+   {
+    "name": "Kháng chiến chống Nguyên Mông",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Nguy%C3%AAn_M%C3%B4ng-%C4%90%E1%BA%A1i_Vi%E1%BB%87t"
+   },
+   {
+    "name": "Kháng chiến chống Nguyên Mông lần thứ nhất",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Nguy%C3%AAn_M%C3%B4ng-%C4%90%E1%BA%A1i_Vi%E1%BB%87t_l%E1%BA%A7n_1"
+   },
+   {
+    "name": "Kháng chiến chống Nguyên Mông lần thứ 2",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Nguy%C3%AAn_M%C3%B4ng-%C4%90%E1%BA%A1i_Vi%E1%BB%87t_l%E1%BA%A7n_2"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Nguy%C3%AAn_M%C3%B4ng%E2%80%93%C4%90%E1%BA%A1i_Vi%E1%BB%87t_l%E1%BA%A7n_3",
+  "info": {
+   "Địa điểm": "Bắc Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Đế quốc Mông Cổ",
+    "phe 1": "Nhà Trần (Đại Việt)"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Thoát Hoan Ariq Qaya (A Lý Hải Nha) Ô Mã Nhi Ayuruychi (Áo Lỗ Xích) Phàn Tiếp Tích Lệ Cơ Yiymis (Diệc Hắc Mê Thất) Ariq Qusun (A Lý Quy Thuận) Abaci (A Bát Xích) Ali (A Lý) Trình Bằng Phi Aruq (Ái Lỗ) Trương Ngọc \u2020 Lưu Khuê Trương Quân \u2020 Siktur (Tích Đô Nhi) Trương Văn Hổ Phí Củng Thìn Đào Đại Minh Trần Trọng Đạt Tạ Hữu Khuê Bồ Tý Thành Trần Ích Tắc Lê Tắc",
+    "phe 1": "Trần Thánh Tông Trần Nhân Tông Trần Quốc Tuấn Trần Quang Khải Trần Nhật Duật Trần Khánh Dư Phạm Ngũ Lão Trần Gia Nguyễn Khoái Nguyễn Thế Lộc Trần Ngạc Đỗ Hành"
+   },
+   "Kết quả": "Quân Đại Việt toàn thắng, Quân Mông Nguyên phải rút lui khỏi Đại Việt",
+   "Thương vong và tổn thất": {
+    "phe 2": "Không rõ",
+    "phe 1": "Không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "Khoảng 300.000 - 500.000[1]",
+    "phe 1": "Khoảng 200.000 - 300.000[1]"
+   },
+   "Thời gian": "1287-1288"
+  }
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Chiêm Thành lần 5 (1367 - 1368)",
+  "description": "Chiến tranh Việt\u2013Chiêm (1367\u20131396) là một cuộc chiến giữa nước Đại Việt thời hậu kỳ nhà Trần và nước Chiêm Thành do Chế Bồng Nga (1360\u20131390) lãnh đạo. Vào những năm 1330, Đại Việt và Đế quốc Khmer trở nên suy yếu do biến đổi khí hậu, nạn đói tràn lan, góp phần vào sự hồi sinh của Chiêm Thành vào thế kỷ XIV. Năm 1360, Chế Bồng Nga lên nắm quyền và yêu cầu nhà Trần trả lại một số vùng đất đã dâng trước đây. Từ những năm 1360, Chiêm Thành bắt đầu vào một loạt cuộc chiến liên tục kéo dài gần ba thập kỷ với Đại Việt và nhiều lần giành được thắng lợi. Thành Thăng Long nhiều lần rơi vào tay người Chiêm trong suốt cuộc chiến. Năm 1377, Trần Duệ Tông tổ chức một cuộc phản công và tiến quân vào đến tận thành Đồ Bàn, nhưng cuối cùng bị phục kích bên ngoài thành và bỏ mạng. Năm 1390, Chế Bồng Nga bị giết trong một trận thủy chiến với sự giúp đỡ của một tướng Chiêm đào tẩu.",
+  "connection": [
+   {
+    "name": "Nhà Trần",
+    "url": "/wiki/Nh%C3%A0_Tr%E1%BA%A7n"
+   },
+   {
+    "name": "Nhà Hồ",
+    "url": "/wiki/Nh%C3%A0_H%E1%BB%93"
+   },
+   {
+    "name": "Trần Nghệ Tông",
+    "url": "/wiki/Tr%E1%BA%A7n_Ngh%E1%BB%87_T%C3%B4ng"
+   },
+   {
+    "name": "Trần Duệ Tông",
+    "url": "/wiki/Tr%E1%BA%A7n_Du%E1%BB%87_T%C3%B4ng"
+   },
+   {
+    "name": "Trần Khát Chân",
+    "url": "/wiki/Tr%E1%BA%A7n_Kh%C3%A1t_Ch%C3%A2n"
+   },
+   {
+    "name": "Chế Bồng Nga",
+    "url": "/wiki/Ch%E1%BA%BF_B%E1%BB%93ng_Nga"
+   },
+   {
+    "name": "Chiến tranh Việt \u2013 Chiêm (1400 \u2013 1407)",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_1400-1407"
+   },
+   {
+    "name": "Hồ Quý Ly",
+    "url": "/wiki/H%E1%BB%93_Qu%C3%BD_Ly"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_%E2%80%93_Chi%C3%AAm_(1367-1396)",
+  "info": {
+   "Địa điểm": "Đồng bằng sông Hồng, Trung Bộ, Lào, Vịnh Bắc Bộ",
+   "Tham chiến": {
+    "phe 2": "Đại Việt",
+    "phe 1": "Chiêm Thành"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Trần Nghệ Tông Trần Duệ Tông \u2020 Lê Quý Ly Đỗ Tử Bình",
+    "phe 1": "Chế Bồng Nga \u2020 Simhavarman VI Trần Húc"
+   },
+   "Kết quả": "Xem phần Kết quả và ý nghĩa",
+   "Thời gian": "1367\u20131396"
+  }
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Chiêm Thành lần 7 (1377)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Chiến tranh Việt \u2013 Chiêm 1367 \u2013 1396",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_%E2%80%93_Chi%C3%AAm_1367_%E2%80%93_1396"
+   },
+   {
+    "name": "Trần Duệ Tông",
+    "url": "/wiki/Tr%E1%BA%A7n_Du%E1%BB%87_T%C3%B4ng"
+   },
+   {
+    "name": "Chế Bồng Nga",
+    "url": "/wiki/Ch%E1%BA%BF_B%E1%BB%93ng_Nga"
+   }
+  ],
+  "url": "/wiki/Tr%E1%BA%ADn_%C4%90%E1%BB%93_B%C3%A0n_(1377)",
+  "info": {
+   "Địa điểm": "Thành Đồ Bàn (xã Nhơn Hậu, Thị xã An Nhơn, tỉnh Bình Định ngày nay)",
+   "Tham chiến": {
+    "phe 2": "Chiêm Thành",
+    "phe 1": "Đại Việt"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Chế Bồng Nga",
+    "phe 1": "Trần Duệ Tông \u2020 Đỗ Lễ \u2020 Nguyễn Lạp Hòa \u2020 Phạm Huyền Linh \u2020 Trần Húc Lê Quý Ly"
+   },
+   "Kết quả": "Quân Chiêm đại thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "Không rõ, ít hơn quân Đại Việt",
+    "phe 1": "85.000 - 95.000 (7 - 8 phần)"
+   },
+   "Lực lượng": {
+    "phe 2": "Không rõ",
+    "phe 1": "120.000"
+   },
+   "Thời gian": "Tháng 1 năm 1377 ÂL"
+  }
+ },
+ {
+  "name": "Chiến tranh Đại Ngu-Chiêm Thành lần 1 (1400)",
+  "description": "Chiến tranh Việt \u2013 Chiêm (1400 \u2013 1407) là cuộc chiến giữa nhà Hồ nước Đại Ngu và nước Chiêm Thành phía nam. Ban đầu nhà Hồ chiếm được đất đai mà tương đương với nam Quảng Nam và bắc Quảng Ngãi ngày nay; nhưng sau đó, do cuộc xâm lăng của nhà Minh, nhà Hồ thất bại và Chiêm Thành đã lấy lại những đất đai từng bị nhà Hồ chiếm.",
+  "connection": [
+   {
+    "name": "Chiến tranh Việt \u2013 Chiêm (1367 \u2013 1396)",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_1367-1396"
+   },
+   {
+    "name": "Nhà Hồ",
+    "url": "/wiki/Nh%C3%A0_H%E1%BB%93"
+   },
+   {
+    "name": "Đặng Tất",
+    "url": "/wiki/%C4%90%E1%BA%B7ng_T%E1%BA%A5t"
+   },
+   {
+    "name": "Chiến tranh Minh \u2013 Đại Ngu",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Minh_-_%C4%90%E1%BA%A1i_Ngu"
+   },
+   {
+    "name": "Lịch sử Việt Nam thời Bắc thuộc lần 4",
+    "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_4"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_1400-1407",
+  "info": {}
+ },
+ {
+  "name": "Chiến tranh Đại Ngu-Đại Minh (1406 - 1407)",
+  "description": "Chiến tranh Đại Ngu \u2013 Đại Minh, Chiến tranh Hồ-Minh hay thường được giới sử học Việt Nam gọi là cuộc xâm lược của nhà Minh, là cuộc chiến của nhà Hồ nước Đại Ngu (Đại Việt) chống cuộc xâm chiếm của nhà Minh (Trung Quốc) dưới triều Minh Thành Tổ từ tháng 4 năm 1406 cho đến tháng 6 năm 1407 khi nhà Minh đánh bại hoàn toàn quân đội nhà Hồ và bắt được Hồ Quý Ly, Hồ Hán Thương.",
+  "connection": [
+   {
+    "name": "Mạc Thúy",
+    "url": "/wiki/M%E1%BA%A1c_Th%C3%BAy"
+   },
+   {
+    "name": "Hồ Quý Ly",
+    "url": "/wiki/H%E1%BB%93_Qu%C3%BD_Ly"
+   },
+   {
+    "name": "Nhà Hồ",
+    "url": "/wiki/Nh%C3%A0_H%E1%BB%93"
+   },
+   {
+    "name": "Đại Ngu",
+    "url": "/wiki/%C4%90%E1%BA%A1i_Ngu"
+   },
+   {
+    "name": "Quân đội nhà Hồ",
+    "url": "/w/index.php?title=Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A0_H%E1%BB%93&action=edit&redlink=1"
+   },
+   {
+    "name": "Chiến tranh Việt-Chiêm 1400-1407",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_1400-1407"
+   },
+   {
+    "name": "Trương Phụ",
+    "url": "/wiki/Tr%C6%B0%C6%A1ng_Ph%E1%BB%A5"
+   },
+   {
+    "name": "Mộc Thạnh",
+    "url": "/wiki/M%E1%BB%99c_Th%E1%BA%A1nh"
+   },
+   {
+    "name": "Bắc thuộc lần 4",
+    "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_4"
+   },
+   {
+    "name": "Nhà Hậu Trần",
+    "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_Tr%E1%BA%A7n"
+   },
+   {
+    "name": "Chiến tranh Minh-Việt (1407-1414)",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Minh-Vi%E1%BB%87t_(1407-1414)"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/wiki/L%C3%AA_L%E1%BB%A3i"
+   },
+   {
+    "name": "Khởi nghĩa Lam Sơn",
+    "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Lam_S%C6%A1n"
+   },
+   {
+    "name": "Nhà Hậu Lê",
+    "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA"
+   },
+   {
+    "name": "Nhà Minh",
+    "url": "/wiki/Nh%C3%A0_Minh"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_%C4%90%E1%BA%A1i_Ngu_-_Minh",
+  "info": {
+   "Địa điểm": "Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Nhà Minh",
+    "phe 1": "Đại Ngu thời Nhà Hồ"
+   },
+   "Thay đổi lãnh thổ": "Nhà Minh sáp nhập lãnh thổ nước Việt, đặt thành Giao Chỉ.",
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Minh Thành Tổ Trương Phụ Vương Hữu Mộc Thạnh Hoàng Phúc Lưu Tuấn Hoàng Trung Liễu Thăng Chu Quảng Lý Bân Trần Húc",
+    "phe 1": "Hồ Quý Ly Hồ Hán Thương Hồ Nguyên Trừng Hồ Quý Tỳ \u2020 Ngô Miễn Hồ Đỗ Hồ Xạ Nguyễn Tông Đỗ Ngô Thành Phan Liêu Mạc Thúy Lương Nhữ Hốt Phạm Thế Căng Trần Phong Bùi Bá Kỳ Nguyễn Huân Đỗ Duy Trung Nguyễn Phi Khanh Nguyễn Trãi"
+   },
+   "Kết quả": "Nhà Minh chiến thắng Nhà Hồ sụp đổ",
+   "Thương vong và tổn thất": {
+    "phe 2": "Không rõ",
+    "phe 1": "Hầu hết bị tiêu diệt, đầu hàng hoặc tan rã"
+   },
+   "Lực lượng": {
+    "phe 2": "Khoảng 215.000 (nói phao lên thành 800.000)[2]",
+    "phe 1": "Khoảng 70.000-200.000[1]"
+   },
+   "Thời gian": "1406 - 1407"
+  }
+ },
+ {
+  "name": "Khởi nghĩa Nhà Hậu Trần (1407 - 1414)",
+  "description": "Chiến tranh Minh-Việt diễn ra từ năm 1407 đến khoảng những năm 1413-1414 là cuộc chiến tranh giữa dân tộc Đại Việt dưới sự lãnh đạo của các vị vua nhà Hậu Trần cùng tông thất và các tướng lĩnh cũ của nhà Trần với lực lượng đô hộ của nhà Minh dưới thời Minh Thành Tổ. Cuộc chiến diễn ra nhằm mục đích giành lại độc lập cho Đại Việt khi đó đã bị nhà Minh xâm chiếm và đặt thành quận Giao Chỉ và là sự tiếp nối của cuộc kháng chiến chống Minh của nhà Hồ.",
+  "connection": [
+   {
+    "name": "Nhà Trần",
+    "url": "/wiki/Nh%C3%A0_Tr%E1%BA%A7n"
+   },
+   {
+    "name": "Nhà Hậu Trần",
+    "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_Tr%E1%BA%A7n"
+   },
+   {
+    "name": "Giản Định Đế",
+    "url": "/wiki/Gi%E1%BA%A3n_%C4%90%E1%BB%8Bnh_%C4%90%E1%BA%BF"
+   },
+   {
+    "name": "Trùng Quang",
+    "url": "/wiki/Tr%C3%B9ng_Quang"
+   },
+   {
+    "name": "Bắc thuộc lần 4",
+    "url": "/wiki/B%E1%BA%AFc_thu%E1%BB%99c_l%E1%BA%A7n_4"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Minh%E2%80%93Vi%E1%BB%87t_(1407-1414)",
+  "info": {
+   "Địa điểm": "Việt Nam, Quảng Đông",
+   "Tham chiến": {
+    "phe 2": "Nhà Minh và những người Việt hợp tác với quân Minh",
+    "phe 1": "Nhà Hậu Trần Đại Việt và các tướng lĩnh địa phương"
+   },
+   "Thay đổi lãnh thổ": "Đại Việt thời Hậu Trần bị xóa bỏ",
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Minh Thành Tổ Trương Phụ Vương Hữu Mộc Thạnh Hoàng Phúc Lưu Tuấn \u2020 Hoàng Trung Liễu Thăng Lữ Nghị \u2020 Lưu Dục \u2020 Chu Quảng Hàn Quan \u2020 Mạc Thúy \u2020 Phan Liêu Lương Nhữ Hốt Đỗ Duy Trung Phạm Thế Căng \u2020",
+    "phe 1": "Trần Giản Định \u2020 Trần Trùng Quang \u2020 Trần Triệu Cơ Đặng Tất Nguyễn Cảnh Chân Phan Quý Hựu Đặng Dung \u2020 Nguyễn Cảnh Dị \u2020 Nguyễn Biểu \u2020 Nguyễn Súy Lê Nhị \u2020 Trần Quý Tám \u2020 Hồ Bối"
+   },
+   "Kết quả": "Nhà Hậu Trần sụp đổ, các lực lượng khác bị dẹp hoặc thu hẹp phạm vi hoạt động",
+   "Thương vong và tổn thất": {
+    "phe 2": "Không rõ",
+    "phe 1": "Không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "~200.000 quân thường trú",
+    "phe 1": "Hơn 70.000 quân (30.000 từ quân đội đầu hàng + vài nghìn quân nổi dậy)"
+   },
+   "Thời gian": "1407 - 1414"
+  }
+ },
+ {
+  "name": "Khởi nghĩa Lam Sơn (1418 - 1427)",
+  "description": "Khởi nghĩa Lam Sơn (1418\u20131427) là cuộc khởi nghĩa đánh đuổi quân Minh xâm lược về nước do Lê Lợi lãnh đạo và kết thúc bằng việc thành lập trở lại nước Đại Việt và sự thành lập nhà Hậu Lê",
+  "connection": [
+   {
+    "name": "Nhà Hậu Trần",
+    "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_Tr%E1%BA%A7n"
+   },
+   {
+    "name": "Lê Lợi",
+    "url": "/wiki/L%C3%AA_Th%C3%A1i_T%E1%BB%95"
+   },
+   {
+    "name": "Trần Cảo (vua)",
+    "url": "/wiki/Tr%E1%BA%A7n_C%E1%BA%A3o_(vua)"
+   },
+   {
+    "name": "Nhà Tiền Lê",
+    "url": "/wiki/Nh%C3%A0_Ti%E1%BB%81n_L%C3%AA"
+   },
+   {
+    "name": "Nhà Hậu Lê",
+    "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA"
+   }
+  ],
+  "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Lam_S%C6%A1n",
+  "info": {
+   "Địa điểm": "Miền Bắc Việt Nam và một phần Bắc Trung Bộ hiện nay",
+   "Tham chiến": {
+    "phe 2": "Đế quốc Đại Minh Lan Xang (Ai Lao)",
+    "phe 1": "Nghĩa quân Lam Sơn"
+   },
+   "Thay đổi lãnh thổ": "Đại Việt giành độc lập sau 20 năm đô hộ bởi Nhà Minh kết thúc thời kỳ Bắc thuộc lần thứ tư Đổi quốc hiệu từ Đại Ngu thời Nhà Hồ trở lại quốc hiệu Đại Việt như trước Lê Lợi lên ngôi hoàng đế thành lập ra Nhà Lê Sơ Đại Minh mất toàn bộ quận Giao Chỉ",
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Lý An Phương Chính Trần Trí Lý Bân \u2020 Thái Phúc Vương Thông Vương An Lão Liễu Thăng \u2020 Mộc Thạnh Lương Minh \u2020 Lý Khánh \u2020 Hoàng Phúc Lương Nhữ Hốt Lan Kham Deng",
+    "phe 1": "Lê Lợi Lê Thạch \u2020 Đinh Lễ \u2020 Lý Triện \u2020 Lưu Nhân Chú Lê Sát Lê Ngân Nguyễn Chích Phạm Vấn Trịnh Khả Phạm Văn Xảo Lê Văn Linh cùng nhiều tướng khác"
+   },
+   "Kết quả": "Nghĩa quân Lam Sơn chiến thắng. Hội thề Đông Quan Quân Minh rút lui về nước.[1]",
+   "Thương vong và tổn thất": {
+    "phe 2": "Thương vong: ~300.000 tử trận hoặc bị bắt[2], trong đó ~100.000 bị bắt",
+    "phe 1": "~100.000 tử trận"
+   },
+   "Lực lượng": {
+    "phe 2": "~ 400.000 (1418-1427)",
+    "phe 1": "~ 350.000 (năm 1427)"
+   },
+   "Thời gian": "1418 - 1427"
+  }
+ },
+ {
+  "name": "Loạn Đèo Cát Hãn (1431 - 1432)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Chiến tranh Minh - Đại Ngu",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Minh_-_%C4%90%E1%BA%A1i_Ngu"
+   },
+   {
+    "name": "Lê Thái Tổ",
+    "url": "/wiki/L%C3%AA_Th%C3%A1i_T%E1%BB%95"
+   },
+   {
+    "name": "Lê Tư Tề",
+    "url": "/wiki/L%C3%AA_T%C6%B0_T%E1%BB%81"
+   }
+  ],
+  "url": "/wiki/%C4%90%C3%A8o_C%C3%A1t_H%C3%A3n",
+  "info": {}
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Chiêm Thành lần 11 (1446)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Lịch sử Chăm Pa",
+    "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Ch%C4%83m_Pa"
+   },
+   {
+    "name": "Vua Chăm Pa",
+    "url": "/wiki/Vua_Ch%C4%83m_Pa"
+   },
+   {
+    "name": "Lê Thánh Tông",
+    "url": "/wiki/L%C3%AA_Th%C3%A1nh_T%C3%B4ng"
+   },
+   {
+    "name": "Chiếu thư đánh Chiêm",
+    "url": "/wiki/Chi%E1%BA%BFu_th%C6%B0_%C4%91%C3%A1nh_Chi%C3%AAm"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_1446",
+  "info": {
+   "Địa điểm": "Vương quốc Chiêm Thành, Nam Trung Bộ Việt Nam hiện nay",
+   "Tham chiến": {
+    "phe 2": "Chiêm Thành",
+    "phe 1": "Đại Việt (Nhà Lê sơ)"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Bí Cai",
+    "phe 1": "Nguyễn Thị Anh Lê Thụ Lê Khả Lê Khắc Phục"
+   },
+   "Kết quả": "Đại Việt toàn thắng. Bắt được vua Chiêm Thành là Bí Cai cùng bộ thuộc.",
+   "Thời gian": "1446"
+  }
+ },
+ {
+  "name": "Tranh chấp ngôi vị thời Lê sơ lần 1 (1450)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Nhà Hậu Lê",
+    "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA"
+   },
+   {
+    "name": "Lê Thái Tông",
+    "url": "/wiki/L%C3%AA_Th%C3%A1i_T%C3%B4ng"
+   },
+   {
+    "name": "Nguyễn Xí",
+    "url": "/wiki/Nguy%E1%BB%85n_X%C3%AD"
+   },
+   {
+    "name": "Vụ án Lệ Chi Viên",
+    "url": "/wiki/V%E1%BB%A5_%C3%A1n_L%E1%BB%87_Chi_Vi%C3%AAn"
+   },
+   {
+    "name": "Lê Nhân Tông",
+    "url": "/wiki/L%C3%AA_Nh%C3%A2n_T%C3%B4ng"
+   }
+  ],
+  "url": "/wiki/L%C3%AA_Nghi_D%C3%A2n",
+  "info": {
+   "": "Lệ Đức hầu (厲德侯)",
+   "Thụy hiệu": "",
+   "Niên hiệu": "",
+   "Tên húy": ""
+  }
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Chiêm Thành lần 12 (1471)",
+  "description": "Chiến tranh Việt-Chiêm 1471 là cuộc chiến do vua Lê Thánh Tông của Đại Việt phát động năm 1471 nhằm chống lại vương quốc Chiêm Thành ở phương Nam. Quân đội Đại Việt thắng lớn, và Chiêm Thành suy yếu đến mức hầu như không còn được nhắc đến trong sử sách.",
+  "connection": [
+   {
+    "name": "Lịch sử Chăm Pa",
+    "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Ch%C4%83m_Pa"
+   },
+   {
+    "name": "Vua Chăm Pa",
+    "url": "/wiki/Vua_Ch%C4%83m_Pa"
+   },
+   {
+    "name": "Lê Thánh Tông",
+    "url": "/wiki/L%C3%AA_Th%C3%A1nh_T%C3%B4ng"
+   },
+   {
+    "name": "Chiếu thư đánh Chiêm",
+    "url": "/wiki/Chi%E1%BA%BFu_th%C6%B0_%C4%91%C3%A1nh_Chi%C3%AAm"
+   },
+   {
+    "name": "Nam tiến",
+    "url": "/wiki/Nam_ti%E1%BA%BFn"
+   },
+   {
+    "name": "Chiến tranh Đại Việt\u2013Lan Xang (1478\u20131480)",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_%C4%90%E1%BA%A1i_Vi%E1%BB%87t%E2%80%93Lan_Xang_(1478%E2%80%931480)"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm_(1471)",
+  "info": {
+   "Địa điểm": "Vương quốc Chiêm Thành, Nam Trung Bộ Việt Nam hiện nay",
+   "Tham chiến": {
+    "phe 2": "Chiêm Thành",
+    "phe 1": "Nhà Hậu Lê"
+   },
+   "Thay đổi lãnh thổ": "Miền bắc của Chiêm Thành (từ đèo Hải Vân - Đà Nẵng đến đèo Cù Mông - Phú Yên) được sáp nhập vào lãnh thổ Đại Việt.",
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Bàn La Trà Toàn",
+    "phe 1": "Lê Thánh Tông Đinh Liệt Lê Niệm Lê Hy Cát Hoàng Nhân Thiêm Lê Thế Trịnh Văn Sái Nguyễn Đức Trung"
+   },
+   "Kết quả": "Đại Việt toàn thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "60.000 chết[1] 30.000 bị bắt[1]",
+    "phe 1": "không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "~ 100.000 (năm 1468)[1]",
+    "phe 1": "250.000[1] *150.000 bộ binh *100.000 thủy binh"
+   },
+   "Thời gian": "1471"
+  }
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Lan Xang (1478 - 1480)",
+  "description": "Chiến tranh Đại Việt - Lan Xang là cuộc chiến giữa nhà Hậu Lê nước Đại Việt với Lan Xang (Lào). Mục đích phát động của Đại Việt là bình định vương quốc Bồn Man và ngăn chặn sự quấy nhiễu của quân Lan Xang tại biên giới phía tây. Cuộc xâm lược cũng là sự tiếp nối của sự bành trướng của vua Lê Thánh Tông, qua đó Đại Việt đã chinh phục vương quốc Champa vào năm 1471. Cuộc chiến xuất phát từ những trận chiến lẻ tẻ trong suốt giai đoạn cai trị của Lê Thánh Tông, khiến ông quyết định mở cuộc tiến công lớn vào lãnh thổ Lan Xang (Lão Qua). Cuộc xung đột cuối cùng kéo dài khoảng 5 năm và ngày càng gia tăng đe dọa biên giới Vân Nam và làm dấy lên những lo ngại của nhà Minh . Các loại vũ khí dùng thuốc súng đóng một vai trò quan trọng trong cuộc xung đột, tạo điều kiện cho sự viễn chinh của Đại Việt. Thành công sớm trong cuộc chiến cho phép Đại Việt chiếm được cố đô Luang Prabang của Lan Xang và phá hủy thành phố Xiang Khouang của xứ Bồn Man. Cuối cùng sau khi đã nắm chắc được Bồn Man cũng như dưới sức ép của nhà Minh và sự viện trợ của Lan Na, Lê Thánh Tông sai rút quân vào năm 1480.",
+  "connection": [],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_%C4%90%E1%BA%A1i_Vi%E1%BB%87t_-_Lan_Xang_(1478-1480)",
+  "info": {
+   "Địa điểm": "Lào, Việt Nam, Vân Nam ngày nay",
+   "Tham chiến": {
+    "phe 2": "Lan Xang Lan Na[1] Muang Phuan",
+    "phe 1": "Nhà Hậu Lê Xa Lý"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Xaiyna Chakhaphat Chao Chienglaw \u2020 Thengkham Norasing \u2020 Noranarai \u2020 Noradet \u2020 Norara \u2020 Muen Luang Phya Kwatepa \u2020 Muen Kwatepa \u2020 Muen Neua \u2020 Muen Bun \u2020 Luan \u2020",
+    "phe 1": "Lê Thánh Tông Lê Thọ Vực Trịnh Công Lộ Lê Lộng Lê Nhân Hiếu Lê Đình Ngạn Lê Niệm Lê Hy Cát"
+   },
+   "Kết quả": "- Đại Việt chiến thắng -Lan Xang, Lanna, và Bồn Man bị phá hủy -Quan hệ Lan Xang và Đại Việt xấu đi",
+   "Thương vong và tổn thất": {
+    "phe 2": "không rõ",
+    "phe 1": "không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "200.000-300.000",
+    "phe 1": "230.000-500.000"
+   },
+   "Thời gian": "1467 - 1480"
+  }
+ },
+ {
+  "name": "Tranh chấp ngôi vị thời Lê sơ lần 2 (1509)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Nhà Hậu Lê",
+    "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA"
+   },
+   {
+    "name": "Lê Uy Mục",
+    "url": "/wiki/L%C3%AA_Uy_M%E1%BB%A5c"
+   },
+   {
+    "name": "Kiến Vương",
+    "url": "/wiki/L%C3%AA_T%C3%A2n"
+   },
+   {
+    "name": "Trịnh Duy Sản",
+    "url": "/wiki/Tr%E1%BB%8Bnh_Duy_S%E1%BA%A3n"
+   },
+   {
+    "name": "Trần Cảo",
+    "url": "/wiki/Tr%E1%BA%A7n_C%E1%BA%A3o_(t%C6%B0%E1%BB%9Bng_kh%E1%BB%9Fi_ngh%C4%A9a)"
+   }
+  ],
+  "url": "/wiki/L%C3%AA_T%C6%B0%C6%A1ng_D%E1%BB%B1c",
+  "info": {
+   "": "Không có",
+   "Thụy hiệu": "",
+   "Niên hiệu": "",
+   "Tên thật": "",
+   "Miếu hiệu": "",
+   "Hậu duệ": ""
+  }
+ },
+ {
+  "name": "Loạn Trần Tuân (1511 - 1512)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Lê Tương Dực",
+    "url": "/wiki/L%C3%AA_T%C6%B0%C6%A1ng_D%E1%BB%B1c"
+   },
+   {
+    "name": "Trịnh Duy Sản",
+    "url": "/wiki/Tr%E1%BB%8Bnh_Duy_S%E1%BA%A3n"
+   },
+   {
+    "name": "Nguyễn Văn Lang",
+    "url": "/wiki/Nguy%E1%BB%85n_V%C4%83n_Lang"
+   }
+  ],
+  "url": "/wiki/Tr%E1%BA%A7n_Tu%C3%A2n",
+  "info": {}
+ },
+ {
+  "name": "Khủng hoảng cuối nhà Lê sơ (1516-1526)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Kh%E1%BB%A7ng_ho%E1%BA%A3ng_cu%E1%BB%91i_nh%C3%A0_L%C3%AA_s%C6%A1",
+  "info": {
+   "Địa điểm": "Miền Bắc Việt Nam",
+   "Tham chiến": {"phe": "Triều đình Nhà Lê Nổi dậy Trần Cảo Các thế lực cát cứ: Sơn Tây Thanh Hóa Hải Dương"},
+   "Chỉ huy và lãnh đạo": {"phe": "Vua Lê Tương Dực (bị Trịnh Duy Sản giết) Vua Lê Chiêu Tông Trịnh Duy Sản \u2020 Trịnh Tuy(1516-1518) Trần Chân (bị vua Chiêu Tông giết) Nguyễn Hoằng Dụ(1516-1517) Nguyễn Hoằng Dụ(1518) Mạc Đăng Dung(1518-1522) Giai đoạn 1522-1526: (Quân Cần Vương) Lê Chiêu Tông \u2020 Trịnh Tuy \u2020 Trần Cảo(1516) Trần Cung \u2020(1517-1521) Vua Lê Quang Trị \u2020 (1516) Trịnh Duy Đại \u2020 Nguyễn Hoằng Dụ(1517) Nguyễn Kính(1518-1519) Trịnh Tuy(1518-1522) Vua Lê Bảng, Lê Do \u2020 Giai đoạn 1522-1526: Mạc Đăng Dung Vua Lê Cung Hoàng (bị Mạc Đăng Dung giết) Nguyễn Kính"},
+   "Kết quả": "Chấm dứt nhà Lê sơ Mạc Đăng Dung lập ra nhà Mạc vào năm 1527",
+   "Thời gian": "1516-1526"
+  }
+ },
+ {
+  "name": "Loạn Trịnh Duy Sản (1516)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Nhà Hậu Lê",
+    "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA"
+   },
+   {
+    "name": "Lê Uy Mục",
+    "url": "/wiki/L%C3%AA_Uy_M%E1%BB%A5c"
+   },
+   {
+    "name": "Lê Tương Dực",
+    "url": "/wiki/L%C3%AA_T%C6%B0%C6%A1ng_D%E1%BB%B1c"
+   },
+   {
+    "name": "Lê Chiêu Tông",
+    "url": "/wiki/L%C3%AA_Chi%C3%AAu_T%C3%B4ng"
+   },
+   {
+    "name": "Trần Chân",
+    "url": "/w/index.php?title=Tr%E1%BA%A7n_Ch%C3%A2n_(%C4%91%E1%BB%8Bnh_h%C6%B0%E1%BB%9Bng)&action=edit&redlink=1"
+   },
+   {
+    "name": "Trần Cảo",
+    "url": "/wiki/Tr%E1%BA%A7n_C%E1%BA%A3o_(t%C6%B0%E1%BB%9Bng_kh%E1%BB%9Fi_ngh%C4%A9a)"
+   }
+  ],
+  "url": "/wiki/Tr%E1%BB%8Bnh_Duy_S%E1%BA%A3n",
+  "info": {}
+ },
+ {
+  "name": "Loạn Trần Cảo (1516 - 1521)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Trần Cung (Hậu Lê)",
+    "url": "/wiki/Tr%E1%BA%A7n_Cung_(H%E1%BA%ADu_L%C3%AA)"
+   },
+   {
+    "name": "Lê Chiêu Tông",
+    "url": "/wiki/L%C3%AA_Chi%C3%AAu_T%C3%B4ng"
+   },
+   {
+    "name": "Trịnh Duy Sản",
+    "url": "/wiki/Tr%E1%BB%8Bnh_Duy_S%E1%BA%A3n"
+   },
+   {
+    "name": "Trần Chân",
+    "url": "/w/index.php?title=Tr%E1%BA%A7n_Ch%C3%A2n_(%C4%91%E1%BB%8Bnh_h%C6%B0%E1%BB%9Bng)&action=edit&redlink=1"
+   },
+   {
+    "name": "Mạc Đăng Dung",
+    "url": "/wiki/M%E1%BA%A1c_%C4%90%C4%83ng_Dung"
+   },
+   {
+    "name": "Nguyễn Hoằng Dụ",
+    "url": "/wiki/Nguy%E1%BB%85n_Ho%E1%BA%B1ng_D%E1%BB%A5"
+   },
+   {
+    "name": "Trần Cảo",
+    "url": "/wiki/Tr%E1%BA%A7n_C%E1%BA%A3o_(vua)"
+   }
+  ],
+  "url": "/wiki/Tr%E1%BA%A7n_C%E1%BA%A3o_(t%C6%B0%E1%BB%9Bng_kh%E1%BB%9Fi_ngh%C4%A9a)",
+  "info": {}
+ },
+ {
+  "name": "Loạn Trịnh Tuy (1518 - 1522)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Lê Chiêu Tông",
+    "url": "/wiki/L%C3%AA_Chi%C3%AAu_T%C3%B4ng"
+   },
+   {
+    "name": "Trần Chân",
+    "url": "/w/index.php?title=Tr%E1%BA%A7n_Ch%C3%A2n_(%C4%91%E1%BB%8Bnh_h%C6%B0%E1%BB%9Bng)&action=edit&redlink=1"
+   },
+   {
+    "name": "Trần Cảo",
+    "url": "/wiki/Tr%E1%BA%A7n_C%E1%BA%A3o_(t%C6%B0%E1%BB%9Bng_kh%E1%BB%9Fi_ngh%C4%A9a)"
+   },
+   {
+    "name": "Nguyễn Hoằng Dụ",
+    "url": "/wiki/Nguy%E1%BB%85n_Ho%E1%BA%B1ng_D%E1%BB%A5"
+   },
+   {
+    "name": "Mạc Đăng Dung",
+    "url": "/wiki/M%E1%BA%A1c_%C4%90%C4%83ng_Dung"
+   },
+   {
+    "name": "Nguyễn Kính",
+    "url": "/wiki/Nguy%E1%BB%85n_K%C3%ADnh"
+   },
+   {
+    "name": "Trịnh Duy Thuân",
+    "url": "/wiki/Tr%E1%BB%8Bnh_Duy_Thu%C3%A2n"
+   }
+  ],
+  "url": "/wiki/Tr%E1%BB%8Bnh_Tuy",
+  "info": {}
+ },
+ {
+  "name": "Loạn Mạc Đăng Dung (1522 - 1526)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Mạc Hiển Tích",
+    "url": "/wiki/M%E1%BA%A1c_Hi%E1%BB%83n_T%C3%ADch"
+   },
+   {
+    "name": "Mạc Đĩnh Chi",
+    "url": "/wiki/M%E1%BA%A1c_%C4%90%C4%A9nh_Chi"
+   },
+   {
+    "name": "Mạc Thúy",
+    "url": "/wiki/M%E1%BA%A1c_Th%C3%BAy"
+   },
+   {
+    "name": "Khu tưởng niệm Vương triều Mạc",
+    "url": "/wiki/Khu_t%C6%B0%E1%BB%9Fng_ni%E1%BB%87m_V%C6%B0%C6%A1ng_tri%E1%BB%81u_M%E1%BA%A1c"
+   },
+   {
+    "name": "Nhà Mạc",
+    "url": "/wiki/Nh%C3%A0_M%E1%BA%A1c"
+   },
+   {
+    "name": "Mạc Đăng Doanh",
+    "url": "/wiki/M%E1%BA%A1c_Th%C3%A1i_T%C3%B4ng"
+   },
+   {
+    "name": "Mạc Đăng Lượng Nghệ An",
+    "url": "/wiki/M%E1%BA%A1c_%C4%90%C4%83ng_L%C6%B0%E1%BB%A3ng"
+   },
+   {
+    "name": "Trần Chân",
+    "url": "/wiki/Tr%E1%BA%A7n_Ch%C3%A2n_(t%C6%B0%E1%BB%9Bng_th%E1%BB%9Di_L%C3%AA_s%C6%A1)"
+   },
+   {
+    "name": "Nguyễn Hoằng Dụ",
+    "url": "/wiki/Nguy%E1%BB%85n_Ho%E1%BA%B1ng_D%E1%BB%A5"
+   },
+   {
+    "name": "Trịnh Tuy",
+    "url": "/wiki/Tr%E1%BB%8Bnh_Tuy"
+   },
+   {
+    "name": "Lê Chiêu Tông",
+    "url": "/wiki/L%C3%AA_Chi%C3%AAu_T%C3%B4ng"
+   },
+   {
+    "name": "Lê Cung Hoàng",
+    "url": "/wiki/L%C3%AA_Cung_Ho%C3%A0ng"
+   },
+   {
+    "name": "Lê Trang Tông",
+    "url": "/wiki/L%C3%AA_Trang_T%C3%B4ng"
+   },
+   {
+    "name": "Nguyễn Kim",
+    "url": "/wiki/Nguy%E1%BB%85n_Kim"
+   },
+   {
+    "name": "Trịnh Kiểm",
+    "url": "/wiki/Tr%E1%BB%8Bnh_Ki%E1%BB%83m"
+   },
+   {
+    "name": "Phan Đình Tá",
+    "url": "/wiki/Phan_%C4%90%C3%ACnh_T%C3%A1"
+   },
+   {
+    "name": "Vấn đề biên giới Việt-Trung thời Mạc",
+    "url": "/wiki/V%E1%BA%A5n_%C4%91%E1%BB%81_bi%C3%AAn_gi%E1%BB%9Bi_Vi%E1%BB%87t-Trung_th%E1%BB%9Di_M%E1%BA%A1c"
+   }
+  ],
+  "url": "/wiki/M%E1%BA%A1c_%C4%90%C4%83ng_Dung",
+  "info": {
+   "": "Thái Tổ (太祖)",
+   "Thụy hiệu": "",
+   "Niên hiệu": "",
+   "Tên húy": "",
+   "Miếu hiệu": ""
+  }
+ },
+ {
+  "name": "Chiến tranh Lê-Mạc lần 1 (1533 - 1592)",
+  "description": "Nội chiến Lê\u2013Mạc (1533\u20131677) là cuộc nội chiến giữa nhà Mạc và nhà Hậu Lê trong lịch sử Việt Nam. Phe chống nhà Mạc về sau khi chép sử có gọi đây là thời kỳ Phù Lê diệt Mạc.",
+  "connection": [
+   {
+    "name": "Trận Cao Bình 1677",
+    "url": "/wiki/Tr%E1%BA%ADn_Cao_B%C3%ACnh_1677"
+   },
+   {
+    "name": "Nam\u2013Bắc triều",
+    "url": "/wiki/Nam-B%E1%BA%AFc_tri%E1%BB%81u_(Vi%E1%BB%87t_Nam)"
+   },
+   {
+    "name": "Trịnh\u2013Nguyễn phân tranh",
+    "url": "/wiki/Tr%E1%BB%8Bnh-Nguy%E1%BB%85n_ph%C3%A2n_tranh"
+   },
+   {
+    "name": "Nhà Mạc",
+    "url": "/wiki/Nh%C3%A0_M%E1%BA%A1c"
+   },
+   {
+    "name": "Nhà Hậu Lê",
+    "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA"
+   },
+   {
+    "name": "Chúa Trịnh",
+    "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+   },
+   {
+    "name": "Chúa Bầu",
+    "url": "/wiki/Ch%C3%BAa_B%E1%BA%A7u"
+   },
+   {
+    "name": "Mạc Kính Điển",
+    "url": "/wiki/M%E1%BA%A1c_K%C3%ADnh_%C4%90i%E1%BB%83n"
+   },
+   {
+    "name": "Trịnh Kiểm",
+    "url": "/wiki/Tr%E1%BB%8Bnh_Ki%E1%BB%83m"
+   },
+   {
+    "name": "Trịnh Tùng",
+    "url": "/wiki/Tr%E1%BB%8Bnh_T%C3%B9ng"
+   },
+   {
+    "name": "Quân đội nhà Mạc",
+    "url": "/wiki/Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A0_M%E1%BA%A1c"
+   },
+   {
+    "name": "Quân đội nhà Lê trung hưng",
+    "url": "/wiki/Qu%C3%A2n_%C4%91%E1%BB%99i_nh%C3%A0_L%C3%AA_trung_h%C6%B0ng"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_L%C3%AA-M%E1%BA%A1c",
+  "info": {
+   "Địa điểm": "Bắc Bộ và Bắc Trung Bộ Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Nhà Hậu Lê Chúa Trịnh Chúa Nguyễn Chúa Bầu (1527-1593)",
+    "phe 1": "Nhà Mạc Chúa Bầu (từ 1594)"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Nguyễn Kim Trịnh Kiểm Lê Trang Tông Lê Trung Tông Lê Anh Tông Trịnh Tùng Lại Thế Vinh Nguyễn Hoàng Lê Bá Ly (1551-1557) Hoàng Đình Ái Nguyễn Hữu Liêu Nguyễn Khải Khang (từ 1551) Lê Khắc Thận (1551-1572) Vũ Sư Thước Lại Thế Khanh Bùi Văn Khuê (từ 1592-1600) Trịnh Tạc Lê Thì Hiến Lê Sĩ Triệt Đinh Văn Tả",
+    "phe 1": "Mạc Thái Tổ Mạc Thái Tông Mạc Kính Điển Nguyễn Kính Phạm Tử Nghi Dương Chấp Nhất (trước 1543 và sau 1545) Lê Bá Ly (tới 1551) Nguyễn Quyện Mạc Đôn Nhượng Mạc Ngọc Liễn Lê Khắc Thận (trước 1551, từ 1572) Bùi Văn Khuê (trước 1592, từ 1600) Mạc Kính Chỉ Mạc Kính Cung Mạc Kính Khoan Mạc Kính Vũ"
+   },
+   "Kết quả": "Nam triều thắng, Bắc triều rút lên Cao Bằng rồi bị diệt hoàn toàn. Nhà Hậu Lê trung hưng, nhưng mất thực quyền về tay chúa Trịnh",
+   "Thương vong và tổn thất": {
+    "phe 2": "không rõ",
+    "phe 1": "không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "thường trực 60.000[4]",
+    "phe 1": "thường trực 120.000[3]"
+   },
+   "Thời gian": "1533\u20131677[2]"
+  }
+ },
+ {
+  "name": "Nạn kiêu binh (1782 - 1786)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Đặng Thị Huệ",
+    "url": "/wiki/%C4%90%E1%BA%B7ng_Th%E1%BB%8B_Hu%E1%BB%87"
+   },
+   {
+    "name": "Hoàng Đình Bảo",
+    "url": "/wiki/Ho%C3%A0ng_%C4%90%C3%ACnh_B%E1%BA%A3o"
+   },
+   {
+    "name": "Trịnh Khải",
+    "url": "/wiki/Tr%E1%BB%8Bnh_Kh%E1%BA%A3i"
+   },
+   {
+    "name": "Lê Chiêu Thống",
+    "url": "/wiki/L%C3%AA_Chi%C3%AAu_Th%E1%BB%91ng"
+   }
+  ],
+  "url": "/wiki/N%E1%BA%A1n_ki%C3%AAu_binh",
+  "info": {}
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Panduranga lần 1 (1611)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Lịch sử Chăm Pa",
+    "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Ch%C4%83m_Pa"
+   },
+   {
+    "name": "Vua Chăm Pa",
+    "url": "/wiki/Vua_Ch%C4%83m_Pa"
+   },
+   {
+    "name": "Nguyễn Hoàng",
+    "url": "/wiki/Nguy%E1%BB%85n_Ho%C3%A0ng"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Chi%C3%AAm,_1611",
+  "info": {
+   "Địa điểm": "Vương quốc Chiêm Thành, Nam Trung Bộ Việt Nam hiện nay",
+   "Tham chiến": {
+    "phe 2": "Chiêm Thành",
+    "phe 1": "Chúa Nguyễn"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Po Nit",
+    "phe 1": "Nguyễn Hoàng Văn Phong Luong Văn Chánh"
+   },
+   "Kết quả": "Chúa Nguyễn toàn thắng. Mở rộng thêm lãnh thổ",
+   "Thời gian": "1611"
+  }
+ },
+ {
+  "name": "Xung đột Công ty Đông Ấn Hà Lan với Đàng Trong (1643)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Xung đột Công ty Đông Ấn Hà Lan với Đàng Trong",
+    "url": "/wiki/Xung_%C4%91%E1%BB%99t_C%C3%B4ng_ty_%C4%90%C3%B4ng_%E1%BA%A4n_H%C3%A0_Lan_v%E1%BB%9Bi_%C4%90%C3%A0ng_Trong"
+   },
+   {
+    "name": "Công ty Đông Ấn Hà Lan",
+    "url": "/wiki/C%C3%B4ng_ty_%C4%90%C3%B4ng_%E1%BA%A4n_H%C3%A0_Lan"
+   }
+  ],
+  "url": "/wiki/Tr%E1%BA%ADn_c%E1%BA%A3ng_Eo_1643",
+  "info": {
+   "Địa điểm": "Cảng Eo, Thuận Hóa, Đàng Trong",
+   "Tham chiến": {
+    "phe 2": "Công ty Đông Ấn Hà Lan (VOC)",
+    "phe 1": "Chúa Nguyễn"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Pieter Baeck \u2020 Jan Erntsen \u2020",
+    "phe 1": "Nguyễn Phúc Lan Nguyễn Phúc Tần Nguyễn Phúc Trung"
+   },
+   "Kết quả": "Chúa Nguyễn chiến thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "2 tàu chìm 1 chiếc hư hại và bỏ chạy",
+    "phe 1": "7 thuyền chìm Không rõ số lính chết"
+   },
+   "Lực lượng": {
+    "phe 2": "3 chiến hạm cỡ lớn",
+    "phe 1": "50 thuyền chiến cỡ nhỏ"
+   },
+   "Thời gian": "7/7/1643"
+  }
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Xiêm La lần 1 (1718)",
+  "description": "Chiến tranh Việt\u2013Xiêm (1718) là cuộc tấn công của quân Ayutthaya[1] vào Hà Tiên, phần lãnh thổ Đàng Trong (thuộc nước Đại Việt, tức Việt Nam ngày nay) dưới thời chúa Nguyễn Phúc Chu, ở đầu thế kỷ 18.",
+  "connection": [],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t%E2%80%93Xi%C3%AAm_(1718)",
+  "info": {}
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Xiêm La lần 2 (1771 - 1772)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t%E2%80%93Xi%C3%AAm_(1771-1772)",
+  "info": {}
+ },
+ {
+  "name": "Khởi nghĩa Tây Sơn (1771 - 1777)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Mười chiến dịch lớn của Càn Long",
+    "url": "/wiki/Th%E1%BA%ADp_to%C3%A0n_V%C3%B5_c%C3%B4ng"
+   },
+   {
+    "name": "Nguyễn Nhạc",
+    "url": "/wiki/Nguy%E1%BB%85n_Nh%E1%BA%A1c"
+   },
+   {
+    "name": "Nguyễn Huệ",
+    "url": "/wiki/Nguy%E1%BB%85n_Hu%E1%BB%87"
+   },
+   {
+    "name": "Nguyễn Lữ",
+    "url": "/wiki/Nguy%E1%BB%85n_L%E1%BB%AF"
+   },
+   {
+    "name": "Nguyễn Ánh",
+    "url": "/wiki/Gia_Long"
+   },
+   {
+    "name": "Nhà Hậu Lê",
+    "url": "/wiki/Nh%C3%A0_H%E1%BA%ADu_L%C3%AA"
+   },
+   {
+    "name": "Chúa Trịnh",
+    "url": "/wiki/Ch%C3%BAa_Tr%E1%BB%8Bnh"
+   },
+   {
+    "name": "Chúa Nguyễn",
+    "url": "/wiki/Ch%C3%BAa_Nguy%E1%BB%85n"
+   },
+   {
+    "name": "Ngoại giao Việt Nam thời Tây Sơn",
+    "url": "/wiki/Ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam_th%E1%BB%9Di_T%C3%A2y_S%C6%A1n"
+   },
+   {
+    "name": "Lê Chiêu Thống",
+    "url": "/wiki/L%C3%AA_Chi%C3%AAu_Th%E1%BB%91ng"
+   }
+  ],
+  "url": "/wiki/Nh%C3%A0_T%C3%A2y_S%C6%A1n",
+  "info": {"": "Nhà Nguyễn "}
+ },
+ {
+  "name": "Trịnh-Nguyễn phân tranh lần 1 (1627)",
+  "description": "Trịnh\u2013Nguyễn phân tranh (chữ Hán: 鄭阮紛爭) là thời kỳ phân chia lãnh thổ giữa chế độ \"vua Lê chúa Trịnh\" ở phía Bắc sông Gianh (Đàng Ngoài) và chúa Nguyễn cai trị ở miền Nam (Đàng Trong), mở đầu khi Trịnh Tráng đem quân đánh Nguyễn Phúc Nguyên năm 1627 và kết thúc vào năm 1777 khi chúa Nguyễn sụp đổ.",
+  "connection": [
+   {
+    "name": "Khởi nghĩa Tây Sơn",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_T%C3%A2y_S%C6%A1n-Ch%C3%BAa_Nguy%E1%BB%85n,_1771-1785"
+   },
+   {
+    "name": "Loạn năm Giáp Ngọ",
+    "url": "/wiki/B%C3%ACnh_Nam_(chi%E1%BA%BFn_tranh)"
+   },
+   {
+    "name": "Chiến tranh Tây Sơn-Chúa Trịnh",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_T%C3%A2y_S%C6%A1n-Ch%C3%BAa_Tr%E1%BB%8Bnh"
+   },
+   {
+    "name": "Chiến tranh Tây Sơn-Đại Thanh",
+    "url": "/wiki/Tr%E1%BA%ADn_Ng%E1%BB%8Dc_H%E1%BB%93i_-_%C4%90%E1%BB%91ng_%C4%90a"
+   },
+   {
+    "name": "Chiến tranh Tây Sơn-Chúa Nguyễn, 1787-1802",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_T%C3%A2y_S%C6%A1n-Ch%C3%BAa_Nguy%E1%BB%85n,_1787-1802"
+   }
+  ],
+  "url": "/wiki/Tr%E1%BB%8Bnh-Nguy%E1%BB%85n_ph%C3%A2n_tranh",
+  "info": {
+   "Địa điểm": "Đàng Trong Đàng Ngoài",
+   "Tham chiến": {
+    "phe 2": "Chúa Nguyễn Vương quốc Bồ Đào Nha[1]",
+    "phe 1": "Chúa Trịnh Công ty Đông Ấn Hà Lan (1637-1643) Quân Tây Sơn (1774-1777)"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Nguyễn Phúc Nguyên Nguyễn Phúc Lan Nguyễn Phúc Tần Đào Duy Từ Nguyễn Phúc Thuần Nguyễn Hữu Dật Nguyễn Hữu Tiến Trương Phúc Phấn Tống Hữu Đại Nguyễn Cửu Kiều Tôn Thất Tráng",
+    "phe 1": "Trịnh Tráng Trịnh Tạc Trịnh Căn Đào Quang Nhiêu Trịnh Toàn Lê Thì Hiến Lê Sĩ Triệt Trịnh Sâm Nguyễn Khắc Liệt Lê Văn Hiểu Hoàng Ngũ Phúc Hoàng Phùng Cơ Pieter Baeck \u2020 Jan Erntsen \u2020 Hoàng Đình Thể"
+   },
+   "Kết quả": "Bất phân thắng bại (1627-1672) Sông Gianh là biên giới giữa Đàng Trong và Đàng Ngoài Chúa Nguyễn sụp đổ vào năm 1777 Chúa Trịnh sụp đổ năm 1786",
+   "Thương vong và tổn thất": {"phe": "Khoảng 50 vạn chết, bao gồm thường dân, binh lính tử trận, chết đói hoặc chết vì dịch bệnh"},
+   "Lực lượng": {
+    "phe 2": "khoảng 50.000 200 chiến thuyền",
+    "phe 1": "100.000\u2014200.000 600 chiến thuyền"
+   },
+   "Thời gian": "1627-1672 1774-1777"
+  }
+ },
+ {
+  "name": "Trịnh-Nguyễn phân tranh lần 8 (1774 - 1775)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Trịnh-Nguyễn phân tranh",
+    "url": "/wiki/Tr%E1%BB%8Bnh-Nguy%E1%BB%85n_ph%C3%A2n_tranh"
+   },
+   {
+    "name": "Hoàng Ngũ Phúc",
+    "url": "/wiki/Ho%C3%A0ng_Ng%C5%A9_Ph%C3%BAc"
+   },
+   {
+    "name": "Nguyễn Nhạc",
+    "url": "/wiki/Nguy%E1%BB%85n_Nh%E1%BA%A1c"
+   },
+   {
+    "name": "Nguyễn Phúc Thuần",
+    "url": "/wiki/Nguy%E1%BB%85n_Ph%C3%BAc_Thu%E1%BA%A7n"
+   }
+  ],
+  "url": "/wiki/Tr%E1%BB%8Bnh-Nguy%E1%BB%85n_ph%C3%A2n_tranh,_1774-1775",
+  "info": {
+   "Địa điểm": "Quảng Bình, Quảng Trị, Thừa Thiên-Huế - Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Chúa Nguyễn",
+    "phe 1": "Chúa Trịnh"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Nguyễn Phúc Thuần Tôn Thất Hiệp Tống Hữu Trường Nguyễn Văn Chính Nguyễn Cửu Dật Tôn Thất Chí Tôn Thất Doanh",
+    "phe 1": "Trịnh Sâm Hoàng Ngũ Phúc Bùi Thế Đạt Hoàng Đình Bảo Hoàng Phùng Cơ Hoàng Đình Thể Đoàn Nguyễn Thục Phan Lê Phiên Uông Sĩ Điển Nguyễn Lệ"
+   },
+   "Kết quả": "Quân Trịnh chiếm được Phú Xuân, chúa Nguyễn chạy vào nam",
+   "Thương vong và tổn thất": {
+    "phe 2": "không rõ",
+    "phe 1": "không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "không rõ",
+    "phe 1": "30.000"
+   },
+   "Thời gian": "năm 1774-1775"
+  }
+ },
+ {
+  "name": "Chiến tranh Tây Sơn-Chúa Trịnh (1775 - 1786)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Chiến dịch Thăng Long (1786)",
+    "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_Th%C4%83ng_Long_(1786)"
+   },
+   {
+    "name": "Chiến dịch Phú Xuân 1786",
+    "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_Ph%C3%BA_Xu%C3%A2n_1786"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_T%C3%A2y_S%C6%A1n-Ch%C3%BAa_Tr%E1%BB%8Bnh",
+  "info": {
+   "Địa điểm": "miền Bắc Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Quân đội Tây Sơn",
+    "phe 1": "Quân đội chúa Trịnh Thương buôn Bồ Đào Nha ủng hộ"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Nguyễn Huệ Nguyễn Hữu Chỉnh Vũ Văn Nhậm Nguyễn Lữ",
+    "phe 1": "Trịnh Khải Trịnh Tự Quyền Hoàng Nghĩa Hồ Phạm Ngô Cầu Hoàng Đình Thể Vũ Tá Kiên Đỗ Thế Dận Đinh Tích Nhưỡng Hoàng Phùng Cơ Nguyễn Trọng Yên Ngô Cảnh"
+   },
+   "Kết quả": "Tây Sơn chiến thắng Chính quyền Chúa Trịnh sụp đổ Nguyễn Huệ chính thức chấm dứt sự chia cắt, thống nhất Đàng Trong - Đàng Ngoài, đặt nền móng cho sự thống nhất hoàn toàn, đất nước về cơ bản đã được thống nhất.",
+   "Thương vong và tổn thất": {
+    "phe 2": "không rõ",
+    "phe 1": "không rõ 1 tàu Bồ Đào Nha"
+   },
+   "Lực lượng": {
+    "phe 2": "không rõ 400 thuyền[1]",
+    "phe 1": "100.000-300.000 vài trăm voi chiến"
+   },
+   "Thời gian": "25 tháng 5 - 21 tháng 7 năm 1786"
+  }
+ },
+ {
+  "name": "Chiến tranh Tây Sơn-Chúa Nguyễn lần 1 (1771 - 1785)",
+  "description": "Chiến tranh Tây Sơn \u2013 Chúa Nguyễn (1771 \u2013 1785) là giai đoạn 1 của Chiến tranh Tây Sơn \u2013 Chúa Nguyễn. Cuộc chiến tranh này bắt đầu khi các lực lượng nổi dậy của 3 anh em Tây Sơn là Nguyễn Nhạc, Nguyễn Lữ, Nguyễn Huệ tấn công chúa Nguyễn cho tới khi Nguyễn Nhạc trở thành vua Thái Đức của nhà Tây Sơn.",
+  "connection": [{
+   "name": "Chiến tranh Tây Sơn\u2013Chúa Nguyễn (1787-1802)",
+   "url": "/wiki/Chi%E1%BA%BFn_tranh_T%C3%A2y_S%C6%A1n-Ch%C3%BAa_Nguy%E1%BB%85n,_1787-1802"
+  }],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_T%C3%A2y_S%C6%A1n-Ch%C3%BAa_Nguy%E1%BB%85n,_1771-1785",
+  "info": {
+   "Địa điểm": "Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Quân đội Tây Sơn",
+    "phe 1": "Quân đội chúa Nguyễn"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Nguyễn Huệ Nguyễn Nhạc Nguyễn Lữ Lý Tài (đến 1775) Tập Đình Trương Văn Đa",
+    "phe 1": "Nguyễn Phúc Thuần Nguyễn Phúc Dương Nguyễn Ánh Đỗ Thanh Nhơn Lý Tài (sau 1775) \u2020 Châu Văn Tiếp \u2020"
+   },
+   "Kết quả": "Tây Sơn chiến thắng. Nhà Tây Sơn thành lập, chính quyền họ Nguyễn sụp đổ, Nguyễn Ánh chạy thoát.",
+   "Lực lượng": {
+    "phe 2": "25.000[cần dẫn nguồn] (1774)",
+    "phe 1": "30.000-40.000[1] (1774)"
+   },
+   "Thời gian": "1771-1785"
+  }
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Xiêm La lần 3 (1785)",
+  "description": "Trận Rạch Gầm \u2013 Xoài Mút (tiếng Thái: การรบที่ซากเกิ่ม-สว่ายมุต) là một trận chiến lớn trên sông diễn ra vào đêm 19 rạng sáng ngày 20 tháng 1 năm 1785 giữa liên quân Xiêm-Nguyễn và quân Tây Sơn tại khúc sông Rạch Gầm - Xoài Mút, khi đó thuộc dinh Trấn Định, xứ Đàng Trong; về sau đổi thành tỉnh Mỹ Tho, nay thuộc tỉnh Tiền Giang, Việt Nam. Chỉ trong nửa ngày, quân Tây Sơn do Nguyễn Huệ chỉ huy đã dùng chiến thuật phục kích để đánh tan lực lượng quân Xiêm đông gấp đôi, bảo vệ được chủ quyền của Đại Việt tại vùng Nam Bộ trước đội quân viễn chinh Xiêm La (nay là Thái Lan) do Nguyễn Ánh cầu viện.",
+  "connection": [{
+   "name": "Khu di tích chiến thắng Rạch Gầm - Xoài Mút",
+   "url": "/wiki/Khu_di_t%C3%ADch_chi%E1%BA%BFn_th%E1%BA%AFng_R%E1%BA%A1ch_G%E1%BA%A7m_-_Xo%C3%A0i_M%C3%BAt"
+  }],
+  "url": "/wiki/Tr%E1%BA%ADn_R%E1%BA%A1ch_G%E1%BA%A7m_%E2%80%93_Xo%C3%A0i_M%C3%BAt",
+  "info": {
+   "Địa điểm": "Rạch Gầm - Xoài Mút, dinh Trấn Định, Đàng Trong (nay là tỉnh Tiền Giang, Việt Nam)",
+   "Tham chiến": {
+    "phe 2": "Xiêm La Chúa Nguyễn",
+    "phe 1": "Tây Sơn"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Xiêm La: Chiêu Tăng Chiêu Sương Lục Côn \u2020 Sa Uyển Chiêu Thùy Biện Chúa Nguyễn: Nguyễn Ánh Lê Văn Duyệt Lê Văn Quân Nguyễn Văn Thành Mạc Tử Sanh Nguyễn Văn Oai \u2020\u2026",
+    "phe 1": "Nguyễn Huệ Nguyễn Lữ Trương Văn Đa Đặng Văn Trấn Chưởng tiền Bảo \u2020"
+   },
+   "Kết quả": "Quân Tây Sơn đại thắng.",
+   "Thương vong và tổn thất": {
+    "phe 2": "40.000 quân Xiêm[3][4] 3.000 quân Nguyễn[3]",
+    "phe 1": "Không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "~44.000 quân Xiêm: 20.000 lính thủy, 20.000 lính bộ quân Nguyễn Ánh: 3.000-4.000 Chiến thuyền Xiêm: 300, chiến thuyền quân Nguyễn Ánh: không rõ.",
+    "phe 1": "Khoảng 20.000[1] 55 tàu chiến 100 thuyền buồm 300 xuồng nhỏ 132 khẩu súng thần công[2]"
+   },
+   "Thời gian": "19 tháng 1 năm 1785 - 20 tháng 1 năm 1785"
+  }
+ },
+ {
+  "name": "Chiến tranh Đại Việt-Đại Thanh (1789)",
+  "description": "Trận Ngọc Hồi \u2013 Đống Đa (hay Chiến thắng Kỷ Dậu) là tên gọi do các nhà sử học Việt Nam dành cho loạt trận đánh chống ngoại xâm thắng lợi của nước Đại Việt thời Tây Sơn do vua Quang Trung lãnh đạo vào đầu năm Kỷ Dậu 1789, đánh tan đội quân Mãn Thanh do Tôn Sĩ Nghị chỉ huy - kéo sang biên giới và tràn vào lãnh thổ Đại Việt do sự cầu viện của vua Lê Chiêu Thống nhà Hậu Lê.",
+  "connection": [],
+  "url": "/wiki/Tr%E1%BA%ADn_Ng%E1%BB%8Dc_H%E1%BB%93i_%E2%80%93_%C4%90%E1%BB%91ng_%C4%90a",
+  "info": {
+   "Địa điểm": "Miền Bắc Đại Việt",
+   "Tham chiến": {
+    "phe 2": "Nhà Thanh Nhà Lê Trung Hưng",
+    "phe 1": "Nhà Tây Sơn"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Tôn Sĩ Nghị Hứa Thế Hanh \u2020 Thượng Duy Thăng \u2020 Trương Triều Long \u2020 Ô Đại Kinh Sầm Nghi Đống \u2020 Thang Hùng Nghiệp Lý Hóa Long \u2020 Khánh Thành Hình Đôn Hành \u2020 Lê Chiêu Thống Hoàng Phùng Nghĩa",
+    "phe 1": "Quang Trung Phan Văn Lân Ngô Văn Sở Nguyễn Tăng Long Đặng Xuân Bảo Nguyễn Văn Lộc Nguyễn Văn Tuyết Đặng Tiến Đông Phan Khải Đức Nguyễn Văn Diễm Nguyễn Văn Hoà"
+   },
+   "Kết quả": "Tây Sơn chiến thắng, quân Thanh rút khỏi Đại Việt. Nhà Tây Sơn thay thế nhà Hậu Lê Nhà Tây Sơn lần đầu tiên thống nhất đất nước sau khi đánh đổ các tập đoàn phong kiến Lê (sụp đổ năm 1789) - Trịnh (sụp đổ năm 1787) - Nguyễn (sụp đổ năm 1785) Nhà Tây Sơn chấp nhận triều cống cho nhà Thanh để lập quan hệ bang giao.",
+   "Thương vong và tổn thất": {
+    "phe 2": "Quân Thanh: Một nửa số quân chính quy chết, tối thiểu là 20.000 (chưa kể tổn thất của dân binh)[14] 3.400[15] - hàng vạn tù binh 2.000 - 3.000 pháo các loại, rất nhiều vũ khí và tài sản bị tịch thu (Theo sử nhà Thanh thì cánh quân Lưỡng Quảng chỉ có khoảng 3.000 quân thoát được về nước)[16] Quân Lê Chiêu Thống: một số bị diệt, hàng vạn lính đầu hàng hoặc tan rã[17]",
+    "phe 1": "Hơn 8.000 chết[13] Bị thương không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "Quân nhà Lê của Chiêu Thống: Khoảng vài vạn[5] Hoa kiều gia nhập quân Thanh: Khoảng 10.000[6] Quân Thanh: Sử Trung Quốc 29.500 quân chính quy, 6.000 quân địa phương[7], khoảng 12 vạn dân binh (chưa tính cánh quân Điền Châu) Nguồn phương Tây: 40.000 quân chính quy chưa kể dân binh[8] - 280.000 người (tất cả)[9] Sử Việt Nam: tổng cộng ~200.000[10] đến 290.000 quân chính quy và dân binh[11][12] Tổng cộng theo các nguồn khác nhau: khoảng 200.000 - 290.000 quân (gồm quân chính quy và dân binh nhà Thanh, quân Lê Chiêu Thống, quân Hoa kiều) Hàng nghìn đại bác",
+    "phe 1": "60.000 quân chính quy và dân binh đóng ở miền bắc[1], cộng với mấy vạn quân và dân binh hành quân từ phía nam ra, tổng số khoảng 100.000 quân chính quy và dân binh[2] (gồm khoảng 5 vạn quân chính quy và 5 vạn dân binh) Khoảng 100[3] - 300 voi chiến[4] 350 đại bác"
+   },
+   "Thời gian": "1789"
+  }
+ },
+ {
+  "name": "Chiến tranh Tây Sơn-Chúa Nguyễn lần 2 (1787 - 1802)",
+  "description": "Chiến tranh Tây Sơn \u2013 Chúa Nguyễn (1787 \u2013 1802) là giai đoạn 2 của Chiến tranh Tây Sơn-Chúa Nguyễn. Giai đoạn này bắt đầu khi Nguyễn Ánh trở về tái chiếm Gia Định (1787) và kết thúc khi ông đánh bại hoàn toàn lực lượng của nhà Tây Sơn năm 1802, thống nhất hoàn toàn Việt Nam để trở thành vị vua đầu tiên của nhà Nguyễn là Hoàng đế Gia Long.",
+  "connection": [],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_T%C3%A2y_S%C6%A1n-Ch%C3%BAa_Nguy%E1%BB%85n,_1787-1802",
+  "info": {
+   "Địa điểm": "Campuchia và Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Nhà Tây Sơn Hỗ trợ: Hải tặc Trung Quốc",
+    "phe 1": "Chúa Nguyễn Hỗ trợ: Sĩ quan và các nhà truyền giáo Pháp"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Nguyễn Huệ Nguyễn Nhạc Nguyễn Lữ Quang Toản Trần Quang Diệu Bùi Thị Xuân Võ Văn Dũng Đặng Xuân Bảo Nguyễn Văn Lộc Phạm Công Hưng Nguyễn Văn Hưng Nguyễn Quang Huy Nguyễn Văn Tuyết Nguyễn Quang Thùy Võ Đình Tú Phạm Văn Tham Ngô Văn Sở Lê Trung Nguyễn Văn Huấn Đặng Văn Chân Hải tặc Trung Quốc Trần Thiên Bảo Mạc Quan Phù Trịnh Thất Trịnh Nhất",
+    "phe 1": "Nguyễn Ánh Bá Đa Lộc Võ Tánh Nguyễn Văn Thành Lê Văn Duyệt Đặng Trần Thường Lê Chất Tống Phúc Lương Võ Dy Nguy Ngô Tùng Châu Nguyễn Huỳnh Đức Nguyễn Văn Trương Nguyễn Văn Nhơn Trương Tấn Bửu Sĩ quan Pháp Jean Baptiste Chaigneau Philippe Vannier Olivier de Puymanel Laurent Barisy De Forcant Jean-Marie Dayot"
+   },
+   "Kết quả": "Chúa Nguyễn chiến thắng Nhà Nguyễn được thành lập, nhà Tây Sơn sụp đổ",
+   "Thương vong và tổn thất": {"phe": "Tổng: 300.000-500.000 tử vong (bao gồm thường dân)[cần dẫn nguồn]"},
+   "Lực lượng": {
+    "phe 2": "200.000+[2]",
+    "phe 1": "139.800 (1802)[1]"
+   },
+   "Thời gian": "1787-1802"
+  }
+ },
+ {
+  "name": "Nổi dậy ở Đá Vách thời Nguyễn (1803 - 1885)",
+  "description": "",
+  "connection": [{
+   "name": "Trường Lũy Quảng Ngãi",
+   "url": "/wiki/Tr%C6%B0%E1%BB%9Dng_l%C5%A9y_Qu%E1%BA%A3ng_Ng%C3%A3i"
+  }],
+  "url": "/wiki/N%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_%C4%90%C3%A1_V%C3%A1ch_th%E1%BB%9Di_Nguy%E1%BB%85n",
+  "info": {}
+ },
+ {
+  "name": "Nổi loạn Cao Miên (1811 - 1812)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_lo%E1%BA%A1n_Campuchia_(1811-1812)",
+  "info": {}
+ },
+ {
+  "name": "Nổi dậy Phan Bá Vành (1821 - 1827)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_Phan_B%C3%A1_V%C3%A0nh",
+  "info": {
+   "Địa điểm": "Hải Dương, Hải Phòng, Thái Bình, Nam Định ngày nay",
+   "Tham chiến": {
+    "phe 2": "Triều Nguyễn",
+    "phe 1": "Quân khởi nghĩa Phan Bá Vành"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Lê Mậu Cúc (trấn thủ Sơn Nam) \u2020 Trương Phúc Đặng Nguyễn Công Trứ Phạm Đình Bảo Phạm Văn Lý",
+    "phe 1": "Phan Bá Vành Phan Khánh (Ba Voi) Trần Bất Hựu (Ba Bất) Hai Đáng - Trưởng tả quân Phan Ba Trần Diễn Chiêu Liễn Vũ Thị Hinh (vợ Hai Đáng) Ba Hùm thủ lĩnh (người Mường) Nguyễn Hạnh (tướng cũ của nhà Tây Sơn) Vũ Đức Cát (quan cũ nhà Nguyễn bị cách chức) \u2020"
+   },
+   "Kết quả": "Triều Nguyễn chiến thắng",
+   "Lực lượng": {
+    "phe 2": "Minh Mạng đã điều động hầu hết lực lượng quân đội ở Bắc thành, Thanh Hóa, Nghệ An và một phần ở Huế [1].",
+    "phe 1": "Hàng chục vạn"
+   },
+   "Thời gian": "1821? - năm 1827"
+  }
+ },
+ {
+  "name": "Nổi dậy Lê Duy Lương (1832 - 1837)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_L%C3%AA_Duy_L%C6%B0%C6%A1ng",
+  "info": {}
+ },
+ {
+  "name": "Nổi dậy Lê Văn Khôi (1833 - 1835)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Cuộc nổi dậy Lê Duy Lương",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_L%C3%AA_Duy_L%C6%B0%C6%A1ng"
+   },
+   {
+    "name": "Cuộc nổi dậy Ba Nhàn, Tiền Bột",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_Ba_Nh%C3%A0n,_Ti%E1%BB%81n_B%E1%BB%99t"
+   },
+   {
+    "name": "Cuộc nổi dậy Nông Văn Vân",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_N%C3%B4ng_V%C4%83n_V%C3%A2n"
+   }
+  ],
+  "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_L%C3%AA_V%C4%83n_Kh%C3%B4i",
+  "info": {
+   "Địa điểm": "Sài Gòn, Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Triều Nguyễn",
+    "phe 1": "Phiến quân Lê Văn Khôi Xiêm La"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Minh Mạng Tống Phúc Lương Nguyễn Xuân Phan Văn Thúy Trương Minh Giảng Trần Văn Năng Võ Quýnh Lê Văn Trác Hồ Kim Truyền Ngô Bá Toán Lê Phúc Bảo Lê Đại Cương Doãn Uẩn Bùi Văn Lý Hoàng Đăng Thuận Phạm Hữu Tâm",
+    "phe 1": "Lê Văn Khôi Thái Công Triều Nguyễn Văn Trắm Lê Đắc Lực Nguyễn Văn Đà Nguyễn Văn Thông Dương Văn Nhã Hoàng Nghĩa Thơ Võ Vĩnh Tiền Võ Vĩnh Tải Võ Vĩnh Lộc Nguyễn Văn Bột Lưu Tín Trần Văn Tha Nguyễn Văn Tâm Nguyễn Văn Chân Quách Ngọc Chấn Mạch Tấn Giai Joseph Marchand Chiêu Phi Nhã Chất Tri (Bodin) Chiêu Phi Nhã Phật Lăng (PhraKlang)"
+   },
+   "Kết quả": "Triều Nguyễn chiến thắng",
+   "Thời gian": "5 tháng 7 năm 1833 - 8 tháng 9 năm 1835 2 năm, 65 ngày"
+  }
+ },
+ {
+  "name": "Chiến tranh Việt Nam-Xiêm La (1833 - 1834)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Chiến tranh Việt- Xiêm (1771-1772)",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t%E2%80%93Xi%C3%AAm_(1771-1772)"
+   },
+   {
+    "name": "Cuộc nổi dậy Lê Văn Khôi",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_L%C3%AA_V%C4%83n_Kh%C3%B4i"
+   },
+   {
+    "name": "Chiến tranh Việt-Xiêm (1841-1845)",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t%E2%80%93Xi%C3%AAm_(1841-1845)"
+   },
+   {
+    "name": "Lịch sử chiến tranh Việt-Xiêm",
+    "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Xi%C3%AAm"
+   },
+   {
+    "name": "Lịch sử Campuchia (1431-1863)",
+    "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Campuchia_(1431-1863)"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t%E2%80%93Xi%C3%AAm_(1833-1834)",
+  "info": {
+   "Địa điểm": "Đại Nam",
+   "Tham chiến": {
+    "phe 2": "Triều Rattanakosin",
+    "phe 1": "Nhà Nguyễn"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Chỉ huy chính: Chao Phraya Bodin Decha Prayurawongse (Phra Klang)[3]",
+    "phe 1": "Chỉ huy chính: Trương Minh Giảng Nguyễn Xuân Tống Phước Lương Phạm Hữu Tâm Lê Văn Thụy Phạm Văn Điển Nguyễn Văn Xuân Trương Phúc Đĩnh"
+   },
+   "Kết quả": "Quân Việt chiến thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "Tướng Phi Nhã Khổ Lặc tử trận 20.000-40.000 quân chết",
+    "phe 1": "10.000-20.000 quân và dân chết"
+   },
+   "Lực lượng": {
+    "phe 2": "80.000-100.000 vài trăm chiến thuyền",
+    "phe 1": "40.000-80.000 vài chục chiến thuyền"
+   },
+   "Thời gian": "1833-1834"
+  }
+ },
+ {
+  "name": "Nổi dậy Nông Văn Vân (1833 - 1835)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Nông Văn Vân",
+    "url": "/wiki/N%C3%B4ng_V%C4%83n_V%C3%A2n"
+   },
+   {
+    "name": "Cuộc nổi dậy Lê Văn Khôi",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_L%C3%AA_V%C4%83n_Kh%C3%B4i"
+   },
+   {
+    "name": "Cuộc nổi dậy Ba Nhàn, Tiền Bột",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_Ba_Nh%C3%A0n,_Ti%E1%BB%81n_B%E1%BB%99t"
+   }
+  ],
+  "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_N%C3%B4ng_V%C4%83n_V%C3%A2n",
+  "info": {
+   "Địa điểm": "Việt Bắc",
+   "Tham chiến": {
+    "phe 2": "Nhà Nguyễn",
+    "phe 1": "Quân nổi dậy Nông Văn Vân"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Lê Văn Đức Nguyễn Công Trứ Nguyễn Đình Phổ Tạ Quang Cự Phạm Văn Điển Nguyễn Tiến Lâm Hồ Hữu",
+    "phe 1": "Nông Văn Vân Bế Văn Đản Bế Văn Cẩn Nông Văn Sĩ Nông Văn Hoành Ma Sĩ Vinh Nông Tĩnh Hòa Bế Văn Huyền"
+   },
+   "Kết quả": "Cuộc nổi dậy bị dập tắt",
+   "Thời gian": "Tháng 7, 1833 (âm lịch) - Tháng 3, 1835 (âm lịch)"
+  }
+ },
+ {
+  "name": "Nổi dậy Ba Nhàn - Tiền Bột (1833 - 1843)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Nông Văn Vân",
+    "url": "/wiki/N%C3%B4ng_V%C4%83n_V%C3%A2n"
+   },
+   {
+    "name": "Cuộc nổi dậy Lê Duy Lương",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_L%C3%AA_Duy_L%C6%B0%C6%A1ng"
+   }
+  ],
+  "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_Ba_Nh%C3%A0n,_Ti%E1%BB%81n_B%E1%BB%99t",
+  "info": {}
+ },
+ {
+  "name": "Nổi dậy Hà Tiên (1840)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Cuộc nổi dậy Lâm Sâm",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_L%C3%A2m_S%C3%A2m"
+   },
+   {
+    "name": "Cuộc nổi dậy ở Ba Xuyên (1841)",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_Ba_Xuy%C3%AAn_(1841)"
+   },
+   {
+    "name": "Cuộc nổi dậy ở Thất Sơn (1841)",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_Th%E1%BA%A5t_S%C6%A1n_(1841)"
+   }
+  ],
+  "url": "/wiki/C%C3%A1c_cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_H%C3%A0_Ti%C3%AAn_(1840)",
+  "info": {}
+ },
+ {
+  "name": "Nổi dậy Ba Xuyên (1841)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Cuộc nổi dậy Lâm Sâm",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_L%C3%A2m_S%C3%A2m"
+   },
+   {
+    "name": "Cuộc nổi dậy ở Thất Sơn (1841)",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_Th%E1%BA%A5t_S%C6%A1n_(1841)"
+   },
+   {
+    "name": "Những cuộc nổi dậy ở Hà Tiên (1840)",
+    "url": "/wiki/C%C3%A1c_cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_H%C3%A0_Ti%C3%AAn_(1840)"
+   }
+  ],
+  "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_Ba_Xuy%C3%AAn_(1841)",
+  "info": {
+   "Địa điểm": "Phủ Ba Xuyên",
+   "Tham chiến": {
+    "phe 2": "Nhà Nguyễn",
+    "phe 1": "Thủ lĩnh Sơn Tốt, Trần Lâm"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Thủ lĩnh Trần Lâm",
+    "phe 1": "Thủ lĩnh Sơn Tốt"
+   },
+   "Kết quả": "Cuộc nổi dậy bị dập tắt",
+   "Thời gian": "Tháng 3, năm 1841(Tân Sửu) \u2013 khoảng đầu năm 1842"
+  }
+ },
+ {
+  "name": "Nổi dậy Thất Sơn (1841)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Cuộc nổi dậy Lâm Sâm",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_L%C3%A2m_S%C3%A2m"
+   },
+   {
+    "name": "Cuộc nổi dậy ở Ba Xuyên (1841)",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_Ba_Xuy%C3%AAn_(1841)"
+   },
+   {
+    "name": "Những cuộc nổi dậy ở Hà Tiên (1840)",
+    "url": "/wiki/C%C3%A1c_cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_H%C3%A0_Ti%C3%AAn_(1840)"
+   }
+  ],
+  "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_Th%E1%BA%A5t_S%C6%A1n_(1841)",
+  "info": {}
+ },
+ {
+  "name": "Nổi dậy Lâm Sâm (1841)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Cuộc nổi dậy ở Ba Xuyên (1841)",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_Ba_Xuy%C3%AAn_(1841)"
+   },
+   {
+    "name": "Cuộc nổi dậy ở Thất Sơn (1841)",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_Th%E1%BA%A5t_S%C6%A1n_(1841)"
+   },
+   {
+    "name": "Những cuộc nổi dậy ở Hà Tiên (1840)",
+    "url": "/wiki/C%C3%A1c_cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_%E1%BB%9F_H%C3%A0_Ti%C3%AAn_(1840)"
+   },
+   {
+    "name": "Oknha Son Kuy",
+    "url": "/w/index.php?title=Oknha_Son_Kuy&action=edit&redlink=1"
+   }
+  ],
+  "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_L%C3%A2m_S%C3%A2m",
+  "info": {}
+ },
+ {
+  "name": "Chiến tranh Đại Nam-Xiêm La (1841 - 1845)",
+  "description": "Chiến tranh Việt- Xiêm (1841-1845) là cuộc chiến giữa hai nước Xiêm La dưới thời Rama III và Đại Nam thời Thiệu Trị, diễn ra trên lãnh thổ Campuchia (vùng phía Đông Nam Biển Hồ) và Nam Kỳ (Nam Bộ Việt Nam). Cuộc chiến được chia làm 2 phần chính diễn ra chủ yếu vào các năm 1842 và 1845.",
+  "connection": [
+   {
+    "name": "Chiến tranh Việt- Xiêm (1771-1772)",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t%E2%80%93Xi%C3%AAm_(1771-1772)"
+   },
+   {
+    "name": "Cuộc nổi dậy Lê Văn Khôi",
+    "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_L%C3%AA_V%C4%83n_Kh%C3%B4i"
+   },
+   {
+    "name": "Chiến tranh Việt-Xiêm (1833-1834)",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t%E2%80%93Xi%C3%AAm_(1833-1834)"
+   },
+   {
+    "name": "Lịch sử chiến tranh Việt-Xiêm",
+    "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_chi%E1%BA%BFn_tranh_Vi%E1%BB%87t-Xi%C3%AAm"
+   },
+   {
+    "name": "Lịch sử Campuchia (1431-1863)",
+    "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Campuchia_(1431-1863)"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t%E2%80%93Xi%C3%AAm_(1841-1845)",
+  "info": {
+   "Địa điểm": "Nam Kỳ của Đại Nam và Cao Miên",
+   "Tham chiến": {
+    "phe 2": "Xiêm La (Nhà Chakri)",
+    "phe 1": "Nhà Nguyễn"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Chỉ huy chính: Chao Phraya Bodin (Chất Tri) Ô Thiệt vương (nước Xiêm)[1] Prayurawongse (Cao La Hâm, Tish Bunnag, Phi Nhã Phật Lăng)[2] Chao Phraya Nakhon Ratchasima (Thong-in) Ang Duong (Nặc Ông Đôn, hoàng tử Cao Miên) Ang Em (Nặc Yêm, hoàng tử Cao Miên)",
+    "phe 1": "Chỉ huy chính: Trương Minh Giảng Lê Văn Đức Nguyễn Tiến Lâm Nguyễn Công Nhàn Phạm Văn Điển Nguyễn Công Trứ Võ Văn Giải Nguyễn Tri Phương Doãn Uẩn Nguyễn Văn Hoàng Tôn Thất Nghị Ang Mey (Mỹ Lâm quận chúa)"
+   },
+   "Kết quả": "Việt-Xiêm ký hòa ước và cùng rút quân, Cao Miên phải thần phục cả hai. Nam Kỳ chính thức được Xiêm La và Cao Miên công nhận thuộc Đại Nam (Việt Nam).",
+   "Thương vong và tổn thất": {
+    "phe 2": "Số quân thương vong và thiệt hại khác không rõ.",
+    "phe 1": "Số quân thương vong và thiệt hại khác không rõ."
+   },
+   "Lực lượng": {
+    "phe 2": "Không rõ",
+    "phe 1": "Không rõ"
+   },
+   "Thời gian": "1841-1845"
+  }
+ },
+ {
+  "name": "Nổi dậy Cao Bá Quát (1854 - 1856)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Cao Bá Quát",
+    "url": "/wiki/Cao_B%C3%A1_Qu%C3%A1t"
+   },
+   {
+    "name": "Tự Đức",
+    "url": "/wiki/T%E1%BB%B1_%C4%90%E1%BB%A9c"
+   }
+  ],
+  "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_Cao_B%C3%A1_Qu%C3%A1t",
+  "info": {}
+ },
+ {
+  "name": "Chiến dịch Nam Kỳ (1858 - 1862)",
+  "description": "Chiến dịch Nam Kỳ là chiến dịch Pháp giành quyền bảo hộ toàn bộ miền Nam Kỳ, nhà Nguyễn bắt đầu từ năm 1858. Pháp phát động cuộc chiến tranh đầu tiên tại bán đảo Sơn Trà, Đà Nẵng đến ngày 5 tháng 6 năm 1862, nhà Nguyễn cắt đất cầu hòa ký hiệp ước với Pháp về việc công nhận nền bảo hộ của Pháp tại Nam Kỳ và không tiếp tục xâm phạm lãnh thổ nhà Nguyễn tại Trung Kỳ và Bắc Kỳ tại Hòa ước Nhâm Tuất (1862). Nhưng không lâu sau đó, Pháp trở mặt, lịch sử chuyển sang giai đoạn mới không còn trong Nam Kỳ.",
+  "connection": [],
+  "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_Nam_K%E1%BB%B3",
+  "info": {
+   "Địa điểm": "Nam Kỳ phần phía nam lãnh thổ Đại Nam",
+   "Tham chiến": {
+    "phe 2": "Đế chế Pháp Tây Ban Nha",
+    "phe 1": "Nhà Nguyễn"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Phó Đô đốc De Genouilly Đại tá Reynaud Đại tá Faucon Thiếu tá Jauré-Guiberry Giám mục Pellerin, cố vấn chính trị Đại tá Lanzarotte (Tây Ban Nha) Đại tá Oscaritz (Tây Ban Nha),...",
+    "phe 1": "Tổng thống quân thứ Nguyễn Tri Phương Tham tán Phạm Thế Hiển Thống chế Chu Phúc Minh Đô thống Lê Đình Lý Tổng đốc Trần Hoằng Chưởng vệ Đào Trí Tham tri Phạm Khắc Thân Tham tri Nguyễn Duy..."
+   },
+   "Kết quả": "Chiến thắng của Pháp giành quyền bảo hộ miền Nam Kỳ, nhà Nguyễn Hòa ước Nhâm Tuất (1862) Là tiền đề đầu tiên trong việc Pháp giành quyền bảo hộ toàn lãnh thổ Đại Nam",
+   "Thương vong và tổn thất": {
+    "phe 2": "1.000 người bị giết",
+    "phe 1": "Không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "14 tàu chiến Pháp và Tây Ban Nha Khoảng 3.000 quân Pháp, quân Tây Ban Nha và bộ binh thuộc địa từ Philippines vào cuối cuộc chiến tranh.",
+    "phe 1": "10.000+ bộ binh"
+   },
+   "Thời gian": "1 tháng 8 năm 1858 - 5 tháng 6 năm 1862"
+  }
+ },
+ {
+  "name": "Nổi dậy Tạ Văn Phụng (1861 - 1865)",
+  "description": "",
+  "connection": [{
+   "name": "Tạ Văn Phụng",
+   "url": "/wiki/T%E1%BA%A1_V%C4%83n_Ph%E1%BB%A5ng"
+  }],
+  "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_T%E1%BA%A1_V%C4%83n_Ph%E1%BB%A5ng",
+  "info": {}
+ },
+ {
+  "name": "Nổi dậy Cai Vàng (1862 - 1865)",
+  "description": "",
+  "connection": [{
+   "name": "Bà Ba Cai Vàng",
+   "url": "/wiki/B%C3%A0_Ba_Cai_V%C3%A0ng"
+  }],
+  "url": "/wiki/Cai_V%C3%A0ng",
+  "info": {}
+ },
+ {
+  "name": "Nổi dậy Đoàn Hữu Trưng (1866)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Cu%E1%BB%99c_n%E1%BB%95i_d%E1%BA%ADy_%C4%90o%C3%A0n_H%E1%BB%AFu_Tr%C6%B0ng",
+  "info": {}
+ },
+ {
+  "name": "Biến cố Bắc Kỳ (1873)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Cuộc bình định Bắc kỳ",
+    "url": "/w/index.php?title=Cu%E1%BB%99c_b%C3%ACnh_%C4%91%E1%BB%8Bnh_B%E1%BA%AFc_k%E1%BB%B3&action=edit&redlink=1"
+   },
+   {
+    "name": "Chiến dịch Bắc Kỳ",
+    "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_B%E1%BA%AFc_K%E1%BB%B3"
+   },
+   {
+    "name": "Chiến tranh Pháp-Thanh",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Ph%C3%A1p-Thanh"
+   }
+  ],
+  "url": "/wiki/Bi%E1%BA%BFn_c%E1%BB%91_B%E1%BA%AFc_K%E1%BB%B3_(1873)",
+  "info": {
+   "Địa điểm": "Bắc Kỳ, Đại Nam",
+   "Tham chiến": {
+    "phe 2": "Pháp",
+    "phe 1": "Nhà Nguyễn Quân Cờ Đen"
+   },
+   "Thay đổi lãnh thổ": "Quân Pháp rút khỏi bốn tỉnh Bắc Kỳ",
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Francis Garnier \u2020",
+    "phe 1": "Tự Đức"
+   },
+   "Kết quả": "Hòa ước Giáp Tuất với những điều khoản có lợi cho Pháp.",
+   "Thương vong và tổn thất": {
+    "phe 2": "không rõ",
+    "phe 1": "không rõ"
+   },
+   "Lực lượng": {
+    "phe 2": "không rõ",
+    "phe 1": "vài trăm người"
+   },
+   "Thời gian": "1873"
+  }
+ },
+ {
+  "name": "Chiến dịch Bắc Kỳ (1883 - 1886)",
+  "description": "Chiến dịch Bắc Kỳ (tiếng Pháp: Campagne du Tonkin) là một chiến dịch diễn ra từ tháng 6 năm 1883 đến tháng 4 năm 1886 do Pháp tổ chức, nhằm chống lại các đội quân của người Việt, quân cờ đen của Lưu Vĩnh Phúc và đội quân Quảng Tây và Vân Nam của nhà Thanh, với mục tiêu chiếm đóng Bắc Kỳ và giữ vững sự bảo hộ của Pháp tại đó. Với những diễn biến phức tạp của chiến dịch xảy ra vào tháng 8 năm 1884 do bùng phát Chiến tranh Pháp - Thanh và vào tháng 7 năm 1885 do phong trào Cần Vương tại An Nam, chiến dịch cần đến sự tham gia của rất nhiều quân Pháp, dưới cái tên Quân đoàn viễn chinh Bắc Kỳ và sự hỗ trợ từ Đội tàu chiến Bắc Kỳ. Chiến dịch chính thức kết thúc vào tháng 4 năm 1886, khi lực lượng viễn chinh giảm số lượng quân đội chiếm đóng, nhưng tình hình Bắc Kỳ vẫn không ổn định cho đến tận năm 1896.",
+  "connection": [],
+  "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_B%E1%BA%AFc_K%E1%BB%B3",
+  "info": {
+   "Địa điểm": "Bắc Kỳ, Đại Nam",
+   "Tham chiến": {
+    "phe 2": "Nhà Thanh Nhà Nguyễn Quân Cờ Đen",
+    "phe 1": "Pháp"
+   },
+   "Thay đổi lãnh thổ": "Vùng Bắc Kỳ và Trung Kỳ do Pháp bảo hộ trong Liên bang Đông Dương.",
+   "Kết quả": "Pháp chiến thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "10.000 người bị giết hoặc bị thương",
+    "phe 1": "2.100 người bị giết hoặc bị thương"
+   },
+   "Lực lượng": {
+    "phe 2": "50.000 quân Trung Hoa, 10.000 quân An Nam, 3.000 quân Cờ đen",
+    "phe 1": "35.000 quân vào mùa hè năm 1885"
+   },
+   "Thời gian": "1883\u20131886"
+  }
+ },
+ {
+  "name": "Khởi nghĩa Bảy Thưa (1867 - 1873)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Trần Văn Thành",
+    "url": "/wiki/Tr%E1%BA%A7n_V%C4%83n_Th%C3%A0nh"
+   },
+   {
+    "name": "Đền thờ Quản cơ Trần Văn Thành",
+    "url": "/wiki/%C4%90%E1%BB%81n_th%E1%BB%9D_Qu%E1%BA%A3n_c%C6%A1_Tr%E1%BA%A7n_V%C4%83n_Th%C3%A0nh"
+   }
+  ],
+  "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_B%E1%BA%A3y_Th%C6%B0a",
+  "info": {}
+ },
+ {
+  "name": "Chiến tranh Pháp-Thanh (1884 - 1885)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Hòa ước Thiên Tân 1885",
+    "url": "/wiki/H%C3%B2a_%C6%B0%E1%BB%9Bc_Thi%C3%AAn_T%C3%A2n_(1885)"
+   },
+   {
+    "name": "Công ước Pháp-Thanh 1887",
+    "url": "/wiki/C%C3%B4ng_%C6%B0%E1%BB%9Bc_Ph%C3%A1p-Thanh_1887"
+   },
+   {
+    "name": "Công ước Pháp-Thanh 1895",
+    "url": "/wiki/C%C3%B4ng_%C6%B0%E1%BB%9Bc_Ph%C3%A1p-Thanh_1895"
+   },
+   {
+    "name": "Chiến tranh Pháp-Đại Nam",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Ph%C3%A1p-%C4%90%E1%BA%A1i_Nam"
+   },
+   {
+    "name": "Giải phóng dân tộc Việt Nam (1885-1945)",
+    "url": "/wiki/Phong_tr%C3%A0o_gi%E1%BA%A3i_ph%C3%B3ng_d%C3%A2n_t%E1%BB%99c_Vi%E1%BB%87t_Nam_(1885-1945)"
+   },
+   {
+    "name": "Chiến tranh Đông Dương",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Ph%C3%A1p-Thanh",
+  "info": {
+   "Địa điểm": "Đông Nam Trung Quốc, Đài Loan, miền Bắc Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Trung Quốc Nhà Nguyễn Quân Cờ Đen",
+    "phe 1": "Pháp"
+   },
+   "Thay đổi lãnh thổ": "Pháp bảo hộ Bắc Kỳ và Trung Kỳ được Trung Quốc công nhận. Công ước biên giới năm 1887 được ký giữa Pháp và Trung Quốc xác định biên giới trên bộ giữa Bắc Kỳ và Trung Quốc.",
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Cung Thân vương Tả Tông Đường Trương Bội Luân Phan Đỉnh Tân Vương Đức Bảng Phùng Tử Tài Đường Cảnh Tùng Lưu Minh Truyền Tôn Khai Hoa Vương Tiểu Trì Tô Nguyên Xuân[3][4] Trần Giai Giang Tông Hán Phương Hữu Sinh Ngụy Cương Lưu Vĩnh Phúc Hoàng Kế Viêm",
+    "phe 1": "Amédée Courbet Sébastien Lespès Louis Brière de l'Isle François de Négrier Laurent Giovanninelli Jacques Duchesne"
+   },
+   "Kết quả": "Cả hai đều tuyên bố chiến thắng Pháp chiến thắng tại Đài Loan và các hòn đảo lân cận Quân Thanh chiến thắng chiến lược trên lục địa[1][2] Chính phủ Ferry bị sụp đổ vào cuối tháng 3 khi cuộc chiến bị phản đối Hiệp ước Thiên Tân",
+   "Thương vong và tổn thất": {
+    "phe 2": "~10,000 lính tử trận không rõ bị thương[5]",
+    "phe 1": "4,222 lính thương vong 5,223 lính chết vì bệnh[5]"
+   },
+   "Lực lượng": {
+    "phe 2": "25,000 - 35,000 lính (từ tỉnh Quảng Đông, Quảng Tây, Phúc Kiến, Chiết Giang và Vân Nam)",
+    "phe 1": "15,000 - 20,000 lính"
+   },
+   "Thời gian": "8/1884-4/1885"
+  }
+ },
+ {
+  "name": "Khởi nghĩa Yên Thế (1884 - 1913)",
+  "description": "",
+  "connection": [{
+   "name": "Hoàng Hoa Thám",
+   "url": "/wiki/Ho%C3%A0ng_Hoa_Th%C3%A1m"
+  }],
+  "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Y%C3%AAn_Th%E1%BA%BF",
+  "info": {}
+ },
+ {
+  "name": "Phong trào Cần Vương (1885 - 1896)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Phong_tr%C3%A0o_C%E1%BA%A7n_V%C6%B0%C6%A1ng",
+  "info": {
+   "Địa điểm": "Bắc Kỳ, Trung Kỳ, Nam Kỳ",
+   "Tham chiến": {
+    "phe 2": "Pháp Liên bang Đông Dương Bắc Kỳ Trung Kỳ Nhà Nguyễn Nam Kỳ",
+    "phe 1": "Triều đình Hàm Nghi và các lãnh tụ hưởng ứng phong trào"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Toàn quyền Đông Dương Tổng Trú sứ Trung\u2013Bắc Kỳ Khâm sứ Trung Kỳ Thống sứ Bắc Kỳ Thống đốc Nam Kỳ Đồng Khánh Hoàng Cao Khải Trần Bá Lộc Nguyễn Thân Đinh Nho Quang Lê Hoan Cao Ngọc Lễ",
+    "phe 1": "Hàm Nghi Tôn Thất Thuyết Trần Xuân Soạn Phan Đình Phùng Nguyễn Thiện Thuật Mai Xuân Thưởng Nguyễn Quang Bích Nguyễn Văn Giáp Tạ Hiện Tống Duy Tân và các lãnh tụ Cần Vương khác"
+   },
+   "Kết quả": "Phong trào thất bại",
+   "Thời gian": "1885 \u2013 1896"
+  }
+ },
+ {
+  "name": "Chiến tranh Pháp-Xiêm (1893)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Xi%C3%AAm-Ph%C3%A1p",
+  "info": {
+   "Địa điểm": "Lào",
+   "Tham chiến": {
+    "phe 2": "Pháp Liên bang Đông Dương",
+    "phe 1": "Vương quốc Rattanakosin"
+   },
+   "Thay đổi lãnh thổ": "Lào bị sáp nhập vào Liên bang Đông Dương.",
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Auguste Pavie Jean de Lanessan",
+    "phe 1": "Chulalongkorn Devavongse Bhanurangsi Andreas du Plessis de Richelieu"
+   },
+   "Kết quả": "Pháp chiến thắng",
+   "Thời gian": "Tháng 4 1893 \u2013 3 tháng 10 1893"
+  }
+ },
+ {
+  "name": "Phong trào chống sưu thuế Trung Kỳ (1908)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Phan Châu Trinh",
+    "url": "/wiki/Phan_Ch%C3%A2u_Trinh"
+   },
+   {
+    "name": "Phong trào Duy Tân",
+    "url": "/wiki/Phong_tr%C3%A0o_Duy_T%C3%A2n"
+   }
+  ],
+  "url": "/wiki/Phong_tr%C3%A0o_ch%E1%BB%91ng_s%C6%B0u_thu%E1%BA%BF_Trung_K%E1%BB%B3_(1908)",
+  "info": {}
+ },
+ {
+  "name": "Hà Thành đầu độc (1908)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/H%C3%A0_Th%C3%A0nh_%C4%91%E1%BA%A7u_%C4%91%E1%BB%99c",
+  "info": {}
+ },
+ {
+  "name": "Khởi nghĩa N'Trang Lơng (1911 - 1935)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/N%27Trang_L%C6%A1ng",
+  "info": {}
+ },
+ {
+  "name": "Phong trào hội kín Nam Kỳ (1913 - 1916)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Phan Xích Long",
+    "url": "/wiki/Phan_X%C3%ADch_Long"
+   },
+   {
+    "name": "Giải phóng dân tộc Việt Nam (1885-1945)",
+    "url": "/wiki/Phong_tr%C3%A0o_gi%E1%BA%A3i_ph%C3%B3ng_d%C3%A2n_t%E1%BB%99c_Vi%E1%BB%87t_Nam_(1885-1945)"
+   },
+   {
+    "name": "Vụ phá khám Biên Hòa, 1916",
+    "url": "/wiki/V%E1%BB%A5_ph%C3%A1_kh%C3%A1m_Bi%C3%AAn_H%C3%B2a,_1916"
+   }
+  ],
+  "url": "/wiki/Phong_tr%C3%A0o_h%E1%BB%99i_k%C3%ADn_Nam_K%E1%BB%B3",
+  "info": {}
+ },
+ {
+  "name": "Khởi nghĩa Thái Nguyên (1917)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Lính tập",
+    "url": "/wiki/L%C3%ADnh_t%E1%BA%ADp"
+   },
+   {
+    "name": "Việt Nam Quang phục Hội",
+    "url": "/wiki/Vi%E1%BB%87t_Nam_Quang_ph%E1%BB%A5c_H%E1%BB%99i"
+   }
+  ],
+  "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Th%C3%A1i_Nguy%C3%AAn",
+  "info": {
+   "": {"phe": ""},
+   "Ngôn ngữ thông dụng": {"phe": "Phật giáo"},
+   "Đại Hùng đế quốc": {"phe": "1917\u20131917"},
+   "Chính trị": {"phe": "Quân chủ lập hiến"},
+   "Kết quả": "Khởi nghĩa thất bại",
+   "Thương vong và tổn thất": {
+    "phe 2": "Đa số tử trận hoặc bị bắt.",
+    "phe 1": "?"
+   },
+   "Lực lượng": {
+    "phe 2": "630",
+    "phe 1": "2.700"
+   },
+   "Thời gian": "30 tháng 8 năm 1917 \u2013 11 tháng 1 năm 1918",
+   "Địa điểm": "Thái Nguyên",
+   "Tham chiến": {
+    "phe 2": "Nghĩa quân Thái Nguyên",
+    "phe 1": "Liên bang Đông Dương"
+   },
+   "Lịch sử": {"phe": ""},
+   "Đơn vị tiền tệ": {"phe": ""},
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Trịnh Văn Cấn Lương Ngọc Quyến Dương Văn Giá Nguyễn Gia Cầu",
+    "phe 1": "Giám binh Noël Tướng Michard Đại úy Payroux Quan tư Berger Giám binh Rainert Thống sứ Le Gallen"
+   },
+   "\u2022 Tuyên bố thành lập": {"phe": "1917"},
+   "Vị thế": {"phe": "Thái Nguyên"}
+  }
+ },
+ {
+  "name": "Phú Riềng Đỏ (1930)",
+  "description": "",
+  "connection": [{
+   "name": "Xô Viết Nghệ Tĩnh",
+   "url": "/wiki/X%C3%B4_Vi%E1%BA%BFt_Ngh%E1%BB%87_T%C4%A9nh"
+  }],
+  "url": "/wiki/Ph%C3%BA_Ri%E1%BB%81ng_%C4%90%E1%BB%8F",
+  "info": {}
+ },
+ {
+  "name": "Khởi nghĩa Yên Bái (1930)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Y%C3%AAn_B%C3%A1i",
+  "info": {
+   "Địa điểm": "Bắc Kỳ & Trung Kỳ",
+   "Tham chiến": {
+    "phe 2": "Quân đội Pháp tại Đông Dương",
+    "phe 1": "Việt Nam Cách mệnh quân (VNCMQ)"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Công sứ Joseph-Antoine Massimi Trung tá Aimé Le Tacon (Yên Bái)[1]",
+    "phe 1": "Nguyễn Thái Học[1] Phó Đức Chính Nguyễn Khắc Nhu Vũ Hồng Khanh Đoàn Trần Nghiệp"
+   },
+   "Kết quả": "Pháp chiến thắng Lực lượng khởi nghĩa bị đánh bại Đảng viên bị Pháp truy nã, giam cầm, lưu đày, hành quyết.[1]",
+   "Thương vong và tổn thất": {
+    "phe 2": "2 sĩ quan Pháp và 3 Hạ sĩ quan Pháp chết 3 Hạ sĩ quan Pháp bị thương Không rõ thương vong của lính Việt Nam trong quân đội Pháp[1]",
+    "phe 1": "Không rõ số thương vong 13 bị hành quyết sau này[1]"
+   },
+   "Lực lượng": {
+    "phe 2": "~600[1]",
+    "phe 1": "~100[1]"
+   },
+   "Thời gian": "9 tháng 2 năm 1930"
+  }
+ },
+ {
+  "name": "Xô Viết Nghệ Tĩnh (1930 - 1931)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Tự vệ đỏ",
+    "url": "/wiki/T%E1%BB%B1_v%E1%BB%87_%C4%90%E1%BB%8F"
+   },
+   {
+    "name": "Bảo tàng Xô viết Nghệ Tĩnh",
+    "url": "/wiki/B%E1%BA%A3o_t%C3%A0ng_X%C3%B4_Vi%E1%BA%BFt_Ngh%E1%BB%87_T%C4%A9nh"
+   }
+  ],
+  "url": "/wiki/X%C3%B4_Vi%E1%BA%BFt_Ngh%E1%BB%87_T%C4%A9nh",
+  "info": {
+   "Địa điểm": "Nghệ An và Hà Tĩnh",
+   "Tham chiến": {
+    "phe 2": "Đế quốc thực dân Pháp Liên bang Đông Dương Xứ bảo hộ Trung Kỳ Nhà Nguyễn",
+    "phe 1": "Đảng Cộng sản Đông Dương Xứ ủy Trung Kỳ Tự vệ Đỏ"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Pierre Marie Antoine Pasquier Aristide Eugène Le Fol Trần Ủ Trần Đàng Trần Tiêu Lê Toàn Lê Văn Trì Hà Văn Bân Nguyễn Văn Liêm",
+    "phe 1": "Trần Phú Nguyễn Đức Cảnh Nguyễn Phong Sắc Lê Mao Lê Viết Thuật Nguyễn Văn Uy Nguyễn Thị Nhuyễn Trần Hai Bạt"
+   },
+   "Kết quả": "Nhiều cuộc biểu tình tự vệ vũ trang kết hợp yêu sách chính trị, kết hợp đấu tranh bạo động và đấu tranh chính trị nổ ra. Cuối cùng bị quân đội Pháp trấn áp và tan rã.",
+   "Thời gian": "1930\u20131931"
+  }
+ },
+ {
+  "name": "Chiến dịch Đông Dương (1940)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng_(1940)",
+  "info": {}
+ },
+ {
+  "name": "Khởi nghĩa Bắc Sơn (1940)",
+  "description": "",
+  "connection": [{
+   "name": "Đội du kích Bắc Sơn",
+   "url": "/wiki/%C4%90%E1%BB%99i_du_k%C3%ADch_B%E1%BA%AFc_S%C6%A1n"
+  }],
+  "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_B%E1%BA%AFc_S%C6%A1n",
+  "info": {
+   "Địa điểm": "{{{place}}}",
+   "Tham chiến": {
+    "phe 2": "Pháp Vichy Liên bang Đông Dương Đế quốc Nhật Bản",
+    "phe 1": "Đảng bộ Bắc Sơn Đội du kích Bắc Sơn"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Jean Decoux Tsuchihashi Yuitsu Takeshi Tsukamoto",
+    "phe 1": "Hoàng Văn Thụ Chu Văn Tấn Lương Văn Tri Phùng Chí Kiên Trần Đăng Ninh"
+   },
+   "Kết quả": "Pháp-Nhật hòa nhau. Pháp tập trung quân lực chiếm lại các đồn, đàn áp và tàn sát dân chúng, cán bộ, đảng viên, cuộc khởi nghĩa đã hoàn toàn tan rã.",
+   "Thời gian": "1940"
+  }
+ },
+ {
+  "name": "Nam Kỳ khởi nghĩa (1940)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Đảng Cộng sản Đông Dương",
+    "url": "/wiki/%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Việt Minh",
+    "url": "/wiki/Vi%E1%BB%87t_Minh"
+   },
+   {
+    "name": "Xô viết Nghệ Tĩnh",
+    "url": "/wiki/X%C3%B4_Vi%E1%BA%BFt_Ngh%E1%BB%87_T%C4%A9nh"
+   },
+   {
+    "name": "Khởi nghĩa Bắc Sơn",
+    "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_B%E1%BA%AFc_S%C6%A1n"
+   },
+   {
+    "name": "Đội du kích Bắc Sơn",
+    "url": "/wiki/%C4%90%E1%BB%99i_du_k%C3%ADch_B%E1%BA%AFc_S%C6%A1n"
+   },
+   {
+    "name": "Cứu quốc quân",
+    "url": "/wiki/C%E1%BB%A9u_qu%E1%BB%91c_qu%C3%A2n"
+   },
+   {
+    "name": "Việt Nam Tuyên truyền Giải phóng quân",
+    "url": "/wiki/Vi%E1%BB%87t_Nam_Tuy%C3%AAn_truy%E1%BB%81n_Gi%E1%BA%A3i_ph%C3%B3ng_qu%C3%A2n"
+   },
+   {
+    "name": "Chiến tranh Đông Dương",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng"
+   },
+   {
+    "name": "Cách mạng tháng tám",
+    "url": "/wiki/C%C3%A1ch_m%E1%BA%A1ng_th%C3%A1ng_T%C3%A1m"
+   }
+  ],
+  "url": "/wiki/Nam_K%E1%BB%B3_kh%E1%BB%9Fi_ngh%C4%A9a",
+  "info": {
+   "Địa điểm": "Nam Kỳ",
+   "Tham chiến": {
+    "phe 2": "Đế quốc Nhật Bản Pháp Vichy Liên bang Đông Dương",
+    "phe 1": "Đảng Cộng sản Đông Dương Xứ ủy Nam Kỳ Quân du kích Nam Kỳ"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Jean Decoux Yuichi Tsuchihashi Takeshi Tsukamoto",
+    "phe 1": "Võ Văn Tần Phan Đăng Lưu Tạ Uyên Nguyễn Văn Cừ Hà Huy Tập Nguyễn Thị Minh Khai Nguyễn Thị Bảy Mười Đen"
+   },
+   "Kết quả": "Cuộc khởi nghĩa tạo tiếng vang lớn, gây nhiều tổn hại cho Pháp-Nhật, nhưng về sau bị đàn áp và đã thất bại, nhiều đảng viên, cán bộ cao cấp của Đảng Cộng sản Đông Dương bị xử tử. Một bộ phận nghĩa quân rút vào rừng tiến hành chiến tranh du kích.",
+   "Thời gian": "1940"
+  }
+ },
+ {
+  "name": "Chiến tranh Pháp-Thái (1940 - 1941)",
+  "description": "Chiến tranh Pháp\u2013Thái (tiếng Thái: กรณีพิพาทอินโดจีน tiếng Pháp: Guerre franco-thaïlandaise) (1940\u20131941) là một cuộc chiến giữa Thái Lan và chính phủ Vichy của Pháp trong các vùng đất của Đông Dương thuộc Pháp mà từng thuộc về Thái Lan.",
+  "connection": [],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Ph%C3%A1p-Th%C3%A1i",
+  "info": {
+   "Địa điểm": "Đông Dương thuộc Pháp",
+   "Tham chiến": {
+    "phe 2": "Thái Lan",
+    "phe 1": "Pháp Vichy Liên bang Đông Dương"
+   },
+   "Thay đổi lãnh thổ": "Các lãnh thổ tranh chấp ở Đông Dương thuộc Pháp được nhượng lại cho Thái Lan[1][2]",
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Plaek Phibunsongkhram",
+    "phe 1": "Jean Decoux"
+   },
+   "Kết quả": "Bất phân thắng bại[3] Nhật Bản dàn xếp việc ngừng bắn[4][5]",
+   "Thương vong và tổn thất": {
+    "phe 2": "Trên bộ: 54 bị giết[7] 307 bị thương 21 bị bắt 8\u201313 máy bay bị phá hủy Trên biển: 36 bị giết không rõ số bị thương 2 tàu phóng lôi bị chìm 1 tàu tuần duyên bị mắc cạn",
+    "phe 1": "Trên bộ: 321 thương vong 178 mất tích 222 bị bắt làm tù binh 22 máy bay bị phá hủy Trên biển: 1 tuần dương hạm hạng nhẹ bị hư hại"
+   },
+   "Lực lượng": {
+    "phe 2": "60.000 quân chính quy 134 xe tăng 200 máy bay[6] 18 tàu chiến",
+    "phe 1": "12.000 quân chính quy 20 xe tăng hạng nhẹ 100 máy bay 20 chiến hạm"
+   },
+   "Thời gian": "tháng 10 năm 1940\u20139 tháng 5 năm 1941"
+  }
+ },
+ {
+  "name": "Binh biến Đô Lương (1941)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Binh_bi%E1%BA%BFn_%C4%90%C3%B4_L%C6%B0%C6%A1ng",
+  "info": {}
+ },
+ {
+  "name": "Mặt trận Đông Nam Á trong Thế Chiến thứ Hai (1941 - 1945)",
+  "description": "Mặt trận Đông Nam Á trong Thế chiến II là một mặt trận quân sự trong Chiến tranh thế giới thứ hai từ năm 1941 đến 1945 ở Đông Nam Á. Cuộc chiến bắt đầu khi Đế quốc Nhật Bản xâm chiếm Thái Lan và Malaysia đã từ các căn cứ nằm ở Đông Dương ngày 08 tháng 12 năm 1941. Các trận đánh chính thức kết thúc ngày 09 tháng 9 năm 1945. Mặt trận này có thể nói là rất quan trọng với quân Nhật Bản vì nếu thắng thì họ sẽ sở hữu toàn bộ Đông Nam Á, loại bỏ Pháp và Anh khỏi đây, nếu thua, họ sẽ mất Đạo Quân Nam Phương.",
+  "connection": [],
+  "url": "/wiki/M%E1%BA%B7t_tr%E1%BA%ADn_%C4%90%C3%B4ng_Nam_%C3%81_trong_Th%E1%BA%BF_Chi%E1%BA%BFn_th%E1%BB%A9_Hai",
+  "info": {
+   "Địa điểm": "Đông Dương , Ấn Độ , Miến Điện,Philippines , Thái Lan, Sri Lanka, Singapore ,Đông Ấn Hà Lan , Mã Lai, Hồng Kông ,",
+   "Tham chiến": {
+    "phe 2": "Nhật Bản Các chế độ bù nhìn dưới sự chiếm đóng của quân đội Nhật Bản Đế quốc Việt Nam Lào thuộc Nhật Campuchia thuộc Nhật Quốc gia Miến Điện Cộng hòa Philippines Azad Hind Thái Lan Pháp Vichy (đến 1944)",
+    "phe 1": "Đế quốc Anh Vương quốc Anh Ấn Độ Mã Lai Hồng Kông Miến Điện Trung Quốc Hoa Kỳ Philippines Canada Úc Hà Lan Đông Ấn Hà Lan Việt Minh"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Terauchi Hisaichi Yamashita Tomoyuki Kimura Heitarō Kawabe Masakazu Ida Shojiro Plaek Phibunsongkhram Trần Trọng Kim Norodom Sihanouk Phetsarath Rattanavongsa Ba Maw José P. Laurel Subhas Chandra Bose",
+    "phe 1": "Louis Mountbatten William Slim Arthur Percival Archibald Wawell Joseph Stilwell Douglas MacArthur Tưởng Giới Thạch Vệ Lập Hoàng Hồ Chí Minh"
+   },
+   "Kết quả": "Phe Đồng Minh chiến thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "222.000 chết bị thương hoặc mất tích",
+    "phe 1": "82.200 chết hoặc bị thương 202.700 bị bắt"
+   },
+   "Lực lượng": {
+    "phe 2": "582.700 quân 70 tàu chiến 18 tàu ngầm 708 máy bay 134 xe tăng",
+    "phe 1": "341.400 quân 33 tàu chiến 41 tàu ngầm 492 máy bay 20 xe tăng"
+   }
+  }
+ },
+ {
+  "name": "Trận Phai Khắt, Nà Ngần (1944)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Tr%E1%BA%ADn_Phai_Kh%E1%BA%AFt,_N%C3%A0_Ng%E1%BA%A7n",
+  "info": {
+   "Địa điểm": "Cao Bằng",
+   "Tham chiến": {
+    "phe 2": "Việt Minh",
+    "phe 1": "Lính Đông Dương"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Võ Nguyên Giáp",
+    "phe 1": "Không rõ"
+   },
+   "Kết quả": "Chiến thắng của Việt Minh",
+   "Thương vong và tổn thất": {
+    "phe 2": "Không",
+    "phe 1": "5 đến 16 lính, khoảng 37 bị bắt sống"
+   },
+   "Lực lượng": {
+    "phe 2": "Việt Nam Tuyên truyền Giải phóng quân",
+    "phe 1": "2 tiểu đội lính tập"
+   },
+   "Thời gian": "25 tháng 12 \u2013 26 tháng 12 1944"
+  }
+ },
+ {
+  "name": "Chiến dịch Đông Dương (1945)",
+  "description": "Nhật đảo chính Pháp hay Meigō Sakusen (明号作戦, Minh Hào tác chiến) là chiến dịch của quân Nhật diễn ra vào ngày 9 tháng 3 năm 1945 khi Chiến tranh thế giới thứ hai sắp kết thúc. ",
+  "connection": [{
+   "name": "Chiến dịch Đông Dương lần thứ nhất",
+   "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng_(1940)"
+  }],
+  "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng_(1945)",
+  "info": {
+   "Địa điểm": "Đông Dương thuộc Pháp",
+   "Tham chiến": {
+    "phe 2": "Pháp Liên bang Đông Dương Hỗ trợ trên không: Hoa Kỳ",
+    "phe 1": "Nhật Bản"
+   },
+   "Thay đổi lãnh thổ": "Đế quốc Việt Nam, Vương quốc Campuchia và Vương quốc Luang Phrabang được thành lập",
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Gabriel Sabattier Marcel Alessandri Eugène Mordant",
+    "phe 1": "Tsuchihashi Yuitsu Kawamura Saburo"
+   },
+   "Kết quả": "Nhật Bản chiến thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "Ít nhất 4,200 người thiệt mạng hoặc mất tích (gồm 2.100 người châu Âu) 15.000 người bị bắt (gồm 12.000 người châu Âu)",
+    "phe 1": "~ 1,000 người thiệt mạng hoặc bị thương"
+   },
+   "Lực lượng": {
+    "phe 2": "65,000 25 xe tăng hạng nhẹ 100 máy bay[1]",
+    "phe 1": "55.000"
+   },
+   "Thời gian": "9 tháng 3 \u2014 15 tháng 5 năm 1945"
+  }
+ },
+ {
+  "name": "Cao trào kháng Nhật cứu nước (1945)",
+  "description": "Cao trào kháng Nhật cứu nước-Khởi nghĩa từng phần: là phong trào quần chúng Việt Nam nổi dậy chống đế quốc Nhật Bản sau ngày họ đảo chính lật đổ thực dân Pháp ở Đông Dương.",
+  "connection": [
+   {
+    "name": "Đảng Cộng sản Việt Nam",
+    "url": "/wiki/%C4%90%E1%BA%A3ng_C%E1%BB%99ng_s%E1%BA%A3n_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Việt Minh",
+    "url": "/wiki/Vi%E1%BB%87t_Minh"
+   },
+   {
+    "name": "Việt Nam Tuyên truyền Giải phóng quân",
+    "url": "/wiki/Vi%E1%BB%87t_Nam_Tuy%C3%AAn_truy%E1%BB%81n_Gi%E1%BA%A3i_ph%C3%B3ng_qu%C3%A2n"
+   },
+   {
+    "name": "Chiến tranh Đông Dương",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng"
+   },
+   {
+    "name": "Khởi nghĩa Bắc Sơn",
+    "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_B%E1%BA%AFc_S%C6%A1n"
+   },
+   {
+    "name": "Khởi nghĩa Nam Kỳ",
+    "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Nam_K%E1%BB%B3"
+   },
+   {
+    "name": "Khởi nghĩa Ba Tơ",
+    "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Ba_T%C6%A1"
+   },
+   {
+    "name": "Chiến khu Quỳnh Lưu",
+    "url": "/wiki/Chi%E1%BA%BFn_khu_Qu%E1%BB%B3nh_L%C6%B0u"
+   },
+   {
+    "name": "Mặt trận Dân chủ Đông Dương",
+    "url": "/wiki/M%E1%BA%B7t_tr%E1%BA%ADn_Th%E1%BB%91ng_nh%E1%BA%A5t_D%C3%A2n_ch%E1%BB%A7_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng"
+   },
+   {
+    "name": "Chủ nghĩa thực dân",
+    "url": "/wiki/Ch%E1%BB%A7_ngh%C4%A9a_th%E1%BB%B1c_d%C3%A2n"
+   },
+   {
+    "name": "Chủ nghĩa phát xít",
+    "url": "/wiki/Ch%E1%BB%A7_ngh%C4%A9a_ph%C3%A1t_x%C3%ADt"
+   },
+   {
+    "name": "Chủ nghĩa đế quốc",
+    "url": "/wiki/Ch%E1%BB%A7_ngh%C4%A9a_%C4%91%E1%BA%BF_qu%E1%BB%91c"
+   },
+   {
+    "name": "Đế quốc thực dân Pháp",
+    "url": "/wiki/%C4%90%E1%BA%BF_qu%E1%BB%91c_th%E1%BB%B1c_d%C3%A2n_Ph%C3%A1p"
+   },
+   {
+    "name": "Đế quốc Nhật Bản",
+    "url": "/wiki/%C4%90%E1%BA%BF_qu%E1%BB%91c_Nh%E1%BA%ADt_B%E1%BA%A3n"
+   },
+   {
+    "name": "Nạn đói Ất Dậu",
+    "url": "/wiki/N%E1%BA%A1n_%C4%91%C3%B3i_n%C4%83m_%E1%BA%A4t_D%E1%BA%ADu,_1944-1945"
+   },
+   {
+    "name": "Cách mạng tháng tám",
+    "url": "/wiki/C%C3%A1ch_m%E1%BA%A1ng_th%C3%A1ng_T%C3%A1m"
+   }
+  ],
+  "url": "/wiki/Cao_tr%C3%A0o_kh%C3%A1ng_Nh%E1%BA%ADt_c%E1%BB%A9u_n%C6%B0%E1%BB%9Bc",
+  "info": {
+   "Địa điểm": "{{{place}}}",
+   "Tham chiến": {
+    "phe 2": "Đế quốc Nhật Bản Đạo quân Viễn chinh Đông Dương Đế quốc Việt Nam",
+    "phe 1": "Đảng Cộng sản Đông Dương Việt Minh"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Tsuchihashi Yuitsu Tsukamoto Takeshi Nishimura Takuma Nakamura Aketo Bảo Đại Trần Trọng Kim",
+    "phe 1": "Nguyễn Ái Quốc Võ Nguyên Giáp Phạm Văn Đồng Trường Chinh"
+   },
+   "Kết quả": "Việt Minh tổ chức tổng khởi nghĩa Cách mạng tháng Tám giành chính quyền, Hồ Chí Minh đọc tuyên ngôn độc lập, Pháp quay lại tái chiếm thuộc địa, Chiến tranh Đông Dương bùng nổ",
+   "Thời gian": "1945"
+  }
+ },
+ {
+  "name": "Khởi nghĩa Ba Tơ (1945)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Cao trào kháng Nhật cứu nước",
+    "url": "/wiki/Cao_tr%C3%A0o_kh%C3%A1ng_Nh%E1%BA%ADt_c%E1%BB%A9u_n%C6%B0%E1%BB%9Bc"
+   },
+   {
+    "name": "Cách mạng tháng Tám",
+    "url": "/wiki/C%C3%A1ch_m%E1%BA%A1ng_th%C3%A1ng_T%C3%A1m"
+   }
+  ],
+  "url": "/wiki/Kh%E1%BB%9Fi_ngh%C4%A9a_Ba_T%C6%A1",
+  "info": {
+   "Địa điểm": "Ba Tơ, Quảng Ngãi",
+   "Tham chiến": {
+    "phe 2": "Pháp Vichy Đế quốc Nhật",
+    "phe 1": "Chi bộ nhà lao Ba Tơ Đảng bộ Quảng Ngãi Đội du kích Ba Tơ"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Jean Decoux Yuichi Tsuchihashi Takeshi Tsukamoto",
+    "phe 1": "Nguyễn Chánh Phạm Kiệt Nguyễn Đôn"
+   },
+   "Kết quả": "Đội du kích Ba Tơ chiến thắng, trở thành trung tâm của cao trào kháng Nhật ở miền Trung Việt Nam và là hạt nhân của các lực lượng vũ trang Liên khu V sau này",
+   "Thời gian": "1945"
+  }
+ },
+ {
+  "name": "Cách mạng Tháng Tám (1945)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Tổng khởi nghĩa Hà Nội",
+    "url": "/wiki/T%E1%BB%95ng_kh%E1%BB%9Fi_ngh%C4%A9a_H%C3%A0_N%E1%BB%99i"
+   },
+   {
+    "name": "Cao trào kháng Nhật cứu nước",
+    "url": "/wiki/Cao_tr%C3%A0o_kh%C3%A1ng_Nh%E1%BA%ADt_c%E1%BB%A9u_n%C6%B0%E1%BB%9Bc"
+   },
+   {
+    "name": "Chiếu thoái vị của Bảo Đại",
+    "url": "/wiki/Chi%E1%BA%BFu_tho%C3%A1i_v%E1%BB%8B_c%E1%BB%A7a_B%E1%BA%A3o_%C4%90%E1%BA%A1i"
+   },
+   {
+    "name": "Tuyên ngôn độc lập (Việt Nam Dân chủ Cộng hòa)",
+    "url": "/wiki/Tuy%C3%AAn_ng%C3%B4n_%C4%91%E1%BB%99c_l%E1%BA%ADp_(Vi%E1%BB%87t_Nam_D%C3%A2n_ch%E1%BB%A7_C%E1%BB%99ng_h%C3%B2a)"
+   }
+  ],
+  "url": "/wiki/C%C3%A1ch_m%E1%BA%A1ng_Th%C3%A1ng_T%C3%A1m",
+  "info": {
+   "Địa điểm": "Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Việt Minh",
+    "phe 1": "Nhật Bản Đế quốc Việt Nam"
+   },
+   "Thay đổi lãnh thổ": "Lực lượng Đế quốc Nhật Bản phần lớn hạ vũ khí. Nội các Đế quốc Việt Nam từ chức. Vua Bảo Đại thoái vị, Nhà Nguyễn kết thúc. Việt Nam Dân chủ Cộng hòa thành lập và tổ chức Tổng tuyển cử năm 1946 trên phạm vi cả nước.",
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Hồ Chí Minh Trường Chinh Võ Nguyên Giáp Trần Huy Liệu Hoàng Quốc Việt",
+    "phe 1": "Tsuchihashi Yuitsu (Tư lệnh quân Nhật ở Đông Dương) Bảo Đại Trần Trọng Kim"
+   },
+   "Kết quả": "Việt Minh giành được chính quyền. Vua Bảo Đại thoái vị, chấm dứt chế độ quân chủ chuyên chế. Đế quốc Nhật Bản đầu hàng Việt Minh.",
+   "Lực lượng": {
+    "phe 2": "5.000 đảng viên Quần chúng nổi dậy ở các nơi Thanh niên Tiền tuyến (lực lượng an ninh của Đế quốc Việt Nam, nhưng khi cách mạng nổ ra đã quay sang ủng hộ Việt Minh)",
+    "phe 1": "Hàng chục ngàn quân Nhật"
+   },
+   "Thời gian": "16 tháng 8 \u2013 30 tháng 8 năm 1945"
+  }
+ },
+ {
+  "name": "Hoa quân nhập Việt (1945)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Hoa_qu%C3%A2n_nh%E1%BA%ADp_Vi%E1%BB%87t",
+  "info": {
+   "Địa điểm": "Bắc Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Trung Quốc Việt Quốc Đảng Đại Việt Việt Cách",
+    "phe 1": "Việt Nam Dân chủ Cộng hòa"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Lư Hán Tiêu Văn Vũ Hồng Khanh Nguyễn Tường Tam Nguyễn Hải Thần",
+    "phe 1": "Hồ Chí Minh Võ Nguyên Giáp"
+   },
+   "Thành phần tham chiến": {
+    "phe 2": "4 quân đoàn (60,93,52,62) (sau quân đoàn 53 thay thế quân đoàn 52 và 62) 3 sư đoàn độc lập (19,23,93) 1 tiểu đoàn hiến binh[1]",
+    "phe 1": ""
+   },
+   "Kết quả": "Quân đội Tưởng Giới Thạch rút lui. Việt Nam Quốc dân Đảng và Việt Nam Cách mệnh Đồng minh Hội rút khỏi Chính phủ Liên hiệp",
+   "Thương vong và tổn thất": {
+    "phe 2": "Không đáng kể",
+    "phe 1": "Không có"
+   },
+   "Lực lượng": {
+    "phe 2": "20 vạn quân bộ binh [2]",
+    "phe 1": ""
+   },
+   "Thời gian": "Cuối tháng 8 đầu tháng 9 năm 1945"
+  }
+ },
+ {
+  "name": "Nam Bộ kháng chiến (1945 - 1946)",
+  "description": "Nam Bộ kháng chiến là xung đột quân sự giữa Việt Nam và liên quân Anh, Pháp, Nhật bắt đầu xảy ra trước khi chiến tranh Đông Dương bùng nổ, được lấy mốc là ngày 23 tháng 9 năm 1945, khi các lực lượng quân sự Việt Nam chống lại việc Pháp tái chiếm Nam Bộ. Chiến sự ban đầu diễn ra trên chiến trường Nam Bộ, sau đó phát triển ra Tây Nguyên và Nam Trung Bộ.",
+  "connection": [],
+  "url": "/wiki/Nam_B%E1%BB%99_kh%C3%A1ng_chi%E1%BA%BFn",
+  "info": {
+   "Địa điểm": "Nam Bộ, Nam Trung Bộ, Tây Nguyên, Nam Việt Nam.",
+   "Tham chiến": {"phe": "Đế quốc Anh Ấn Độ Pháp Liên bang Đông Dương Nhật Bản Việt Nam Dân chủ Cộng hòa dân quân Cao Đài dân quân Hòa hảo dân quân Bình Xuyên Việt Nam Quốc Dân Đảng Nhân dân Nam Bộ"},
+   "Chỉ huy và lãnh đạo": {"phe": "Philippe Leclerc de Hauteclocque Douglas Gracey Roger Trinquier Phạm Ngọc Thạch Nguyễn Văn Nguyễn Dương Văn Dương Nguyễn Bình Nguyễn Sơn Lê Duẩn Phạm Công Tắc Huỳnh Phú Sổ Lê Văn Viễn Nhất Linh"},
+   "Kết quả": "Quân đội Việt Nam sau khi chống trả, rút về các chiến khu và tiến hành kháng chiến lâu dài. Liên quân Anh-Pháp chiếm đóng các thành phố lớn. Phe Anh tuyên bố chiến thắng và trao quyền quản lý cho Pháp. Chiến tranh Đông Dương bùng nổ sau khi Anh rút quân.",
+   "Thương vong và tổn thất": {"phe": "Đế quốc Anh Ấn Độ: 40 * Liên bang Đông Dương Nhật Bản: cao hơn thương vong của Đế quốc Anh 2,700 (Theo Đế quốc Anh ước tính) Không rõ thương vong"},
+   "Lực lượng": {"phe": "35.000 10.000 4.000 Không thống kê được Không rõ"},
+   "Thời gian": "13 tháng 9 năm 1945 \u2013 30 tháng 3 năm 1946"
+  }
+ },
+ {
+  "name": "Chiến tranh Đông Dương (1946 - 1954)",
+  "description": "Chiến tranh Đông Dương, còn được gọi là Chiến tranh Đông Dương lần thứ nhất là một cuộc xung đột diễn ra tại ba nước Đông Dương bao gồm Việt Nam, Lào và Campuchia, giữa một bên là Quân đội Viễn chinh Pháp cùng các lực lượng đồng minh bản xứ bao gồm lực lượng của Quốc gia Việt Nam, Vương quốc Lào, Vương quốc Campuchia thuộc Liên hiệp Pháp, bên kia là lực lượng Việt Nam Dân chủ Cộng hòa (Việt Minh) cùng các lực lượng kháng chiến khác của Lào (Pathet Lào) và Campuchia (Khmer Đỏ). Cuộc chiến bắt đầu từ ngày 19 tháng 12 năm 1946 khi Hồ Chí Minh ra lệnh Toàn quốc kháng chiến và kết thúc ngày 20 tháng 7 năm 1954 khi Hiệp định Genéve được ký kết. Tuy nhiên xung đột thật sự đã nổ ra từ ngày 23 tháng 9 năm 1945 khi quân Pháp theo chân quân Anh tiến vào miền Nam Việt Nam để giải giáp quân Nhật.",
+  "connection": [
+   {
+    "name": "Nhà Nguyễn",
+    "url": "/wiki/Nh%C3%A0_Nguy%E1%BB%85n"
+   },
+   {
+    "name": "Chiến tranh Pháp-Đại Nam",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Ph%C3%A1p-%C4%90%E1%BA%A1i_Nam"
+   },
+   {
+    "name": "Chiến tranh Pháp-Thanh",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Ph%C3%A1p-Thanh"
+   },
+   {
+    "name": "Pháp thuộc",
+    "url": "/wiki/Ph%C3%A1p_thu%E1%BB%99c"
+   },
+   {
+    "name": "Thực dân Pháp",
+    "url": "/wiki/%C4%90%E1%BA%BF_qu%E1%BB%91c_th%E1%BB%B1c_d%C3%A2n_Ph%C3%A1p"
+   },
+   {
+    "name": "Quân đội Pháp",
+    "url": "/wiki/Qu%C3%A2n_%C4%91%E1%BB%99i_Ph%C3%A1p"
+   },
+   {
+    "name": "Cao trào kháng Nhật",
+    "url": "/wiki/Cao_tr%C3%A0o_kh%C3%A1ng_Nh%E1%BA%ADt_c%E1%BB%A9u_n%C6%B0%E1%BB%9Bc"
+   },
+   {
+    "name": "Cách mạng tháng tám",
+    "url": "/wiki/C%C3%A1ch_m%E1%BA%A1ng_th%C3%A1ng_T%C3%A1m"
+   },
+   {
+    "name": "Tuyên ngôn độc lập Việt Nam",
+    "url": "/wiki/Tuy%C3%AAn_ng%C3%B4n_%C4%91%E1%BB%99c_l%E1%BA%ADp_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Việt Minh",
+    "url": "/wiki/Vi%E1%BB%87t_Minh"
+   },
+   {
+    "name": "Chiến dịch Điện Biên Phủ",
+    "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_%C4%90i%E1%BB%87n_Bi%C3%AAn_Ph%E1%BB%A7"
+   },
+   {
+    "name": "Bảo Đại",
+    "url": "/wiki/B%E1%BA%A3o_%C4%90%E1%BA%A1i"
+   },
+   {
+    "name": "Quốc gia Việt Nam",
+    "url": "/wiki/Qu%E1%BB%91c_gia_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Chiến tranh Việt Nam",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Da vàng hóa chiến tranh",
+    "url": "/wiki/Da_v%C3%A0ng_h%C3%B3a_chi%E1%BA%BFn_tranh"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_%C4%90%C3%B4ng_D%C6%B0%C6%A1ng",
+  "info": {
+   "Địa điểm": "Đông Dương thuộc Pháp, chiến trường chính tại Bắc Kỳ",
+   "Tham chiến": {
+    "phe 2": "Việt Nam Dân chủ Cộng hòa Việt Minh Lào Issara Pathet Lào (từ 1949) Khmer Issarak Mặt trận Issarak Thống nhất Ủng hộ bởi: Liên Xô Trung Quốc Đông Đức (từ 1950)[4]",
+    "phe 1": "Pháp Liên bang Đông Dương Bắc Kỳ Trung Kỳ Cộng hòa Tự trị Nam Kỳ Quốc gia Việt Nam Lào Campuchia Ủng hộ bởi: Hoa Kỳ[3] Trung Hoa Dân Quốc"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Hồ Chí Minh Võ Nguyên Giáp Nguyễn Chí Thanh Hoàng Văn Thái Văn Tiến Dũng Phạm Văn Đồng Trường Chinh Souphanouvong Kaysone Phomvihane Sơn Ngọc Minh Tou Samouth Trần Canh (cố vấn)",
+    "phe 1": "Philippe Leclerc de Hauteclocque (1945\u201346) Jean-Étienne Valluy (1946\u201348) Roger Blaizot (1948\u201349) Marcel-Maurice Carpentier (1949\u201350) Jean de Lattre de Tassigny (1950\u201351) Raoul Salan (1952\u201353) Henri Navarre (1953\u201354) Bảo Đại Ngô Đình Diệm Nguyễn Văn Tâm Nguyễn Văn Hinh Harry S. Truman Dwight D. Eisenhower"
+   },
+   "Kết quả": "Việt Nam Dân chủ Cộng hòa chiến thắng. Việt Nam, Lào, Campuchia tách khỏi Liên hiệp Pháp, hoàn toàn độc lập. Pháp và Quốc gia Việt Nam tập kết về miền Nam. Việt Nam bị phân chia tạm thời tại Vĩ tuyến 17. Sau 2 năm Pháp rút khỏi Việt Nam. Hoa Kỳ đẩy mạnh việc can thiệp sâu hơn vào Đông Dương.[1][2]",
+   "Thương vong và tổn thất": {
+    "phe 2": "191.605 chết[16] ~200.000 bị thương 100.000 bị bắt",
+    "phe 1": "Quân Pháp và lê dương: 75.581 chết, 64.127 bị thương 40.000 bị bắt Quân bản xứ ở Đông Dương: 419.000 chết, bị thương, bị bắt hoặc đầu hàng[13] Theo Việt Minh: Nửa triệu chết và bị thương. Phá huỷ 435 máy bay, bắn chìm 603 tàu chiến và ca nô, phá huỷ 9.283 xe quân sự, thu 255 pháo, 504 xe quân sự và 130.000 súng các loại.[14][15]"
+   },
+   "Lực lượng": {
+    "phe 2": "Theo phương Tây: 125.000 lính chính quy 75.000 ở các quân khu 250.000 dân quân[8] Theo Việt Nam: 80.000 quân chính quy -1.000.000 du kích (1946)[9] 120.000 quân chính quy 1.000.000 du kích (1947)[10] 230.000 quân chính quy -3.000.000 du kích (1950)[11] 166.000 quân chính quy 2.000.000+ du kích (1953)[12]",
+    "phe 1": "Theo phương Tây: Quân Pháp và các nước châu Phi: 190.000 Các đồng minh ở thuộc địa Đông Dương: 55.000 Quốc gia Việt Nam: 150.000[5] Theo Việt Nam: 100.000 (1946)[6] 239.000 (1950) 445.000 (gồm 146.000 quân Âu Phi và 299.000 quân các nước Đông Dương) (1954)[7]"
+   },
+   "Thời gian": "19 tháng 12 năm 1946 \u2013 1 tháng 8 năm 1954 (7 năm, 7 tháng, 1 tuần và 6 ngày)"
+  }
+ },
+ {
+  "name": "Chiến dịch Thập Vạn Đại Sơn (1949)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_Th%E1%BA%ADp_V%E1%BA%A1n_%C4%90%E1%BA%A1i_S%C6%A1n",
+  "info": {
+   "Địa điểm": "Các huyện Ung Châu, Long Châu và Khâm Châu, Quảng Tây, Trung Quốc",
+   "Tham chiến": {
+    "phe 2": "Đài Loan Quốc quân Trung Hoa Dân Quốc",
+    "phe 1": "Trung Quốc Giải phóng quân Nhân dân Trung Quốc Việt Nam Dân chủ Cộng hòa Quân đội nhân dân Việt Nam"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "không rõ",
+    "phe 1": "Trần Minh Giang Lê Quảng Ba"
+   },
+   "Kết quả": "Liên quân Quân Giải phóng Nhân dân Trung Quốc và Quân đội Nhân dân Việt Nam chiếm thành phố Nam Ninh và một số địa phương khác tại Quảng Tây",
+   "Thời gian": "Tháng 6 - tháng 10 năm 1949"
+  }
+ },
+ {
+  "name": "Chiến tranh Việt Nam (1955 - 1975)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Lịch sử Việt Nam",
+    "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Nội chiến Lào",
+    "url": "/wiki/N%E1%BB%99i_chi%E1%BA%BFn_L%C3%A0o"
+   },
+   {
+    "name": "Nội chiến Campuchia",
+    "url": "/wiki/N%E1%BB%99i_chi%E1%BA%BFn_Campuchia"
+   },
+   {
+    "name": "Bộ chỉ huy Viện trợ Quân sự Mỹ tại Việt Nam",
+    "url": "/wiki/B%E1%BB%99_ch%E1%BB%89_huy_Vi%E1%BB%87n_tr%E1%BB%A3_Qu%C3%A2n_s%E1%BB%B1_M%E1%BB%B9_t%E1%BA%A1i_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Đoàn cố vấn quân sự Liên Xô tại Việt Nam",
+    "url": "/wiki/%C4%90o%C3%A0n_c%E1%BB%91_v%E1%BA%A5n_qu%C3%A2n_s%E1%BB%B1_Li%C3%AAn_X%C3%B4_t%E1%BA%A1i_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Sự can thiệp của Mỹ vào Việt Nam",
+    "url": "/wiki/S%E1%BB%B1_can_thi%E1%BB%87p_c%E1%BB%A7a_M%E1%BB%B9_v%C3%A0o_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Hàn Quốc trong chiến tranh Việt Nam",
+    "url": "/wiki/H%C3%A0n_Qu%E1%BB%91c_trong_chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Bắc Triều Tiên trong chiến tranh Việt Nam",
+    "url": "/wiki/B%E1%BA%AFc_Tri%E1%BB%81u_Ti%C3%AAn_trong_Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Trung Hoa Dân Quốc trong chiến tranh Việt Nam",
+    "url": "/wiki/Trung_Hoa_D%C3%A2n_Qu%E1%BB%91c_trong_chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Quân lực Thế giới Tự do (chiến tranh Việt Nam)",
+    "url": "/wiki/Qu%C3%A2n_l%E1%BB%B1c_Th%E1%BA%BF_gi%E1%BB%9Bi_T%E1%BB%B1_do_(chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam)"
+   },
+   {
+    "name": "Viện trợ nước ngoài trong Chiến tranh Việt Nam",
+    "url": "/wiki/Vi%E1%BB%87n_tr%E1%BB%A3_n%C6%B0%E1%BB%9Bc_ngo%C3%A0i_trong_Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Danh sách vũ khí sử dụng trong Chiến tranh Việt Nam",
+    "url": "/wiki/Danh_s%C3%A1ch_v%C5%A9_kh%C3%AD_s%E1%BB%AD_d%E1%BB%A5ng_trong_Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
+    "url": "/wiki/M%E1%BA%B7t_tr%E1%BA%ADn_D%C3%A2n_t%E1%BB%99c_Gi%E1%BA%A3i_ph%C3%B3ng_mi%E1%BB%81n_Nam_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Trận lụt đồng bằng sông Hồng năm 1971",
+    "url": "/wiki/Tr%E1%BA%ADn_l%E1%BB%A5t_%C4%91%E1%BB%93ng_b%E1%BA%B1ng_s%C3%B4ng_H%E1%BB%93ng_n%C4%83m_1971"
+   },
+   {
+    "name": "Chiến tranh đặc biệt",
+    "url": "/wiki/K%E1%BA%BF_ho%E1%BA%A1ch_Staley-Taylor"
+   },
+   {
+    "name": "Chiến tranh cục bộ",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_c%E1%BB%A5c_b%E1%BB%99_(Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam)"
+   },
+   {
+    "name": "Việt Nam hóa chiến tranh",
+    "url": "/wiki/Vi%E1%BB%87t_Nam_h%C3%B3a_chi%E1%BA%BFn_tranh"
+   },
+   {
+    "name": "Phong trào Hát cho đồng bào tôi nghe",
+    "url": "/wiki/Phong_tr%C3%A0o_H%C3%A1t_cho_%C4%91%E1%BB%93ng_b%C3%A0o_t%C3%B4i_nghe"
+   },
+   {
+    "name": "Phong trào phản chiến trong Chiến tranh Việt Nam",
+    "url": "/wiki/Phong_tr%C3%A0o_ph%E1%BA%A3n_chi%E1%BA%BFn_trong_Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Đội quân tóc dài",
+    "url": "/wiki/%C4%90%E1%BB%99i_qu%C3%A2n_t%C3%B3c_d%C3%A0i"
+   },
+   {
+    "name": "Tội ác của Quân đội Hoa Kỳ và đồng minh trong chiến tranh Việt Nam",
+    "url": "/wiki/T%E1%BB%99i_%C3%A1c_c%E1%BB%A7a_Qu%C3%A2n_%C4%91%E1%BB%99i_Hoa_K%E1%BB%B3_v%C3%A0_%C4%91%E1%BB%93ng_minh_trong_chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Những vụ tấn công của lực lượng biệt động Quân Giải phóng Miền Nam Việt Nam",
+    "url": "/wiki/Nh%E1%BB%AFng_v%E1%BB%A5_t%E1%BA%A5n_c%C3%B4ng_c%E1%BB%A7a_l%E1%BB%B1c_l%C6%B0%E1%BB%A3ng_bi%E1%BB%87t_%C4%91%E1%BB%99ng_Qu%C3%A2n_Gi%E1%BA%A3i_ph%C3%B3ng_Mi%E1%BB%81n_Nam_Vi%E1%BB%87t_Nam"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_Vi%E1%BB%87t_Nam",
+  "info": {}
+ },
+ {
+  "name": "Nội chiến Lào (1959 - 1975)",
+  "description": "Nội chiến Lào là cuộc chiến tranh thường được tính bắt đầu từ tháng 5 năm 1959 và kết thúc vào tháng 12 năm 1975, theo các tài liệu truyền thống tại phương Tây, tại Việt Nam cuộc chiến được tính thời gian từ 1954 sau Hội nghị Geneve tới khi Pathet Lào giải phóng Viêng Chăn. Tuy nhiên cuộc chiến này không liên tục, có thời gian ngưng chiến, và chỉ liên tục từ năm 1964 đến 1973 là năm Hiệp định Viêng Chăn ký kết. Ngay khi chiến tranh thực sự bùng nổ (1958) Pathet Lào đã có được sự giúp đỡ của Việt Nam Dân chủ Cộng hòa. Càng về sau, sự giúp đỡ này ngày càng tăng. Chính vì thế từ năm 1962 đây là cuộc chiến giữa lực lượng Pathet Lào được Việt Nam Dân chủ Cộng hòa hỗ trợ[7] và Chính phủ Hoàng gia Lào được Hoa Kỳ bảo trợ.",
+  "connection": [
+   {
+    "name": "Trận Lak Sao",
+    "url": "/wiki/Tr%E1%BA%ADn_Lak_Sao"
+   },
+   {
+    "name": "Long Cheng",
+    "url": "/wiki/Long_Cheng"
+   }
+  ],
+  "url": "/wiki/N%E1%BB%99i_chi%E1%BA%BFn_L%C3%A0o",
+  "info": {
+   "Địa điểm": "Vương quốc Lào",
+   "Tham chiến": {
+    "phe 2": "Pathet Lào Quân đội Trung lập Lào (1960\u20131962) Lực lượng Trung lập Yêu nước Lào (từ 1963) Việt Nam Dân chủ Cộng hòa Hỗ trợ: Albania Ba Lan Bắc Triều Tiên Bulgaria Đông Đức Cuba Hungary Liên Xô România Tiệp Khắc Trung Quốc",
+    "phe 1": "Vương quốc Lào Quân đội Trung lập Lào (1962\u20131966) Hoa Kỳ Việt Nam Cộng hòa Thái Lan Hỗ trợ: Đài Loan Hàn Quốc New Zealand Philippines Úc"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Souphanouvong Kaysone Phomvihane Phoumi Vongvichit Deuane Sunnalath Lê Duẩn Võ Nguyên Giáp",
+    "phe 1": "Souvanna Phouma Vàng Pao Vong Savang Phoumi Nosavan Kong Le Lyndon B. Johnson Richard Nixon"
+   },
+   "Kết quả": "Pathet Lào chiến thắng và thành lập Cộng hòa Dân chủ Nhân dân Lào.",
+   "Thương vong và tổn thất": {
+    "phe 2": "3,000+ Quân đội Nhân dân Việt Nam[2] Không rõ số thương vong của Pathet Lào",
+    "phe 1": "~15,000 Quân đội Hoàng gia Lào[1]"
+   },
+   "Thời gian": "23 tháng 5 năm 1959 (1959-05-23) \u2013 2 tháng 12 năm 1975 (1975-12-02) (16 năm, 6 tháng, 1 tuần và 2 ngày)"
+  }
+ },
+ {
+  "name": "Nội chiến Campuchia (1968 - 1975)",
+  "description": "Nội chiến Campuchia là cuộc chiến giữa lực lượng của Đảng Cộng sản Campuchia (được biết đến với tên gọi Khmer Đỏ) và đồng minh của họ, Việt Nam Dân chủ Cộng hòa và Mặt trận Dân tộc Giải phóng miền Nam Việt Nam đối chọi với lực lượng chính phủ Campuchia (và sau tháng 10 năm 1970 là Cộng hòa Khmer), được Hoa Kỳ và Việt Nam Cộng hòa hỗ trợ.",
+  "connection": [],
+  "url": "/wiki/N%E1%BB%99i_chi%E1%BA%BFn_Campuchia",
+  "info": {
+   "Địa điểm": "Campuchia",
+   "Tham chiến": {
+    "phe 2": "Khmer Đỏ Mặt trận Đoàn kết Dân tộc Campuchia Khmer Giải phóng Việt Nam Dân chủ Cộng hòa Cộng hòa Miền Nam Việt Nam Ủng hộ bởi: Trung Quốc",
+    "phe 1": "Khmer Hoa Kỳ Việt Nam Cộng hòa"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Pol Pot Khieu Samphan Ieng Sary Nuon Chea Son Sen Norodom Sihanouk Son Sann",
+    "phe 1": "Lon Nol Sisowath Sirik Matak Long Boret Richard Nixon Henry Kissinger"
+   },
+   "Kết quả": "Khmer Đỏ chiến thắng; thành lập Campuchia Dân chủ. Bắt đầu cuộc diệt chủng Campuchia.",
+   "Thương vong và tổn thất": {"phe": "~200.000-300,000 chết và 750,000+ bị thương[1][2][3]"},
+   "Lực lượng": {
+    "phe 2": "~100.000 (60,000) quân Khmer Đỏ",
+    "phe 1": "~250.000 quân"
+   },
+   "Thời gian": "17 tháng 1 năm 1968 \u2013 17 tháng 4 năm 1975 (7 năm và 3 tháng)"
+  }
+ },
+ {
+  "name": "Đảo chính Việt Nam Cộng hòa lần 1 (1960)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Vụ ném bom Dinh tổng thống Việt Nam Cộng Hòa 1962",
+    "url": "/wiki/V%E1%BB%A5_n%C3%A9m_bom_Dinh_t%E1%BB%95ng_th%E1%BB%91ng_Vi%E1%BB%87t_Nam_C%E1%BB%99ng_H%C3%B2a_1962"
+   },
+   {
+    "name": "Cuộc đảo chính tại Việt Nam Cộng hòa năm 1963",
+    "url": "/wiki/Cu%E1%BB%99c_%C4%91%E1%BA%A3o_ch%C3%ADnh_t%E1%BA%A1i_Vi%E1%BB%87t_Nam_C%E1%BB%99ng_h%C3%B2a_n%C4%83m_1963"
+   }
+  ],
+  "url": "/wiki/%C4%90%E1%BA%A3o_ch%C3%ADnh_Vi%E1%BB%87t_Nam_C%E1%BB%99ng_h%C3%B2a_1960",
+  "info": {
+   "Địa điểm": "Sài Gòn, Việt Nam Cộng hoà",
+   "Tham chiến": {
+    "phe 2": "Đệ Nhất Cộng hòa Việt Nam Những người trung thành trong Quân đội Việt Nam Cộng hòa (ARVN)",
+    "phe 1": "Phe nổi dậy trong Quân lực Việt Nam Cộng hòa (ARVN)"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Ngô Đình Diệm Ngô Đình Nhu Nguyễn Khánh Trần Thiện Khiêm",
+    "phe 1": "Vương Văn Đông Nguyễn Chánh Thi"
+   },
+   "Kết quả": "Cuộc đảo chính thất bại",
+   "Thương vong và tổn thất": {"phe": "Không rõ, 400 chết ở cả hai phía"},
+   "Lực lượng": {
+    "phe 2": "Sư đoàn số 5 và Sư đoàn số 7 thuộc ARVN",
+    "phe 1": "Một Trung đoàn Thiết giáp, một đơn vị Thủy quân, và ba Trung đoàn lính Nhảy dù"
+   },
+   "Thời gian": "11 tháng 11 năm 1960"
+  }
+ },
+ {
+  "name": "Biến cố Phật giáo (1963)",
+  "description": "Ngày 10/5/1963, các vị lãnh đạo Phật giáo họp tại chùa Từ Đàm, hoạch định đường lối và phương pháp tranh đấu bảo vệ Phật giáo và đòi hỏi công bằng xã hội. Một bản Tuyên ngôn được soạn thảo, nêu ra năm nguyện vọng của Phật giáo. Bản Tuyên ngôn này được gửi tới tổng thống Ngô Đình Diệm qua trung gian đại biểu chính phủ Trung Nguyên Trung Phần. Năm nguyện vọng bao gồm:[14][15]",
+  "connection": [{
+   "name": "Tấn công hóa học ở Huế",
+   "url": "/wiki/T%E1%BA%A5n_c%C3%B4ng_h%C3%B3a_h%E1%BB%8Dc_%E1%BB%9F_Hu%E1%BA%BF"
+  }],
+  "url": "/wiki/Bi%E1%BA%BFn_c%E1%BB%91_Ph%E1%BA%ADt_gi%C3%A1o,_1963",
+  "info": {"": "Thích Trí Quang Ngô Đình Diệm"}
+ },
+ {
+  "name": "Đảo chính Việt Nam Cộng hòa lần 2 (1963)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Cuộc đảo chính tại Việt Nam Cộng hòa năm 1960",
+    "url": "/wiki/Cu%E1%BB%99c_%C4%91%E1%BA%A3o_ch%C3%ADnh_t%E1%BA%A1i_Vi%E1%BB%87t_Nam_C%E1%BB%99ng_h%C3%B2a_n%C4%83m_1960"
+   },
+   {
+    "name": "Vụ đánh bom Dinh Độc Lập 1962",
+    "url": "/wiki/V%E1%BB%A5_%C4%91%C3%A1nh_bom_Dinh_%C4%90%E1%BB%99c_L%E1%BA%ADp_1962"
+   }
+  ],
+  "url": "/wiki/%C4%90%E1%BA%A3o_ch%C3%ADnh_Vi%E1%BB%87t_Nam_C%E1%BB%99ng_h%C3%B2a_1963",
+  "info": {
+   "Địa điểm": "Sài Gòn, Việt Nam Cộng hòa",
+   "": {"phe": "Vị trí trong Việt Nam"},
+   "Tham chiến": {
+    "phe 2": "Lữ đoàn Liên binh Phòng vệ Tổng thống Phủ Lực lượng đặc biệt Việt Nam Cộng hòa",
+    "phe 1": "Phe đảo chính thuộc Quân lực Việt Nam Cộng hòa Nhóm Caravelle Hỗ trợ bởi: Chính phủ Hoa Kỳ"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Ngô Đình Diệm Ngô Đình Nhu Ngô Đình Cẩn Lê Quang Tung Hồ Tấn Quyền Huỳnh Văn Cao",
+    "phe 1": "Dương Văn Minh Trần Văn Đôn Tôn Thất Đính Nguyễn Văn Thiệu Nguyễn Hữu Có Nguyễn Khánh Nguyễn Cao Kỳ Đỗ Cao Trí Mai Hữu Xuân Đỗ Mậu Trần Thiện Khiêm Trần Văn Minh Phạm Xuân Chiểu Lê Văn Kim Lê Văn Nghiêm Henry Cabot Lodge, Jr. Lucien Conein Phan Khắc Sửu Trần Văn Hương"
+   },
+   "Kết quả": "Phe đảo chính chiến thắng Quyền lực gia đình họ Ngô và Đảng Cần lao Nhân vị cáo chung Tổng thống Đệ Nhất Việt Nam Cộng hòa Ngô Đình Diệm, cố vấn tối cao Ngô Đình Nhu bị giết, cố vấn miền trung Ngô Đình Cẩn bị kết án tử hình. Các thành viên còn lại của gia đình họ Ngô phải sang nước ngoài tị nạn lưu vong Các tướng lĩnh và Hội đồng Quân nhân Cách mạng lên nắm quyền",
+   "Thương vong và tổn thất": {
+    "phe 2": "Ít nhất 7 chết 44 bị thương",
+    "phe 1": "9 chết 46 bị thương"
+   },
+   "Lực lượng": {
+    "phe 2": "Lực lượng Đặc biệt Lữ đoàn Phòng vệ Phủ Tổng thống (~1,500)",
+    "phe 1": "2 Trung đoàn bộ binh 1 Tiểu đoàn Pháo binh 1 Chi đoàn Thiết giáp 2 Tiểu đoàn Thủy quân Lục chiến Một số tiểu đoàn tân binh huấn luyện Một số đơn vị Không quân"
+   },
+   "Thời gian": "1 \u2013 2 tháng 11, 1963"
+  }
+ },
+ {
+  "name": "Chỉnh lý Việt Nam Cộng hòa (1964)",
+  "description": "",
+  "connection": [{
+   "name": "Cuộc đảo chính tại Việt Nam Cộng hòa năm 1963",
+   "url": "/wiki/%C4%90%E1%BA%A3o_ch%C3%ADnh_Vi%E1%BB%87t_Nam_C%E1%BB%99ng_h%C3%B2a_1963"
+  }],
+  "url": "/wiki/Cu%E1%BB%99c_ch%E1%BB%89nh_l%C3%BD_t%E1%BA%A1i_Vi%E1%BB%87t_Nam_C%E1%BB%99ng_h%C3%B2a_1964",
+  "info": {
+   "Địa điểm": "Sài Gòn, Việt Nam Cộng hòa",
+   "Tham chiến": {
+    "phe 2": "Hội đồng Quân nhân Cách mạng (Việt Nam, 1963) của Việt Nam Cộng hòa Lực lượng trung thành của Quân lực Việt Nam Cộng hòa",
+    "phe 1": "Lực lượng nổi loạn của Quân lực Việt Nam Cộng hòa"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Dương Văn Minh Trần Văn Đôn Tôn Thất Đính Mai Hữu Xuân",
+    "phe 1": "Nguyễn Khánh Trần Thiện Khiêm Nguyễn Văn Thiệu Nguyễn Chánh Thi Đỗ Mậu"
+   },
+   "Kết quả": "Đảo chính thành công Không đổ máu",
+   "Thương vong và tổn thất": {"phe": "Không có thương vong riêng Nguyễn Văn Nhung và vài lính gác của Dương Văn Minh bị xử tử sau này"},
+   "Lực lượng": {
+    "phe 2": "vài Lính gác",
+    "phe 1": "1 phần của Quân đoàn III và 1 đơn vị Nhảy dù"
+   },
+   "Thời gian": "30 tháng 1, 1964"
+  }
+ },
+ {
+  "name": "Biến động Miền Trung (1966)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Bi%E1%BA%BFn_%C4%91%E1%BB%99ng_Mi%E1%BB%81n_Trung",
+  "info": {}
+ },
+ {
+  "name": "Sự kiện Song Tử Đông (1968)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Song_T%E1%BB%AD_%C4%90%C3%B4ng",
+  "info": {}
+ },
+ {
+  "name": "Sự kiện Song Tử Tây (1970)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Song_T%E1%BB%AD_T%C3%A2y",
+  "info": {}
+ },
+ {
+  "name": "Hải chiến Hoàng Sa (1974)",
+  "description": "Hải chiến Hoàng Sa là một trận hải chiến giữa Hải quân Việt Nam Cộng hòa và Hải quân Trung Quốc xảy ra vào ngày 19 tháng 1 năm 1974 trên quần đảo Hoàng Sa. Cả hai phía đều tuyên bố có chủ quyền ở quần đảo này, trong khi Liên Hợp Quốc không xác nhận chủ quyền của bất kỳ nước nào ở Hoàng Sa, dẫn tới các tranh chấp về chủ quyền, cuối cùng tạo ra xung đột.",
+  "connection": [
+   {
+    "name": "Quần đảo Hoàng Sa",
+    "url": "/wiki/Qu%E1%BA%A7n_%C4%91%E1%BA%A3o_Ho%C3%A0ng_Sa"
+   },
+   {
+    "name": "Công hàm năm 1958 của Thủ tướng Phạm Văn Đồng",
+    "url": "/wiki/C%C3%B4ng_h%C3%A0m_n%C4%83m_1958_c%E1%BB%A7a_Th%E1%BB%A7_t%C6%B0%E1%BB%9Bng_Ph%E1%BA%A1m_V%C4%83n_%C4%90%E1%BB%93ng"
+   },
+   {
+    "name": "Chiến tranh biên giới Việt-Trung, 1979",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_bi%C3%AAn_gi%E1%BB%9Bi_Vi%E1%BB%87t-Trung,_1979"
+   },
+   {
+    "name": "Hải chiến Trường Sa 1988",
+    "url": "/wiki/H%E1%BA%A3i_chi%E1%BA%BFn_Tr%C6%B0%E1%BB%9Dng_Sa_1988"
+   },
+   {
+    "name": "Nam Hải phong vân",
+    "url": "/wiki/Nam_H%E1%BA%A3i_phong_v%C3%A2n"
+   }
+  ],
+  "url": "/wiki/H%E1%BA%A3i_chi%E1%BA%BFn_Ho%C3%A0ng_Sa_1974",
+  "info": {
+   "Địa điểm": "Quần đảo Hoàng Sa",
+   "Tham chiến": {
+    "phe 2": "Hải quân Việt Nam Cộng hòa Cố vấn quân sự Hoa Kỳ",
+    "phe 1": "Hải quân Quân Giải phóng Nhân dân Trung Quốc"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Lâm Ngươn Tánh",
+    "phe 1": "Ngụy Minh Sâm Lưu Hỉ Trung[1]"
+   },
+   "Kết quả": "Hải quân Trung Quốc chiến thắng Hải quân Trung Quốc chiếm toàn bộ Hoàng Sa Mâu thuẫn tiếp diễn giữa Trung Quốc và Việt Nam về vấn đề biển Đông",
+   "Thương vong và tổn thất": {
+    "phe 2": "VNCH: 1 hộ tống hạm chìm, 1 khu trục hạm hỏng nặng 2 khu trục hạm hỏng nhẹ 74 thủy thủ chết 16 bị thương 48 bị bắt làm tù binh Hoa Kỳ: 1 cố vấn bị bắt",
+    "phe 1": "4 tàu bị hư hại 18 thủy thủ chết 67 bị thương"
+   },
+   "Lực lượng": {
+    "phe 2": "3 khu trục hạm 1 hộ tống hạm 1 đại đội hải kích 1 nhóm biệt kích quân 1 trung đội địa phương quân Tổng tải trọng tàu chiến: 7.840 tấn",
+    "phe 1": "2 tàu quét lôi kiểu T43 2 tàu chống ngầm cỡ nhỏ lớp Krondstadt 500 lính hải quân đánh bộ Tổng tải trọng tàu chiến: 1.760 tấn"
+   },
+   "Thời gian": "19 tháng 1 năm 1974"
+  }
+ },
+ {
+  "name": "Nổi dậy FULRO (1975 - 1992)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/FULRO",
+  "info": {}
+ },
+ {
+  "name": "Xung đột biên giới Việt Nam-Campuchia (1975 - 1978)",
+  "description": "Xung đột biên giới Việt Nam\u2013Campuchia (1975\u20131978) để chỉ những xung đột quân sự và những cuộc tấn công vào thường dân giữa Việt Nam và Campuchia trong giai đoạn 1975 - 1978. Hậu quả của các chuỗi xung đột này là cuộc Chiến tranh biên giới Tây Nam diễn ra vào đầu năm 1979.",
+  "connection": [{
+   "name": "Chiến tranh biên giới Tây Nam",
+   "url": "/wiki/Chi%E1%BA%BFn_tranh_bi%C3%AAn_gi%E1%BB%9Bi_T%C3%A2y_Nam"
+  }],
+  "url": "/wiki/Xung_%C4%91%E1%BB%99t_bi%C3%AAn_gi%E1%BB%9Bi_Vi%E1%BB%87t_Nam-Campuchia_(1975-1978)",
+  "info": {
+   "Địa điểm": "Biên giới Việt Nam - Campuchia",
+   "Tham chiến": {
+    "phe 2": "Kampuchea Dân chủ",
+    "phe 1": "Cộng hòa Xã hội Chủ nghĩa Việt Nam"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Pol Pot",
+    "phe 1": "Lê Trọng Tấn"
+   },
+   "Thương vong và tổn thất": {
+    "phe 2": "~30.000 chết",
+    "phe 1": "4.200 chết"
+   },
+   "Lực lượng": {
+    "phe 2": "19 sư đoàn với 70.000 tới 90.000 quân",
+    "phe 1": "60,000+ quân Việt Nam, hỗ trợ bởi vài ngàn quân KNUFNS"
+   },
+   "Thời gian": "Ngày 2 tháng 5 năm 1975 - 23 tháng 12 năm 1978"
+  }
+ },
+ {
+  "name": "Xung đột tại Lào (1975 - 2007)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/Xung_%C4%91%E1%BB%99t_t%E1%BA%A1i_L%C3%A0o",
+  "info": {
+   "Địa điểm": "người Hmong: Bắc và Trung Lào (1975\u20132007) Những người bảo hoàng, người cánh hữu: Nam Lào (những năm 1980-đầu 1990)",
+   "Tham chiến": {
+    "phe 2": "Phong trào kháng chiến Lào người H'Mông Lào người H'Mông Thái Lan Tổ chức Giải phóng Dân tộc Lào (1984-) Mặt trận Liên minh Giải phóng Lào (1980-) Chính phủ Dân chủ Hoàng gia Lào (1982) Chao Fa (đến 1984) Mặt trận Giải phóng Dân tộc Lào Mặt trận Thống nhất Độc lập Lào Lực lượng Cứu quốc nước Lào Dân chủ Tự do Quân đội Quốc gia Campuchia Dân chủ (1979-1983: tham gia hạn chế) Được hỗ trợ bởi: Trung Quốc Campuchia Dân chủ (đến 1979) Khmer Đỏ Đảng Campuchia Dân chủ (1981 đến 1992) Thái Lan (Cánh hữu: nửa đầu thập niên 1980) (Hmong: to 1990) Hoa Kỳ Neo Hom (support. 1981-)[2][3] Chính phủ lưu vong Hoàng gia Lào Người H'Mông ở nước ngoài",
+    "phe 1": "Lào Người Hmong thân chính phủ Người Trung Quốc thân chính phủ Việt Nam Việt Nam Dân chủ Cộng hòa (tới năm 1976) Liên Xô (đến 1989)"
+   },
+   "Tình trạng": "Cộng hòa Dân chủ Nhân dân Lào chiến thắng Các lực lượng Hmong nổi dậy về cơ bản bị dập tắt Lãnh tụ Vang Pao ở Hoa Kỳ bị truy tố Quân nổi dậy vẫn hoạt động tiếp tục ở Lào nhưng rất nhỏ (2007-2020)",
+   "Thương vong và tổn thất": {"phe": "trên 100.000 chết, 300.000 người tị nạn"},
+   "Lực lượng": {
+    "phe 2": "15.000 du kích Hmong (1975) 40.000 quân nổi dậy LPNLUF 2.000 đến 3.000 LNLF (Những năm 1990)",
+    "phe 1": "Không rõ"
+   },
+   "Thời gian": "1975 - 2007 [1] (về cơ bản đã bị dập tắt) 2007 - c. 2020 (hoạt động lẻ tẻ không như giai đoạn 1975 - 2007) c. 2020 - c. 2021 (Xung đột kết thúc)"
+  }
+ },
+ {
+  "name": "Chiến tranh biên giới Tây Nam (1978 - 1989)",
+  "description": "Chiến tranh biên giới Việt Nam \u2013 Campuchia, hay còn được gọi là Chiến tranh biên giới Tây Nam; tiếng Khmer: សង្គ្រាមកម្ពុជា-វៀតណាម, UNGEGN: Sângkréam Kâmpŭchéa-Viĕtnam; Những người theo chủ nghĩa dân tộc Khmer gọi là Việt Nam xâm lược Campuchia (tiếng Khmer: ការឈ្លានពានរបស់វៀតណាមមកកម្ពុជា, UNGEGN: Karchhléanpéan rôbâs Viĕtnam môk Kâmpŭchéa), là cuộc xung đột quân sự giữa Cộng hòa Xã hội chủ nghĩa Việt Nam và Campuchia Dân chủ. Cuộc chiến có nguyên nhân từ các hoạt động quân sự của quân Khmer Đỏ tấn công vào lãnh thổ Việt Nam, giết chóc người dân, đặc biệt là vụ thảm sát Ba Chúc khiến hơn 3.000 dân thường Việt Nam thiệt mạng.[20] Vào ngày 25 tháng 12 năm 1978, Việt Nam tiến hành một cuộc xâm lược toàn diện vào Campuchia, sau đó chiếm đóng nước này và lật đổ chính phủ của Đảng Cộng sản Campuchia.",
+  "connection": [
+   {
+    "name": "Cáo buộc Hoa Kỳ hỗ trợ Khmer Đỏ",
+    "url": "/w/index.php?title=C%C3%A1o_bu%E1%BB%99c_Hoa_K%E1%BB%B3_h%E1%BB%97_tr%E1%BB%A3_Khmer_%C4%90%E1%BB%8F&action=edit&redlink=1"
+   },
+   {
+    "name": "Thảm sát Ba Chúc",
+    "url": "/wiki/Th%E1%BA%A3m_s%C3%A1t_Ba_Ch%C3%BAc"
+   },
+   {
+    "name": "Người Khmer (Việt Nam)",
+    "url": "/wiki/Ng%C6%B0%E1%BB%9Di_Khmer_(Vi%E1%BB%87t_Nam)"
+   },
+   {
+    "name": "Trại tị nạn Nong Chan",
+    "url": "/w/index.php?title=Tr%E1%BA%A1i_t%E1%BB%8B_n%E1%BA%A1n_Nong_Chan&action=edit&redlink=1"
+   },
+   {
+    "name": "Trại tị nạn Nong Samet",
+    "url": "/w/index.php?title=Tr%E1%BA%A1i_t%E1%BB%8B_n%E1%BA%A1n_Nong_Samet&action=edit&redlink=1"
+   },
+   {
+    "name": "Nam tiến",
+    "url": "/wiki/Nam_ti%E1%BA%BFn"
+   },
+   {
+    "name": "Việt Nam xâm lược Campuchia",
+    "url": "/w/index.php?title=Vi%E1%BB%87t_Nam_x%C3%A2m_l%C6%B0%E1%BB%A3c_Campuchia&action=edit&redlink=1"
+   },
+   {
+    "name": "Quan hệ Campuchia \u2013 Việt Nam",
+    "url": "/wiki/Quan_h%E1%BB%87_Campuchia_%E2%80%93_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Lịch sử Campuchia (1979-1993)",
+    "url": "/wiki/L%E1%BB%8Bch_s%E1%BB%AD_Campuchia_(1979-1993)"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_bi%C3%AAn_gi%E1%BB%9Bi_T%C3%A2y_Nam",
+  "info": {
+   "Địa điểm": "Campuchia, biên giới Tây Nam Việt Nam, biên giới phía đông Thái Lan",
+   "Tham chiến": {
+    "phe 2": "Campuchia Dân chủ (1979\u20131982) Liên minh chính phủ Kampuchea Dân chủ (1982\u20131990) Khmer Đỏ Mặt trận Dân tộc Giải phóng Nhân dân Khmer (từ 1979) FUNCINPEC (từ 1981) Hỗ trợ: Trung Quốc (xung đột biên giới) Malaysia[4] Bắc Triều Tiên România[5][6][7] Singapore[4] Thái Lan (xung đột biên giới)[8] Anh[9][10] Hoa Kỳ (hạn chế)[11][12]",
+    "phe 1": "Việt Nam Cộng hòa Nhân dân Campuchia (1979\u20131989) Mặt trận Đoàn kết Dân tộc Cứu nước Campuchia Nhà nước Campuchia (1989\u20131993) Hỗ trợ: Bulgaria Cuba Tiệp Khắc[1] Đông Đức[2] Hungary Ấn Độ Lào Ba Lan[3] Liên Xô"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Pol Pot Ieng Sary Khieu Samphan Nuon Chea Ta Mok Norodom Sihanouk Son Sann Dien Del Prem Tinsulanonda Chatichai Choonhavan",
+    "phe 1": "Lê Duẩn Trường Chinh Nguyễn Văn Linh Văn Tiến Dũng Lê Đức Anh Hun Sen Heng Samrin Chea Sim Pen Sovan"
+   },
+   "Kết quả": "Quân đội Nhân dân Việt Nam chiến thắng Chế độ Khmer Đỏ bị lật đổ, Campuchia Dân chủ sụp đổ. Kết thúc nạn diệt chủng Campuchia Sự thành lập và sau đó là sự tan rã của Cộng hòa Nhân dân Campuchia Trung Quốc xâm lược Việt Nam và tiếp tục giao tranh biên giới Việt Nam chiếm đóng cho đến năm 1989 Ký kết Hiệp định Hòa bình Paris 1991 đồng thuận với quá trình chuyển đổi do Liên Hợp Quốc lãnh đạo",
+   "Thương vong và tổn thất": {
+    "phe 2": "Từ tháng 6-1977 đến trước tháng 12/1978: 38.563 chết hoặc bị thương, 5.800 bị bắt (thống kê của Việt Nam)[13] Từ tháng 12/1978 tới 5/1979: ~30.000 chết và bị thương[19], Từ tháng ngày 23 tháng 12 năm 1978 tới ngày 17 tháng 1 năm 1979: 56.000 bị bắt hoặc đầu hàng Toàn cuộc chiến (từ năm 1977 tới 1989): Trên 100.000 lính Khmer Đỏ chết hàng chục ngàn dân thường chết vì bệnh tật hoặc thiếu ăn",
+    "phe 1": "Từ 1977 tới trước tháng 12/1978: Khoảng 3.000 chết, 5.500 bị thương[14]. Từ tháng 12/1978 tới tháng 1/1979: 8.000 chết hoặc bị thương Toàn cuộc chiến (từ năm 1978 tới 1989, bao gồm cả thời kỳ đóng quân ở Campuchia): ~ 10.000 - 20.000 chết[15] ~30.000 quân nhân bị thương.[16] 55.300 chết hoặc bị thương (tính cả dân thường) từ năm 1977 tới tháng 10-1989[17][18]"
+   },
+   "Lực lượng": {
+    "phe 2": "Nguồn phương Tây: 19 sư đoàn với 90.000 quân (năm 1979) Nguồn Việt Nam: 23 sư đoàn với gần 200.000 quân, trong đó 19 sư đoàn đã tham gia tấn công vào Việt Nam[13]",
+    "phe 1": "180.000 quân Việt Nam, hỗ trợ bởi khoảng 20.000 quân Mặt trận Đoàn kết Dân tộc Cứu nước Campuchia"
+   },
+   "Thời gian": "21 tháng 12 năm 1978 (1978-12-21) \u2013 26 tháng 9 năm 1989 (1989-09-26) (10 năm, 9 tháng và 5 ngày)"
+  }
+ },
+ {
+  "name": "Chiến tranh biên giới Việt Nam-Trung Quốc (1979)",
+  "description": "Chiến tranh biên giới 1979, hay thường được gọi là Chiến tranh biên giới Việt \u2013 Trung năm 1979, là một cuộc chiến ngắn nhưng khốc liệt giữa Trung Quốc và Việt Nam, diễn ra vào ngày 17 tháng 2 năm 1979 khi Trung Quốc đưa quân tấn công Việt Nam trên toàn tuyến biên giới giữa 2 nước.[9]",
+  "connection": [
+   {
+    "name": "Quan hệ Việt Nam \u2013 Trung Quốc",
+    "url": "/wiki/Quan_h%E1%BB%87_Trung_Qu%E1%BB%91c_%E2%80%93_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Chiến tranh biên giới Tây Nam",
+    "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_ph%E1%BA%A3n_c%C3%B4ng_bi%C3%AAn_gi%E1%BB%9Bi_T%C3%A2y-Nam_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Hải chiến Trường Sa 1988",
+    "url": "/wiki/H%E1%BA%A3i_chi%E1%BA%BFn_Tr%C6%B0%E1%BB%9Dng_Sa_1988"
+   },
+   {
+    "name": "Xung đột Việt \u2013 Trung 1979\u20131990",
+    "url": "/wiki/Xung_%C4%91%E1%BB%99t_Vi%E1%BB%87t%E2%80%93Trung_1979%E2%80%931991"
+   }
+  ],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_bi%C3%AAn_gi%E1%BB%9Bi_Vi%E1%BB%87t%E2%80%93Trung_1979",
+  "info": {
+   "Địa điểm": "Toàn tuyến biên giới phía bắc của Việt Nam",
+   "Tham chiến": {
+    "phe 2": "Việt Nam Ủng hộ Cuba Liên Xô",
+    "phe 1": "Trung Quốc"
+   },
+   "Thay đổi lãnh thổ": "Trung Quốc chiếm một số huyện, thị xã của Việt Nam gần biên giới trước khi rút quân",
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Lê Duẩn Võ Nguyên Giáp Văn Tiến Dũng Đàm Quang Trung Vũ Lập",
+    "phe 1": "Hoa Quốc Phong Đặng Tiểu Bình Từ Hướng Tiền Dương Đắc Chí Hứa Thế Hữu"
+   },
+   "Kết quả": "Cả hai bên cùng tuyên bố chiến thắng Trung Quốc phải rút quân Việt Nam tái chiếm lãnh thổ, tiếp tục tham chiến ở Campuchia. Xung đột tiếp diễn đến năm 1991",
+   "Thương vong và tổn thất": {
+    "phe 2": "Tranh cãi \u2013 Việt Nam tuyên bố 10.000 dân thường bị thiệt mạng, nhưng chưa công bố số liệu chi tiết về thương vong quân sự.[3] \u2013 Trung Quốc tuyên bố 30.000 chết[5]-57.000 lính chết, 70.000 du kích chết.[8] \u2013 Phương Tây ước tính: khoảng 20.000 chết hoặc bị thương[3] (trong đó ~8.000 chết[7]).",
+    "phe 1": "Tranh cãi \u2013 Trung Quốc tuyên bố 6.954 chết, 14.800 bị thương[3] (nguồn khác của Trung Quốc thống kê có 8.531 chết, 21.000 bị thương[4]). \u2013 Việt Nam tuyên bố 26.000 chết, 37.000 bị thương, 280 xe tăng bị phá hủy.[5] \u2013 Phương Tây ước tính: ~28.000 chết[6] hoặc hơn 20.000 chết[5] hoặc ~13.000 chết,[7] chưa kể hàng chục ngàn bị thương."
+   },
+   "Lực lượng": {
+    "phe 2": "60.000\u2013100.000 quân chính quy và 150.000 dân quân tự vệ (7 sư đoàn, 15 trung đoàn độc lập, biên phòng và dân quân tự vệ)[2]",
+    "phe 1": "Hơn 300.000 bộ binh và 400 xe tăng, hàng chục vạn dân công hỗ trợ vận tải (theo Việt Nam có hơn 600.000 lính Trung Quốc tham chiến)[1] (lực lượng của 7 quân đoàn với 21 sư đoàn tác chiến, 9 sư đoàn dự bị)[2]"
+   },
+   "Thời gian": "17 tháng 2 \u2013 16 tháng 3 1979 (1979-02-17 \u2013 1979-03-16) (27 ngày)"
+  }
+ },
+ {
+  "name": "Xung đột Việt-Trung (1979 - 1991)",
+  "description": "Xung đột Việt Nam \u2013 Trung Quốc 1979\u20131991 là một chuỗi các cuộc đụng độ quân sự trên biên giới và hải đảo giữa hai nước Cộng hòa Xã hội chủ nghĩa Việt Nam và Cộng hòa Nhân dân Trung Hoa, diễn ra ngay sau cuộc chiến tranh biên giới năm 1979 và kéo dài cho đến năm 1991 khi quan hệ hai bên chính thức được bình thường hóa.",
+  "connection": [],
+  "url": "/wiki/Xung_%C4%91%E1%BB%99t_Vi%E1%BB%87t%E2%80%93Trung_1979%E2%80%931991",
+  "info": {
+   "Địa điểm": "Biên giới Việt Nam \u2013 Trung Quốc và quần đảo Trường Sa",
+   "Tham chiến": {
+    "phe 2": "Cộng hòa Xã hội chủ nghĩa Việt Nam",
+    "phe 1": "Cộng hòa Nhân dân Trung Hoa"
+   },
+   "Thay đổi lãnh thổ": "Trung Quốc chiếm giữ một số vị trí trên biên giới thuộc Việt Nam rồi rút dần. Trung Quốc chiếm giữ một số đảo tại quần đảo Trường Sa.",
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Văn Tiến Dũng Đàm Quang Trung Vũ Lập",
+    "phe 1": "Dương Đắc Chí Hứa Thế Hữu"
+   },
+   "Kết quả": "Giao tranh tại một số khu vực biên giới nhưng không bùng phát thành chiến tranh lớn. Hai nước bình thường hóa quan hệ vào cuối năm 1991.",
+   "Thương vong và tổn thất": {"phe": "Hàng ngàn người chết[3][4][5]"},
+   "Lực lượng": {
+    "phe 2": "~600.000[2]\u2013800.000[1] (tính cả các đơn vị không chính quy)",
+    "phe 1": "~200.000[1]\u2013400.000[2]"
+   },
+   "Thời gian": "1979\u20131991"
+  }
+ },
+ {
+  "name": "Xung đột Việt Nam-Thái Lan (1979 - 1989)",
+  "description": "Sau khi quân đội Việt Nam tiến vào Campuchia lật đổ chế độ Pol Pot trong chiến tranh biên giới Tây Nam năm 1979, các tàn quân Khmer Đỏ rút về các khu vực biên giới gần Thái Lan. Với sự trợ giúp từ quân đội Trung Quốc, đội quân của Pol Pot đã tái tập hợp và tổ chức lại trong các khu rừng và miền núi vùng biên giới Thái Lan-Campuchia. Trong thời gian từ 1980 tới đầu những năm 1990, lực lượng Khmer Đỏ từ bên trong trại tị nạn ở Thái Lan đã tiến hành chiến tranh du kích nhằm chống lại sự ổn định của nước Cộng hòa Nhân dân Campuchia.",
+  "connection": [
+   {
+    "name": "Chiến tranh biên giới Tây Nam",
+    "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_ph%E1%BA%A3n_c%C3%B4ng_bi%C3%AAn_gi%E1%BB%9Bi_T%C3%A2y-Nam_Vi%E1%BB%87t_Nam"
+   },
+   {
+    "name": "Chiến tranh biên giới Lào-Thái Lan",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_bi%C3%AAn_gi%E1%BB%9Bi_L%C3%A0o-Th%C3%A1i_Lan"
+   }
+  ],
+  "url": "/wiki/Xung_%C4%91%E1%BB%99t_Th%C3%A1i_Lan-Vi%E1%BB%87t_Nam_(1979-1989)",
+  "info": {
+   "Địa điểm": "Biên giới Thái Lan-Campuchia, Vịnh Thái Lan",
+   "Tham chiến": {
+    "phe 2": "Thái Lan Khmer Đỏ Mặt trận Dân tộc Giải phóng Nhân dân Khmer FUNCINPEC Hỗ trợ: Trung Quốc",
+    "phe 1": "Việt Nam Cộng hòa Nhân dân Campuchia"
+   },
+   "Kết quả": "Nhiều căn cứ du kích và các trại tị nạn dọc theo biên giới Campuchia-Thái Lan bị phá hủy và làm tự phát những hành động thù địch công khai giữa quân đội Việt Nam và Thái Lan.",
+   "Thương vong và tổn thất": {
+    "phe 2": "~5,500\u20138,000",
+    "phe 1": "~1,000-3,000"
+   },
+   "Thời gian": "1979 \u2013 1989"
+  }
+ },
+ {
+  "name": "Chiến tranh biên giới Lào-Thái Lan (1987 - 1988)",
+  "description": "Chiến tranh biên giới Lào-Thái Lan là một cuộc chạm trán biên giới ngắn với quân đội Lào và quân đội Thái Lan từ tháng 12 năm 1987 đến tháng 2 năm 1988.",
+  "connection": [],
+  "url": "/wiki/Chi%E1%BA%BFn_tranh_bi%C3%AAn_gi%E1%BB%9Bi_L%C3%A0o-Th%C3%A1i_Lan",
+  "info": {
+   "Địa điểm": "Biên giới Lào - Thái Lan Huyện Chat Trakan, Tỉnh Phitsanulok Xaignabouli",
+   "Tham chiến": {
+    "phe 2": "Lào Việt Nam",
+    "phe 1": "Thái Lan"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Kaysone Phomvihane Thongloun Sisoulith",
+    "phe 1": "Chavalit Yongchaiyudh"
+   },
+   "Kết quả": "Lào chiến thắng",
+   "Thương vong và tổn thất": {
+    "phe 2": "- Lào 95 chết, 192 bị thương - Việt Nam 0 thương vong[1]",
+    "phe 1": "-Thái Lan 200 chết, 400 bị thương"
+   },
+   "Thời gian": "Tháng 12 1987 - Tháng 2 1988"
+  }
+ },
+ {
+  "name": "Xung đột Trường Sa (1988)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Hải chiến Hoàng Sa 1974",
+    "url": "/wiki/H%E1%BA%A3i_chi%E1%BA%BFn_Ho%C3%A0ng_Sa_1974"
+   },
+   {
+    "name": "Chiến tranh biên giới Việt-Trung, 1979",
+    "url": "/wiki/Chi%E1%BA%BFn_tranh_bi%C3%AAn_gi%E1%BB%9Bi_Vi%E1%BB%87t-Trung,_1979"
+   },
+   {
+    "name": "Xung đột Việt\u2013Trung 1979\u20131990",
+    "url": "/wiki/Xung_%C4%91%E1%BB%99t_Vi%E1%BB%87t%E2%80%93Trung_1979%E2%80%931990"
+   },
+   {
+    "name": "Chiến dịch CQ-88",
+    "url": "/wiki/Chi%E1%BA%BFn_d%E1%BB%8Bch_CQ-88"
+   },
+   {
+    "name": "Quan hệ ngoại giao Việt Nam-Trung Quốc",
+    "url": "/wiki/Quan_h%E1%BB%87_ngo%E1%BA%A1i_giao_Vi%E1%BB%87t_Nam-Trung_Qu%E1%BB%91c"
+   }
+  ],
+  "url": "/wiki/Xung_%C4%91%E1%BB%99t_gi%C3%A0nh_quy%E1%BB%81n_ki%E1%BB%83m_so%C3%A1t_t%E1%BA%A1i_qu%E1%BA%A7n_%C4%91%E1%BA%A3o_Tr%C6%B0%E1%BB%9Dng_Sa_1988",
+  "info": {
+   "Địa điểm": "Đá Gạc Ma, đá Cô Lin, đá Len Đao thuộc quần đảo Trường Sa",
+   "Tham chiến": {
+    "phe 2": "Hải quân Nhân dân Việt Nam",
+    "phe 1": "Hải quân Quân Giải phóng Nhân dân Trung Quốc"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Trần Đức Thông, Lữ đoàn phó Lữ đoàn 146 \u2020 Vũ Phi Trừ, thuyền trưởng HQ-604 \u2020 Vũ Huy Lễ, thuyền trưởng HQ-505 Lê Lệnh Sơn, thuyền trưởng HQ-605",
+    "phe 1": "Trần Vĩ Văn (Chen Weiwen 陈伟文), thuyền trưởng 502 Nam Sung (Nanchong)"
+   },
+   "Kết quả": "Trung Quốc chiếm đá Gạc Ma Việt Nam giữ được bên đá Cô Lin và đá Len Đao",
+   "Thương vong và tổn thất": {
+    "phe 2": "- HQ-604 và HQ-605 chìm[8] - HQ-505 hư hỏng nặng - 64 chết - 11 bị thương - 9 bị bắt (được thả năm 1991)",
+    "phe 1": "- Hải quân: 1 bị thương[1][2][3][4][5][6] - Lực lượng đổ bộ: 6 chết, 18 bị thương, một số xuồng đổ bộ bị bắn hỏng[7]"
+   },
+   "Lực lượng": {
+    "phe 2": "3 tàu vận tải gồm: HQ-505, nguyên là tàu USS Bulloch County (LST-509) của Mỹ HQ-604, tàu vận tải loại 500 tấn HQ-605, tàu vận tải loại 500 tấn",
+    "phe 1": "3 tàu khu trục gồm: Tàu khu trục 502 Nanchong (Nam Sung) Tàu khu trục 556 Xiangtan (Tương Đàm) Tàu khu trục 531 Yingtan (Ưng Đàm)"
+   },
+   "Thời gian": "14 tháng 3 năm 1988"
+  }
+ },
+ {
+  "name": "Bạo loạn Tây Nguyên (2004)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/B%E1%BA%A1o_lo%E1%BA%A1n_T%C3%A2y_Nguy%C3%AAn_2004",
+  "info": {"": "10.000\u201330.000 người Thượng Công an nhân dân Việt Nam (không rõ quân số)"}
+ },
+ {
+  "name": "Vụ cướp tàu MT Zafirah (2012)",
+  "description": "Lỗi chú thích: Đã tìm thấy thẻ <ref> với tên nhóm \u201cnote\u201d, nhưng không tìm thấy thẻ tương ứng <references group=\"note\"/> tương ứng, hoặc thẻ đóng <\/ref> bị thiếu",
+  "connection": [{
+   "name": "Vụ cướp tàu MT Orkim Harmony",
+   "url": "/wiki/V%E1%BB%A5_c%C6%B0%E1%BB%9Bp_t%C3%A0u_MT_Orkim_Harmony"
+  }],
+  "url": "/wiki/V%E1%BB%A5_c%C6%B0%E1%BB%9Bp_t%C3%A0u_MT_Zafirah",
+  "info": {
+   "Địa điểm": "Bị mất gần vùng biển quần đảo Natuna, Indonesia3°17.02\u2032B 109°05.38\u2032Đ﻿ / ﻿3,28367°B 109,08967°Đ﻿ / 3.28367; 109.08967",
+   "": {"phe": "Vị trí gần đúng nơi tàu được phục hồi.[note 1]"},
+   "Tham chiến": {
+    "phe 2": "Cướp biển Indonesia[3]",
+    "phe 1": "Việt Nam Tập tin:Vietnam Marine Police insignia.jpg Cảnh sát biển Việt Nam Hải quân Nhân dân Việt Nam"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Không rõ[4]",
+    "phe 1": "Tập tin:Vietnam Marine Police insignia.jpg Nguyễn Quang Đạm Tập tin:Vietnam Marine Police insignia.jpg Lê Hải Trường Tập tin:Vietnam Marine Police insignia.jpg Nguyễn Tuấn Hải Tập tin:Vietnam Marine Police insignia.jpg Lê Xuân Thành"
+   },
+   "Kết quả": "Việt Nam thắng.[1][2] Tất cả tám thủy thủ đoàn tàu chở dầu được giải cứu Vụ cướp thất bại và tất cả mười một tên cướp biển bị bắt giữ. Tàu chở dầu của Malaysia đã giải cứu.",
+   "Thương vong và tổn thất": {
+    "phe 2": "11 bị bắt[1][2]",
+    "phe 1": "không"
+   },
+   "Lực lượng": {
+    "phe 2": "1 tàu chở dầu 11 hải tặc[5]",
+    "phe 1": "Tập tin:Vietnam Marine Police insignia.jpg 3 tàu 2 tàu (Tàu cá Việt Nam)"
+   },
+   "Thời gian": "18\u201322/11/2012"
+  }
+ },
+ {
+  "name": "Vụ hạ giàn khoan Hải Dương 981 (2014)",
+  "description": "",
+  "connection": [
+   {
+    "name": "Tranh chấp chủ quyền Biển Đông",
+    "url": "/wiki/Tranh_ch%E1%BA%A5p_ch%E1%BB%A7_quy%E1%BB%81n_Bi%E1%BB%83n_%C4%90%C3%B4ng"
+   },
+   {
+    "name": "Trận Điện Biên Phủ trên biển",
+    "url": "/w/index.php?title=Tr%E1%BA%ADn_%C4%90i%E1%BB%87n_Bi%C3%AAn_Ph%E1%BB%A7_tr%C3%AAn_bi%E1%BB%83n&action=edit&redlink=1"
+   }
+  ],
+  "url": "/wiki/V%E1%BB%A5_h%E1%BA%A1_gi%C3%A0n_khoan_H%E1%BA%A3i_D%C6%B0%C6%A1ng_981",
+  "info": {
+   "Địa điểm": "Biển Đông, khu vực phía nam quần đảo Hoàng Sa15°29\u203258\u2033B 111°12\u20321\u2033Đ﻿ / ﻿15,49944°B 111,20028°Đ﻿ / 15.49944; 111.20028",
+   "Tham chiến": {
+    "phe 2": "Việt Nam Cảnh sát biển Việt Nam Kiểm ngư Việt Nam Tàu dân sự và thuyền đánh cá",
+    "phe 1": "Trung Quốc Hải quân Quân Giải phóng Nhân dân Trung Quốc Tổng công ty Dầu khí Hải dương Trung Quốc Hạm đội Biển Hoa Nam, Hải giám Trung Quốc Cục An toàn Hàng hải Trung Quốc Cảnh sát biển Trung Quốc Đơn vị thực thi Luật Thủy sản Trung Quốc Tàu dân sự và tàu đánh cá"
+   },
+   "Thương vong và tổn thất": {
+    "phe 2": "1 thuyền đánh cá chìm[3]",
+    "phe 1": ""
+   },
+   "Lực lượng": {
+    "phe 2": "64 tàu, bao gồm: 29 tàu cảnh sát biển tàu kiểm ngư và hàng chục thuyền đánh cá bằng gỗ[1][2]",
+    "phe 1": "1 giàn khoan dầu 6 tàu chiến 40 tàu cảnh sát biển hơn 30 tàu vận tải và tàu kéo 34-40 tàu đánh cá bọc thép 1 tiêm kích cơ Su-27, 1 máy bay do thám Shaanxi Y-8[1]"
+   },
+   "Thời gian": "1 tháng 5 năm 2014 - 16 tháng 7 năm 2014"
+  }
+ },
+ {
+  "name": "Vụ cướp tàu MT Orkim Harmony (2015)",
+  "description": "",
+  "connection": [],
+  "url": "/wiki/V%E1%BB%A5_c%C6%B0%E1%BB%9Bp_t%C3%A0u_MT_Orkim_Harmony",
+  "info": {
+   "Địa điểm": "Bị mất trong vùng biển Tanjung Sedili, Kota Tinggi, Johor, Malaysia",
+   "": {"phe": "Vị trí gần đúng nơi tàu chở dầu đã được tìm thấy ngày 19 tháng 6.[ghi chú 1]"},
+   "Tham chiến": {
+    "phe 2": "Cướp biển Indonesia[7][8]",
+    "phe 1": "Malaysia Hải quân Hoàng gia Malaysia Không quân Hoàng gia Malaysia Cơ quan thực thi hàng hải Malaysia Úc Không quân Hoàng gia Úc Việt Nam Bộ đội Biên phòng Việt Nam Cảnh sát biển Việt Nam Các lực lượng viện trợ/dự phòng khác: Hải quân Indonesia[5][6] Hải quân Hoàng gia Thái Lan"
+   },
+   "Chỉ huy và lãnh đạo": {
+    "phe 2": "Ruslan",
+    "phe 1": "Abdul Aziz Jaafar Ahmad Puzi Adam Steff Peter Knox Doãn Bảo Quyết Nguyễn Quang Đạm Ngô Ngọc Thu"
+   },
+   "Kết quả": "Các nhà chức trách tham gia vào công tác chế ngự[1][2][3][4] Úc phát hiện tàu chở dầu trong vịnh Thái Lan. Malaysia thu hồi tàu chở dầu và giải cứu tất cả 22 thủy thủ đoàn. Việt Nam bắt giữ tất cả tám tên cướp biển trên đường chạy trốn sau khi chúng được tìm thấy là xâm nhập biên giới Việt Nam.",
+   "Thương vong và tổn thất": {
+    "phe 2": "8 bị bắt[3][10]",
+    "phe 1": "không ai"
+   },
+   "Lực lượng": {
+    "phe 2": "1 tàu chở dầu 8 cướp biển[9] 1 xuồng cứu sinh",
+    "phe 1": "1.500 người, 16 tàu và 4 máy bay Máy bay do thám AP-3C Orion 2 tàu"
+   },
+   "Thời gian": "11\u201319 tháng 6 năm 2015"
+  }
+ }
+]

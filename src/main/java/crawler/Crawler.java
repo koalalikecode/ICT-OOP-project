@@ -125,7 +125,7 @@ public class Crawler {
             List<String> pagesToScrape) {
     }
     // Ham scrape du lieu danh cho page khac
-    public void scrapePage() {
+    public void scrapePage(String pageToScrape) throws IOException {
     }
 
     // Kết hợp với hàm scrapePage để crawl toàn bộ các page, phân trang,...
@@ -151,30 +151,13 @@ public class Crawler {
             }
         }
     }
-
     // Hàm để thực hiện crawl và save dữ liệu vào file
-    public void crawlAndSave() {
+    public void crawlAndSave() throws IOException {
         try {
             crawlData();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         saveData();
-    }
-//////////
-    public void scrapePage(String start) throws  IOException{
-        return;
-    }
-    public void saveData2(String folder) throws IOException {
-        try (FileWriter file = new FileWriter(folder)){
-            file.write(output.toString());
-            file.flush();
-        } catch (IOException e){
-            e.printStackTrace();
-        }
-    }
-    public void crawlAndSave2() throws IOException{
-        this.scrapePage(startLink);
-        this.saveData2(folder);
     }
 }
