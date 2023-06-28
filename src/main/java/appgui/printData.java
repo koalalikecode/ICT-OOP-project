@@ -2,6 +2,7 @@ package appgui;
 
 import historyobject.Character;
 
+import historyobject.CharacterTest;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import javafx.collections.FXCollections;
@@ -80,6 +81,19 @@ public class printData {
         }
         return info;
     }
+
+    public List<JSONObject> getConnectionBoxByName(List<Character> characters, String name) {
+        List<JSONObject> connections = new ArrayList<>();
+        StringBuilder result = new StringBuilder();
+        for (Character character : characters) {
+            if (character.getName().equalsIgnoreCase(name)) {
+                result.append("Connections:\n");
+                connections = character.getConnection();
+            }
+        }
+        return connections;
+    }
+
     public List<String> getHyperTextLinksBy(int index) {
         List<String> hyperTextLinks = new ArrayList<>();
         if (index >= 0 && index < characters.size()) {

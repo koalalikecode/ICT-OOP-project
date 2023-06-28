@@ -34,6 +34,7 @@ import javafx.collections.ObservableList;
 import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
 import javafx.stage.Stage;
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -45,6 +46,7 @@ import java.util.stream.Collectors;
 public class CharacterController implements Initializable {
     private final String dataJson = "data/final.json";
     private JSONObject characterInfoBox;
+    private List<JSONObject> characterConnectionBox;
 
 //    Menu Buttons
     @FXML
@@ -130,14 +132,16 @@ public class CharacterController implements Initializable {
                     infoPane.getChildren().add(textFlow);
 
                     characterInfoBox = execDataCharacter.getInfoBoxByName(characterList, newSelection.getName());
+                    characterConnectionBox = execDataCharacter.getConnectionBoxByName(characterList, newSelection.getName());
 
                     VBox contentContainer = new VBox(10);
                     contentContainer.setPadding(new Insets(10));
                     contentContainer.getChildren().add(textFlow);
 
+//                    infoPane.getChildren().add(contentContainer);
+
                     for (String key : characterInfoBox.keySet()) {
                         HBox infoItem = new HBox();
-                        infoItem.setPrefHeight(0);
                         infoItem.setPrefHeight(0);
                         infoItem.setAlignment(Pos.CENTER_LEFT);
                         JSONObject value = characterInfoBox.getJSONObject(key);
@@ -152,7 +156,31 @@ public class CharacterController implements Initializable {
                         }
                         contentContainer.getChildren().add(infoItem);
                     }
+                    Text connectionStart = new Text("Thông tin liên quan của " + newSelection.getName()) ;
+                    contentContainer.getChildren().add(connectionStart);
 
+                    if (characterConnectionBox != null) {
+                        if (!characterConnectionBox.isEmpty()) {
+                            for (JSONObject connection : characterConnectionBox) {
+                                HBox infoItem = new HBox();
+                                infoItem.setPrefHeight(0);
+                                infoItem.setAlignment(Pos.CENTER_LEFT);
+                                String connectionName = connection.getString("name");
+                                String connectionUrl = connection.getString("url");
+                                Label infoKey = new Label("Tên : ");
+                                infoItem.getChildren().add(infoKey);
+                                if (connectionName != null && connectionUrl != null) {
+                                    Hyperlink link = new Hyperlink(connectionName);
+                                    infoItem.getChildren().add(link);
+                                } else if (connectionName != null) {
+                                    Label link = new Label(connectionName);
+                                    infoItem.getChildren().add(link);
+                                }
+                                contentContainer.getChildren().add(infoItem);
+                            }
+
+                        }
+                    }
                     infoPane.getChildren().add(contentContainer);
 
                     infoScrollPane.setContent(infoAnchorPane);
@@ -160,19 +188,6 @@ public class CharacterController implements Initializable {
 
             });
 
-//            Buttons on the menu to switch scenes
-
-//            btnEvent.addEventHandler(MouseEvent.MOUSE_CLICKED, event -> {
-//                try {
-//                    FXMLLoader loader = new FXMLLoader(getClass().getResource("eventPane.fxml"));
-//                    Parent root = loader.load();
-//                    Stage stage = (Stage) btnEvent.getScene().getWindow();
-//                    stage.setScene(new Scene(root));
-//                    stage.show();
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-//            });
 
         } catch (IOException e) {
             throw new RuntimeException(e);
