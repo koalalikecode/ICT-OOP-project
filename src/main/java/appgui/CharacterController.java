@@ -43,7 +43,7 @@ import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
 public class CharacterController implements Initializable {
-    private String dataJson = "data/final.json";
+    private final String dataJson = "data/final.json";
     private JSONObject characterInfoBox;
 
 //    Menu Buttons
@@ -57,15 +57,6 @@ public class CharacterController implements Initializable {
     private Button btnFestival;
     @FXML
     private Button btnPlace;
-
-//    @FXML
-//    private void handleButtonAction(ActionEvent event) throws IOException {
-//        String fxmlFile;
-//        FXMLLoader loader = new FXMLLoader(getClass().getResource("eventPane.fxml"));
-//        Pane newPane = loader.load();
-//        Scene currentScene = btnEvent.getScene();
-//        currentScene.setRoot(newPane);
-//    }
 
 
 //    Scenes
@@ -169,11 +160,19 @@ public class CharacterController implements Initializable {
 
             });
 
-            addSceneSwitchingHandler(btnEvent, "eventPane.fxml");
-            addSceneSwitchingHandler(btnCharacter, "characterPane.fxml");
-            addSceneSwitchingHandler(btnDynasty, "dynastyPane.fxml");
-            addSceneSwitchingHandler(btnFestival, "festivalPane.fxml");
-            addSceneSwitchingHandler(btnPlace, "placePane.fxml");
+//            Buttons on the menu to switch scenes
+
+//            btnEvent.addEventHandler(MouseEvent.MOUSE_CLICKED, event -> {
+//                try {
+//                    FXMLLoader loader = new FXMLLoader(getClass().getResource("eventPane.fxml"));
+//                    Parent root = loader.load();
+//                    Stage stage = (Stage) btnEvent.getScene().getWindow();
+//                    stage.setScene(new Scene(root));
+//                    stage.show();
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
+//            });
 
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -181,20 +180,36 @@ public class CharacterController implements Initializable {
 
     }
 
-    private void addSceneSwitchingHandler(Button button, String fxmlFile) {
-        button.setOnAction(event -> {
-            try {
-                FXMLLoader loader = new FXMLLoader(getClass().getResource(fxmlFile));
-                Parent root = loader.load();
-                Stage stage = (Stage) button.getScene().getWindow();
-                stage.setScene(new Scene(root));
-                stage.show();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        });
-    }
+    @FXML
+    private void addSceneSwitchingHandler(ActionEvent event) {
+        Stage stage = (Stage) btnEvent.getScene().getWindow();
 
+        try {
+            if (event.getSource() == btnEvent) {
+                Parent newPane = FXMLLoader.load(getClass().getResource("eventPane.fxml"));
+                Scene newScene = new Scene(newPane);
+                stage.setScene(newScene);
+            } else if (event.getSource() == btnCharacter) {
+                Parent newPane2 = FXMLLoader.load(getClass().getResource("characterPane.fxml"));
+                Scene newScene2 = new Scene(newPane2);
+                stage.setScene(newScene2);
+            } else if (event.getSource() == btnDynasty) {
+                Parent newPane3 = FXMLLoader.load(getClass().getResource("dynastyPane.fxml"));
+                Scene newScene3 = new Scene(newPane3);
+                stage.setScene(newScene3);
+            } else if (event.getSource() == btnFestival) {
+                Parent newPane4 = FXMLLoader.load(getClass().getResource("festivalPane.fxml"));
+                Scene newScene4 = new Scene(newPane4);
+                stage.setScene(newScene4);
+            } else if (event.getSource() == btnPlace) {
+                Parent newPane5 = FXMLLoader.load(getClass().getResource("placePane.fxml"));
+                Scene newScene5 = new Scene(newPane5);
+                stage.setScene(newScene5);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     private void searchCharacter() {
         String searchQuery = searchCharacter.getText().trim().toLowerCase();

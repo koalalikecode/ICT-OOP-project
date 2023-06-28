@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="534.0" prefWidth="1123.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.CharacterController">
+<AnchorPane prefHeight="534.0" prefWidth="1123.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.CharacterController">
    <children>
       <BorderPane prefHeight="534.0" prefWidth="1125.0">
          <left>
             <VBox prefHeight="484.0" prefWidth="147.0" style="-fx-background-color: #C70039;" stylesheets="@style.css" BorderPane.alignment="CENTER">
                <children>
-                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Character" textAlignment="CENTER" textFill="WHITE">
+                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="60.0" prefWidth="147.0" text="Character" textAlignment="CENTER" textFill="WHITE">
                      <graphic>
                         <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
                            <image>
@@ -20,7 +32,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button fx:id="btnEvent" alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Event" textAlignment="CENTER" textFill="WHITE">
+                  <Button fx:id="btnEvent" alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="60.0" prefWidth="147.0" text="Event" textAlignment="CENTER" textFill="WHITE">
                      <graphic>
                         <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
                            <image>
@@ -29,7 +41,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Dynasty" textAlignment="CENTER" textFill="WHITE">
+                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="60.0" prefWidth="147.0" text="Dynasty" textAlignment="CENTER" textFill="WHITE">
                      <graphic>
                         <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
                            <image>
@@ -38,7 +50,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Festival" textAlignment="CENTER" textFill="WHITE">
+                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="60.0" prefWidth="147.0" text="Festival" textAlignment="CENTER" textFill="WHITE">
                      <graphic>
                         <ImageView fitHeight="22.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
                            <image>
@@ -47,7 +59,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Place" textAlignment="CENTER" textFill="WHITE">
+                  <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="60.0" prefWidth="147.0" text="Place" textAlignment="CENTER" textFill="WHITE">
                      <graphic>
                         <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" translateX="10.0">
                            <image>
