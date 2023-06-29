@@ -19,7 +19,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class AnhHungLLVT extends Crawler {
+public class  AnhHungLLVT extends Crawler {
     public AnhHungLLVT(){
         setWebLink("https://vi.wikipedia.org");
         setFolder("data/AHLLVT.json");
@@ -50,6 +50,16 @@ public class AnhHungLLVT extends Crawler {
             Character AHLLVTChar = new Character();
             Element link = trRoot.get(i).selectFirst("tr>td:nth-child(1)>a:not(.external.text):not(.new)");
             if(link==null) {
+                JSONObject infoNew = new JSONObject();
+                AHLLVTChar.setName(trRoot.get(i).selectFirst("tr>td:nth-child(1)").text());
+                infoNew.put("Năm sinh - Năm mất",trRoot.get(i).selectFirst("tr>td:nth-child(2)").text());
+                infoNew.put("Dân tộc",trRoot.get(i).selectFirst("tr>td:nth-child(3)").text());
+                infoNew.put("Quê quán", trRoot.get(i).selectFirst("tr>td:nth-child(4)").text());
+                infoNew.put("Năm phong", trRoot.get(i).selectFirst("tr>td:nth-child(5)").text());
+                infoNew.put("Chức vụ và thành tích", trRoot.get(i).selectFirst("tr>td:nth-child(6)").text());
+                AHLLVTChar.setInfo(infoNew);
+                CharacterList.add(AHLLVTChar);
+                System.out.println("Done "+ trRoot.get(i).selectFirst("tr>td:nth-child(1)").text());
                 continue;
             }
             String name = link.text();
@@ -91,8 +101,9 @@ public class AnhHungLLVT extends Crawler {
             }
                 AHLLVTChar.setInfo(info);
                 CharacterList.add(AHLLVTChar);
-            System.out.println("Done"+ characterURL);
+            System.out.println("Done "+ characterURL);
         }
+
     }
     public void crawlData() throws InterruptedException {
         List<Character> crawlObjectList = Collections.synchronizedList(new ArrayList<>());
