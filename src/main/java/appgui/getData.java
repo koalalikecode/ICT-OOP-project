@@ -28,7 +28,7 @@ public class getData {
         String data = "An Dương Vương (chữ Hán: 安陽王), tên thật là Thục Phán (蜀泮), là một vị vua đã lập nên đất nước Âu Lạc và cũng là vị vua duy nhất cai trị nhà nước này. Âu Lạc là nhà nước thứ hai trong lịch sử Việt Nam sau nhà nước Văn Lang đầu tiên của các vua Hùng.\n\n\n\n\n\n\n\n\n\n\n\nLinebreaghghjghk";
         return data;
     }
-    private String dataJson = "data/final.json";
+    private static String dataJson = "data/final.json";
     private List<CharacterTest> characters;
     private List<String> hyperlinkTexts;
 
@@ -209,7 +209,7 @@ public class getData {
         }
         return result.toString();
     }
-    public String dataSearchField(String name) {
+    public static String dataSearchField(String name) {
         StringBuilder result = new StringBuilder();
         try {
             String jsonContent = new String(Files.readAllBytes(Paths.get(dataJson)));
@@ -318,9 +318,10 @@ public class getData {
 
 
 //            SearchByName for info of the character
-//            String searchName = "Âu Cơ";
-//            String searchResult = class1.searchByName(searchName);
-//            System.out.println("\nSearch Result for Name: " + searchName);
+            String searchName = "Âu Cơ";
+            String searchResult = dataSearchField(searchName);
+            System.out.println("\nSearch Result for Name: " + searchName);
+            System.out.println(searchResult);
         } catch (Exception e) {
             e.printStackTrace();
         }

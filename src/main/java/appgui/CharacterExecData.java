@@ -2,7 +2,6 @@ package appgui;
 
 import historyobject.Character;
 
-import historyobject.CharacterTest;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import javafx.collections.FXCollections;
@@ -15,8 +14,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 import java.io.IOException;
+import java.util.Set;
 
-public class printData {
+public class CharacterExecData {
     private String dataJson = "data/final.json";
     private List<Character> characters;
     private List<String> hyperlinkTexts;
@@ -34,7 +34,7 @@ public class printData {
     }
 
 
-    public printData(List<Character> characters) {
+    public CharacterExecData(List<Character> characters) {
         this.characters = characters;
         this.hyperlinkTexts = getHyperlinkTexts(characters);
     }
@@ -131,6 +131,28 @@ public class printData {
 
             System.out.println();
         }
+    }
+    public String dataSearchField(String name) {
+        StringBuilder result = new StringBuilder();
+        try {
+            String jsonContent = new String(Files.readAllBytes(Paths.get(dataJson)));
+            JSONObject jsonData = new JSONObject(jsonContent);
+            Set<String> jsonArrayNames = jsonData.keySet();
+            for (String jsonArrayName : jsonArrayNames) {
+                JSONArray jsonArray = jsonData.getJSONArray(jsonArrayName);
+                for (int i = 0; i < jsonArray.length(); i++) {
+                    JSONObject jsonObject = jsonArray.getJSONObject(i);
+                    String objectName = jsonObject.getString("name");
+                    if (objectName.equalsIgnoreCase(name)) {
+                        result.append(jsonArrayName);
+                    }
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return result.toString();
     }
 //    Read the final.json to scan character
     public static List<Character> loadCharacters(String filePath) throws IOException {
