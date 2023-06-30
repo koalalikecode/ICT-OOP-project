@@ -11,10 +11,15 @@ import javafx.scene.control.Button;
 import javafx.event.ActionEvent;
 import javafx.geometry.Rectangle2D;
 
+import appgui.LinkController;
+
 public class Main extends Application {
     double x,y = 0;
     @Override
     public void start(Stage stage) throws Exception {
+
+//        LinkController.selectedCharacter = null;
+
         Parent root = FXMLLoader.load(getClass().getResource("characterPane.fxml"));
         Scene sc = new Scene(root);
 //        stage.initStyle(StageStyle.UNDECORATED);

@@ -209,6 +209,15 @@ public class getData {
         }
         return result.toString();
     }
+    public int searchByNameIndex(String name){
+        for (int i = 0; i < characters.size(); i++) {
+            CharacterTest character = characters.get(i);
+            if (character.getName().equalsIgnoreCase(name)) {
+                return i;
+            }
+        }
+        return -1;
+    }
     public static String dataSearchField(String name) {
         StringBuilder result = new StringBuilder();
         try {

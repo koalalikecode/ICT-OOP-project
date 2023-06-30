@@ -55,7 +55,6 @@ public class CharacterExecData {
         }
         return null;
     }
-
     private List<String> getHyperlinkTexts(List<Character> characters) {
         List<String> texts = new ArrayList<>();
         for (Character character : characters) {
@@ -132,6 +131,16 @@ public class CharacterExecData {
             System.out.println();
         }
     }
+
+    public int indexByName(String name){
+        for(int i = 0; i < characters.size(); i++){
+            if(characters.get(i).getName().equalsIgnoreCase(name)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
     public String dataSearchField(String name) {
         StringBuilder result = new StringBuilder();
         try {
