@@ -76,37 +76,5 @@ public class PlaceWikiCrawler extends Crawler {
         }
         setOutput(new JSONArray(placeList));
     }
-//    @Override
-//    public JSONObject scrapeInfoBox(Document doc, String cssQuery) {
-//        JSONObject info = new JSONObject();
-//        List<String> header = new ArrayList<String>();
-//        header.add("Vị trí");
-//        header.add("Loại di tích");
-//        header.add("Năm CN");
-//        header.add("Ghi chú");
-//
-//        List<String> headerSpecial = new ArrayList<String>();
-//        header.add("Địa điểm");
-//        header.add("Giá trị nổi bật");
-//
-//        int index = 0;
-//        for (Element dataCell : doc.select(cssQuery)) {
-//            if (index >= header.size()) {
-//                break;
-//            }
-//            JSONObject infoItem = new JSONObject();
-//            Element urlConnect = dataCell.selectFirst("a");
-//            infoItem.put("name", dataCell.text());
-//            if (urlConnect != null) {
-//                infoItem.put("url", urlConnect.attr("href"));
-//            } else {
-//                infoItem.put("url", "");
-//            }
-//            info.put(header.get(index), infoItem);
-//            index++;
-//        }
-//        return info;
-//    }
-
 
 }

@@ -1,20 +1,25 @@
 package appgui;
 
 import historyobject.Character;
+
 import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
-import javafx.geometry.Insets;
 import javafx.geometry.Pos;
-import javafx.scene.control.*;
-import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.layout.AnchorPane;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
+import javafx.scene.layout.AnchorPane;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.collections.ObservableList;
+import javafx.fxml.Initializable;
+import javafx.geometry.Insets;
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -22,9 +27,16 @@ import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
 
-public class TestController implements Initializable {
+public class CharacterController implements Initializable {
     private String dataJson = "data/final.json";
     private JSONObject characterInfoBox;
+
+//    Scenes
+    private Scene sceneCharacter;
+    private Scene sceneDynasty;
+    private Scene sceneEvent;
+    private Scene sceneFestival;
+    private Scene scenePlace;
 
     @FXML
     private ScrollPane infoScrollPane;
@@ -42,10 +54,8 @@ public class TestController implements Initializable {
     private TableView<Character> tbvCharacters;
     @FXML
     private TableColumn<Character, String> tbcName;
-
     private ObservableList<Character> dataCharacter = FXCollections.observableArrayList();
     private List<Character> characterList;
-
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
@@ -55,7 +65,7 @@ public class TestController implements Initializable {
             tbcName.setCellValueFactory(new PropertyValueFactory<Character, String>("name"));
             dataCharacter = FXCollections.observableArrayList(characterList);
             tbvCharacters.setItems(
-                    dataCharacter
+                dataCharacter
             );
 
             for (Character character : characterList) {
@@ -67,25 +77,27 @@ public class TestController implements Initializable {
                     labelName.setText("" + newSelection.getName());
                     infoAnchorPane.getChildren().clear();
 
+
+//                    Add the labels, dataPane
+                    infoAnchorPane.getChildren().addAll(labelName, infoPane);
+
+
+                    infoPane.getChildren().clear();
                     TextFlow textFlow = new TextFlow();
-                    String characterDescription = newSelection.getDescription();
+                    String characterInfo = execDataCharacter.listDataByName(newSelection.getName());
 
-//                    int numLines = characterInfo.split("\n").length;
+                    int numLines = characterInfo.split("\n").length;
 
-//                    double lineHeight = 20.0;
-//                    double padding = 10.0;
-//                    double prefHeight = numLines * lineHeight + padding;
+                    double lineHeight = 20.0;
+                    double padding = 10.0;
+                    double prefHeight = numLines * lineHeight + padding;
 
-                    textFlow.setPrefWidth(infoAnchorPane.getPrefWidth());
-                    textFlow.setMaxWidth(infoAnchorPane.getPrefWidth());
-                    Text text = new Text(characterDescription);
-                    text.setWrappingWidth(100);
-                    textFlow.getChildren().add(text);
-                    textFlow.getChildren().add(new Text("\n"));
+                    textFlow.setPrefWidth(infoPane.getPrefWidth());
+                    linebreak(characterInfo, textFlow, infoPane.getPrefWidth());
 
                     Text infoStart = new Text("\nThông tin chi tiết của " + newSelection.getName());
                     textFlow.getChildren().add(infoStart);
-                    infoAnchorPane.getChildren().add(textFlow);
+                    infoPane.getChildren().add(textFlow);
 
                     characterInfoBox = execDataCharacter.getInfoBoxByName(characterList, newSelection.getName());
 
@@ -103,19 +115,15 @@ public class TestController implements Initializable {
                         infoItem.getChildren().add(infoKey);
                         if (value.has("name") && value.has("url")) {
                             Hyperlink link = new Hyperlink(value.getString("name"));
-                            link.setWrapText(true);
-                            link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
                             infoItem.getChildren().add(link);
                         } else if(value.has("name")) {
                             Label link = new Label(value.getString("name"));
-                            link.setWrapText(true);
-                            link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
                             infoItem.getChildren().add(link);
                         }
                         contentContainer.getChildren().add(infoItem);
                     }
 
-                    infoAnchorPane.getChildren().add(contentContainer);
+                    infoPane.getChildren().add(contentContainer);
 
                     infoScrollPane.setContent(infoAnchorPane);
                 }
@@ -125,10 +133,13 @@ public class TestController implements Initializable {
         }
 
     }
-    public TextFlow linebreak(String data, TextFlow textFlow) {
+
+
+    public TextFlow linebreak(String data, TextFlow textFlow, double width) {
         String[] lines = data.split("\\n");
         for (String line : lines) {
             Text text = new Text(line);
+            text.setWrappingWidth(width);
             textFlow.getChildren().add(text);
             textFlow.getChildren().add(new Text("\n"));
         }
