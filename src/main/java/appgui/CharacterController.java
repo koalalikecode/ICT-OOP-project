@@ -74,7 +74,7 @@ public class CharacterController implements Initializable {
 
             tbvCharacters.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
                 if (newSelection != null) {
-                    labelName.setText("Name: " + newSelection.getName());
+                    labelName.setText("" + newSelection.getName());
                     infoAnchorPane.getChildren().clear();
 
 
@@ -93,7 +93,7 @@ public class CharacterController implements Initializable {
                     double prefHeight = numLines * lineHeight + padding;
 
                     textFlow.setPrefWidth(infoPane.getPrefWidth());
-                    linebreak(characterInfo, textFlow);
+                    linebreak(characterInfo, textFlow, infoPane.getPrefWidth());
 
                     Text infoStart = new Text("\nThông tin chi tiết của " + newSelection.getName());
                     textFlow.getChildren().add(infoStart);
@@ -135,10 +135,11 @@ public class CharacterController implements Initializable {
     }
 
 
-    public TextFlow linebreak(String data, TextFlow textFlow) {
+    public TextFlow linebreak(String data, TextFlow textFlow, double width) {
         String[] lines = data.split("\\n");
         for (String line : lines) {
             Text text = new Text(line);
+            text.setWrappingWidth(width);
             textFlow.getChildren().add(text);
             textFlow.getChildren().add(new Text("\n"));
         }

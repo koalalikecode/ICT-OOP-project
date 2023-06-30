@@ -15,11 +15,11 @@ public class Main extends Application {
     double x,y = 0;
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("characterPane.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("test.fxml"));
 
         Scene sc = new Scene(root);
 //        stage.initStyle(StageStyle.UNDECORATED);
-        String css = this.getClass().getResource("style.css").toExternalForm();
+        String css = this.getClass().getResource("styles.css").toExternalForm();
         sc.getStylesheets().add(css);
 
         root.setOnMousePressed(event -> {
