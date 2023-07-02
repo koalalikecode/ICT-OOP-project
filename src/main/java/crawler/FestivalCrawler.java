@@ -106,7 +106,12 @@ public class FestivalCrawler extends Crawler {
         }
     }
 
-    public void saveData(String folder) throws IOException {
+    @Override
+    public void crawlData() throws InterruptedException {
+
+    }
+
+    private void saveData() throws IOException {
         FileWriter fileWriter = null;
         try {
             fileWriter = new FileWriter(getFolder());
@@ -126,9 +131,10 @@ public class FestivalCrawler extends Crawler {
         }
     }
 
+    @Override
     public void crawlAndSave() throws IOException{
         this.scrapePage(getStartLink());
-        this.saveData(getFolder());
+        this.saveData();
         System.out.println("Crawled " + getOutput().length() + " objects");
     }
 }
