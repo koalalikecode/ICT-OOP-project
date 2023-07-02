@@ -102,7 +102,9 @@ public class CharacterController implements Initializable {
 
             searchCharacter.setOnKeyReleased(event -> searchCharacter());
 
-//            Vấn đề trong tìm kiếm tên nhân vật
+            LinkController.selectedCharacter = execDataCharacter.searchByName(LinkController.selectedCharacterName);
+
+//            Initialize selected object every Controller
             if (LinkController.selectedCharacter == null){
                 LinkController.selectedCharacter = characterList.get(0);
                 displaySelectionInfo(LinkController.selectedCharacter, execDataCharacter);
@@ -142,10 +144,11 @@ public class CharacterController implements Initializable {
         textFlow.setPrefWidth(infoPane.getPrefWidth());
         linebreak(characterInfo, textFlow);
 
+//      Get the Information and Connection of Charater
         characterInfoBox = execDataCharacter.getInfoBoxByName(characterList, characterSelection.getName());
         characterConnectionBox = execDataCharacter.getConnectionBoxByName(characterList, characterSelection.getName());
 
-        Text infoStart = new Text("\nThông tin chi tiết của " + characterSelection.getName()+ ": ");
+        Text infoStart = new Text("\nThông tin chi tiết của " + characterSelection.getName() + ": ");
         textFlow.getChildren().add(infoStart);
         infoPane.getChildren().add(textFlow);
 
@@ -169,7 +172,7 @@ public class CharacterController implements Initializable {
                 String sceneName = sceneFromField(fieldName);
                 link.setOnAction(event -> {
                     try {
-                        LinkController.selectedCharacter = execDataCharacter.searchByName(link.getText());
+                        LinkController.setSelectedObject(link.getText(), fieldName);
                         Stage stage = (Stage) link.getScene().getWindow();
                         Parent root = FXMLLoader.load(getClass().getResource(sceneName));
                         Scene newScene = new Scene(root);
@@ -206,7 +209,7 @@ public class CharacterController implements Initializable {
                         String sceneName = sceneFromField(fieldName);
                         link.setOnAction(event -> {
                             try {
-                                LinkController.selectedCharacter = execDataCharacter.searchByName(link.getText());
+                                LinkController.setSelectedObject(link.getText(), fieldName);
                                 Stage stage = (Stage) link.getScene().getWindow();
                                 Parent root = FXMLLoader.load(getClass().getResource(sceneName));
                                 Scene newScene = new Scene(root);
@@ -247,6 +250,7 @@ public class CharacterController implements Initializable {
         return sceneName;
     }
 
+//    Make tableview show selected row by hyperlink
     public void selectCellByValue(String targetValue) {
         for (int row = 0; row < tbvCharacters.getItems().size(); row++) {
             String cellValue = tbcName.getCellData(row);
@@ -257,7 +261,6 @@ public class CharacterController implements Initializable {
             }
         }
     }
-
 
     @FXML
     private void addSceneSwitchingHandler(ActionEvent event) {

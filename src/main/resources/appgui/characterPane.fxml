@@ -99,12 +99,12 @@
                                        <center>
                                           <AnchorPane prefHeight="426.0" prefWidth="866.0" BorderPane.alignment="CENTER">
                                              <children>
-                                                <ScrollPane fx:id="infoScrollPane" layoutX="241.0" layoutY="26.0" prefHeight="360.0" prefWidth="482.0" stylesheets="@style.css">
+                                                <ScrollPane fx:id="infoScrollPane" layoutX="241.0" layoutY="26.0" prefHeight="360.0" prefWidth="547.0" stylesheets="@style.css">
                                                    <content>
-                                                      <AnchorPane fx:id="infoAnchorPane" prefHeight="1200.0" prefWidth="488.0">
+                                                      <AnchorPane fx:id="infoAnchorPane" prefHeight="1200.0" prefWidth="550.0">
                                                          <children>
                                                             <Label fx:id="labelName" layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="441.0" />
-                                                            <Pane fx:id="infoPane" layoutX="14.0" layoutY="41.0" prefHeight="10000.0" prefWidth="442.0" />
+                                                            <Pane fx:id="infoPane" layoutX="14.0" layoutY="41.0" prefHeight="10000.0" prefWidth="495.0" />
                                                          </children>
                                                       </AnchorPane>
                                                    </content></ScrollPane>
