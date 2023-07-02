@@ -9,6 +9,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.net.URLDecoder;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -28,6 +29,7 @@ public class EventWikiCrawler extends Crawler{
         pagesDiscovered.add(url);
         Document doc;
         try {
+            url = URLDecoder.decode(url, "UTF-8");
             // fetching the target website
             doc = Jsoup.connect(getWebLink() + url).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
         } catch (IOException e) {
@@ -44,6 +46,7 @@ public class EventWikiCrawler extends Crawler{
                     System.out.println("Name: " + name);
                     Document doc2;
                     try {
+                        warURL = URLDecoder.decode(warURL, "UTF-8");
                         // fetching the target website
                         doc2 = Jsoup.connect(getWebLink() + warURL).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
                         String description = doc2.select("div.navbox + p").text();
@@ -52,7 +55,7 @@ public class EventWikiCrawler extends Crawler{
                         Elements tableInfo = doc2.select("div.mw-parser-output > table.infobox > tbody > tr");
 
                         Elements summarytable = tableInfo.select("tr > td > table > tbody > tr");
-                        if (summarytable.size() > 0){
+                        if (summarytable.size() > 0) {
                             String time = summarytable.get(0).select("td").text();
                             String place = summarytable.get(1).select("td").text();
                             String result = summarytable.get(2).select("td").text();
@@ -99,7 +102,7 @@ public class EventWikiCrawler extends Crawler{
                         eventList.add(warItem);
                         System.out.println("Done: " + warURL);
                     } catch (IOException e) {
-                        throw new RuntimeException(e);
+                        e.printStackTrace();
                     }
                 }
             }

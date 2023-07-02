@@ -69,7 +69,6 @@ public class PlaceWikiCrawler extends Crawler {
             }
 
             placeWiki.setDescription(description);
-//            PlaceWikiInfoCrawler.wikiInfoCrawler(placeWiki, nameIndex);
             placeWiki.setConnection(morePlace);
             placeList.add(placeWiki);
             System.out.println(placeWiki.getName());

@@ -11,7 +11,6 @@ public class CrawlRunner {
         Crawler dynastyWikiCrawler = new DynastyWikiCrawler();
         Crawler festivalCrawler = new FestivalCrawler();
 
-
 //        festivalCrawler.crawlAndSave();
 //        dynastyWikiCrawler.crawlAndSave();
 //        kingWikiCrawler.crawlAndSave();
@@ -19,7 +18,7 @@ public class CrawlRunner {
 //        placeNKSCrawler.crawlAndSave();
 //        placeWikiCrawler.crawlAndSave();
 //        eventsNKSCrawler.crawlAndSave();
-        warWikiCrawler.crawlAndSave();
+//        warWikiCrawler.crawlAndSave();
     }
 }
 

@@ -7,6 +7,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.URLDecoder;
 import java.net.UnknownHostException;
 
 
@@ -24,7 +25,8 @@ public class FestivalCrawler extends Crawler {
         String info = "";
         Document doc;
         try {
-            doc = Jsoup.connect(url).userAgent("Jsoup client").timeout(20000).get();
+            String decodeUrl = URLDecoder.decode(url, "UTF-8");
+            doc = Jsoup.connect(decodeUrl).userAgent("Jsoup client").timeout(20000).get();
             Elements text = doc.select(css);
             for (Element element:text){
                 info += element.text() + '\n';
@@ -38,6 +40,7 @@ public class FestivalCrawler extends Crawler {
     public void scrapePage(String pageToString) {
         Document doc;
         try {
+            pageToString = URLDecoder.decode(pageToString, "UTF-8");
             doc = Jsoup.connect(pageToString).userAgent("Jsoup client").timeout(20000).get();
             Elements table = doc.select("table.prettytable.wikitable > tbody > tr");
             for (int i = 1; i < table.size(); i++) {
@@ -111,7 +114,8 @@ public class FestivalCrawler extends Crawler {
 
     }
 
-    private void saveData() throws IOException {
+    @Override
+    public void saveData() throws IOException {
         FileWriter fileWriter = null;
         try {
             fileWriter = new FileWriter(getFolder());
@@ -132,7 +136,7 @@ public class FestivalCrawler extends Crawler {
     }
 
     @Override
-    public void crawlAndSave() throws IOException{
+    public void crawlAndSave() throws IOException {
         this.scrapePage(getStartLink());
         this.saveData();
         System.out.println("Crawled " + getOutput().length() + " objects");

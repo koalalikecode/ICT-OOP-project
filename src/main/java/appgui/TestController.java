@@ -70,16 +70,9 @@ public class TestController implements Initializable {
                     TextFlow textFlow = new TextFlow();
                     String characterDescription = newSelection.getDescription();
 
-//                    int numLines = characterInfo.split("\n").length;
-
-//                    double lineHeight = 20.0;
-//                    double padding = 10.0;
-//                    double prefHeight = numLines * lineHeight + padding;
-
                     textFlow.setPrefWidth(infoAnchorPane.getPrefWidth());
                     textFlow.setMaxWidth(infoAnchorPane.getPrefWidth());
                     Text text = new Text(characterDescription);
-                    text.setWrappingWidth(100);
                     textFlow.getChildren().add(text);
                     textFlow.getChildren().add(new Text("\n"));
 
