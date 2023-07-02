@@ -5,8 +5,6 @@ public class AppLauncher {
 //        HistoryApplication.main(args);
 //        Main.main(args);
 //        Test.main(args);
-        Test2.main(args);
-
     }
 }
 
