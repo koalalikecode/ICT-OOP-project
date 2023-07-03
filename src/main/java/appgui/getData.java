@@ -25,7 +25,9 @@ public class getData {
     }
 
     public static String printdata() {
-        String data = "An Dương Vương (chữ Hán: 安陽王), tên thật là Thục Phán (蜀泮), là một vị vua đã lập nên đất nước Âu Lạc và cũng là vị vua duy nhất cai trị nhà nước này. Âu Lạc là nhà nước thứ hai trong lịch sử Việt Nam sau nhà nước Văn Lang đầu tiên của các vua Hùng.\n\n\n\n\n\n\n\n\n\n\n\nLinebreaghghjghk";
+        String data = "An Dương Vương (chữ Hán: 安陽王), tên thật là Thục Phán (蜀泮), " +
+                "là một vị vua đã lập nên đất nước Âu Lạc và cũng là vị vua duy nhất cai trị nhà nước này. " +
+                "Âu Lạc là nhà nước thứ hai trong lịch sử Việt Nam sau nhà nước Văn Lang đầu tiên của các vua Hùng.\n\n\n\n\n\n\n\n\n\n\n\nLinebreaghghjghk";
         return data;
     }
     private static String dataJson = "data/final.json";
