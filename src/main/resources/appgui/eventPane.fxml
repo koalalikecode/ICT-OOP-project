@@ -61,9 +61,9 @@
       </AnchorPane>
    </left>
    <right>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <AnchorPane prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <TableView fx:id="tbvEvents" layoutY="77.0" prefHeight="417.0" prefWidth="201.0" style="-fx-background-color: transparent;" stylesheets="@styles.css">
+            <TableView fx:id="tbvEvents" layoutY="74.0" maxHeight="1.7976931348623157E308" prefHeight="425.0" prefWidth="201.0" style="-fx-background-color: transparent;" stylesheets="@styles.css">
                <columns>
                   <TableColumn fx:id="tbcName" minWidth="0.0" prefWidth="199.0" text="Name" />
                </columns>
@@ -90,7 +90,7 @@
    <center>
       <VBox prefHeight="508.0" prefWidth="461.0" BorderPane.alignment="CENTER">
          <children>
-            <Label fx:id="labelName" maxWidth="1.7976931348623157E308" style="-fx-font-weight: bold;" text="AN DƯƠNG VƯƠNG là một nhân vật nổi tiếng" wrapText="true" VBox.vgrow="ALWAYS">
+            <Label fx:id="labelName" maxWidth="1.7976931348623157E308" style="-fx-font-weight: bold;" text="AN DƯƠNG VƯƠNG" wrapText="true" VBox.vgrow="ALWAYS">
                <font>
                   <Font size="36.0" />
                </font>

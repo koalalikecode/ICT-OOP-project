@@ -14,6 +14,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
+import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
 import javafx.scene.layout.AnchorPane;
@@ -132,18 +133,24 @@ public class EventController implements Initializable {
 
         textFlow.setPrefWidth(infoAnchorPane.getPrefWidth());
         textFlow.setMaxWidth(infoAnchorPane.getPrefWidth());
+
+        Text descriptionStart = new Text("Tổng quan\n\n");
+        descriptionStart.setFont(new Font(16));
+        textFlow.getChildren().add(descriptionStart);
+
         Text text = new Text(eventDescription);
         textFlow.getChildren().add(text);
         textFlow.getChildren().add(new Text("\n"));
 
-        Text infoStart = new Text("\nThông tin chi tiết của " + eventSelection.getName());
+        Text infoStart = new Text("\nThông tin chi tiết");
+        infoStart.setFont(new Font(16));
         textFlow.getChildren().add(infoStart);
         infoAnchorPane.getChildren().add(textFlow);
 
         eventInfoBox = execDataEvent.getInfoBoxByName(eventList, eventSelection.getName());
         eventConnectionBox = execDataEvent.getConnectionBoxByName(eventList, eventSelection.getName());
 
-        VBox contentContainer = new VBox(10);
+        VBox contentContainer = new VBox(7);
         contentContainer.setPadding(new Insets(10));
         contentContainer.getChildren().add(textFlow);
 
@@ -179,13 +186,86 @@ public class EventController implements Initializable {
                     link.setWrapText(true);
                     link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
                     infoItem.getChildren().add(link);
+                } else if(value.has("phe 1") || value.has("phe 2")) {
+                    VBox componentEvent = new VBox(3);
+                    infoItem.setAlignment(Pos.TOP_LEFT);
+                    if (value.has("phe 1")) {
+                        if (!(value.get("phe 1") instanceof String)) {
+                            JSONObject firstComponent = value.getJSONObject("phe 1");
+                            HBox componentItem = new HBox(1);
+                            componentItem.setAlignment(Pos.CENTER_LEFT);
+                            componentItem.getChildren().add(new Label("Phe 1: "));
+                            if (firstComponent.has("name")) {
+                                if (firstComponent.has("url")) {
+                                    String fieldName = execDataEvent.dataSearchField(firstComponent.getString("name"));
+                                    String sceneName = sceneFromField(fieldName);
+                                    Hyperlink link = new Hyperlink(firstComponent.getString("name"));
+                                    link.setOnAction(event -> {
+                                        try {
+                                            LinkController.setSelectedObject(link.getText(), fieldName);
+                                            Stage stage = (Stage) link.getScene().getWindow();
+                                            Parent root = FXMLLoader.load(getClass().getResource(sceneName));
+                                            Scene newScene = new Scene(root);
+                                            stage.setScene(newScene);
+                                        } catch (IOException e) {
+                                            e.printStackTrace();
+                                        }
+                                    });
+                                    componentItem.getChildren().add(link);
+                                } else {
+                                    Label link = new Label(firstComponent.getString("name"));
+                                    componentItem.getChildren().add(link);
+                                }
+                            }
+                            componentEvent.getChildren().add(componentItem);
+                        } else {
+                            Label componentItem1 = new Label("Phe 1: " + value.getString("phe 1"));
+                            componentEvent.getChildren().add(componentItem1);
+                        }
+                    }
+                    if (value.has("phe 2")) {
+                        if (!(value.get("phe 2") instanceof String)) {
+                            JSONObject secondComponent = value.getJSONObject("phe 2");
+                            HBox componentItem = new HBox(1);
+                            componentItem.setAlignment(Pos.CENTER_LEFT);
+                            componentItem.getChildren().add(new Label("Phe 2: "));
+                            if (secondComponent.has("name")) {
+                                if (secondComponent.has("url")) {
+                                    String fieldName = execDataEvent.dataSearchField(secondComponent.getString("name"));
+                                    String sceneName = sceneFromField(fieldName);
+                                    Hyperlink link = new Hyperlink(secondComponent.getString("name"));
+                                    link.setOnAction(event -> {
+                                        try {
+                                            LinkController.setSelectedObject(link.getText(), fieldName);
+                                            Stage stage = (Stage) link.getScene().getWindow();
+                                            Parent root = FXMLLoader.load(getClass().getResource(sceneName));
+                                            Scene newScene = new Scene(root);
+                                            stage.setScene(newScene);
+                                        } catch (IOException e) {
+                                            e.printStackTrace();
+                                        }
+                                    });
+                                } else {
+                                    Label link = new Label(secondComponent.getString("name"));
+                                    componentItem.getChildren().add(link);
+                                }
+                            }
+                            componentEvent.getChildren().add(componentItem);
+                        } else {
+                            Label componentItem2 = new Label("Phe 2: " + value.getString("phe 2"));
+                            componentEvent.getChildren().add(componentItem2);
+                        }
+                    }
+                    infoItem.getChildren().add(componentEvent);
                 }
                 contentContainer.getChildren().add(infoItem);
             } else {
-                System.out.println(eventInfoBox.get(key));
+                Label infoContent = new Label(eventInfoBox.getString(key));
+                infoItem.getChildren().add(infoContent);
             }
         }
-        Text connectionStart = new Text("Thông tin liên quan của " + eventSelection.getName() + ": ");
+        Text connectionStart = new Text("Xem thêm:");
+        connectionStart.setFont(new Font(16));
         contentContainer.getChildren().add(connectionStart);
 
 //      Add the connections of the Event
@@ -230,15 +310,15 @@ public class EventController implements Initializable {
 
     private String sceneFromField(String name){
         String sceneName;
-        if (name == "Character"){
+        if (name.equals("Character")){
             sceneName = "characterPane.fxml";
-        } else if (name == "Dynasty"){
+        } else if (name.equals("Dynasty")){
             sceneName = "dynastyPane.fxml";
-        } else if (name == "Event"){
+        } else if (name.equals("Event")){
             sceneName = "eventPane.fxml";
-        } else if (name == "Festival"){
+        } else if (name.equals("Festival")){
             sceneName = "festivalPane.fxml";
-        } else if (name == "Place"){
+        } else if (name.equals("Place")){
             sceneName = "placePane.fxml";
         } else {
             sceneName = "eventPane.fxml";

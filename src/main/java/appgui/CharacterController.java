@@ -1,10 +1,3 @@
-/* Việc cần làm khi sửa code :
-    * 1. Tối ưu exception handling trong file
-    * 2.
- */
-
-
-
 package appgui;
 
 import appgui.LinkController;
@@ -21,6 +14,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
+import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextFlow;
 import javafx.scene.layout.AnchorPane;
@@ -70,7 +64,6 @@ public class CharacterController implements Initializable {
 //    Search Character
     @FXML
     private TextField searchCharacter;
-
     @FXML
     private ScrollPane infoScrollPane;
     @FXML
@@ -139,11 +132,16 @@ public class CharacterController implements Initializable {
 
         textFlow.setPrefWidth(infoAnchorPane.getPrefWidth());
         textFlow.setMaxWidth(infoAnchorPane.getPrefWidth());
+
+        Text descriptionStart = new Text("Tổng quan\n\n");
+        descriptionStart.setFont(new Font(16));
+        textFlow.getChildren().add(descriptionStart);
+
         Text text = new Text(characterDescription);
         textFlow.getChildren().add(text);
-        textFlow.getChildren().add(new Text("\n"));
 
-        Text infoStart = new Text("\nThông tin chi tiết của " + characterSelection.getName());
+        Text infoStart = new Text("\nThông tin chi tiết");
+        infoStart.setFont(new Font(16));
         textFlow.getChildren().add(infoStart);
         infoAnchorPane.getChildren().add(textFlow);
 
@@ -188,7 +186,8 @@ public class CharacterController implements Initializable {
             }
             contentContainer.getChildren().add(infoItem);
         }
-        Text connectionStart = new Text("Thông tin liên quan của " + characterSelection.getName() + ": ");
+        Text connectionStart = new Text("Xem thêm:");
+        connectionStart.setFont(new Font(16));
         contentContainer.getChildren().add(connectionStart);
 
 //      Add the connections of the Character
@@ -233,15 +232,15 @@ public class CharacterController implements Initializable {
 
     private String sceneFromField(String name){
         String sceneName;
-        if (name == "Character"){
+        if (name.equals("Character")){
             sceneName = "characterPane.fxml";
-        } else if (name == "Dynasty"){
+        } else if (name.equals("Dynasty")){
             sceneName = "dynastyPane.fxml";
-        } else if (name == "Event"){
+        } else if (name.equals("Event")){
             sceneName = "eventPane.fxml";
-        } else if (name == "Festival"){
+        } else if (name.equals("Festival")){
             sceneName = "festivalPane.fxml";
-        } else if (name == "Place"){
+        } else if (name.equals("Place")){
             sceneName = "placePane.fxml";
         } else {
             sceneName = "characterPane.fxml";
@@ -301,15 +300,5 @@ public class CharacterController implements Initializable {
                     .collect(Collectors.toList());
             tbvCharacters.setItems(FXCollections.observableArrayList(searchResults));
         }
-    }
-
-    public TextFlow linebreak(String data, TextFlow textFlow) {
-        String[] lines = data.split("\\n");
-        for (String line : lines) {
-            Text text = new Text(line);
-            textFlow.getChildren().add(text);
-            textFlow.getChildren().add(new Text("\n"));
-        }
-        return textFlow;
     }
 }
