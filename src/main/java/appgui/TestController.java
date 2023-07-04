@@ -50,8 +50,8 @@ public class TestController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
 
-            characterList = printData.loadCharacters(dataJson);
-            printData execDataCharacter = new printData(characterList);
+            characterList = CharacterExecData.loadCharacters(dataJson);
+            CharacterExecData execDataCharacter = new CharacterExecData(characterList);
             tbcName.setCellValueFactory(new PropertyValueFactory<Character, String>("name"));
             dataCharacter = FXCollections.observableArrayList(characterList);
             tbvCharacters.setItems(
@@ -70,16 +70,9 @@ public class TestController implements Initializable {
                     TextFlow textFlow = new TextFlow();
                     String characterDescription = newSelection.getDescription();
 
-//                    int numLines = characterInfo.split("\n").length;
-
-//                    double lineHeight = 20.0;
-//                    double padding = 10.0;
-//                    double prefHeight = numLines * lineHeight + padding;
-
                     textFlow.setPrefWidth(infoAnchorPane.getPrefWidth());
                     textFlow.setMaxWidth(infoAnchorPane.getPrefWidth());
                     Text text = new Text(characterDescription);
-                    text.setWrappingWidth(100);
                     textFlow.getChildren().add(text);
                     textFlow.getChildren().add(new Text("\n"));
 

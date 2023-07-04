@@ -9,6 +9,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -29,6 +31,7 @@ public class DynastyWikiCrawler extends Crawler {
         pagesDiscovered.add(url);
         Document doc;
         try {
+            url = URLDecoder.decode(url, "UTF-8");
         // fetching the target website
             doc = Jsoup.connect(getWebLink() + url).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
         } catch (IOException e) {
@@ -47,6 +50,7 @@ public class DynastyWikiCrawler extends Crawler {
                 Document doc2;
                 try {
                     // fetching the target website
+                    dynastyURL = URLDecoder.decode(dynastyURL, "UTF-8");
                     doc2 = Jsoup.connect(getWebLink() + dynastyURL).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
                     // Get description
                     String description = doc2.selectFirst("div.mw-parser-output > p").text();

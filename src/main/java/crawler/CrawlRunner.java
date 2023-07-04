@@ -2,15 +2,14 @@ package crawler;
 
 public class CrawlRunner {
     public static void main(String[] args) throws Exception{
-        CharacterNKSCrawler characterNKSCrawler = new CharacterNKSCrawler();
-        PlaceNKSCrawler placeNKSCrawler = new PlaceNKSCrawler();
-        PlaceWikiCrawler placeWikiCrawler = new PlaceWikiCrawler();
-        KingWikiCrawler kingWikiCrawler = new KingWikiCrawler();
-        EventsNKSCrawler eventsNKSCrawler = new EventsNKSCrawler();
-        WarWiki warWikiCrawler = new WarWiki();
-        DynastyWikiCrawler dynastyWikiCrawler = new DynastyWikiCrawler();
-        FestivalCrawler festivalCrawler = new FestivalCrawler();
-
+        Crawler characterNKSCrawler = new CharacterNKSCrawler();
+        Crawler placeNKSCrawler = new PlaceNKSCrawler();
+        Crawler placeWikiCrawler = new PlaceWikiCrawler();
+        Crawler kingWikiCrawler = new KingWikiCrawler();
+        Crawler eventsNKSCrawler = new EventsNKSCrawler();
+        Crawler warWikiCrawler = new WarWiki();
+        Crawler dynastyWikiCrawler = new DynastyWikiCrawler();
+        Crawler festivalCrawler = new FestivalCrawler();
 
 //        festivalCrawler.crawlAndSave();
 //        dynastyWikiCrawler.crawlAndSave();

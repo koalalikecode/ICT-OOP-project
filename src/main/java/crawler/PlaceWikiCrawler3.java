@@ -54,6 +54,11 @@ public class PlaceWikiCrawler3 extends Crawler{
         }
     }
 
+    @Override
+    public void crawlData() throws InterruptedException {
+
+    }
+
     /**
      * Thu thập dữ liệu ở các bảng trên Wikipedia
      * @param table

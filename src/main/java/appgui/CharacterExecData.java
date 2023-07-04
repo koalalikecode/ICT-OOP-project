@@ -14,8 +14,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 import java.io.IOException;
+import java.util.Set;
 
-public class printData {
+public class CharacterExecData {
     private String dataJson = "data/final.json";
     private List<Character> characters;
     private List<String> hyperlinkTexts;
@@ -33,7 +34,7 @@ public class printData {
     }
 
 
-    public printData(List<Character> characters) {
+    public CharacterExecData(List<Character> characters) {
         this.characters = characters;
         this.hyperlinkTexts = getHyperlinkTexts(characters);
     }
@@ -54,7 +55,6 @@ public class printData {
         }
         return null;
     }
-
     private List<String> getHyperlinkTexts(List<Character> characters) {
         List<String> texts = new ArrayList<>();
         for (Character character : characters) {
@@ -80,6 +80,19 @@ public class printData {
         }
         return info;
     }
+
+    public List<JSONObject> getConnectionBoxByName(List<Character> characters, String name) {
+        List<JSONObject> connections = new ArrayList<>();
+        StringBuilder result = new StringBuilder();
+        for (Character character : characters) {
+            if (character.getName().equalsIgnoreCase(name)) {
+                result.append("Connections:\n");
+                connections = character.getConnection();
+            }
+        }
+        return connections;
+    }
+
     public List<String> getHyperTextLinksBy(int index) {
         List<String> hyperTextLinks = new ArrayList<>();
         if (index >= 0 && index < characters.size()) {
@@ -117,6 +130,39 @@ public class printData {
 
             System.out.println();
         }
+    }
+
+    public int indexByName(String name){
+        for(int i = 0; i < characters.size(); i++){
+            if(characters.get(i).getName().equalsIgnoreCase(name)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public String dataSearchField(String name) {
+        StringBuilder result = new StringBuilder();
+        try {
+            String jsonContent = new String(Files.readAllBytes(Paths.get(dataJson)));
+            JSONObject jsonData = new JSONObject(jsonContent);
+            Set<String> jsonArrayNames = jsonData.keySet();
+            for (String jsonArrayName : jsonArrayNames) {
+                JSONArray jsonArray = jsonData.getJSONArray(jsonArrayName);
+                for (int i = 0; i < jsonArray.length(); i++) {
+                    JSONObject jsonObject = jsonArray.getJSONObject(i);
+                    String objectName = jsonObject.getString("name");
+                    if (objectName.equalsIgnoreCase(name)) {
+                        result.append(jsonArrayName);
+                        return result.toString();
+                    }
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return result.toString();
     }
 //    Read the final.json to scan character
     public static List<Character> loadCharacters(String filePath) throws IOException {
