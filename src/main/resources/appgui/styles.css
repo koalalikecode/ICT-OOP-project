@@ -8,15 +8,16 @@
 {
     -fx-background-color: #FFEDCB;
 }
-/*.button:pressed*/
-/*{*/
-/*    -fx-background-color: #7156DD;*/
-/*}*/
-
-.button:focused {
+.button:pressed
+{
     -fx-text-fill: #005B4B;
     -fx-underline: true;
 }
+
+/*.button:focused {*/
+/*    -fx-text-fill: #005B4B;*/
+/*    -fx-underline: true;*/
+/*}*/
 
 .scroll-bar {
     -fx-focus-color: transparent;

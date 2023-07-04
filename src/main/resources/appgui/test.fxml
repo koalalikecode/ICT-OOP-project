@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="837.0" style="-fx-background-color: #F5EDE4;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.TestController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="837.0" style="-fx-background-color: #F5EDE4;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.CharacterController">
    <left>
       <AnchorPane prefHeight="471.0" prefWidth="167.0" BorderPane.alignment="CENTER">
          <children>
@@ -30,27 +30,27 @@
             </Label>
             <VBox layoutX="14.0" layoutY="123.0" prefHeight="298.0" prefWidth="136.0" stylesheets="@styles.css">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="136.0" text="DYNASTY">
+                  <Button fx:id="btnDynasty" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="70.0" prefWidth="136.0" text="DYNASTY">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
-                  <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="136.0" text="CHARACTER">
+                  <Button fx:id="btnCharacter" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="70.0" prefWidth="136.0" text="CHARACTER">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
-                  <Button layoutX="10.0" layoutY="64.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="136.0" text="PLACE">
+                  <Button fx:id="btnPlace" layoutX="10.0" layoutY="64.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="70.0" prefWidth="136.0" text="PLACE">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
-                  <Button layoutX="10.0" layoutY="118.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="136.0" text="EVENT">
+                  <Button fx:id="btnEvent" layoutX="10.0" layoutY="118.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="70.0" prefWidth="136.0" text="EVENT">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
-                  <Button layoutX="10.0" layoutY="172.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="136.0" text="FESTIVAL">
+                  <Button fx:id="btnFestival" layoutX="10.0" layoutY="172.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="70.0" prefWidth="136.0" text="FESTIVAL">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
@@ -68,7 +68,7 @@
                 <TableColumn fx:id="tbcName" minWidth="0.0" prefWidth="199.0" text="Name" />
               </columns>
             </TableView>
-            <TextField layoutX="1.0" layoutY="35.0" prefHeight="26.0" prefWidth="200.0" promptText="Search" styleClass="search" stylesheets="@styles.css">
+            <TextField fx:id="searchCharacter" layoutX="1.0" layoutY="35.0" prefHeight="26.0" prefWidth="200.0" promptText="Search" styleClass="search" stylesheets="@styles.css">
                <padding>
                   <Insets left="25.0" />
                </padding>

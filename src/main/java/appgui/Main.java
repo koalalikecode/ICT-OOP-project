@@ -11,17 +11,21 @@ import javafx.scene.control.Button;
 import javafx.event.ActionEvent;
 import javafx.geometry.Rectangle2D;
 
+import appgui.LinkController;
+
 public class Main extends Application {
     double x,y = 0;
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("test.fxml"));
 
+//        LinkController.selectedCharacter = null;
+
+        Parent root = FXMLLoader.load(getClass().getResource("characterPane.fxml"));
         Scene sc = new Scene(root);
 //        stage.initStyle(StageStyle.UNDECORATED);
+
         String css = this.getClass().getResource("styles.css").toExternalForm();
         sc.getStylesheets().add(css);
-
         root.setOnMousePressed(event -> {
             x = event.getSceneX();
             y = event.getSceneY();

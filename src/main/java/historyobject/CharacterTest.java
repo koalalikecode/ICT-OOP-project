@@ -38,9 +38,9 @@ public class CharacterTest {
     public String getName() {
         return name;
     }
-//    public StringProperty nameProperty() {
-//        return new SimpleStringProperty(name);
-//    }
+    public StringProperty nameProperty() {
+        return new SimpleStringProperty(name);
+    }
 
     public void setName(String name) {
         this.name = name;

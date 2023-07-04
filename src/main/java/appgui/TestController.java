@@ -50,8 +50,8 @@ public class TestController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
 
-            characterList = printData.loadCharacters(dataJson);
-            printData execDataCharacter = new printData(characterList);
+            characterList = CharacterExecData.loadCharacters(dataJson);
+            CharacterExecData execDataCharacter = new CharacterExecData(characterList);
             tbcName.setCellValueFactory(new PropertyValueFactory<Character, String>("name"));
             dataCharacter = FXCollections.observableArrayList(characterList);
             tbvCharacters.setItems(
