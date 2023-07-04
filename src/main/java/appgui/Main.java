@@ -18,9 +18,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-//        LinkController.selectedCharacter = null;
-
-        Parent root = FXMLLoader.load(getClass().getResource("characterPane.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("test.fxml"));
         Scene sc = new Scene(root);
 //        stage.initStyle(StageStyle.UNDECORATED);
 
