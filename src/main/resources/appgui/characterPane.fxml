@@ -63,12 +63,12 @@
    <right>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <TableView fx:id="tbvCharacters" layoutY="77.0" prefHeight="417.0" prefWidth="201.0" style="-fx-background-color: transparent;" stylesheets="@styles.css">
+            <TableView fx:id="tbv" layoutY="77.0" prefHeight="417.0" prefWidth="201.0" style="-fx-background-color: transparent;" stylesheets="@styles.css">
                <columns>
                   <TableColumn fx:id="tbcName" minWidth="0.0" prefWidth="199.0" text="Name" />
                </columns>
             </TableView>
-            <TextField fx:id="searchCharacter" layoutX="1.0" layoutY="35.0" prefHeight="26.0" prefWidth="200.0" promptText="Search" styleClass="search" stylesheets="@styles.css">
+            <TextField fx:id="search" layoutX="1.0" layoutY="35.0" prefHeight="26.0" prefWidth="200.0" promptText="Search" styleClass="search" stylesheets="@styles.css">
                <padding>
                   <Insets left="25.0" />
                </padding>
