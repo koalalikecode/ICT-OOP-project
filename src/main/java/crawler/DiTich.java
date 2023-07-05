@@ -39,6 +39,7 @@ public class DiTich extends Crawler {
             Place diTich = new Place();
             String name = doc.select("div.hl__library-info__features>section>h2").text();
             diTich.setName(name);
+            diTich.setImageUrl("http://ditich.vn"+doc.selectFirst("div>img").attr("src"));
             diTich.setUrl(pageToScrape);
             JSONObject info = new JSONObject();
             if(doc.selectFirst("div.hl__contact-info__address>span.address-line1")!=null)

@@ -9,7 +9,7 @@ public class Event {
     private JSONObject info;
     private String description;
     private List<JSONObject> connection;
-    private String connect;
+    private String imageUrl;
     public String getName() {
         return name;
     }
@@ -40,12 +40,12 @@ public class Event {
     public void setConnection(List<JSONObject> connection) {
         this.connection = connection;
     }
-    public String getConnect() {
-        return connect;
-    }
-    public void setConnect(String connect) {
-        this.connect = connect;
-    }  
-    
 
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
 }

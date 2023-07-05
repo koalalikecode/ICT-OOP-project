@@ -64,6 +64,8 @@ public class EventsNKSCrawler extends Crawler{
             //JSONObject eventInfo2 = scrapeInfoEvent2(doc2, "table > tbody > tr > td > table > tbody >tr");
             //JSONObject eventInfo = new JSONObject();
            // eventInfo.put("",eventInfo1);
+            if(doc2.select("div>img").size()>0) eventItem.setImageUrl(doc2.selectFirst("div>img").attr("data-src"));
+            else eventItem.setImageUrl(null);
             eventItem.setName(name.text());
             eventItem.setUrl(EventLink.attr("href"));
             eventItem.setInfo(eventInfo);

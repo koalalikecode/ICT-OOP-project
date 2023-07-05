@@ -10,6 +10,7 @@ public class Place {
     private JSONObject info;
     private String description;
     private List<JSONObject> connection;
+    private String imageUrl;
 
     public String getName() {
         return name;
@@ -49,5 +50,13 @@ public class Place {
 
     public void setConnection(List<JSONObject> connection) {
         this.connection = connection;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }
