@@ -34,12 +34,12 @@ public class EventsNKSCrawler extends Crawler{
     public void scrapePage(List eventList, Set<String> pagesDiscoverd, List<String> pagesToScrape)
     {
         String url = pagesToScrape.remove(0);
-        
+
         pagesDiscoverd.add(url);
 
         Document doc;
         try {
-            doc = Jsoup.connect(getWebLink() + url).userAgent("").header("Accept-Language", "*").get(); 
+            doc = Jsoup.connect(getWebLink() + url).userAgent("").header("Accept-Language", "*").get();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -50,9 +50,9 @@ public class EventsNKSCrawler extends Crawler{
             Event eventItem = new Event();
 
             Document doc2;
-            
+
             try {
-                doc2 = Jsoup.connect(getWebLink() + EventLink.attr("href")).userAgent("").header("Accept-Language", "*").get();  
+                doc2 = Jsoup.connect(getWebLink() + EventLink.attr("href")).userAgent("").header("Accept-Language", "*").get();
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -60,12 +60,9 @@ public class EventsNKSCrawler extends Crawler{
             List<JSONObject> moreEvent = scapeMoreConnection(doc2, "div.com-content-article__body a.annotation");
             String description = scrapeDescription(doc2, "div.com-content-article__body > p:first-of-type");
             JSONObject eventInfo = scrapeInfoEvent1(doc2);
-            //System.out.println(doc2.text());
-            //JSONObject eventInfo2 = scrapeInfoEvent2(doc2, "table > tbody > tr > td > table > tbody >tr");
-            //JSONObject eventInfo = new JSONObject();
-           // eventInfo.put("",eventInfo1);
-            if(doc2.select("div>img").size()>0) eventItem.setImageUrl(doc2.selectFirst("div>img").attr("data-src"));
-            else eventItem.setImageUrl(null);
+            if(doc2.select("div>img").size()>0) {
+                if(!doc2.selectFirst("div>img").attr("data-src").equals(""))eventItem.setImageUrl(doc2.selectFirst("div>img").attr("data-src"));
+            }else eventItem.setImageUrl(null);
             eventItem.setName(name.text());
             eventItem.setUrl(EventLink.attr("href"));
             eventItem.setInfo(eventInfo);
@@ -74,14 +71,14 @@ public class EventsNKSCrawler extends Crawler{
             eventList.add(eventItem);
         }
 
-    
+
         for(Element pageElement : paginationElements) {
             String pageUrl = pageElement.attr("href");
             if(!pagesDiscoverd.contains(pageUrl) && !pagesToScrape.contains(pageUrl) && !pageUrl.equals("#")) {
-                pagesToScrape.add(pageUrl);    
+                pagesToScrape.add(pageUrl);
             }
             pagesDiscoverd.add(pageUrl);
-        }  
+        }
         System.out.println("Done: " + url);
     }
     public JSONObject scrapeInfoEvent1(Document doc) {
@@ -133,11 +130,11 @@ public class EventsNKSCrawler extends Crawler{
             }else url.put("phe 1",tdchild_1.text());
             info.put(thKey.get(i).text(), url);
             }
-    }  
+    }
         return info;
     }
 
-    
+
     @Override
     public void crawlData() throws InterruptedException {
         List<Event> crawlObjectList = Collections.synchronizedList(new ArrayList<>());
