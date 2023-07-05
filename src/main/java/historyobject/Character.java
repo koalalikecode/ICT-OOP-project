@@ -11,6 +11,15 @@ public class Character {
     private JSONObject info;
     private String description;
     private List<JSONObject> connection;
+    private String imageUrl;
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
 
     public Character() {}
     public Character(String name,String description, String url, JSONObject info, List<JSONObject> connection) {

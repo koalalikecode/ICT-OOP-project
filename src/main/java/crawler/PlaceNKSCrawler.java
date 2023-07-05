@@ -1,6 +1,6 @@
 package crawler;
 
-import historyobject.PlaceNKS;
+import historyobject.Place;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
@@ -36,9 +36,9 @@ public class PlaceNKSCrawler extends Crawler {
         try {
             // Fetching the target website
             doc = Jsoup.connect(getWebLink() + url)
-                        .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36")
-                        .header("Accept-Language", "*")
-                        .get();
+                    .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36")
+                    .header("Accept-Language", "*")
+                    .get();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -47,21 +47,26 @@ public class PlaceNKSCrawler extends Crawler {
 
         // Iterating over the list of HTML places
         for (Element placeLink : placeLinks) {
-            PlaceNKS placeItem = new PlaceNKS();
+            Place placeItem = new Place();
 
             Document doc2;
 
             try {
                 // Fetching the target website
                 doc2 = Jsoup.connect(getWebLink() + placeLink.attr("href"))
-                            .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36")
-                            .header("Accept-Language", "*")
-                            .get();
+                        .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36")
+                        .header("Accept-Language", "*")
+                        .get();
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
 
             Elements name = doc2.select(".page-header h2");
+            if(doc2.select("img").size()>0) {
+                if(!doc2.selectFirst("img").attr("data-src").equals(""))placeItem.setImageUrl(doc2.selectFirst("img").attr("data-src"));
+                else placeItem.setImageUrl(null);
+            }
+            else placeItem.setImageUrl(null);
             List<JSONObject> connect = scapeMoreConnection(doc2, "div.com-content-article__body a.annotation");
             String description = scrapeDescription(doc2, "div.com-content-article__body > p:first-of-type");
             JSONObject placeInfo = scrapeInfoBox(doc2, "table.infobox > tbody > tr");
@@ -93,7 +98,7 @@ public class PlaceNKSCrawler extends Crawler {
     }
     @Override
     public void crawlData() throws InterruptedException {
-        List<PlaceNKS> crawlObjectList = Collections.synchronizedList(new ArrayList<>());
+        List<Place> crawlObjectList = Collections.synchronizedList(new ArrayList<>());
 
         Set<String> pagesDiscovered = Collections.synchronizedSet(new HashSet<>());
 
