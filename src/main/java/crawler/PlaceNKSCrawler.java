@@ -63,15 +63,13 @@ public class PlaceNKSCrawler extends Crawler {
 
             Elements name = doc2.select(".page-header h2");
             if(doc2.select("img").size()>0) {
-                if(!doc2.selectFirst("img").attr("data-src").equals(""))placeItem.setImageUrl(doc2.selectFirst("img").attr("data-src"));
+                if(!doc2.selectFirst("img").attr("data-src").equals(""))placeItem.setImageUrl(getWebLink()+doc2.selectFirst("img").attr("data-src"));
                 else placeItem.setImageUrl(null);
             }
             else placeItem.setImageUrl(null);
             List<JSONObject> connect = scapeMoreConnection(doc2, "div.com-content-article__body a.annotation");
             String description = scrapeDescription(doc2, "div.com-content-article__body > p:first-of-type");
             JSONObject placeInfo = scrapeInfoBox(doc2, "table.infobox > tbody > tr");
-
-
             placeItem.setName(name.text());
             placeItem.setUrl(placeLink.attr("href"));
             placeItem.setDescription(description);
