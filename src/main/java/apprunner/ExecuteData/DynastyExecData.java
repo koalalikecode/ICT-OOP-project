@@ -1,6 +1,6 @@
-package appgui.ExecuteData;
+package apprunner.ExecuteData;
 
-import historyobject.Event;
+import historyobject.Dynasty;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -16,17 +16,17 @@ import java.nio.file.Paths;
 import java.io.IOException;
 import java.util.Set;
 
-public class EventExecData {
+public class DynastyExecData {
     private String dataJson = "data/final.json";
-    private List<Event> events;
+    private List<Dynasty> dynasties;
     private List<String> hyperlinkTexts;
 
-    public List<Event> getEvents() {
-        return events;
+    public List<Dynasty> getDynastys() {
+        return dynasties;
     }
 
-    public void setEvents(List<Event> events) {
-        this.events = events;
+    public void setDynastys(List<Dynasty> dynasties) {
+        this.dynasties = dynasties;
     }
 
     public void setHyperlinkTexts(List<String> hyperlinkTexts) {
@@ -34,32 +34,31 @@ public class EventExecData {
     }
 
 
-    public EventExecData(List<Event> events) {
-        this.events = events;
-//        this.hyperlinkTexts = getHyperlinkTexts(events);
+    public DynastyExecData(List<Dynasty> dynasties) {
+        this.dynasties = dynasties;
+//        this.hyperlinkTexts = getHyperlinkTexts(dynasties);
     }
 
-    public ObservableList<Event> getObservableEventList(List<Event> events) {
-        return FXCollections.observableArrayList(events);
+    public ObservableList<Dynasty> getObservableDynastyList(List<Dynasty> dynasties) {
+        return FXCollections.observableArrayList(dynasties);
     }
 
     public List<String> getHyperlinkTexts() {
         return hyperlinkTexts;
     }
 
-    public Event searchByName(String name) {
-        for (Event event : events) {
-            if (event.getName().equalsIgnoreCase(name)) {
-                return event;
+    public Dynasty searchByName(String name) {
+        for (Dynasty dynasty : dynasties) {
+            if (dynasty.getName().equalsIgnoreCase(name)) {
+                return dynasty;
             }
         }
         return null;
     }
-
-    private List<String> getHyperlinkTexts(List<Event> events) {
+    private List<String> getHyperlinkTexts(List<Dynasty> dynasties) {
         List<String> texts = new ArrayList<>();
-        for (Event event : events) {
-            JSONObject info = event.getInfo();
+        for (Dynasty dynasty : dynasties) {
+            JSONObject info = dynasty.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
                     JSONObject value = info.getJSONObject(key);
@@ -71,24 +70,24 @@ public class EventExecData {
         }
         return texts;
     }
-    public JSONObject getInfoBoxByName(List<Event> events, String name) {
+    public JSONObject getInfoBoxByName(List<Dynasty> dynasties, String name) {
         JSONObject info = null;
-        for (Event event : events) {
-            if (event.getName().equalsIgnoreCase(name)) {
-                info = event.getInfo();
+        for (Dynasty dynasty : dynasties) {
+            if (dynasty.getName().equalsIgnoreCase(name)) {
+                info = dynasty.getInfo();
                 return info;
             }
         }
         return info;
     }
 
-    public List<JSONObject> getConnectionBoxByName(List<Event> events, String name) {
+    public List<JSONObject> getConnectionBoxByName(List<Dynasty> dynasties, String name) {
         List<JSONObject> connections = new ArrayList<>();
         StringBuilder result = new StringBuilder();
-        for (Event event : events) {
-            if (event.getName().equalsIgnoreCase(name)) {
+        for (Dynasty dynasty : dynasties) {
+            if (dynasty.getName().equalsIgnoreCase(name)) {
                 result.append("Connections:\n");
-                connections = event.getConnection();
+                connections = dynasty.getConnection();
             }
         }
         return connections;
@@ -96,9 +95,9 @@ public class EventExecData {
 
     public List<String> getHyperTextLinksBy(int index) {
         List<String> hyperTextLinks = new ArrayList<>();
-        if (index >= 0 && index < events.size()) {
-            Event event = events.get(index);
-            JSONObject info = event.getInfo();
+        if (index >= 0 && index < dynasties.size()) {
+            Dynasty dynasty = dynasties.get(index);
+            JSONObject info = dynasty.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
                     JSONObject value = info.getJSONObject(key);
@@ -111,26 +110,14 @@ public class EventExecData {
         }
         return hyperTextLinks;
     }
-    public void printEvents() {
-        for (int i = 0; i < events.size(); i++) {
-            Event event = events.get(i);
-            System.out.println("====================================================");
-            System.out.println("Event " + (i + 1));
-            System.out.println("Event Name: " + event.getName());
 
-            System.out.println("Info:");
-            JSONObject info = event.getInfo();
-            if (info != null) {
-                for (String key : info.keySet()) {
-                    JSONObject value = info.getJSONObject(key);
-                    if (value.has("name")) {
-                        System.out.println(key + ": " + value.getString("name"));
-                    }
-                }
+    public int indexByName(String name){
+        for(int i = 0; i < dynasties.size(); i++){
+            if(dynasties.get(i).getName().equalsIgnoreCase(name)){
+                return i;
             }
-
-            System.out.println();
         }
+        return -1;
     }
 
     public String dataSearchField(String name) {
@@ -155,24 +142,23 @@ public class EventExecData {
 
         return result.toString();
     }
-
-    //    Read the final.json to scan event
-    public static List<Event> loadEvents(String filePath) throws IOException {
+    //    Read the final.json to scan dynasty
+    public static List<Dynasty> loadDynastys(String filePath) throws IOException {
         String json = new String(Files.readAllBytes(Paths.get(filePath)));
         JSONObject jsonData = new JSONObject(json);
-        JSONArray jsonArray = jsonData.getJSONArray("Event");
+        JSONArray jsonArray = jsonData.getJSONArray("Dynasty");
 
-        List<Event> events = new ArrayList<>();
+        List<Dynasty> dynasties = new ArrayList<>();
 
         for (int i = 0; i < jsonArray.length(); i++) {
-            JSONObject jsonEvent = jsonArray.getJSONObject(i);
+            JSONObject jsonDynasty = jsonArray.getJSONObject(i);
 
-            String id = jsonEvent.getString("id");
-            String name = jsonEvent.getString("name");
-            String description = jsonEvent.getString("description");
-            String url = jsonEvent.getString("url");
-            JSONObject info = jsonEvent.getJSONObject("info");
-            JSONArray jsonConnections = jsonEvent.getJSONArray("connection");
+            String id = jsonDynasty.getString("id");
+            String name = jsonDynasty.getString("name");
+            String description = jsonDynasty.getString("description");
+            String url = jsonDynasty.getString("url");
+            JSONObject info = jsonDynasty.getJSONObject("info");
+            JSONArray jsonConnections = jsonDynasty.getJSONArray("connection");
 
             List<JSONObject> connections = new ArrayList<>();
             for (int j = 0; j < jsonConnections.length(); j++) {
@@ -180,20 +166,21 @@ public class EventExecData {
                 connections.add(jsonConnection);
             }
 
-            Event event = new Event(name, description, url, info, connections);
-            events.add(event);
+            Dynasty dynasty = new Dynasty(name, description, url, info, connections);
+            dynasties.add(dynasty);
         }
-        return events;
+        return dynasties;
     }
 
     public String listDataByName(String name) {
         StringBuilder result = new StringBuilder();
-        Event event = searchByName(name);
-        result.append("Name: ").append(event.getName()).append("\n");
-        result.append("Description: ").append(event.getDescription()).append("\n");
-        result.append("URL: ").append(event.getUrl()).append("\n");
+        Dynasty dynasty = searchByName(name);
+        result.append("Name: ").append(dynasty.getName()).append("\n");
+        result.append("Description: ").append(dynasty.getDescription()).append("\n");
+        result.append("URL: ").append(dynasty.getUrl()).append("\n");
 
         return result.toString();
     }
 }
+
 

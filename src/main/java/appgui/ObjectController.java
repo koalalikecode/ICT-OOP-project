@@ -1,4 +1,4 @@
-package appgui.Controller;
+package appgui;
 
 public class ObjectController {
 

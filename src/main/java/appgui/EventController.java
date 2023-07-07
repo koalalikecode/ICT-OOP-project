@@ -1,6 +1,6 @@
-package appgui.Controller;
+package appgui;
 
-import appgui.ExecuteData.EventExecData;
+import apprunner.ExecuteData.EventExecData;
 import historyobject.Event;
 
 import javafx.collections.FXCollections;
@@ -230,17 +230,17 @@ public class EventController implements Initializable {
     private String sceneFromField(String name){
         String sceneName;
         if (name.equals("Character")){
-            sceneName = "characterPane.fxml";
+            sceneName = "fxml/characterPane.fxml";
         } else if (name.equals("Dynasty")){
-            sceneName = "dynastyPane.fxml";
+            sceneName = "fxml/dynastyPane.fxml";
         } else if (name.equals("Event")){
-            sceneName = "eventPane.fxml";
+            sceneName = "fxml/eventPane.fxml";
         } else if (name.equals("Festival")){
-            sceneName = "festivalPane.fxml";
+            sceneName = "fxml/festivalPane.fxml";
         } else if (name.equals("Place")){
-            sceneName = "placePane.fxml";
+            sceneName = "fxml/placePane.fxml";
         } else {
-            sceneName = "eventPane.fxml";
+            sceneName = "fxml/eventPane.fxml";
         }
         return sceneName;
     }
@@ -262,23 +262,23 @@ public class EventController implements Initializable {
         Stage stage = (Stage) btnEvent.getScene().getWindow();
         try {
             if (event.getSource() == btnCharacter) {
-                Parent newPane = FXMLLoader.load(getClass().getResource("characterPane.fxml"));
+                Parent newPane = FXMLLoader.load(getClass().getResource("fxml/characterPane.fxml"));
                 Scene newScene = new Scene(newPane);
                 stage.setScene(newScene);
             } else if (event.getSource() == btnEvent) {
-                Parent newPane2 = FXMLLoader.load(getClass().getResource("eventPane.fxml"));
+                Parent newPane2 = FXMLLoader.load(getClass().getResource("fxml/eventPane.fxml"));
                 Scene newScene2 = new Scene(newPane2);
                 stage.setScene(newScene2);
             } else if (event.getSource() == btnDynasty) {
-                Parent newPane3 = FXMLLoader.load(getClass().getResource("dynastyPane.fxml"));
+                Parent newPane3 = FXMLLoader.load(getClass().getResource("fxml/dynastyPane.fxml"));
                 Scene newScene3 = new Scene(newPane3);
                 stage.setScene(newScene3);
             } else if (event.getSource() == btnFestival) {
-                Parent newPane4 = FXMLLoader.load(getClass().getResource("festivalPane.fxml"));
+                Parent newPane4 = FXMLLoader.load(getClass().getResource("fxml/festivalPane.fxml"));
                 Scene newScene4 = new Scene(newPane4);
                 stage.setScene(newScene4);
             } else if (event.getSource() == btnPlace) {
-                Parent newPane5 = FXMLLoader.load(getClass().getResource("placePane.fxml"));
+                Parent newPane5 = FXMLLoader.load(getClass().getResource("fxml/placePane.fxml"));
                 Scene newScene5 = new Scene(newPane5);
                 stage.setScene(newScene5);
             }

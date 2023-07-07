@@ -1,6 +1,6 @@
-package appgui.ExecuteData;
+package apprunner.ExecuteData;
 
-import historyobject.Dynasty;
+import historyobject.Place;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -16,17 +16,17 @@ import java.nio.file.Paths;
 import java.io.IOException;
 import java.util.Set;
 
-public class DynastyExecData {
+public class PlaceExecData {
     private String dataJson = "data/final.json";
-    private List<Dynasty> dynasties;
+    private List<Place> places;
     private List<String> hyperlinkTexts;
 
-    public List<Dynasty> getDynastys() {
-        return dynasties;
+    public List<Place> getPlaces() {
+        return places;
     }
 
-    public void setDynastys(List<Dynasty> dynasties) {
-        this.dynasties = dynasties;
+    public void setPlaces(List<Place> places) {
+        this.places = places;
     }
 
     public void setHyperlinkTexts(List<String> hyperlinkTexts) {
@@ -34,31 +34,31 @@ public class DynastyExecData {
     }
 
 
-    public DynastyExecData(List<Dynasty> dynasties) {
-        this.dynasties = dynasties;
-//        this.hyperlinkTexts = getHyperlinkTexts(dynasties);
+    public PlaceExecData(List<Place> places) {
+        this.places = places;
+        this.hyperlinkTexts = getHyperlinkTexts(places);
     }
 
-    public ObservableList<Dynasty> getObservableDynastyList(List<Dynasty> dynasties) {
-        return FXCollections.observableArrayList(dynasties);
+    public ObservableList<Place> getObservablePlaceList(List<Place> places) {
+        return FXCollections.observableArrayList(places);
     }
 
     public List<String> getHyperlinkTexts() {
         return hyperlinkTexts;
     }
 
-    public Dynasty searchByName(String name) {
-        for (Dynasty dynasty : dynasties) {
-            if (dynasty.getName().equalsIgnoreCase(name)) {
-                return dynasty;
+    public Place searchByName(String name) {
+        for (Place place : places) {
+            if (place.getName().equalsIgnoreCase(name)) {
+                return place;
             }
         }
         return null;
     }
-    private List<String> getHyperlinkTexts(List<Dynasty> dynasties) {
+    private List<String> getHyperlinkTexts(List<Place> places) {
         List<String> texts = new ArrayList<>();
-        for (Dynasty dynasty : dynasties) {
-            JSONObject info = dynasty.getInfo();
+        for (Place place : places) {
+            JSONObject info = place.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
                     JSONObject value = info.getJSONObject(key);
@@ -70,24 +70,24 @@ public class DynastyExecData {
         }
         return texts;
     }
-    public JSONObject getInfoBoxByName(List<Dynasty> dynasties, String name) {
+    public JSONObject getInfoBoxByName(List<Place> places, String name) {
         JSONObject info = null;
-        for (Dynasty dynasty : dynasties) {
-            if (dynasty.getName().equalsIgnoreCase(name)) {
-                info = dynasty.getInfo();
+        for (Place place : places) {
+            if (place.getName().equalsIgnoreCase(name)) {
+                info = place.getInfo();
                 return info;
             }
         }
         return info;
     }
 
-    public List<JSONObject> getConnectionBoxByName(List<Dynasty> dynasties, String name) {
+    public List<JSONObject> getConnectionBoxByName(List<Place> places, String name) {
         List<JSONObject> connections = new ArrayList<>();
         StringBuilder result = new StringBuilder();
-        for (Dynasty dynasty : dynasties) {
-            if (dynasty.getName().equalsIgnoreCase(name)) {
+        for (Place place : places) {
+            if (place.getName().equalsIgnoreCase(name)) {
                 result.append("Connections:\n");
-                connections = dynasty.getConnection();
+                connections = place.getConnection();
             }
         }
         return connections;
@@ -95,9 +95,9 @@ public class DynastyExecData {
 
     public List<String> getHyperTextLinksBy(int index) {
         List<String> hyperTextLinks = new ArrayList<>();
-        if (index >= 0 && index < dynasties.size()) {
-            Dynasty dynasty = dynasties.get(index);
-            JSONObject info = dynasty.getInfo();
+        if (index >= 0 && index < places.size()) {
+            Place place = places.get(index);
+            JSONObject info = place.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
                     JSONObject value = info.getJSONObject(key);
@@ -112,8 +112,8 @@ public class DynastyExecData {
     }
 
     public int indexByName(String name){
-        for(int i = 0; i < dynasties.size(); i++){
-            if(dynasties.get(i).getName().equalsIgnoreCase(name)){
+        for(int i = 0; i < places.size(); i++){
+            if(places.get(i).getName().equalsIgnoreCase(name)){
                 return i;
             }
         }
@@ -142,23 +142,23 @@ public class DynastyExecData {
 
         return result.toString();
     }
-    //    Read the final.json to scan dynasty
-    public static List<Dynasty> loadDynastys(String filePath) throws IOException {
+    //    Read the final.json to scan place
+    public static List<Place> loadPlaces(String filePath) throws IOException {
         String json = new String(Files.readAllBytes(Paths.get(filePath)));
         JSONObject jsonData = new JSONObject(json);
-        JSONArray jsonArray = jsonData.getJSONArray("Dynasty");
+        JSONArray jsonArray = jsonData.getJSONArray("Place");
 
-        List<Dynasty> dynasties = new ArrayList<>();
+        List<Place> places = new ArrayList<>();
 
         for (int i = 0; i < jsonArray.length(); i++) {
-            JSONObject jsonDynasty = jsonArray.getJSONObject(i);
+            JSONObject jsonPlace = jsonArray.getJSONObject(i);
 
-            String id = jsonDynasty.getString("id");
-            String name = jsonDynasty.getString("name");
-            String description = jsonDynasty.getString("description");
-            String url = jsonDynasty.getString("url");
-            JSONObject info = jsonDynasty.getJSONObject("info");
-            JSONArray jsonConnections = jsonDynasty.getJSONArray("connection");
+            String id = jsonPlace.getString("id");
+            String name = jsonPlace.getString("name");
+            String description = jsonPlace.getString("description");
+            String url = jsonPlace.getString("url");
+            JSONObject info = jsonPlace.getJSONObject("info");
+            JSONArray jsonConnections = jsonPlace.getJSONArray("connection");
 
             List<JSONObject> connections = new ArrayList<>();
             for (int j = 0; j < jsonConnections.length(); j++) {
@@ -166,18 +166,18 @@ public class DynastyExecData {
                 connections.add(jsonConnection);
             }
 
-            Dynasty dynasty = new Dynasty(name, description, url, info, connections);
-            dynasties.add(dynasty);
+            Place place = new Place(name, description, url, info, connections);
+            places.add(place);
         }
-        return dynasties;
+        return places;
     }
 
     public String listDataByName(String name) {
         StringBuilder result = new StringBuilder();
-        Dynasty dynasty = searchByName(name);
-        result.append("Name: ").append(dynasty.getName()).append("\n");
-        result.append("Description: ").append(dynasty.getDescription()).append("\n");
-        result.append("URL: ").append(dynasty.getUrl()).append("\n");
+        Place place = searchByName(name);
+        result.append("Name: ").append(place.getName()).append("\n");
+        result.append("Description: ").append(place.getDescription()).append("\n");
+        result.append("URL: ").append(place.getUrl()).append("\n");
 
         return result.toString();
     }

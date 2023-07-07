@@ -13,7 +13,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         String sceneName = "fxml/eventPane.fxml";
-        Parent root = FXMLLoader.load(getClass().getResource("characterPane.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("fxml/characterPane.fxml"));
         Scene sc = new Scene(root);
 //        stage.initStyle(StageStyle.UNDECORATED);
 

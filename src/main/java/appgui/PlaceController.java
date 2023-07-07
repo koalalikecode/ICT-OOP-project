@@ -4,10 +4,10 @@
  */
 
 
-package appgui.Controller;
+package appgui;
 
-import appgui.ExecuteData.CharacterExecData;
-import historyobject.Character;
+import apprunner.ExecuteData.PlaceExecData;
+import historyobject.Place;
 
 import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
@@ -39,10 +39,10 @@ import java.util.List;
 import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
-public class CharacterController implements Initializable {
+public class PlaceController implements Initializable {
     private final String dataJson = "data/final.json";
-    private JSONObject characterInfoBox;
-    private List<JSONObject> characterConnectionBox;
+    private JSONObject placeInfoBox;
+    private List<JSONObject> placeConnectionBox;
 
     //    Menu Buttons
     @FXML
@@ -66,9 +66,9 @@ public class CharacterController implements Initializable {
 
 
 
-    //    Search Character
+    //    Search Place
     @FXML
-    private TextField searchCharacter;
+    private TextField searchPlace;
 
     @FXML
     private ScrollPane infoScrollPane;
@@ -77,40 +77,40 @@ public class CharacterController implements Initializable {
     @FXML
     private AnchorPane infoAnchorPane;
 
-    //    TableView for Character in All Character Tab
+    //    TableView for Place in All Place Tab
     @FXML
-    private TableView<Character> tbvCharacters;
+    private TableView<Place> tbvPlaces;
     @FXML
-    private TableColumn<Character, String> tbcName;
-    private ObservableList<Character> dataCharacter = FXCollections.observableArrayList();
-    private List<Character> characterList;
+    private TableColumn<Place, String> tbcName;
+    private ObservableList<Place> dataPlace = FXCollections.observableArrayList();
+    private List<Place> placeList;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
 
-            characterList = CharacterExecData.loadCharacters(dataJson);
-            CharacterExecData execDataCharacter = new CharacterExecData(characterList);
-            tbcName.setCellValueFactory(new PropertyValueFactory<Character, String>("name"));
-            dataCharacter = FXCollections.observableArrayList(characterList);
-            tbvCharacters.setItems(dataCharacter);
+            placeList = PlaceExecData.loadPlaces(dataJson);
+            PlaceExecData execDataPlace = new PlaceExecData(placeList);
+            tbcName.setCellValueFactory(new PropertyValueFactory<Place, String>("name"));
+            dataPlace = FXCollections.observableArrayList(placeList);
+            tbvPlaces.setItems(dataPlace);
 
-            searchCharacter.setOnKeyReleased(event -> searchCharacter());
+            searchPlace.setOnKeyReleased(event -> searchPlace());
 
-            LinkController.selectedCharacter = execDataCharacter.searchByName(LinkController.selectedCharacterName);
+            LinkController.selectedPlace = execDataPlace.searchByName(LinkController.selectedPlaceName);
 
 //            Initialize selected object every Controller
-            if (LinkController.selectedCharacterName == null){
-                LinkController.selectedCharacter = characterList.get(0);
-                displaySelectionInfo(LinkController.selectedCharacter, execDataCharacter);
-                selectCellByValue(LinkController.selectedCharacter.getName());
-            } else if (LinkController.selectedCharacterName != null) {
-                displaySelectionInfo(LinkController.selectedCharacter, execDataCharacter);
-                selectCellByValue(LinkController.selectedCharacter.getName());
+            if (LinkController.selectedPlaceName == null){
+                LinkController.selectedPlace = placeList.get(0);
+                displaySelectionInfo(LinkController.selectedPlace, execDataPlace);
+                selectCellByValue(LinkController.selectedPlace.getName());
+            } else if (LinkController.selectedPlaceName != null) {
+                displaySelectionInfo(LinkController.selectedPlace, execDataPlace);
+                selectCellByValue(LinkController.selectedPlace.getName());
             }
 
-            tbvCharacters.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
-                updateSelectionInfo(newSelection, execDataCharacter);
+            tbvPlaces.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
+                updateSelectionInfo(newSelection, execDataPlace);
             });
 
         } catch (IOException e) {
@@ -119,48 +119,48 @@ public class CharacterController implements Initializable {
 
     }
 
-    private void updateSelectionInfo(Character characterSelection, CharacterExecData execDataCharacter) {
-        if (characterSelection != null) {
-            displaySelectionInfo(characterSelection, execDataCharacter);
+    private void updateSelectionInfo(Place placeSelection, PlaceExecData execDataPlace) {
+        if (placeSelection != null) {
+            displaySelectionInfo(placeSelection, execDataPlace);
         }
     }
-    private void displaySelectionInfo(Character characterSelection, CharacterExecData execDataCharacter) {
-        labelName.setText("" + characterSelection.getName());
+    private void displaySelectionInfo(Place placeSelection, PlaceExecData execDataPlace) {
+        labelName.setText("" + placeSelection.getName());
         infoAnchorPane.getChildren().clear();
 
         TextFlow textFlow = new TextFlow();
-        String characterDescription = characterSelection.getDescription();
+        String placeDescription = placeSelection.getDescription();
 
         textFlow.setPrefWidth(infoAnchorPane.getPrefWidth());
         textFlow.setMaxWidth(infoAnchorPane.getPrefWidth());
-        Text text = new Text(characterDescription);
+        Text text = new Text(placeDescription);
         textFlow.getChildren().add(text);
         textFlow.getChildren().add(new Text("\n"));
 
-        Text infoStart = new Text("\nThông tin chi tiết của " + characterSelection.getName() + ":");
+        Text infoStart = new Text("\nThông tin chi tiết của " + placeSelection.getName() + ":");
         infoStart.setFont(new Font(16));
         textFlow.getChildren().add(infoStart);
         infoAnchorPane.getChildren().add(textFlow);
 
-        characterInfoBox = execDataCharacter.getInfoBoxByName(characterList, characterSelection.getName());
-        characterConnectionBox = execDataCharacter.getConnectionBoxByName(characterList, characterSelection.getName());
+        placeInfoBox = execDataPlace.getInfoBoxByName(placeList, placeSelection.getName());
+        placeConnectionBox = execDataPlace.getConnectionBoxByName(placeList, placeSelection.getName());
 
         VBox contentContainer = new VBox(10);
         contentContainer.setPadding(new Insets(10));
         contentContainer.getChildren().add(textFlow);
 
 
-        for (String key : characterInfoBox.keySet()) {
+        for (String key : placeInfoBox.keySet()) {
             HBox infoItem = new HBox();
             infoItem.setPrefHeight(0);
             infoItem.setPrefHeight(0);
             infoItem.setAlignment(Pos.CENTER_LEFT);
-            JSONObject value = characterInfoBox.getJSONObject(key);
+            JSONObject value = placeInfoBox.getJSONObject(key);
 
             Label infoKey = new Label(key + ": ");
             infoItem.getChildren().add(infoKey);
             if (value.has("name") && value.has("url")) {
-                String fieldName = execDataCharacter.dataSearchField(value.getString("name"));
+                String fieldName = execDataPlace.dataSearchField(value.getString("name"));
                 String sceneName = sceneFromField(fieldName);
                 Hyperlink link = new Hyperlink(value.getString("name"));
                 link.setWrapText(true);
@@ -190,10 +190,10 @@ public class CharacterController implements Initializable {
         connectionStart.setFont(new Font(16));
         contentContainer.getChildren().add(connectionStart);
 
-//      Add the connections of the Character
-        if (characterConnectionBox != null) {
-            if (!characterConnectionBox.isEmpty()) {
-                for (JSONObject connection : characterConnectionBox) {
+//      Add the connections of the Place
+        if (placeConnectionBox != null) {
+            if (!placeConnectionBox.isEmpty()) {
+                for (JSONObject connection : placeConnectionBox) {
                     HBox infoItem = new HBox();
                     infoItem.setPrefHeight(0);
                     infoItem.setAlignment(Pos.CENTER_LEFT);
@@ -204,7 +204,7 @@ public class CharacterController implements Initializable {
                     infoItem.getChildren().add(infoKey);
                     if (connectionName != null && connectionUrl != null) {
                         Hyperlink link = new Hyperlink(connectionName);
-                        String fieldName = execDataCharacter.dataSearchField(connectionName);
+                        String fieldName = execDataPlace.dataSearchField(connectionName);
                         String sceneName = sceneFromField(fieldName);
                         link.setOnAction(event -> {
                             try {
@@ -234,28 +234,28 @@ public class CharacterController implements Initializable {
     private String sceneFromField(String name){
         String sceneName;
         if (name.equals("Character")){
-            sceneName = "characterPane.fxml";
+            sceneName = "fxml/characterPane.fxml";
         } else if (name.equals("Dynasty")){
-            sceneName = "dynastyPane.fxml";
+            sceneName = "fxml/dynastyPane.fxml";
         } else if (name.equals("Event")){
-            sceneName = "eventPane.fxml";
+            sceneName = "fxml/eventPane.fxml";
         } else if (name.equals("Festival")){
-            sceneName = "festivalPane.fxml";
+            sceneName = "fxml/festivalPane.fxml";
         } else if (name.equals("Place")){
-            sceneName = "placePane.fxml";
+            sceneName = "fxml/placePane.fxml";
         } else {
-            sceneName = "characterPane.fxml";
+            sceneName = "fxml/placePane.fxml";
         }
         return sceneName;
     }
 
     //    Make tableview show selected row by hyperlink
     public void selectCellByValue(String targetValue) {
-        for (int row = 0; row < tbvCharacters.getItems().size(); row++) {
+        for (int row = 0; row < tbvPlaces.getItems().size(); row++) {
             String cellValue = tbcName.getCellData(row);
             if (cellValue.equals(targetValue)) {
-                tbvCharacters.getSelectionModel().select(row, tbcName);
-                tbvCharacters.scrollTo(row);
+                tbvPlaces.getSelectionModel().select(row, tbcName);
+                tbvPlaces.scrollTo(row);
                 break;
             }
         }
@@ -263,26 +263,26 @@ public class CharacterController implements Initializable {
 
     @FXML
     private void addSceneSwitchingHandler(ActionEvent event) {
-        Stage stage = (Stage) btnCharacter.getScene().getWindow();
+        Stage stage = (Stage) btnPlace.getScene().getWindow();
         try {
             if (event.getSource() == btnEvent) {
-                Parent newPane = FXMLLoader.load(getClass().getResource("eventPane.fxml"));
+                Parent newPane = FXMLLoader.load(getClass().getResource("fxml/eventPane.fxml"));
                 Scene newScene = new Scene(newPane);
                 stage.setScene(newScene);
             } else if (event.getSource() == btnCharacter) {
-                Parent newPane2 = FXMLLoader.load(getClass().getResource("characterPane.fxml"));
+                Parent newPane2 = FXMLLoader.load(getClass().getResource("fxml/characterPane.fxml"));
                 Scene newScene2 = new Scene(newPane2);
                 stage.setScene(newScene2);
             } else if (event.getSource() == btnDynasty) {
-                Parent newPane3 = FXMLLoader.load(getClass().getResource("dynastyPane.fxml"));
+                Parent newPane3 = FXMLLoader.load(getClass().getResource("fxml/dynastyPane.fxml"));
                 Scene newScene3 = new Scene(newPane3);
                 stage.setScene(newScene3);
             } else if (event.getSource() == btnFestival) {
-                Parent newPane4 = FXMLLoader.load(getClass().getResource("festivalPane.fxml"));
+                Parent newPane4 = FXMLLoader.load(getClass().getResource("fxml/festivalPane.fxml"));
                 Scene newScene4 = new Scene(newPane4);
                 stage.setScene(newScene4);
             } else if (event.getSource() == btnPlace) {
-                Parent newPane5 = FXMLLoader.load(getClass().getResource("placePane.fxml"));
+                Parent newPane5 = FXMLLoader.load(getClass().getResource("fxml/placePane.fxml"));
                 Scene newScene5 = new Scene(newPane5);
                 stage.setScene(newScene5);
             }
@@ -291,15 +291,15 @@ public class CharacterController implements Initializable {
         }
     }
 
-    private void searchCharacter() {
-        String searchQuery = searchCharacter.getText().trim().toLowerCase();
+    private void searchPlace() {
+        String searchQuery = searchPlace.getText().trim().toLowerCase();
         if (searchQuery.isEmpty()) {
-            tbvCharacters.setItems(dataCharacter);
+            tbvPlaces.setItems(dataPlace);
         } else {
-            List<Character> searchResults = characterList.stream()
-                    .filter(character -> character.getName().toLowerCase().contains(searchQuery))
+            List<Place> searchResults = placeList.stream()
+                    .filter(place -> place.getName().toLowerCase().contains(searchQuery))
                     .collect(Collectors.toList());
-            tbvCharacters.setItems(FXCollections.observableArrayList(searchResults));
+            tbvPlaces.setItems(FXCollections.observableArrayList(searchResults));
         }
     }
 

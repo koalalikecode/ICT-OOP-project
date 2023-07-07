@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="837.0" style="-fx-background-color: #F5EDE4;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.Controller.EventController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="837.0" style="-fx-background-color: #F5EDE4;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.EventController">
    <left>
       <AnchorPane prefHeight="471.0" prefWidth="167.0" BorderPane.alignment="CENTER">
          <children>
@@ -28,7 +28,7 @@
                   <Font size="16.0" />
                </font>
             </Label>
-            <VBox layoutX="14.0" layoutY="123.0" prefHeight="298.0" prefWidth="136.0" stylesheets="@css/styles.css">
+            <VBox layoutX="14.0" layoutY="123.0" prefHeight="298.0" prefWidth="136.0" stylesheets="@../css/styles.css">
                <children>
                   <Button fx:id="btnDynasty" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="70.0" prefWidth="136.0" text="DYNASTY">
                      <font>
@@ -63,12 +63,12 @@
    <right>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <TableView fx:id="tbvEvents" layoutY="77.0" prefHeight="417.0" prefWidth="201.0" style="-fx-background-color: transparent;" stylesheets="@css/styles.css">
+            <TableView fx:id="tbvEvents" layoutY="77.0" prefHeight="417.0" prefWidth="201.0" style="-fx-background-color: transparent;" stylesheets="@../css/styles.css">
                <columns>
                   <TableColumn fx:id="tbcName" minWidth="0.0" prefWidth="199.0" text="Name" />
                </columns>
             </TableView>
-            <TextField fx:id="searchEvent" layoutX="1.0" layoutY="35.0" prefHeight="26.0" prefWidth="200.0" promptText="Search" styleClass="search" stylesheets="@css/styles.css">
+            <TextField fx:id="searchEvent" layoutX="1.0" layoutY="35.0" prefHeight="26.0" prefWidth="200.0" promptText="Search" styleClass="search" stylesheets="@../css/styles.css">
                <padding>
                   <Insets left="25.0" />
                </padding>
@@ -78,7 +78,7 @@
             </TextField>
             <ImageView fitHeight="17.0" fitWidth="19.0" layoutX="5.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@icons/search.png" />
+                  <Image url="@../icons/search.png" />
                </image>
             </ImageView>
          </children>

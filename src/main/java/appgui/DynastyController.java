@@ -4,10 +4,10 @@
  */
 
 
-package appgui.Controller;
+package appgui;
 
-import appgui.ExecuteData.PlaceExecData;
-import historyobject.Place;
+import apprunner.ExecuteData.DynastyExecData;
+import historyobject.Dynasty;
 
 import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
@@ -39,10 +39,10 @@ import java.util.List;
 import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
-public class PlaceController implements Initializable {
+public class DynastyController implements Initializable {
     private final String dataJson = "data/final.json";
-    private JSONObject placeInfoBox;
-    private List<JSONObject> placeConnectionBox;
+    private JSONObject dynastyInfoBox;
+    private List<JSONObject> dynastyConnectionBox;
 
     //    Menu Buttons
     @FXML
@@ -66,9 +66,9 @@ public class PlaceController implements Initializable {
 
 
 
-    //    Search Place
+    //    Search Dynasty
     @FXML
-    private TextField searchPlace;
+    private TextField searchDynasty;
 
     @FXML
     private ScrollPane infoScrollPane;
@@ -77,40 +77,40 @@ public class PlaceController implements Initializable {
     @FXML
     private AnchorPane infoAnchorPane;
 
-    //    TableView for Place in All Place Tab
+    //    TableView for Dynasty in All Dynasty Tab
     @FXML
-    private TableView<Place> tbvPlaces;
+    private TableView<Dynasty> tbvDynastys;
     @FXML
-    private TableColumn<Place, String> tbcName;
-    private ObservableList<Place> dataPlace = FXCollections.observableArrayList();
-    private List<Place> placeList;
+    private TableColumn<Dynasty, String> tbcName;
+    private ObservableList<Dynasty> dataDynasty = FXCollections.observableArrayList();
+    private List<Dynasty> dynastyList;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
 
-            placeList = PlaceExecData.loadPlaces(dataJson);
-            PlaceExecData execDataPlace = new PlaceExecData(placeList);
-            tbcName.setCellValueFactory(new PropertyValueFactory<Place, String>("name"));
-            dataPlace = FXCollections.observableArrayList(placeList);
-            tbvPlaces.setItems(dataPlace);
+            dynastyList = DynastyExecData.loadDynastys(dataJson);
+            DynastyExecData execDataDynasty = new DynastyExecData(dynastyList);
+            tbcName.setCellValueFactory(new PropertyValueFactory<Dynasty, String>("name"));
+            dataDynasty = FXCollections.observableArrayList(dynastyList);
+            tbvDynastys.setItems(dataDynasty);
 
-            searchPlace.setOnKeyReleased(event -> searchPlace());
+            searchDynasty.setOnKeyReleased(event -> searchDynasty());
 
-            LinkController.selectedPlace = execDataPlace.searchByName(LinkController.selectedPlaceName);
+            LinkController.selectedDynasty = execDataDynasty.searchByName(LinkController.selectedDynastyName);
 
 //            Initialize selected object every Controller
-            if (LinkController.selectedPlaceName == null){
-                LinkController.selectedPlace = placeList.get(0);
-                displaySelectionInfo(LinkController.selectedPlace, execDataPlace);
-                selectCellByValue(LinkController.selectedPlace.getName());
-            } else if (LinkController.selectedPlaceName != null) {
-                displaySelectionInfo(LinkController.selectedPlace, execDataPlace);
-                selectCellByValue(LinkController.selectedPlace.getName());
+            if (LinkController.selectedDynastyName == null){
+                LinkController.selectedDynasty = dynastyList.get(0);
+                displaySelectionInfo(LinkController.selectedDynasty, execDataDynasty);
+                selectCellByValue(LinkController.selectedDynasty.getName());
+            } else if (LinkController.selectedDynastyName != null) {
+                displaySelectionInfo(LinkController.selectedDynasty, execDataDynasty);
+                selectCellByValue(LinkController.selectedDynasty.getName());
             }
 
-            tbvPlaces.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
-                updateSelectionInfo(newSelection, execDataPlace);
+            tbvDynastys.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
+                updateSelectionInfo(newSelection, execDataDynasty);
             });
 
         } catch (IOException e) {
@@ -119,48 +119,48 @@ public class PlaceController implements Initializable {
 
     }
 
-    private void updateSelectionInfo(Place placeSelection, PlaceExecData execDataPlace) {
-        if (placeSelection != null) {
-            displaySelectionInfo(placeSelection, execDataPlace);
+    private void updateSelectionInfo(Dynasty dynastySelection, DynastyExecData execDataDynasty) {
+        if (dynastySelection != null) {
+            displaySelectionInfo(dynastySelection, execDataDynasty);
         }
     }
-    private void displaySelectionInfo(Place placeSelection, PlaceExecData execDataPlace) {
-        labelName.setText("" + placeSelection.getName());
+    private void displaySelectionInfo(Dynasty dynastySelection, DynastyExecData execDataDynasty) {
+        labelName.setText("" + dynastySelection.getName());
         infoAnchorPane.getChildren().clear();
 
         TextFlow textFlow = new TextFlow();
-        String placeDescription = placeSelection.getDescription();
+        String dynastyDescription = dynastySelection.getDescription();
 
         textFlow.setPrefWidth(infoAnchorPane.getPrefWidth());
         textFlow.setMaxWidth(infoAnchorPane.getPrefWidth());
-        Text text = new Text(placeDescription);
+        Text text = new Text(dynastyDescription);
         textFlow.getChildren().add(text);
         textFlow.getChildren().add(new Text("\n"));
 
-        Text infoStart = new Text("\nThông tin chi tiết của " + placeSelection.getName() + ":");
+        Text infoStart = new Text("\nThông tin chi tiết của " + dynastySelection.getName() + ":");
         infoStart.setFont(new Font(16));
         textFlow.getChildren().add(infoStart);
         infoAnchorPane.getChildren().add(textFlow);
 
-        placeInfoBox = execDataPlace.getInfoBoxByName(placeList, placeSelection.getName());
-        placeConnectionBox = execDataPlace.getConnectionBoxByName(placeList, placeSelection.getName());
+        dynastyInfoBox = execDataDynasty.getInfoBoxByName(dynastyList, dynastySelection.getName());
+        dynastyConnectionBox = execDataDynasty.getConnectionBoxByName(dynastyList, dynastySelection.getName());
 
         VBox contentContainer = new VBox(10);
         contentContainer.setPadding(new Insets(10));
         contentContainer.getChildren().add(textFlow);
 
 
-        for (String key : placeInfoBox.keySet()) {
+        for (String key : dynastyInfoBox.keySet()) {
             HBox infoItem = new HBox();
             infoItem.setPrefHeight(0);
             infoItem.setPrefHeight(0);
             infoItem.setAlignment(Pos.CENTER_LEFT);
-            JSONObject value = placeInfoBox.getJSONObject(key);
+            JSONObject value = dynastyInfoBox.getJSONObject("Lịch sử");
 
             Label infoKey = new Label(key + ": ");
             infoItem.getChildren().add(infoKey);
             if (value.has("name") && value.has("url")) {
-                String fieldName = execDataPlace.dataSearchField(value.getString("name"));
+                String fieldName = execDataDynasty.dataSearchField(value.getString("name"));
                 String sceneName = sceneFromField(fieldName);
                 Hyperlink link = new Hyperlink(value.getString("name"));
                 link.setWrapText(true);
@@ -190,10 +190,10 @@ public class PlaceController implements Initializable {
         connectionStart.setFont(new Font(16));
         contentContainer.getChildren().add(connectionStart);
 
-//      Add the connections of the Place
-        if (placeConnectionBox != null) {
-            if (!placeConnectionBox.isEmpty()) {
-                for (JSONObject connection : placeConnectionBox) {
+//      Add the connections of the Dynasty
+        if (dynastyConnectionBox != null) {
+            if (!dynastyConnectionBox.isEmpty()) {
+                for (JSONObject connection : dynastyConnectionBox) {
                     HBox infoItem = new HBox();
                     infoItem.setPrefHeight(0);
                     infoItem.setAlignment(Pos.CENTER_LEFT);
@@ -204,7 +204,7 @@ public class PlaceController implements Initializable {
                     infoItem.getChildren().add(infoKey);
                     if (connectionName != null && connectionUrl != null) {
                         Hyperlink link = new Hyperlink(connectionName);
-                        String fieldName = execDataPlace.dataSearchField(connectionName);
+                        String fieldName = execDataDynasty.dataSearchField(connectionName);
                         String sceneName = sceneFromField(fieldName);
                         link.setOnAction(event -> {
                             try {
@@ -234,28 +234,28 @@ public class PlaceController implements Initializable {
     private String sceneFromField(String name){
         String sceneName;
         if (name.equals("Character")){
-            sceneName = "characterPane.fxml";
+            sceneName = "fxml/characterPane.fxml";
         } else if (name.equals("Dynasty")){
-            sceneName = "dynastyPane.fxml";
+            sceneName = "fxml/dynastyPane.fxml";
         } else if (name.equals("Event")){
-            sceneName = "eventPane.fxml";
+            sceneName = "fxml/eventPane.fxml";
         } else if (name.equals("Festival")){
-            sceneName = "festivalPane.fxml";
+            sceneName = "fxml/festivalPane.fxml";
         } else if (name.equals("Place")){
-            sceneName = "placePane.fxml";
+            sceneName = "fxml/placePane.fxml";
         } else {
-            sceneName = "placePane.fxml";
+            sceneName = "fxml/dynastyPane.fxml";
         }
         return sceneName;
     }
 
     //    Make tableview show selected row by hyperlink
     public void selectCellByValue(String targetValue) {
-        for (int row = 0; row < tbvPlaces.getItems().size(); row++) {
+        for (int row = 0; row < tbvDynastys.getItems().size(); row++) {
             String cellValue = tbcName.getCellData(row);
             if (cellValue.equals(targetValue)) {
-                tbvPlaces.getSelectionModel().select(row, tbcName);
-                tbvPlaces.scrollTo(row);
+                tbvDynastys.getSelectionModel().select(row, tbcName);
+                tbvDynastys.scrollTo(row);
                 break;
             }
         }
@@ -263,26 +263,26 @@ public class PlaceController implements Initializable {
 
     @FXML
     private void addSceneSwitchingHandler(ActionEvent event) {
-        Stage stage = (Stage) btnPlace.getScene().getWindow();
+        Stage stage = (Stage) btnDynasty.getScene().getWindow();
         try {
             if (event.getSource() == btnEvent) {
-                Parent newPane = FXMLLoader.load(getClass().getResource("eventPane.fxml"));
+                Parent newPane = FXMLLoader.load(getClass().getResource("fxml/eventPane.fxml"));
                 Scene newScene = new Scene(newPane);
                 stage.setScene(newScene);
             } else if (event.getSource() == btnCharacter) {
-                Parent newPane2 = FXMLLoader.load(getClass().getResource("characterPane.fxml"));
+                Parent newPane2 = FXMLLoader.load(getClass().getResource("fxml/characterPane.fxml"));
                 Scene newScene2 = new Scene(newPane2);
                 stage.setScene(newScene2);
             } else if (event.getSource() == btnDynasty) {
-                Parent newPane3 = FXMLLoader.load(getClass().getResource("dynastyPane.fxml"));
+                Parent newPane3 = FXMLLoader.load(getClass().getResource("fxml/dynastyPane.fxml"));
                 Scene newScene3 = new Scene(newPane3);
                 stage.setScene(newScene3);
             } else if (event.getSource() == btnFestival) {
-                Parent newPane4 = FXMLLoader.load(getClass().getResource("festivalPane.fxml"));
+                Parent newPane4 = FXMLLoader.load(getClass().getResource("fxml/festivalPane.fxml"));
                 Scene newScene4 = new Scene(newPane4);
                 stage.setScene(newScene4);
             } else if (event.getSource() == btnPlace) {
-                Parent newPane5 = FXMLLoader.load(getClass().getResource("placePane.fxml"));
+                Parent newPane5 = FXMLLoader.load(getClass().getResource("fxml/placePane.fxml"));
                 Scene newScene5 = new Scene(newPane5);
                 stage.setScene(newScene5);
             }
@@ -291,15 +291,15 @@ public class PlaceController implements Initializable {
         }
     }
 
-    private void searchPlace() {
-        String searchQuery = searchPlace.getText().trim().toLowerCase();
+    private void searchDynasty() {
+        String searchQuery = searchDynasty.getText().trim().toLowerCase();
         if (searchQuery.isEmpty()) {
-            tbvPlaces.setItems(dataPlace);
+            tbvDynastys.setItems(dataDynasty);
         } else {
-            List<Place> searchResults = placeList.stream()
-                    .filter(place -> place.getName().toLowerCase().contains(searchQuery))
+            List<Dynasty> searchResults = dynastyList.stream()
+                    .filter(dynasty -> dynasty.getName().toLowerCase().contains(searchQuery))
                     .collect(Collectors.toList());
-            tbvPlaces.setItems(FXCollections.observableArrayList(searchResults));
+            tbvDynastys.setItems(FXCollections.observableArrayList(searchResults));
         }
     }
 
