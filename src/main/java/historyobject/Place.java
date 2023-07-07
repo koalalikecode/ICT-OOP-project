@@ -50,4 +50,15 @@ public class Place {
     public void setConnection(List<JSONObject> connection) {
         this.connection = connection;
     }
+
+    public Place(){
+    }
+
+    public Place(String name, String description, String url, JSONObject info,  List<JSONObject> connection) {
+        this.name = name;
+        this.url = url;
+        this.info = info;
+        this.description = description;
+        this.connection = connection;
+    }
 }

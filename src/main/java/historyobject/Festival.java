@@ -5,14 +5,14 @@ import java.util.List;
 
 import org.json.JSONObject;
 
-public class FestivalWiki {
+public class Festival {
     private String name;
     private String url;
     private JSONObject info;
     private String description;
     private List<JSONObject> connection;
     private String connect;
-    public FestivalWiki() {
+    public Festival() {
         info = new JSONObject();
     }
 
@@ -57,4 +57,9 @@ public class FestivalWiki {
         return null;
     }
 
+    public Festival(String name, JSONObject info, String description) {
+        this.name = name;
+        this.info = info;
+        this.description = description;
+    }
 }

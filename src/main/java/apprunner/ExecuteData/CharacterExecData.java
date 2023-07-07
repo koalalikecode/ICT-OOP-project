@@ -1,4 +1,4 @@
-package appgui;
+package apprunner.ExecuteData;
 
 import historyobject.Character;
 
@@ -75,7 +75,7 @@ public class CharacterExecData {
         for (Character character : characters) {
             if (character.getName().equalsIgnoreCase(name)) {
                 info = character.getInfo();
-               return info;
+                return info;
             }
         }
         return info;
@@ -110,27 +110,6 @@ public class CharacterExecData {
         }
         return hyperTextLinks;
     }
-    public void printCharacters() {
-        for (int i = 0; i < characters.size(); i++) {
-            Character character = characters.get(i);
-            System.out.println("====================================================");
-            System.out.println("Character " + (i + 1));
-            System.out.println("Character Name: " + character.getName());
-
-            System.out.println("Info:");
-            JSONObject info = character.getInfo();
-            if (info != null) {
-                for (String key : info.keySet()) {
-                    JSONObject value = info.getJSONObject(key);
-                    if (value.has("name")) {
-                        System.out.println(key + ": " + value.getString("name"));
-                    }
-                }
-            }
-
-            System.out.println();
-        }
-    }
 
     public int indexByName(String name){
         for(int i = 0; i < characters.size(); i++){
@@ -154,7 +133,6 @@ public class CharacterExecData {
                     String objectName = jsonObject.getString("name");
                     if (objectName.equalsIgnoreCase(name)) {
                         result.append(jsonArrayName);
-                        return result.toString();
                     }
                 }
             }
@@ -164,7 +142,7 @@ public class CharacterExecData {
 
         return result.toString();
     }
-//    Read the final.json to scan character
+    //    Read the final.json to scan character
     public static List<Character> loadCharacters(String filePath) throws IOException {
         String json = new String(Files.readAllBytes(Paths.get(filePath)));
         JSONObject jsonData = new JSONObject(json);
@@ -194,15 +172,6 @@ public class CharacterExecData {
         return characters;
     }
 
-    public String listDataByName(String name) {
-        StringBuilder result = new StringBuilder();
-        Character character = searchByName(name);
-        result.append("Name: ").append(character.getName()).append("\n");
-        result.append("Description: ").append(character.getDescription()).append("\n");
-        result.append("URL: ").append(character.getUrl()).append("\n");
-
-        return result.toString();
-    }
 }
 
 

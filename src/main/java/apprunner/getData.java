@@ -1,7 +1,6 @@
-package appgui;
+package apprunner;
 
 import historyobject.Character;
-import historyobject.CharacterTest;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -10,7 +9,6 @@ import javafx.collections.ObservableList;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 import java.util.Set;
 
 import java.nio.file.Files;
@@ -19,7 +17,7 @@ import java.nio.file.Paths;
 import java.io.IOException;
 
 public class getData {
-    public getData(List<CharacterTest> characterList) {
+    public getData(List<Character> characterList) {
         this.characters = characterList;
         this.hyperlinkTexts = getHyperlinkTexts(characterList);
     }
@@ -31,14 +29,14 @@ public class getData {
         return data;
     }
     private static String dataJson = "data/final.json";
-    private List<CharacterTest> characters;
+    private List<Character> characters;
     private List<String> hyperlinkTexts;
 
-    public List<CharacterTest> getCharacters() {
+    public List<Character> getCharacters() {
         return characters;
     }
 
-    public void setCharacters(List<CharacterTest> characters) {
+    public void setCharacters(List<Character> characters) {
         this.characters = characters;
     }
 
@@ -46,7 +44,7 @@ public class getData {
         this.hyperlinkTexts = hyperlinkTexts;
     }
 
-    public ObservableList<CharacterTest> getObservableCharacterList(List<CharacterTest> characters) {
+    public ObservableList<Character> getObservableCharacterList(List<Character> characters) {
         return FXCollections.observableArrayList(characters);
     }
 
@@ -54,9 +52,9 @@ public class getData {
         return hyperlinkTexts;
     }
 
-    private List<String> getHyperlinkTexts(List<CharacterTest> characters) {
+    private List<String> getHyperlinkTexts(List<Character> characters) {
         List<String> texts = new ArrayList<>();
-        for (CharacterTest character : characters) {
+        for (Character character : characters) {
             JSONObject info = character.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
@@ -69,9 +67,9 @@ public class getData {
         }
         return texts;
     }
-    public List<String> getHyperTextLinksByName(List<CharacterTest> characters, String name) {
+    public List<String> getHyperTextLinksByName(List<Character> characters, String name) {
         List<String> hyperTextLinks = new ArrayList<>();
-        for (CharacterTest character : characters) {
+        for (Character character : characters) {
             if (character.getName().equalsIgnoreCase(name)) {
                 JSONObject info = character.getInfo();
                 if (info != null) {
@@ -90,7 +88,7 @@ public class getData {
     public List<String> getHyperTextLinksBy(int index) {
         List<String> hyperTextLinks = new ArrayList<>();
         if (index >= 0 && index < characters.size()) {
-            CharacterTest character = characters.get(index);
+            Character character = characters.get(index);
             JSONObject info = character.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
@@ -106,7 +104,7 @@ public class getData {
     }
     public void printCharacters() {
         for (int i = 0; i < characters.size(); i++) {
-            CharacterTest character = characters.get(i);
+            Character character = characters.get(i);
             System.out.println("====================================================");
             System.out.println("Character " + (i + 1));
             System.out.println("Character Name: " + character.getName());
@@ -126,12 +124,12 @@ public class getData {
         }
     }
     //    Read the final.json to scan character
-    public static List<CharacterTest> loadCharacters(String filePath) throws IOException {
+    public static List<Character> loadCharacters(String filePath) throws IOException {
         String json = new String(Files.readAllBytes(Paths.get(filePath)));
         JSONObject jsonData = new JSONObject(json);
         JSONArray jsonArray = jsonData.getJSONArray("Character");
 
-        List<CharacterTest> characters = new ArrayList<>();
+        List<Character> characters = new ArrayList<>();
 
         for (int i = 0; i < jsonArray.length(); i++) {
             JSONObject jsonCharacter = jsonArray.getJSONObject(i);
@@ -149,14 +147,14 @@ public class getData {
                 connections.add(jsonConnection);
             }
 
-            CharacterTest character = new CharacterTest(name, description, url, info, connections);
+            Character character = new Character(name, description, url, info, connections);
             characters.add(character);
         }
         return characters;
     }
 
     //    public void searchByName(String name) {
-//        for (CharacterTest character : characters) {
+//        for (Character character : characters) {
 //            if (character.getName().equalsIgnoreCase(name)) {
 //                System.out.println("Character Name: " + character.getName());
 //                System.out.println("Description: " + character.getDescription());
@@ -187,7 +185,7 @@ public class getData {
     public String searchByName(String name) {
         StringBuilder result = new StringBuilder();
 
-        for (CharacterTest character : characters) {
+        for (Character character : characters) {
             if (character.getName().equalsIgnoreCase(name)) {
                 result.append("Name: ").append(character.getName()).append("\n");
                 result.append("Description: ").append(character.getDescription()).append("\n");
@@ -213,7 +211,7 @@ public class getData {
     }
     public int searchByNameIndex(String name){
         for (int i = 0; i < characters.size(); i++) {
-            CharacterTest character = characters.get(i);
+            Character character = characters.get(i);
             if (character.getName().equalsIgnoreCase(name)) {
                 return i;
             }
@@ -291,10 +289,10 @@ public class getData {
         return result.toString();
     }
 
-    public List<JSONObject> getConnectionBoxByName(List<CharacterTest> characters, String name) {
+    public List<JSONObject> getConnectionBoxByName(List<Character> characters, String name) {
         List<JSONObject> connections = new ArrayList<>();
         StringBuilder result = new StringBuilder();
-        for (CharacterTest character : characters) {
+        for (Character character : characters) {
             if (character.getName().equalsIgnoreCase(name)) {
                 result.append("Connections:\n");
                 connections = character.getConnection();
@@ -305,12 +303,12 @@ public class getData {
 
     public static void main (String[] args){
         try {
-            List<CharacterTest> characterList = new ArrayList<>();
+            List<Character> characterList = new ArrayList<>();
             characterList = loadCharacters("data/final.json");
             getData class1 = new getData(characterList);
 
             if (!characterList.isEmpty()) {
-                CharacterTest firstCharacter = characterList.get(0);
+                Character firstCharacter = characterList.get(0);
                 List<JSONObject> connection = class1.getConnectionBoxByName(characterList, firstCharacter.getName());
                 if (!connection.isEmpty()) {
                     System.out.println("Connections of " + firstCharacter.getName() + ":");
