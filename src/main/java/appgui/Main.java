@@ -5,26 +5,19 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 import javafx.stage.Screen;
-import javafx.scene.control.Button;
-import javafx.event.ActionEvent;
 import javafx.geometry.Rectangle2D;
-
-import appgui.LinkController;
 
 public class Main extends Application {
     double x,y = 0;
     @Override
     public void start(Stage stage) throws Exception {
-
-//        LinkController.selectedCharacter = null;
-
+        String sceneName = "fxml/eventPane.fxml";
         Parent root = FXMLLoader.load(getClass().getResource("characterPane.fxml"));
         Scene sc = new Scene(root);
 //        stage.initStyle(StageStyle.UNDECORATED);
 
-        String css = this.getClass().getResource("style.css").toExternalForm();
+        String css = this.getClass().getResource("css/style.css").toExternalForm();
         sc.getStylesheets().add(css);
         root.setOnMousePressed(event -> {
             x = event.getSceneX();

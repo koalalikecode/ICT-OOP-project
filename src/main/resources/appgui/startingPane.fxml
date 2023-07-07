@@ -15,7 +15,7 @@
    <children>
       <BorderPane prefHeight="534.0" prefWidth="1125.0">
          <left>
-            <VBox prefHeight="484.0" prefWidth="147.0" style="-fx-background-color: #C70039;" stylesheets="@style.css" BorderPane.alignment="CENTER">
+            <VBox prefHeight="484.0" prefWidth="147.0" style="-fx-background-color: #C70039;" stylesheets="@css/style.css" BorderPane.alignment="CENTER">
                <children>
                   <Button alignment="BASELINE_RIGHT" graphicTextGap="25.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="147.0" text="Character" textAlignment="CENTER" textFill="WHITE">
                      <graphic>

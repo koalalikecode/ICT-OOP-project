@@ -1,6 +1,6 @@
 package crawler;
 
-import historyobject.PlaceNKS;
+import historyobject.Place;
 
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PlaceWikiInfoCrawler2 {
-    public static void wikiInfoCrawler(PlaceNKS placeWiki, int placeIndex){
+    public static void wikiInfoCrawler(Place placeWiki, int placeIndex){
 
         Document doc;
         try {

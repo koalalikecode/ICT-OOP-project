@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="444.0" prefWidth="888.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.CharacterController">
+<AnchorPane prefHeight="444.0" prefWidth="888.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.Controller.TestController">
    <children>
-      <TableView fx:id="tbvCharacters" layoutX="83.0" layoutY="71.0" prefHeight="242.0" prefWidth="375.0" stylesheets="@style.css">
+      <TableView fx:id="tbvCharacters" layoutX="83.0" layoutY="71.0" prefHeight="242.0" prefWidth="375.0" stylesheets="@css/style.css">
         <columns>
           <TableColumn fx:id="tbcName" prefWidth="162.39996337890625" text="Name" />
           <TableColumn minWidth="0.0" prefWidth="163.20001220703125" text="C2" />
         </columns>
       </TableView>
-      <ScrollPane fx:id="infoScrollPane" layoutX="488.0" layoutY="71.0" prefHeight="263.0" prefWidth="353.0" stylesheets="@style.css">
+      <ScrollPane fx:id="infoScrollPane" layoutX="488.0" layoutY="71.0" prefHeight="263.0" prefWidth="353.0" stylesheets="@css/style.css">
         <content>
           <AnchorPane fx:id="infoAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="309.0" prefWidth="364.0">
                <children>
@@ -23,5 +21,14 @@
             </AnchorPane>
         </content>
       </ScrollPane>
+      <Button fx:id="btvTest" layoutX="95.0" layoutY="334.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="77.0" prefWidth="140.0">
+         <graphic>
+            <ImageView fitHeight="80.0" fitWidth="139.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icons/buttontest.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
    </children>
 </AnchorPane>

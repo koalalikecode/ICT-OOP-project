@@ -50,4 +50,14 @@ public class Event {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public Event () {
+    }
+    public Event(String name,String description, String url, JSONObject info, List<JSONObject> connection) {
+        this.name = name;
+        this.url = url;
+        this.info = info;
+        this.description = description;
+        this.connection = connection;
+    }
 }

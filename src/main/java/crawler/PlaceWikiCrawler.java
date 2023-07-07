@@ -1,7 +1,6 @@
 package crawler;
 
-import historyobject.PlaceNKS;
-import crawler.PlaceWikiInfoCrawler;
+import historyobject.Place;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -25,7 +24,7 @@ public class PlaceWikiCrawler extends Crawler {
 
     @Override
     public void crawlData() {
-        List<PlaceNKS> placeList = new ArrayList<>();
+        List<Place> placeList = new ArrayList<>();
         int nameIndex = 0;
         Document doc;
         try {
@@ -42,7 +41,7 @@ public class PlaceWikiCrawler extends Crawler {
         Elements name = doc.select("table.wikitable > tbody > tr > td:eq(0) ");
 
         for (Element placeLink : placeLinks) {
-            PlaceNKS placeWiki = new PlaceNKS();
+            Place placeWiki = new Place();
             Document Doc;
             try {
                 // fetching the target website

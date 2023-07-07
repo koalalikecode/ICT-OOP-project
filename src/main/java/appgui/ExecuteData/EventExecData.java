@@ -1,6 +1,6 @@
-package appgui;
+package appgui.ExecuteData;
 
-import historyobject.Character;
+import historyobject.Event;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -16,17 +16,17 @@ import java.nio.file.Paths;
 import java.io.IOException;
 import java.util.Set;
 
-public class CharacterExecData {
+public class EventExecData {
     private String dataJson = "data/final.json";
-    private List<Character> characters;
+    private List<Event> events;
     private List<String> hyperlinkTexts;
 
-    public List<Character> getCharacters() {
-        return characters;
+    public List<Event> getEvents() {
+        return events;
     }
 
-    public void setCharacters(List<Character> characters) {
-        this.characters = characters;
+    public void setEvents(List<Event> events) {
+        this.events = events;
     }
 
     public void setHyperlinkTexts(List<String> hyperlinkTexts) {
@@ -34,31 +34,32 @@ public class CharacterExecData {
     }
 
 
-    public CharacterExecData(List<Character> characters) {
-        this.characters = characters;
-        this.hyperlinkTexts = getHyperlinkTexts(characters);
+    public EventExecData(List<Event> events) {
+        this.events = events;
+//        this.hyperlinkTexts = getHyperlinkTexts(events);
     }
 
-    public ObservableList<Character> getObservableCharacterList(List<Character> characters) {
-        return FXCollections.observableArrayList(characters);
+    public ObservableList<Event> getObservableEventList(List<Event> events) {
+        return FXCollections.observableArrayList(events);
     }
 
     public List<String> getHyperlinkTexts() {
         return hyperlinkTexts;
     }
 
-    public Character searchByName(String name) {
-        for (Character character : characters) {
-            if (character.getName().equalsIgnoreCase(name)) {
-                return character;
+    public Event searchByName(String name) {
+        for (Event event : events) {
+            if (event.getName().equalsIgnoreCase(name)) {
+                return event;
             }
         }
         return null;
     }
-    private List<String> getHyperlinkTexts(List<Character> characters) {
+
+    private List<String> getHyperlinkTexts(List<Event> events) {
         List<String> texts = new ArrayList<>();
-        for (Character character : characters) {
-            JSONObject info = character.getInfo();
+        for (Event event : events) {
+            JSONObject info = event.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
                     JSONObject value = info.getJSONObject(key);
@@ -70,24 +71,24 @@ public class CharacterExecData {
         }
         return texts;
     }
-    public JSONObject getInfoBoxByName(List<Character> characters, String name) {
+    public JSONObject getInfoBoxByName(List<Event> events, String name) {
         JSONObject info = null;
-        for (Character character : characters) {
-            if (character.getName().equalsIgnoreCase(name)) {
-                info = character.getInfo();
-               return info;
+        for (Event event : events) {
+            if (event.getName().equalsIgnoreCase(name)) {
+                info = event.getInfo();
+                return info;
             }
         }
         return info;
     }
 
-    public List<JSONObject> getConnectionBoxByName(List<Character> characters, String name) {
+    public List<JSONObject> getConnectionBoxByName(List<Event> events, String name) {
         List<JSONObject> connections = new ArrayList<>();
         StringBuilder result = new StringBuilder();
-        for (Character character : characters) {
-            if (character.getName().equalsIgnoreCase(name)) {
+        for (Event event : events) {
+            if (event.getName().equalsIgnoreCase(name)) {
                 result.append("Connections:\n");
-                connections = character.getConnection();
+                connections = event.getConnection();
             }
         }
         return connections;
@@ -95,9 +96,9 @@ public class CharacterExecData {
 
     public List<String> getHyperTextLinksBy(int index) {
         List<String> hyperTextLinks = new ArrayList<>();
-        if (index >= 0 && index < characters.size()) {
-            Character character = characters.get(index);
-            JSONObject info = character.getInfo();
+        if (index >= 0 && index < events.size()) {
+            Event event = events.get(index);
+            JSONObject info = event.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
                     JSONObject value = info.getJSONObject(key);
@@ -110,15 +111,15 @@ public class CharacterExecData {
         }
         return hyperTextLinks;
     }
-    public void printCharacters() {
-        for (int i = 0; i < characters.size(); i++) {
-            Character character = characters.get(i);
+    public void printEvents() {
+        for (int i = 0; i < events.size(); i++) {
+            Event event = events.get(i);
             System.out.println("====================================================");
-            System.out.println("Character " + (i + 1));
-            System.out.println("Character Name: " + character.getName());
+            System.out.println("Event " + (i + 1));
+            System.out.println("Event Name: " + event.getName());
 
             System.out.println("Info:");
-            JSONObject info = character.getInfo();
+            JSONObject info = event.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
                     JSONObject value = info.getJSONObject(key);
@@ -130,15 +131,6 @@ public class CharacterExecData {
 
             System.out.println();
         }
-    }
-
-    public int indexByName(String name){
-        for(int i = 0; i < characters.size(); i++){
-            if(characters.get(i).getName().equalsIgnoreCase(name)){
-                return i;
-            }
-        }
-        return -1;
     }
 
     public String dataSearchField(String name) {
@@ -163,23 +155,24 @@ public class CharacterExecData {
 
         return result.toString();
     }
-//    Read the final.json to scan character
-    public static List<Character> loadCharacters(String filePath) throws IOException {
+
+    //    Read the final.json to scan event
+    public static List<Event> loadEvents(String filePath) throws IOException {
         String json = new String(Files.readAllBytes(Paths.get(filePath)));
         JSONObject jsonData = new JSONObject(json);
-        JSONArray jsonArray = jsonData.getJSONArray("Character");
+        JSONArray jsonArray = jsonData.getJSONArray("Event");
 
-        List<Character> characters = new ArrayList<>();
+        List<Event> events = new ArrayList<>();
 
         for (int i = 0; i < jsonArray.length(); i++) {
-            JSONObject jsonCharacter = jsonArray.getJSONObject(i);
+            JSONObject jsonEvent = jsonArray.getJSONObject(i);
 
-            String id = jsonCharacter.getString("id");
-            String name = jsonCharacter.getString("name");
-            String description = jsonCharacter.getString("description");
-            String url = jsonCharacter.getString("url");
-            JSONObject info = jsonCharacter.getJSONObject("info");
-            JSONArray jsonConnections = jsonCharacter.getJSONArray("connection");
+            String id = jsonEvent.getString("id");
+            String name = jsonEvent.getString("name");
+            String description = jsonEvent.getString("description");
+            String url = jsonEvent.getString("url");
+            JSONObject info = jsonEvent.getJSONObject("info");
+            JSONArray jsonConnections = jsonEvent.getJSONArray("connection");
 
             List<JSONObject> connections = new ArrayList<>();
             for (int j = 0; j < jsonConnections.length(); j++) {
@@ -187,21 +180,20 @@ public class CharacterExecData {
                 connections.add(jsonConnection);
             }
 
-            Character character = new Character(name, description, url, info, connections);
-            characters.add(character);
+            Event event = new Event(name, description, url, info, connections);
+            events.add(event);
         }
-        return characters;
+        return events;
     }
 
     public String listDataByName(String name) {
         StringBuilder result = new StringBuilder();
-        Character character = searchByName(name);
-        result.append("Name: ").append(character.getName()).append("\n");
-        result.append("Description: ").append(character.getDescription()).append("\n");
-        result.append("URL: ").append(character.getUrl()).append("\n");
+        Event event = searchByName(name);
+        result.append("Name: ").append(event.getName()).append("\n");
+        result.append("Description: ").append(event.getDescription()).append("\n");
+        result.append("URL: ").append(event.getUrl()).append("\n");
 
         return result.toString();
     }
 }
-
 

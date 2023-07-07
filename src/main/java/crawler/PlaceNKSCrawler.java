@@ -1,6 +1,6 @@
 package crawler;
 
-import historyobject.PlaceNKS;
+import historyobject.Place;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
@@ -47,7 +47,7 @@ public class PlaceNKSCrawler extends Crawler {
 
         // Iterating over the list of HTML places
         for (Element placeLink : placeLinks) {
-            PlaceNKS placeItem = new PlaceNKS();
+            Place placeItem = new Place();
 
             Document doc2;
 
@@ -93,7 +93,7 @@ public class PlaceNKSCrawler extends Crawler {
     }
     @Override
     public void crawlData() throws InterruptedException {
-        List<PlaceNKS> crawlObjectList = Collections.synchronizedList(new ArrayList<>());
+        List<Place> crawlObjectList = Collections.synchronizedList(new ArrayList<>());
 
         Set<String> pagesDiscovered = Collections.synchronizedSet(new HashSet<>());
 

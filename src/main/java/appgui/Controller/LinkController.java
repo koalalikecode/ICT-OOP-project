@@ -1,13 +1,10 @@
-package appgui;
+package appgui.Controller;
 
 import historyobject.Character;
 import historyobject.Event;
 import historyobject.Dynasty;
-import historyobject.FestivalWiki;
-import historyobject.PlaceNKS;
-
-import appgui.CharacterExecData;
-import appgui.EventExecData;
+import historyobject.Festival;
+import historyobject.Place;
 
 public class LinkController {
     protected static Character selectedCharacter;
@@ -16,10 +13,10 @@ public class LinkController {
     protected static String selectedEventName;
     protected static Dynasty selectedDynasty;
     protected static String selectedDynastyName;
-    protected static FestivalWiki selectedFestivalWiki;
-    protected static String selectedFestivalWikiName;
-    protected static PlaceNKS selectedPlaceNKS;
-    protected static String selectedPlaceNKSName;
+    protected static Festival selectedFestival;
+    protected static String selectedFestivalName;
+    protected static Place selectedPlace;
+    protected static String selectedPlaceName;
 
     public static void setSelectedObject(String name, String fieldName){
         if (fieldName.equals("Character")){
@@ -29,9 +26,9 @@ public class LinkController {
         } else if (fieldName.equals("Dynasty")){
             selectedDynastyName = name;
         } else if (fieldName.equals("FestivalWiki")){
-            selectedFestivalWikiName = name;
+            selectedFestivalName = name;
         } else if (fieldName.equals("PlaceNKS")){
-            selectedPlaceNKSName = name;
+            selectedPlaceName = name;
         }
     }
 
