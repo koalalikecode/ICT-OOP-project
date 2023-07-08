@@ -20,30 +20,35 @@ public class Main extends Application {
 
 //        LinkController.selectedCharacter = null;
 
-        Parent root = FXMLLoader.load(getClass().getResource("characterPane.fxml"));
-        Scene sc = new Scene(root);
+//        Parent root = FXMLLoader.load(getClass().getResource("characterPane.fxml"));
+//        Scene sc = new Scene(root);
+////        stage.initStyle(StageStyle.UNDECORATED);
+//
+//        String css = this.getClass().getResource("styles.css").toExternalForm();
+//        sc.getStylesheets().add(css);
+//        root.setOnMousePressed(event -> {
+//            x = event.getSceneX();
+//            y = event.getSceneY();
+//        });
+//        root.setOnMouseDragged(event -> {
+//            stage.setX(event.getScreenX() - x);
+//            stage.setY(event.getScreenY() - y);
+//        });
+//
+//        stage.setScene(sc);
+//        for(Screen sn : Screen.getScreens()) {
+//            Rectangle2D bounds = sn.getBounds();
+//            double x = bounds.getMinX() + (bounds.getWidth() - sc.getWidth()) * 0.2;
+//            double y = bounds.getMinY() + (bounds.getHeight() - sc.getHeight()) * 0.2;
+//            stage.setX(x);
+//            stage.setY(y);
+//        }
+//
+//        stage.show();
+        Parent root = FXMLLoader.load(getClass().getResource("startPane.fxml"));
 //        stage.initStyle(StageStyle.UNDECORATED);
-
-        String css = this.getClass().getResource("styles.css").toExternalForm();
-        sc.getStylesheets().add(css);
-        root.setOnMousePressed(event -> {
-            x = event.getSceneX();
-            y = event.getSceneY();
-        });
-        root.setOnMouseDragged(event -> {
-            stage.setX(event.getScreenX() - x);
-            stage.setY(event.getScreenY() - y);
-        });
-
-        stage.setScene(sc);
-        for(Screen sn : Screen.getScreens()) {
-            Rectangle2D bounds = sn.getBounds();
-            double x = bounds.getMinX() + (bounds.getWidth() - sc.getWidth()) * 0.2;
-            double y = bounds.getMinY() + (bounds.getHeight() - sc.getHeight()) * 0.2;
-            stage.setX(x);
-            stage.setY(y);
-        }
-
+        Scene scene = new Scene(root, 1280, 720);
+        stage.setScene(scene);
         stage.show();
     }
     public static void main(String[] args) {

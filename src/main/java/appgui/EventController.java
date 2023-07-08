@@ -31,10 +31,40 @@ public class EventController extends Controller {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+//        try {
+//            objectList = ExecData.loadHistoryObject(dataJson,TypeHistoryObject.Event);
+//            execDataCharacter = new EventExecData(objectList);
+//            super.initialize(url, resourceBundle);
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
         try {
+
             objectList = ExecData.loadHistoryObject(dataJson,TypeHistoryObject.Event);
-            execDataCharacter = new EventExecData(objectList);
-            super.initialize(url, resourceBundle);
+            EventExecData execDataCharacter = new EventExecData(objectList);
+            tbcName.setCellValueFactory(new PropertyValueFactory<HistoryObject, String>("name"));
+            dataObs = FXCollections.observableArrayList(objectList);
+            tbv.setItems(dataObs);
+
+            search.setOnKeyReleased(event -> Search());
+
+            LinkController.selectedObject = execDataCharacter.searchByName(LinkController.selectedObjectName);
+
+//            Initialize selected object every Controller
+            if (LinkController.selectedObject == null){
+                LinkController.selectedObject = objectList.get(0);
+                displaySelectionInfo(LinkController.selectedObject, execDataCharacter);
+                selectCellByValue(LinkController.selectedObject.getName());
+                System.out.println(LinkController.selectedObject.getName());
+            } else if (LinkController.selectedObject != null) {
+                displaySelectionInfo(LinkController.selectedObject, execDataCharacter);
+                selectCellByValue(LinkController.selectedObject.getName());
+            }
+
+            tbv.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
+                updateSelectionInfo(newSelection, execDataCharacter);
+            });
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
