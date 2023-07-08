@@ -11,7 +11,7 @@ public class FestivalWiki {
     private JSONObject info;
     private String description;
     private List<JSONObject> connection;
-    private String connect;
+    private String imageUrl;
     public FestivalWiki() {
         info = new JSONObject();
     }
@@ -46,15 +46,16 @@ public class FestivalWiki {
     public void setConnection(List<JSONObject> connection) {
         this.connection = connection;
     }
-    public String getConnect() {
-        return connect;
-    }
-    public void setConnect(String connect) {
-        this.connect = connect;
-    }
     public Collection<?> toJSONObject() {
         // TODO Auto-generated method stub
         return null;
     }
 
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
 }
