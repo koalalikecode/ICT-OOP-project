@@ -61,7 +61,9 @@ public class WarWiki extends Crawler{
                             // Info of war
                             JSONObject warInfo = new JSONObject();
                             Elements tableInfo = doc2.select("div.mw-parser-output > table.infobox > tbody > tr");
-
+                            if(doc2.select("table.infobox>tbody>tr>td>span>a>img").size()>0) {
+                                eventItem.setImageUrl(doc2.selectFirst("table.infobox>tbody>tr>td>span>a>img").attr("src"));
+                            }
                             Elements summarytable = tableInfo.select("tr > td > table > tbody > tr");
                             if (summarytable.size() > 0){
                                 for (int j = 0; j < summarytable.size(); j++){

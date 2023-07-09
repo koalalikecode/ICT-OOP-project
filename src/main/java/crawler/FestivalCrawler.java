@@ -5,142 +5,148 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import java.io.FileWriter;
+
 import java.io.IOException;
 import java.net.URLDecoder;
-import java.net.UnknownHostException;
+import java.util.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
+
+import historyobject.Festival;
 
 
 public class FestivalCrawler extends Crawler {
 
     public FestivalCrawler() {
-        setOutput(new JSONArray());
             setWebLink("https://vi.wikipedia.org");
             setFolder("data/FestivalWiki.json");
-            setStartLink("https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Vi%E1%BB%87t_Nam");
+            setStartLink("/wiki/L%E1%BB%85_h%E1%BB%99i_Vi%E1%BB%87t_Nam");
         }
-
-    public String scrapeDescription(String url, String css) throws IOException{
-
-        String info = "";
+    public void scrapePage(String pageToScrape, List<Festival> festivalList) {
         Document doc;
+//        System.out.println(pageToScrape);//
         try {
-            String decodeUrl = URLDecoder.decode(url, "UTF-8");
-            doc = Jsoup.connect(decodeUrl).userAgent("Jsoup client").timeout(20000).get();
-            Elements text = doc.select(css);
-            for (Element element:text){
-                info += element.text() + '\n';
-            }
-        }  catch (IOException e){
-            e.printStackTrace();
-        }
-        return info;
-    }
-    @Override
-    public void scrapePage(String pageToString) {
-        Document doc;
-        try {
-            pageToString = URLDecoder.decode(pageToString, "UTF-8");
-            doc = Jsoup.connect(pageToString).userAgent("Jsoup client").timeout(20000).get();
-            Elements table = doc.select("table.prettytable.wikitable > tbody > tr");
-            for (int i = 1; i < table.size(); i++) {
-                JSONObject obj = new JSONObject();
-                Elements names = table.get(i).select("td:nth-of-type(3)");
-                String name = "";
-                for (Element element : names) name += element.text();
-                String url = table.get(i).select("td:nth-of-type(3) > a").attr("href");
-                url = super.getWebLink() + url;
-                JSONObject info = new JSONObject();
-                System.out.println(name);
-                System.out.println(url);
-                obj.put("name", name);
-
-                String description = "";
-                String startDate="";
-                // Scrape the organized day
-                if (table.get(i).select("td:nth-of-type(1)").text() != null)
-                    startDate=table.get(i).select("td:nth-of-type(1)").text() ;
-                info.put("Ngày bắt đầu(Âm lịch): ", startDate);
-                // Scrape the position
-                if (table.get(i).select("td:nth-of-type(2)") != null) {
-                    String position = "";
-                    for (Element element : table.get(i).select("td:nth-of-type(2)")) {
-                        position += element.text();
-                    }
-                    info.put("Vị trí:",position);
-                }
-                String start = null;
-                if (table.get(i).select("td:nth-of-type(4) > a") != null) {
-                    start = table.get(i).select("td:nth-of-type(4) > a").text();
-                } else {
-                    if (table.get(i).select("td:nth-of-type(4)").text() != null) {
-                        start = table.get(i).select("td:nth-of-type(4)").text();
-                    }
-                }
-                if (start != null) info.put("Lần đầu tổ chức: " ,start ) ;
-                // Scrape the connected character
-                String connect = null;
-                if (table.get(i).select("td:nth-of-type(5)").text() != null) {
-                    connect = table.get(i).select("td:nth-of-type(5)").text();
-                }
-                if (connect != null)
-                    info.put("Nhân vật liên quan: ",connect);
-                    String note=null;
-                if (table.get(i).select("td:nth-of-type(6)").text() != null) {
-                    note = table.get(i).select("td:nth-of-type(6)").text();}
-                if(note!=null){
-                    info.put("Ghi chú: ",note);
-                }
-                if (scrapeDescription(url, "div.mw-body-content.mw-content-ltr > div > p:first-of-type") != null)
-                    description += scrapeDescription(url, "div.mw-body-content.mw-content-ltr > div > p:first-of-type");
-                System.out.println(description);
-                obj.put("description", description);
-                obj.put("info",info);
-                super.getOutput().put(obj);
-            }
-        } catch (UnknownHostException e){
-            try {
-                throw new UnknownHostException("");
-            } catch (UnknownHostException ex) {
-                throw new RuntimeException(ex);
-            }
-        } catch (IOException e){
-            e.printStackTrace();
-        }
-    }
-
-    @Override
-    public void crawlData() throws InterruptedException {
-
-    }
-
-    @Override
-    public void saveData() throws IOException {
-        FileWriter fileWriter = null;
-        try {
-            fileWriter = new FileWriter(getFolder());
-
-            // Tạo một JSONArray mới để lưu trữ dữ liệu
-            JSONArray jsonArray = new JSONArray(getOutput().toString());
-
-            // Ghi dữ liệu từ JSONArray vào file
-            fileWriter.write(jsonArray.toString(4));
-            fileWriter.flush();
+            pageToScrape = URLDecoder.decode(pageToScrape, "UTF-8");
+            doc = Jsoup.connect(pageToScrape).userAgent("").header("Accept-Language", "*").get();
+//            System.out.println(doc);
         } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (fileWriter != null) {
-                fileWriter.close();
-            }
+            throw new RuntimeException(e);
+        }
+        Elements trRoot = doc.select("table.prettytable.wikitable>tbody>tr");
+        //System.out.println(trRoot.size());
+        for(int i=1; i<trRoot.size(); i++) {
+            Festival festival = new Festival();
+             festival.setName(trRoot.get(i).selectFirst("td:nth-child(3)").text());
+//             System.out.println(festival.getName());
+//             String link = null;
+             Document doc2;
+             String nhanvatUrl[] = new String[100];
+//             for(int l=0; l< nhanvatUrl.length; l++){
+//                 System.out.println(nhanvatUrl[l]);
+//             }
+             Element link = trRoot.get(i).selectFirst("td:nth-child(3)>a:not(.new)");
+
+             if(link==null){
+                 JSONObject infoNew = new JSONObject();
+                 if (!trRoot.get(i).selectFirst("td:nth-child(1)").text().equals("")) {
+                     infoNew.put("Ngày bắt đầu (âm lịch)",trRoot.get(i).selectFirst("td:nth-child(1)").text());
+                 } //else infoNew.put("Ngày bắt đầu (âm lịch)", "không rõ");
+                 if (!trRoot.get(i).selectFirst("td:nth-child(2)").text().equals("")) {
+                     infoNew.put("Vị trí",trRoot.get(i).selectFirst("td:nth-child(2)").text());
+                 } //else infoNew.put("Vị trí", "không rõ");
+                 if (!trRoot.get(i).selectFirst("td:nth-child(5)").text().equals("")) {
+                     JSONObject  nhanvat = new JSONObject();
+                     nhanvat.put("name",trRoot.get(i).selectFirst("td:nth-child(5)").text());
+                     if(nhanvatUrl!=null) nhanvat.put("url",nhanvatUrl);
+                     infoNew.put("Nhân vật liên quan",nhanvat);
+                 } //else infoNew.put("Nhân vật liên quan", "không rõ");
+                 if (!trRoot.get(i).selectFirst("td:nth-child(6)").text().equals("")) {
+                     infoNew.put("Ghi chú",trRoot.get(i).selectFirst("td:nth-child(6)").text());
+                 } //else infoNew.put("Ghi chú", "không rõ");
+                 continue;
+             }
+             String url = link.attr("href");
+             String nameSplit = trRoot.get(i).selectFirst("td:nth-child(5)").text();
+             String[] nameArray = nameSplit.split(",");
+             if(link!=null) {
+                 try {
+                     url = URLDecoder.decode(url, "UTF-8");
+//                     System.out.println(link);
+                     doc2 = Jsoup.connect(getWebLink()+url).userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36").header("Accept-Language", "*").get();
+                     festival.setUrl(getWebLink()+url);
+                     if(doc2.select("div>figure>a>img").size()>0) festival.setImageUrl(doc2.selectFirst("div>figure>a>img").attr("src"));
+                     else festival.setImageUrl(null);
+                 } catch (IOException e) {
+                     throw new RuntimeException(e);
+                 }
+                 int size = 0;
+                 if(doc2.select("div.mw-parser-output>ul>li>a").size()>0&&trRoot.get(i).selectFirst("td:nth-child(5)")!=null) {
+                     size = doc2.select("div.mw-parser-output>ul>li>a").size();
+                     Elements findName = doc2.select("div.mw-parser-output>ul>li>a");
+//                     String nameSplit = trRoot.get(i).selectFirst("td:nth-child(5)").text();
+//                     String[] nameArray = nameSplit.split(",");
+                     for(int v=0; v < nameArray.length; v++) {
+//                         System.out.println(nameArray[v]);
+                         if(v>0) nameArray[v] = nameArray[v].substring(1);
+                         //System.out.println(nameArray[v]);
+                         for(int j=0; j<size; j++) {
+                            if(findName.get(j).text().equals(nameArray[v])) {
+                                nhanvatUrl[v] = findName.get(j).attr("href");
+                                continue;
+                            }
+                        }
+                     }
+                 }
+                 festival.setDescription(doc2.selectFirst("div.mw-parser-output>p").text());
+                 JSONObject info = new JSONObject();
+                 if (!trRoot.get(i).selectFirst("td:nth-child(1)").text().equals("")) {
+                     info.put("Ngày bắt đầu (âm lịch)",trRoot.get(i).selectFirst("td:nth-child(1)").text());
+                 } //else info.put("Ngày bắt đầu (âm lịch)", "không rõ");
+                 if (!trRoot.get(i).selectFirst("td:nth-child(2)").text().equals("")) {
+                     info.put("Vị trí",trRoot.get(i).selectFirst("td:nth-child(2)").text());
+                 } //else info.put("Vị trí", "không rõ");
+                 if (!trRoot.get(i).selectFirst("td:nth-child(4)").text().equals("")) {
+                     info.put("Lần đầu tổ chức năm",trRoot.get(i).selectFirst("td:nth-child(4)").text());
+                 } //else info.put("Lần đầu tổ chức năm","không rõ");
+                 if (!trRoot.get(i).selectFirst("td:nth-child(5)").text().equals("")) {
+                     JSONObject  nhanvat = new JSONObject();
+                     List<JSONObject> NvList = new ArrayList<>();
+                     for(int k=0; k<nameArray.length; k++){
+                         JSONObject nhanvatChild = new JSONObject();
+                         nhanvatChild.put("name",nameArray[k]);
+                         if(nhanvatUrl[k]!=null) {nhanvatChild.put("url",nhanvatUrl[k]);NvList.add(nhanvatChild);  nhanvatUrl[k]=null; continue;}
+                         NvList.add(nhanvatChild);
+//                         nhanvatUrl[k]=null;
+                     }
+                     info.put("Nhân vật liên quan",NvList);
+
+                 } //else info.put("Nhân vật liên quan", "không rõ");
+                 if (!trRoot.get(i).selectFirst("td:nth-child(6)").text().equals("")) {
+                     info.put("Ghi chú",trRoot.get(i).selectFirst("td:nth-child(6)").text());
+                 } //else info.put("Ghi chú", "không rõ");
+                 festival.setInfo(info);
+
+             }
+            festivalList.add(festival);
+            System.out.println("Done "+festival.getName());
         }
     }
-
-    @Override
-    public void crawlAndSave() throws IOException {
-        this.scrapePage(getStartLink());
-        this.saveData();
-        System.out.println("Crawled " + getOutput().length() + " objects");
+    public void crawlData() throws InterruptedException {
+        List<Festival> crawlObjectList = Collections.synchronizedList(new ArrayList<>());
+        //Set<String> pagesDiscovered = Collections.synchronizedSet(new HashSet<>());
+        String pagesToScrape = getWebLink()+getStartLink() ;
+        // initializing the ExecutorService to run the
+        // web scraping process in parallel on 4 pages at a time
+        ExecutorService executorService = Executors.newFixedThreadPool(4);
+        scrapePage(pagesToScrape,crawlObjectList);
+        // waiting up to 300 seconds for all pending tasks to end
+        executorService.shutdown();
+        executorService.awaitTermination(300, TimeUnit.SECONDS);
+        setOutput(new JSONArray(crawlObjectList));
+        System.out.println("Crawled " + getOutput().length() + " festivals");
     }
+
 }
 
 
