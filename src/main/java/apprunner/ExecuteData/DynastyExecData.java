@@ -133,6 +133,7 @@ public class DynastyExecData {
                     String objectName = jsonObject.getString("name");
                     if (objectName.equalsIgnoreCase(name)) {
                         result.append(jsonArrayName);
+                        break;
                     }
                 }
             }
