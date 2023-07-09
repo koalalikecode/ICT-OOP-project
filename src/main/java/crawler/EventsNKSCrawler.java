@@ -61,7 +61,7 @@ public class EventsNKSCrawler extends Crawler{
             String description = scrapeDescription(doc2, "div.com-content-article__body > p:first-of-type");
             JSONObject eventInfo = scrapeInfoEvent1(doc2);
             if(doc2.select("div>img").size()>0) {
-                if(!doc2.selectFirst("div>img").attr("data-src").equals(""))eventItem.setImageUrl(doc2.selectFirst("div>img").attr("data-src"));
+                if(!doc2.selectFirst("div>img").attr("data-src").equals(""))eventItem.setImageUrl(getWebLink()+doc2.selectFirst("div>img").attr("data-src"));
             }else eventItem.setImageUrl(null);
             eventItem.setName(name.text());
             eventItem.setUrl(EventLink.attr("href"));
