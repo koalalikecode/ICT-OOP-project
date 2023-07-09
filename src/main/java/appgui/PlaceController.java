@@ -136,7 +136,7 @@ public class PlaceController implements Initializable {
 //        Add image view
         if (placeSelection.getImageUrl() != null){
             ImageView imageView = new ImageView();
-            Image image = new Image(placeSelection.getImageUrl());
+            Image image = new Image(placeSelection.getImageUrl(), true);
             imageView.setPreserveRatio(true);
             imageView.setFitWidth(infoAnchorPane.getPrefWidth() - 20 );
             imageView.setImage(image);

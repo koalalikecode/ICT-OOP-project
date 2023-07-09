@@ -131,6 +131,7 @@ public class EventExecData {
                     String objectName = jsonObject.getString("name");
                     if (objectName.equalsIgnoreCase(name)) {
                         result.append(jsonArrayName);
+                        break;
                     }
                 }
             }

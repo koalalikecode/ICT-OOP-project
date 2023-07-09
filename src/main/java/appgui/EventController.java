@@ -139,7 +139,7 @@ public class EventController implements Initializable {
 //        Add image view
         if (eventSelection.getImageUrl() != null){
             ImageView imageView = new ImageView();
-            Image image = new Image(eventSelection.getImageUrl());
+            Image image = new Image(eventSelection.getImageUrl(), true);
             imageView.setPreserveRatio(true);
             imageView.setFitWidth(infoAnchorPane.getPrefWidth() - 20 );
             imageView.setImage(image);
@@ -173,10 +173,13 @@ public class EventController implements Initializable {
             infoItem.setPrefHeight(0);
             infoItem.setPrefHeight(0);
             infoItem.setAlignment(Pos.CENTER_LEFT);
-            Label infoKey = new Label("\u2023 " + key + ": ");
+            Object Value = eventInfoBox.get(key);
+
+            Label infoKey = new Label("\u2023 "+ key + ": ");
             infoItem.getChildren().add(infoKey);
-            if (!(eventInfoBox.get(key) instanceof String)) {
-                JSONObject value = eventInfoBox.getJSONObject(key);
+
+            if (Value instanceof JSONObject){
+                JSONObject value = (JSONObject) Value;
                 if (value.has("name") && value.has("url")) {
                     String fieldName = execDataEvent.dataSearchField(value.getString("name"));
                     String sceneName = sceneFromField(fieldName);
@@ -187,7 +190,6 @@ public class EventController implements Initializable {
                         try {
                             LinkController.setSelectedObject(link.getText(), fieldName);
                             Stage stage = (Stage) link.getScene().getWindow();
-                            System.out.println(value.getString("name") + fieldName + sceneName);
                             Parent root = FXMLLoader.load(getClass().getResource(sceneName));
                             Scene newScene = new Scene(root);
                             stage.setScene(newScene);
@@ -201,11 +203,58 @@ public class EventController implements Initializable {
                     link.setWrapText(true);
                     link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
                     infoItem.getChildren().add(link);
+                } else {
+                    VBox componentPlace = new VBox(3);
+                    infoItem.setAlignment(Pos.TOP_LEFT);
+
+                    for (String valueKey : value.keySet()){
+                        HBox infoValue = new HBox();
+                        Label link = new Label("\t - " + valueKey + ": " );
+                        infoValue.getChildren().add(link);
+
+                        Object phe = value.get(valueKey);
+                        if (phe instanceof JSONObject){
+                            JSONObject pheObject = (JSONObject) phe;
+                            if (pheObject.has("name") && pheObject.has("url")){
+                                String fieldName = execDataEvent.dataSearchField(pheObject.getString("name"));
+                                String sceneName = sceneFromField(fieldName);
+                                Hyperlink pheLink = new Hyperlink(pheObject.getString("name"));
+                                pheLink.setWrapText(true);
+                                pheLink.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
+                                pheLink.setOnAction(event -> {
+                                    try {
+                                        LinkController.setSelectedObject(pheLink.getText(), fieldName);
+                                        Stage stage = (Stage) pheLink.getScene().getWindow();
+                                        Parent root = FXMLLoader.load(getClass().getResource(sceneName));
+                                        Scene newScene = new Scene(root);
+                                        stage.setScene(newScene);
+                                    } catch (IOException e) {
+                                        e.printStackTrace();
+                                    }
+                                });
+                                infoValue.getChildren().add(pheLink);
+                            }
+                        } else {
+                            Label infovalue = new Label(value.getString(valueKey));
+                            infovalue.setWrapText(true);
+                            infovalue.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth() - 90);
+                            infoValue.getChildren().add(infovalue);
+                        }
+
+                        componentPlace.getChildren().add(infoValue);
+                    }
+                    contentContainer.getChildren().add(infoItem);
+                    contentContainer.getChildren().add(componentPlace);
+                    continue;
                 }
-                contentContainer.getChildren().add(infoItem);
             } else {
-                System.out.println(eventInfoBox.get(key));
+                Label infoValue = new Label(Value.toString());
+                infoValue.setWrapText(true);
+                infoValue.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
+                infoItem.getChildren().add(infoValue);
             }
+
+            contentContainer.getChildren().add(infoItem);
         }
         Text connectionStart = new Text("Thông tin liên quan của " + eventSelection.getName() + ": ");
         contentContainer.getChildren().add(connectionStart);
@@ -229,6 +278,7 @@ public class EventController implements Initializable {
                         link.setOnAction(event -> {
                             try {
                                 LinkController.setSelectedObject(link.getText(), fieldName);
+                                System.out.println(fieldName + ": " + link.getText() + ": " + sceneName);
                                 Stage stage = (Stage) link.getScene().getWindow();
                                 Parent root = FXMLLoader.load(getClass().getResource(sceneName));
                                 Scene newScene = new Scene(root);

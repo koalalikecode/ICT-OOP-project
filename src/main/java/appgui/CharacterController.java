@@ -134,7 +134,7 @@ public class CharacterController implements Initializable {
 //        Add image view
         if (characterSelection.getImageUrl() != null){
             ImageView imageView = new ImageView();
-            Image image = new Image(characterSelection.getImageUrl());
+            Image image = new Image(characterSelection.getImageUrl(), true);
             imageView.setPreserveRatio(true);
             imageView.setFitWidth(infoAnchorPane.getPrefWidth() - 20 );
             imageView.setImage(image);
