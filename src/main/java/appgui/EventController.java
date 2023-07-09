@@ -278,7 +278,6 @@ public class EventController implements Initializable {
                         link.setOnAction(event -> {
                             try {
                                 LinkController.setSelectedObject(link.getText(), fieldName);
-                                System.out.println(fieldName + ": " + link.getText() + ": " + sceneName);
                                 Stage stage = (Stage) link.getScene().getWindow();
                                 Parent root = FXMLLoader.load(getClass().getResource(sceneName));
                                 Scene newScene = new Scene(root);
