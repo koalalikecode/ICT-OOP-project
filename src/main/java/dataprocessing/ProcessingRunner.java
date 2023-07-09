@@ -21,8 +21,8 @@ public class ProcessingRunner {
 
 //        characterProcess.processAndSave();
 //        characterProcess2.processAndSave();
-        eventProcess.processAndSave();
-        eventProcess2.processAndSave();
+//        eventProcess.processAndSave();
+//        eventProcess2.processAndSave();
 //        placeProcess.processAndSave();
 //        placeProcess2.processAndSave();
 //        festivalProcess.processAndSave();

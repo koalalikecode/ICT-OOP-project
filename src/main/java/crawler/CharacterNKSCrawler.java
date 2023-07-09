@@ -21,15 +21,15 @@ public class CharacterNKSCrawler extends Crawler {
         setWebLink("https://nguoikesu.com");
         setFolder("data/characterNKS.json");
         setStartLink("/nhan-vat");
-        setPageLimit(291);
+        setPageLimit(1450);
     }
 
     @Override
     public void scrapePage(List characterList, Set<String> pagesDiscovered, List<String> pagesToScrape) {
 
         // Xóa đi phần tử đầu tên của List, đưa vào biến url để scrawl page đó
-        String url = pagesToScrape.remove(0);
 
+        String url = pagesToScrape.remove(0);
         pagesDiscovered.add(url);
 
         Document doc;
@@ -72,21 +72,6 @@ public class CharacterNKSCrawler extends Crawler {
             characterItem.setConnection(moreCharacter);
             characterList.add(characterItem);
         }
-
-        // iterating over the pagination HTML elements
-        for (Element pageElement : paginationElements) {
-            // the new link discovered
-            String pageUrl = pageElement.attr("href");
-
-            // if the web page discovered is new and should be scraped
-            if (!pagesDiscovered.contains(pageUrl) && !pagesToScrape.contains(pageUrl) && !pageUrl.equals("#")) {
-                pagesToScrape.add(pageUrl);
-            }
-
-            // adding the link just discovered
-            // to the set of pages discovered so far
-            pagesDiscovered.add(pageUrl);
-        }
         System.out.println("Done: " + url);
     }
 
@@ -99,6 +84,9 @@ public class CharacterNKSCrawler extends Crawler {
         List<String> pagesToScrape = Collections.synchronizedList(new ArrayList<>());
 
         pagesToScrape.add(getStartLink());
+        for (int i = 5; i <= getPageLimit(); i+=5) {
+            pagesToScrape.add(getStartLink() + "?&start=" + i);
+        }
 
         // initializing the ExecutorService to run the
         // web scraping process in parallel on 4 pages at a time
@@ -109,7 +97,7 @@ public class CharacterNKSCrawler extends Crawler {
         // the number of iteration executed
         int i = 1;
 
-        while (!pagesToScrape.isEmpty() && i < getPageLimit()) {
+        while (!pagesToScrape.isEmpty()) {
             // registering the web scraping task
             executorService.execute(() -> scrapePage(crawlObjectList, pagesDiscovered, pagesToScrape));
 
@@ -122,7 +110,7 @@ public class CharacterNKSCrawler extends Crawler {
 
         // waiting up to 300 seconds for all pending tasks to end
         executorService.shutdown();
-        executorService.awaitTermination(10000, TimeUnit.SECONDS);
+        executorService.awaitTermination(1000, TimeUnit.SECONDS);
 
         setOutput(new JSONArray(crawlObjectList));
         System.out.println("Crawled " + getOutput().length() + " characters");

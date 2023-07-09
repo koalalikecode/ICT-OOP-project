@@ -116,7 +116,6 @@ public class CharacterController implements Initializable {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 
     private void updateSelectionInfo(Character characterSelection, CharacterExecData execDataCharacter) {
