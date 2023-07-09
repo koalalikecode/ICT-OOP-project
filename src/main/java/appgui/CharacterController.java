@@ -193,7 +193,7 @@ public class CharacterController implements Initializable {
             } else if(value.has("name")) {
                 Label link = new Label(value.getString("name"));
                 link.setWrapText(true);
-                link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
+                link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth() - 80);
                 infoItem.getChildren().add(link);
             }
             contentContainer.getChildren().add(infoItem);
@@ -222,7 +222,6 @@ public class CharacterController implements Initializable {
                             try {
                                 LinkController.setSelectedObject(link.getText(), fieldName);
                                 Stage stage = (Stage) link.getScene().getWindow();
-                                System.out.println(sceneName);
                                 Parent root = FXMLLoader.load(getClass().getResource(sceneName));
                                 Scene newScene = new Scene(root);
                                 stage.setScene(newScene);

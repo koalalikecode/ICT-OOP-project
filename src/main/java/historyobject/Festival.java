@@ -12,6 +12,16 @@ public class Festival {
     private String description;
     private List<JSONObject> connection;
     private String connect;
+    private String imageUrl;
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
     public Festival() {
         info = new JSONObject();
     }
@@ -57,9 +67,10 @@ public class Festival {
         return null;
     }
 
-    public Festival(String name, JSONObject info, String description) {
+    public Festival(String name, JSONObject info, String description, String imageUrl) {
         this.name = name;
         this.info = info;
         this.description = description;
+        this.imageUrl = imageUrl;
     }
 }

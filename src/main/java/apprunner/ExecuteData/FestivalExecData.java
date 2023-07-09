@@ -128,9 +128,13 @@ public class FestivalExecData {
                         String name = jsonFestival.getString("name");
                         String description = jsonFestival.getString("description");
                         JSONObject info = jsonFestival.getJSONObject("info");
-                        Festival festival = new Festival(name, info, description);
+                        String imageURL = jsonFestival.has("imageUrl") ? jsonFestival.getString("imageUrl") : null;
+                        String imageUrl = null;
+                        if (imageURL != null ) {
+                                imageUrl = "https:" + imageURL;
+                        }
+                        Festival festival = new Festival(name, info, description, imageUrl);
                         festivals.add(festival);
-
 
                 }
                 return festivals;
