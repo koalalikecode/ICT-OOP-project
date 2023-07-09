@@ -48,4 +48,15 @@ public class Event {
     public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
     }
+
+    public Event () {}
+
+    public Event(String name, String description, String url, JSONObject info,  List<JSONObject> connection, String imageUrl) {
+        this.name = name;
+        this.url = url;
+        this.info = info;
+        this.description = description;
+        this.connection = connection;
+        this.imageUrl = imageUrl;
+    }
 }

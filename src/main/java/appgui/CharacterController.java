@@ -1,13 +1,12 @@
 /* Việc cần làm khi sửa code :
-    * 1. Tối ưu exception handling trong file
-    * 2.
+ * 1. Tối ưu exception handling trong file
+ * 2.
  */
-
 
 
 package appgui;
 
-import appgui.LinkController;
+import apprunner.ExecuteData.CharacterExecData;
 import historyobject.Character;
 
 import javafx.collections.FXCollections;
@@ -18,11 +17,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
-import javafx.scene.text.Text;
-import javafx.scene.text.TextFlow;
+import javafx.scene.text.*;
 import javafx.scene.layout.AnchorPane;
 
 import javafx.fxml.FXML;
@@ -41,11 +40,11 @@ import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
 public class CharacterController implements Initializable {
-    private final String dataJson = "data/final.json";
+    private final String dataJson = "processed_data/final.json";
     private JSONObject characterInfoBox;
     private List<JSONObject> characterConnectionBox;
 
-//    Menu Buttons
+    //    Menu Buttons
     @FXML
     private Button btnCharacter;
     @FXML
@@ -58,7 +57,7 @@ public class CharacterController implements Initializable {
     private Button btnPlace;
 
 
-//    Scenes
+    //    Scenes
     private Scene sceneCharacter;
     private Scene sceneDynasty;
     private Scene sceneEvent;
@@ -67,22 +66,18 @@ public class CharacterController implements Initializable {
 
 
 
-//    Search Character
+    //    Search Character
     @FXML
     private TextField searchCharacter;
 
     @FXML
     private ScrollPane infoScrollPane;
     @FXML
-    private Pane infoPane;
-    @FXML
-    private Pane hyperlinkPane;
-    @FXML
     private Label labelName;
     @FXML
     private AnchorPane infoAnchorPane;
 
-//    TableView for Character in All Character Tab
+    //    TableView for Character in All Character Tab
     @FXML
     private TableView<Character> tbvCharacters;
     @FXML
@@ -105,12 +100,11 @@ public class CharacterController implements Initializable {
             LinkController.selectedCharacter = execDataCharacter.searchByName(LinkController.selectedCharacterName);
 
 //            Initialize selected object every Controller
-            if (LinkController.selectedCharacter == null){
+            if (LinkController.selectedCharacterName == null){
                 LinkController.selectedCharacter = characterList.get(0);
                 displaySelectionInfo(LinkController.selectedCharacter, execDataCharacter);
                 selectCellByValue(LinkController.selectedCharacter.getName());
-                System.out.println(LinkController.selectedCharacter.getName());
-            } else if (LinkController.selectedCharacter != null) {
+            } else if (LinkController.selectedCharacterName != null) {
                 displaySelectionInfo(LinkController.selectedCharacter, execDataCharacter);
                 selectCellByValue(LinkController.selectedCharacter.getName());
             }
@@ -131,45 +125,59 @@ public class CharacterController implements Initializable {
         }
     }
     private void displaySelectionInfo(Character characterSelection, CharacterExecData execDataCharacter) {
-        labelName.setText("Name: " + characterSelection.getName());
-        infoAnchorPane.getChildren().clear();
-        infoPane.getChildren().clear();
+        labelName.setText("" + characterSelection.getName());
 
-//      Add the labels, dataPane
-        infoAnchorPane.getChildren().addAll(labelName, infoPane);
+        infoAnchorPane.getChildren().clear();
 
         TextFlow textFlow = new TextFlow();
-        String characterInfo = execDataCharacter.listDataByName(characterSelection.getName());
 
-        textFlow.setPrefWidth(infoPane.getPrefWidth());
-        linebreak(characterInfo, textFlow);
+//        Add image view
+        if (characterSelection.getImageUrl() != null){
+            ImageView imageView = new ImageView();
+            Image image = new Image(characterSelection.getImageUrl(), true);
+            imageView.setPreserveRatio(true);
+            imageView.setFitWidth(infoAnchorPane.getPrefWidth() - 20 );
+            imageView.setImage(image);
 
-//      Get the Information and Connection of Charater
+            textFlow.setTextAlignment(TextAlignment.CENTER);
+            textFlow.getChildren().add(imageView);
+        }
+
+        String characterDescription = characterSelection.getDescription();
+
+        textFlow.setPrefWidth(infoAnchorPane.getPrefWidth());
+        textFlow.setMaxWidth(infoAnchorPane.getPrefWidth());
+        Text text = new Text("\n"+characterDescription);
+        textFlow.getChildren().add(text);
+        textFlow.getChildren().add(new Text("\n"));
+
+        Text infoStart = new Text("\nThông tin chi tiết của " + characterSelection.getName() + ":");
+        infoStart.setFont(new Font(16));
+        textFlow.getChildren().add(infoStart);
+        infoAnchorPane.getChildren().add(textFlow);
+
         characterInfoBox = execDataCharacter.getInfoBoxByName(characterList, characterSelection.getName());
         characterConnectionBox = execDataCharacter.getConnectionBoxByName(characterList, characterSelection.getName());
-
-        Text infoStart = new Text("\nThông tin chi tiết của " + characterSelection.getName() + ": ");
-        textFlow.getChildren().add(infoStart);
-        infoPane.getChildren().add(textFlow);
 
         VBox contentContainer = new VBox(10);
         contentContainer.setPadding(new Insets(10));
         contentContainer.getChildren().add(textFlow);
 
-//      Add Information of the character
         for (String key : characterInfoBox.keySet()) {
             HBox infoItem = new HBox();
             infoItem.setPrefHeight(0);
+            infoItem.setPrefHeight(0);
             infoItem.setAlignment(Pos.CENTER_LEFT);
+            JSONObject value = characterInfoBox.getJSONObject(key);
 
-            JSONObject info = characterInfoBox.getJSONObject(key);
-
-            Label infoKey = new Label(key + ": ");
+            Label infoKey = new Label("\u2023 " + key + ": ");
             infoItem.getChildren().add(infoKey);
-            if (info.has("name") && info.has("url")) {
-                Hyperlink link = new Hyperlink(info.getString("name"));
-                String fieldName = execDataCharacter.dataSearchField(info.getString("name"));
+            if (value.has("name") && value.has("url")) {
+                String fieldName = execDataCharacter.dataSearchField(value.getString("name"));
                 String sceneName = sceneFromField(fieldName);
+                Hyperlink link = new Hyperlink(value.getString("name"));
+                link.setWrapText(true);
+                link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
                 link.setOnAction(event -> {
                     try {
                         LinkController.setSelectedObject(link.getText(), fieldName);
@@ -182,13 +190,16 @@ public class CharacterController implements Initializable {
                     }
                 });
                 infoItem.getChildren().add(link);
-            } else if(info.has("name")) {
-                Label link = new Label(info.getString("name"));
+            } else if(value.has("name")) {
+                Label link = new Label(value.getString("name"));
+                link.setWrapText(true);
+                link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth() - 80);
                 infoItem.getChildren().add(link);
             }
             contentContainer.getChildren().add(infoItem);
         }
-        Text connectionStart = new Text("Thông tin liên quan của " + characterSelection.getName() + ": ");
+        Text connectionStart = new Text("Xem thêm");
+        connectionStart.setFont(new Font(16));
         contentContainer.getChildren().add(connectionStart);
 
 //      Add the connections of the Character
@@ -225,32 +236,31 @@ public class CharacterController implements Initializable {
                     }
                     contentContainer.getChildren().add(infoItem);
                 }
-
             }
         }
-        infoPane.getChildren().add(contentContainer);
+        infoAnchorPane.getChildren().add(contentContainer);
         infoScrollPane.setContent(infoAnchorPane);
     }
 
     private String sceneFromField(String name){
         String sceneName;
-        if (name == "Character"){
-            sceneName = "characterPane.fxml";
-        } else if (name == "Dynasty"){
-            sceneName = "dynastyPane.fxml";
-        } else if (name == "Event"){
-            sceneName = "eventPane.fxml";
-        } else if (name == "Festival"){
-            sceneName = "festivalPane.fxml";
-        } else if (name == "Place"){
-            sceneName = "placePane.fxml";
+        if (name.equals("Character")){
+            sceneName = "fxml/characterPane.fxml";
+        } else if (name.equals("Dynasty")){
+            sceneName = "fxml/dynastyPane.fxml";
+        } else if (name.equals("Event")){
+            sceneName = "fxml/eventPane.fxml";
+        } else if (name.equals("Festival")){
+            sceneName = "fxml/festivalPane.fxml";
+        } else if (name.equals("Place")){
+            sceneName = "fxml/placePane.fxml";
         } else {
-            sceneName = "characterPane.fxml";
+            sceneName = "fxml/characterPane.fxml";
         }
         return sceneName;
     }
 
-//    Make tableview show selected row by hyperlink
+    //    Make tableview show selected row by hyperlink
     public void selectCellByValue(String targetValue) {
         for (int row = 0; row < tbvCharacters.getItems().size(); row++) {
             String cellValue = tbcName.getCellData(row);
@@ -264,26 +274,26 @@ public class CharacterController implements Initializable {
 
     @FXML
     private void addSceneSwitchingHandler(ActionEvent event) {
-        Stage stage = (Stage) btnEvent.getScene().getWindow();
+        Stage stage = (Stage) btnCharacter.getScene().getWindow();
         try {
             if (event.getSource() == btnEvent) {
-                Parent newPane = FXMLLoader.load(getClass().getResource("eventPane.fxml"));
+                Parent newPane = FXMLLoader.load(getClass().getResource("fxml/eventPane.fxml"));
                 Scene newScene = new Scene(newPane);
                 stage.setScene(newScene);
             } else if (event.getSource() == btnCharacter) {
-                Parent newPane2 = FXMLLoader.load(getClass().getResource("characterPane.fxml"));
+                Parent newPane2 = FXMLLoader.load(getClass().getResource("fxml/characterPane.fxml"));
                 Scene newScene2 = new Scene(newPane2);
                 stage.setScene(newScene2);
             } else if (event.getSource() == btnDynasty) {
-                Parent newPane3 = FXMLLoader.load(getClass().getResource("dynastyPane.fxml"));
+                Parent newPane3 = FXMLLoader.load(getClass().getResource("fxml/dynastyPane.fxml"));
                 Scene newScene3 = new Scene(newPane3);
                 stage.setScene(newScene3);
             } else if (event.getSource() == btnFestival) {
-                Parent newPane4 = FXMLLoader.load(getClass().getResource("festivalPane.fxml"));
+                Parent newPane4 = FXMLLoader.load(getClass().getResource("fxml/festivalPane.fxml"));
                 Scene newScene4 = new Scene(newPane4);
                 stage.setScene(newScene4);
             } else if (event.getSource() == btnPlace) {
-                Parent newPane5 = FXMLLoader.load(getClass().getResource("placePane.fxml"));
+                Parent newPane5 = FXMLLoader.load(getClass().getResource("fxml/placePane.fxml"));
                 Scene newScene5 = new Scene(newPane5);
                 stage.setScene(newScene5);
             }
@@ -304,13 +314,4 @@ public class CharacterController implements Initializable {
         }
     }
 
-    public TextFlow linebreak(String data, TextFlow textFlow) {
-        String[] lines = data.split("\\n");
-        for (String line : lines) {
-            Text text = new Text(line);
-            textFlow.getChildren().add(text);
-            textFlow.getChildren().add(new Text("\n"));
-        }
-        return textFlow;
-    }
 }

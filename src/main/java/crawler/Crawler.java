@@ -10,7 +10,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
-public class Crawler {
+public abstract class Crawler implements ICrawler {
     private String webLink; // trang web để crawl data
     private String startLink; // trang web con để crawl data, ví dụ "/nhan-vat" của "https://nguoikesu.com"
     private JSONArray output; // kết quả mảng JSON sau khi crawl
@@ -126,15 +126,16 @@ public class Crawler {
     }
     // Ham scrape du lieu danh cho page khac
     public void scrapePage(String pageToScrape) throws IOException {
-    }
+
+    };
 
     // Kết hợp với hàm scrapePage để crawl toàn bộ các page, phân trang,...
-    public void crawlData() throws InterruptedException {
-    }
+    public abstract void crawlData() throws InterruptedException;
 
 
     //    Hàm để lưu dữ liệu vào file Json
-    private void saveData() {
+    @Override
+    public void saveData() throws IOException {
         FileWriter file = null;
         try {
             // Constructs a FileWriter given a file name, using the platform's default charset
@@ -152,6 +153,7 @@ public class Crawler {
         }
     }
     // Hàm để thực hiện crawl và save dữ liệu vào file
+    @Override
     public void crawlAndSave() throws IOException {
         try {
             crawlData();

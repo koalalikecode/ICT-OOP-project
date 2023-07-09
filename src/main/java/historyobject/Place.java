@@ -59,4 +59,15 @@ public class Place {
     public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
     }
+
+    public Place () {}
+
+    public Place(String name, String description, String url, JSONObject info,  List<JSONObject> connection, String imageUrl) {
+        this.name = name;
+        this.url = url;
+        this.info = info;
+        this.description = description;
+        this.connection = connection;
+        this.imageUrl = imageUrl;
+    }
 }

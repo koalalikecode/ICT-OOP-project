@@ -19,9 +19,9 @@ public class CrawlRunner {
 //        characterNKSCrawler.crawlAndSave();
 //        placeNKSCrawler.crawlAndSave();
 //        placeWikiCrawler.crawlAndSave();
-//        eventsNKSCrawler.crawlAndSave();
+        eventsNKSCrawler.crawlAndSave();
 //        warWikiCrawler.crawlAndSave();
-//        eventWikiCrawler.crawlAndSave();
+        eventWikiCrawler.crawlAndSave();
     }
 }
 

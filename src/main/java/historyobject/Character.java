@@ -22,7 +22,16 @@ public class Character {
     }
 
     public Character() {}
-    public Character(String name,String description, String url, JSONObject info, List<JSONObject> connection) {
+    public Character(String name,String description, String url, JSONObject info, List<JSONObject> connection, String imageUrl) {
+        this.name = name;
+        this.url = url;
+        this.info = info;
+        this.description = description;
+        this.connection = connection;
+        this.imageUrl = imageUrl;
+    }
+
+    public Character(String name, String description, String url, JSONObject info,  List<JSONObject> connection) {
         this.name = name;
         this.url = url;
         this.info = info;

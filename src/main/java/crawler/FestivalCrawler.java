@@ -17,17 +17,17 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-import historyobject.FestivalWiki;
+import historyobject.Festival;
 
 
 public class FestivalCrawler extends Crawler {
 
     public FestivalCrawler() {
             setWebLink("https://vi.wikipedia.org");
-            setFolder("data/FestivalWiki.json");
+            setFolder("data/Festival.json");
             setStartLink("/wiki/L%E1%BB%85_h%E1%BB%99i_Vi%E1%BB%87t_Nam");
         }
-    public void scrapePage(String pageToScrape, List<FestivalWiki> festivalList) {
+    public void scrapePage(String pageToScrape, List<Festival> festivalList) {
         Document doc;
 //        System.out.println(pageToScrape);//
         try {
@@ -40,7 +40,7 @@ public class FestivalCrawler extends Crawler {
         Elements trRoot = doc.select("table.prettytable.wikitable>tbody>tr");
         //System.out.println(trRoot.size());
         for(int i=1; i<trRoot.size(); i++) {
-            FestivalWiki festival = new FestivalWiki();
+            Festival festival = new Festival();
              festival.setName(trRoot.get(i).selectFirst("td:nth-child(3)").text());
 //             System.out.println(festival.getName());
 //             String link = null;
@@ -137,7 +137,7 @@ public class FestivalCrawler extends Crawler {
         }
     }
     public void crawlData() throws InterruptedException {
-        List<FestivalWiki> crawlObjectList = Collections.synchronizedList(new ArrayList<>());
+        List<Festival> crawlObjectList = Collections.synchronizedList(new ArrayList<>());
         //Set<String> pagesDiscovered = Collections.synchronizedSet(new HashSet<>());
         String pagesToScrape = getWebLink()+getStartLink() ;
         // initializing the ExecutorService to run the
