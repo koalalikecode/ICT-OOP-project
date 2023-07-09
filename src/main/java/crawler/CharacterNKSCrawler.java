@@ -61,8 +61,11 @@ public class CharacterNKSCrawler extends Crawler {
             List<JSONObject> moreCharacter = scapeMoreConnection(doc2,"div.com-content-article__body a.annotation");
             String description = scrapeDescription(doc2, "div.com-content-article__body > p:first-of-type");
             JSONObject characterInfo = scrapeInfoBox(doc2, "table.infobox > tbody > tr");
-
             characterItem.setName(name.text());
+            if(doc2.select("table.infobox>tbody>tr>td>img").size()>0){if(!doc2.selectFirst("table.infobox>tbody>tr>td>img").attr("data-src").equals(""))characterItem.setImageUrl(getWebLink()+doc2.selectFirst("table.infobox>tbody>tr>td>img").attr("data-src"));
+                else characterItem.setImageUrl(null);
+            }
+            else characterItem.setImageUrl(null);
             characterItem.setUrl(characterLink.attr("href"));
             characterItem.setDescription(description);
             characterItem.setInfo(characterInfo);
@@ -119,7 +122,7 @@ public class CharacterNKSCrawler extends Crawler {
 
         // waiting up to 300 seconds for all pending tasks to end
         executorService.shutdown();
-        executorService.awaitTermination(300, TimeUnit.SECONDS);
+        executorService.awaitTermination(10000, TimeUnit.SECONDS);
 
         setOutput(new JSONArray(crawlObjectList));
         System.out.println("Crawled " + getOutput().length() + " characters");

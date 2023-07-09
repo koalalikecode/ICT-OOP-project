@@ -1,7 +1,6 @@
 package historyobject;
 
 import org.json.JSONObject;
-
 import java.util.List;
 
 public class Event {
@@ -10,53 +9,54 @@ public class Event {
     private JSONObject info;
     private String description;
     private List<JSONObject> connection;
-
-    public Event() {}
-    public Event(String name,String description, String url, JSONObject info, List<JSONObject> connection) {
-        this.name = name;
-        this.url = url;
-        this.info = info;
-        this.description = description;
-        this.connection = connection;
-    }
-
-    public JSONObject getInfo() {
-        return info;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
-    public List<JSONObject> getConnection() {
-        return connection;
-    }
-
-    public void setInfo(JSONObject info) {
-        this.info = info;
-    }
-
+    private String imageUrl;
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
+    public String getUrl() {
+        return url;
+    }
+    public void setUrl(String url) {
+        this.url = url;
+    }
+    public JSONObject getInfo() {
+        return info;
+    }
+    public void setInfo(JSONObject info) {
+        this.info = info;
+    }
+    public String getDescription() {
+        return description;
+    }
+    public void setDescription(String description) {
+        this.description = description;
+    }
+    public List<JSONObject> getConnection() {
+        return connection;
+    }
     public void setConnection(List<JSONObject> connection) {
         this.connection = connection;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public String getImageUrl() {
+        return imageUrl;
     }
 
-    public void setDescription(String description) {
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public Event () {}
+
+    public Event(String name, String description, String url, JSONObject info,  List<JSONObject> connection, String imageUrl) {
+        this.name = name;
+        this.url = url;
+        this.info = info;
         this.description = description;
+        this.connection = connection;
+        this.imageUrl = imageUrl;
     }
 }

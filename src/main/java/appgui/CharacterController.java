@@ -17,12 +17,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.scene.text.Text;
-import javafx.scene.text.TextFlow;
+import javafx.scene.text.*;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.text.Font;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -40,7 +40,7 @@ import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
 public class CharacterController implements Initializable {
-    private final String dataJson = "data/final.json";
+    private final String dataJson = "processed_data/final.json";
     private JSONObject characterInfoBox;
     private List<JSONObject> characterConnectionBox;
 
@@ -126,14 +126,28 @@ public class CharacterController implements Initializable {
     }
     private void displaySelectionInfo(Character characterSelection, CharacterExecData execDataCharacter) {
         labelName.setText("" + characterSelection.getName());
+
         infoAnchorPane.getChildren().clear();
 
         TextFlow textFlow = new TextFlow();
+
+//        Add image view
+        if (characterSelection.getImageUrl() != null){
+            ImageView imageView = new ImageView();
+            Image image = new Image(characterSelection.getImageUrl());
+            imageView.setPreserveRatio(true);
+            imageView.setFitWidth(infoAnchorPane.getPrefWidth() - 20 );
+            imageView.setImage(image);
+
+            textFlow.setTextAlignment(TextAlignment.CENTER);
+            textFlow.getChildren().add(imageView);
+        }
+
         String characterDescription = characterSelection.getDescription();
 
         textFlow.setPrefWidth(infoAnchorPane.getPrefWidth());
         textFlow.setMaxWidth(infoAnchorPane.getPrefWidth());
-        Text text = new Text(characterDescription);
+        Text text = new Text("\n"+characterDescription);
         textFlow.getChildren().add(text);
         textFlow.getChildren().add(new Text("\n"));
 
@@ -149,7 +163,6 @@ public class CharacterController implements Initializable {
         contentContainer.setPadding(new Insets(10));
         contentContainer.getChildren().add(textFlow);
 
-
         for (String key : characterInfoBox.keySet()) {
             HBox infoItem = new HBox();
             infoItem.setPrefHeight(0);
@@ -157,7 +170,7 @@ public class CharacterController implements Initializable {
             infoItem.setAlignment(Pos.CENTER_LEFT);
             JSONObject value = characterInfoBox.getJSONObject(key);
 
-            Label infoKey = new Label(key + ": ");
+            Label infoKey = new Label("\u2023 " + key + ": ");
             infoItem.getChildren().add(infoKey);
             if (value.has("name") && value.has("url")) {
                 String fieldName = execDataCharacter.dataSearchField(value.getString("name"));
@@ -169,7 +182,6 @@ public class CharacterController implements Initializable {
                     try {
                         LinkController.setSelectedObject(link.getText(), fieldName);
                         Stage stage = (Stage) link.getScene().getWindow();
-                        System.out.println(sceneName);
                         Parent root = FXMLLoader.load(getClass().getResource(sceneName));
                         Scene newScene = new Scene(root);
                         stage.setScene(newScene);

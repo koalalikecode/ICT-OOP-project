@@ -78,7 +78,9 @@ public class  AnhHungLLVT extends Crawler {
             AHLLVTChar.setUrl(characterURL);
             String description = doc2.select("div.mw-parser-output > p").text();
             AHLLVTChar.setDescription(description);
-            //AHLLVTChar.setInfo(new JSONObject(scrapeInfoBox(doc2)));
+            if(doc2.select("table.infobox>tbody>tr>td[colspan]>span>a>img.mw-file-element").size()>0) AHLLVTChar.setImageUrl(doc2.select("table.infobox>tbody>tr>td[colspan]>span>a>img.mw-file-element").attr("src"));
+            else AHLLVTChar.setImageUrl(null);
+//            AHLLVTChar.setInfo(new JSONObject(scrapeInfoBox(doc2)));
             Elements tr = doc2.select("table.infobox > tbody >tr");
             JSONObject info = new JSONObject();
             if(tr.size()==0) {
@@ -90,6 +92,7 @@ public class  AnhHungLLVT extends Crawler {
                 info.put("Chức vụ và thành tích", trRoot.get(i).selectFirst("tr>td:nth-child(6)").text());
             }
             else {
+//                AHLLVTChar.setImageUrl();
                 for(int r=0; r<tr.size(); r++) {
                     Element thChild = tr.get(r).selectFirst("th");
                     Element tdChild = tr.get(r).selectFirst("td");

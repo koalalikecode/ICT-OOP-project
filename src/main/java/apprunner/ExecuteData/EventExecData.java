@@ -1,6 +1,7 @@
 package apprunner.ExecuteData;
 
 import historyobject.Event;
+import crawler.Crawler;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -17,7 +18,7 @@ import java.io.IOException;
 import java.util.Set;
 
 public class EventExecData {
-    private String dataJson = "data/final.json";
+    private String dataJson = "processed_data/final.json";
     private List<Event> events;
     private List<String> hyperlinkTexts;
 
@@ -36,7 +37,6 @@ public class EventExecData {
 
     public EventExecData(List<Event> events) {
         this.events = events;
-//        this.hyperlinkTexts = getHyperlinkTexts(events);
     }
 
     public ObservableList<Event> getObservableEventList(List<Event> events) {
@@ -56,21 +56,6 @@ public class EventExecData {
         return null;
     }
 
-    private List<String> getHyperlinkTexts(List<Event> events) {
-        List<String> texts = new ArrayList<>();
-        for (Event event : events) {
-            JSONObject info = event.getInfo();
-            if (info != null) {
-                for (String key : info.keySet()) {
-                    JSONObject value = info.getJSONObject(key);
-                    if (value.has("name")) {
-                        texts.add(value.getString("name"));
-                    }
-                }
-            }
-        }
-        return texts;
-    }
     public JSONObject getInfoBoxByName(List<Event> events, String name) {
         JSONObject info = null;
         for (Event event : events) {
@@ -169,18 +154,22 @@ public class EventExecData {
 
             String id = jsonEvent.getString("id");
             String name = jsonEvent.getString("name");
-            String description = jsonEvent.getString("description");
-            String url = jsonEvent.getString("url");
+            String description = jsonEvent.has("description") ? jsonEvent.getString("description") : "";
+            String url = jsonEvent.has("url") ? jsonEvent.getString("url") : null;
+            String imageURL = jsonEvent.has("imageUrl") ? jsonEvent.getString("imageUrl") : null;
             JSONObject info = jsonEvent.getJSONObject("info");
-            JSONArray jsonConnections = jsonEvent.getJSONArray("connection");
 
+            JSONArray jsonConnections = null;
             List<JSONObject> connections = new ArrayList<>();
-            for (int j = 0; j < jsonConnections.length(); j++) {
-                JSONObject jsonConnection = jsonConnections.getJSONObject(j);
-                connections.add(jsonConnection);
+            if (jsonEvent.has("connection")){
+                jsonConnections = jsonEvent.getJSONArray("connection");
+                for (int j = 0; j < jsonConnections.length(); j++) {
+                    JSONObject jsonConnection = jsonConnections.getJSONObject(j);
+                    connections.add(jsonConnection);
+                }
             }
 
-            Event event = new Event(name, description, url, info, connections);
+            Event event = new Event(name, description, url, info, connections, imageURL);
             events.add(event);
         }
         return events;

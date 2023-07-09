@@ -1917,7 +1917,7 @@
  },
  {
   "name": "Chiến dịch Điện Biên Phủ 1954",
-  "description": "Trận Điện Biên Phủ (tiếng Pháp: Bataille de Diên Biên Phu; phát âm: [bataj də djɛ̃ bjɛ̃ fy]), còn gọi là Chiến dịch Trần Đình là trận đánh lớn nhất[7] trong Chiến tranh Đông Dương lần thứ nhất diễn ra tại lòng chảo Mường Thanh, châu Điện Biên, tỉnh Lai Châu (nay thuộc thành phố Điện Biên Phủ, tỉnh Điện Biên) giữa Quân đội Nhân dân Việt Nam và Quân đội Liên hiệp Pháp (gồm Lực lượng Viễn chinh Pháp, Binh đoàn Lê dương Pháp, quân phụ lực bản xứ và Quân đội Quốc gia Việt Nam).",
+  "description": "Trận Điện Biên Phủ (tiếng Pháp: Bataille de Diên Biên Phu; phát âm: [bataj də djɛ̃ bjɛ̃ fy]), còn gọi là Chiến dịch Trần Đình là trận đánh lớn nhất[8] trong Chiến tranh Đông Dương lần thứ nhất diễn ra tại lòng chảo Mường Thanh, châu Điện Biên, tỉnh Lai Châu (nay thuộc thành phố Điện Biên Phủ, tỉnh Điện Biên) giữa Quân đội Nhân dân Việt Nam và Quân đội Liên hiệp Pháp (gồm Lực lượng Viễn chinh Pháp, Binh đoàn Lê dương Pháp, quân phụ lực bản xứ và Quân đội Quốc gia Việt Nam).",
   "connection": [
    {
     "name": "Khu di tích chiến trường Điện Biên Phủ",
@@ -1951,10 +1951,10 @@
     "phe 2": "Hồ Chí Minh Võ Nguyên Giáp Hoàng Văn Thái Lê Liêm Trần Đăng Ninh Lê Trọng Tấn Chu Huy Mân Vương Thừa Vũ Hoàng Minh Thảo Lê Quảng Ba Song Hào",
     "phe 1": "Christian de Castries André Trancart Jules Gaucher \u2020 Pierre Langlais André Lalande Charles Piroth \u2020"
    },
-   "Kết quả": "Thắng lợi quyết định của Việt Nam Dân chủ Cộng hòa.[2] Hiệp định Genève được ký kết, Pháp trao trả độc lập cho ba nước Đông Dương.",
+   "Kết quả": "Thắng lợi quyết định của Việt Nam Dân chủ Cộng hòa.[3] Hiệp định Genève được ký kết, Pháp trao trả độc lập cho ba nước Đông Dương.",
    "Thương vong và tổn thất": {
-    "phe 2": "4.020 tử trận, 792 mất tích, 9.118 bị thương.[4] Tổng cộng: ~14.000 thương vong[5][6]",
-    "phe 1": "1.747 - 2.293 tử trận, 1.729 mất tích, 5.240 - 6.650 bị thương, 11.721 bị bắt.[3] Hoa Kỳ: 2 phi công thiệt mạng. Tổng cộng: ~18.000 thương vong 10 xe tăng, hàng trăm xe vận tải bị phá hủy hoặc bị thu giữ. 62 máy bay bị bắn rơi, 186 máy bay bị hư hại."
+    "phe 2": "4.020 tử trận, 792 mất tích, 9.118 bị thương.[5] Tổng cộng: ~14.000 thương vong[6][7]",
+    "phe 1": "1.747 - 2.293 tử trận, 1.729 mất tích, 5.240 - 6.650 bị thương, 11.721 bị bắt.[4] Hoa Kỳ: 2 phi công thiệt mạng. Tổng cộng: ~18.000 thương vong 10 xe tăng, hàng trăm xe vận tải bị phá hủy hoặc bị thu giữ. 62 máy bay bị bắn rơi, 186 máy bay bị hư hại."
    },
    "Lực lượng": {
     "phe 2": "10 trung đoàn bộ binh, 1 đại đoàn công binh và pháo binh. Quân số 53.800, sau tăng viện thêm khoảng 8.000 người. 261.451 dân công vận tải hậu cần. Pháo binh bắn yểm trợ tổng cộng khoảng 17.500 viên đạn pháo cỡ 105mm.",
@@ -2033,7 +2033,7 @@
    "Địa điểm": "Ba Gia, Quảng Ngãi, miền Nam Việt Nam",
    "Tham chiến": {
     "phe 2": "Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
-    "phe 1": "Bộ chỉ huy Viện trợ Quân sự Hoa Kỳ tại Việt Nam Quân lực Việt Nam Cộng hòa"
+    "phe 1": "Quân lực Việt Nam Cộng hòa"
    },
    "Chỉ huy và lãnh đạo": {
     "phe 2": "Chu Huy Mân Lê Hữu Trữ [2]",
@@ -2806,7 +2806,7 @@
  },
  {
   "name": "Chiến tranh biên giới Việt\u2013Trung 1979",
-  "description": "Chiến tranh biên giới 1979, hay thường được gọi là Chiến tranh biên giới Việt \u2013 Trung năm 1979, là một cuộc chiến ngắn nhưng khốc liệt giữa Trung Quốc và Việt Nam, diễn ra vào ngày 17 tháng 2 năm 1979 khi Trung Quốc đưa quân tấn công Việt Nam trên toàn tuyến biên giới giữa 2 nước.[9]",
+  "description": "",
   "connection": [
    {
     "name": "Quan hệ Việt Nam \u2013 Trung Quốc",

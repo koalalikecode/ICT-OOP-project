@@ -52,10 +52,11 @@ public class KingWikiCrawler extends Crawler {
                 throw new RuntimeException(e);
             }
             Elements name = kingDoc.select("h1 span");
+            if(kingDoc.select("table.infobox>tbody>tr>td[colspan]>span>a>img.mw-file-element").size()>0) king.setImageUrl(kingDoc.selectFirst("table.infobox>tbody>tr>td[colspan]>span>a>img.mw-file-element").attr("src"));
+            else king.setImageUrl(null);
             List<JSONObject> moreCharacter = scapeMoreConnection(kingDoc,"div.mw-parser-output p a");
             String description = scrapeDescription(kingDoc, "div.mw-parser-output > p:first-of-type");
             JSONObject kingInfo = scrapeInfoBox(kingDoc, "table.infobox > tbody > tr:has(th, td)");
-
             king.setName(name.text());
             king.setUrl(kingLink.attr("href"));
             king.setDescription(description);

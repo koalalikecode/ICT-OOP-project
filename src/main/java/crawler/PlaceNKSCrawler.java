@@ -36,9 +36,9 @@ public class PlaceNKSCrawler extends Crawler {
         try {
             // Fetching the target website
             doc = Jsoup.connect(getWebLink() + url)
-                        .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36")
-                        .header("Accept-Language", "*")
-                        .get();
+                    .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36")
+                    .header("Accept-Language", "*")
+                    .get();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -54,19 +54,22 @@ public class PlaceNKSCrawler extends Crawler {
             try {
                 // Fetching the target website
                 doc2 = Jsoup.connect(getWebLink() + placeLink.attr("href"))
-                            .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36")
-                            .header("Accept-Language", "*")
-                            .get();
+                        .userAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36")
+                        .header("Accept-Language", "*")
+                        .get();
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
 
             Elements name = doc2.select(".page-header h2");
+            if(doc2.select("img").size()>0) {
+                if(!doc2.selectFirst("img").attr("data-src").equals(""))placeItem.setImageUrl(getWebLink()+doc2.selectFirst("img").attr("data-src"));
+                else placeItem.setImageUrl(null);
+            }
+            else placeItem.setImageUrl(null);
             List<JSONObject> connect = scapeMoreConnection(doc2, "div.com-content-article__body a.annotation");
             String description = scrapeDescription(doc2, "div.com-content-article__body > p:first-of-type");
             JSONObject placeInfo = scrapeInfoBox(doc2, "table.infobox > tbody > tr");
-
-
             placeItem.setName(name.text());
             placeItem.setUrl(placeLink.attr("href"));
             placeItem.setDescription(description);

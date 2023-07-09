@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.util.Set;
 
 public class FestivalExecData {
-        private String dataJson = "data/final.json";
+        private String dataJson = "processed_data/final.json";
         private List<Festival> festivals;
         private List<String> hyperlinkTexts;
 
@@ -36,7 +36,6 @@ public class FestivalExecData {
 
         public FestivalExecData(List<Festival> festivals) {
                 this.festivals = festivals;
-//        this.hyperlinkTexts = getHyperlinkTexts(festivals);
         }
 
         public ObservableList<Festival> getObservableFestivalList(List<Festival> festivals) {

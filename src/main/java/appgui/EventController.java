@@ -11,10 +11,14 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
+import javafx.scene.text.Font;
 import javafx.scene.text.Text;
+import javafx.scene.text.TextAlignment;
 import javafx.scene.text.TextFlow;
 import javafx.scene.layout.AnchorPane;
 
@@ -34,7 +38,7 @@ import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
 public class EventController implements Initializable {
-    private final String dataJson = "data/final.json";
+    private final String dataJson = "processed_data/final.json";
     private JSONObject eventInfoBox;
     private List<JSONObject> eventConnectionBox;
 
@@ -124,18 +128,36 @@ public class EventController implements Initializable {
     }
     private void displaySelectionInfo(Event eventSelection, EventExecData execDataEvent) {
         labelName.setText("" + eventSelection.getName());
+        labelName.setWrapText(true);
+        labelName.setTextAlignment(TextAlignment.JUSTIFY);
+        labelName.setMaxWidth(infoAnchorPane.getPrefWidth());
+
         infoAnchorPane.getChildren().clear();
 
         TextFlow textFlow = new TextFlow();
+
+//        Add image view
+        if (eventSelection.getImageUrl() != null){
+            ImageView imageView = new ImageView();
+            Image image = new Image(eventSelection.getImageUrl());
+            imageView.setPreserveRatio(true);
+            imageView.setFitWidth(infoAnchorPane.getPrefWidth() - 20 );
+            imageView.setImage(image);
+
+            textFlow.setTextAlignment(TextAlignment.CENTER);
+            textFlow.getChildren().add(imageView);
+        }
+
         String eventDescription = eventSelection.getDescription();
 
         textFlow.setPrefWidth(infoAnchorPane.getPrefWidth());
         textFlow.setMaxWidth(infoAnchorPane.getPrefWidth());
-        Text text = new Text(eventDescription);
+        Text text = new Text("\n"+eventDescription);
         textFlow.getChildren().add(text);
         textFlow.getChildren().add(new Text("\n"));
 
-        Text infoStart = new Text("\nThông tin chi tiết của " + eventSelection.getName());
+        Text infoStart = new Text("\nThông tin chi tiết của " + eventSelection.getName() + ":");
+        infoStart.setFont(new Font(16));
         textFlow.getChildren().add(infoStart);
         infoAnchorPane.getChildren().add(textFlow);
 
@@ -151,7 +173,7 @@ public class EventController implements Initializable {
             infoItem.setPrefHeight(0);
             infoItem.setPrefHeight(0);
             infoItem.setAlignment(Pos.CENTER_LEFT);
-            Label infoKey = new Label(key + ": ");
+            Label infoKey = new Label("\u2023 " + key + ": ");
             infoItem.getChildren().add(infoKey);
             if (!(eventInfoBox.get(key) instanceof String)) {
                 JSONObject value = eventInfoBox.getJSONObject(key);
@@ -165,6 +187,7 @@ public class EventController implements Initializable {
                         try {
                             LinkController.setSelectedObject(link.getText(), fieldName);
                             Stage stage = (Stage) link.getScene().getWindow();
+                            System.out.println(value.getString("name") + fieldName + sceneName);
                             Parent root = FXMLLoader.load(getClass().getResource(sceneName));
                             Scene newScene = new Scene(root);
                             stage.setScene(newScene);

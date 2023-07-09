@@ -17,9 +17,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
+import javafx.scene.text.TextAlignment;
 import javafx.scene.text.TextFlow;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Font;
@@ -40,7 +43,7 @@ import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
 public class PlaceController implements Initializable {
-    private final String dataJson = "data/final.json";
+    private final String dataJson = "processed_data/final.json";
     private JSONObject placeInfoBox;
     private List<JSONObject> placeConnectionBox;
 
@@ -129,11 +132,25 @@ public class PlaceController implements Initializable {
         infoAnchorPane.getChildren().clear();
 
         TextFlow textFlow = new TextFlow();
+
+//        Add image view
+        if (placeSelection.getImageUrl() != null){
+            ImageView imageView = new ImageView();
+            Image image = new Image(placeSelection.getImageUrl());
+            imageView.setPreserveRatio(true);
+            imageView.setFitWidth(infoAnchorPane.getPrefWidth() - 20 );
+            imageView.setImage(image);
+
+            textFlow.setTextAlignment(TextAlignment.CENTER);
+            textFlow.getChildren().add(imageView);
+        }
+
+
         String placeDescription = placeSelection.getDescription();
 
         textFlow.setPrefWidth(infoAnchorPane.getPrefWidth());
         textFlow.setMaxWidth(infoAnchorPane.getPrefWidth());
-        Text text = new Text(placeDescription);
+        Text text = new Text("\n" + placeDescription);
         textFlow.getChildren().add(text);
         textFlow.getChildren().add(new Text("\n"));
 
@@ -155,35 +172,43 @@ public class PlaceController implements Initializable {
             infoItem.setPrefHeight(0);
             infoItem.setPrefHeight(0);
             infoItem.setAlignment(Pos.CENTER_LEFT);
-            JSONObject value = placeInfoBox.getJSONObject(key);
+            Object Value = placeInfoBox.get(key);
 
-            Label infoKey = new Label(key + ": ");
+            Label infoKey = new Label("\u2023 " + key + ": ");
             infoItem.getChildren().add(infoKey);
-            if (value.has("name") && value.has("url")) {
-                String fieldName = execDataPlace.dataSearchField(value.getString("name"));
-                String sceneName = sceneFromField(fieldName);
-                Hyperlink link = new Hyperlink(value.getString("name"));
-                link.setWrapText(true);
-                link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
-                link.setOnAction(event -> {
-                    try {
-                        LinkController.setSelectedObject(link.getText(), fieldName);
-                        Stage stage = (Stage) link.getScene().getWindow();
-                        System.out.println(sceneName);
-                        Parent root = FXMLLoader.load(getClass().getResource(sceneName));
-                        Scene newScene = new Scene(root);
-                        stage.setScene(newScene);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                });
-                infoItem.getChildren().add(link);
-            } else if(value.has("name")) {
-                Label link = new Label(value.getString("name"));
-                link.setWrapText(true);
-                link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
-                infoItem.getChildren().add(link);
+            if (Value instanceof JSONObject){
+                JSONObject value = (JSONObject) Value;
+                if (value.has("name") && value.has("url")) {
+                    String fieldName = execDataPlace.dataSearchField(value.getString("name"));
+                    String sceneName = sceneFromField(fieldName);
+                    Hyperlink link = new Hyperlink(value.getString("name"));
+                    link.setWrapText(true);
+                    link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
+                    link.setOnAction(event -> {
+                        try {
+                            LinkController.setSelectedObject(link.getText(), fieldName);
+                            Stage stage = (Stage) link.getScene().getWindow();
+                            Parent root = FXMLLoader.load(getClass().getResource(sceneName));
+                            Scene newScene = new Scene(root);
+                            stage.setScene(newScene);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    });
+                    infoItem.getChildren().add(link);
+                } else if(value.has("name")) {
+                    Label link = new Label(value.getString("name"));
+                    link.setWrapText(true);
+                    link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
+                    infoItem.getChildren().add(link);
+                }
+            } else {
+                Label infoValue = new Label(Value.toString());
+                infoValue.setWrapText(true);
+                infoValue.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
+                infoItem.getChildren().add(infoValue);
             }
+
             contentContainer.getChildren().add(infoItem);
         }
         Text connectionStart = new Text("Xem thêm");
@@ -210,7 +235,6 @@ public class PlaceController implements Initializable {
                             try {
                                 LinkController.setSelectedObject(link.getText(), fieldName);
                                 Stage stage = (Stage) link.getScene().getWindow();
-                                System.out.println(sceneName);
                                 Parent root = FXMLLoader.load(getClass().getResource(sceneName));
                                 Scene newScene = new Scene(root);
                                 stage.setScene(newScene);

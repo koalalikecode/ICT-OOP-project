@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.util.Set;
 
 public class CharacterExecData {
-    private String dataJson = "data/final.json";
+    private String dataJson = "processed_data/final.json";
     private List<Character> characters;
     private List<String> hyperlinkTexts;
 
@@ -36,7 +36,6 @@ public class CharacterExecData {
 
     public CharacterExecData(List<Character> characters) {
         this.characters = characters;
-        this.hyperlinkTexts = getHyperlinkTexts(characters);
     }
 
     public ObservableList<Character> getObservableCharacterList(List<Character> characters) {
@@ -155,19 +154,37 @@ public class CharacterExecData {
 
             String id = jsonCharacter.getString("id");
             String name = jsonCharacter.getString("name");
-            String description = jsonCharacter.getString("description");
-            String url = jsonCharacter.getString("url");
+            String description = jsonCharacter.has("description") ? jsonCharacter.getString("description") : "";
+            String url = jsonCharacter.has("url") ? jsonCharacter.getString("url") : null;
+            String imageURL = jsonCharacter.has("imageUrl") ? jsonCharacter.getString("imageUrl") : null;
             JSONObject info = jsonCharacter.getJSONObject("info");
-            JSONArray jsonConnections = jsonCharacter.getJSONArray("connection");
 
+            JSONArray jsonConnections = null;
             List<JSONObject> connections = new ArrayList<>();
-            for (int j = 0; j < jsonConnections.length(); j++) {
-                JSONObject jsonConnection = jsonConnections.getJSONObject(j);
-                connections.add(jsonConnection);
+            if (jsonCharacter.has("connection")){
+                jsonConnections = jsonCharacter.getJSONArray("connection");
+                for (int j = 0; j < jsonConnections.length(); j++) {
+                    JSONObject jsonConnection = jsonConnections.getJSONObject(j);
+                    connections.add(jsonConnection);
+                }
             }
 
-            Character character = new Character(name, description, url, info, connections);
+            Character character = new Character(name, description, url, info, connections, imageURL);
             characters.add(character);
+//            if (!jsonCharacter.has("imageURL")) {
+//                characters.add(new Character(name, description, url, info, connections, imageURL));
+//            } else if (!jsonCharacter.has("imageURL") && !jsonCharacter.has("description") && !jsonCharacter.has("url") && !jsonCharacter.has("connections")) {
+//                characters.add(new Character(name, description, url, info, connections, imageURL));
+//            } else {
+//                description = jsonCharacter.getString("description");
+//                url = jsonCharacter.getString("url");
+//                imageURL = jsonCharacter.getString("imageURL");
+//                for (int j = 0; j < jsonConnections.length(); j++) {
+//                    JSONObject jsonConnection = jsonConnections.getJSONObject(j);
+//                    connections.add(jsonConnection);
+//                }
+//                characters.add(new Character(name, description, url, info, connections, imageURL));
+//            }
         }
         return characters;
     }

@@ -60,10 +60,9 @@ public class EventsNKSCrawler extends Crawler{
             List<JSONObject> moreEvent = scapeMoreConnection(doc2, "div.com-content-article__body a.annotation");
             String description = scrapeDescription(doc2, "div.com-content-article__body > p:first-of-type");
             JSONObject eventInfo = scrapeInfoEvent1(doc2);
-            //System.out.println(doc2.text());
-            //JSONObject eventInfo2 = scrapeInfoEvent2(doc2, "table > tbody > tr > td > table > tbody >tr");
-            //JSONObject eventInfo = new JSONObject();
-           // eventInfo.put("",eventInfo1);
+            if(doc2.select("div>img").size()>0) {
+                if(!doc2.selectFirst("div>img").attr("data-src").equals(""))eventItem.setImageUrl(getWebLink()+doc2.selectFirst("div>img").attr("data-src"));
+            }else eventItem.setImageUrl(null);
             eventItem.setName(name.text());
             eventItem.setUrl(EventLink.attr("href"));
             eventItem.setInfo(eventInfo);

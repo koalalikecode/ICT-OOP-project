@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.util.Set;
 
 public class PlaceExecData {
-    private String dataJson = "data/final.json";
+    private String dataJson = "processed_data/final.json";
     private List<Place> places;
     private List<String> hyperlinkTexts;
 
@@ -36,7 +36,6 @@ public class PlaceExecData {
 
     public PlaceExecData(List<Place> places) {
         this.places = places;
-        this.hyperlinkTexts = getHyperlinkTexts(places);
     }
 
     public ObservableList<Place> getObservablePlaceList(List<Place> places) {
@@ -155,18 +154,26 @@ public class PlaceExecData {
 
             String id = jsonPlace.getString("id");
             String name = jsonPlace.getString("name");
-            String description = jsonPlace.getString("description");
-            String url = jsonPlace.getString("url");
+            String description = jsonPlace.has("description") ? jsonPlace.getString("description") : "";
+            String url = jsonPlace.has("url") ? jsonPlace.getString("url") : null;
+            String imageURL = jsonPlace.has("imageUrl") ? jsonPlace.getString("imageUrl") : null;
+            String imageUrl = null;
+            if (imageURL != null){
+                imageUrl = imageURL.replace("\\","/");
+            }
             JSONObject info = jsonPlace.getJSONObject("info");
-            JSONArray jsonConnections = jsonPlace.getJSONArray("connection");
 
+            JSONArray jsonConnections = null;
             List<JSONObject> connections = new ArrayList<>();
-            for (int j = 0; j < jsonConnections.length(); j++) {
-                JSONObject jsonConnection = jsonConnections.getJSONObject(j);
-                connections.add(jsonConnection);
+            if (jsonPlace.has("connection")){
+                jsonConnections = jsonPlace.getJSONArray("connection");
+                for (int j = 0; j < jsonConnections.length(); j++) {
+                    JSONObject jsonConnection = jsonConnections.getJSONObject(j);
+                    connections.add(jsonConnection);
+                }
             }
 
-            Place place = new Place(name, description, url, info, connections);
+            Place place = new Place(name, description, url, info, connections, imageUrl);
             places.add(place);
         }
         return places;

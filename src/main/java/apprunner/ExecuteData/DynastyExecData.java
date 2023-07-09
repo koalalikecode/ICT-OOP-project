@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.util.Set;
 
 public class DynastyExecData {
-    private String dataJson = "data/final.json";
+    private String dataJson = "processed_data/final.json";
     private List<Dynasty> dynasties;
     private List<String> hyperlinkTexts;
 
@@ -155,15 +155,18 @@ public class DynastyExecData {
 
             String id = jsonDynasty.getString("id");
             String name = jsonDynasty.getString("name");
-            String description = jsonDynasty.getString("description");
-            String url = jsonDynasty.getString("url");
+            String description = jsonDynasty.has("description") ? jsonDynasty.getString("description") : "";
+            String url = jsonDynasty.has("url") ? jsonDynasty.getString("url") : null;
             JSONObject info = jsonDynasty.getJSONObject("info");
-            JSONArray jsonConnections = jsonDynasty.getJSONArray("connection");
 
+            JSONArray jsonConnections = null;
             List<JSONObject> connections = new ArrayList<>();
-            for (int j = 0; j < jsonConnections.length(); j++) {
-                JSONObject jsonConnection = jsonConnections.getJSONObject(j);
-                connections.add(jsonConnection);
+            if (jsonDynasty.has("connection")){
+                jsonConnections = jsonDynasty.getJSONArray("connection");
+                for (int j = 0; j < jsonConnections.length(); j++) {
+                    JSONObject jsonConnection = jsonConnections.getJSONObject(j);
+                    connections.add(jsonConnection);
+                }
             }
 
             Dynasty dynasty = new Dynasty(name, description, url, info, connections);

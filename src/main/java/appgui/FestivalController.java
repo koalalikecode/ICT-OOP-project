@@ -41,7 +41,7 @@ import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
 public class FestivalController implements Initializable {
-    private final String dataJson = "data/final.json";
+    private final String dataJson = "processed_data/final.json";
     private JSONObject festivalInfoBox;
 
     //    Menu Buttons
@@ -160,7 +160,7 @@ public class FestivalController implements Initializable {
 
             String value = festivalInfoBox.getString(key);
 
-            Label infoKey = new Label(key + " ");
+            Label infoKey = new Label("\u2023 " + key + ": ");
             infoItem.getChildren().add(infoKey);
             if (value != null) {
                 String fieldName = execDataFestival.dataSearchField(value);

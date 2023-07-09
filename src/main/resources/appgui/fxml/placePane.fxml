@@ -6,9 +6,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="837.0" style="-fx-background-color: #F5EDE4;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.PlaceController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="524.0" prefWidth="876.0" style="-fx-background-color: #F5EDE4; -fx-border-color: #664229; -fx-border-width: 1;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.PlaceController">
    <left>
-      <AnchorPane prefHeight="471.0" prefWidth="167.0" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="471.0" prefWidth="175.0" style="-fx-border-style: solid solid solid solid; -fx-border-insets: -2; -fx-border-color: #664229;" BorderPane.alignment="CENTER">
          <children>
             <Label layoutX="14.0" layoutY="27.0" style="-fx-font-weight: bold;" text="VIETNAMESE">
                <font>
@@ -27,12 +27,12 @@
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnCharacter" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="70.0" prefWidth="136.0" style="-fx-text-fill: #005B4B; -fx-underline: true;" text="CHARACTER">
+                  <Button fx:id="btnCharacter" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="70.0" prefWidth="136.0" text="CHARACTER">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnPlace" layoutX="10.0" layoutY="64.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="70.0" prefWidth="136.0" text="PLACE">
+                  <Button fx:id="btnPlace" layoutX="10.0" layoutY="64.0" mnemonicParsing="false" onAction="#addSceneSwitchingHandler" prefHeight="70.0" prefWidth="136.0" style="-fx-text-fill: #005B4B; -fx-underline: true;" text="PLACE">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
