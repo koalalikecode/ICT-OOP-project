@@ -1,5 +1,6 @@
-package appgui;
+package appgui.controller;
 
+import javafx.animation.PauseTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -12,6 +13,7 @@ import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 import java.io.File;
 import java.io.IOException;
@@ -32,25 +34,24 @@ public class StartController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         File file = new File("src/main/resources/appgui/Video/Intro.mp4");
+        startButton.setVisible(false);
+        PauseTransition pause = new PauseTransition(Duration.seconds(5));
+        pause.setOnFinished(event -> startButton.setVisible(true));
+        pause.play();
         Media media = new Media(file.toURI().toString());
         mediaPlayer = new MediaPlayer(media);
         mediaView.setMediaPlayer(mediaPlayer);
         mediaPlayer.play();
-//        mediaPlayer = new MediaPlayer(media);
-//        mediaPlayer.play();
-//        mediaView.setMediaPlayer(mediaPlayer);
     }
     @FXML
     private void StartView(javafx.event.ActionEvent event) throws IOException {
         mediaPlayer.stop();
-        System.out.println("Hello");
         Stage stage = (Stage) startButton.getScene().getWindow();
 
-        Parent root = FXMLLoader.load(getClass().getResource("fxml/characterPane.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/appgui/fxml/characterPane.fxml"));
         Scene sc = new Scene(root);
-//        stage.initStyle(StageStyle.UNDECORATED);
 
-        String css = this.getClass().getResource("css/styles.css").toExternalForm();
+        String css = this.getClass().getResource("/appgui/css/styles.css").toExternalForm();
         sc.getStylesheets().add(css);
         root.setOnMousePressed(lamda -> {
             x = lamda.getSceneX();

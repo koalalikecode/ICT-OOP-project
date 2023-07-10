@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1067.0" style="-fx-background-color: #F5EDE4; -fx-border-color: #664229; -fx-border-width: 1;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.FestivalController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1067.0" style="-fx-background-color: #F5EDE4; -fx-border-color: #664229; -fx-border-width: 1;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.controller.FestivalController">
    <left>
       <AnchorPane prefHeight="471.0" prefWidth="175.0" style="-fx-border-style: solid solid solid solid; -fx-border-insets: -2; -fx-border-color: #664229;" BorderPane.alignment="CENTER">
          <children>
@@ -63,7 +63,7 @@
    <right>
       <AnchorPane prefHeight="598.0" prefWidth="243.0" BorderPane.alignment="CENTER">
          <children>
-            <TableView fx:id="tbvFestivals" layoutY="77.0" prefHeight="509.0" prefWidth="232.0" style="-fx-background-color: transparent;" stylesheets="@../css/styles.css">
+            <TableView fx:id="tbv" layoutY="77.0" prefHeight="509.0" prefWidth="232.0" style="-fx-background-color: transparent;" stylesheets="@../css/styles.css">
                <columns>
                   <TableColumn fx:id="tbcName" minWidth="0.0" prefWidth="230.85714280605316" text="Name" />
                </columns>

@@ -1,7 +1,8 @@
-package apprunner.executeData;
+package apprunner.executedata;
 
 import historyobject.Event;
 
+import historyobject.HistoryObject;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import javafx.collections.FXCollections;
@@ -17,28 +18,12 @@ import java.io.IOException;
 import java.util.Set;
 
 public class EventExecData extends ExecuteData{
-    private String dataJson = "processed_data/final.json";
-    private List<Event> events;
-    private List<String> hyperlinkTexts;
 
-    public List<Event> getEvents() {
-        return events;
+    public EventExecData(List<HistoryObject> events) {
+        this.historyObjects = events;
     }
 
-    public void setEvents(List<Event> events) {
-        this.events = events;
-    }
-
-    public void setHyperlinkTexts(List<String> hyperlinkTexts) {
-        this.hyperlinkTexts = hyperlinkTexts;
-    }
-
-
-    public EventExecData(List<Event> events) {
-        this.events = events;
-    }
-
-    public ObservableList<Event> getObservableEventList(List<Event> events) {
+    public ObservableList<HistoryObject> getObservableEventList(List<HistoryObject> events) {
         return FXCollections.observableArrayList(events);
     }
 
@@ -46,8 +31,8 @@ public class EventExecData extends ExecuteData{
         return hyperlinkTexts;
     }
 
-    public Event searchByName(String name) {
-        for (Event event : events) {
+    public HistoryObject searchByName(String name) {
+        for (HistoryObject event : historyObjects) {
             if (event.getName().equalsIgnoreCase(name)) {
                 return event;
             }
@@ -55,9 +40,9 @@ public class EventExecData extends ExecuteData{
         return null;
     }
 
-    public JSONObject getInfoBoxByName(List<Event> events, String name) {
+    public JSONObject getInfoBoxByName(List<HistoryObject> events, String name) {
         JSONObject info = null;
-        for (Event event : events) {
+        for (HistoryObject event : events) {
             if (event.getName().equalsIgnoreCase(name)) {
                 info = event.getInfo();
                 return info;
@@ -66,10 +51,10 @@ public class EventExecData extends ExecuteData{
         return info;
     }
 
-    public List<JSONObject> getConnectionBoxByName(List<Event> events, String name) {
+    public List<JSONObject> getConnectionBoxByName(List<HistoryObject> events, String name) {
         List<JSONObject> connections = new ArrayList<>();
         StringBuilder result = new StringBuilder();
-        for (Event event : events) {
+        for (HistoryObject event : events) {
             if (event.getName().equalsIgnoreCase(name)) {
                 result.append("Connections:\n");
                 connections = event.getConnection();
@@ -80,8 +65,8 @@ public class EventExecData extends ExecuteData{
 
     public List<String> getHyperTextLinksBy(int index) {
         List<String> hyperTextLinks = new ArrayList<>();
-        if (index >= 0 && index < events.size()) {
-            Event event = events.get(index);
+        if (index >= 0 && index < historyObjects.size()) {
+            HistoryObject event = historyObjects.get(index);
             JSONObject info = event.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
@@ -96,8 +81,8 @@ public class EventExecData extends ExecuteData{
         return hyperTextLinks;
     }
     public void printEvents() {
-        for (int i = 0; i < events.size(); i++) {
-            Event event = events.get(i);
+        for (int i = 0; i < historyObjects.size(); i++) {
+            HistoryObject event = historyObjects.get(i);
             System.out.println("====================================================");
             System.out.println("Event " + (i + 1));
             System.out.println("Event Name: " + event.getName());
@@ -142,12 +127,12 @@ public class EventExecData extends ExecuteData{
     }
 
     //    Read the final.json to scan event
-    public static List<Event> loadEvents(String filePath) throws IOException {
+    public static List<HistoryObject> loadEvents(String filePath) throws IOException {
         String json = new String(Files.readAllBytes(Paths.get(filePath)));
         JSONObject jsonData = new JSONObject(json);
         JSONArray jsonArray = jsonData.getJSONArray("Event");
 
-        List<Event> events = new ArrayList<>();
+        List<HistoryObject> events = new ArrayList<>();
 
         for (int i = 0; i < jsonArray.length(); i++) {
             JSONObject jsonEvent = jsonArray.getJSONObject(i);
@@ -169,7 +154,7 @@ public class EventExecData extends ExecuteData{
                 }
             }
 
-            Event event = new Event(name, description, url, info, connections, imageURL);
+            HistoryObject event = new Event(name, description, url, info, connections, imageURL);
             events.add(event);
         }
         return events;
@@ -177,7 +162,7 @@ public class EventExecData extends ExecuteData{
 
     public String listDataByName(String name) {
         StringBuilder result = new StringBuilder();
-        Event event = searchByName(name);
+        HistoryObject event = searchByName(name);
         result.append("Name: ").append(event.getName()).append("\n");
         result.append("Description: ").append(event.getDescription()).append("\n");
         result.append("URL: ").append(event.getUrl()).append("\n");
