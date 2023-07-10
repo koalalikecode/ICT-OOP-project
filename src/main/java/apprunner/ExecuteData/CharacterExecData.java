@@ -2,6 +2,7 @@ package apprunner.ExecuteData;
 
 import historyobject.Character;
 
+import historyobject.HistoryObject;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import javafx.collections.FXCollections;
@@ -158,6 +159,12 @@ public class CharacterExecData {
             String description = jsonCharacter.has("description") ? jsonCharacter.getString("description") : "";
             String url = jsonCharacter.has("url") ? jsonCharacter.getString("url") : null;
             String imageURL = jsonCharacter.has("imageUrl") ? jsonCharacter.getString("imageUrl") : null;
+            String imageUrl = null;
+            if (imageURL != null && !imageURL.startsWith("https:")){
+                imageUrl = "https:" + imageURL;
+            } else if (imageURL != null) {
+                imageUrl = imageURL;
+            }
             JSONObject info = jsonCharacter.getJSONObject("info");
 
             JSONArray jsonConnections = null;
@@ -170,7 +177,7 @@ public class CharacterExecData {
                 }
             }
 
-            Character character = new Character(name, description, url, info, connections, imageURL);
+            Character character = new Character(name, description, url, info, connections, imageUrl);
             characters.add(character);
 //            if (!jsonCharacter.has("imageURL")) {
 //                characters.add(new Character(name, description, url, info, connections, imageURL));

@@ -25,7 +25,7 @@ public class ProcessingRunner {
 //        eventProcess2.processAndSave();
 //        placeProcess.processAndSave();
 //        placeProcess2.processAndSave();
-//        festivalProcess.processAndSave();
+        festivalProcess.processAndSave();
 //        dynastyProcess.processAndSave();
     }
 

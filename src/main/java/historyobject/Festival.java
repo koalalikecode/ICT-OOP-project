@@ -5,62 +5,29 @@ import java.util.List;
 
 import org.json.JSONObject;
 
-public class Festival {
-    private String name;
-    private String url;
-    private JSONObject info;
-    private String description;
-    private List<JSONObject> connection;
-    private String imageUrl;
+public class Festival extends HistoryObject{
+    private String connect;
+
     public Festival() {
         info = new JSONObject();
     }
-    public Festival(String name, JSONObject info, String description) {
-        this.name = name;
-        this.info = info;
-        this.description = description;
-    }
 
-    public String getName() {
-        return name;
+
+    public String getConnect() {
+        return connect;
     }
-    public void setName(String name) {
-        this.name = name;
-    }
-    public String getUrl() {
-        return url;
-    }
-    public void setUrl(String url) {
-        this.url = url;
-    }
-    public JSONObject getInfo() {
-        return info;
-    }
-    public void setInfo(JSONObject info) {
-        this.info = info;
-    }
-    public String getDescription() {
-        return description;
-    }
-    public void setDescription(String description) {
-        this.description = description;
-    }
-    public List<JSONObject> getConnection() {
-        return connection;
-    }
-    public void setConnection(List<JSONObject> connection) {
-        this.connection = connection;
+    public void setConnect(String connect) {
+        this.connect = connect;
     }
     public Collection<?> toJSONObject() {
         // TODO Auto-generated method stub
         return null;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
-    }
-
-    public void setImageUrl(String imageUrl) {
+    public Festival(String name, JSONObject info, String description, String imageUrl) {
+        this.name = name;
+        this.info = info;
+        this.description = description;
         this.imageUrl = imageUrl;
     }
 }

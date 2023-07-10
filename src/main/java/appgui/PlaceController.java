@@ -42,43 +42,7 @@ import java.util.List;
 import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
-public class PlaceController implements Initializable {
-    private final String dataJson = "processed_data/final.json";
-    private JSONObject placeInfoBox;
-    private List<JSONObject> placeConnectionBox;
-
-    //    Menu Buttons
-    @FXML
-    private Button btnCharacter;
-    @FXML
-    private Button btnDynasty;
-    @FXML
-    private Button btnEvent;
-    @FXML
-    private Button btnFestival;
-    @FXML
-    private Button btnPlace;
-
-
-    //    Scenes
-    private Scene sceneCharacter;
-    private Scene sceneDynasty;
-    private Scene sceneEvent;
-    private Scene sceneFestival;
-    private Scene scenePlace;
-
-
-
-    //    Search Place
-    @FXML
-    private TextField searchPlace;
-
-    @FXML
-    private ScrollPane infoScrollPane;
-    @FXML
-    private Label labelName;
-    @FXML
-    private AnchorPane infoAnchorPane;
+public class PlaceController extends Controller {
 
     //    TableView for Place in All Place Tab
     @FXML
@@ -98,7 +62,7 @@ public class PlaceController implements Initializable {
             dataPlace = FXCollections.observableArrayList(placeList);
             tbvPlaces.setItems(dataPlace);
 
-            searchPlace.setOnKeyReleased(event -> searchPlace());
+            search.setOnKeyReleased(event -> searchPlace());
 
             LinkController.selectedPlace = execDataPlace.searchByName(LinkController.selectedPlaceName);
 
@@ -159,20 +123,20 @@ public class PlaceController implements Initializable {
         textFlow.getChildren().add(infoStart);
         infoAnchorPane.getChildren().add(textFlow);
 
-        placeInfoBox = execDataPlace.getInfoBoxByName(placeList, placeSelection.getName());
-        placeConnectionBox = execDataPlace.getConnectionBoxByName(placeList, placeSelection.getName());
+        objectInfoBox = execDataPlace.getInfoBoxByName(placeList, placeSelection.getName());
+        connectionBox = execDataPlace.getConnectionBoxByName(placeList, placeSelection.getName());
 
         VBox contentContainer = new VBox(10);
         contentContainer.setPadding(new Insets(10));
         contentContainer.getChildren().add(textFlow);
 
 
-        for (String key : placeInfoBox.keySet()) {
+        for (String key : objectInfoBox.keySet()) {
             HBox infoItem = new HBox();
             infoItem.setPrefHeight(0);
             infoItem.setPrefHeight(0);
             infoItem.setAlignment(Pos.CENTER_LEFT);
-            Object Value = placeInfoBox.get(key);
+            Object Value = objectInfoBox.get(key);
 
             Label infoKey = new Label("\u2023 " + key + ": ");
             infoItem.getChildren().add(infoKey);
@@ -216,9 +180,9 @@ public class PlaceController implements Initializable {
         contentContainer.getChildren().add(connectionStart);
 
 //      Add the connections of the Place
-        if (placeConnectionBox != null) {
-            if (!placeConnectionBox.isEmpty()) {
-                for (JSONObject connection : placeConnectionBox) {
+        if (connectionBox != null) {
+            if (!connectionBox.isEmpty()) {
+                for (JSONObject connection : connectionBox) {
                     HBox infoItem = new HBox();
                     infoItem.setPrefHeight(0);
                     infoItem.setAlignment(Pos.CENTER_LEFT);
@@ -316,7 +280,7 @@ public class PlaceController implements Initializable {
     }
 
     private void searchPlace() {
-        String searchQuery = searchPlace.getText().trim().toLowerCase();
+        String searchQuery = search.getText().trim().toLowerCase();
         if (searchQuery.isEmpty()) {
             tbvPlaces.setItems(dataPlace);
         } else {

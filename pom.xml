@@ -55,6 +55,11 @@
             <artifactId>selenium-chrome-driver</artifactId>
             <version>4.10.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-media</artifactId>
+            <version>20</version>
+        </dependency>
 
     </dependencies>
 

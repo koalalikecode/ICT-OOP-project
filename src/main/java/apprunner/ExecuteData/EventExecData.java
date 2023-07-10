@@ -17,7 +17,7 @@ import java.nio.file.Paths;
 import java.io.IOException;
 import java.util.Set;
 
-public class EventExecData {
+public class EventExecData extends ExecuteData{
     private String dataJson = "processed_data/final.json";
     private List<Event> events;
     private List<String> hyperlinkTexts;
