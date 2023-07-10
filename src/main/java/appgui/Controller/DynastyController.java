@@ -4,10 +4,10 @@
  */
 
 
-package appgui;
+package appgui.Controller;
 
-import apprunner.ExecuteData.CharacterExecData;
-import historyobject.Character;
+import apprunner.ExecuteData.DynastyExecData;
+import historyobject.Dynasty;
 
 import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
@@ -16,13 +16,12 @@ import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.scene.text.*;
-import javafx.scene.layout.AnchorPane;
+import javafx.scene.text.Text;
+import javafx.scene.text.TextAlignment;
+import javafx.scene.text.TextFlow;
+import javafx.scene.text.Font;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -38,42 +37,42 @@ import java.util.List;
 import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
-public class CharacterController extends Controller {
+public class DynastyController extends Controller {
 
-    //    TableView for Character in All Character Tab
+    //    TableView for Dynasty in All Dynasty Tab
     @FXML
-    private TableView<Character> tbvCharacters;
+    private TableView<Dynasty> tbvDynastys;
     @FXML
-    private TableColumn<Character, String> tbcName;
-    private ObservableList<Character> dataCharacter = FXCollections.observableArrayList();
-    private List<Character> characterList;
+    private TableColumn<Dynasty, String> tbcName;
+    private ObservableList<Dynasty> dataDynasty = FXCollections.observableArrayList();
+    private List<Dynasty> dynastyList;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
 
-            characterList = CharacterExecData.loadCharacters(dataJson);
-            CharacterExecData execDataCharacter = new CharacterExecData(characterList);
-            tbcName.setCellValueFactory(new PropertyValueFactory<Character, String>("name"));
-            dataCharacter = FXCollections.observableArrayList(characterList);
-            tbvCharacters.setItems(dataCharacter);
+            dynastyList = DynastyExecData.loadDynasties(dataJson);
+            DynastyExecData execDataDynasty = new DynastyExecData(dynastyList);
+            tbcName.setCellValueFactory(new PropertyValueFactory<Dynasty, String>("name"));
+            dataDynasty = FXCollections.observableArrayList(dynastyList);
+            tbvDynastys.setItems(dataDynasty);
 
-            search.setOnKeyReleased(event -> searchCharacter());
+            search.setOnKeyReleased(event -> searchDynasty());
 
-            LinkController.selectedCharacter = execDataCharacter.searchByName(LinkController.selectedCharacterName);
+            LinkController.selectedDynasty = execDataDynasty.searchByName(LinkController.selectedDynastyName);
 
 //            Initialize selected object every Controller
-            if (LinkController.selectedCharacterName == null){
-                LinkController.selectedCharacter = characterList.get(0);
-                displaySelectionInfo(LinkController.selectedCharacter, execDataCharacter);
-                selectCellByValue(LinkController.selectedCharacter.getName());
-            } else if (LinkController.selectedCharacterName != null) {
-                displaySelectionInfo(LinkController.selectedCharacter, execDataCharacter);
-                selectCellByValue(LinkController.selectedCharacter.getName());
+            if (LinkController.selectedDynastyName == null){
+                LinkController.selectedDynasty = dynastyList.get(0);
+                displaySelectionInfo(LinkController.selectedDynasty, execDataDynasty);
+                selectCellByValue(LinkController.selectedDynasty.getName());
+            } else if (LinkController.selectedDynastyName != null) {
+                displaySelectionInfo(LinkController.selectedDynasty, execDataDynasty);
+                selectCellByValue(LinkController.selectedDynasty.getName());
             }
 
-            tbvCharacters.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
-                updateSelectionInfo(newSelection, execDataCharacter);
+            tbvDynastys.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
+                updateSelectionInfo(newSelection, execDataDynasty);
             });
 
         } catch (IOException e) {
@@ -82,45 +81,35 @@ public class CharacterController extends Controller {
 
     }
 
-    private void updateSelectionInfo(Character characterSelection, CharacterExecData execDataCharacter) {
-        if (characterSelection != null) {
-            displaySelectionInfo(characterSelection, execDataCharacter);
+    private void updateSelectionInfo(Dynasty dynastySelection, DynastyExecData execDataDynasty) {
+        if (dynastySelection != null) {
+            displaySelectionInfo(dynastySelection, execDataDynasty);
         }
     }
-    private void displaySelectionInfo(Character characterSelection, CharacterExecData execDataCharacter) {
-        labelName.setText("" + characterSelection.getName());
+    private void displaySelectionInfo(Dynasty dynastySelection, DynastyExecData execDataDynasty) {
+        labelName.setText("" + dynastySelection.getName());
+        labelName.setWrapText(true);
+        labelName.setTextAlignment(TextAlignment.JUSTIFY);
+        labelName.setMaxWidth(infoAnchorPane.getPrefWidth());
 
         infoAnchorPane.getChildren().clear();
 
         TextFlow textFlow = new TextFlow();
-
-//        Add image view
-        if (characterSelection.getImageUrl() != null){
-            ImageView imageView = new ImageView();
-            Image image = new Image(characterSelection.getImageUrl(), true);
-            imageView.setPreserveRatio(true);
-            imageView.setFitWidth(infoAnchorPane.getPrefWidth() - 20 );
-            imageView.setImage(image);
-
-            textFlow.setTextAlignment(TextAlignment.CENTER);
-            textFlow.getChildren().add(imageView);
-        }
-
-        String characterDescription = characterSelection.getDescription();
+        String dynastyDescription = dynastySelection.getDescription();
 
         textFlow.setPrefWidth(infoAnchorPane.getPrefWidth());
         textFlow.setMaxWidth(infoAnchorPane.getPrefWidth());
-        Text text = new Text("\n"+characterDescription);
+        Text text = new Text(dynastyDescription);
         textFlow.getChildren().add(text);
         textFlow.getChildren().add(new Text("\n"));
 
-        Text infoStart = new Text("\nThông tin chi tiết của " + characterSelection.getName() + ":");
+        Text infoStart = new Text("\nThông tin chi tiết của " + dynastySelection.getName() + ":");
         infoStart.setFont(new Font(16));
         textFlow.getChildren().add(infoStart);
         infoAnchorPane.getChildren().add(textFlow);
 
-        objectInfoBox = execDataCharacter.getInfoBoxByName(characterList, characterSelection.getName());
-        connectionBox = execDataCharacter.getConnectionBoxByName(characterList, characterSelection.getName());
+        objectInfoBox = execDataDynasty.getInfoBoxByName(dynastyList, dynastySelection.getName());
+        connectionBox = execDataDynasty.getConnectionBoxByName(dynastyList, dynastySelection.getName());
 
         VBox contentContainer = new VBox(10);
         contentContainer.setPadding(new Insets(10));
@@ -131,41 +120,68 @@ public class CharacterController extends Controller {
             infoItem.setPrefHeight(0);
             infoItem.setPrefHeight(0);
             infoItem.setAlignment(Pos.CENTER_LEFT);
-            JSONObject value = objectInfoBox.getJSONObject(key);
+            Object Value = objectInfoBox.get(key);
 
-            Label infoKey = new Label("\u2023 " + key + ": ");
+            Label infoKey = new Label("\u2023 "+ key + ": ");
             infoItem.getChildren().add(infoKey);
-            if (value.has("name") && value.has("url")) {
-                String fieldName = execDataCharacter.dataSearchField(value.getString("name"));
-                String sceneName = sceneFromField(fieldName);
-                Hyperlink link = new Hyperlink(value.getString("name"));
-                link.setWrapText(true);
-                link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
-                link.setOnAction(event -> {
-                    try {
-                        LinkController.setSelectedObject(link.getText(), fieldName);
-                        Stage stage = (Stage) link.getScene().getWindow();
-                        Parent root = FXMLLoader.load(getClass().getResource(sceneName));
-                        Scene newScene = new Scene(root);
-                        stage.setScene(newScene);
-                    } catch (IOException e) {
-                        e.printStackTrace();
+
+            if (Value instanceof JSONObject){
+                JSONObject value = (JSONObject) Value;
+                if (value.has("name") && value.has("url")) {
+                    String fieldName = execDataDynasty.dataSearchField(value.getString("name"));
+                    String sceneName = sceneFromField(fieldName);
+                    Hyperlink link = new Hyperlink(value.getString("name"));
+                    link.setWrapText(true);
+                    link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
+                    link.setOnAction(event -> {
+                        try {
+                            LinkController.setSelectedObject(link.getText(), fieldName);
+                            Stage stage = (Stage) link.getScene().getWindow();
+                            Parent root = FXMLLoader.load(getClass().getResource(sceneName));
+                            Scene newScene = new Scene(root);
+                            stage.setScene(newScene);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    });
+                    infoItem.getChildren().add(link);
+                } else if(value.has("name")) {
+                    Label link = new Label(value.getString("name"));
+                    link.setWrapText(true);
+                    link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
+                    infoItem.getChildren().add(link);
+                } else {
+                    VBox componentPlace = new VBox(3);
+                    infoItem.setAlignment(Pos.TOP_LEFT);
+
+                    for (String valueKey : value.keySet()){
+                        HBox infoValue = new HBox();
+                        Label link = new Label("\t - " + valueKey + ": " );
+                        infoValue.getChildren().add(link);
+                        Label infovalue = new Label(value.getString(valueKey));
+                        infovalue.setWrapText(true);
+                        infovalue.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
+                        infoValue.getChildren().add(infovalue);
+                        componentPlace.getChildren().add(infoValue);
                     }
-                });
-                infoItem.getChildren().add(link);
-            } else if(value.has("name")) {
-                Label link = new Label(value.getString("name"));
-                link.setWrapText(true);
-                link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth() - 80);
-                infoItem.getChildren().add(link);
+                    contentContainer.getChildren().add(infoItem);
+                    contentContainer.getChildren().add(componentPlace);
+                    continue;
+                }
+            } else {
+                Label infoValue = new Label(Value.toString());
+                infoValue.setWrapText(true);
+                infoValue.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
+                infoItem.getChildren().add(infoValue);
             }
+
             contentContainer.getChildren().add(infoItem);
         }
         Text connectionStart = new Text("Xem thêm");
         connectionStart.setFont(new Font(16));
         contentContainer.getChildren().add(connectionStart);
 
-//      Add the connections of the Character
+//      Add the connections of the Dynasty
         if (connectionBox != null) {
             if (!connectionBox.isEmpty()) {
                 for (JSONObject connection : connectionBox) {
@@ -179,7 +195,7 @@ public class CharacterController extends Controller {
                     infoItem.getChildren().add(infoKey);
                     if (connectionName != null && connectionUrl != null) {
                         Hyperlink link = new Hyperlink(connectionName);
-                        String fieldName = execDataCharacter.dataSearchField(connectionName);
+                        String fieldName = execDataDynasty.dataSearchField(connectionName);
                         String sceneName = sceneFromField(fieldName);
                         link.setOnAction(event -> {
                             try {
@@ -218,18 +234,18 @@ public class CharacterController extends Controller {
         } else if (name.equals("Place")){
             sceneName = "fxml/placePane.fxml";
         } else {
-            sceneName = "fxml/characterPane.fxml";
+            sceneName = "fxml/dynastyPane.fxml";
         }
         return sceneName;
     }
 
     //    Make tableview show selected row by hyperlink
     public void selectCellByValue(String targetValue) {
-        for (int row = 0; row < tbvCharacters.getItems().size(); row++) {
+        for (int row = 0; row < tbvDynastys.getItems().size(); row++) {
             String cellValue = tbcName.getCellData(row);
             if (cellValue.equals(targetValue)) {
-                tbvCharacters.getSelectionModel().select(row, tbcName);
-                tbvCharacters.scrollTo(row);
+                tbvDynastys.getSelectionModel().select(row, tbcName);
+                tbvDynastys.scrollTo(row);
                 break;
             }
         }
@@ -237,7 +253,7 @@ public class CharacterController extends Controller {
 
     @FXML
     private void addSceneSwitchingHandler(ActionEvent event) {
-        Stage stage = (Stage) btnCharacter.getScene().getWindow();
+        Stage stage = (Stage) btnDynasty.getScene().getWindow();
         try {
             if (event.getSource() == btnEvent) {
                 Parent newPane = FXMLLoader.load(getClass().getResource("fxml/eventPane.fxml"));
@@ -265,15 +281,15 @@ public class CharacterController extends Controller {
         }
     }
 
-    private void searchCharacter() {
+    private void searchDynasty() {
         String searchQuery = search.getText().trim().toLowerCase();
         if (searchQuery.isEmpty()) {
-            tbvCharacters.setItems(dataCharacter);
+            tbvDynastys.setItems(dataDynasty);
         } else {
-            List<Character> searchResults = characterList.stream()
-                    .filter(character -> character.getName().toLowerCase().contains(searchQuery))
+            List<Dynasty> searchResults = dynastyList.stream()
+                    .filter(dynasty -> dynasty.getName().toLowerCase().contains(searchQuery))
                     .collect(Collectors.toList());
-            tbvCharacters.setItems(FXCollections.observableArrayList(searchResults));
+            tbvDynastys.setItems(FXCollections.observableArrayList(searchResults));
         }
     }
 

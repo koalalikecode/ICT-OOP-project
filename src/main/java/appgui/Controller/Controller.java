@@ -1,4 +1,4 @@
-package appgui;
+package appgui.Controller;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

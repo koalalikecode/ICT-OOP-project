@@ -1,5 +1,6 @@
-package crawler;
+package crawler.Place;
 
+import crawler.Crawler;
 import historyobject.Place;
 import org.json.JSONArray;
 import org.json.JSONObject;

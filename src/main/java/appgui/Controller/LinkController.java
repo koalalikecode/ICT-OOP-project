@@ -1,4 +1,4 @@
-package appgui;
+package appgui.Controller;
 
 import historyobject.Character;
 import historyobject.Event;

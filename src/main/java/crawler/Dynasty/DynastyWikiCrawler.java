@@ -1,5 +1,6 @@
-package crawler;
+package crawler.Dynasty;
 
+import crawler.Crawler;
 import historyobject.Dynasty;
 import org.json.JSONArray;
 import org.json.JSONObject;

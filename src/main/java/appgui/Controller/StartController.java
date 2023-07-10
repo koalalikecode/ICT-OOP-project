@@ -1,4 +1,4 @@
-package appgui;
+package appgui.Controller;
 
 import com.google.errorprone.annotations.IncompatibleModifiers;
 import javafx.fxml.FXML;

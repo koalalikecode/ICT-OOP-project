@@ -1,5 +1,15 @@
 package crawler;
 
+import crawler.Character.CharacterNKSCrawler;
+import crawler.Character.KingWikiCrawler;
+import crawler.Dynasty.DynastyWikiCrawler;
+import crawler.Event.EventWikiCrawler;
+import crawler.Event.EventsNKSCrawler;
+import crawler.Event.WarWiki;
+import crawler.Festival.FestivalCrawler;
+import crawler.Place.PlaceNKSCrawler;
+import crawler.Place.PlaceWikiCrawler;
+
 public class CrawlRunner {
     public static void main(String[] args) throws Exception{
         CharacterNKSCrawler characterNKSCrawler = new CharacterNKSCrawler();
