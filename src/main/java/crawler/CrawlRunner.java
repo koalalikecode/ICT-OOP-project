@@ -12,15 +12,15 @@ import crawler.place.PlaceWikiCrawler;
 
 public class CrawlRunner {
     public static void main(String[] args) throws Exception{
-        CharacterNKSCrawler characterNKSCrawler = new CharacterNKSCrawler();
-        PlaceNKSCrawler placeNKSCrawler = new PlaceNKSCrawler();
-        PlaceWikiCrawler placeWikiCrawler = new PlaceWikiCrawler();
-        KingWikiCrawler kingWikiCrawler = new KingWikiCrawler();
-        EventsNKSCrawler eventsNKSCrawler = new EventsNKSCrawler();
-        EventWikiCrawler eventWikiCrawler = new EventWikiCrawler();
-        WarWiki warWikiCrawler = new WarWiki();
-        DynastyWikiCrawler dynastyWikiCrawler = new DynastyWikiCrawler();
-        FestivalCrawler festivalCrawler = new FestivalCrawler();
+        Crawler characterNKSCrawler = new CharacterNKSCrawler();
+        Crawler placeNKSCrawler = new PlaceNKSCrawler();
+        Crawler placeWikiCrawler = new PlaceWikiCrawler();
+        Crawler kingWikiCrawler = new KingWikiCrawler();
+        Crawler eventsNKSCrawler = new EventsNKSCrawler();
+        Crawler eventWikiCrawler = new EventWikiCrawler();
+        Crawler warWikiCrawler = new WarWiki();
+        Crawler dynastyWikiCrawler = new DynastyWikiCrawler();
+        Crawler festivalCrawler = new FestivalCrawler();
 
 
 //        festivalCrawler.crawlAndSave();
