@@ -1,7 +1,8 @@
-package apprunner.executeData;
+package apprunner.executedata;
 
-import historyobject.Place;
+import historyobject.Character;
 
+import historyobject.HistoryObject;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import javafx.collections.FXCollections;
@@ -16,48 +17,33 @@ import java.nio.file.Paths;
 import java.io.IOException;
 import java.util.Set;
 
-public class PlaceExecData extends ExecuteData{
-    private String dataJson = "processed_data/final.json";
-    private List<Place> places;
-    private List<String> hyperlinkTexts;
+public class CharacterExecData extends ExecuteData{
 
-    public List<Place> getPlaces() {
-        return places;
+
+    public CharacterExecData(List<HistoryObject> characters) {
+        this.historyObjects = characters;
     }
 
-    public void setPlaces(List<Place> places) {
-        this.places = places;
-    }
-
-    public void setHyperlinkTexts(List<String> hyperlinkTexts) {
-        this.hyperlinkTexts = hyperlinkTexts;
-    }
-
-
-    public PlaceExecData(List<Place> places) {
-        this.places = places;
-    }
-
-    public ObservableList<Place> getObservablePlaceList(List<Place> places) {
-        return FXCollections.observableArrayList(places);
+    public ObservableList<HistoryObject> getObservableCharacterList(List<HistoryObject> characters) {
+        return FXCollections.observableArrayList(characters);
     }
 
     public List<String> getHyperlinkTexts() {
         return hyperlinkTexts;
     }
 
-    public Place searchByName(String name) {
-        for (Place place : places) {
-            if (place.getName().equalsIgnoreCase(name)) {
-                return place;
+    public HistoryObject searchByName(String name) {
+        for (HistoryObject character : historyObjects) {
+            if (character.getName().equalsIgnoreCase(name)) {
+                return character;
             }
         }
         return null;
     }
-    private List<String> getHyperlinkTexts(List<Place> places) {
+    private List<String> getHyperlinkTexts(List<HistoryObject> characters) {
         List<String> texts = new ArrayList<>();
-        for (Place place : places) {
-            JSONObject info = place.getInfo();
+        for (HistoryObject character : characters) {
+            JSONObject info = character.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
                     JSONObject value = info.getJSONObject(key);
@@ -69,24 +55,24 @@ public class PlaceExecData extends ExecuteData{
         }
         return texts;
     }
-    public JSONObject getInfoBoxByName(List<Place> places, String name) {
+    public JSONObject getInfoBoxByName(List<HistoryObject> characters, String name) {
         JSONObject info = null;
-        for (Place place : places) {
-            if (place.getName().equalsIgnoreCase(name)) {
-                info = place.getInfo();
+        for (HistoryObject character : characters) {
+            if (character.getName().equalsIgnoreCase(name)) {
+                info = character.getInfo();
                 return info;
             }
         }
         return info;
     }
 
-    public List<JSONObject> getConnectionBoxByName(List<Place> places, String name) {
+    public List<JSONObject> getConnectionBoxByName(List<HistoryObject> characters, String name) {
         List<JSONObject> connections = new ArrayList<>();
         StringBuilder result = new StringBuilder();
-        for (Place place : places) {
-            if (place.getName().equalsIgnoreCase(name)) {
+        for (HistoryObject character : characters) {
+            if (character.getName().equalsIgnoreCase(name)) {
                 result.append("Connections:\n");
-                connections = place.getConnection();
+                connections = character.getConnection();
             }
         }
         return connections;
@@ -94,9 +80,9 @@ public class PlaceExecData extends ExecuteData{
 
     public List<String> getHyperTextLinksBy(int index) {
         List<String> hyperTextLinks = new ArrayList<>();
-        if (index >= 0 && index < places.size()) {
-            Place place = places.get(index);
-            JSONObject info = place.getInfo();
+        if (index >= 0 && index < historyObjects.size()) {
+            HistoryObject character = historyObjects.get(index);
+            JSONObject info = character.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
                     JSONObject value = info.getJSONObject(key);
@@ -111,8 +97,8 @@ public class PlaceExecData extends ExecuteData{
     }
 
     public int indexByName(String name){
-        for(int i = 0; i < places.size(); i++){
-            if(places.get(i).getName().equalsIgnoreCase(name)){
+        for(int i = 0; i < historyObjects.size(); i++){
+            if(historyObjects.get(i).getName().equalsIgnoreCase(name)){
                 return i;
             }
         }
@@ -142,53 +128,47 @@ public class PlaceExecData extends ExecuteData{
 
         return result.toString();
     }
-    //    Read the final.json to scan place
-    public static List<Place> loadPlaces(String filePath) throws IOException {
+    //    Read the final.json to scan character
+    public static List<HistoryObject> loadCharacters(String filePath) throws IOException {
         String json = new String(Files.readAllBytes(Paths.get(filePath)));
         JSONObject jsonData = new JSONObject(json);
-        JSONArray jsonArray = jsonData.getJSONArray("Place");
+        JSONArray jsonArray = jsonData.getJSONArray("Character");
 
-        List<Place> places = new ArrayList<>();
+        List<HistoryObject> characters = new ArrayList<>();
 
         for (int i = 0; i < jsonArray.length(); i++) {
-            JSONObject jsonPlace = jsonArray.getJSONObject(i);
+            JSONObject jsonCharacter = jsonArray.getJSONObject(i);
 
-            String id = jsonPlace.getString("id");
-            String name = jsonPlace.getString("name");
-            String description = jsonPlace.has("description") ? jsonPlace.getString("description") : "";
-            String url = jsonPlace.has("url") ? jsonPlace.getString("url") : null;
-            String imageURL = jsonPlace.has("imageUrl") ? jsonPlace.getString("imageUrl") : null;
+            String id = jsonCharacter.getString("id");
+            String name = jsonCharacter.getString("name");
+            String description = jsonCharacter.has("description") ? jsonCharacter.getString("description") : "";
+            String url = jsonCharacter.has("url") ? jsonCharacter.getString("url") : null;
+            String imageURL = jsonCharacter.has("imageUrl") ? jsonCharacter.getString("imageUrl") : null;
             String imageUrl = null;
-            if (imageURL != null){
-                imageUrl = imageURL.replace("\\","/");
+            if (imageURL != null && !imageURL.startsWith("https:")){
+                imageUrl = "https:" + imageURL;
             }
-            JSONObject info = jsonPlace.getJSONObject("info");
+            else if (imageURL != null ) {
+                imageUrl = imageURL;
+            }
+            JSONObject info = jsonCharacter.getJSONObject("info");
 
             JSONArray jsonConnections = null;
             List<JSONObject> connections = new ArrayList<>();
-            if (jsonPlace.has("connection")){
-                jsonConnections = jsonPlace.getJSONArray("connection");
+            if (jsonCharacter.has("connection")){
+                jsonConnections = jsonCharacter.getJSONArray("connection");
                 for (int j = 0; j < jsonConnections.length(); j++) {
                     JSONObject jsonConnection = jsonConnections.getJSONObject(j);
                     connections.add(jsonConnection);
                 }
             }
 
-            Place place = new Place(name, description, url, info, connections, imageUrl);
-            places.add(place);
+            HistoryObject character = new Character(name, description, url, info, connections, imageUrl);
+            characters.add(character);
         }
-        return places;
+        return characters;
     }
 
-    public String listDataByName(String name) {
-        StringBuilder result = new StringBuilder();
-        Place place = searchByName(name);
-        result.append("Name: ").append(place.getName()).append("\n");
-        result.append("Description: ").append(place.getDescription()).append("\n");
-        result.append("URL: ").append(place.getUrl()).append("\n");
-
-        return result.toString();
-    }
 }
 
 

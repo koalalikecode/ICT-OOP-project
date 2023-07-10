@@ -1,10 +1,9 @@
-package appgui;
+package appgui.controller;
 
-import apprunner.executeData.EventExecData;
-import historyobject.Event;
+import apprunner.executedata.EventExecData;
 
+import historyobject.HistoryObject;
 import javafx.collections.FXCollections;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
@@ -19,47 +18,34 @@ import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 import javafx.scene.text.TextFlow;
 
-import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.stage.Stage;
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.net.URL;
-import java.util.List;
 import java.util.ResourceBundle;
-import java.util.stream.Collectors;
 
 public class EventController extends Controller {
-
-    //    TableView for Event in All Event Tab
-    @FXML
-    private TableView<Event> tbvEvents;
-    @FXML
-    private TableColumn<Event, String> tbcName;
-    private ObservableList<Event> dataEvent = FXCollections.observableArrayList();
-    private List<Event> eventList;
-
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
 
-            eventList = EventExecData.loadEvents(dataJson);
-            EventExecData execDataEvent = new EventExecData(eventList);
-            tbcName.setCellValueFactory(new PropertyValueFactory<Event, String>("name"));
-            dataEvent = FXCollections.observableArrayList(eventList);
-            tbvEvents.setItems(dataEvent);
+            historyObjectList = EventExecData.loadEvents(dataJson);
+            EventExecData execDataEvent = new EventExecData(historyObjectList);
+            tbcName.setCellValueFactory(new PropertyValueFactory<HistoryObject, String>("name"));
+            dataObject = FXCollections.observableArrayList(historyObjectList);
+            tbv.setItems(dataObject);
 
-            search.setOnKeyReleased(event -> searchEvent());
+            search.setOnKeyReleased(event -> search());
 
             LinkController.selectedEvent = execDataEvent.searchByName(LinkController.selectedEventName);
 
 //            Initialize selected object every Controller
             if (LinkController.selectedEventName == null){
-                LinkController.selectedEvent = eventList.get(0);
+                LinkController.selectedEvent = historyObjectList.get(0);
                 displaySelectionInfo(LinkController.selectedEvent, execDataEvent);
                 selectCellByValue(LinkController.selectedEvent.getName());
             } else if (LinkController.selectedEventName != null) {
@@ -67,7 +53,7 @@ public class EventController extends Controller {
                 selectCellByValue(LinkController.selectedEvent.getName());
             }
 
-            tbvEvents.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
+            tbv.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
                 updateSelectionInfo(newSelection, execDataEvent);
             });
 
@@ -77,12 +63,12 @@ public class EventController extends Controller {
 
     }
 
-    private void updateSelectionInfo(Event eventSelection, EventExecData execDataEvent) {
+    private void updateSelectionInfo(HistoryObject eventSelection, EventExecData execDataEvent) {
         if (eventSelection != null) {
             displaySelectionInfo(eventSelection, execDataEvent);
         }
     }
-    private void displaySelectionInfo(Event eventSelection, EventExecData execDataEvent) {
+    private void displaySelectionInfo(HistoryObject eventSelection, EventExecData execDataEvent) {
         labelName.setText("" + eventSelection.getName());
         labelName.setWrapText(true);
         labelName.setTextAlignment(TextAlignment.JUSTIFY);
@@ -117,8 +103,8 @@ public class EventController extends Controller {
         textFlow.getChildren().add(infoStart);
         infoAnchorPane.getChildren().add(textFlow);
 
-        objectInfoBox = execDataEvent.getInfoBoxByName(eventList, eventSelection.getName());
-        connectionBox = execDataEvent.getConnectionBoxByName(eventList, eventSelection.getName());
+        objectInfoBox = execDataEvent.getInfoBoxByName(historyObjectList, eventSelection.getName());
+        connectionBox = execDataEvent.getConnectionBoxByName(historyObjectList, eventSelection.getName());
 
         VBox contentContainer = new VBox(10);
         contentContainer.setPadding(new Insets(10));
@@ -139,21 +125,27 @@ public class EventController extends Controller {
                 if (value.has("name") && value.has("url")) {
                     String fieldName = execDataEvent.dataSearchField(value.getString("name"));
                     String sceneName = sceneFromField(fieldName);
-                    Hyperlink link = new Hyperlink(value.getString("name"));
-                    link.setWrapText(true);
-                    link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
-                    link.setOnAction(event -> {
-                        try {
-                            LinkController.setSelectedObject(link.getText(), fieldName);
-                            Stage stage = (Stage) link.getScene().getWindow();
-                            Parent root = FXMLLoader.load(getClass().getResource(sceneName));
-                            Scene newScene = new Scene(root);
-                            stage.setScene(newScene);
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    });
-                    infoItem.getChildren().add(link);
+                    if (sceneName != null) {
+                        Hyperlink link = new Hyperlink(value.getString("name"));
+                        link.setWrapText(true);
+                        link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
+                        link.setOnAction(event -> {
+                            try {
+                                LinkController.setSelectedObject(link.getText(), fieldName);
+                                Stage stage = (Stage) link.getScene().getWindow();
+                                Parent root = FXMLLoader.load(getClass().getResource(sceneName));
+                                Scene newScene = new Scene(root);
+                                stage.setScene(newScene);
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        });
+                        infoItem.getChildren().add(link);
+                    } else {
+                        Label link = new Label(value.getString("name"));
+                        infoItem.getChildren().add(link);
+                    }
+
                 } else if(value.has("name")) {
                     Label link = new Label(value.getString("name"));
                     link.setWrapText(true);
@@ -228,21 +220,27 @@ public class EventController extends Controller {
                     Label infoKey = new Label("Tên : ");
                     infoItem.getChildren().add(infoKey);
                     if (connectionName != null && connectionUrl != null) {
-                        Hyperlink link = new Hyperlink(connectionName);
                         String fieldName = execDataEvent.dataSearchField(connectionName);
                         String sceneName = sceneFromField(fieldName);
-                        link.setOnAction(event -> {
-                            try {
-                                LinkController.setSelectedObject(link.getText(), fieldName);
-                                Stage stage = (Stage) link.getScene().getWindow();
-                                Parent root = FXMLLoader.load(getClass().getResource(sceneName));
-                                Scene newScene = new Scene(root);
-                                stage.setScene(newScene);
-                            } catch (IOException e) {
-                                e.printStackTrace();
-                            }
-                        });
-                        infoItem.getChildren().add(link);
+                        if (sceneName != null){
+                            Hyperlink link = new Hyperlink(connectionName);
+                            link.setOnAction(event -> {
+                                try {
+                                    LinkController.setSelectedObject(link.getText(), fieldName);
+                                    System.out.println(link.getText() + "\n" + fieldName + ":" + sceneName);
+                                    Stage stage = (Stage) link.getScene().getWindow();
+                                    Parent root = FXMLLoader.load(getClass().getResource(sceneName));
+                                    Scene newScene = new Scene(root);
+                                    stage.setScene(newScene);
+                                } catch (IOException e) {
+                                    e.printStackTrace();
+                                }
+                            });
+                            infoItem.getChildren().add(link);
+                        } else {
+                            Label link = new Label(connectionName);
+                            infoItem.getChildren().add(link);
+                        }
                     } else if (connectionName != null) {
                         Label link = new Label(connectionName);
                         infoItem.getChildren().add(link);
@@ -254,79 +252,6 @@ public class EventController extends Controller {
         infoAnchorPane.getChildren().add(contentContainer);
         infoScrollPane.setContent(infoAnchorPane);
     }
-
-    private String sceneFromField(String name){
-        String sceneName;
-        if (name.equals("Character")){
-            sceneName = "fxml/characterPane.fxml";
-        } else if (name.equals("Dynasty")){
-            sceneName = "fxml/dynastyPane.fxml";
-        } else if (name.equals("Event")){
-            sceneName = "fxml/eventPane.fxml";
-        } else if (name.equals("Festival")){
-            sceneName = "fxml/festivalPane.fxml";
-        } else if (name.equals("Place")){
-            sceneName = "fxml/placePane.fxml";
-        } else {
-            sceneName = "fxml/eventPane.fxml";
-        }
-        return sceneName;
-    }
-
-    //    Make tableview show selected row by hyperlink
-    public void selectCellByValue(String targetValue) {
-        for (int row = 0; row < tbvEvents.getItems().size(); row++) {
-            String cellValue = tbcName.getCellData(row);
-            if (cellValue.equals(targetValue)) {
-                tbvEvents.getSelectionModel().select(row, tbcName);
-                tbvEvents.scrollTo(row);
-                break;
-            }
-        }
-    }
-
-    @FXML
-    private void addSceneSwitchingHandler(ActionEvent event) {
-        Stage stage = (Stage) btnEvent.getScene().getWindow();
-        try {
-            if (event.getSource() == btnCharacter) {
-                Parent newPane = FXMLLoader.load(getClass().getResource("fxml/characterPane.fxml"));
-                Scene newScene = new Scene(newPane);
-                stage.setScene(newScene);
-            } else if (event.getSource() == btnEvent) {
-                Parent newPane2 = FXMLLoader.load(getClass().getResource("fxml/eventPane.fxml"));
-                Scene newScene2 = new Scene(newPane2);
-                stage.setScene(newScene2);
-            } else if (event.getSource() == btnDynasty) {
-                Parent newPane3 = FXMLLoader.load(getClass().getResource("fxml/dynastyPane.fxml"));
-                Scene newScene3 = new Scene(newPane3);
-                stage.setScene(newScene3);
-            } else if (event.getSource() == btnFestival) {
-                Parent newPane4 = FXMLLoader.load(getClass().getResource("fxml/festivalPane.fxml"));
-                Scene newScene4 = new Scene(newPane4);
-                stage.setScene(newScene4);
-            } else if (event.getSource() == btnPlace) {
-                Parent newPane5 = FXMLLoader.load(getClass().getResource("fxml/placePane.fxml"));
-                Scene newScene5 = new Scene(newPane5);
-                stage.setScene(newScene5);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private void searchEvent() {
-        String searchQuery = search.getText().trim().toLowerCase();
-        if (searchQuery.isEmpty()) {
-            tbvEvents.setItems(dataEvent);
-        } else {
-            List<Event> searchResults = eventList.stream()
-                    .filter(event -> event.getName().toLowerCase().contains(searchQuery))
-                    .collect(Collectors.toList());
-            tbvEvents.setItems(FXCollections.observableArrayList(searchResults));
-        }
-    }
-
     public TextFlow linebreak(String data, TextFlow textFlow) {
         String[] lines = data.split("\\n");
         for (String line : lines) {

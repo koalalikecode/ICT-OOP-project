@@ -1,4 +1,4 @@
-package appgui;
+package appgui.controller;
 
 import historyobject.*;
 import historyobject.Character;
@@ -6,13 +6,13 @@ import historyobject.Character;
 public class LinkController {
     protected static HistoryObject selectedCharacter;
     protected static String selectedCharacterName;
-    protected static Event selectedEvent;
+    protected static HistoryObject selectedEvent;
     protected static String selectedEventName;
-    protected static Dynasty selectedDynasty;
+    protected static HistoryObject selectedDynasty;
     protected static String selectedDynastyName;
-    protected static Festival selectedFestival;
+    protected static HistoryObject selectedFestival;
     protected static String selectedFestivalName;
-    protected static Place selectedPlace;
+    protected static HistoryObject selectedPlace;
     protected static String selectedPlaceName;
 
     public static void setSelectedObject(String name, String fieldName){

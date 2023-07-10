@@ -1,7 +1,8 @@
-package apprunner.executeData;
+package apprunner.executedata;
 
 import historyobject.Festival;
 
+import historyobject.HistoryObject;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import javafx.collections.FXCollections;
@@ -17,28 +18,13 @@ import java.io.IOException;
 import java.util.Set;
 
 public class FestivalExecData extends ExecuteData{
-        private String dataJson = "processed_data/final.json";
-        private List<Festival> festivals;
-        private List<String> hyperlinkTexts;
 
-        public List<Festival> getFestivals() {
-                return festivals;
+
+        public FestivalExecData(List<HistoryObject> festivals) {
+                this.historyObjects = festivals;
         }
 
-        public void setFestivals(List<Festival> festivals) {
-                this.festivals = festivals;
-        }
-
-        public void setHyperlinkTexts(List<String> hyperlinkTexts) {
-                this.hyperlinkTexts = hyperlinkTexts;
-        }
-
-
-        public FestivalExecData(List<Festival> festivals) {
-                this.festivals = festivals;
-        }
-
-        public ObservableList<Festival> getObservableFestivalList(List<Festival> festivals) {
+        public ObservableList<HistoryObject> getObservableFestivalList(List<HistoryObject> festivals) {
                 return FXCollections.observableArrayList(festivals);
         }
 
@@ -46,17 +32,17 @@ public class FestivalExecData extends ExecuteData{
                 return hyperlinkTexts;
         }
 
-        public Festival searchByName(String name) {
-                for (Festival festival : festivals) {
+        public HistoryObject searchByName(String name) {
+                for (HistoryObject festival : historyObjects) {
                         if (festival.getName().equalsIgnoreCase(name)) {
                                 return festival;
                         }
                 }
                 return null;
         }
-        private List<String> getHyperlinkTexts(List<Festival> festivals) {
+        private List<String> getHyperlinkTexts(List<HistoryObject> festivals) {
                 List<String> texts = new ArrayList<>();
-                for (Festival festival : festivals) {
+                for (HistoryObject festival : festivals) {
                         JSONObject info = festival.getInfo();
                         if (info != null) {
                                 for (String key : info.keySet()) {
@@ -69,9 +55,9 @@ public class FestivalExecData extends ExecuteData{
                 }
                 return texts;
         }
-        public JSONObject getInfoBoxByName(List<Festival> festivals, String name) {
+        public JSONObject getInfoBoxByName(List<HistoryObject> festivals, String name) {
                 JSONObject info = null;
-                for (Festival festival : festivals) {
+                for (HistoryObject festival : festivals) {
                         if (festival.getName().equalsIgnoreCase(name)) {
                                 info = festival.getInfo();
                                 return info;
@@ -82,8 +68,8 @@ public class FestivalExecData extends ExecuteData{
 
 
         public int indexByName(String name){
-                for(int i = 0; i < festivals.size(); i++){
-                        if(festivals.get(i).getName().equalsIgnoreCase(name)){
+                for(int i = 0; i < historyObjects.size(); i++){
+                        if(historyObjects.get(i).getName().equalsIgnoreCase(name)){
                                 return i;
                         }
                 }
@@ -114,12 +100,12 @@ public class FestivalExecData extends ExecuteData{
                 return result.toString();
         }
         //    Read the final.json to scan festival
-        public static List<Festival> loadFestivals(String filePath) throws IOException {
+        public static List<HistoryObject> loadFestivals(String filePath) throws IOException {
                 String json = new String(Files.readAllBytes(Paths.get(filePath)));
                 JSONObject jsonData = new JSONObject(json);
                 JSONArray jsonArray = jsonData.getJSONArray("Festival");
 
-                List<Festival> festivals = new ArrayList<>();
+                List<HistoryObject> festivals = new ArrayList<>();
 
                 for (int i = 0; i < jsonArray.length(); i++) {
                         JSONObject jsonFestival = jsonArray.getJSONObject(i);
@@ -133,7 +119,7 @@ public class FestivalExecData extends ExecuteData{
                         if (imageURL != null ) {
                                 imageUrl = "https:" + imageURL;
                         }
-                        Festival festival = new Festival(name, info, description, imageUrl);
+                        HistoryObject festival = new Festival(name, info, description, imageUrl);
                         festivals.add(festival);
 
                 }
@@ -142,7 +128,7 @@ public class FestivalExecData extends ExecuteData{
 
         public String listDataByName(String name) {
                 StringBuilder result = new StringBuilder();
-                Festival festival = searchByName(name);
+                HistoryObject festival = searchByName(name);
                 result.append("Name: ").append(festival.getName()).append("\n");
                 result.append("Description: ").append(festival.getDescription()).append("\n");
                 result.append("URL: ").append(festival.getUrl()).append("\n");

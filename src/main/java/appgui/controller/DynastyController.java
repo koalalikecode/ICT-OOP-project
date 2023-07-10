@@ -4,13 +4,12 @@
  */
 
 
-package appgui;
+package appgui.controller;
 
-import apprunner.executeData.DynastyExecData;
-import historyobject.Dynasty;
+import apprunner.executedata.DynastyExecData;
 
+import historyobject.HistoryObject;
 import javafx.collections.FXCollections;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
@@ -23,47 +22,35 @@ import javafx.scene.text.TextAlignment;
 import javafx.scene.text.TextFlow;
 import javafx.scene.text.Font;
 
-import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.stage.Stage;
 import org.json.JSONObject;
 
 import java.io.IOException;
 import java.net.URL;
-import java.util.List;
 import java.util.ResourceBundle;
-import java.util.stream.Collectors;
 
 public class DynastyController extends Controller {
-
-    //    TableView for Dynasty in All Dynasty Tab
-    @FXML
-    private TableView<Dynasty> tbvDynastys;
-    @FXML
-    private TableColumn<Dynasty, String> tbcName;
-    private ObservableList<Dynasty> dataDynasty = FXCollections.observableArrayList();
-    private List<Dynasty> dynastyList;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
 
-            dynastyList = DynastyExecData.loadDynasties(dataJson);
-            DynastyExecData execDataDynasty = new DynastyExecData(dynastyList);
-            tbcName.setCellValueFactory(new PropertyValueFactory<Dynasty, String>("name"));
-            dataDynasty = FXCollections.observableArrayList(dynastyList);
-            tbvDynastys.setItems(dataDynasty);
+            historyObjectList = DynastyExecData.loadDynasties(dataJson);
+            DynastyExecData execDataDynasty = new DynastyExecData(historyObjectList);
+            tbcName.setCellValueFactory(new PropertyValueFactory<HistoryObject, String>("name"));
+            dataObject = FXCollections.observableArrayList(historyObjectList);
+            tbv.setItems(dataObject);
 
-            search.setOnKeyReleased(event -> searchDynasty());
+            search.setOnKeyReleased(event -> search());
 
             LinkController.selectedDynasty = execDataDynasty.searchByName(LinkController.selectedDynastyName);
 
 //            Initialize selected object every Controller
             if (LinkController.selectedDynastyName == null){
-                LinkController.selectedDynasty = dynastyList.get(0);
+                LinkController.selectedDynasty = historyObjectList.get(0);
                 displaySelectionInfo(LinkController.selectedDynasty, execDataDynasty);
                 selectCellByValue(LinkController.selectedDynasty.getName());
             } else if (LinkController.selectedDynastyName != null) {
@@ -71,7 +58,7 @@ public class DynastyController extends Controller {
                 selectCellByValue(LinkController.selectedDynasty.getName());
             }
 
-            tbvDynastys.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
+            tbv.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
                 updateSelectionInfo(newSelection, execDataDynasty);
             });
 
@@ -81,12 +68,12 @@ public class DynastyController extends Controller {
 
     }
 
-    private void updateSelectionInfo(Dynasty dynastySelection, DynastyExecData execDataDynasty) {
+    private void updateSelectionInfo(HistoryObject dynastySelection, DynastyExecData execDataDynasty) {
         if (dynastySelection != null) {
             displaySelectionInfo(dynastySelection, execDataDynasty);
         }
     }
-    private void displaySelectionInfo(Dynasty dynastySelection, DynastyExecData execDataDynasty) {
+    private void displaySelectionInfo(HistoryObject dynastySelection, DynastyExecData execDataDynasty) {
         labelName.setText("" + dynastySelection.getName());
         labelName.setWrapText(true);
         labelName.setTextAlignment(TextAlignment.JUSTIFY);
@@ -108,8 +95,8 @@ public class DynastyController extends Controller {
         textFlow.getChildren().add(infoStart);
         infoAnchorPane.getChildren().add(textFlow);
 
-        objectInfoBox = execDataDynasty.getInfoBoxByName(dynastyList, dynastySelection.getName());
-        connectionBox = execDataDynasty.getConnectionBoxByName(dynastyList, dynastySelection.getName());
+        objectInfoBox = execDataDynasty.getInfoBoxByName(historyObjectList, dynastySelection.getName());
+        connectionBox = execDataDynasty.getConnectionBoxByName(historyObjectList, dynastySelection.getName());
 
         VBox contentContainer = new VBox(10);
         contentContainer.setPadding(new Insets(10));
@@ -130,21 +117,28 @@ public class DynastyController extends Controller {
                 if (value.has("name") && value.has("url")) {
                     String fieldName = execDataDynasty.dataSearchField(value.getString("name"));
                     String sceneName = sceneFromField(fieldName);
-                    Hyperlink link = new Hyperlink(value.getString("name"));
-                    link.setWrapText(true);
-                    link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
-                    link.setOnAction(event -> {
-                        try {
-                            LinkController.setSelectedObject(link.getText(), fieldName);
-                            Stage stage = (Stage) link.getScene().getWindow();
-                            Parent root = FXMLLoader.load(getClass().getResource(sceneName));
-                            Scene newScene = new Scene(root);
-                            stage.setScene(newScene);
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
-                    });
-                    infoItem.getChildren().add(link);
+                    if (sceneName != null) {
+                        Hyperlink link = new Hyperlink(value.getString("name"));
+                        link.setWrapText(true);
+                        link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
+                        link.setOnAction(event -> {
+                            try {
+                                LinkController.setSelectedObject(link.getText(), fieldName);
+                                Stage stage = (Stage) link.getScene().getWindow();
+                                Parent root = FXMLLoader.load(getClass().getResource(sceneName));
+                                Scene newScene = new Scene(root);
+                                stage.setScene(newScene);
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        });
+                        infoItem.getChildren().add(link);
+                    } else {
+                        Label link = new Label(value.getString("name"));
+                        link.setWrapText(true);
+                        link.setMaxWidth(infoAnchorPane.getPrefWidth() - infoKey.getPrefWidth());
+                        infoItem.getChildren().add(link);
+                    }
                 } else if(value.has("name")) {
                     Label link = new Label(value.getString("name"));
                     link.setWrapText(true);
@@ -194,21 +188,28 @@ public class DynastyController extends Controller {
                     Label infoKey = new Label("Tên : ");
                     infoItem.getChildren().add(infoKey);
                     if (connectionName != null && connectionUrl != null) {
-                        Hyperlink link = new Hyperlink(connectionName);
+
                         String fieldName = execDataDynasty.dataSearchField(connectionName);
                         String sceneName = sceneFromField(fieldName);
-                        link.setOnAction(event -> {
-                            try {
-                                LinkController.setSelectedObject(link.getText(), fieldName);
-                                Stage stage = (Stage) link.getScene().getWindow();
-                                Parent root = FXMLLoader.load(getClass().getResource(sceneName));
-                                Scene newScene = new Scene(root);
-                                stage.setScene(newScene);
-                            } catch (IOException e) {
-                                e.printStackTrace();
-                            }
-                        });
-                        infoItem.getChildren().add(link);
+                        if (sceneName != null) {
+                            Hyperlink link = new Hyperlink(connectionName);
+                            link.setOnAction(event -> {
+                                try {
+                                    LinkController.setSelectedObject(link.getText(), fieldName);
+                                    Stage stage = (Stage) link.getScene().getWindow();
+                                    Parent root = FXMLLoader.load(getClass().getResource(sceneName));
+                                    Scene newScene = new Scene(root);
+                                    stage.setScene(newScene);
+                                } catch (IOException e) {
+                                    e.printStackTrace();
+                                }
+                            });
+                            infoItem.getChildren().add(link);
+                        }
+                        else  {
+                            Label link = new Label(connectionName);
+                            infoItem.getChildren().add(link);
+                        }
                     } else if (connectionName != null) {
                         Label link = new Label(connectionName);
                         infoItem.getChildren().add(link);
@@ -221,76 +222,7 @@ public class DynastyController extends Controller {
         infoScrollPane.setContent(infoAnchorPane);
     }
 
-    private String sceneFromField(String name){
-        String sceneName;
-        if (name.equals("Character")){
-            sceneName = "fxml/characterPane.fxml";
-        } else if (name.equals("Dynasty")){
-            sceneName = "fxml/dynastyPane.fxml";
-        } else if (name.equals("Event")){
-            sceneName = "fxml/eventPane.fxml";
-        } else if (name.equals("Festival")){
-            sceneName = "fxml/festivalPane.fxml";
-        } else if (name.equals("Place")){
-            sceneName = "fxml/placePane.fxml";
-        } else {
-            sceneName = "fxml/dynastyPane.fxml";
-        }
-        return sceneName;
-    }
 
-    //    Make tableview show selected row by hyperlink
-    public void selectCellByValue(String targetValue) {
-        for (int row = 0; row < tbvDynastys.getItems().size(); row++) {
-            String cellValue = tbcName.getCellData(row);
-            if (cellValue.equals(targetValue)) {
-                tbvDynastys.getSelectionModel().select(row, tbcName);
-                tbvDynastys.scrollTo(row);
-                break;
-            }
-        }
-    }
 
-    @FXML
-    private void addSceneSwitchingHandler(ActionEvent event) {
-        Stage stage = (Stage) btnDynasty.getScene().getWindow();
-        try {
-            if (event.getSource() == btnEvent) {
-                Parent newPane = FXMLLoader.load(getClass().getResource("fxml/eventPane.fxml"));
-                Scene newScene = new Scene(newPane);
-                stage.setScene(newScene);
-            } else if (event.getSource() == btnCharacter) {
-                Parent newPane2 = FXMLLoader.load(getClass().getResource("fxml/characterPane.fxml"));
-                Scene newScene2 = new Scene(newPane2);
-                stage.setScene(newScene2);
-            } else if (event.getSource() == btnDynasty) {
-                Parent newPane3 = FXMLLoader.load(getClass().getResource("fxml/dynastyPane.fxml"));
-                Scene newScene3 = new Scene(newPane3);
-                stage.setScene(newScene3);
-            } else if (event.getSource() == btnFestival) {
-                Parent newPane4 = FXMLLoader.load(getClass().getResource("fxml/festivalPane.fxml"));
-                Scene newScene4 = new Scene(newPane4);
-                stage.setScene(newScene4);
-            } else if (event.getSource() == btnPlace) {
-                Parent newPane5 = FXMLLoader.load(getClass().getResource("fxml/placePane.fxml"));
-                Scene newScene5 = new Scene(newPane5);
-                stage.setScene(newScene5);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private void searchDynasty() {
-        String searchQuery = search.getText().trim().toLowerCase();
-        if (searchQuery.isEmpty()) {
-            tbvDynastys.setItems(dataDynasty);
-        } else {
-            List<Dynasty> searchResults = dynastyList.stream()
-                    .filter(dynasty -> dynasty.getName().toLowerCase().contains(searchQuery))
-                    .collect(Collectors.toList());
-            tbvDynastys.setItems(FXCollections.observableArrayList(searchResults));
-        }
-    }
 
 }
