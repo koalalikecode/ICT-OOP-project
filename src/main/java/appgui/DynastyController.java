@@ -40,43 +40,7 @@ import java.util.List;
 import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
-public class DynastyController implements Initializable {
-    private final String dataJson = "processed_data/final.json";
-    private JSONObject dynastyInfoBox;
-    private List<JSONObject> dynastyConnectionBox;
-
-    //    Menu Buttons
-    @FXML
-    private Button btnCharacter;
-    @FXML
-    private Button btnDynasty;
-    @FXML
-    private Button btnEvent;
-    @FXML
-    private Button btnFestival;
-    @FXML
-    private Button btnPlace;
-
-
-    //    Scenes
-    private Scene sceneCharacter;
-    private Scene sceneDynasty;
-    private Scene sceneEvent;
-    private Scene sceneFestival;
-    private Scene scenePlace;
-
-
-
-    //    Search Dynasty
-    @FXML
-    private TextField searchDynasty;
-
-    @FXML
-    private ScrollPane infoScrollPane;
-    @FXML
-    private Label labelName;
-    @FXML
-    private AnchorPane infoAnchorPane;
+public class DynastyController extends Controller {
 
     //    TableView for Dynasty in All Dynasty Tab
     @FXML
@@ -96,7 +60,7 @@ public class DynastyController implements Initializable {
             dataDynasty = FXCollections.observableArrayList(dynastyList);
             tbvDynastys.setItems(dataDynasty);
 
-            searchDynasty.setOnKeyReleased(event -> searchDynasty());
+            search.setOnKeyReleased(event -> searchDynasty());
 
             LinkController.selectedDynasty = execDataDynasty.searchByName(LinkController.selectedDynastyName);
 
@@ -147,19 +111,19 @@ public class DynastyController implements Initializable {
         textFlow.getChildren().add(infoStart);
         infoAnchorPane.getChildren().add(textFlow);
 
-        dynastyInfoBox = execDataDynasty.getInfoBoxByName(dynastyList, dynastySelection.getName());
-        dynastyConnectionBox = execDataDynasty.getConnectionBoxByName(dynastyList, dynastySelection.getName());
+        objectInfoBox = execDataDynasty.getInfoBoxByName(dynastyList, dynastySelection.getName());
+        connectionBox = execDataDynasty.getConnectionBoxByName(dynastyList, dynastySelection.getName());
 
         VBox contentContainer = new VBox(10);
         contentContainer.setPadding(new Insets(10));
         contentContainer.getChildren().add(textFlow);
 
-        for (String key : dynastyInfoBox.keySet()) {
+        for (String key : objectInfoBox.keySet()) {
             HBox infoItem = new HBox();
             infoItem.setPrefHeight(0);
             infoItem.setPrefHeight(0);
             infoItem.setAlignment(Pos.CENTER_LEFT);
-            Object Value = dynastyInfoBox.get(key);
+            Object Value = objectInfoBox.get(key);
 
             Label infoKey = new Label("\u2023 "+ key + ": ");
             infoItem.getChildren().add(infoKey);
@@ -221,9 +185,9 @@ public class DynastyController implements Initializable {
         contentContainer.getChildren().add(connectionStart);
 
 //      Add the connections of the Dynasty
-        if (dynastyConnectionBox != null) {
-            if (!dynastyConnectionBox.isEmpty()) {
-                for (JSONObject connection : dynastyConnectionBox) {
+        if (connectionBox != null) {
+            if (!connectionBox.isEmpty()) {
+                for (JSONObject connection : connectionBox) {
                     HBox infoItem = new HBox();
                     infoItem.setPrefHeight(0);
                     infoItem.setAlignment(Pos.CENTER_LEFT);
@@ -321,7 +285,7 @@ public class DynastyController implements Initializable {
     }
 
     private void searchDynasty() {
-        String searchQuery = searchDynasty.getText().trim().toLowerCase();
+        String searchQuery = search.getText().trim().toLowerCase();
         if (searchQuery.isEmpty()) {
             tbvDynastys.setItems(dataDynasty);
         } else {

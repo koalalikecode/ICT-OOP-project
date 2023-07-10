@@ -32,7 +32,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.collections.ObservableList;
-import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
 import javafx.stage.Stage;
 import org.json.JSONArray;
@@ -44,46 +43,7 @@ import java.util.List;
 import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
-public class FestivalController implements Initializable {
-    private final String dataJson = "processed_data/final.json";
-    private JSONObject festivalInfoBox;
-
-    //    Menu Buttons
-    @FXML
-    private Button btnCharacter;
-    @FXML
-    private Button btnDynasty;
-    @FXML
-    private Button btnEvent;
-    @FXML
-    private Button btnFestival;
-    @FXML
-    private Button btnPlace;
-
-
-    //    Scenes
-    private Scene sceneCharacter;
-    private Scene sceneDynasty;
-    private Scene sceneEvent;
-    private Scene sceneFestival;
-    private Scene scenePlace;
-
-
-
-    //    Search Festival
-    @FXML
-    private TextField searchFestival;
-
-    @FXML
-    private ScrollPane infoScrollPane;
-    @FXML
-    private Pane infoPane;
-    @FXML
-    private Pane hyperlinkPane;
-    @FXML
-    private Label labelName;
-    @FXML
-    private AnchorPane infoAnchorPane;
+public class FestivalController  extends Controller{
 
     //    TableView for Festival in All Festival Tab
     @FXML
@@ -103,7 +63,7 @@ public class FestivalController implements Initializable {
             dataFestival = FXCollections.observableArrayList(festivalList);
             tbvFestivals.setItems(dataFestival);
 
-            searchFestival.setOnKeyReleased(event -> searchFestival());
+            search.setOnKeyReleased(event -> searchFestival());
 
             LinkController.selectedFestival = execDataFestival.searchByName(LinkController.selectedFestivalName);
 
@@ -162,19 +122,19 @@ public class FestivalController implements Initializable {
         textFlow.getChildren().add(infoStart);
         infoAnchorPane.getChildren().add(textFlow);
 
-        festivalInfoBox = execDataFestival.getInfoBoxByName(festivalList, festivalSelection.getName());
+        objectInfoBox = execDataFestival.getInfoBoxByName(festivalList, festivalSelection.getName());
 
         VBox contentContainer = new VBox(10);
         contentContainer.setPadding(new Insets(10));
         contentContainer.getChildren().add(textFlow);
 
-        for (String key : festivalInfoBox.keySet()) {
+        for (String key : objectInfoBox.keySet()) {
             HBox infoItem = new HBox();
             infoItem.setPrefHeight(0);
             infoItem.setPrefHeight(0);
             infoItem.setAlignment(Pos.CENTER_LEFT);
 
-            Object valueObject = festivalInfoBox.get(key);
+            Object valueObject = objectInfoBox.get(key);
 
             Label infoKey = new Label("\u2023 " + key + ": ");
             infoItem.getChildren().add(infoKey);
@@ -201,7 +161,7 @@ public class FestivalController implements Initializable {
                     infoItem.getChildren().add(link);
                 }
             } else {
-                String value = festivalInfoBox.getString(key);
+                String value = objectInfoBox.getString(key);
                 if (value != null) {
                     String fieldName = execDataFestival.dataSearchField(value);
                     String sceneName = sceneFromField(fieldName);
@@ -290,7 +250,7 @@ public class FestivalController implements Initializable {
     }
 
     private void searchFestival() {
-        String searchQuery = searchFestival.getText().trim().toLowerCase();
+        String searchQuery = search.getText().trim().toLowerCase();
         if (searchQuery.isEmpty()) {
             tbvFestivals.setItems(dataFestival);
         } else {

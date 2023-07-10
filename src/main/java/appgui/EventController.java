@@ -37,47 +37,7 @@ import java.util.List;
 import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
-public class EventController implements Initializable {
-    private final String dataJson = "processed_data/final.json";
-    private JSONObject eventInfoBox;
-    private List<JSONObject> eventConnectionBox;
-
-    //    Menu Buttons
-    @FXML
-    private Button btnCharacter;
-    @FXML
-    private Button btnDynasty;
-    @FXML
-    private Button btnEvent;
-    @FXML
-    private Button btnFestival;
-    @FXML
-    private Button btnPlace;
-
-
-    //    Scenes
-    private Scene sceneCharacter;
-    private Scene sceneDynasty;
-    private Scene sceneEvent;
-    private Scene sceneFestival;
-    private Scene scenePlace;
-
-
-
-    //    Search Event
-    @FXML
-    private TextField searchEvent;
-
-    @FXML
-    private ScrollPane infoScrollPane;
-    @FXML
-    private Pane infoPane;
-    @FXML
-    private Pane hyperlinkPane;
-    @FXML
-    private Label labelName;
-    @FXML
-    private AnchorPane infoAnchorPane;
+public class EventController extends Controller {
 
     //    TableView for Event in All Event Tab
     @FXML
@@ -97,7 +57,7 @@ public class EventController implements Initializable {
             dataEvent = FXCollections.observableArrayList(eventList);
             tbvEvents.setItems(dataEvent);
 
-            searchEvent.setOnKeyReleased(event -> searchEvent());
+            search.setOnKeyReleased(event -> searchEvent());
 
             LinkController.selectedEvent = execDataEvent.searchByName(LinkController.selectedEventName);
 
@@ -161,19 +121,19 @@ public class EventController implements Initializable {
         textFlow.getChildren().add(infoStart);
         infoAnchorPane.getChildren().add(textFlow);
 
-        eventInfoBox = execDataEvent.getInfoBoxByName(eventList, eventSelection.getName());
-        eventConnectionBox = execDataEvent.getConnectionBoxByName(eventList, eventSelection.getName());
+        objectInfoBox = execDataEvent.getInfoBoxByName(eventList, eventSelection.getName());
+        connectionBox = execDataEvent.getConnectionBoxByName(eventList, eventSelection.getName());
 
         VBox contentContainer = new VBox(10);
         contentContainer.setPadding(new Insets(10));
         contentContainer.getChildren().add(textFlow);
 
-        for (String key : eventInfoBox.keySet()) {
+        for (String key : objectInfoBox.keySet()) {
             HBox infoItem = new HBox();
             infoItem.setPrefHeight(0);
             infoItem.setPrefHeight(0);
             infoItem.setAlignment(Pos.CENTER_LEFT);
-            Object Value = eventInfoBox.get(key);
+            Object Value = objectInfoBox.get(key);
 
             Label infoKey = new Label("\u2023 "+ key + ": ");
             infoItem.getChildren().add(infoKey);
@@ -260,9 +220,9 @@ public class EventController implements Initializable {
         contentContainer.getChildren().add(connectionStart);
 
 //      Add the connections of the Event
-        if (eventConnectionBox != null) {
-            if (!eventConnectionBox.isEmpty()) {
-                for (JSONObject connection : eventConnectionBox) {
+        if (connectionBox != null) {
+            if (!connectionBox.isEmpty()) {
+                for (JSONObject connection : connectionBox) {
                     HBox infoItem = new HBox();
                     infoItem.setPrefHeight(0);
                     infoItem.setAlignment(Pos.CENTER_LEFT);
@@ -360,7 +320,7 @@ public class EventController implements Initializable {
     }
 
     private void searchEvent() {
-        String searchQuery = searchEvent.getText().trim().toLowerCase();
+        String searchQuery = search.getText().trim().toLowerCase();
         if (searchQuery.isEmpty()) {
             tbvEvents.setItems(dataEvent);
         } else {

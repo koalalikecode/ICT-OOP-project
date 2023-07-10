@@ -1,19 +1,16 @@
 package apprunner.ExecuteData;
 
 import historyobject.Dynasty;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 public class DynastyExecData {
@@ -186,5 +183,8 @@ public class DynastyExecData {
         return result.toString();
     }
 }
+
+
+
 
 

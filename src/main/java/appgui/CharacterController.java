@@ -28,7 +28,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.collections.ObservableList;
-import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
 import javafx.stage.Stage;
 import org.json.JSONObject;
@@ -39,43 +38,7 @@ import java.util.List;
 import java.util.ResourceBundle;
 import java.util.stream.Collectors;
 
-public class CharacterController implements Initializable {
-    private final String dataJson = "processed_data/final.json";
-    private JSONObject characterInfoBox;
-    private List<JSONObject> characterConnectionBox;
-
-    //    Menu Buttons
-    @FXML
-    private Button btnCharacter;
-    @FXML
-    private Button btnDynasty;
-    @FXML
-    private Button btnEvent;
-    @FXML
-    private Button btnFestival;
-    @FXML
-    private Button btnPlace;
-
-
-    //    Scenes
-    private Scene sceneCharacter;
-    private Scene sceneDynasty;
-    private Scene sceneEvent;
-    private Scene sceneFestival;
-    private Scene scenePlace;
-
-
-
-    //    Search Character
-    @FXML
-    private TextField searchCharacter;
-
-    @FXML
-    private ScrollPane infoScrollPane;
-    @FXML
-    private Label labelName;
-    @FXML
-    private AnchorPane infoAnchorPane;
+public class CharacterController extends Controller {
 
     //    TableView for Character in All Character Tab
     @FXML
@@ -95,7 +58,7 @@ public class CharacterController implements Initializable {
             dataCharacter = FXCollections.observableArrayList(characterList);
             tbvCharacters.setItems(dataCharacter);
 
-            searchCharacter.setOnKeyReleased(event -> searchCharacter());
+            search.setOnKeyReleased(event -> searchCharacter());
 
             LinkController.selectedCharacter = execDataCharacter.searchByName(LinkController.selectedCharacterName);
 
@@ -156,19 +119,19 @@ public class CharacterController implements Initializable {
         textFlow.getChildren().add(infoStart);
         infoAnchorPane.getChildren().add(textFlow);
 
-        characterInfoBox = execDataCharacter.getInfoBoxByName(characterList, characterSelection.getName());
-        characterConnectionBox = execDataCharacter.getConnectionBoxByName(characterList, characterSelection.getName());
+        objectInfoBox = execDataCharacter.getInfoBoxByName(characterList, characterSelection.getName());
+        connectionBox = execDataCharacter.getConnectionBoxByName(characterList, characterSelection.getName());
 
         VBox contentContainer = new VBox(10);
         contentContainer.setPadding(new Insets(10));
         contentContainer.getChildren().add(textFlow);
 
-        for (String key : characterInfoBox.keySet()) {
+        for (String key : objectInfoBox.keySet()) {
             HBox infoItem = new HBox();
             infoItem.setPrefHeight(0);
             infoItem.setPrefHeight(0);
             infoItem.setAlignment(Pos.CENTER_LEFT);
-            JSONObject value = characterInfoBox.getJSONObject(key);
+            JSONObject value = objectInfoBox.getJSONObject(key);
 
             Label infoKey = new Label("\u2023 " + key + ": ");
             infoItem.getChildren().add(infoKey);
@@ -203,9 +166,9 @@ public class CharacterController implements Initializable {
         contentContainer.getChildren().add(connectionStart);
 
 //      Add the connections of the Character
-        if (characterConnectionBox != null) {
-            if (!characterConnectionBox.isEmpty()) {
-                for (JSONObject connection : characterConnectionBox) {
+        if (connectionBox != null) {
+            if (!connectionBox.isEmpty()) {
+                for (JSONObject connection : connectionBox) {
                     HBox infoItem = new HBox();
                     infoItem.setPrefHeight(0);
                     infoItem.setAlignment(Pos.CENTER_LEFT);
@@ -303,7 +266,7 @@ public class CharacterController implements Initializable {
     }
 
     private void searchCharacter() {
-        String searchQuery = searchCharacter.getText().trim().toLowerCase();
+        String searchQuery = search.getText().trim().toLowerCase();
         if (searchQuery.isEmpty()) {
             tbvCharacters.setItems(dataCharacter);
         } else {

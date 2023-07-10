@@ -16,7 +16,7 @@ import java.nio.file.Paths;
 import java.io.IOException;
 import java.util.Set;
 
-public class PlaceExecData {
+public class PlaceExecData extends ExecuteData{
     private String dataJson = "processed_data/final.json";
     private List<Place> places;
     private List<String> hyperlinkTexts;
