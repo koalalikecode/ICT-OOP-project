@@ -1,4 +1,4 @@
-package apprunner.ExecuteData;
+package apprunner.executeData;
 
 import historyobject.Character;
 
@@ -19,14 +19,14 @@ import java.util.Set;
 
 public class CharacterExecData {
     private String dataJson = "processed_data/final.json";
-    private List<Character> characters;
+    private List<HistoryObject> characters;
     private List<String> hyperlinkTexts;
 
-    public List<Character> getCharacters() {
+    public List<HistoryObject> getCharacters() {
         return characters;
     }
 
-    public void setCharacters(List<Character> characters) {
+    public void setCharacters(List<HistoryObject> characters) {
         this.characters = characters;
     }
 
@@ -35,7 +35,7 @@ public class CharacterExecData {
     }
 
 
-    public CharacterExecData(List<Character> characters) {
+    public CharacterExecData(List<HistoryObject> characters) {
         this.characters = characters;
     }
 
@@ -47,17 +47,17 @@ public class CharacterExecData {
         return hyperlinkTexts;
     }
 
-    public Character searchByName(String name) {
-        for (Character character : characters) {
+    public HistoryObject searchByName(String name) {
+        for (HistoryObject character : characters) {
             if (character.getName().equalsIgnoreCase(name)) {
                 return character;
             }
         }
         return null;
     }
-    private List<String> getHyperlinkTexts(List<Character> characters) {
+    private List<String> getHyperlinkTexts(List<HistoryObject> characters) {
         List<String> texts = new ArrayList<>();
-        for (Character character : characters) {
+        for (HistoryObject character : characters) {
             JSONObject info = character.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
@@ -70,9 +70,9 @@ public class CharacterExecData {
         }
         return texts;
     }
-    public JSONObject getInfoBoxByName(List<Character> characters, String name) {
+    public JSONObject getInfoBoxByName(List<HistoryObject> characters, String name) {
         JSONObject info = null;
-        for (Character character : characters) {
+        for (HistoryObject character : characters) {
             if (character.getName().equalsIgnoreCase(name)) {
                 info = character.getInfo();
                 return info;
@@ -81,10 +81,10 @@ public class CharacterExecData {
         return info;
     }
 
-    public List<JSONObject> getConnectionBoxByName(List<Character> characters, String name) {
+    public List<JSONObject> getConnectionBoxByName(List<HistoryObject> characters, String name) {
         List<JSONObject> connections = new ArrayList<>();
         StringBuilder result = new StringBuilder();
-        for (Character character : characters) {
+        for (HistoryObject character : characters) {
             if (character.getName().equalsIgnoreCase(name)) {
                 result.append("Connections:\n");
                 connections = character.getConnection();
@@ -96,7 +96,7 @@ public class CharacterExecData {
     public List<String> getHyperTextLinksBy(int index) {
         List<String> hyperTextLinks = new ArrayList<>();
         if (index >= 0 && index < characters.size()) {
-            Character character = characters.get(index);
+            HistoryObject character = characters.get(index);
             JSONObject info = character.getInfo();
             if (info != null) {
                 for (String key : info.keySet()) {
@@ -144,12 +144,12 @@ public class CharacterExecData {
         return result.toString();
     }
     //    Read the final.json to scan character
-    public static List<Character> loadCharacters(String filePath) throws IOException {
+    public static List<HistoryObject> loadCharacters(String filePath) throws IOException {
         String json = new String(Files.readAllBytes(Paths.get(filePath)));
         JSONObject jsonData = new JSONObject(json);
         JSONArray jsonArray = jsonData.getJSONArray("Character");
 
-        List<Character> characters = new ArrayList<>();
+        List<HistoryObject> characters = new ArrayList<>();
 
         for (int i = 0; i < jsonArray.length(); i++) {
             JSONObject jsonCharacter = jsonArray.getJSONObject(i);
@@ -179,20 +179,6 @@ public class CharacterExecData {
 
             Character character = new Character(name, description, url, info, connections, imageUrl);
             characters.add(character);
-//            if (!jsonCharacter.has("imageURL")) {
-//                characters.add(new Character(name, description, url, info, connections, imageURL));
-//            } else if (!jsonCharacter.has("imageURL") && !jsonCharacter.has("description") && !jsonCharacter.has("url") && !jsonCharacter.has("connections")) {
-//                characters.add(new Character(name, description, url, info, connections, imageURL));
-//            } else {
-//                description = jsonCharacter.getString("description");
-//                url = jsonCharacter.getString("url");
-//                imageURL = jsonCharacter.getString("imageURL");
-//                for (int j = 0; j < jsonConnections.length(); j++) {
-//                    JSONObject jsonConnection = jsonConnections.getJSONObject(j);
-//                    connections.add(jsonConnection);
-//                }
-//                characters.add(new Character(name, description, url, info, connections, imageURL));
-//            }
         }
         return characters;
     }

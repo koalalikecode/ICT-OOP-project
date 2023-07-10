@@ -6,9 +6,10 @@
 
 package appgui;
 
-import apprunner.ExecuteData.CharacterExecData;
+import apprunner.executeData.CharacterExecData;
 import historyobject.Character;
 
+import historyobject.HistoryObject;
 import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -16,13 +17,11 @@ import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.*;
-import javafx.scene.layout.AnchorPane;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -42,11 +41,11 @@ public class CharacterController extends Controller {
 
     //    TableView for Character in All Character Tab
     @FXML
-    private TableView<Character> tbvCharacters;
+    private TableView<HistoryObject> tbvCharacters;
     @FXML
-    private TableColumn<Character, String> tbcName;
-    private ObservableList<Character> dataCharacter = FXCollections.observableArrayList();
-    private List<Character> characterList;
+    private TableColumn<HistoryObject, String> tbcName;
+    private ObservableList<HistoryObject> dataCharacter = FXCollections.observableArrayList();
+    private List<HistoryObject> characterList;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -54,11 +53,11 @@ public class CharacterController extends Controller {
 
             characterList = CharacterExecData.loadCharacters(dataJson);
             CharacterExecData execDataCharacter = new CharacterExecData(characterList);
-            tbcName.setCellValueFactory(new PropertyValueFactory<Character, String>("name"));
+            tbcName.setCellValueFactory(new PropertyValueFactory<HistoryObject, String>("name"));
             dataCharacter = FXCollections.observableArrayList(characterList);
             tbvCharacters.setItems(dataCharacter);
 
-            search.setOnKeyReleased(event -> searchCharacter());
+            search.setOnKeyReleased(event -> search());
 
             LinkController.selectedCharacter = execDataCharacter.searchByName(LinkController.selectedCharacterName);
 
@@ -81,12 +80,12 @@ public class CharacterController extends Controller {
         }
     }
 
-    private void updateSelectionInfo(Character characterSelection, CharacterExecData execDataCharacter) {
+    private void updateSelectionInfo(HistoryObject characterSelection, CharacterExecData execDataCharacter) {
         if (characterSelection != null) {
             displaySelectionInfo(characterSelection, execDataCharacter);
         }
     }
-    private void displaySelectionInfo(Character characterSelection, CharacterExecData execDataCharacter) {
+    private void displaySelectionInfo(HistoryObject characterSelection, CharacterExecData execDataCharacter) {
         labelName.setText("" + characterSelection.getName());
 
         infoAnchorPane.getChildren().clear();
@@ -264,12 +263,12 @@ public class CharacterController extends Controller {
         }
     }
 
-    private void searchCharacter() {
+    private void search() {
         String searchQuery = search.getText().trim().toLowerCase();
         if (searchQuery.isEmpty()) {
             tbvCharacters.setItems(dataCharacter);
         } else {
-            List<Character> searchResults = characterList.stream()
+            List<HistoryObject> searchResults = characterList.stream()
                     .filter(character -> character.getName().toLowerCase().contains(searchQuery))
                     .collect(Collectors.toList());
             tbvCharacters.setItems(FXCollections.observableArrayList(searchResults));

@@ -1,6 +1,5 @@
 package appgui;
 
-import com.google.errorprone.annotations.IncompatibleModifiers;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -9,13 +8,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.media.Media;
-import javafx.scene.media.MediaException;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 
-import java.awt.event.ActionEvent;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -46,7 +43,9 @@ public class StartController implements Initializable {
     @FXML
     private void StartView(javafx.event.ActionEvent event) throws IOException {
         mediaPlayer.stop();
+        System.out.println("Hello");
         Stage stage = (Stage) startButton.getScene().getWindow();
+
         Parent root = FXMLLoader.load(getClass().getResource("fxml/characterPane.fxml"));
         Scene sc = new Scene(root);
 //        stage.initStyle(StageStyle.UNDECORATED);

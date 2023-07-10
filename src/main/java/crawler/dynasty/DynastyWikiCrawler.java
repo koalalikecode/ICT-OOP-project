@@ -1,5 +1,6 @@
-package crawler;
+package crawler.dynasty;
 
+import crawler.Crawler;
 import historyobject.Dynasty;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -9,7 +10,6 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.util.*;
 import java.util.concurrent.ExecutorService;

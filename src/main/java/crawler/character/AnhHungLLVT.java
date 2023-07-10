@@ -1,4 +1,5 @@
-package crawler;
+package crawler.character;
+import crawler.Crawler;
 import historyobject.Character;
 import org.json.JSONArray;
 import org.json.JSONObject;

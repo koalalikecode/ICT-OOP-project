@@ -1,27 +1,23 @@
-package crawler;
-import java.util.Date;
+package crawler.event;
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+import crawler.Crawler;
 import historyobject.Event;
 import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONML;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import org.json.JSONObject;
 //import java.lang.IndexOutOfBoundsException;
 //import org.jsoup.nodes.Element;
-import java.lang.IndexOutOfBoundsException;
 import java.util.ArrayList;
 
-public class EventsNKSCrawler extends Crawler{
+public class EventsNKSCrawler extends Crawler {
     public EventsNKSCrawler()
     {
         setWebLink("https://nguoikesu.com");

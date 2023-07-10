@@ -1,7 +1,7 @@
-package crawler;
+package crawler.place;
 
+import crawler.Crawler;
 import historyobject.Place;
-import crawler.PlaceWikiInfoCrawler;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

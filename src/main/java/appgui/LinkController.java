@@ -1,13 +1,10 @@
 package appgui;
 
+import historyobject.*;
 import historyobject.Character;
-import historyobject.Event;
-import historyobject.Dynasty;
-import historyobject.Festival;
-import historyobject.Place;
 
 public class LinkController {
-    protected static Character selectedCharacter;
+    protected static HistoryObject selectedCharacter;
     protected static String selectedCharacterName;
     protected static Event selectedEvent;
     protected static String selectedEventName;

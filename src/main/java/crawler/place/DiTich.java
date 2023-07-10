@@ -1,12 +1,11 @@
-package crawler;
+package crawler.place;
 
-import historyobject.Character;
+import crawler.Crawler;
 import historyobject.Place;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;

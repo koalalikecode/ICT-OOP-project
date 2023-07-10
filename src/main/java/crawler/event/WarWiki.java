@@ -1,5 +1,6 @@
-package crawler;
+package crawler.event;
 
+import crawler.Crawler;
 import historyobject.Event;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -15,7 +16,7 @@ import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-public class WarWiki extends Crawler{
+public class WarWiki extends Crawler {
     public WarWiki(){
         setWebLink("https://vi.wikipedia.org");
         setFolder("data/warWiki.json");

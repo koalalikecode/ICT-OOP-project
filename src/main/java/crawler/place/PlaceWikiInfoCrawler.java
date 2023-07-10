@@ -1,4 +1,4 @@
-package crawler;
+package crawler.place;
 
 import historyobject.Place;
 

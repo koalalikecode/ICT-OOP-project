@@ -6,7 +6,7 @@
 
 package appgui;
 
-import apprunner.ExecuteData.DynastyExecData;
+import apprunner.executeData.DynastyExecData;
 import historyobject.Dynasty;
 
 import javafx.collections.FXCollections;
@@ -16,20 +16,17 @@ import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 import javafx.scene.text.TextFlow;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Font;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.collections.ObservableList;
-import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
 import javafx.stage.Stage;
 import org.json.JSONObject;
