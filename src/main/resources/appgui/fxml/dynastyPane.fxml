@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="524.0" prefWidth="876.0" style="-fx-background-color: #F5EDE4; -fx-border-color: #664229; -fx-border-width: 1;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.Controller.DynastyController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="524.0" prefWidth="876.0" style="-fx-background-color: #F5EDE4; -fx-border-color: #664229; -fx-border-width: 1;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="appgui.DynastyController">
    <left>
       <AnchorPane prefHeight="471.0" prefWidth="175.0" style="-fx-border-style: solid solid solid solid; -fx-border-insets: -2; -fx-border-color: #664229;" BorderPane.alignment="CENTER">
          <children>

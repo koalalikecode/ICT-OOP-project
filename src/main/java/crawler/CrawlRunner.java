@@ -1,14 +1,14 @@
 package crawler;
 
-import crawler.Character.CharacterNKSCrawler;
-import crawler.Character.KingWikiCrawler;
-import crawler.Dynasty.DynastyWikiCrawler;
-import crawler.Event.EventWikiCrawler;
-import crawler.Event.EventsNKSCrawler;
-import crawler.Event.WarWiki;
-import crawler.Festival.FestivalCrawler;
-import crawler.Place.PlaceNKSCrawler;
-import crawler.Place.PlaceWikiCrawler;
+import crawler.character.CharacterNKSCrawler;
+import crawler.character.KingWikiCrawler;
+import crawler.dynasty.DynastyWikiCrawler;
+import crawler.event.EventWikiCrawler;
+import crawler.event.EventsNKSCrawler;
+import crawler.event.WarWiki;
+import crawler.festival.FestivalCrawler;
+import crawler.place.PlaceNKSCrawler;
+import crawler.place.PlaceWikiCrawler;
 
 public class CrawlRunner {
     public static void main(String[] args) throws Exception{
