@@ -12,7 +12,6 @@ public class Festival extends HistoryObject{
         info = new JSONObject();
     }
 
-
     public String getConnect() {
         return connect;
     }

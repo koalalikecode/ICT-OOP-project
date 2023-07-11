@@ -34,14 +34,15 @@ public class StartController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         File file = new File("src/main/resources/appgui/Video/Intro.mp4");
-        startButton.setVisible(false);
-        PauseTransition pause = new PauseTransition(Duration.seconds(5));
-        pause.setOnFinished(event -> startButton.setVisible(true));
-        pause.play();
         Media media = new Media(file.toURI().toString());
         mediaPlayer = new MediaPlayer(media);
         mediaView.setMediaPlayer(mediaPlayer);
         mediaPlayer.play();
+
+        startButton.setVisible(false);
+        PauseTransition pause = new PauseTransition(Duration.seconds(23));
+        pause.setOnFinished(event -> startButton.setVisible(true));
+        pause.play();
     }
     @FXML
     private void StartView(javafx.event.ActionEvent event) throws IOException {
