@@ -5,5 +5,4 @@ public class JsonUnionRunner {
         JsonFileUnion runner = new JsonFileUnion("processed_data/final.json");
         runner.jsonUnion();
     }
-
 }
